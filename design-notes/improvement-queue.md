@@ -20,11 +20,11 @@ Use this order when deciding what to work on:
 
 | Priority | Area | Why It Matters | Main Issue | Target Outcome |
 |----------|------|----------------|------------|----------------|
-| 1 | Article IV — Judiciary | Court structure affects the whole system | Too much institutional complexity | A simpler, more durable court design |
-| 2 | Article XIII — Social, Economic, and Affirmative Rights | Hardest area to enforce cleanly | Remedies risk over-judicialization | Clearer limits on courts and stronger constitutional floors |
-| 3 | Cross-References and Draft Integration | Drift weakens the whole draft | Article splits can leave stale text behind | A stable, auditable draft structure |
-| 4 | Article V — Civil and Political Rights | Core rights article must be clean and durable | Some clauses are too code-like | Shorter, more principle-driven rights language |
-| 5 | Article X — Federal Agencies | Important but prone to over-detail | Can read like administrative statute | Cleaner separation between constitutional rule and statutory detail |
+| 1 | Article XII — Campaign Finance | Strong substance still reads too much like compliance code | Too many implementation mechanics remain in constitutional text | A shorter principles-first campaign-finance article |
+| 2 | Article IX — Constitutional Organs | Commission design affects enforcement across the draft | Institutional detail is still dense and cross-reference-heavy | A clearer, more self-contained organs article |
+| 3 | Preamble | Founding prose sets the tone of the whole project | The current language is clear but not yet memorable | A more durable and quotable preamble |
+| 4 | Stress Tests and Draft Integration | The draft is now strong enough that edge cases matter more than redesign | New revisions need pressure-testing across articles | A scenario-tested, internally stable final draft |
+| 5 | Article II — Legislature | Strong structure still carries procedural density in places | Some mechanics may belong in statute rather than constitutional text | A cleaner legislative article without losing safeguards |
 
 ---
 
@@ -55,8 +55,8 @@ Use this order when deciding what to work on:
 
 | Task | Priority | Reason | Done When |
 |------|----------|--------|-----------|
-| Consolidate overlapping accountability provisions | High | Executive article has multiple removal, recall, and prosecution pathways | Distinct mechanisms are easier to distinguish and apply |
-| Simplify emergency-power drafting | High | Emergency sections are critical and must be clean | Trigger, duration, review, and remedies are easy to follow |
+| Stress-test revised accountability provisions | Medium | The article is cleaner, but multiple crisis pathways still need pressure-testing | Edge-case scenarios produce one clear institutional answer |
+| Stress-test revised emergency-power drafting | Medium | Simpler rules must still hold under crisis facts | Trigger, duration, review, and remedies stay clear under hard cases |
 | Review recall design for practicality | Medium | National recall is structurally unusual | Thresholds and timing feel constitutional, not aspirational only |
 
 ### Article IV — Judiciary
@@ -161,9 +161,9 @@ Use this order when deciding what to work on:
 
 Recommended next drafting sprint:
 
-1. Simplify Article IV
-2. Rework Article XIII remedies
-3. Run a full cross-reference audit
+1. Compress Article XII
+2. Simplify Article IX
+3. Stress-test Articles III and XI against hard crisis scenarios
 
 ---
 
@@ -171,6 +171,7 @@ Recommended next drafting sprint:
 
 | Date | Fix | Result |
 |------|-----|--------|
+| 2026-03-28 | Article III simplification | The executive article now has cleaner emergency, incapacity, recall, succession, and accountability rules with less procedural clutter |
 | 2026-03-28 | Article XI compression and Article XV simplification | War powers remain strong with less operational clutter, and the ethics article now reads more like constitutional architecture than compliance code |
 | 2026-03-28 | Article VII simplification and Article XI/XIV boundary cleanup | Federalism enforcement is more legible and the war-powers article is more clearly separated from non-war national-security authorities |
 | 2026-03-28 | Cross-reference audit and simplification passes on Articles V and X | Operative text is cleaner, more principle-driven, and less dependent on statutory-style mechanics |

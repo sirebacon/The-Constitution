@@ -2,7 +2,7 @@
 ### Revised Draft — Working Document
 
 > **Status:** In Progress
-> **Last Updated:** 2026-03-27
+> **Last Updated:** 2026-03-28
 > **Version:** 0.1 (Scaffold)
 
 ---
@@ -34,7 +34,7 @@ This is the master index for the revised Constitution. Each major component live
 |---|-------|------|--------|-------|
 | I | The Electoral System | [articles/I-electoral-system.md](articles/I-electoral-system.md) | `[ DRAFT ]` | STV, multi-member districts, voter rights, citizens' initiative, redistricting |
 | II | The Legislature | [articles/II-legislature.md](articles/II-legislature.md) | `[ DRAFT ]` | House (500 seats, STV), Regional Assembly (8 regions), asymmetric powers, deadlock resolution, no-shutdown budget |
-| III | The Executive | [articles/III-executive.md](articles/III-executive.md) | `[ DRAFT ]` | President, cabinet, emergency powers (180-day cap), pardons restricted, succession line, transition rules, public recall referendum, presidential accountability and immunity (no official-act immunity, six absolute no-immunity categories, Accountability Commission exclusive jurisdiction); war powers moved to Article XI |
+| III | The Executive | [articles/III-executive.md](articles/III-executive.md) | `[ DRAFT ]` | President, cabinet, cleaner emergency powers, pardons restricted, succession and incapacity rules, transition rules, public recall referendum, and presidential accountability without categorical official-act immunity; war powers moved to Article XI |
 | IV | The Judiciary | [articles/IV-judiciary.md](articles/IV-judiciary.md) | `[ DRAFT ]` | 15 justices, 15-year terms, annual seat-expiration schedule, narrower Nominations Commission, elected Chief Justice, lower court term limits, judicial ethics, removal, constitutional review |
 | V | Civil and Political Rights | [articles/V-rights.md](articles/V-rights.md) | `[ DRAFT ]` | Free expression, religion, privacy, search and seizure, due process, equal rights, arms, rights of the accused, digital rights, rights in emergency, conflicting rights; trimmed to more principle-level rules |
 | VI | Democratic Integrity | [articles/VI-integrity.md](articles/VI-integrity.md) | `[ DRAFT ]` | Anti-subversion (precise definition), foreign interference in elections, media pluralism and algorithmic transparency; ethics/lobbying moved to Article XV, campaign finance to Article XII |
@@ -90,6 +90,7 @@ These principles guide every drafting decision. When in doubt, refer back here.
 
 | Date | Change |
 |------|--------|
+| 2026-03-28 | Revision sprint: Article III simplified. Emergency powers, executive orders, pardons, incapacity, succession limits, transition rules, recall, and presidential accountability now use cleaner constitutional triggers with less procedural clutter. The core anti-abuse structure remains, but the article reads more like constitutional doctrine than operational code. |
 | 2026-03-28 | Revision sprint: Article XI compressed and Article XV simplified. Article XI now keeps the same anti-abuse architecture with cleaner language around reporting, withdrawal, AUMFs, nuclear first use, covert operations, and domestic deployment. Article XV now preserves the same anti-corruption structure while moving many investment, market-regulation, and revolving-door mechanics to a more constitutional level of abstraction. |
 | 2026-03-28 | Revision sprint: Article VII democratic-floor enforcement simplified and Article XI / XIV boundary sharpened. Article VII now uses a cleaner sequence of Supreme Court finding, congressional remedy, and representation suspension without brittle metrics or automatic special-master machinery; a stale education cross-reference now correctly points to Article XIII. Article XI now reads more clearly as the armed-force article, while Article XIV now expressly excludes sustained hostilities and other uses of military force from gray-zone authority. |
 | 2026-03-28 | Revision sprint: cross-reference audit plus simplification of Article V and Article X. Article V now states narrower and more durable rights rules in several areas, including speech exceptions, medical autonomy, digital search, bail, anti-discrimination coverage, biometric surveillance, and internet access. Article X now keeps the constitutional architecture while stripping out enforcement metrics, automatic restoration mechanics, and other statutory-level detail from agency removal, defunding, inspector-general protection, revolving-door, sunset, and political-appointment provisions. |

@@ -94,10 +94,10 @@ The Electoral Commission shall publish all disclosures publicly within 5 days of
 **5.1 Declaration.** The President may declare a national emergency in response to an imminent threat to public safety, national security, or critical national infrastructure that requires executive action faster than the ordinary legislative process permits.
 
 **5.2 Immediate powers.** Upon a valid declaration of emergency, the President may:
-  (a) Direct federal agencies to redirect existing appropriated funds within their mandates to address the emergency. For this purpose, "existing appropriated funds" means funds available under the most recently enacted appropriations legislation or, where a continuing resolution is operative under Article II Section 12.3, the funds available under that continuing resolution. Emergency redirections may not exceed the total amounts available under whichever funding instrument is currently in effect, and may not be used to circumvent the limitations of a continuing resolution by treating it as the equivalent of a full appropriation.
+  (a) Direct federal agencies to use existing appropriated funds within their lawful mandates to address the emergency
   (b) Mobilize the National Guard and federal emergency services
-  (c) Suspend specific regulatory requirements that impede emergency response, for the duration of the emergency only
-  (d) Exercise such additional powers as Congress has by law specifically authorized for declared emergencies
+  (c) Suspend specific regulatory requirements that materially impede emergency response, for the duration of the emergency only
+  (d) Exercise any additional emergency powers specifically authorized by law
 
 **5.3 Limits.** No emergency declaration may:
   (a) Suspend or restrict the right to vote, delay or cancel elections, or alter the electoral process
@@ -107,11 +107,11 @@ The Electoral Commission shall publish all disclosures publicly within 5 days of
   (e) Appropriate funds not previously authorized by Congress
   (f) Override any provision of Article V (Rights and Freedoms) except as permitted by Article V itself
 
-**5.4 Congressional approval.** An emergency declaration must be submitted to the Regional Assembly within 48 hours. The Regional Assembly must vote to approve or reject the declaration within 30 days. If the Regional Assembly does not act within 30 days, the declaration lapses. The House of Representatives may by majority vote request an expedited Regional Assembly vote at any time. If the Regional Assembly is in recess when an emergency is declared, the declaration automatically lapses after 30 days unless the Regional Assembly convenes within that period. The Speaker of the House may convene the Regional Assembly in emergency session for this purpose. If neither chamber acts within the 30-day period, the lapse is automatic and self-executing and requires no further action by any officer or court.
+**5.4 Congressional approval.** An emergency declaration must be submitted to the Regional Assembly within 48 hours. The Regional Assembly must approve or reject the declaration within 30 days. If approval is not granted within that period, the declaration lapses. Congress shall ensure that the Regional Assembly can assemble promptly for this purpose when in recess.
 
 **5.5 Renewal.** The Regional Assembly may renew an approved emergency declaration for successive 30-day periods. No emergency may remain in effect for more than 180 days in total without a 2/3 vote of both chambers of Congress authorizing continuation.
 
-**5.6 Termination.** An emergency declaration terminates automatically upon expiration of its authorized period, upon a majority vote of either chamber of Congress, or upon the President's written declaration that the emergency has ended. All emergency measures lapse immediately upon termination.
+**5.6 Termination.** An emergency declaration terminates upon expiration of its authorized period, upon a majority vote of either chamber of Congress, or upon the President's written declaration that the emergency has ended. All emergency measures lapse upon termination unless independently authorized by ordinary law.
 
 **5.7 Suspension of habeas corpus.** The privilege of the writ of habeas corpus may be suspended only by Congress, not by the President alone, only in cases of rebellion or invasion where public safety requires it, and only for defined geographic areas and time periods not to exceed 60 days without renewal.
 
@@ -127,7 +127,7 @@ The Electoral Commission shall publish all disclosures publicly within 5 days of
   (c) Contradict, override, or effectively repeal any act of Congress
   (d) Purport to interpret this Constitution in a manner binding on the other branches
 
-**6.3 Publication.** All executive orders must be published in a public federal register within 48 hours of signing and may not take effect until 15 days after publication, except in a declared emergency. An emergency declaration issued solely to accelerate the effective date of an executive order is ultra vires and void. Any executive order issued within 24 hours of an emergency declaration is presumptively invalid and is automatically subject to a 15-day judicial review period; courts shall issue a ruling on validity within 10 days of receiving a challenge.
+**6.3 Publication.** All executive orders must be published in a public federal register within 48 hours of signing and may not take effect until 15 days after publication, except in a declared emergency. An emergency declaration issued solely to accelerate the effective date of an executive order is void.
 
 **6.4 Congressional override.** Either chamber of Congress may pass a resolution of disapproval of any executive order within 60 days of its publication. An executive order disapproved by a majority of both chambers is void. The President may not reissue a disapproved order in substantially the same form without statutory authorization.
 
@@ -145,7 +145,7 @@ The Electoral Commission shall publish all disclosures publicly within 5 days of
   (c) Any person convicted under the anti-subversion provisions of Article VI
   (d) Any person for crimes committed against the electoral process under Article I
 
-**7.3 Publication and justification.** Every pardon must be published within 48 hours of being granted, accompanied by a written statement of the reasons for the pardon. The written statement must include: (a) a description of the underlying conduct for which the pardon is granted, (b) the public interest served by the pardon, and (c) an explanation of why mercy is warranted in the specific case. A statement that omits any of these three elements is legally insufficient; a pardon issued with a deficient statement is void and does not take effect. Pardons issued without publication and justification are void.
+**7.3 Publication and justification.** Every pardon must be published within 48 hours of being granted, accompanied by a written statement of the reasons for the pardon, including the underlying conduct and the public interest served. Pardons issued without publication and justification are void.
 
 **7.4 Timing restriction.** No pardon may be issued in the 60 days preceding any federal general election, regardless of whether the incumbent President is a candidate in that election. No pardon may be issued after articles of impeachment against the President have been voted out of committee in the House of Representatives, and this prohibition continues until the conclusion of the Regional Assembly's trial or the dismissal of the articles, whichever occurs first.
 
@@ -179,7 +179,7 @@ The Electoral Commission shall publish all disclosures publicly within 5 days of
 
 **10.2 Process.** Impeachment proceedings originate in the House of Representatives. The House Judiciary Committee shall conduct an investigation and hold public hearings before articles of impeachment are put to a floor vote. A majority of the full House membership must approve articles of impeachment.
 
-**10.3 Trial.** Upon the House approving articles of impeachment, the Regional Assembly shall conduct a trial. The Chief Justice of the Supreme Court shall preside when the President is tried. The accused shall have the right to present a defense, call witnesses, and be represented by counsel. A 2/3 vote of the full Regional Assembly is required to convict. The Chief Justice's rulings on evidence and procedure during the trial are binding on the Regional Assembly; appeal from such rulings lies to a three-judge panel of the United States Court of Appeals for the District of Columbia Circuit, which shall rule within 5 days of submission. Refusal by the Regional Assembly to comply with a final ruling of the Chief Justice or the appellate panel is itself an impeachable act for each member who participates in such refusal.
+**10.3 Trial.** Upon the House approving articles of impeachment, the Regional Assembly shall conduct a trial. The Chief Justice of the Supreme Court shall preside when the President is tried. The accused shall have the right to present a defense, call witnesses, and be represented by counsel. A 2/3 vote of the full Regional Assembly is required to convict. The Chief Justice's procedural rulings are binding, subject to judicial review as provided by law.
 
 **10.4 Consequences.** Conviction results in removal from office. A subsequent majority vote of the Regional Assembly may disqualify the convicted officer from holding future federal office. Criminal prosecution for the underlying conduct may proceed separately and is not barred by acquittal in impeachment proceedings.
 
@@ -193,11 +193,9 @@ The Electoral Commission shall publish all disclosures publicly within 5 days of
 
 **11.2 Involuntary determination.** If the President is unable or unwilling to declare their own incapacity, the Vice President, together with a majority of the Cabinet, may transmit a written declaration to the Speaker and President Pro Tempore that the President is unable to discharge their duties. The Vice President shall immediately become Acting President.
 
-**11.3 Presidential contest.** The President may contest a determination under Section 11.2 by transmitting a written declaration to the Speaker and President Pro Tempore within 4 days. Upon receipt of a contest, the Acting President's authority is suspended and the President resumes duties pending congressional resolution, unless the Vice President and Cabinet majority reaffirm their declaration within 2 days. Upon a Cabinet incapacity vote under Section 11.2, the President's powers are automatically suspended pending resolution of any contest; the President may not exercise the removal authority over any Cabinet member during the contest period, and any purported removal of a Cabinet member during that period is void.
+**11.3 Presidential contest.** The President may contest a determination under Section 11.2 by transmitting a written declaration to the Speaker and President Pro Tempore within 4 days. If the Vice President and Cabinet majority reaffirm the declaration within 2 days, Congress shall resolve the question within 21 days by a 2/3 vote of both chambers. If Congress does not sustain the incapacity determination within that period, the President resumes the powers of office. During a contest, the President may not remove Cabinet members whose votes are necessary to the determination.
 
-**11.4 Congressional resolution.** If the Vice President and Cabinet reaffirm, Congress shall assemble within 21 days and determine the question by a 2/3 vote of both chambers. If Congress determines the President is incapacitated, the Vice President continues as Acting President for the remainder of the term. If Congress does not reach a 2/3 determination within 21 days, the President resumes their duties.
-
-**11.5 Medical panel.** In any contested incapacity proceeding, either the President or Congress may convene an independent medical panel of five physicians appointed by the Chief Justice of the Supreme Court to assess the President's capacity. The panel's findings shall be submitted to Congress within 14 days and shall be made part of the public record.
+**11.4 Medical panel.** In any contested incapacity proceeding, either the President or Congress may convene an independent medical panel appointed under procedures established by law to assess the President's capacity and report its findings to Congress.
 
 ---
 
@@ -216,7 +214,7 @@ The Electoral Commission shall publish all disclosures publicly within 5 days of
 
 **12.3** Any person in the succession line must meet the constitutional qualifications for the presidency to assume the office. A person who does not meet those qualifications is skipped in the line.
 
-**12.4** A successor under Section 12.2 who was not elected to the presidency may not exercise the pardon power, may not withdraw from ratified treaties, and may not declare a national emergency, without the affirmative approval of a majority of both chambers of Congress. This limitation does not apply if the successor was the elected Vice President. In addition, an unelected acting president may not: (a) remove Senate-confirmed officials without cause as defined in Section 4.5; (b) remove Inspectors General of any federal agency or entity; (c) issue executive orders other than those required to administer ongoing emergencies already declared before the acting president assumed office; or (d) make recess appointments to any position. Actions taken in violation of these restrictions are void.
+**12.4** A successor under Section 12.2 who was not elected to the presidency may not exercise the pardon power, withdraw from ratified treaties, declare a national emergency, remove Senate-confirmed officials without lawful cause, or make recess appointments without the approval of a majority of both chambers of Congress. This limitation does not apply if the successor was the elected Vice President. Actions taken in violation of this Section are void.
 
 ---
 
@@ -228,8 +226,8 @@ The Electoral Commission shall publish all disclosures publicly within 5 days of
 
 **13.3** The outgoing President may not during the transition period:
   (a) Enter into treaties or executive agreements with foreign governments beyond routine matters
-  (b) Issue pardons in bulk — defined as more than ten pardons within any 30-day period
-  (c) Make significant senior appointments without the incoming President's written concurrence, except to fill positions critical to ongoing national security operations. For purposes of this subsection, "significant senior appointments" means any Senate-confirmed position or any position in the Senior Executive Service. "Critical to ongoing national security operations" requires the written concurrence of both the outgoing and the incoming National Security Advisors; if the incoming National Security Advisor has not yet been designated, the requirement may be satisfied by written concurrence of the outgoing National Security Advisor and the Director of National Intelligence.
+  (b) Issue extraordinary waves of pardons designed to evade political accountability
+  (c) Make significant senior appointments without the incoming President's written concurrence, except where immediate action is necessary for ongoing national security operations
 
 **13.4** The President-elect shall take office on the twentieth day of January. If that day falls on a Sunday, the oath shall be administered on the following Monday.
 
@@ -243,13 +241,13 @@ The Electoral Commission shall publish all disclosures publicly within 5 days of
 
 **14.2 Eligibility window.** A recall petition may only be initiated during the second or third year of a presidential term. No recall petition may be initiated during the first year of a term or during the final year before a scheduled presidential election. This window ensures the President has had time to govern before facing recall, and prevents recall from being used as a substitute for the ordinary electoral process.
 
-**14.3 Petition requirements.** A recall process is initiated by a public petition meeting all of the following requirements:
+**14.3 Petition requirements.** A recall process is initiated by a public petition:
   (a) Signed by at least 20% of registered voters
   (b) With signatures drawn from at least 35 states, with no fewer than 1% of registered voters in each of those states signing
   (c) Collected within a 90-day window
-  (d) Verified by the Electoral Commission (Article IX) within 45 days of submission
+  (d) Verified by the Electoral Commission within 45 days of submission
 
-A petition that does not meet all requirements within the specified periods is void and may not be resubmitted in the same term.
+A petition that does not meet these requirements is void and may not be resubmitted in the same term.
 
 **14.4 One attempt per term.** Only one recall petition may be pursued per presidential term. If a recall referendum is held and the President is retained, no further recall petition may be filed for the remainder of that term, regardless of subsequent events. Conduct arising after a failed recall that constitutes criminal or impeachable offense remains subject to impeachment proceedings under Section 10.
 
@@ -265,17 +263,13 @@ Voters shall answer Yes or No. No alternative candidate shall appear on the reca
   (a) At least 60% of all registered voters participate in the referendum, and
   (b) At least 60% of votes cast are in favor of removal
 
-The participation threshold for removing the President is higher than for removing a member of Congress (Article I Section 13.4), reflecting that the President is the sole nationally elected executive and removal requires a broader demonstrated national consensus.
-
-A simple majority is not sufficient. The 60% supermajority threshold ensures that a President cannot be recalled by their political opponents alone — only by a broad, cross-partisan national consensus.
-
-Coordinated suppression of voter turnout for the purpose of defeating the participation floor constitutes a violation of Article VI. The Electoral Commission shall monitor for indicators of coordinated turnout suppression during the recall voting period and shall have authority to extend the recall voting period by up to 7 days if it determines, by written finding, that material suppression has occurred or is occurring. Any such extension must be publicly announced and explained.
+The participation threshold for removing the President is higher than for removing a member of Congress, reflecting that the President is the sole nationally elected executive and removal requires broader national consensus. Coordinated suppression of turnout for the purpose of defeating the recall process violates Article VI.
 
 **14.8 Succession upon recall.** If the President is removed by recall referendum, the Vice President shall immediately become President for the remainder of the term. No special election shall be held. The Vice President was elected on the same ticket and carries a democratic mandate to serve.
 
 **14.9 Scope and limits.** A recall under this Section is not a finding of criminal wrongdoing and does not bar subsequent criminal prosecution or impeachment proceedings against the former President. A President removed by recall retains no immunity from prosecution for conduct during their term.
 
-**14.10 The President's platform.** Prior to the recall referendum, the President shall be afforded no less than two nationally televised addresses, administered by the Electoral Commission, to make their case to the public. Equal airtime shall be provided to representatives of the recall campaign. The Electoral Commission shall ensure that factual misrepresentations made during these addresses are publicly corrected before the referendum date.
+**14.10 The President's platform.** Prior to the recall referendum, the President shall be afforded a fair opportunity, administered by the Electoral Commission, to make their case to the public. Comparable opportunity shall be provided to representatives of the recall campaign.
 
 **14.11 Prohibited interference.** The President under active recall proceedings may not:
   (a) Declare a national emergency for the purpose of delaying the recall referendum
@@ -296,19 +290,13 @@ The official nature of an act — the fact that it was performed through the exe
 
 This Section supersedes any judicial doctrine holding that the exercise of official presidential powers is categorically immune from criminal prosecution. No such categorical immunity exists under this Constitution.
 
-### 15.2 — What "Official Act" Does and Does Not Mean
+### 15.2 — Official Capacity Is Not Immunity
 
-The fact that conduct was carried out in an official capacity is relevant to context but not to immunity. Specifically:
-
-  **(a) Not a defense.** "I acted in my official capacity" is not a defense to criminal charges. A President who uses the pardon power, the appointment power, the command authority, or any other constitutional power as an instrument of criminal conduct — bribery, extortion, obstruction of justice, electoral subversion — is criminally liable for that conduct.
-
-  **(b) Not an aggravation.** The official capacity of the conduct shall not automatically be treated as an aggravating factor in sentencing. Courts shall assess the totality of the conduct.
-
-  **(c) Scope of official acts in prosecution.** Evidence of how official powers were exercised is admissible in a criminal prosecution. A court may examine the President's exercise of official powers to determine whether they were used for criminal purposes. There is no evidentiary privilege that bars a court from reviewing official conduct in a criminal proceeding.
+The fact that conduct was carried out in an official capacity is relevant to context but not to immunity. Official power used to commit a crime remains criminal. Evidence of how official powers were exercised is admissible in a criminal proceeding.
 
 ### 15.3 — Absolute Prohibitions: No Immunity in Any Circumstance
 
-For the following categories of conduct, no immunity claim, official-acts defense, or procedural protection of this Section applies. These acts are criminal regardless of the official capacity in which they were performed, and prosecution may proceed without the heightened procedural requirements of Section 15.4:
+For the following categories of conduct, no immunity claim, official-acts defense, or procedural protection of this Section applies:
 
   (a) Electoral subversion as defined in Article VI Section 1 — any attempt to prevent, obstruct, or reverse the lawful conduct of a federal election or constitutional transfer of power
   (b) Bribery — accepting anything of value in connection with any official decision or action
@@ -319,47 +307,27 @@ For the following categories of conduct, no immunity claim, official-acts defens
 
 ### 15.4 — Heightened Procedural Protection for Other Official-Capacity Conduct
 
-For conduct not falling within Section 15.3 — that is, for alleged crimes arising from the good-faith exercise of official powers where the criminal nature of the conduct is genuinely disputed — the following heightened procedural requirements apply before charges may be brought against a sitting or former President:
-
-  **(a) Clear and convincing evidence standard.** The Accountability Commission must find clear and convincing evidence of criminal conduct before issuing charges related to official-capacity acts. The ordinary probable cause standard is not sufficient. This heightened standard protects against politically motivated prosecution of contested policy decisions.
-
-  **(b) Three-judge certification panel.** Before charges may be filed, the Accountability Commission must present its evidence to a certification panel of three senior circuit judges, selected at random by the Chief Justice from judges who have served not less than ten years. The panel shall determine within 60 days whether the evidence meets the clear and convincing standard and whether the charged conduct falls outside the scope of good-faith exercise of official authority. The panel's certification is a prerequisite to filing charges, not a finding of guilt. If the Accountability Commission fails to act on a certification request within 90 days of receiving a completed submission, the matter is automatically referred to a three-judge panel of the United States Court of Appeals for the District of Columbia Circuit for independent determination under the same standard; that panel shall act within 60 days of referral.
-
-  **(c) Scope of protection.** This heightened standard applies only to charges based on conduct that was genuinely within the scope of official authority and where a reasonable person could conclude the conduct represented a good-faith exercise of that authority. It does not apply to conduct that was plainly criminal on its face or to the categories listed in Section 15.3.
-
-  **(d) No delay of investigation.** The heightened standard applies to the filing of charges, not to investigation. The Accountability Commission may investigate any presidential conduct without restriction and without the certification requirement. The certification requirement applies only at the charging stage.
+For conduct not falling within Section 15.3, charges based on disputed official-capacity conduct may be brought only after the Accountability Commission finds clear and convincing evidence of criminal conduct and a three-judge certification panel determines that the charge falls outside the good-faith exercise of official authority. This protection applies only at the charging stage, not to investigation.
 
 ### 15.5 — Indictment of a Sitting President
 
-A sitting President may be indicted by the Accountability Commission. Indictment does not require the President to leave office and does not automatically trigger incapacity proceedings under Section 11.
-
-  **(a) Trial stayed.** The criminal trial of a sitting President shall be stayed until the President leaves office — whether through end of term, resignation, removal by impeachment, or removal by recall. The stay is automatic upon indictment and does not require a court order. While the trial is stayed, the statute of limitations for all charged offenses is tolled automatically. The 180-day trial clock established in Section 15.5(d) begins on the date the President leaves office regardless of any appeals filed after that date. Delay motions filed by the defense do not extend the 180-day clock except by a written court order issued for specific extraordinary circumstances, which must be defined in writing by the court at the time of the order.
-
-  **(b) Investigation and indictment proceed.** The stay applies only to trial. Investigation, grand jury proceedings, indictment, pre-trial motions, and discovery may all proceed during the President's term. The Accountability Commission may compel testimony, subpoena documents, and take all steps necessary to preserve evidence.
-
-  **(c) Statute of limitations tolled.** For any offense committed by a sitting President, the statute of limitations is tolled from the date the President takes office until the date they leave office. The clock does not run while the trial is stayed. A President cannot use the length of their time in office to extinguish criminal liability.
-
-  **(d) No immunity upon leaving office.** A President who leaves office — for any reason — loses the trial stay immediately. Trial shall commence within 180 days of the President leaving office, unless the court finds extraordinary circumstances justifying delay.
-
-  **(e) Separate from impeachment.** Indictment and criminal prosecution are entirely separate from impeachment proceedings. A President may be simultaneously under criminal indictment and subject to impeachment. Acquittal in impeachment proceedings is not a bar to criminal prosecution. Conviction in criminal proceedings does not substitute for impeachment and removal.
+A sitting President may be indicted by the Accountability Commission. Investigation, indictment, and other pre-trial proceedings may continue while the President remains in office. Trial is stayed until the President leaves office, and the statute of limitations is tolled during that period. Criminal proceedings remain separate from impeachment.
 
 ### 15.6 — Former Presidents: No Special Post-Presidential Immunity
 
-No person who has served as President retains any immunity from criminal prosecution after leaving office beyond the procedural protections of Section 15.4 for official-capacity conduct. The presidency confers no permanent legal status that protects former officeholders from accountability.
-
-A former President is subject to the same criminal laws as any other citizen with respect to private conduct. A former President is subject to the heightened procedural protections of Section 15.4 for conduct carried out in an official capacity during their term, and to no protections beyond that.
+No person who has served as President retains any immunity from criminal prosecution after leaving office beyond the procedural protections of Section 15.4 for official-capacity conduct.
 
 ### 15.7 — Accountability Commission Jurisdiction
 
 The Accountability Commission (Article IX) has exclusive jurisdiction to investigate and prosecute criminal conduct by sitting and former Presidents and Vice Presidents. The Department of Justice has no jurisdiction over such matters. This allocation exists because the President controls the Department of Justice and must not be in a position to direct, limit, or terminate investigations into their own conduct.
 
-The Accountability Commission's jurisdiction under this Section is in addition to its jurisdiction under Article VI Section 1 (anti-subversion) and Article XV Section 1 (corruption and self-dealing). All presidential misconduct, whether characterized as official or unofficial, falls within the Accountability Commission's mandate.
+The Accountability Commission's jurisdiction under this Section is in addition to its jurisdiction under Article VI Section 1 and Article XV Section 1. All presidential misconduct, whether characterized as official or unofficial, falls within the Accountability Commission's mandate.
 
 ### 15.8 — No Interference with Investigation
 
 A sitting President may not direct, limit, terminate, or interfere with any investigation by the Accountability Commission into their own conduct or the conduct of any person who may be a co-conspirator or witness in such an investigation. Such interference is itself a criminal offense under Article VI Section 1 and constitutes an additional ground for impeachment under Section 10 of this Article.
 
-The President retains all lawful rights as a subject of investigation — the right to counsel, the right to respond to evidence, the right to challenge charges through lawful legal proceedings — but may not use official powers to obstruct the investigation.
+The President retains all lawful rights as a subject of investigation but may not use official powers to obstruct the investigation.
 
 ### 15.9 — Cross-References
 
@@ -374,4 +342,3 @@ The following related provisions are established elsewhere in this Constitution:
   - **War powers and Commander in Chief authority**: Article XI
 
 ---
-- **Presidential immunity for official acts?** Decision: **No categorical immunity** (Section 15). Official-acts defense abolished. Absolute prohibition on immunity for electoral subversion, bribery, conspiracy, obstruction, unlawful military orders, and perjury. Heightened procedural bar (clear and convincing evidence + three-judge certification panel) for charging official-capacity conduct outside those categories. Sitting President may be indicted — trial stayed until out of office; statute of limitations tolled. Accountability Commission has exclusive jurisdiction. No post-presidential immunity beyond Section 15.4 procedural protections.
