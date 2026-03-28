@@ -134,6 +134,10 @@ Update this table whenever a score changes.
 
 | Date | Area | Old Score | New Score | Reason for Change | Remaining Issue |
 |------|------|-----------|-----------|-------------------|-----------------|
+| 2026-03-28 | Article XI / Article XV | 8.5 / 8.5 | 9.0 / 9.0 | Article XI keeps its safeguards with cleaner doctrine-level rules, and Article XV now states stronger constitutional floors with less code-like implementation detail | Remaining work is mostly polishing and a final global consistency sweep rather than structural redesign |
+| 2026-03-28 | Article VII / Article XIV | 8.0 / 8.0 | 8.5 / 8.5 | Democratic-floor enforcement was simplified, and the non-war national-security article now has a sharper boundary with Article XI | Article XI still has some operationally dense provisions that could be compressed further in a later pass |
+| 2026-03-28 | Article V / Article X / Cross-References | 8.0 / 8.0 / 7.0 | 8.5 / 8.5 / 8.0 | Article V and X were trimmed to more constitutional abstraction levels, and stale drafting-log drift was corrected | Federalism and war/foreign-policy boundary rules still need later simplification and audit work |
+| 2026-03-28 | Article IV / Article XIII | 7.5 / 7.5 | 8.0 / 8.0 | Article IV appointment and governance machinery simplified; Article XIII remedies narrowed to adequacy review with clearer institutional limits | Full cross-reference audit and later simplification passes still needed in Articles V, X, and VII |
 | 2026-03-28 | Initial baseline | — | 8.4 overall | First structured scorecard created | Continue simplification and consistency review |
 
 ---

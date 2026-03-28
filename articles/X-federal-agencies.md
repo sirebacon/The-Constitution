@@ -39,9 +39,7 @@ Establishes the constitutional framework governing federal agencies, commissions
   (c) Issue lawful executive orders governing how agencies carry out their statutory duties
   (d) Coordinate agency activities through the Office of Management and Budget and other lawful executive mechanisms
 
-**2.0.3 — Duty to execute.** The President shall faithfully execute all laws establishing federal agencies and defining their mandates. Directing an agency to refuse to carry out its statutory mandate, systematically declining to enforce a statute to nullify it in practice, redirecting an agency's resources to purposes outside its statutory mission, or using an agency's powers for purposes for which it was not created are violations of the President's duty under Article III and grounds for impeachment. The President's policy disagreement with a statute is not a lawful basis for non-enforcement — the remedy for a bad law is to seek its repeal through the legislative process.
-
-For purposes of this Section, "systematically declining to enforce" means: (a) a documented policy of non-enforcement affecting a category of violations; (b) an enforcement rate below 20% of referred violations for 12 consecutive months; or (c) selective enforcement that demonstrably benefits or harms a specific political interest. Any of these triggers a presumption of nullification.
+**2.0.3 — Duty to execute.** The President shall faithfully execute all laws establishing federal agencies and defining their mandates. Directing an agency to refuse to carry out its statutory mandate, systematically declining to enforce a statute in order to nullify it in practice, redirecting an agency's resources to purposes outside its statutory mission, or using an agency's powers for purposes for which it was not created are violations of the President's duty under Article III and grounds for impeachment. The President's policy disagreement with a statute is not a lawful basis for non-enforcement.
 
 **2.0.4 — Congressional non-interference in operations.** Congress may not direct the outcome of individual agency enforcement actions, adjudications, investigations, or regulatory proceedings. Congressional oversight authority is investigative and legislative in nature — it may examine whether the law is being followed, hold hearings, compel testimony, and legislate new requirements, but it may not instruct an agency on how to resolve a specific case or proceeding. Congress may not use appropriations riders to direct the outcome of pending enforcement actions against named parties.
 
@@ -78,13 +76,9 @@ Use of agency power for political retaliation is a violation of this Constitutio
 
 Disagreement with an agency's regulatory decisions, enforcement choices, rulemaking priorities, or any exercise of lawful statutory authority is not cause for removal. The President may not remove a commissioner for making a decision the President dislikes.
 
-**4.2 — Removal process.** The President shall provide written notice of the grounds for removal to the commissioner and to the relevant oversight committees of Congress. The commissioner shall have thirty days to respond. Removal may be challenged in federal court, and no removal shall take effect until either the thirty-day response period has elapsed and no legal challenge has been filed, or a court has upheld the removal.
+**4.2 — Removal process.** The President shall provide written notice of the grounds for removal to the commissioner and to the relevant oversight committees of Congress. The commissioner shall have thirty days to respond. Removal may be challenged in federal court, and a timely challenge stays the removal pending judicial review unless the court finds immediate suspension necessary for misconduct or incapacity.
 
-A for-cause removal is automatically stayed upon filing of a legal challenge. The commissioner continues in office during the stay. The stay is lifted only upon a final court ruling or after 18 months, whichever comes first. This stay is self-executing and does not require a court order.
-
-**4.3 — No direction of individual cases.** The President may not direct, delay, accelerate, or terminate any specific enforcement action, investigation, adjudication, or rulemaking proceeding of an independent regulatory agency. The President may communicate general policy priorities to agency leadership through lawful channels, but may not instruct an agency on the outcome of any specific case or proceeding.
-
-For purposes of this Section, "policy direction" (permitted) means general guidance applicable to a category of cases. "Case direction" (forbidden) includes any communication that references a specific named party, transaction, or matter under investigation. Indirect pressure that a reasonable official would understand as direction on a specific matter is treated as case direction.
+**4.3 — No direction of individual cases.** The President may not direct, delay, accelerate, or terminate any specific enforcement action, investigation, adjudication, or rulemaking proceeding of an independent regulatory agency. The President may communicate general policy priorities to agency leadership through lawful channels, but may not instruct an agency on the outcome of any specific matter.
 
 **4.4 — Appointment.** The President shall appoint commissioners of independent regulatory agencies with the advice and consent of the Regional Assembly. Where a commission is designed to be bipartisan, no more than a bare majority of its members may be of the same political party. The President may not fill a commission with all members of one party where the governing statute requires balance.
 
@@ -96,8 +90,6 @@ For purposes of this Section, "policy direction" (permitted) means general guida
 
 **5.2 — No abolition by defunding.** Congress may not effectively abolish an independent regulatory agency by reducing its appropriation below the level necessary to carry out its core statutory mandate, except by a 2/3 vote of both chambers accompanied by explicit findings that the agency's core functions are no longer necessary or are being transferred to another body. A budget reduction that renders an agency unable to operate constitutes a de facto abolition and is subject to the same requirements.
 
-For purposes of this Section, "core statutory mandate" means the primary functions enumerated in the agency's organic statute. Congress may not reduce funding below the level necessary to perform those primary functions as certified by the agency's Inspector General. If the Inspector General certifies that appropriations are insufficient to perform the primary functions, appropriations are automatically restored to the certified minimum.
-
 **5.3 — Transfer of functions.** The statutory functions of an independent regulatory agency may not be transferred to an executive agency without the consent of Congress by legislation. This prevents circumventing the independence of a regulatory body by reassigning its duties to a body under direct presidential control.
 
 **5.4 — Continuity during transition.** When a new President takes office, all agency commissioners serving fixed terms shall continue in office until their terms expire or lawful cause for removal is established. A change in the presidency does not, by itself, constitute grounds for removing or suspending any commissioner of an independent regulatory agency.
@@ -108,9 +100,7 @@ For purposes of this Section, "core statutory mandate" means the primary functio
 
 **6.1 — Congressional oversight.** Every federal agency shall be subject to oversight by the relevant committees of Congress. Agency heads shall appear before Congress when requested and shall provide requested documents and information, subject only to lawful claims of privilege adjudicated by a court. Blanket refusal to cooperate with congressional oversight is not permitted.
 
-**6.2 — Inspector General.** Every major federal agency shall have an Inspector General appointed through a process designed to ensure independence from agency leadership. Inspectors General shall have unrestricted access to agency records, personnel, and facilities for the purpose of detecting and preventing waste, fraud, and abuse. No Inspector General may be removed without 30 days' written notice to Congress specifying the reasons for removal.
-
-An Inspector General removal during an active investigation of the removing official or their immediate subordinates is presumptively retaliatory and void. The removed Inspector General may seek reinstatement in the D.C. Circuit on an expedited basis. Reinstatement shall be granted unless the government shows cause unrelated to the investigation by clear and convincing evidence.
+**6.2 — Inspector General.** Every major federal agency shall have an Inspector General appointed through a process designed to ensure independence from agency leadership. Inspectors General shall have access to agency records, personnel, and facilities necessary to detect and prevent waste, fraud, and abuse. No Inspector General may be removed without written notice to Congress specifying the reasons for removal. A removal that retaliates for an ongoing investigation is void.
 
 **6.3 — Public rulemaking.** All rules of general applicability issued by federal agencies shall be subject to a notice-and-comment process during which any member of the public may submit written comments. The agency shall respond to significant comments before finalizing a rule. Emergency rules may take effect immediately but shall be subject to the full comment process retroactively.
 
@@ -124,9 +114,7 @@ An Inspector General removal during an active investigation of the removing offi
 
 **7.1 — Principle.** The revolving door between regulated industries and the agencies that regulate them corrupts regulatory independence and transfers public authority to private benefit. Every federal regulatory agency is subject to this Section. The specific provisions of Article XV Section 2.10 governing the financial market regulator represent the constitutional floor for that agency; this Section establishes the floor for all others.
 
-**7.2 — Post-service cooling-off.** Senior officials of any federal regulatory agency may not, within a period set by Congress of not less than two years following their departure, work for, consult for, lobby, or accept compensation from any entity they directly regulated, investigated, or supervised during their service. Congress may establish longer cooling-off periods and shall tailor them to the regulatory context of each agency.
-
-The constitutional floor for cooling-off periods is 2 years for all positions involving regulatory authority over a specific industry sector. Congress may set longer periods but may not set shorter ones. The 2-year floor applies even if Congress fails to act. No exemption may be granted for "high-value" positions — the floor applies equally regardless of seniority.
+**7.2 — Post-service cooling-off.** Senior officials of any federal regulatory agency may not, for a period set by Congress of not less than two years following their departure, work for, consult for, lobby, or accept compensation from any entity they directly regulated, investigated, or supervised during their service. Congress may establish longer cooling-off periods tailored to particular agencies or offices, but may not set shorter ones.
 
 **7.3 — Transition support.** Any former regulatory official subject to a mandatory cooling-off period of more than one year shall receive a transition stipend during that period. Congress may not eliminate this stipend or reduce it below thirty percent of the official's final salary. The stipend vests with length of service; Congress shall establish the vesting schedule by law.
 
@@ -144,9 +132,7 @@ The constitutional floor for cooling-off periods is 2 years for all positions in
 
 **8.2 — Mass removal prohibited.** No President may remove, suspend, or constructively discharge a class of federal employees defined by agency, job function, or lack of political affiliation in the absence of individual cause, documented performance failure, or a lawfully enacted reduction in force. A reduction in force must be based on genuine operational necessity and carried out under procedures established by law. It may not be used as a pretext for political removal.
 
-**8.3 — Schedule F and equivalents prohibited.** No executive order, regulation, or administrative action may reclassify a class of career civil servants as at-will employees subject to removal without cause, or create a category of federal employment that strips civil servants of the protections required by Article XV Section 3 and this Section. Any such reclassification is void ab initio.
-
-Any federal employee reclassified under such an order is automatically restored to their prior civil service status. Restoration is self-executing and does not require individual litigation. The Accountability Commission shall publish a public registry of all affected employees and their restoration status.
+**8.3 — Schedule F and equivalents prohibited.** No executive order, regulation, or administrative action may reclassify a class of career civil servants as at-will employees subject to removal without cause, or create a category of federal employment that strips civil servants of the protections required by Article XV Section 3 and this Section. Any such reclassification is void.
 
 **8.4 — Whistleblower protections.** Agency employees who report evidence of illegal conduct, waste, fraud, abuse, constitutional violations, or threats to public health or safety to the Accountability Commission, to congressional oversight committees, or through internal reporting mechanisms are protected from retaliation under Article XV Section 3.4. This protection applies regardless of security classification, except that it does not protect the disclosure of lawfully classified information through unauthorized channels.
 
@@ -156,11 +142,9 @@ Any federal employee reclassified under such an order is automatically restored 
 
 **9.1 — Definition.** An agency is captured when it systematically acts to advance the interests of the industry or entities it regulates rather than the public interest it was created to serve. Capture may occur through personnel decisions, enforcement choices, rulemaking, or structural relationships between agency officials and regulated parties.
 
-**9.2 — Congressional response.** Where the Accountability Commission or a congressional oversight committee documents a pattern of agency capture, Congress shall within two years either restructure the agency, reassign its functions, or enact legislation addressing the documented cause of capture. Failure to act does not excuse continued capture.
+**9.2 — Congressional response.** Where the Accountability Commission or a congressional oversight committee documents a pattern of agency capture, Congress shall within two years either restructure the agency, reassign its functions, or enact legislation materially addressing the documented cause of capture. Failure to act does not excuse continued capture.
 
-**9.3 — Accountability Commission jurisdiction.** The Accountability Commission has jurisdiction to investigate and prosecute agency officials who engage in regulatory corruption — defined as the use of official regulatory authority to benefit a regulated entity in exchange for anything of value, including future employment. Regulatory corruption is a federal crime regardless of whether the benefit is received during or after government service.
-
-For purposes of Sections 9.1–9.3, "addressing the documented cause" means restructuring that eliminates the specific conflict of interest or capture mechanism identified by the Accountability Commission. Congress must certify compliance with this standard. If the Commission finds the response insufficient, the matter proceeds to judicial review. Token changes that do not address the documented cause do not restart the 2-year clock under Section 9.2.
+**9.3 — Accountability Commission jurisdiction.** The Accountability Commission has jurisdiction to investigate and prosecute agency officials who engage in regulatory corruption, defined as the use of official regulatory authority to benefit a regulated entity in exchange for anything of value, including future employment. Regulatory corruption is a federal crime regardless of whether the benefit is received during or after government service.
 
 ---
 
@@ -170,9 +154,7 @@ For purposes of Sections 9.1–9.3, "addressing the documented cause" means rest
 
 **10.2** No agency shall be subjected to a sunset period of less than ten years. Shorter sunset periods are prohibited because they subject agencies to annual threats of elimination that can be used as leverage to influence regulatory decisions.
 
-**10.3** Where an agency is subject to a sunset requirement and Congress fails to reauthorize it by the sunset date, the agency's existing rules and regulations remain in effect for two years following the sunset date, during which period the agency's functions shall be carried out by the relevant Cabinet department under the direction of the President. This prevents a regulatory vacuum from harming the public while Congress resolves the agency's status.
-
-When an agency sunsets and its functions are transferred to a Cabinet department, the transferred rules have the same legal status as independent agency rules and may not be weakened by executive order. Any modification of those rules requires notice-and-comment rulemaking. Attempts to weaken transferred rules during the 2-year continuity window are void.
+**10.3** Where an agency is subject to a sunset requirement and Congress fails to reauthorize it by the sunset date, the agency's existing rules and regulations remain in effect for two years following the sunset date, during which period the agency's functions shall be carried out by the relevant Cabinet department under the direction of the President. Transferred rules may be changed only through lawful rulemaking.
 
 ---
 
@@ -180,9 +162,7 @@ When an agency sunsets and its functions are transferred to a Cabinet department
 
 **11.1 — Purpose.** Political appointments serve a legitimate function: they allow elected Presidents to place senior officials aligned with their policy direction in positions of executive leadership. But a civil service that is predominantly political appointees — subject to removal at will and hired for loyalty rather than competence — is not a professional civil service at all. This Section establishes a constitutional ceiling on the total number of political appointments across the executive branch.
 
-**11.2 — Cap on political appointees.** The total number of political appointees across all executive agencies and departments — defined as positions not covered by civil service merit protections and filled at the pleasure of the President or a presidentially appointed official — shall not exceed one percent of the total number of civilian federal employees at any time.
-
-For purposes of this Section, "political appointee" means any person appointed by the President, a Cabinet secretary, or their direct designee, who serves at will. Inspectors General, members of independent commissions, and other officers removable only for cause are not political appointees for purposes of the 1% cap, regardless of appointment method.
+**11.2 — Cap on political appointees.** The total number of political appointees across all executive agencies and departments, meaning positions not covered by civil service merit protections and filled at the pleasure of the President or a presidentially appointed official, shall not exceed one percent of the total number of civilian federal employees at any time. Officers removable only for cause are not political appointees for purposes of this cap.
 
 **11.3 — No reclassification as workaround.** The cap of Section 11.2 applies to all positions subject to at-will removal by political officials, regardless of how they are titled, categorized, or created. An executive order or regulation that reclassifies career positions as political appointments counts against the cap. If reclassification would cause the total to exceed one percent, the reclassification is void to the extent of the excess.
 

@@ -31,9 +31,9 @@ Establishes the structure, composition, independence, and jurisdiction of the fe
 
 **2.2 Terms.** Each justice shall serve a single non-renewable active term of fifteen years. Upon completion of their active term, a justice shall transition to Senior Justice status. Senior Justices may sit on Circuit Courts of Appeals at their election and shall be available to serve on the Supreme Court temporarily to fill vacancies pending new appointments.
 
-**2.3 Appointment schedule.** Supreme Court appointments shall occur on a fixed schedule of one appointment per year. Each two-year congressional session shall therefore include two appointments. This schedule ensures that no single president can dominate the court's composition, and removes the element of chance from the appointment process. No president may appoint more than 7 justices during any single 8-year period. If a president's appointments would exceed this limit, any remaining scheduled vacancies during that 8-year period shall be filled by the Judicial Nominations Commission alone by majority vote, without a presidential nomination, and the Regional Assembly shall confirm or reject the Commission's selection under the same procedures as a presidential nomination.
+**2.3 Appointment schedule.** One seat on the Supreme Court shall expire each year on a fixed annual schedule established by law at ratification and thereafter alterable only by constitutional amendment. If a justice leaves active service before the end of the scheduled term, the vacancy shall be filled temporarily by the most senior willing Senior Justice until the next scheduled appointment for that seat. The successor appointed on the scheduled date receives a full fifteen-year term. This schedule removes strategic retirement incentives and limits the role of chance in Supreme Court appointments.
 
-**2.4 Chief Justice.** The Chief Justice shall be selected by the Judicial Nominations Commission from among the sitting justices. The Chief Justice shall serve a single non-renewable term of 5 years in that role. Selection criteria are the same as those used for pool qualification under Section 4.5. The Chief Justice presides over the court, assigns the writing of opinions where the Chief Justice is in the majority, and represents the judiciary in its relations with the other branches. Upon the expiration of a Chief Justice's term, the Commission shall select a successor from among the remaining sitting justices; a justice who has previously served as Chief Justice may not be selected again.
+**2.4 Chief Justice.** The active justices of the Supreme Court shall elect the Chief Justice from among themselves by majority vote for a single non-renewable term of 5 years. If no justice receives a majority on the first ballot, the two justices receiving the most votes shall stand in a runoff decided by majority vote. The Chief Justice presides over the court, assigns the writing of opinions where the Chief Justice is in the majority, and represents the judiciary in its relations with the other branches. A justice who has previously served as Chief Justice may not be elected again.
 
 **2.5 Quorum.** Nine justices constitute a quorum of the Supreme Court. If fewer than nine active justices are available, Senior Justices shall be called to serve in order of seniority until a quorum is reached.
 
@@ -47,9 +47,9 @@ Establishes the structure, composition, independence, and jurisdiction of the fe
 
 **3.2** The President may only nominate candidates who appear on the current certified pool. Nominating a candidate not on the pool is void.
 
-**3.3** The Regional Assembly shall confirm or reject the nomination by majority vote within 90 days of submission. A nomination not acted upon within 90 days is neither confirmed nor rejected — it is returned to the President, who must submit a new nomination within 30 days.
+**3.3** The Regional Assembly shall confirm or reject the nomination by majority vote within 90 days of submission. A nomination not acted upon within 90 days is deemed rejected.
 
-**3.4** If the Regional Assembly rejects a nomination, the President shall submit a new nomination within 30 days. If the President fails to nominate within the required time, or if two successive nominations are rejected, the Chief Justice shall request within 10 days that the Judicial Nominations Commission select a justice from the certified pool by majority vote of the Commission. Failure by the Chief Justice to make this request within 10 days is itself a violation of this Article and triggers automatic referral to the Accountability Commission. If the Accountability Commission is deadlocked on the referral, the Chief Judge of the United States Court of Appeals for the District of Columbia Circuit shall appoint a replacement to fulfill the Chief Justice's obligation under this Section.
+**3.4** If the Regional Assembly rejects a nomination, the President shall submit a new nomination within 30 days. If the President fails to nominate within that period, or if two successive nominations for the same seat are rejected, the Judicial Nominations Commission shall appoint a justice from the certified pool by majority vote within 30 days. A justice appointed by the Commission under this Section takes office without further confirmation.
 
 **3.5** No person may serve as a Supreme Court justice more than once, whether on the active court or as a Senior Justice filling a temporary vacancy.
 
@@ -57,17 +57,16 @@ Establishes the structure, composition, independence, and jurisdiction of the fe
 
 ## Section 4 — The Judicial Nominations Commission
 
-**4.1 Purpose.** The Judicial Nominations Commission is a permanent independent body that vets and certifies candidates for appointment to the Supreme Court. It depoliticizes the qualification stage of the appointment process while leaving the selection to the elected branches.
+**4.1 Purpose.** The Judicial Nominations Commission is a permanent independent body that certifies professionally qualified candidates for judicial office and serves as a narrow backstop when the ordinary appointment process fails. It may not choose nominees in the ordinary course.
 
-**4.2 Composition.** The Commission shall consist of twelve members:
-  (a) Four appointed by the President, subject to Regional Assembly confirmation
-  (b) Two appointed by the Speaker of the House
-  (c) Two appointed by the President Pro Tempore of the Regional Assembly
-  (d) Four selected by lottery from a pool of active federal Circuit Court judges with at least ten years of service
+**4.2 Composition.** The Commission shall consist of nine members:
+  (a) Three appointed by the President, subject to Regional Assembly confirmation
+  (b) Three appointed jointly by the Speaker of the House and the President Pro Tempore of the Regional Assembly
+  (c) Three selected by lottery from a pool of active federal Circuit Court judges with at least ten years of service
 
-**4.3 Terms.** Commission members shall serve staggered eight-year terms, non-renewable. Members appointed under Section 4.2(d) shall be reselected by lottery every four years.
+**4.3 Terms.** Commission members shall serve staggered six-year terms, non-renewable. Members selected under Section 4.2(c) shall be reselected by lottery every three years.
 
-**4.4 Independence.** Commission members may not be removed except for cause — defined as demonstrated misconduct, incapacity, or conviction of a felony — upon a 2/3 vote of both chambers of Congress. Members may not hold any other public office or engage in the private practice of law during their service.
+**4.4 Independence.** Commission members may not be removed except for cause, defined as demonstrated misconduct, incapacity, or conviction of a felony, upon a 2/3 vote of both chambers of Congress. Members may not hold any other public office. Members selected under Section 4.2(c) may continue judicial service but must recuse from Commission matters that involve any candidate from their own circuit.
 
 **4.5 Certification criteria.** The Commission shall certify candidates for the Supreme Court pool based on the following minimum criteria:
   (a) At least fifteen years of legal experience as a judge, practicing attorney, or legal academic
@@ -78,13 +77,13 @@ Establishes the structure, composition, independence, and jurisdiction of the fe
 
 The Commission may not assess candidates' political views, ideological positions, or party affiliation.
 
-**4.6 Pool maintenance.** The Commission shall maintain a certified pool of no fewer than thirty and no more than sixty qualified candidates at all times. The pool shall be published publicly. Candidates may withdraw from the pool at any time.
+**4.6 Pool maintenance.** The Commission shall maintain a certified pool of qualified candidates for the Supreme Court and publish the names of persons then certified, except where temporary confidentiality is necessary to protect a sitting judge or pending employment. Candidates may withdraw from the pool at any time.
 
-**4.7 Transparency of certification decisions.** The Commission shall publish a written explanation for every decision to admit or reject a candidate from the pool. The explanation must identify which criteria under Section 4.5 were or were not met. A rejection that does not provide a written explanation traceable to the criteria of Section 4.5 is void, and the candidate shall be reconsidered. No candidate may be excluded on the basis of their judicial philosophy, legal interpretive method, or anticipated rulings.
+**4.7 Transparency of certification decisions.** The Commission shall publish a written explanation for every decision to admit or reject a candidate from the pool. The explanation must identify which criteria under Section 4.5 were or were not met. No candidate may be excluded on the basis of judicial philosophy, legal interpretive method, or anticipated rulings.
 
 **4.7A Pool diversity.** In building and maintaining the certified pool, the Commission shall consider — as a secondary criterion, after all mandatory qualifications under Section 4.5 are met — the diversity of the pool as a whole, including diversity of professional background (public interest, private practice, academia, prosecution, public defense), geographic origin, and demographic representation. Diversity is a pool-level consideration, not a per-candidate qualification; no individual candidate may be admitted who does not meet the mandatory criteria, and no individual candidate may be excluded solely because another candidate with similar characteristics is already in the pool. The Commission shall publish annually a demographic and professional profile of the certified pool.
 
-**4.8 Judicial review of rejection.** A candidate rejected from the certified pool may challenge their rejection in the United States Court of Appeals for the District of Columbia Circuit within 30 days of receiving written notice of rejection. The court shall review only whether the Commission correctly applied the objective criteria of Section 4.5. The court may not add a candidate to the pool directly — it may only order the Commission to reconsider the application under the correct standard within 45 days. The Commission's reconsidered decision is final and not subject to further appeal.
+**4.8 Judicial review of rejection.** A candidate rejected from the certified pool may challenge the rejection in the United States Court of Appeals for the District of Columbia Circuit within 30 days. The court shall review only whether the Commission correctly applied the objective criteria of Section 4.5. The court may order reconsideration under the correct standard, but may not add a candidate to the pool directly.
 
 **4.9 Accountability Commission oversight.** The Accountability Commission (Article IX) shall conduct an annual audit of the Judicial Nominations Commission covering:
   (a) Procedural compliance with this Article
@@ -94,7 +93,7 @@ The Commission may not assess candidates' political views, ideological positions
 
 Audit findings shall be published publicly and submitted to both chambers of Congress. The Accountability Commission may refer evidence of misconduct by Commission members for criminal prosecution or congressional removal proceedings.
 
-**4.10 Member conflicts.** A Commission member must recuse from the certification review of any candidate who was their former colleague, employer, employee, or legal partner within the preceding ten years. Recusal decisions shall be published. A member who fails to recuse when required is subject to removal under Section 4.4.
+**4.10 Member conflicts.** A Commission member must recuse from the certification review of any candidate who was their former colleague, employer, employee, legal partner, or law clerk within the preceding ten years. Recusal decisions shall be published. A member who willfully fails to recuse when required is subject to removal under Section 4.4.
 
 ---
 
@@ -104,7 +103,7 @@ Audit findings shall be published publicly and submitted to both chambers of Con
 
 **5.2 District Courts.** Congress shall establish District Courts as the trial courts of general federal jurisdiction. District judges shall serve twelve-year non-renewable terms, after which they may assume Senior Judge status.
 
-**5.3 Appointments to lower courts.** Judges for Circuit and District Courts shall be nominated by the President and confirmed by the Regional Assembly. The Judicial Nominations Commission shall maintain qualification standards for lower court appointments, but the President is not limited to a certified pool for these appointments. For each vacancy on a Circuit or District Court, the Nominations Commission shall publish a recommended list of qualified candidates. The Regional Assembly may confirm only candidates appearing on the recommended list, or may reject the list in its entirety and request that the Commission publish a new list within 30 days. The President may not make a direct nomination to a Circuit or District Court vacancy without a Commission-published recommended list being in place for that vacancy; a nomination made in the absence of a list is void.
+**5.3 Appointments to lower courts.** Judges for Circuit and District Courts shall be nominated by the President and confirmed by the Regional Assembly. The Judicial Nominations Commission shall publish minimum professional qualifications for lower-court judges and shall certify whether a nominee satisfies them. A nominee who is not certified as qualified may not be confirmed. Congress may by law create advisory merit panels for lower-court vacancies, but this Constitution does not require a vacancy-specific shortlist.
 
 **5.4 Senior Judges.** Upon completion of their active terms, federal judges of all levels may elect to assume Senior Judge status. Senior Judges may accept assignments from the Chief Justice to fill vacancies on active courts and shall receive their full compensation during such assignments.
 
@@ -125,7 +124,7 @@ Audit findings shall be published publicly and submitted to both chambers of Con
 
 Violations of this Section are federal crimes and subject to prosecution by the Accountability Commission (Article IX).
 
-**6.4** The budget of the federal judiciary shall be proposed by the Chief Justice and submitted directly to Congress. Congress may reduce the judiciary's budget by no more than 5% in any single year without a 2/3 vote of both chambers. This provision protects against defunding as a form of judicial coercion. Congressional budget reductions are further subject to the following floors: clerk and staff ratios may not fall below 80% of the prior 5-year average staffing levels; technology and facilities funding may not fall below inflation-adjusted 2020 funding levels. These floors are self-executing — any appropriation that would cause the judiciary's funding to fall below these floors automatically reverts to the nearest compliant level without requiring further legislative or executive action.
+**6.4** The budget of the federal judiciary shall be proposed by the Chief Justice and submitted directly to Congress. Congress may not materially impair the functioning of the judiciary through targeted defunding. Any reduction of more than 5% from the judiciary's inflation-adjusted prior-year appropriation requires a 2/3 vote of both chambers.
 
 **6.5** Federal judges may not be members of a political party, make political donations, publicly endorse candidates, or engage in partisan political activity during their active service.
 
@@ -157,7 +156,7 @@ The Judicial Conduct Board shall have its own independent budget line within the
 
 ## Section 8 — Removal of Federal Judges
 
-**8.1** Federal judges may be removed from office only by impeachment. The House of Representatives shall bring articles of impeachment; the Regional Assembly shall conduct the trial. Conviction requires a 2/3 vote of the Regional Assembly. An article of impeachment against a federal judge that is based solely on the content of that judge's judicial opinions or legal rulings is void on its face and shall be dismissed by the Chief Justice without trial. Before the House may proceed to a floor vote on articles of impeachment against a federal judge, the Judicial Conduct Board must certify in writing that each article is based on conduct and not on the substance of the judge's rulings or legal reasoning.
+**8.1** Federal judges may be removed from office only by impeachment. The House of Representatives shall bring articles of impeachment; the Regional Assembly shall conduct the trial. Conviction requires a 2/3 vote of the Regional Assembly. No judge may be impeached solely for the substance of judicial opinions or legal rulings. Before the House may proceed to a floor vote on articles of impeachment against a federal judge, the Judicial Conduct Board must certify in writing that each article is based on conduct and not on the substance of the judge's legal reasoning.
 
 **8.2 Grounds for removal.** Grounds for judicial impeachment include:
   (a) Conviction of a felony
@@ -226,7 +225,7 @@ Courts shall prefer narrow remedies that address the specific constitutional vio
 
 ## Section 11 — Transition at Ratification
 
-**11.1** Justices serving on the Supreme Court at the time this Constitution is ratified shall continue to serve. Their remaining active tenure under this Constitution shall be calculated as 18 years from their original date of appointment, minus time already served. A justice who has already served 18 or more years shall transition to Senior Justice status upon ratification.
+**11.1** Justices serving on the Supreme Court at the time this Constitution is ratified shall continue to serve. Their remaining active tenure under this Constitution shall be calculated as 15 years from their original date of appointment, minus time already served. A justice who has already served 15 or more years shall transition to Senior Justice status upon ratification.
 
 **11.2** The appointment schedule under Section 2.3 shall begin in the first year following ratification, filling vacancies as they arise through the transition or as new seats become active to reach the full complement of fifteen.
 

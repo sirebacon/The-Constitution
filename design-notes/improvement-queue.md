@@ -171,6 +171,10 @@ Recommended next drafting sprint:
 
 | Date | Fix | Result |
 |------|-----|--------|
+| 2026-03-28 | Article XI compression and Article XV simplification | War powers remain strong with less operational clutter, and the ethics article now reads more like constitutional architecture than compliance code |
+| 2026-03-28 | Article VII simplification and Article XI/XIV boundary cleanup | Federalism enforcement is more legible and the war-powers article is more clearly separated from non-war national-security authorities |
+| 2026-03-28 | Cross-reference audit and simplification passes on Articles V and X | Operative text is cleaner, more principle-driven, and less dependent on statutory-style mechanics |
+| 2026-03-28 | Article IV simplification and Article XIII remedy rewrite | Court design is more legible and the positive-rights article now uses a clearer adequacy-review model with tighter judicial limits |
 | 2026-03-28 | Court tenure and appointment cadence aligned | Article IV no longer has a structural math conflict |
 | 2026-03-28 | Major stale cross-references corrected after article splits | Operative text is more internally coherent |
 | 2026-03-28 | Scorecard expanded with criterion-level scoring | Improvement work can now be tracked systematically |
@@ -183,4 +187,3 @@ Recommended next drafting sprint:
 - Mark a task complete only when the scorecard score can defensibly rise.
 - If a revision lowers complexity without lowering abuse resistance, that is usually a good trade.
 - Re-score the affected article after every substantial revision round.
-

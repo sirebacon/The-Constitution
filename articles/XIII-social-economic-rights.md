@@ -6,7 +6,7 @@
 
 ## Scope
 
-Establishes social, economic, environmental, and affirmative rights of all persons within the United States. These rights impose positive duties on government — to build and maintain systems, provide access, and protect against conditions that prevent a person from living a minimally dignified life. They complement the civil and political rights in Article V. The general principles of Article V Section 1 — including the rights floor, the prohibition on permanent suspension, absolute rights, and the rule that enumeration does not deny unenumerated rights — apply equally to the rights in this Article.
+Establishes social, economic, environmental, and affirmative rights of all persons within the United States. These rights impose positive duties on government to build and maintain systems, provide access, and protect against conditions that prevent a person from living a minimally dignified life. They complement the civil and political rights in Article V. The general principles of Article V Section 1, including the rights floor, the prohibition on permanent suspension, absolute rights, and the rule that enumeration does not deny unenumerated rights, apply equally to the rights in this Article. Judicial enforcement under this Article is limited to deciding whether government has met the constitutional floor and to requiring a timely lawful remedy; courts may not govern program design in the place of the political branches.
 
 ---
 
@@ -14,11 +14,11 @@ Establishes social, economic, environmental, and affirmative rights of all perso
 
 **1.1** Every person has the right to a healthy environment, including clean air, safe drinking water, and freedom from toxic contamination.
 
-**1.2** Every person has the right to a stable climate. The government has a duty to take reasonable measures, consistent with the best available scientific evidence, to prevent dangerous interference with the climate system and to protect present and future generations from the consequences of climate change. When a court finds climate inaction unconstitutional, it shall order Congress to pass legislation meeting a minimum standard defined by the court; if Congress fails to act within 12 months, the court shall impose the least restrictive constitutional remedy available, which may include ordering funding levels, mandating regulatory action under existing authority, or requiring executive agencies to use existing powers; courts may not design policy but may enforce minimum adequacy floors.
+**1.2** Every person has the right to a stable climate. The government has a duty to adopt and maintain reasonable measures, consistent with the best available scientific evidence, to prevent dangerous interference with the climate system and to protect present and future generations from the consequences of climate change. A court finding a violation of this duty may declare the breach, require the political branches to adopt a constitutionally sufficient remedial plan within a defined period, and retain jurisdiction to determine whether the submitted plan meets the constitutional floor. A court may not prescribe emissions targets, technology choices, tax measures, or line-item appropriations.
 
 **1.3** In all decisions affecting the environment, the government shall give weight to the interests of future generations who cannot participate in current political processes.
 
-**1.4** The rights in this Section create enforceable duties on government. A court may find that government inaction or action has violated these rights and may order Congress or the executive to take remedial action within a defined period. Courts shall not prescribe specific policy solutions but may require that adequate measures be taken. "Enforceable duty" means that courts may (a) declare a specific funding level or program insufficient, (b) order Congress to act within a defined period, (c) appoint a special master to oversee compliance, and (d) hold officials in contempt for non-compliance; courts may not prescribe the specific policy instrument but may prescribe the minimum outcome that any compliant policy must achieve.
+**1.4** The rights in this Section create enforceable duties on government. A court may determine whether government action or inaction is plainly inadequate to the constitutional floor established by this Section, may declare a violation, may require the submission of a remedial plan within a defined period, and may enforce compliance against executive officials charged with carrying out that plan. Courts shall not prescribe specific policy instruments, manage ongoing environmental programs, or set budget levels except where necessary to prevent the executive from disregarding an existing lawful appropriation.
 
 ---
 
@@ -30,18 +30,7 @@ Establishes social, economic, environmental, and affirmative rights of all perso
 
 **2.3 Housing security.** Every person has the right to protection against arbitrary homelessness. The government shall maintain a safety net ensuring that no person is left without access to basic shelter due to circumstances beyond their control. This right does not guarantee any specific housing but imposes a duty on government to prevent destitution.
 
-**2.4 Enforcement of affirmative rights.** The rights in this Section impose duties on government that are judicially enforceable. A court finding a violation of an affirmative right may:
-  (a) Declare that a duty has not been met
-  (b) Order Congress to enact legislation remedying the violation within a defined period of not less than one year
-  (c) Order the executive to take available administrative action pending legislative remedy
-
-Courts may not prescribe the specific policy design of legislative remedies. The choice of how to fulfill an affirmative duty belongs to Congress. Courts may, however:
-  (i) Declare that a specific legislative approach is constitutionally insufficient if it demonstrably fails to address the violation
-  (ii) Order that a minimum funding level be maintained pending a legislative remedy, where the violation is caused by a complete absence of funding
-  (iii) Appoint a special master to monitor compliance with a remedial order and report to the court
-  (iv) Hold the executive branch in contempt for failing to implement available administrative measures ordered under Section 2.4(c)
-
-Courts may not: specify the design of any program, override legislative policy choices among constitutionally sufficient alternatives, or order tax increases or new appropriations as primary remedies. "Constitutionally sufficient alternative" means an alternative that a court has certified will achieve the minimum outcome required by this Article; a court may not simply accept a legislative claim of sufficiency — it must independently verify that the chosen alternative meets the constitutional floor before deferring to legislative choice.
+**2.4 Enforcement of affirmative rights.** The rights in this Section impose duties on government that are judicially enforceable. A court finding a violation may declare that the constitutional floor has not been met, require Congress or the relevant state legislature to adopt a lawful remedy within a defined period, order the executive to use existing lawful authority in the interim, and retain jurisdiction to determine whether the adopted remedy is constitutionally sufficient. Courts may not design a program, choose among materially sufficient policy alternatives, order tax increases, or compel new appropriations as a primary remedy. If the political branches fail to act in good faith by the court's deadline, the court may preserve existing protections against backsliding and enforce compliance orders against responsible executive officials.
 
 ---
 

@@ -40,18 +40,18 @@ Social, economic, environmental, and affirmative rights — including environmen
   (b) True threats of violence against specific individuals
   (c) Defamation — false statements of fact made with knowledge of falsity or reckless disregard for truth
   (d) Obscenity as defined by law, excluding material with serious literary, artistic, political, or scientific value
-  (e) Targeted harassment campaigns — coordinated conduct directed at a specific individual, based on their race, religion, sex, gender identity, sexual orientation, national origin, or disability, that is designed and reasonably likely to drive that individual from public life or to prevent them from exercising a right guaranteed by this Constitution. Coordination is established when two or more actors act pursuant to a common plan or understanding, whether explicit or implied; circumstantial evidence of coordination is sufficient. Platforms that knowingly host or amplify coordinated harassment campaigns share liability for the harm caused.
-  (f) Official incitement to discriminate — speech by a government official acting in their official capacity that explicitly or implicitly directs, authorizes, or encourages the differential treatment of persons based on a protected characteristic in the exercise of government power. Official incitement includes implicit directives. A "specific directive" includes statements made in an official capacity that a reasonable person would interpret as an instruction to discriminate, even if not phrased as a direct order.
+  (e) Targeted harassment campaigns directed at a specific individual, on the basis of a protected characteristic, and intended to drive that person from public life or to prevent the exercise of a constitutional right
+  (f) Official incitement to discriminate — speech by a government official acting in an official capacity that directs, authorizes, or encourages the discriminatory exercise of government power
 
 **2.2 Definitions for Section 2.1(e) and (f).**
 
-  (i) *Targeted harassment campaign* requires: (1) conduct directed at a specific, identifiable individual rather than a group; (2) a pattern of repeated acts rather than a single expression of a view; (3) demonstrable intent to suppress that individual's participation in public life or exercise of rights; and (4) a nexus to a protected characteristic. Expressing a negative view of a group, religion, ideology, or political position — even in offensive or inflammatory terms — does not constitute a targeted harassment campaign regardless of the reaction it produces.
+  (i) *Targeted harassment campaign* requires repeated or coordinated conduct aimed at a specific identifiable person, rather than mere expression of a view about a group, belief, or political position.
 
-  (ii) *Official incitement to discriminate* requires: (1) the speaker acting in an official governmental capacity, not as a private citizen; (2) a specific directive or authorization, not merely an expressed opinion; and (3) direction toward the exercise of government power, such as enforcement, licensing, procurement, or public services. A government official expressing personal views outside their official duties retains the same speech rights as any private citizen.
+  (ii) *Official incitement to discriminate* requires action in an official governmental capacity and direction toward the exercise of government power, rather than private opinion.
 
-  (iii) These exceptions shall be construed narrowly. Courts shall not extend them to cover: expression of offensive views about any group; religious condemnation of beliefs or practices; academic, journalistic, or artistic engagement with difficult subject matter; satire or parody; or political speech about immigration, religion, race, or any other social group, however inflammatory.
+  (iii) These exceptions shall be construed narrowly. Offensive, inflammatory, heretical, satirical, academic, artistic, and political expression remains protected unless it falls within a specific exception stated in this Article.
 
-**2.3 Free press.** Freedom of the press is guaranteed. No prior restraint on publication shall be imposed by government except upon a judicial finding of immediate and grave harm to national security that cannot be addressed after publication. Journalists shall not be compelled to reveal confidential sources in any judicial, legislative, or executive proceeding, except upon a judicial finding that the information is essential to preventing imminent serious harm and cannot be obtained by other means. For purposes of this Section, "imminent serious harm" requires that (a) the harm be specific and credible, (b) no alternative means to prevent it exist, and (c) the court be satisfied by clear and convincing evidence. Vague or speculative harm does not qualify.
+**2.3 Free press.** Freedom of the press is guaranteed. No prior restraint on publication shall be imposed by government except upon a judicial finding of immediate and grave harm that cannot be addressed after publication. Journalists shall not be compelled to reveal confidential sources except upon a judicial finding that the information is essential to preventing imminent serious harm and cannot be obtained by other means.
 
 **2.4 Assembly and petition.** Every person has the right to peaceably assemble and to petition the government for redress of grievances. The government may impose reasonable time, place, and manner restrictions on assembly but may not restrict assembly based on the viewpoint or content of the message being expressed.
 
@@ -105,7 +105,7 @@ The religious freedom of one person ends where it becomes the imposition of that
   (c) **Communicative privacy** — the right to private communications, including electronic communications, free from surveillance without a warrant
   (d) **Data privacy** — the right to control personal information collected, stored, or processed by government or private entities, as further defined in Section 10
 
-**4.2** No law may compel a person to undergo a medical procedure, disclose a medical condition, or make a medical decision against their will, except that laws requiring vaccination may be enacted where a compelling public health interest is demonstrated and the law is narrowly tailored. Any compulsory vaccination law must: (a) be limited to diseases with a basic reproduction number (R0) above a threshold established by Congress based on current public health science; (b) contain exemptions for persons with a documented medical contraindication and for persons with a sincere religious objection; and (c) not apply to any person who can demonstrate natural immunity through recognized diagnostic testing.
+**4.2** No law may compel a person to undergo a medical procedure, disclose a medical condition, or make a medical decision against their will, except where a compelling public health interest is demonstrated and the law is narrowly tailored. Any compulsory public-health measure must include reasonable medical exemptions and may not be broader than necessary to prevent serious harm.
 
 **4.3** The right of privacy in Section 4.1(a) includes the right to make decisions about marriage, family, contraception, and intimate relationships without government interference, regardless of the sex, gender, or sexual orientation of the persons involved.
 
@@ -121,9 +121,9 @@ The religious freedom of one person ends where it becomes the imposition of that
   (c) Location data, whether real-time or historical
   (d) Metadata revealing patterns of communication, movement, or association
 
-A warrant authorizing a digital search must specify the data to be accessed and may not authorize bulk collection of data beyond what is necessary for the stated purpose. Digital search warrants must specify individual accounts, devices, or files with particularity; category-based warrants (such as "all emails containing a given term") are void. Where a lawful warrant produces a bulk data return, the data must be filtered to the scope of the warrant before any government official reviews it, and all surplus data must be destroyed within 30 days of collection.
+A warrant authorizing a digital search must describe with particularity the data to be accessed and may not authorize bulk collection beyond what is necessary for the stated purpose.
 
-**5.3 Bulk surveillance.** No government agency may conduct bulk surveillance of the communications, location, or data of persons within the United States without an individualized warrant. Mass collection programs targeting the general population are prohibited. For purposes of this Section, "individualized" means a warrant specifying a named individual or a specific device linked to that individual. Population-based collection — such as collection targeting all persons within a geographic area — does not satisfy the individualized requirement.
+**5.3 Bulk surveillance.** No government agency may conduct bulk surveillance of the communications, location, or data of persons within the United States without an individualized warrant. Mass collection programs targeting the general population are prohibited. A population-based warrant does not satisfy this requirement.
 
 **5.4 Property.** Private property shall not be taken for public use without just compensation. Regulatory action that effectively destroys substantially all economic value of property shall be treated as a taking requiring compensation.
 
@@ -149,7 +149,7 @@ A warrant authorizing a digital search must specify the data to be accessed and 
 
 **6.9 Speedy trial.** A person accused of a crime shall be brought to trial within a reasonable time. No person shall be held in pretrial detention for more than 180 days without trial, except upon a judicial finding of exceptional circumstances.
 
-**6.10 Bail.** Bail shall not be set at an amount designed to ensure detention rather than appearance. The purpose of bail is to secure appearance at trial, not to punish. A person may be detained without bail only upon a judicial finding that they pose a specific and serious risk of harm to an identified person that cannot be addressed by other conditions of release. Bail is presumptively set at an amount the defendant can pay within 72 hours given their actual financial means. Any bail set above that amount requires a specific written judicial finding that lower bail creates a genuine flight risk. A defendant's inability to pay is not itself evidence of flight risk.
+**6.10 Bail.** Bail shall not be set at an amount designed to ensure detention rather than appearance. A person may be detained without bail only upon a judicial finding that no less restrictive condition can reasonably protect against flight or serious danger. A defendant's inability to pay is not itself evidence of flight risk.
 
 ---
 
@@ -159,7 +159,7 @@ A warrant authorizing a digital search must specify the data to be accessed and 
 
 **7.2** All persons are equal before the law regardless of race, color, national origin, ethnicity, religion, sex, gender identity, sexual orientation, disability, or age. Laws that classify persons on any of these bases are presumptively unconstitutional and must satisfy strict scrutiny.
 
-**7.3** No person shall be subjected to discrimination by any entity receiving federal funding or exercising a public function on the basis of any characteristic listed in Section 7.2. For purposes of this Section, "federal funding" includes direct grants, contracts, tax exemptions with an annual value above $100,000, and federally guaranteed loans. Private entities receiving any such benefit are subject to the prohibition in this Section.
+**7.3** No person shall be subjected to discrimination by any entity receiving substantial federal funding or exercising a public function on the basis of any characteristic listed in Section 7.2. Congress may define the threshold for substantial funding by law.
 
 **7.4** Slavery and involuntary servitude are abolished and prohibited throughout the United States and in any place subject to its jurisdiction. No exception shall exist for punishment of crime.
 
@@ -176,7 +176,7 @@ A warrant authorizing a digital search must specify the data to be accessed and 
 **8.2** Congress and the states may enact laws governing:
   (a) Background checks and waiting periods prior to the acquisition of firearms
   (b) Licensing, registration, and safety training requirements
-  (c) The prohibition or regulation of specific categories of weapons whose primary design purpose is the efficient killing of large numbers of people. "Primary design purpose" is determined objectively by the weapon's mechanical capabilities, not the manufacturer's marketing claims. A weapon that is capable of firing more than one round per trigger pull, or that is capable of accepting a magazine of more than 10 rounds, is presumptively a weapon whose primary design purpose is mass-casualty use.
+  (c) The prohibition or regulation of weapons whose design and firepower make them especially suitable for mass casualty use
   (d) The carrying of firearms in sensitive locations including schools, government buildings, polling places, and places of worship
   (e) The possession of firearms by persons convicted of violent felonies or subject to domestic violence orders
 
@@ -196,15 +196,15 @@ A warrant authorizing a digital search must specify the data to be accessed and 
 
 **9.4 Cruel and unusual punishment.** No person shall be subjected to torture, cruel, unusual, or degrading punishment. Punishment shall be proportionate to the offense. The conditions of incarceration shall preserve the basic dignity of the incarcerated person.
 
-**9.4A — Death penalty.** The death penalty is neither required nor prohibited by this Constitution. A sentence of death carried out under the strict procedural conditions of this Section is not deemed to constitute cruel, unusual, or degrading punishment under Section 9.4 or a violation of the absolute rights enumerated in Section 1.4. Congress may by law authorize or abolish capital punishment. Any law authorizing the death penalty shall:
+**9.4A — Death penalty.** The death penalty is neither required nor prohibited by this Constitution. Congress may by law authorize or abolish capital punishment. Any law authorizing the death penalty shall:
   (a) Limit its application to a defined category of the most serious offenses
   (b) Require a unanimous jury finding that the death penalty is warranted
   (c) Provide for mandatory appellate review in every case
   (d) Include procedures specifically designed to prevent the execution of innocent persons
   (e) Be administered in a manner demonstrably free of racial, geographic, or other invidious disparity in application
-  (f) Subject jury selection in capital cases to independent statistical review for racial bias. If such a review finds racial bias in the composition of a capital jury, the conviction is automatically vacated and the case must be retried.
+  (f) Include effective safeguards against racial or other invidious discrimination in charging, jury selection, sentencing, and execution
 
-A law authorizing capital punishment that fails to meet these requirements is unconstitutional as a violation of Section 9.4.
+A law authorizing capital punishment that fails to meet these requirements violates Section 9.4.
 
 **9.5 Solitary confinement.** Extended solitary confinement — defined as isolation for more than fifteen consecutive days — constitutes cruel and unusual punishment and is prohibited, except where a judicial finding determines it is strictly necessary to protect the safety of other incarcerated persons or staff, for a defined period not to exceed 90 days.
 
@@ -225,18 +225,18 @@ A law authorizing capital punishment that fails to meet these requirements is un
   (d) Request deletion of data that is no longer necessary for its stated purpose, subject to lawful retention requirements
   (e) Be informed when their data has been disclosed to a third party or compromised in a breach
 
-**10.3** No government agency may purchase personal data from private entities to circumvent the warrant requirement that would apply to direct government collection of the same data. This prohibition extends to all acquisition of personal data through private intermediaries: government agencies may not purchase, receive as a voluntary tip, or otherwise obtain personal data through any private party if they could not have acquired that data directly under this Article. Data obtained through private intermediaries is treated as government-obtained data for all constitutional purposes.
+**10.3** No government agency may purchase or otherwise obtain personal data from a private entity in order to circumvent a constitutional requirement that would apply to direct government collection of the same data. Data so obtained is treated as government-obtained for all constitutional purposes.
 
 **10.4 Algorithmic due process.** No significant decision affecting a person's liberty, employment, housing, credit, benefits, or immigration status may be made solely by automated means without human review. Where automated systems are used in such decisions, the person affected has the right to:
   (a) Know that an automated system was used
   (b) Receive a meaningful explanation of the basis for the decision
   (c) Have the decision reviewed by a human official upon request
 
-"Meaningful human review" requires that the reviewing human have (a) access to all inputs and outputs of the automated system, (b) actual authority to override the decision, and (c) documented their independent judgment in the matter. Rubber-stamp review that does not meet all three requirements does not satisfy this Section.
+Human review must be real and not a rubber stamp.
 
-**10.5** Surveillance of persons in public spaces using facial recognition or other biometric identification by government agencies requires a warrant based on individualized suspicion. Indiscriminate mass biometric surveillance of the general public in public spaces is prohibited. The individualized suspicion required by this Section must be established before the identification occurs; post-hoc warrant applications based on bulk biometric collection are void.
+**10.5** Surveillance of persons in public spaces using facial recognition or other biometric identification by government agencies requires a warrant based on individualized suspicion. Indiscriminate mass biometric surveillance of the general public is prohibited.
 
-**10.6 — Right to internet access.** Every person has the right to access the public internet. The government may not deny, restrict, or throttle an individual's access to the public internet as punishment, as political coercion, or on the basis of their political views or associations. Congress shall ensure that basic internet infrastructure is available to all residents regardless of geographic location or income. This right applies to access to public internet infrastructure; it does not require any specific private provider to offer service, nor does it guarantee any particular speed or quality beyond basic access. Internet service providers operating under a federal or state franchise, license, or right-of-way agreement are subject to the same prohibition as government actors under this Section; denial or throttling of service as punishment or political coercion by any such provider is treated as state action for all constitutional purposes.
+**10.6 — Right to internet access.** Every person has the right to access the public internet. The government may not deny, restrict, or throttle that access as punishment, political coercion, or discrimination based on political views or associations. Congress shall ensure that basic internet infrastructure is reasonably available to all residents. This Section does not guarantee any particular private provider, speed, or service tier.
 
 ---
 
