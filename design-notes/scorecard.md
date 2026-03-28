@@ -40,7 +40,7 @@ Suggested scoring method:
 
 ## Current Baseline
 
-These are starting scores for the current draft.
+These are the current working scores for the draft after the latest simplification and consistency revisions.
 
 ### Summary Baseline
 
@@ -50,20 +50,20 @@ These are starting scores for the current draft.
 | Article I — Electoral System | 9.0 | Strong | Modern, coherent democratic architecture | Administration details are dense in places | Simplify without losing safeguards |
 | Article II — Legislature | 9.0 | Strong | Good balance of majority rule and institutional structure | Some procedures are highly detailed | Trim procedural text that could be statutory |
 | Article III — Executive | 8.5 | Strong | Serious anti-abuse design and accountability structure | Heavy complexity around emergencies, recall, and accountability | Reduce overlap and sharpen triggers |
-| Article IV — Judiciary | 7.5 | Good | Serious attempt to solve court capture and appointment instability | Still one of the most structurally complex articles | Simplify appointment and court-governance mechanics |
-| Article V — Civil and Political Rights | 8.0 | Strong | Broad, modern rights coverage | Some clauses read more like legislation than constitutional principle | Distinguish core rights from implementation detail |
+| Article IV — Judiciary | 8.0 | Strong | Court design is more legible and durable than before | Some institutional detail is still heavier than it needs to be | Continue trimming procedural density |
+| Article V — Civil and Political Rights | 8.5 | Strong | Broad, modern rights coverage with clearer principle-level drafting | A few sensitive carve-outs still need stress-testing | Review speech, religion, and digital-rights edge cases |
 | Article VI — Democratic Integrity | 9.0 | Strong | Excellent anti-subversion framing and election-defense focus | Some media and enforcement provisions may need narrowing | Stress-test enforceability and speech boundaries |
-| Article VII — Federalism and the States | 8.0 | Strong | Modernized federalism with clearer preemption rules | Some enforcement mechanisms need more polish | Simplify democratic-floor enforcement triggers |
+| Article VII — Federalism and the States | 8.5 | Strong | Modernized federalism with cleaner democratic-floor enforcement | Some preemption and local-control edge cases still need testing | Review administrability of preemption and local override rules |
 | Article VIII — Amendments | 8.5 | Strong | Thoughtful two-track design with anti-backsliding protection | Unamendability and review mechanics need careful calibration | Test for legitimacy and over-judicialization risk |
 | Article IX — Constitutional Organs | 8.5 | Strong | Narrow oversight bodies are a good design choice | Institutional detail is dense and cross-reference-heavy | Keep powers clear and reduce complexity |
-| Article X — Federal Agencies | 8.0 | Strong | Good attempt to constitutionalize anti-capture safeguards | Can drift toward administrative-code detail | Separate constitutional principles from operational rules |
-| Article XI — War Powers | 8.5 | Strong | Much clearer than the current US model | Some emergency and enforcement mechanics may be difficult in practice | Test command-chain realism under crisis conditions |
+| Article X — Federal Agencies | 8.5 | Strong | Strong anti-capture architecture with cleaner constitutional abstraction | A few agency-governance rules could still be compressed | Continue pruning operational detail |
+| Article XI — War Powers | 9.0 | Near-final | Strong anti-abuse architecture with a much clearer war-powers framework | Some command-chain and enforcement mechanics still need realism testing | Stress-test against crisis decision conditions |
 | Article XII — Campaign Finance | 9.0 | Strong | One of the clearest and most purposeful reform sections | Very detailed; some parts may belong in statute | Compress into higher-level constitutional rules |
-| Article XIII — Social, Economic, and Affirmative Rights | 7.5 | Good | Strong normative commitments and enforcement intent | Enforcement design remains delicate and judicial role is still heavy | Refine remedies and institutional limits |
-| Article XIV — Foreign Policy and National Security | 8.0 | Strong | Covers modern non-war threats better than most constitutions | Boundary with Article XI must stay sharp | Continue pruning overlap and clarifying institutional roles |
-| Article XV — Government Ethics | 8.5 | Strong | Strong anti-corruption and anti-self-dealing architecture | Some sections are highly specific and code-like | Consolidate detailed compliance mechanics |
-| Cross-References and Draft Integration | 7.0 | Needs Attention | Structure is now mostly coherent | Splits and revisions can leave stale links or drift | Run periodic consistency audits after every major reorganization |
-| Overall Draft | 8.4 | Strong | Ambitious, serious, and grounded in real failure modes | Main risk is over-complexity and draft sprawl | Simplify while preserving the core design logic |
+| Article XIII — Social, Economic, and Affirmative Rights | 8.0 | Strong | Clearer adequacy-review model and stronger judicial limits | Positive-rights language still needs some tightening | Continue simplifying guarantees without weakening floors |
+| Article XIV — Foreign Policy and National Security | 8.5 | Strong | Non-war national-security framework is clearer and better bounded | Gray-zone and intelligence provisions still need edge-case testing | Stress-test executive stretch scenarios |
+| Article XV — Government Ethics | 9.0 | Near-final | Strong anti-corruption architecture now stated at a more constitutional level | Some market-integrity provisions may still be slightly detailed | Final polish for abstraction and readability |
+| Cross-References and Draft Integration | 8.0 | Strong | Major split-article drift has been corrected and tracked | Historical logs can still confuse the current state of the text | Run one final whole-draft audit after future major edits |
+| Overall Draft | 8.8 | Strong | The draft is now substantially cleaner, more coherent, and more enforceable | Remaining work is mostly edge-case testing and polish rather than redesign | Finish targeted refinement in the still-dense articles |
 
 ### Criterion Breakdown
 
@@ -73,20 +73,38 @@ These are starting scores for the current draft.
 | Article I — Electoral System | 8.5 | 9.0 | 9.0 | 9.5 | 9.5 | 8.5 | 9.0 |
 | Article II — Legislature | 8.5 | 9.0 | 9.0 | 9.5 | 9.0 | 8.0 | 9.0 |
 | Article III — Executive | 8.0 | 8.5 | 8.5 | 8.5 | 9.5 | 7.5 | 8.5 |
-| Article IV — Judiciary | 7.0 | 7.5 | 7.5 | 8.0 | 8.5 | 6.5 | 7.5 |
-| Article V — Civil and Political Rights | 8.0 | 8.0 | 7.5 | 8.5 | 8.5 | 7.5 | 8.0 |
+| Article IV — Judiciary | 7.8 | 8.0 | 8.0 | 8.5 | 8.5 | 7.2 | 8.0 |
+| Article V — Civil and Political Rights | 8.5 | 8.5 | 8.0 | 8.8 | 8.8 | 8.2 | 8.5 |
 | Article VI — Democratic Integrity | 8.5 | 8.5 | 9.0 | 9.0 | 9.5 | 8.0 | 9.0 |
-| Article VII — Federalism and the States | 8.0 | 8.5 | 7.5 | 8.5 | 8.0 | 7.5 | 8.0 |
+| Article VII — Federalism and the States | 8.5 | 8.8 | 8.0 | 8.8 | 8.3 | 8.2 | 8.5 |
 | Article VIII — Amendments | 8.0 | 8.5 | 8.5 | 8.5 | 9.0 | 7.5 | 8.5 |
 | Article IX — Constitutional Organs | 8.0 | 8.5 | 8.5 | 8.5 | 9.0 | 7.5 | 8.5 |
-| Article X — Federal Agencies | 7.5 | 8.0 | 8.0 | 8.0 | 8.5 | 7.0 | 8.0 |
-| Article XI — War Powers | 8.0 | 8.5 | 8.0 | 8.5 | 9.5 | 7.5 | 8.5 |
+| Article X — Federal Agencies | 8.2 | 8.5 | 8.5 | 8.3 | 8.8 | 8.5 | 8.5 |
+| Article XI — War Powers | 8.8 | 9.0 | 8.5 | 8.8 | 9.5 | 8.5 | 9.0 |
 | Article XII — Campaign Finance | 8.5 | 9.0 | 9.0 | 9.0 | 9.5 | 7.5 | 9.0 |
-| Article XIII — Social, Economic, and Affirmative Rights | 7.5 | 7.5 | 7.0 | 8.5 | 8.0 | 6.5 | 7.5 |
-| Article XIV — Foreign Policy and National Security | 7.5 | 8.0 | 8.0 | 8.0 | 8.5 | 7.0 | 8.0 |
-| Article XV — Government Ethics | 8.0 | 8.5 | 9.0 | 8.5 | 9.5 | 7.5 | 8.5 |
-| Cross-References and Draft Integration | 7.0 | 7.0 | 7.0 | 7.0 | 7.0 | 7.0 | 7.0 |
-| Overall Draft | 8.0 | 8.3 | 8.2 | 8.7 | 8.9 | 7.5 | 8.4 |
+| Article XIII — Social, Economic, and Affirmative Rights | 8.0 | 8.0 | 7.8 | 8.8 | 8.3 | 7.3 | 8.0 |
+| Article XIV — Foreign Policy and National Security | 8.3 | 8.5 | 8.5 | 8.3 | 8.8 | 8.5 | 8.5 |
+| Article XV — Government Ethics | 8.8 | 9.0 | 9.0 | 8.8 | 9.5 | 8.8 | 9.0 |
+| Cross-References and Draft Integration | 8.0 | 8.0 | 8.0 | 8.0 | 8.0 | 8.0 | 8.0 |
+| Overall Draft | 8.5 | 8.7 | 8.6 | 8.9 | 9.0 | 8.2 | 8.8 |
+
+### Current US Constitution Baseline
+
+This is a comparative baseline for the current United States Constitution using the same rubric. These scores are necessarily more synthetic because the present Constitution relies heavily on later amendments, statutes, institutions, and judicial doctrine to function.
+
+| Area | Score | Status | Main Strength | Main Weakness | Comparative Note |
+|------|-------|--------|---------------|---------------|------------------|
+| Current US Constitution | 6.0 | Mixed | Durable framework with strong civil-liberty traditions and stable transfer-of-power norms under good-faith conditions | Major democratic distortions, weak anti-authoritarian safeguards, and heavy dependence on extra-constitutional patchwork | Strong historical legitimacy, weak fit for current democratic and governance failures |
+
+| Criterion | Score | Comparative Reason |
+|-----------|-------|--------------------|
+| Clarity | 7.0 | Concise and canonical, but many core rules are under-specified for modern governance |
+| Internal Consistency | 6.0 | Amended over time without full redesign, leaving tensions between original structure and later guarantees |
+| Enforceability | 6.5 | Courts can enforce many limits, but some core structural failures are politically entrenched rather than judicially remediable |
+| Democratic Legitimacy | 4.5 | Electoral College, malapportioned Senate, and extreme amendment difficulty permit durable minority rule |
+| Abuse Resistance | 4.5 | The design assumes good faith and leaves dangerous openings around coups, corruption, emergency power, and partisan hardball |
+| Draft Discipline | 7.5 | Brevity is a virtue, but constitutional silence has shifted too much of the real design burden elsewhere |
+| Overall | 6.0 | Historically foundational, but structurally outdated relative to the goals of this project |
 
 ### Blank Re-Scoring Template
 
@@ -159,8 +177,8 @@ Before raising a score, ask:
 
 Recommended focus order:
 
-1. Article IV — Judiciary
-2. Article XIII — Social, Economic, and Affirmative Rights
-3. Cross-references and draft integration
-4. Article V — Civil and Political Rights
-5. Article X — Federal Agencies
+1. Article III — Executive
+2. Article XII — Campaign Finance
+3. Article IX — Constitutional Organs
+4. Preamble
+5. Final whole-draft polish and consistency review
