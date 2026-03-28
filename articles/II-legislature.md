@@ -107,7 +107,7 @@ The states of the United States are organized into the following eight geographi
 
 **6.1** Members of Congress shall receive compensation set by law. No law increasing congressional compensation shall take effect until after an election of the House of Representatives has intervened.
 
-**6.2** Members of Congress shall file complete financial disclosures as required by Article VI and the Accountability Commission (Article IX).
+**6.2** Members of Congress shall file complete financial disclosures as required by Article XV and by the Accountability Commission (Article IX).
 
 **6.3** No member of Congress may hold a financial interest in any matter before their chamber, vote on any legislation from which they stand to derive direct personal financial benefit, or accept gifts, payments, or compensation from any person or entity seeking to influence legislation, beyond the compensation established by law.
 

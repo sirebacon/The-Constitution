@@ -94,7 +94,7 @@ The Division shall not directly supervise individual state campaign finance tran
 
 ### What the Electoral Commission Cannot Do
 - Prosecute criminal violations directly — referral to the Accountability Commission only
-- Determine the eligibility of candidates — judicial function
+- Make final, unreviewable determinations of candidate eligibility, except where this Constitution expressly assigns the Commission an administrative ballot-qualification function subject to expedited judicial review
 - Administer state elections unless a state requests or a federal court orders it
 - Direct the Accountability Commission in any investigation
 
@@ -105,7 +105,7 @@ The Division shall not directly supervise individual state campaign finance tran
 - Removal only by impeachment: requires 2/3 of both legislative chambers plus a finding of cause by the Supreme Court
 - **Minimum qualifications:** Each Commissioner must have at least ten years of professional experience in election law, election administration, campaign finance law, public administration, constitutional law, or a closely related field. No Commissioner may have held a partisan elected office or served as a paid political campaign official within the ten years preceding their appointment. At least two Commissioners must have demonstrated expertise specifically in campaign finance law or enforcement.
 
-**Vacancy and temporary appointment.** If any Commissioner position has been vacant for more than 90 days due to the failure of one appointing authority to act, the Chief Justice shall fill the vacancy on a temporary basis until the appointing authority acts. The temporary appointment expires after 180 days if no permanent appointment has been made, at which point the Chief Justice's appointee becomes permanent.
+**Vacancy and temporary appointment.** If any Commissioner position has been vacant for more than 90 days due to the failure of one appointing authority to act, the Chief Justice may fill the vacancy on a temporary basis from among persons meeting the qualification requirements of this Article. A temporary appointment lasts until the ordinary appointing process is completed or for 180 days, whichever comes first. A temporary appointment may be renewed once for an additional 180 days by majority vote of the Supreme Court upon written findings that the appointing process remains deadlocked despite good-faith efforts to complete it. No temporary appointment becomes permanent without the ordinary appointment process required by this Article.
 
 **Definition of party affiliation.** For purposes of this Article, "affiliated with a political party" means: (a) registered as a member of that party within the prior 5 years; (b) having donated more than $500 to that party or its candidates within the prior 5 years; or (c) having publicly endorsed a candidate of that party within the prior 3 years. Informal association without any of these indicia does not constitute affiliation.
 
@@ -189,6 +189,8 @@ The Electoral Commission shall publish annually a report on enforcement actions 
 - Removal only by impeachment: requires 2/3 of both legislative chambers plus a finding of cause by the Supreme Court
 - **Minimum qualifications:** Each Commissioner must be either a licensed attorney with at least ten years of experience in criminal law, public corruption, constitutional law, or government oversight, or a certified public accountant or auditor with at least ten years of experience in federal financial auditing or forensic accounting. No Commissioner may have held a partisan elected office or served as a paid political campaign official within the ten years preceding their appointment.
 
+**Vacancy and temporary appointment.** If any Commissioner position has been vacant for more than 90 days due to the failure of one appointing authority to act, the Chief Justice may fill the vacancy on a temporary basis from among persons meeting the qualification requirements of this Article. A temporary appointment lasts until the ordinary appointing process is completed or for 180 days, whichever comes first. A temporary appointment may be renewed once for an additional 180 days by majority vote of the Supreme Court upon written findings that the appointing process remains deadlocked despite good-faith efforts to complete it. No temporary appointment becomes permanent without the ordinary appointment process required by this Article.
+
 ### Accountability
 - Electoral Commission conducts independent audit of Accountability Commission elections-related spending
 - Supreme Court has original jurisdiction over disputes about the Commission's authority
@@ -241,4 +243,3 @@ While the Commission's decision to decline a petition is not subject to judicial
 **6.4 — This Section is transitional.** Once both Commissions are fully constituted under this transitional process, Section 6 has no further operative effect. All subsequent appointments and vacancies are governed by Sections 2 and 3.
 
 ---
-- **Enforcement capacity for campaign finance framework?** Decision: **Structural reforms added** (Section 2). Electoral Commission split into two permanent divisions with separate budget lines: Election Administration and Campaign Finance Enforcement. Technology infrastructure mandate — real-time tracking, automated alerts, algorithmic pattern detection. Open data mandate — machine-readable public APIs for all disclosures. State compliance model — audit state bodies, not individual transactions; systematic non-compliance referred to Accountability Commission. Tiered enforcement framework (Section 3): Tier 1 automated civil fines (Electoral Commission); Tier 2 formal investigation (Electoral Commission); Tier 3 criminal prosecution (Accountability Commission); Tier 4 state body referrals. Annual enforcement reports at each tier required from both Commissions.

@@ -21,9 +21,9 @@ Use this order when deciding what to work on:
 | Priority | Area | Why It Matters | Main Issue | Target Outcome |
 |----------|------|----------------|------------|----------------|
 | 1 | Article XII — Campaign Finance | Strong substance still reads too much like compliance code | Too many implementation mechanics remain in constitutional text | A shorter principles-first campaign-finance article |
-| 2 | Article IX — Constitutional Organs | Commission design affects enforcement across the draft | Institutional detail is still dense and cross-reference-heavy | A clearer, more self-contained organs article |
-| 3 | Preamble | Founding prose sets the tone of the whole project | The current language is clear but not yet memorable | A more durable and quotable preamble |
-| 4 | Stress Tests and Draft Integration | The draft is now strong enough that edge cases matter more than redesign | New revisions need pressure-testing across articles | A scenario-tested, internally stable final draft |
+| 2 | Article IV — Judiciary | Court design still carries the most remaining institutional density | Appointment and governance rules are stronger but still heavier than they need to be | A simpler near-final judiciary article |
+| 3 | Stress Tests and Draft Integration | The draft is now strong enough that edge cases matter more than redesign | New revisions need pressure-testing across articles | A scenario-tested, internally stable final draft |
+| 4 | Article IX — Constitutional Organs | The core conflicts are fixed, but the article is still dense | Commission design still leans procedural in places | A clearer, more self-contained organs article |
 | 5 | Article II — Legislature | Strong structure still carries procedural density in places | Some mechanics may belong in statute rather than constitutional text | A cleaner legislative article without losing safeguards |
 
 ---
@@ -162,7 +162,7 @@ Use this order when deciding what to work on:
 Recommended next drafting sprint:
 
 1. Compress Article XII
-2. Simplify Article IX
+2. Simplify Article IV
 3. Stress-test Articles III and XI against hard crisis scenarios
 
 ---
@@ -171,6 +171,7 @@ Recommended next drafting sprint:
 
 | Date | Fix | Result |
 |------|-----|--------|
+| 2026-03-28 | Gap-fix pass on Articles II, III, VIII, IX, X, and XV | Live contradictions, stale references, incomplete transition text, and several drafting-residue issues were resolved without changing the draft's core architecture |
 | 2026-03-28 | Article III simplification | The executive article now has cleaner emergency, incapacity, recall, succession, and accountability rules with less procedural clutter |
 | 2026-03-28 | Article XI compression and Article XV simplification | War powers remain strong with less operational clutter, and the ethics article now reads more like constitutional architecture than compliance code |
 | 2026-03-28 | Article VII simplification and Article XI/XIV boundary cleanup | Federalism enforcement is more legible and the war-powers article is more clearly separated from non-war national-security authorities |

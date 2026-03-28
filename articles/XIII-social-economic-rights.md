@@ -63,4 +63,3 @@ Establishes social, economic, environmental, and affirmative rights of all perso
 **4.7 — Children of incarcerated parents.** The incarceration of a parent does not, by itself, constitute grounds for the permanent termination of parental rights. The state shall make reasonable efforts to maintain family bonds where doing so is in the child's best interests.
 
 ---
-- All provisions moved from Article V Sections 11, 12, 13, and 15. Internal cross-references updated throughout.

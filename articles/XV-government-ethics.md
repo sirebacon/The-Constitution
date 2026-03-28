@@ -50,15 +50,15 @@ No federal official, and no spouse, domestic partner, or dependent child of a fe
 
 The purpose of this Section is to ensure that federal officials have no personal financial incentive to favor any company, sector, or industry over another in the exercise of their official duties.
 
-### 1.10 — Divestiture upon taking office
+### 1.9 — Divestiture upon taking office
 
 A federal official who holds prohibited investments at the time of taking office shall divest them within a reasonable period set by law. Congress shall provide tax-deferral or equivalent treatment for mandatory divestitures so that compliance is not penalized.
 
-### 1.11 — Real-time disclosure of all trades
+### 1.10 — Real-time disclosure of all trades
 
 All purchases, sales, and transfers of investments by a federal official or their covered family members shall be disclosed promptly to the Accountability Commission and made public in a searchable form as provided by law. Late or false disclosure is a violation regardless of whether the trade itself was permitted.
 
-### 1.12 — Penalties for investment violations
+### 1.11 — Penalties for investment violations
 
 A federal official or covered family member who holds a prohibited investment or executes a prohibited trade shall be subject to:
 
@@ -72,9 +72,9 @@ A federal official or covered family member who holds a prohibited investment or
 
   (e) **No profit from public service** — no federal official or covered family member may retain financial profit derived from non-public information obtained through public office
 
-### 1.13 — Scope of application
+### 1.12 — Scope of application
 
-The investment rules of Sections 1.8 through 1.12 apply to:
+The investment rules of Sections 1.8 through 1.11 apply to:
 
   - All members of Congress
   - The President, Vice President, and all Cabinet members
@@ -85,7 +85,7 @@ The investment rules of Sections 1.8 through 1.12 apply to:
 
 The rules apply from the date the official takes office or, for staff, from the date of appointment to a covered position. Congress may extend reasonable post-service rules where necessary to prevent evasion.
 
-### 1.14 — Prohibition on use of government resources for campaign purposes
+### 1.13 — Prohibition on use of government resources for campaign purposes
 
 No federal official and no federal employee may use government staff, facilities, equipment, communications systems, or funds paid for by taxpayers for any activity whose primary purpose is to support or oppose a candidate, political party, or ballot measure. This prohibition applies to:
 

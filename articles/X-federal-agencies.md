@@ -154,7 +154,7 @@ Disagreement with an agency's regulatory decisions, enforcement choices, rulemak
 
 **10.2** No agency shall be subjected to a sunset period of less than ten years. Shorter sunset periods are prohibited because they subject agencies to annual threats of elimination that can be used as leverage to influence regulatory decisions.
 
-**10.3** Where an agency is subject to a sunset requirement and Congress fails to reauthorize it by the sunset date, the agency's existing rules and regulations remain in effect for two years following the sunset date, during which period the agency's functions shall be carried out by the relevant Cabinet department under the direction of the President. Transferred rules may be changed only through lawful rulemaking.
+**10.3** Where an executive agency is subject to a sunset requirement and Congress fails to reauthorize it by the sunset date, the agency's existing rules and regulations remain in effect for two years following the sunset date, during which period the agency's functions shall be carried out by the relevant Cabinet department under the direction of the President. Where an independent regulatory agency is subject to a sunset requirement and Congress fails to reauthorize it by the sunset date, the agency shall continue for two years in caretaker form under its existing independent leadership solely to preserve ongoing proceedings, administer existing law, and prevent regulatory collapse while Congress acts. In either case, existing rules may be changed only through lawful rulemaking.
 
 ---
 

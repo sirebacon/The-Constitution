@@ -176,7 +176,15 @@ All amendments to the prior United States Constitution that are consistent with 
 
 ### 6.2 — Superseded Provisions
 
-The following provisions of the prior Constitution are superseded by this Constitution and are not carried forward: [to be enumerated during ratification proceedings]
+The following provisions of the prior United States Constitution are superseded by this Constitution and are not carried forward except to the extent that a substantively equivalent protection is restated elsewhere in this Constitution:
+
+  (a) All prior constitutional provisions governing the structure, composition, selection, terms, powers, or internal procedures of Congress, the Presidency, the Vice Presidency, the federal judiciary, and presidential electors, because those matters are replaced by Articles I through IV of this Constitution
+
+  (b) All prior constitutional provisions governing federalism, state-federal relations, and constitutional amendment procedures to the extent those matters are replaced by Articles VII and VIII of this Constitution
+
+  (c) The Tenth, Twelfth, Seventeenth, Twentieth, Twenty-Second, Twenty-Third, and Twenty-Fifth Amendments, all of which are replaced by express provisions of this Constitution
+
+  (d) Any clause, amendment, or structural rule of the prior Constitution that is inconsistent with direct national election of the President, the abolition of the Electoral College, the Regional Assembly, fixed Supreme Court terms, the Constitutional Organs established by Article IX, or the amendment framework of this Article
 
 ### 6.3 — First Amendment Cycle
 
@@ -185,4 +193,3 @@ No **Track 1 structural amendment** to this Constitution may be proposed until 1
 **Track 2 rights amendments** are not subject to this cooling-off period. Rights expansions may be proposed at any time after ratification. The democratic process that produces a rights amendment is itself sufficient deliberation; there is no justification for freezing rights expansion for a decade.
 
 ---
-- **Exact list of superseded provisions (Section 6.2)?** Decision: **To be determined at ratification proceedings.** Cannot be finalized until the full text is adopted and compared against the prior Constitution.

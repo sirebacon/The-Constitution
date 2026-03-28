@@ -289,4 +289,3 @@ Human review must be real and not a rubber stamp.
 **16.2** No right in this Article shall be interpreted to permit the use of that right as a weapon to destroy the rights of others.
 
 ---
-- **Social, economic, and affirmative rights?** Decision: **Moved to Article XIII**. Environmental rights, healthcare, education, housing, economic rights (minimum wage, right to organize), and children's rights are all in Article XIII. General principles of Section 1 of this Article apply to both.
