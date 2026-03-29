@@ -164,11 +164,8 @@ Disagreement with an agency's regulatory decisions, enforcement choices, rulemak
 
 **11.2 — Cap on political appointees.** The total number of political appointees across all executive agencies and departments, meaning positions not covered by civil service merit protections and filled at the pleasure of the President or a presidentially appointed official, shall not exceed one percent of the total number of civilian federal employees at any time. Officers removable only for cause are not political appointees for purposes of this cap.
 
-**11.3 — No reclassification as workaround.** The cap of Section 11.2 applies to all positions subject to at-will removal by political officials, regardless of how they are titled, categorized, or created. An executive order or regulation that reclassifies career positions as political appointments counts against the cap. If reclassification would cause the total to exceed one percent, the reclassification is void to the extent of the excess.
+**11.3 — No reclassification as workaround.** The cap of Section 11.2 applies to all positions subject to at-will removal by political officials, regardless of title, category, or form of creation. A presidential action that reclassifies career positions as political appointments is void to the extent it would evade or exceed the constitutional cap.
 
-**11.4 — Reporting.** The Office of Personnel Management shall publish quarterly a public report of the total number of political appointees across the executive branch as a percentage of the total civilian federal workforce. The Accountability Commission shall audit this report annually and refer any violation to Congress.
-
-**11.5 — Congress sets the list.** Congress shall establish by law the specific positions designated as political appointments. The President may not create new political appointment categories beyond those established by law. The total across all such categories must remain within the cap of Section 11.2.
+**11.4 — Public accounting.** Law shall provide public accounting of political appointments and independent review sufficient to enforce this Section. Congress shall establish by law the categories of political appointment, and the President may not create new categories beyond those established by law.
 
 ---
-- **Constitutional limit on total political appointees?** Decision: **Yes — 1% cap added** (Section 11). Covers all at-will positions regardless of title or category. Reclassification counted against cap. Quarterly public reporting and annual Accountability Commission audit.

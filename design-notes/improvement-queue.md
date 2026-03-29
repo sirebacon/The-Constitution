@@ -20,11 +20,13 @@ Use this order when deciding what to work on:
 
 | Priority | Area | Why It Matters | Main Issue | Target Outcome |
 |----------|------|----------------|------------|----------------|
-| 1 | Legislative nonperformance chains | The simulator now shows recurring missed constitutional deadlines as the dominant live weakness | War powers, emergency review, obstruction impeachment, and incapacity paths still depend on chambers acting on time | A draft where every remaining constitutionally required vote has a defensible default-consequence or anti-obstruction backstop |
-| 2 | Article XII — Constitutional Organs | It remains the weakest article on the scorecard and the most cross-reference-dependent | Commission powers and structure still read denser and more externally dependent than the rest of the draft | A simpler Constitutional Organs article that can stand more on its own |
-| 3 | Article IV — Judicial delay review | Strategic delay is better contained, but still one of the few non-legislative bottlenecks | Need to confirm that notice, conduct review, temporary effect, and finality are the right stopping point | A judiciary article that is anti-delay enough without becoming anti-independence |
+| 1 | Deadline and fallback audit | The simulator flags many missed deadlines, but not all of them are real constitutional gaps | Need to separate acceptable residual political-risk scenarios from places where delay still buys leverage | A documented keep/change matrix where each live deadline bottleneck is either accepted with reason or assigned a narrow fix |
+| 2 | Enforcement architecture review | The strongest anti-abuse protections now live in Article IV, Article VIII, Article XII, and Article XIX | These safeguards can drift toward procedural density or overlapping jurisdiction if left unattended | Enforcement paths that remain strong, bounded, and traceable in one read |
+| 3 | Final draft-discipline compression | Several articles are structurally sound but still denser than final constitutional text should be | Campaign finance, ethics, agencies, transition, and parts of the legislature still carry code-like detail | A cleaner constitutional text that preserves the current architecture without reopening abuse gaps |
 | 4 | Article IX plus Articles XIV/XV — targeted stress-testing and compression | These newer or newly centralized articles are structurally stronger but still need more edge-case pressure and cleanup | Citizenship edge cases and fiscal edge cases still need scenario coverage and selective compression | Cleaner, better-tested articles without backsliding into code-like text |
 | 5 | Final consistency and polish | The draft is close enough that cleanup now matters | Historical notes, residual wording drift, and presentation inconsistencies remain | A clean final-review candidate draft |
+
+See also: [presidential-system-hardening.md](presidential-system-hardening.md)
 
 ---
 

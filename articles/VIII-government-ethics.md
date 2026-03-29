@@ -60,17 +60,7 @@ All purchases, sales, and transfers of investments by a federal official or thei
 
 ### 1.11 — Penalties for investment violations
 
-A federal official or covered family member who holds a prohibited investment or executes a prohibited trade shall be subject to:
-
-  (a) **Disgorgement** — full surrender of all profits realized from the prohibited trade or holding, paid into the federal treasury
-
-  (b) **Civil fine** — a substantial fine set by law and proportionate to the profit realized or loss avoided
-
-  (c) **Criminal prosecution** — willful violation of this Section is a federal criminal offense prosecutable by the Accountability Commission
-
-  (d) **Removal from office** — serious or repeated violations constitute grounds for removal
-
-  (e) **No profit from public service** — no federal official or covered family member may retain financial profit derived from non-public information obtained through public office
+A federal official or covered family member who holds a prohibited investment or executes a prohibited trade shall be subject to disgorgement, substantial civil penalty, and, for willful violation, criminal prosecution. Serious or repeated violations are grounds for removal. No federal official or covered family member may retain financial profit derived from non-public information obtained through public office.
 
 ### 1.12 — Scope of application
 
@@ -143,15 +133,11 @@ The financial market regulator is structurally vulnerable to capture through per
   (c) A prohibition on any regulated entity offering payment or financial benefit to a departing employee conditioned on that employee's future regulatory decisions or favorable treatment. Any such arrangement is void.
   (d) Transition support sufficient to ensure that post-service restrictions do not function as a deterrent to qualified public service, and compensation during service adequate to attract qualified regulators.
 
-The Accountability Commission shall maintain a public registry of departing senior officials, their cooling-off status, and their disclosed post-service employment. Violations by former officials are prosecuted by the Accountability Commission; violations by regulated institutions are subject to the civil penalty regime of Section 2.4.
+Law shall provide public transparency sufficient to make post-service restrictions enforceable. Violations by former officials are prosecuted by the Accountability Commission; violations by regulated institutions are subject to the civil penalty regime of Section 2.4.
 
-### 2.9 — Jurisdiction over new financial instruments
+### 2.9 — Functional jurisdiction and enforcement capacity
 
-The financial market regulator's jurisdiction extends to all instruments that function as investments, securities, or derivatives, regardless of their technological form, the label applied by their issuers, or the novelty of the underlying asset. No financial instrument escapes regulatory oversight solely because it is new, digital, or structured to avoid existing definitional categories. Congress shall define the outer boundaries of this jurisdiction by law, but may not exempt a class of investment instruments from oversight entirely.
-
-### 2.10 — Market surveillance authority
-
-The financial market regulator shall maintain systems capable of detecting fraud, manipulation, and insider trading. Surveillance data shall be used only for lawful regulatory and enforcement purposes.
+The financial market regulator's jurisdiction extends to instruments that function as investments, securities, or derivatives regardless of technological form or evasive labeling. Congress shall not exempt an entire class of such instruments from effective oversight. Law shall provide investigative and surveillance authority sufficient to detect fraud, manipulation, and insider trading, subject to lawful use and constitutional constraint.
 
 ---
 
@@ -210,11 +196,10 @@ The Accountability Commission shall maintain the lobbyist registry, enforce disc
 
 **5.1** The provisions of this Article are enforced by the Accountability Commission (Article XII). The Commission's authority over the conduct covered by this Article — corruption, financial conflicts, civil service violations, and lobbying violations — cannot be overridden, transferred, or terminated by the President, Congress, or any other official.
 
-**5.2** The financial market regulator established under Section 2 of this Article operates as an independent enforcement body for civil securities violations. Criminal referrals from the financial market regulator are acted upon by the Accountability Commission under Section 2.6. The two bodies shall coordinate and may not duplicate proceedings against the same conduct.
+**5.2** The financial market regulator established under Section 2 of this Article operates as an independent enforcement body for civil market violations. Criminal referrals from that regulator are acted upon by the Accountability Commission under Section 2.6. Law shall provide coordination sufficient to prevent conflicting or duplicative proceedings over the same conduct.
 
 **5.3** Any federal official — including the President, any member of Congress, or any federal judge — is subject to investigation and prosecution under this Article. No office confers immunity from these provisions.
 
 **5.4** The Accountability Commission's authority to investigate and prosecute violations of this Article is part of the unamendable core of Article XI. It cannot be reduced, constrained, or eliminated by constitutional amendment. If the Accountability Commission becomes systemically captured or fails to perform its core functions for a prolonged period, the Supreme Court may declare it in institutional failure and trigger a reconstitution process established by law consistent with judicial independence and constitutional continuity.
 
 ---
-- All provisions moved from Article VI Sections 3, 3A, 4, and 6. Internal cross-references updated throughout.
