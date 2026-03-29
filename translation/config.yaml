@@ -1,0 +1,35 @@
+# Translation configuration
+
+# Source
+source_dir: articles
+
+# Model (claude-opus-4-6 for quality; claude-sonnet-4-6 for faster/cheaper drafts)
+model: claude-opus-4-6
+max_tokens_per_article: 8000
+
+# Output directory
+output_dir: translation/translations
+
+# Target languages
+target_languages:
+  # Priority 1 — largest US language communities
+  - code: es
+    name: Spanish
+  - code: zh-Hans
+    name: Chinese (Simplified)
+
+  # Priority 2 — major diaspora communities
+  - code: vi
+    name: Vietnamese
+  - code: tl
+    name: Tagalog
+  - code: ko
+    name: Korean
+
+  # Priority 3 — international coverage
+  - code: ar
+    name: Arabic
+  - code: fr
+    name: French
+  - code: pt
+    name: Portuguese (Brazilian)
