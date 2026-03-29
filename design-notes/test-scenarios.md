@@ -36,6 +36,9 @@ Status markers: `[x]` implemented — `[ ]` planned.
 | C1 | [x] Court Order Defied by Executive | `court-order-defied.json` | Art. II §16.2(c) | Executive refuses to comply with federal court enforcement order | Marshals enforce; contempt proceedings |
 | C2 | [x] Judicial Vacancy Exploitation | `judicial-vacancy-exploitation.json` | Art. IV §2.7 | Chief Justice incapacitated; President refuses to confirm successor | Judicial continuity rule designates substitute |
 | C3 | [x] Supreme Court Strategic Delay | `supreme-court-strategic-delay.json` | Art. IV §10.1, §10.4, §8.2 | Court withholds required delay notice and uses repeated nondecision to shape political timing | Judicial Conduct Board finds strategic delay as conduct-based misconduct |
+| C4 | [x] Shadow Docket — Emergency Stay Without Explanation | `shadow-docket-unexplained-order.json` | Art. IV §9.7 | Supreme Court issues emergency stay without the required explanation; party moves to void | Originating court voids unexplained stay |
+| C5 | [x] Justice Refuses Valid Recusal Demand | `justice-refuses-recusal.json` | Art. IV §7.3 | Judicial Conduct Board directs recusal; justice refuses | Automatic referral; justice barred from the case; removal proceedings may follow |
+| C6 | [x] Judicial Conduct Board Certification Deadlock | `judicial-conduct-board-certification-deadlock.json` | Art. IV §8.1, §8.2 | Board misses 60-day certification deadline on judicial impeachment articles | 2/3 chamber override allows impeachment path to continue |
 
 ---
 
@@ -114,6 +117,10 @@ Status markers: `[x]` implemented — `[ ]` planned.
 | # | Scenario | File | Provision | Stress Path | Expected Outcome |
 |---|----------|------|-----------|-------------|-----------------|
 | K1 | [x] Warrantless Domestic Surveillance | `warrantless-surveillance.json` | Art. V §5, Art. XV §6.5, Art. XVII §4.7 | Intelligence agency conducts warrantless surveillance of domestic political groups | Violation; court orders halt; ACC prosecution |
+| K2 | [x] Government Suppression of Political Speech | `political-speech-suppression.json` | Art. V §2.1, §2.6 | Executive branch restricts political expression by content or viewpoint | Courts void the restriction |
+| K3 | [x] State Equal Protection Violation | `state-equal-protection-violation.json` | Art. V §6.2, §7.2 | State enacts discriminatory classification based on sexual orientation | Courts apply strict scrutiny and void the law |
+| K4 | [x] Overbroad Rights Suspension | `overbroad-rights-suspension.json` | Art. V §1.3, §14.3 | Congress attempts nationwide rights suspension without the constitutionally required judicial finding and narrow tailoring | Suspension never takes effect |
+| K5 | [x] Data Purchase Warrant Circumvention | `data-purchase-warrant-circumvention.json` | Art. V §10.3, §5.3 | Government buys personal data from a broker to avoid the warrant requirement | Courts treat data as government-obtained and suppress it |
 
 ---
 

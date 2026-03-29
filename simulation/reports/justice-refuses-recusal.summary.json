@@ -1,0 +1,55 @@
+{
+  "scenario_id": "justice-refuses-recusal",
+  "title": "Justice Refuses Valid Recusal Demand",
+  "source_file": "simulation/scenarios/justice-refuses-recusal.json",
+  "status": "stress_point_found",
+  "triggered_provisions": [
+    "Article IV Section 7.3"
+  ],
+  "metrics": {
+    "satisfied_obligations": 2,
+    "failed_obligations": 0,
+    "unresolved_obligations": 0,
+    "violations": 1,
+    "bottlenecks": 0,
+    "timeline_entries": 8
+  },
+  "violations": [
+    {
+      "id": "justice_refuses_recusal",
+      "category": "institutional_stress",
+      "actor": "Associate Justice",
+      "source": "Article IV Section 7.3",
+      "severity": "high",
+      "day": 10,
+      "summary": "Associate Justice refuses to recuse despite a valid Judicial Conduct Board direction under Article IV Section 7.3. The refusal triggers an automatic referral and the justice is barred from the case."
+    }
+  ],
+  "bottlenecks": [],
+  "open_duties": [],
+  "satisfied_duties": [
+    {
+      "actor": "Judicial Conduct Board",
+      "duty": "rule on the recusal petition and direct the justice to recuse if the petition meets the standard",
+      "closed_day": 10,
+      "outcome": "directed recusal; the justice refused, triggering automatic referral and case bar under Article IV Section 7.3",
+      "source": "Article IV Section 7.3"
+    },
+    {
+      "actor": "Judicial Conduct Board",
+      "duty": "process the automatic recusal-refusal referral and determine whether removal proceedings are warranted",
+      "closed_day": 35,
+      "outcome": "processed the recusal-refusal referral and referred the matter for impeachment proceedings as conduct-based grounds for removal",
+      "source": "Article IV Section 7.3"
+    }
+  ],
+  "failed_duties": [],
+  "notes": [],
+  "ai_summary": {
+    "primary_violation": "Associate Justice refuses to recuse despite a valid Judicial Conduct Board direction under Article IV Section 7.3. The refusal triggers an automatic referral and the justice is barred from the case.",
+    "primary_bottleneck": null,
+    "primary_open_duty": null,
+    "system_risk": "institutional_stress",
+    "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+  }
+}

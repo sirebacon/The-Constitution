@@ -1,0 +1,49 @@
+{
+  "scenario_id": "political-speech-suppression",
+  "title": "Government Suppression of Political Speech",
+  "source_file": "simulation/scenarios/political-speech-suppression.json",
+  "status": "stress_point_found",
+  "triggered_provisions": [
+    "Article V Section 2.1",
+    "Article V Section 2.6"
+  ],
+  "metrics": {
+    "satisfied_obligations": 1,
+    "failed_obligations": 0,
+    "unresolved_obligations": 0,
+    "violations": 1,
+    "bottlenecks": 0,
+    "timeline_entries": 5
+  },
+  "violations": [
+    {
+      "id": "political_speech_restriction",
+      "category": "rights_suppression",
+      "actor": "Executive branch",
+      "source": "Article V Section 2.1 and Section 2.6",
+      "severity": "high",
+      "day": 1,
+      "summary": "Government issues an order restricting or penalizing political expression based on its political content or viewpoint, in violation of the highest-protection category of Article V Section 2.6."
+    }
+  ],
+  "bottlenecks": [],
+  "open_duties": [],
+  "satisfied_duties": [
+    {
+      "actor": "Federal courts",
+      "duty": "void the unconstitutional restriction on political speech",
+      "closed_day": 4,
+      "outcome": "voided the restriction on political speech on expedited review",
+      "source": "Article V Section 2.1 and Section 2.6"
+    }
+  ],
+  "failed_duties": [],
+  "notes": [],
+  "ai_summary": {
+    "primary_violation": "Government issues an order restricting or penalizing political expression based on its political content or viewpoint, in violation of the highest-protection category of Article V Section 2.6.",
+    "primary_bottleneck": null,
+    "primary_open_duty": null,
+    "system_risk": "institutional_stress",
+    "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+  }
+}

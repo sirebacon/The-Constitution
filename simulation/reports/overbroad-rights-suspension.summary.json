@@ -1,0 +1,49 @@
+{
+  "scenario_id": "overbroad-rights-suspension",
+  "title": "Overbroad Nationwide Rights Suspension Attempt",
+  "source_file": "simulation/scenarios/overbroad-rights-suspension.json",
+  "status": "stress_point_found",
+  "triggered_provisions": [
+    "Article V Section 1.3",
+    "Article V Section 14.3"
+  ],
+  "metrics": {
+    "satisfied_obligations": 1,
+    "failed_obligations": 0,
+    "unresolved_obligations": 0,
+    "violations": 1,
+    "bottlenecks": 0,
+    "timeline_entries": 6
+  },
+  "violations": [
+    {
+      "id": "overbroad_rights_suspension_void",
+      "category": "rights_suppression",
+      "actor": "Congress",
+      "source": "Article V Section 1.3 and Section 14.3",
+      "severity": "high",
+      "day": 3,
+      "summary": "Congress attempted a nationwide rights suspension that is not narrowly tailored to a geographic area or population directly affected by the emergency, in violation of Article V Section 1.3 and Section 14.3. Without the required judicial finding, the suspension does not take effect."
+    }
+  ],
+  "bottlenecks": [],
+  "open_duties": [],
+  "satisfied_duties": [
+    {
+      "actor": "D.C. Circuit Court of Appeals",
+      "duty": "determine whether the proposed nationwide rights suspension is narrowly tailored, necessary, and supported by a judicial finding that the emergency itself affects the entire nation as required by Article V Section 14.3",
+      "closed_day": 3,
+      "outcome": "declined to issue the required judicial finding because the proposed suspension is not narrowly tailored to the affected area and population",
+      "source": "Article V Section 1.3 and Section 14.3"
+    }
+  ],
+  "failed_duties": [],
+  "notes": [],
+  "ai_summary": {
+    "primary_violation": "Congress attempted a nationwide rights suspension that is not narrowly tailored to a geographic area or population directly affected by the emergency, in violation of Article V Section 1.3 and Section 14.3. Without the required judicial finding, the suspension does not take effect.",
+    "primary_bottleneck": null,
+    "primary_open_duty": null,
+    "system_risk": "institutional_stress",
+    "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+  }
+}

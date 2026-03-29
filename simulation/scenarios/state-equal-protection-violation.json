@@ -1,0 +1,23 @@
+{
+  "id": "state-equal-protection-violation",
+  "title": "State Enacts Discriminatory Classification",
+  "description": "A state enacts a law classifying persons on the basis of a protected characteristic. Federal courts apply strict scrutiny under Art V §6.2 and §7.2 and void the law.",
+  "articles_tested": ["Article V"],
+  "provisions_tested": ["Article V Section 6.2", "Article V Section 7.2"],
+  "events": [
+    {
+      "day": 1,
+      "type": "state_enacts_discriminatory_classification",
+      "actor": "State government",
+      "details": {
+        "characteristic": "sexual orientation"
+      }
+    },
+    {
+      "day": 28,
+      "type": "court_voids_discriminatory_state_law",
+      "actor": "Federal courts",
+      "details": {}
+    }
+  ]
+}

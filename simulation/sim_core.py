@@ -68,7 +68,7 @@ def categorize_failed_obligation(obligation: Obligation) -> str:
         return "executive_defiance"
     if obligation.actor in {"Federal courts", "Chief Justice", "Supreme Court", "U.S. District Court for D.C."}:
         return "judicial_delay"
-    if obligation.actor in {"Accountability Commission", "Electoral Commission"}:
+    if obligation.actor in {"Accountability Commission", "Electoral Commission", "Judicial Conduct Board"}:
         return "institutional_deadline_failure"
     return "missed_deadline"
 

@@ -1,0 +1,21 @@
+{
+  "id": "data-purchase-warrant-circumvention",
+  "title": "Government Purchases Data to Circumvent Warrant Requirement",
+  "description": "A government agency purchases personal data from a private data broker — including location data, communications metadata, and association records — to obtain information it would need a warrant to collect directly. Courts apply the warrant requirement under Art V §10.3 and suppress the data.",
+  "articles_tested": ["Article V"],
+  "provisions_tested": ["Article V Section 10.3", "Article V Section 5.3"],
+  "events": [
+    {
+      "day": 1,
+      "type": "agency_purchases_data_to_circumvent_warrant",
+      "actor": "Government agency",
+      "details": {}
+    },
+    {
+      "day": 14,
+      "type": "court_applies_warrant_requirement_to_purchased_data",
+      "actor": "Federal courts",
+      "details": {}
+    }
+  ]
+}

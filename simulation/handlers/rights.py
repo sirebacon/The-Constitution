@@ -184,6 +184,162 @@ def handle_court_blocks_cr_manipulation(state: SimulationState, event: dict[str,
     )
 
 
+def handle_government_targets_political_speech(state: SimulationState, event: dict[str, Any]) -> None:
+    day = int(event["day"])
+    state.provisions.update({"Article V Section 2.1", "Article V Section 2.6"})
+    state.add_violation(
+        "political_speech_restriction",
+        "rights_suppression",
+        "Executive branch",
+        "Government issues an order restricting or penalizing political expression based on its political content or viewpoint, in violation of the highest-protection category of Article V Section 2.6.",
+        "Article V Section 2.1 and Section 2.6",
+        day,
+    )
+    state.add_obligation(
+        "court_void_speech_restriction",
+        "Federal courts",
+        "void the unconstitutional restriction on political speech",
+        "Article V Section 2.1 and Section 2.6",
+        day,
+        day + 3,
+        severity="high",
+    )
+
+
+def handle_court_voids_political_speech_restriction(state: SimulationState, event: dict[str, Any]) -> None:
+    day = int(event["day"])
+    state.resolve_obligation(
+        "court_void_speech_restriction",
+        day,
+        "voided the restriction on political speech on expedited review",
+    )
+    state.add_entry(
+        day,
+        "outcome",
+        "Political speech receives the highest level of constitutional protection under Article V Section 2.6. Laws targeting speech based on political content or viewpoint are void.",
+        "Article V Section 2.1 and Section 2.6",
+    )
+
+
+def handle_state_enacts_discriminatory_classification(state: SimulationState, event: dict[str, Any]) -> None:
+    day = int(event["day"])
+    details = event.get("details", {})
+    characteristic = details.get("characteristic", "a protected characteristic")
+    state.provisions.update({"Article V Section 6.2", "Article V Section 7.2"})
+    state.add_violation(
+        "state_equal_protection_violation",
+        "rights_suppression",
+        "State government",
+        f"State enacts a law that classifies persons on the basis of {characteristic}. Such classifications are presumptively unconstitutional under Article V Section 7.2 and must satisfy strict scrutiny.",
+        "Article V Section 6.2 and Section 7.2",
+        day,
+    )
+    state.add_obligation(
+        "court_apply_strict_scrutiny_to_state_law",
+        "Federal courts",
+        "apply strict scrutiny and void the discriminatory state classification if it fails",
+        "Article V Section 6.2 and Section 7.2",
+        day,
+        day + 30,
+        severity="high",
+    )
+
+
+def handle_court_voids_discriminatory_state_law(state: SimulationState, event: dict[str, Any]) -> None:
+    day = int(event["day"])
+    state.resolve_obligation(
+        "court_apply_strict_scrutiny_to_state_law",
+        day,
+        "applied strict scrutiny and voided the discriminatory state classification for failure to serve a compelling interest by the least restrictive means",
+    )
+    state.add_entry(
+        day,
+        "outcome",
+        "The state law is void under Article V Section 6.2 and Section 7.2. The rights floor applies to state governments; no state law may reduce or eliminate rights guaranteed by Article V.",
+        "Article V Section 1.5, Section 6.2, and Section 7.2",
+    )
+
+
+def handle_congress_votes_nationwide_rights_suspension(state: SimulationState, event: dict[str, Any]) -> None:
+    day = int(event["day"])
+    state.provisions.update({"Article V Section 1.3", "Article V Section 14.3"})
+    state.add_entry(
+        day,
+        "event",
+        "Congress passes a 2/3 vote in both chambers to suspend specific rights during the declared emergency, applicable nationwide. A judicial finding that the suspension is narrowly tailored is also required under Article V Section 1.3 before the suspension takes effect.",
+        "Article V Section 1.3",
+    )
+    state.add_obligation(
+        "court_finding_rights_suspension_narrowness",
+        "D.C. Circuit Court of Appeals",
+        "determine whether the proposed nationwide rights suspension is narrowly tailored, necessary, and supported by a judicial finding that the emergency itself affects the entire nation as required by Article V Section 14.3",
+        "Article V Section 1.3 and Section 14.3",
+        day,
+        day + 3,
+        severity="high",
+    )
+
+
+def handle_court_rejects_rights_suspension_finding(state: SimulationState, event: dict[str, Any]) -> None:
+    day = int(event["day"])
+    state.resolve_obligation(
+        "court_finding_rights_suspension_narrowness",
+        day,
+        "declined to issue the required judicial finding because the proposed suspension is not narrowly tailored to the affected area and population",
+    )
+    state.add_violation(
+        "overbroad_rights_suspension_void",
+        "rights_suppression",
+        "Congress",
+        "Congress attempted a nationwide rights suspension that is not narrowly tailored to a geographic area or population directly affected by the emergency, in violation of Article V Section 1.3 and Section 14.3. Without the required judicial finding, the suspension does not take effect.",
+        "Article V Section 1.3 and Section 14.3",
+        day,
+    )
+    state.add_entry(
+        day,
+        "outcome",
+        "The proposed suspension is void. A nationwide suspension requires a judicial finding that the emergency itself affects the entire nation. The court declined to make that finding.",
+        "Article V Section 1.3 and Section 14.3",
+    )
+
+
+def handle_agency_purchases_data_to_circumvent_warrant(state: SimulationState, event: dict[str, Any]) -> None:
+    day = int(event["day"])
+    state.provisions.update({"Article V Section 10.3", "Article V Section 5.3"})
+    state.add_violation(
+        "data_purchase_warrant_circumvention",
+        "rights_suppression",
+        "Government agency",
+        "Government agency purchases personal data from a private data broker — including location data, communications metadata, and association records — in order to obtain information it would need a warrant to collect directly, in violation of Article V Section 10.3.",
+        "Article V Section 10.3 and Section 5.3",
+        day,
+    )
+    state.add_obligation(
+        "court_apply_warrant_requirement_to_purchased_data",
+        "Federal courts",
+        "apply the warrant requirement to the purchased data under Article V Section 10.3 and suppress any evidence derived from it",
+        "Article V Section 10.3 and Section 5.3",
+        day,
+        day + 14,
+        severity="high",
+    )
+
+
+def handle_court_applies_warrant_requirement_to_purchased_data(state: SimulationState, event: dict[str, Any]) -> None:
+    day = int(event["day"])
+    state.resolve_obligation(
+        "court_apply_warrant_requirement_to_purchased_data",
+        day,
+        "treated the purchased data as government-obtained under Article V Section 10.3 and suppressed it as collected without a warrant",
+    )
+    state.add_entry(
+        day,
+        "outcome",
+        "Data purchased from a private entity to circumvent the warrant requirement is treated as government-obtained for all constitutional purposes under Article V Section 10.3. The warrant requirement cannot be evaded by routing collection through a commercial intermediary.",
+        "Article V Section 10.3 and Section 5.3",
+    )
+
+
 HANDLERS = {
     "warrantless_surveillance_conducted": handle_warrantless_surveillance_conducted,
     "court_orders_surveillance_halt": handle_court_orders_surveillance_halt,
@@ -195,4 +351,12 @@ HANDLERS = {
     "budget_deadline_missed": handle_budget_deadline_missed,
     "executive_attempts_selective_cr_funding": handle_executive_attempts_selective_cr_funding,
     "court_blocks_cr_manipulation": handle_court_blocks_cr_manipulation,
+    "government_targets_political_speech": handle_government_targets_political_speech,
+    "court_voids_political_speech_restriction": handle_court_voids_political_speech_restriction,
+    "state_enacts_discriminatory_classification": handle_state_enacts_discriminatory_classification,
+    "court_voids_discriminatory_state_law": handle_court_voids_discriminatory_state_law,
+    "congress_votes_nationwide_rights_suspension": handle_congress_votes_nationwide_rights_suspension,
+    "court_rejects_rights_suspension_finding": handle_court_rejects_rights_suspension_finding,
+    "agency_purchases_data_to_circumvent_warrant": handle_agency_purchases_data_to_circumvent_warrant,
+    "court_applies_warrant_requirement_to_purchased_data": handle_court_applies_warrant_requirement_to_purchased_data,
 }

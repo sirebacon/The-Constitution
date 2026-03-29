@@ -1,0 +1,31 @@
+{
+  "id": "judicial-conduct-board-certification-deadlock",
+  "title": "Judicial Conduct Board Certification Deadlock — House Override",
+  "description": "The House Judiciary Committee proposes articles of impeachment against a federal judge. The Judicial Conduct Board fails to certify within 60 days whether the articles are conduct-based. The House invokes the certification override by 2/3 vote and proceeds to a full impeachment vote under Art IV §8.1.",
+  "articles_tested": ["Article IV"],
+  "provisions_tested": ["Article IV Section 8.1", "Article IV Section 8.2"],
+  "events": [
+    {
+      "day": 1,
+      "type": "house_proposes_judge_impeachment_articles",
+      "actor": "House Judiciary Committee",
+      "details": {
+        "judge": "U.S. District Court Judge"
+      }
+    },
+    {
+      "day": 62,
+      "type": "house_invokes_conduct_board_certification_override",
+      "actor": "House of Representatives",
+      "details": {}
+    },
+    {
+      "day": 85,
+      "type": "house_votes_impeach_after_override",
+      "actor": "House of Representatives",
+      "details": {
+        "result": "passed"
+      }
+    }
+  ]
+}

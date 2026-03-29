@@ -341,6 +341,227 @@ def handle_national_referendum_confirms_rights_amendment(state: SimulationState,
     )
 
 
+def handle_supreme_court_issues_emergency_stay_without_explanation(state: SimulationState, event: dict[str, Any]) -> None:
+    day = int(event["day"])
+    details = event.get("details", {})
+    case = details.get("case", "a pending case")
+    state.provisions.add("Article IV Section 9.7")
+    state.add_entry(
+        day,
+        "event",
+        f"Supreme Court issues an emergency stay or injunction in {case} without a written explanation. Under Article IV Section 9.7, an explanation is required within 48 hours.",
+        "Article IV Section 9.7",
+    )
+    state.add_obligation(
+        "supreme_court_explain_emergency_stay",
+        "Supreme Court",
+        "publish a written explanation identifying the legal basis and the justices joining the emergency order",
+        "Article IV Section 9.7",
+        day,
+        day + 2,
+        severity="high",
+    )
+
+
+def handle_supreme_court_explains_emergency_stay(state: SimulationState, event: dict[str, Any]) -> None:
+    day = int(event["day"])
+    state.resolve_obligation(
+        "supreme_court_explain_emergency_stay",
+        day,
+        "published a written explanation of the emergency stay identifying the legal basis and the joining justices",
+    )
+    state.add_entry(
+        day,
+        "outcome",
+        "The emergency stay is procedurally valid under Article IV Section 9.7. The explanation is public and the joining justices are identified.",
+        "Article IV Section 9.7",
+    )
+
+
+def handle_party_moves_to_void_unexplained_order(state: SimulationState, event: dict[str, Any]) -> None:
+    day = int(event["day"])
+    state.provisions.add("Article IV Section 9.7")
+    state.fail_obligation(
+        "supreme_court_explain_emergency_stay",
+        day,
+        "Supreme Court failed to provide a written explanation within 48 hours; a party has moved to void the unexplained emergency order under Article IV Section 9.7.",
+    )
+    state.add_obligation(
+        "originating_court_void_unexplained_stay",
+        "Originating court",
+        "void the unexplained emergency stay pursuant to Article IV Section 9.7",
+        "Article IV Section 9.7",
+        day,
+        day + 5,
+        severity="high",
+    )
+
+
+def handle_originating_court_voids_unexplained_emergency_stay(state: SimulationState, event: dict[str, Any]) -> None:
+    day = int(event["day"])
+    state.resolve_obligation(
+        "originating_court_void_unexplained_stay",
+        day,
+        "voided the unexplained emergency stay for failure to comply with the Article IV Section 9.7 explanation requirement",
+    )
+    state.add_entry(
+        day,
+        "outcome",
+        "Emergency orders that lack a written explanation within 48 hours are voidable on motion under Article IV Section 9.7. The underlying proceeding resumes on the pre-stay schedule.",
+        "Article IV Section 9.7",
+    )
+
+
+def handle_party_demands_justice_recusal(state: SimulationState, event: dict[str, Any]) -> None:
+    day = int(event["day"])
+    details = event.get("details", {})
+    justice = details.get("justice", "A justice")
+    ground = details.get("ground", "financial conflict of interest")
+    state.provisions.add("Article IV Section 7.3")
+    state.add_entry(
+        day,
+        "event",
+        f"A party petitions the Judicial Conduct Board for recusal of {justice} on the ground of {ground}, pursuant to Article IV Section 7.3.",
+        "Article IV Section 7.3",
+    )
+    state.add_obligation(
+        "conduct_board_rule_on_recusal",
+        "Judicial Conduct Board",
+        "rule on the recusal petition and direct the justice to recuse if the petition meets the standard",
+        "Article IV Section 7.3",
+        day,
+        day + 14,
+        severity="high",
+    )
+
+
+def handle_justice_refuses_valid_recusal_demand(state: SimulationState, event: dict[str, Any]) -> None:
+    day = int(event["day"])
+    details = event.get("details", {})
+    justice = details.get("justice", "The justice")
+    state.provisions.add("Article IV Section 7.3")
+    state.add_violation(
+        "justice_refuses_recusal",
+        "institutional_stress",
+        justice,
+        f"{justice} refuses to recuse despite a valid Judicial Conduct Board direction under Article IV Section 7.3. The refusal triggers an automatic referral and the justice is barred from the case.",
+        "Article IV Section 7.3",
+        day,
+        severity="high",
+    )
+    state.resolve_obligation(
+        "conduct_board_rule_on_recusal",
+        day,
+        "directed recusal; the justice refused, triggering automatic referral and case bar under Article IV Section 7.3",
+    )
+    state.add_obligation(
+        "conduct_board_process_recusal_referral",
+        "Judicial Conduct Board",
+        "process the automatic recusal-refusal referral and determine whether removal proceedings are warranted",
+        "Article IV Section 7.3",
+        day,
+        day + 30,
+        severity="high",
+    )
+
+
+def handle_judicial_conduct_board_processes_recusal_referral(state: SimulationState, event: dict[str, Any]) -> None:
+    day = int(event["day"])
+    details = event.get("details", {})
+    outcome = details.get("outcome", "referred the matter for impeachment proceedings")
+    state.resolve_obligation(
+        "conduct_board_process_recusal_referral",
+        day,
+        f"processed the recusal-refusal referral and {outcome}",
+    )
+    state.add_entry(
+        day,
+        "outcome",
+        "Refusal to comply with a valid recusal direction is independently reviewable conduct under Article IV Section 7.3. The justice is barred from the case regardless of the removal outcome.",
+        "Article IV Section 7.3 and Section 8.1",
+    )
+
+
+def handle_house_proposes_judge_impeachment_articles(state: SimulationState, event: dict[str, Any]) -> None:
+    day = int(event["day"])
+    details = event.get("details", {})
+    judge = details.get("judge", "A federal judge")
+    state.provisions.update({"Article IV Section 8.1", "Article IV Section 8.2"})
+    state.add_entry(
+        day,
+        "event",
+        f"House Judiciary Committee proposes articles of impeachment against {judge}. Under Article IV Section 8.1, the Judicial Conduct Board must certify within 60 days whether the articles are conduct-based.",
+        "Article IV Section 8.1",
+    )
+    state.add_obligation(
+        "conduct_board_certify_articles_conduct_based",
+        "Judicial Conduct Board",
+        "certify whether the proposed impeachment articles are conduct-based and not based on the substance of judicial opinions",
+        "Article IV Section 8.1",
+        day,
+        day + 60,
+        severity="high",
+    )
+
+
+def handle_conduct_board_certifies_articles_conduct_based(state: SimulationState, event: dict[str, Any]) -> None:
+    day = int(event["day"])
+    state.resolve_obligation(
+        "conduct_board_certify_articles_conduct_based",
+        day,
+        "certified that the proposed impeachment articles are conduct-based and do not rest on the substance of any judicial opinion",
+    )
+    state.add_entry(
+        day,
+        "outcome",
+        "Certification satisfied. The House may proceed to a full impeachment vote under Article IV Section 8.1.",
+        "Article IV Section 8.1",
+    )
+
+
+def handle_house_invokes_conduct_board_certification_override(state: SimulationState, event: dict[str, Any]) -> None:
+    day = int(event["day"])
+    state.provisions.add("Article IV Section 8.1")
+    state.fail_obligation(
+        "conduct_board_certify_articles_conduct_based",
+        day,
+        "Judicial Conduct Board failed to certify within 60 days; House invokes the certification override by 2/3 vote under Article IV Section 8.1.",
+    )
+    state.add_entry(
+        day,
+        "event",
+        "The House votes by 2/3 majority to declare the articles conduct-based under the Article IV Section 8.1 certification override. The 2/3 vote constitutes the required finding and the House may proceed to a full impeachment vote.",
+        "Article IV Section 8.1",
+    )
+    state.add_obligation(
+        "house_full_impeachment_vote_after_override",
+        "House of Representatives",
+        "hold a full impeachment vote on the articles following the certification override",
+        "Article IV Section 8.1",
+        day,
+        day + 30,
+        severity="high",
+    )
+
+
+def handle_house_votes_impeach_after_override(state: SimulationState, event: dict[str, Any]) -> None:
+    day = int(event["day"])
+    details = event.get("details", {})
+    result = details.get("result", "passed")
+    state.resolve_obligation(
+        "house_full_impeachment_vote_after_override",
+        day,
+        f"voted on the impeachment articles following the certification override; vote {result}",
+    )
+    if result == "passed":
+        state.add_entry(
+            day,
+            "outcome",
+            "Impeachment articles adopted. The matter proceeds to the Regional Assembly for trial under Article IV Section 8.2.",
+            "Article IV Section 8.1 and Section 8.2",
+        )
+
+
 HANDLERS = {
     "court_issues_compliance_order": handle_court_issues_compliance_order,
     "executive_defies_court_order": handle_executive_defies_court_order,
@@ -359,4 +580,15 @@ HANDLERS = {
     "supreme_court_misses_preclearance_deadline": handle_supreme_court_misses_preclearance_deadline,
     "states_ratify_amendment": handle_states_ratify_amendment,
     "national_referendum_confirms_rights_amendment": handle_national_referendum_confirms_rights_amendment,
+    "supreme_court_issues_emergency_stay_without_explanation": handle_supreme_court_issues_emergency_stay_without_explanation,
+    "supreme_court_explains_emergency_stay": handle_supreme_court_explains_emergency_stay,
+    "party_moves_to_void_unexplained_order": handle_party_moves_to_void_unexplained_order,
+    "originating_court_voids_unexplained_emergency_stay": handle_originating_court_voids_unexplained_emergency_stay,
+    "party_demands_justice_recusal": handle_party_demands_justice_recusal,
+    "justice_refuses_valid_recusal_demand": handle_justice_refuses_valid_recusal_demand,
+    "judicial_conduct_board_processes_recusal_referral": handle_judicial_conduct_board_processes_recusal_referral,
+    "house_proposes_judge_impeachment_articles": handle_house_proposes_judge_impeachment_articles,
+    "conduct_board_certifies_articles_conduct_based": handle_conduct_board_certifies_articles_conduct_based,
+    "house_invokes_conduct_board_certification_override": handle_house_invokes_conduct_board_certification_override,
+    "house_votes_impeach_after_override": handle_house_votes_impeach_after_override,
 }

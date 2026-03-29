@@ -1,0 +1,29 @@
+{
+  "id": "shadow-docket-unexplained-order",
+  "title": "Shadow Docket — Emergency Stay Without Explanation",
+  "description": "The Supreme Court issues an emergency stay without a written explanation. A party moves to void the order after the 48-hour deadline passes without explanation. The originating court voids the stay under Art IV §9.7.",
+  "articles_tested": ["Article IV"],
+  "provisions_tested": ["Article IV Section 9.7"],
+  "events": [
+    {
+      "day": 1,
+      "type": "supreme_court_issues_emergency_stay_without_explanation",
+      "actor": "Supreme Court",
+      "details": {
+        "case": "a challenge to an executive agency rule"
+      }
+    },
+    {
+      "day": 4,
+      "type": "party_moves_to_void_unexplained_order",
+      "actor": "Petitioner",
+      "details": {}
+    },
+    {
+      "day": 7,
+      "type": "originating_court_voids_unexplained_emergency_stay",
+      "actor": "U.S. Court of Appeals",
+      "details": {}
+    }
+  ]
+}

@@ -1,9 +1,9 @@
 {
-  "scenario_count": 38,
-  "stress_point_scenarios": 37,
+  "scenario_count": 45,
+  "stress_point_scenarios": 44,
   "totals": {
-    "violations": 32,
-    "bottlenecks": 28,
+    "violations": 37,
+    "bottlenecks": 30,
     "unresolved_obligations": 0
   },
   "risk_pattern_counts": [
@@ -13,7 +13,7 @@
     },
     {
       "risk": "institutional_stress",
-      "count": 11
+      "count": 18
     },
     {
       "risk": "legislative_delay",
@@ -34,16 +34,16 @@
       "count": 14
     },
     {
+      "category": "judicial_delay",
+      "count": 6
+    },
+    {
       "category": "executive_defiance",
       "count": 5
     },
     {
-      "category": "judicial_delay",
-      "count": 5
-    },
-    {
       "category": "institutional_deadline_failure",
-      "count": 3
+      "count": 4
     },
     {
       "category": "state_backsliding",
@@ -57,11 +57,11 @@
     },
     {
       "category": "rights_suppression",
-      "count": 5
+      "count": 9
     },
     {
       "category": "institutional_stress",
-      "count": 3
+      "count": 4
     },
     {
       "category": "legislative_deadline_failure",
@@ -123,6 +123,14 @@
     },
     {
       "provision": "Article V Section 1",
+      "count": 2
+    },
+    {
+      "provision": "Article V Section 1.3",
+      "count": 2
+    },
+    {
+      "provision": "Article V Section 5.3",
       "count": 2
     },
     {
@@ -278,6 +286,22 @@
       "count": 1
     },
     {
+      "provision": "Article IV Section 7.3",
+      "count": 1
+    },
+    {
+      "provision": "Article IV Section 8.1",
+      "count": 1
+    },
+    {
+      "provision": "Article IV Section 8.2",
+      "count": 1
+    },
+    {
+      "provision": "Article IV Section 9.7",
+      "count": 1
+    },
+    {
       "provision": "Article IX Section 1",
       "count": 1
     },
@@ -290,7 +314,19 @@
       "count": 1
     },
     {
-      "provision": "Article V Section 1.3",
+      "provision": "Article V Section 10.3",
+      "count": 1
+    },
+    {
+      "provision": "Article V Section 14.3",
+      "count": 1
+    },
+    {
+      "provision": "Article V Section 2.1",
+      "count": 1
+    },
+    {
+      "provision": "Article V Section 2.6",
       "count": 1
     },
     {
@@ -298,7 +334,11 @@
       "count": 1
     },
     {
-      "provision": "Article V Section 5.3",
+      "provision": "Article V Section 6.2",
+      "count": 1
+    },
+    {
+      "provision": "Article V Section 7.2",
       "count": 1
     },
     {
@@ -907,6 +947,55 @@
         "primary_bottleneck": null,
         "primary_open_duty": null,
         "system_risk": "executive_defiance",
+        "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+      }
+    },
+    {
+      "scenario_id": "data-purchase-warrant-circumvention",
+      "title": "Government Purchases Data to Circumvent Warrant Requirement",
+      "source_file": "simulation/scenarios/data-purchase-warrant-circumvention.json",
+      "status": "stress_point_found",
+      "triggered_provisions": [
+        "Article V Section 10.3",
+        "Article V Section 5.3"
+      ],
+      "metrics": {
+        "satisfied_obligations": 1,
+        "failed_obligations": 0,
+        "unresolved_obligations": 0,
+        "violations": 1,
+        "bottlenecks": 0,
+        "timeline_entries": 5
+      },
+      "violations": [
+        {
+          "id": "data_purchase_warrant_circumvention",
+          "category": "rights_suppression",
+          "actor": "Government agency",
+          "source": "Article V Section 10.3 and Section 5.3",
+          "severity": "high",
+          "day": 1,
+          "summary": "Government agency purchases personal data from a private data broker \u2014 including location data, communications metadata, and association records \u2014 in order to obtain information it would need a warrant to collect directly, in violation of Article V Section 10.3."
+        }
+      ],
+      "bottlenecks": [],
+      "open_duties": [],
+      "satisfied_duties": [
+        {
+          "actor": "Federal courts",
+          "duty": "apply the warrant requirement to the purchased data under Article V Section 10.3 and suppress any evidence derived from it",
+          "closed_day": 14,
+          "outcome": "treated the purchased data as government-obtained under Article V Section 10.3 and suppressed it as collected without a warrant",
+          "source": "Article V Section 10.3 and Section 5.3"
+        }
+      ],
+      "failed_duties": [],
+      "notes": [],
+      "ai_summary": {
+        "primary_violation": "Government agency purchases personal data from a private data broker \u2014 including location data, communications metadata, and association records \u2014 in order to obtain information it would need a warrant to collect directly, in violation of Article V Section 10.3.",
+        "primary_bottleneck": null,
+        "primary_open_duty": null,
+        "system_risk": "institutional_stress",
         "recommended_focus": "review bottlenecks, violations, and unresolved duties"
       }
     },
@@ -1583,6 +1672,66 @@
       }
     },
     {
+      "scenario_id": "judicial-conduct-board-certification-deadlock",
+      "title": "Judicial Conduct Board Certification Deadlock \u2014 House Override",
+      "source_file": "simulation/scenarios/judicial-conduct-board-certification-deadlock.json",
+      "status": "stress_point_found",
+      "triggered_provisions": [
+        "Article IV Section 8.1",
+        "Article IV Section 8.2"
+      ],
+      "metrics": {
+        "satisfied_obligations": 1,
+        "failed_obligations": 1,
+        "unresolved_obligations": 0,
+        "violations": 0,
+        "bottlenecks": 1,
+        "timeline_entries": 8
+      },
+      "violations": [],
+      "bottlenecks": [
+        {
+          "id": "conduct_board_certify_articles_conduct_based",
+          "category": "institutional_deadline_failure",
+          "actor": "Judicial Conduct Board",
+          "source": "Article IV Section 8.1",
+          "severity": "high",
+          "day": 62,
+          "deadline_day": 61,
+          "summary": "Judicial Conduct Board failed to certify whether the proposed impeachment articles are conduct-based and not based on the substance of judicial opinions by day 61 under Article IV Section 8.1."
+        }
+      ],
+      "open_duties": [],
+      "satisfied_duties": [
+        {
+          "actor": "House of Representatives",
+          "duty": "hold a full impeachment vote on the articles following the certification override",
+          "closed_day": 85,
+          "outcome": "voted on the impeachment articles following the certification override; vote passed",
+          "source": "Article IV Section 8.1"
+        }
+      ],
+      "failed_duties": [
+        {
+          "actor": "Judicial Conduct Board",
+          "duty": "certify whether the proposed impeachment articles are conduct-based and not based on the substance of judicial opinions",
+          "deadline_day": 61,
+          "closed_day": 62,
+          "outcome": "Judicial Conduct Board failed to certify whether the proposed impeachment articles are conduct-based and not based on the substance of judicial opinions by day 61 under Article IV Section 8.1.",
+          "source": "Article IV Section 8.1",
+          "severity": "high"
+        }
+      ],
+      "notes": [],
+      "ai_summary": {
+        "primary_violation": null,
+        "primary_bottleneck": "Judicial Conduct Board failed to certify whether the proposed impeachment articles are conduct-based and not based on the substance of judicial opinions by day 61 under Article IV Section 8.1.",
+        "primary_open_duty": null,
+        "system_risk": "institutional_stress",
+        "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+      }
+    },
+    {
       "scenario_id": "judicial-vacancy-exploitation",
       "title": "Judicial Vacancy \u2014 President Refuses to Nominate",
       "source_file": "simulation/scenarios/judicial-vacancy-exploitation.json",
@@ -1633,6 +1782,61 @@
         "primary_bottleneck": "President refused to submit a nomination within the required period, triggering the Judicial Nominations Commission backstop under Article IV Section 3.4.",
         "primary_open_duty": null,
         "system_risk": "executive_defiance",
+        "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+      }
+    },
+    {
+      "scenario_id": "justice-refuses-recusal",
+      "title": "Justice Refuses Valid Recusal Demand",
+      "source_file": "simulation/scenarios/justice-refuses-recusal.json",
+      "status": "stress_point_found",
+      "triggered_provisions": [
+        "Article IV Section 7.3"
+      ],
+      "metrics": {
+        "satisfied_obligations": 2,
+        "failed_obligations": 0,
+        "unresolved_obligations": 0,
+        "violations": 1,
+        "bottlenecks": 0,
+        "timeline_entries": 8
+      },
+      "violations": [
+        {
+          "id": "justice_refuses_recusal",
+          "category": "institutional_stress",
+          "actor": "Associate Justice",
+          "source": "Article IV Section 7.3",
+          "severity": "high",
+          "day": 10,
+          "summary": "Associate Justice refuses to recuse despite a valid Judicial Conduct Board direction under Article IV Section 7.3. The refusal triggers an automatic referral and the justice is barred from the case."
+        }
+      ],
+      "bottlenecks": [],
+      "open_duties": [],
+      "satisfied_duties": [
+        {
+          "actor": "Judicial Conduct Board",
+          "duty": "rule on the recusal petition and direct the justice to recuse if the petition meets the standard",
+          "closed_day": 10,
+          "outcome": "directed recusal; the justice refused, triggering automatic referral and case bar under Article IV Section 7.3",
+          "source": "Article IV Section 7.3"
+        },
+        {
+          "actor": "Judicial Conduct Board",
+          "duty": "process the automatic recusal-refusal referral and determine whether removal proceedings are warranted",
+          "closed_day": 35,
+          "outcome": "processed the recusal-refusal referral and referred the matter for impeachment proceedings as conduct-based grounds for removal",
+          "source": "Article IV Section 7.3"
+        }
+      ],
+      "failed_duties": [],
+      "notes": [],
+      "ai_summary": {
+        "primary_violation": "Associate Justice refuses to recuse despite a valid Judicial Conduct Board direction under Article IV Section 7.3. The refusal triggers an automatic referral and the justice is barred from the case.",
+        "primary_bottleneck": null,
+        "primary_open_duty": null,
+        "system_risk": "institutional_stress",
         "recommended_focus": "review bottlenecks, violations, and unresolved duties"
       }
     },
@@ -1804,6 +2008,55 @@
         "primary_bottleneck": null,
         "primary_open_duty": null,
         "system_risk": "executive_defiance",
+        "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+      }
+    },
+    {
+      "scenario_id": "overbroad-rights-suspension",
+      "title": "Overbroad Nationwide Rights Suspension Attempt",
+      "source_file": "simulation/scenarios/overbroad-rights-suspension.json",
+      "status": "stress_point_found",
+      "triggered_provisions": [
+        "Article V Section 1.3",
+        "Article V Section 14.3"
+      ],
+      "metrics": {
+        "satisfied_obligations": 1,
+        "failed_obligations": 0,
+        "unresolved_obligations": 0,
+        "violations": 1,
+        "bottlenecks": 0,
+        "timeline_entries": 6
+      },
+      "violations": [
+        {
+          "id": "overbroad_rights_suspension_void",
+          "category": "rights_suppression",
+          "actor": "Congress",
+          "source": "Article V Section 1.3 and Section 14.3",
+          "severity": "high",
+          "day": 3,
+          "summary": "Congress attempted a nationwide rights suspension that is not narrowly tailored to a geographic area or population directly affected by the emergency, in violation of Article V Section 1.3 and Section 14.3. Without the required judicial finding, the suspension does not take effect."
+        }
+      ],
+      "bottlenecks": [],
+      "open_duties": [],
+      "satisfied_duties": [
+        {
+          "actor": "D.C. Circuit Court of Appeals",
+          "duty": "determine whether the proposed nationwide rights suspension is narrowly tailored, necessary, and supported by a judicial finding that the emergency itself affects the entire nation as required by Article V Section 14.3",
+          "closed_day": 3,
+          "outcome": "declined to issue the required judicial finding because the proposed suspension is not narrowly tailored to the affected area and population",
+          "source": "Article V Section 1.3 and Section 14.3"
+        }
+      ],
+      "failed_duties": [],
+      "notes": [],
+      "ai_summary": {
+        "primary_violation": "Congress attempted a nationwide rights suspension that is not narrowly tailored to a geographic area or population directly affected by the emergency, in violation of Article V Section 1.3 and Section 14.3. Without the required judicial finding, the suspension does not take effect.",
+        "primary_bottleneck": null,
+        "primary_open_duty": null,
+        "system_risk": "institutional_stress",
         "recommended_focus": "review bottlenecks, violations, and unresolved duties"
       }
     },
@@ -1993,6 +2246,55 @@
         "primary_bottleneck": "House of Representatives failed to hold the required impeachment vote on the PMC substitution violation by day 26 under Article III Section 10.2A and Article XVI Section 4.4.",
         "primary_open_duty": null,
         "system_risk": "executive_defiance",
+        "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+      }
+    },
+    {
+      "scenario_id": "political-speech-suppression",
+      "title": "Government Suppression of Political Speech",
+      "source_file": "simulation/scenarios/political-speech-suppression.json",
+      "status": "stress_point_found",
+      "triggered_provisions": [
+        "Article V Section 2.1",
+        "Article V Section 2.6"
+      ],
+      "metrics": {
+        "satisfied_obligations": 1,
+        "failed_obligations": 0,
+        "unresolved_obligations": 0,
+        "violations": 1,
+        "bottlenecks": 0,
+        "timeline_entries": 5
+      },
+      "violations": [
+        {
+          "id": "political_speech_restriction",
+          "category": "rights_suppression",
+          "actor": "Executive branch",
+          "source": "Article V Section 2.1 and Section 2.6",
+          "severity": "high",
+          "day": 1,
+          "summary": "Government issues an order restricting or penalizing political expression based on its political content or viewpoint, in violation of the highest-protection category of Article V Section 2.6."
+        }
+      ],
+      "bottlenecks": [],
+      "open_duties": [],
+      "satisfied_duties": [
+        {
+          "actor": "Federal courts",
+          "duty": "void the unconstitutional restriction on political speech",
+          "closed_day": 4,
+          "outcome": "voided the restriction on political speech on expedited review",
+          "source": "Article V Section 2.1 and Section 2.6"
+        }
+      ],
+      "failed_duties": [],
+      "notes": [],
+      "ai_summary": {
+        "primary_violation": "Government issues an order restricting or penalizing political expression based on its political content or viewpoint, in violation of the highest-protection category of Article V Section 2.6.",
+        "primary_bottleneck": null,
+        "primary_open_duty": null,
+        "system_risk": "institutional_stress",
         "recommended_focus": "review bottlenecks, violations, and unresolved duties"
       }
     },
@@ -2556,6 +2858,65 @@
       }
     },
     {
+      "scenario_id": "shadow-docket-unexplained-order",
+      "title": "Shadow Docket \u2014 Emergency Stay Without Explanation",
+      "source_file": "simulation/scenarios/shadow-docket-unexplained-order.json",
+      "status": "stress_point_found",
+      "triggered_provisions": [
+        "Article IV Section 9.7"
+      ],
+      "metrics": {
+        "satisfied_obligations": 1,
+        "failed_obligations": 1,
+        "unresolved_obligations": 0,
+        "violations": 0,
+        "bottlenecks": 1,
+        "timeline_entries": 7
+      },
+      "violations": [],
+      "bottlenecks": [
+        {
+          "id": "supreme_court_explain_emergency_stay",
+          "category": "judicial_delay",
+          "actor": "Supreme Court",
+          "source": "Article IV Section 9.7",
+          "severity": "high",
+          "day": 4,
+          "deadline_day": 3,
+          "summary": "Supreme Court failed to publish a written explanation identifying the legal basis and the justices joining the emergency order by day 3 under Article IV Section 9.7."
+        }
+      ],
+      "open_duties": [],
+      "satisfied_duties": [
+        {
+          "actor": "Originating court",
+          "duty": "void the unexplained emergency stay pursuant to Article IV Section 9.7",
+          "closed_day": 7,
+          "outcome": "voided the unexplained emergency stay for failure to comply with the Article IV Section 9.7 explanation requirement",
+          "source": "Article IV Section 9.7"
+        }
+      ],
+      "failed_duties": [
+        {
+          "actor": "Supreme Court",
+          "duty": "publish a written explanation identifying the legal basis and the justices joining the emergency order",
+          "deadline_day": 3,
+          "closed_day": 4,
+          "outcome": "Supreme Court failed to publish a written explanation identifying the legal basis and the justices joining the emergency order by day 3 under Article IV Section 9.7.",
+          "source": "Article IV Section 9.7",
+          "severity": "high"
+        }
+      ],
+      "notes": [],
+      "ai_summary": {
+        "primary_violation": null,
+        "primary_bottleneck": "Supreme Court failed to publish a written explanation identifying the legal basis and the justices joining the emergency order by day 3 under Article IV Section 9.7.",
+        "primary_open_duty": null,
+        "system_risk": "institutional_stress",
+        "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+      }
+    },
+    {
       "scenario_id": "single-subject-challenge",
       "title": "Omnibus Bill \u2014 Pre-Enactment Single-Subject Challenge",
       "source_file": "simulation/scenarios/single-subject-challenge.json",
@@ -2661,6 +3022,55 @@
         "primary_bottleneck": "Congress failed to enact a remedial measure for the violating state by day 180 under Article X Section 1.6(b).",
         "primary_open_duty": null,
         "system_risk": "democratic_backsliding",
+        "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+      }
+    },
+    {
+      "scenario_id": "state-equal-protection-violation",
+      "title": "State Enacts Discriminatory Classification",
+      "source_file": "simulation/scenarios/state-equal-protection-violation.json",
+      "status": "stress_point_found",
+      "triggered_provisions": [
+        "Article V Section 6.2",
+        "Article V Section 7.2"
+      ],
+      "metrics": {
+        "satisfied_obligations": 1,
+        "failed_obligations": 0,
+        "unresolved_obligations": 0,
+        "violations": 1,
+        "bottlenecks": 0,
+        "timeline_entries": 5
+      },
+      "violations": [
+        {
+          "id": "state_equal_protection_violation",
+          "category": "rights_suppression",
+          "actor": "State government",
+          "source": "Article V Section 6.2 and Section 7.2",
+          "severity": "high",
+          "day": 1,
+          "summary": "State enacts a law that classifies persons on the basis of sexual orientation. Such classifications are presumptively unconstitutional under Article V Section 7.2 and must satisfy strict scrutiny."
+        }
+      ],
+      "bottlenecks": [],
+      "open_duties": [],
+      "satisfied_duties": [
+        {
+          "actor": "Federal courts",
+          "duty": "apply strict scrutiny and void the discriminatory state classification if it fails",
+          "closed_day": 28,
+          "outcome": "applied strict scrutiny and voided the discriminatory state classification for failure to serve a compelling interest by the least restrictive means",
+          "source": "Article V Section 6.2 and Section 7.2"
+        }
+      ],
+      "failed_duties": [],
+      "notes": [],
+      "ai_summary": {
+        "primary_violation": "State enacts a law that classifies persons on the basis of sexual orientation. Such classifications are presumptively unconstitutional under Article V Section 7.2 and must satisfy strict scrutiny.",
+        "primary_bottleneck": null,
+        "primary_open_duty": null,
+        "system_risk": "institutional_stress",
         "recommended_focus": "review bottlenecks, violations, and unresolved duties"
       }
     },

@@ -1,0 +1,21 @@
+{
+  "id": "political-speech-suppression",
+  "title": "Government Suppression of Political Speech",
+  "description": "Executive branch issues an order restricting political expression based on content or viewpoint. Federal courts void the restriction under Art V §2.1 and §2.6.",
+  "articles_tested": ["Article V"],
+  "provisions_tested": ["Article V Section 2.1", "Article V Section 2.6"],
+  "events": [
+    {
+      "day": 1,
+      "type": "government_targets_political_speech",
+      "actor": "Executive branch",
+      "details": {}
+    },
+    {
+      "day": 4,
+      "type": "court_voids_political_speech_restriction",
+      "actor": "Federal courts",
+      "details": {}
+    }
+  ]
+}

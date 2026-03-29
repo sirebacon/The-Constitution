@@ -1,0 +1,59 @@
+{
+  "scenario_id": "shadow-docket-unexplained-order",
+  "title": "Shadow Docket \u2014 Emergency Stay Without Explanation",
+  "source_file": "simulation/scenarios/shadow-docket-unexplained-order.json",
+  "status": "stress_point_found",
+  "triggered_provisions": [
+    "Article IV Section 9.7"
+  ],
+  "metrics": {
+    "satisfied_obligations": 1,
+    "failed_obligations": 1,
+    "unresolved_obligations": 0,
+    "violations": 0,
+    "bottlenecks": 1,
+    "timeline_entries": 7
+  },
+  "violations": [],
+  "bottlenecks": [
+    {
+      "id": "supreme_court_explain_emergency_stay",
+      "category": "judicial_delay",
+      "actor": "Supreme Court",
+      "source": "Article IV Section 9.7",
+      "severity": "high",
+      "day": 4,
+      "deadline_day": 3,
+      "summary": "Supreme Court failed to publish a written explanation identifying the legal basis and the justices joining the emergency order by day 3 under Article IV Section 9.7."
+    }
+  ],
+  "open_duties": [],
+  "satisfied_duties": [
+    {
+      "actor": "Originating court",
+      "duty": "void the unexplained emergency stay pursuant to Article IV Section 9.7",
+      "closed_day": 7,
+      "outcome": "voided the unexplained emergency stay for failure to comply with the Article IV Section 9.7 explanation requirement",
+      "source": "Article IV Section 9.7"
+    }
+  ],
+  "failed_duties": [
+    {
+      "actor": "Supreme Court",
+      "duty": "publish a written explanation identifying the legal basis and the justices joining the emergency order",
+      "deadline_day": 3,
+      "closed_day": 4,
+      "outcome": "Supreme Court failed to publish a written explanation identifying the legal basis and the justices joining the emergency order by day 3 under Article IV Section 9.7.",
+      "source": "Article IV Section 9.7",
+      "severity": "high"
+    }
+  ],
+  "notes": [],
+  "ai_summary": {
+    "primary_violation": null,
+    "primary_bottleneck": "Supreme Court failed to publish a written explanation identifying the legal basis and the justices joining the emergency order by day 3 under Article IV Section 9.7.",
+    "primary_open_duty": null,
+    "system_risk": "institutional_stress",
+    "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+  }
+}

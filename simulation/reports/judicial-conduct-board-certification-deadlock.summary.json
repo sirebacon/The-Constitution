@@ -1,0 +1,60 @@
+{
+  "scenario_id": "judicial-conduct-board-certification-deadlock",
+  "title": "Judicial Conduct Board Certification Deadlock \u2014 House Override",
+  "source_file": "simulation/scenarios/judicial-conduct-board-certification-deadlock.json",
+  "status": "stress_point_found",
+  "triggered_provisions": [
+    "Article IV Section 8.1",
+    "Article IV Section 8.2"
+  ],
+  "metrics": {
+    "satisfied_obligations": 1,
+    "failed_obligations": 1,
+    "unresolved_obligations": 0,
+    "violations": 0,
+    "bottlenecks": 1,
+    "timeline_entries": 8
+  },
+  "violations": [],
+  "bottlenecks": [
+    {
+      "id": "conduct_board_certify_articles_conduct_based",
+      "category": "institutional_deadline_failure",
+      "actor": "Judicial Conduct Board",
+      "source": "Article IV Section 8.1",
+      "severity": "high",
+      "day": 62,
+      "deadline_day": 61,
+      "summary": "Judicial Conduct Board failed to certify whether the proposed impeachment articles are conduct-based and not based on the substance of judicial opinions by day 61 under Article IV Section 8.1."
+    }
+  ],
+  "open_duties": [],
+  "satisfied_duties": [
+    {
+      "actor": "House of Representatives",
+      "duty": "hold a full impeachment vote on the articles following the certification override",
+      "closed_day": 85,
+      "outcome": "voted on the impeachment articles following the certification override; vote passed",
+      "source": "Article IV Section 8.1"
+    }
+  ],
+  "failed_duties": [
+    {
+      "actor": "Judicial Conduct Board",
+      "duty": "certify whether the proposed impeachment articles are conduct-based and not based on the substance of judicial opinions",
+      "deadline_day": 61,
+      "closed_day": 62,
+      "outcome": "Judicial Conduct Board failed to certify whether the proposed impeachment articles are conduct-based and not based on the substance of judicial opinions by day 61 under Article IV Section 8.1.",
+      "source": "Article IV Section 8.1",
+      "severity": "high"
+    }
+  ],
+  "notes": [],
+  "ai_summary": {
+    "primary_violation": null,
+    "primary_bottleneck": "Judicial Conduct Board failed to certify whether the proposed impeachment articles are conduct-based and not based on the substance of judicial opinions by day 61 under Article IV Section 8.1.",
+    "primary_open_duty": null,
+    "system_risk": "institutional_stress",
+    "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+  }
+}

@@ -2,6 +2,58 @@
 
 This document records conclusions drawn from the constitutional flow simulator and its generated reports. Each entry should cite the relevant scenario outputs so recurring bottlenecks can be tracked over time.
 
+## 2026-03-29 Article IV and Article V Coverage Pass
+
+### Inputs Reviewed
+
+- [aggregate.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/aggregate.json)
+- [shadow-docket-unexplained-order.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/shadow-docket-unexplained-order.summary.json)
+- [justice-refuses-recusal.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/justice-refuses-recusal.summary.json)
+- [judicial-conduct-board-certification-deadlock.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/judicial-conduct-board-certification-deadlock.summary.json)
+- [political-speech-suppression.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/political-speech-suppression.summary.json)
+- [state-equal-protection-violation.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/state-equal-protection-violation.summary.json)
+- [overbroad-rights-suspension.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/overbroad-rights-suspension.summary.json)
+- [data-purchase-warrant-circumvention.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/data-purchase-warrant-circumvention.summary.json)
+
+### Aggregate Read
+
+- Scenario count rose from `38` to `45`.
+- `unresolved_obligations` remains `0`.
+- Article IV now has direct scenario coverage for shadow-docket transparency, recusal enforcement, and Conduct Board certification deadlock.
+- Article V now has direct scenario coverage for political speech suppression, equal-protection review, overbroad rights suspension, and data-broker warrant circumvention.
+
+### Main Results
+
+#### 1. Article IV's new anti-abuse provisions work as intended
+
+Sources:
+- [shadow-docket-unexplained-order.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/shadow-docket-unexplained-order.summary.json)
+- [justice-refuses-recusal.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/justice-refuses-recusal.summary.json)
+- [judicial-conduct-board-certification-deadlock.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/judicial-conduct-board-certification-deadlock.summary.json)
+
+- An unexplained emergency order now creates a short, visible judicial-delay bottleneck and can be voided by the originating court.
+- A justice who refuses a valid recusal direction is automatically referred and barred from the case pending resolution.
+- Judicial Conduct Board inaction no longer blocks the impeachment path because the chamber override can carry the process forward.
+
+Assessment:
+The Article IV strengthening pass is now directly validated. The remaining Article IV risks are not basic enforcement gaps but broader governance and delay edge cases.
+
+#### 2. Article V now has real enforcement coverage beyond generalized rights language
+
+Sources:
+- [political-speech-suppression.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/political-speech-suppression.summary.json)
+- [state-equal-protection-violation.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/state-equal-protection-violation.summary.json)
+- [overbroad-rights-suspension.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/overbroad-rights-suspension.summary.json)
+- [data-purchase-warrant-circumvention.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/data-purchase-warrant-circumvention.summary.json)
+
+- Courts void viewpoint-based suppression of political speech on expedited review.
+- Equal-protection classifications based on sexual orientation are reviewed under strict scrutiny and struck down.
+- Overbroad nationwide rights suspensions fail before taking effect when the required judicial finding is denied.
+- Government cannot evade the warrant requirement by buying data from a private broker.
+
+Assessment:
+Article V is now materially better validated. The next useful scenarios are religion, family/autonomy, and remaining digital-rights edge cases.
+
 ## 2026-03-28 Rerun Review
 
 ### Inputs Reviewed

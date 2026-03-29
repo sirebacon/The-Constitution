@@ -1,0 +1,21 @@
+{
+  "id": "overbroad-rights-suspension",
+  "title": "Overbroad Nationwide Rights Suspension Attempt",
+  "description": "During a declared emergency, Congress votes 2/3 in both chambers to suspend specific rights nationwide. The D.C. Circuit declines to issue the required judicial finding because the suspension is not narrowly tailored, voiding the attempt under Art V §1.3 and §14.3.",
+  "articles_tested": ["Article V"],
+  "provisions_tested": ["Article V Section 1.3", "Article V Section 14.3"],
+  "events": [
+    {
+      "day": 1,
+      "type": "congress_votes_nationwide_rights_suspension",
+      "actor": "Congress",
+      "details": {}
+    },
+    {
+      "day": 3,
+      "type": "court_rejects_rights_suspension_finding",
+      "actor": "D.C. Circuit Court of Appeals",
+      "details": {}
+    }
+  ]
+}

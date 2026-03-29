@@ -1,0 +1,34 @@
+{
+  "id": "justice-refuses-recusal",
+  "title": "Justice Refuses Valid Recusal Demand",
+  "description": "A party petitions the Judicial Conduct Board to require a justice's recusal based on a financial conflict of interest. The Board directs recusal; the justice refuses. The refusal triggers an automatic referral and the justice is barred from the case under Art IV §7.3.",
+  "articles_tested": ["Article IV"],
+  "provisions_tested": ["Article IV Section 7.3"],
+  "events": [
+    {
+      "day": 1,
+      "type": "party_demands_justice_recusal",
+      "actor": "Petitioner",
+      "details": {
+        "justice": "Associate Justice",
+        "ground": "undisclosed financial interest in a regulated entity before the Court"
+      }
+    },
+    {
+      "day": 10,
+      "type": "justice_refuses_valid_recusal_demand",
+      "actor": "Associate Justice",
+      "details": {
+        "justice": "Associate Justice"
+      }
+    },
+    {
+      "day": 35,
+      "type": "judicial_conduct_board_processes_recusal_referral",
+      "actor": "Judicial Conduct Board",
+      "details": {
+        "outcome": "referred the matter for impeachment proceedings as conduct-based grounds for removal"
+      }
+    }
+  ]
+}
