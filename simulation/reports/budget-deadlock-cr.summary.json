@@ -4,8 +4,9 @@
   "source_file": "simulation/scenarios/budget-deadlock-cr.json",
   "status": "stress_point_found",
   "triggered_provisions": [
-    "Article II Section 12.2",
-    "Article II Section 12.3"
+    "Article XV Section 3.2",
+    "Article XV Section 3.3",
+    "Article XV Section 3.4"
   ],
   "metrics": {
     "satisfied_obligations": 1,
@@ -20,7 +21,7 @@
       "id": "executive_cr_manipulation",
       "category": "executive_defiance",
       "actor": "Executive branch",
-      "source": "Article II Section 12.2",
+      "source": "Article XV Section 3.4",
       "severity": "high",
       "day": 5,
       "summary": "Executive branch attempts to alter funding ratios, withhold appropriated funds, or selectively apply funding levels under the automatic continuing resolution."
@@ -34,7 +35,7 @@
       "duty": "review the executive branch's selective CR funding manipulation on an expedited basis",
       "closed_day": 10,
       "outcome": "issued an expedited order blocking the executive branch's selective application of the automatic continuing resolution",
-      "source": "Article II Section 12.2"
+      "source": "Article XV Section 3.4"
     }
   ],
   "failed_duties": [],

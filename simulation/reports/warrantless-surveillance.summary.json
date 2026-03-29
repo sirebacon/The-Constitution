@@ -4,8 +4,8 @@
   "source_file": "simulation/scenarios/warrantless-surveillance.json",
   "status": "stress_point_found",
   "triggered_provisions": [
-    "Article II Section 12A.5",
-    "Article III Section 5.3"
+    "Article III Section 5.3",
+    "Article XV Section 6.5"
   ],
   "metrics": {
     "satisfied_obligations": 2,
@@ -20,10 +20,10 @@
       "id": "warrantless_domestic_surveillance",
       "category": "rights_suppression",
       "actor": "Intelligence agency",
-      "source": "Article III Section 5.3(d) and Article II Section 12A.5(a)",
+      "source": "Article III Section 5.3(d) and Article XV Section 6.5",
       "severity": "high",
       "day": 0,
-      "summary": "Intelligence agency conducts warrantless surveillance targeting a domestic political organization, without judicial warrant and in violation of Article III Section 5.3(d) and the prohibition on using classified appropriations for domestic political surveillance under Article II Section 12A.5(a)."
+      "summary": "Intelligence agency conducts warrantless surveillance targeting a domestic political organization, without judicial warrant and in violation of Article III Section 5.3(d) and the prohibition on using classified appropriations for domestic political surveillance under Article XV Section 6.5."
     }
   ],
   "bottlenecks": [],
@@ -47,7 +47,7 @@
   "failed_duties": [],
   "notes": [],
   "ai_summary": {
-    "primary_violation": "Intelligence agency conducts warrantless surveillance targeting a domestic political organization, without judicial warrant and in violation of Article III Section 5.3(d) and the prohibition on using classified appropriations for domestic political surveillance under Article II Section 12A.5(a).",
+    "primary_violation": "Intelligence agency conducts warrantless surveillance targeting a domestic political organization, without judicial warrant and in violation of Article III Section 5.3(d) and the prohibition on using classified appropriations for domestic political surveillance under Article XV Section 6.5.",
     "primary_bottleneck": null,
     "primary_open_duty": null,
     "system_risk": "institutional_stress",

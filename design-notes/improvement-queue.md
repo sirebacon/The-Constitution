@@ -23,7 +23,7 @@ Use this order when deciding what to work on:
 | 1 | Article VII — Campaign Finance and Political Money | Strong substance still reads too much like compliance code | Too many implementation mechanics remain in constitutional text | A shorter principles-first campaign-finance article |
 | 2 | Article XVI — War Powers and National Security | The architecture is strong, but it remains the hardest executive-defiance stress case | Enforcement still needs realism-testing under command pressure | A war-powers article that stays tough without depending on implausible execution assumptions |
 | 3 | Article IV and Article XII — Institutional Simplification | Both articles are materially better but still denser than the rest of the draft | Court and commission governance rules remain more procedural than ideal | Simpler near-final institutional articles |
-| 4 | Stress Tests and Simulation Coverage | The remaining weaknesses are mostly in edge cases, not missing structure | New continuity and enforcement rules need broader scenario coverage | A scenario-tested, internally stable final draft |
+| 4 | Article XIX and Article IX — Targeted Stress Testing | The structure is cleaner now, but first-cycle and citizenship edge cases have not been pressure-tested enough | Transition failure modes and membership-status disputes still need scenario coverage | A cleaner constitutional architecture that is also tested under failure conditions |
 | 5 | Final Consistency and Polish | The draft is close enough that cleanup now matters | Historical notes, residual drafting artifacts, and minor wording drift remain | A clean final-review candidate draft |
 
 ---
@@ -152,7 +152,7 @@ Recommended next drafting sprint:
 1. Compress Article VII
 2. Stress-test Article XVI against harder executive-defiance scenarios
 3. Simplify Articles IV and XII
-4. Expand simulator coverage for remaining live edge cases
+4. Add targeted Article XIX and Article IX scenarios
 
 ---
 
@@ -162,3 +162,23 @@ Recommended next drafting sprint:
 - Mark a task complete only when the scorecard score can defensibly rise.
 - If a revision lowers complexity without lowering abuse resistance, that is usually a good trade.
 - Re-score the affected article after every substantial revision round.
+### Article IX — Citizenship and National Membership
+
+| Task | Priority | Reason | Done When |
+|------|----------|--------|-----------|
+| Tighten loss-of-citizenship rule | High | Section 5.2 still leaves more discretion to future law than ideal | Involuntary loss standards are narrowly bounded and due-process protected |
+| Add citizenship and eligibility scenarios | High | The de-duplicated structure has not yet been tested under hostile edge cases | Overseas assignment, proof disputes, and sensitive-office restrictions all produce clear outcomes |
+
+### Article XIV and Article XV — Public Finance
+
+| Task | Priority | Reason | Done When |
+|------|----------|--------|-----------|
+| Stress-test fiscal safeguards | Medium | The fiscal architecture is cleaner, but the moved rules need scenario pressure | Budget deadlock, CR manipulation, and classified-spending enforcement all point to the new article homes |
+| Compress residual operational detail | Medium | Stronger fiscal safeguards can drift back toward code-like text | The articles keep constitutional principle while leaving implementation to law |
+
+### Article XIX — Ratification and Transition
+
+| Task | Priority | Reason | Done When |
+|------|----------|--------|-----------|
+| Stress-test first-cycle failure modes | High | Transition law is stronger, but not yet tested against non-cooperation and setup delay | Missed first-election law, organ-constitution delay, and outgoing obstruction scenarios all produce clear outcomes |
+| Compress transition implementation detail | Medium | Some provisions still read like implementation code | First-cycle rules remain durable while operational detail is pushed down |

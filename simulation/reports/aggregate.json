@@ -114,18 +114,6 @@
       "count": 1
     },
     {
-      "provision": "Article II Section 12.2",
-      "count": 1
-    },
-    {
-      "provision": "Article II Section 12.3",
-      "count": 1
-    },
-    {
-      "provision": "Article II Section 12A.5",
-      "count": 1
-    },
-    {
       "provision": "Article II Section 16.3",
       "count": 1
     },
@@ -308,6 +296,22 @@
     {
       "provision": "Article XIV foreign policy and national security",
       "count": 1
+    },
+    {
+      "provision": "Article XV Section 3.2",
+      "count": 1
+    },
+    {
+      "provision": "Article XV Section 3.3",
+      "count": 1
+    },
+    {
+      "provision": "Article XV Section 3.4",
+      "count": 1
+    },
+    {
+      "provision": "Article XV Section 6.5",
+      "count": 1
     }
   ],
   "open_duties_by_actor": [],
@@ -318,8 +322,9 @@
       "source_file": "simulation/scenarios/budget-deadlock-cr.json",
       "status": "stress_point_found",
       "triggered_provisions": [
-        "Article II Section 12.2",
-        "Article II Section 12.3"
+        "Article XV Section 3.2",
+        "Article XV Section 3.3",
+        "Article XV Section 3.4"
       ],
       "metrics": {
         "satisfied_obligations": 1,
@@ -334,7 +339,7 @@
           "id": "executive_cr_manipulation",
           "category": "executive_defiance",
           "actor": "Executive branch",
-          "source": "Article II Section 12.2",
+          "source": "Article XV Section 3.4",
           "severity": "high",
           "day": 5,
           "summary": "Executive branch attempts to alter funding ratios, withhold appropriated funds, or selectively apply funding levels under the automatic continuing resolution."
@@ -348,7 +353,7 @@
           "duty": "review the executive branch's selective CR funding manipulation on an expedited basis",
           "closed_day": 10,
           "outcome": "issued an expedited order blocking the executive branch's selective application of the automatic continuing resolution",
-          "source": "Article II Section 12.2"
+          "source": "Article XV Section 3.4"
         }
       ],
       "failed_duties": [],
@@ -2121,8 +2126,8 @@
       "source_file": "simulation/scenarios/warrantless-surveillance.json",
       "status": "stress_point_found",
       "triggered_provisions": [
-        "Article II Section 12A.5",
-        "Article III Section 5.3"
+        "Article III Section 5.3",
+        "Article XV Section 6.5"
       ],
       "metrics": {
         "satisfied_obligations": 2,
@@ -2137,10 +2142,10 @@
           "id": "warrantless_domestic_surveillance",
           "category": "rights_suppression",
           "actor": "Intelligence agency",
-          "source": "Article III Section 5.3(d) and Article II Section 12A.5(a)",
+          "source": "Article III Section 5.3(d) and Article XV Section 6.5",
           "severity": "high",
           "day": 0,
-          "summary": "Intelligence agency conducts warrantless surveillance targeting a domestic political organization, without judicial warrant and in violation of Article III Section 5.3(d) and the prohibition on using classified appropriations for domestic political surveillance under Article II Section 12A.5(a)."
+          "summary": "Intelligence agency conducts warrantless surveillance targeting a domestic political organization, without judicial warrant and in violation of Article III Section 5.3(d) and the prohibition on using classified appropriations for domestic political surveillance under Article XV Section 6.5."
         }
       ],
       "bottlenecks": [],
@@ -2164,7 +2169,7 @@
       "failed_duties": [],
       "notes": [],
       "ai_summary": {
-        "primary_violation": "Intelligence agency conducts warrantless surveillance targeting a domestic political organization, without judicial warrant and in violation of Article III Section 5.3(d) and the prohibition on using classified appropriations for domestic political surveillance under Article II Section 12A.5(a).",
+        "primary_violation": "Intelligence agency conducts warrantless surveillance targeting a domestic political organization, without judicial warrant and in violation of Article III Section 5.3(d) and the prohibition on using classified appropriations for domestic political surveillance under Article XV Section 6.5.",
         "primary_bottleneck": null,
         "primary_open_duty": null,
         "system_risk": "institutional_stress",

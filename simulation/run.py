@@ -848,29 +848,29 @@ def handle_event(state: SimulationState, event: dict[str, Any]) -> None:
         )
 
     elif event_type == "budget_deadline_missed":
-        state.provisions.update({"Article II Section 12.2", "Article II Section 12.3"})
+        state.provisions.update({"Article XV Section 3.2", "Article XV Section 3.3"})
         state.add_entry(
             day,
             "event",
             "Congress has not enacted appropriations legislation by October 1. The automatic continuing resolution takes effect at 98% of prior-year enacted levels.",
-            "Article II Section 12.2",
+            "Article XV Section 3.2",
         )
         state.add_entry(
             day,
             "outcome",
             "The government may not shut down for lack of appropriations. The automatic continuing resolution is self-executing and requires no further legislative or executive action to take effect.",
-            "Article II Section 12.2",
+            "Article XV Section 3.2 and Section 3.3",
         )
 
     elif event_type == "executive_attempts_selective_cr_funding":
-        state.provisions.add("Article II Section 12.2")
+        state.provisions.add("Article XV Section 3.4")
         message = "Executive branch attempts to alter funding ratios, withhold appropriated funds, or selectively apply funding levels under the automatic continuing resolution."
         state.add_violation(
             "executive_cr_manipulation",
             "executive_defiance",
             "Executive branch",
             message,
-            "Article II Section 12.2",
+            "Article XV Section 3.4",
             day,
             severity="high",
         )
@@ -878,7 +878,7 @@ def handle_event(state: SimulationState, event: dict[str, Any]) -> None:
             "court_review_cr_manipulation",
             "Federal courts",
             "review the executive branch's selective CR funding manipulation on an expedited basis",
-            "Article II Section 12.2",
+            "Article XV Section 3.4",
             day,
             day + 5,
             severity="high",
@@ -1463,14 +1463,14 @@ def handle_event(state: SimulationState, event: dict[str, Any]) -> None:
     # --- Category K: Rights ---
 
     elif event_type == "warrantless_surveillance_conducted":
-        state.provisions.update({"Article III Section 5.3", "Article II Section 12A.5"})
-        message = "Intelligence agency conducts warrantless surveillance targeting a domestic political organization, without judicial warrant and in violation of Article III Section 5.3(d) and the prohibition on using classified appropriations for domestic political surveillance under Article II Section 12A.5(a)."
+        state.provisions.update({"Article III Section 5.3", "Article XV Section 6.5"})
+        message = "Intelligence agency conducts warrantless surveillance targeting a domestic political organization, without judicial warrant and in violation of Article III Section 5.3(d) and the prohibition on using classified appropriations for domestic political surveillance under Article XV Section 6.5."
         state.add_violation(
             "warrantless_domestic_surveillance",
             "rights_suppression",
             "Intelligence agency",
             message,
-            "Article III Section 5.3(d) and Article II Section 12A.5(a)",
+            "Article III Section 5.3(d) and Article XV Section 6.5",
             day,
             severity="high",
         )

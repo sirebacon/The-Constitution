@@ -7,7 +7,7 @@ A wealthy donor routes money through a nonprofit, then an LLC, then a political 
 ## Articles Implicated
 
 - Article XII disclosure and tracing provisions
-- Article IX Electoral Commission authority
+- Article XII Electoral Commission authority
 
 ## Questions
 
