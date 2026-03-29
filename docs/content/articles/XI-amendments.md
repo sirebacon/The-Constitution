@@ -28,8 +28,6 @@ Applies to changes affecting the structure or powers of the Legislative, Executi
 3. Submitted to the Supreme Court for pre-clearance review before ratification votes begin (see Section 4)
 4. Takes effect 1 year after certification of ratification, unless the amendment specifies otherwise
 
-**Rationale:** Structural changes alter the balance of power between institutions. They require broad consensus and time for deliberation. The 90-day gap between votes prevents a single political moment from driving irreversible structural change.
-
 ---
 
 ### Track 2 — Rights Amendments
@@ -42,8 +40,6 @@ Applies to the expansion of rights enumerated in Article V, or the addition of n
 3. Confirmed by a national referendum administered by the Electoral Commission, requiring a majority of votes cast, with participation from at least 50% of registered voters
 4. Submitted to the Supreme Court for pre-clearance review before ratification votes begin (see Section 4)
 5. Takes effect 6 months after certification of ratification
-
-**Rationale:** Rights expansion should be more accessible than structural change — a democratic majority should be able to extend protections without requiring near-unanimity. Rights reduction is prohibited under this track entirely; any amendment that would reduce rights must be rejected at pre-clearance.
 
 ---
 
@@ -100,12 +96,6 @@ An amendment materially impairs that capacity if, in substance or practical effe
   (d) strips a branch, electorate, or constitutionally independent institution of the minimum powers necessary to check entrenched rule; or
   (e) entrenches a person, party, or governing bloc against electoral replacement beyond ordinary constitutional accountability.
 
-### 3.3 — Why These Provisions Are Unamendable
-
-Each provision in Section 3.1 satisfies the following test: *its removal would destroy the legitimacy of any future amendment, because it is a prerequisite for democratic consent itself.* Provisions that do not satisfy this test — however important — belong on Track 1, not in the unamendable core.
-
-The unamendable core is not an entrenchment of any political faction's preferences. It is the minimum structural floor below which self-governance becomes impossible. Future generations retain full authority to amend everything else.
-
 ---
 
 ## Section 4 — Judicial Pre-Clearance
@@ -152,14 +142,7 @@ Any ratified amendment may be challenged in federal court as violating Section 3
 
 ### 5.2 — Standing to Challenge
 
-Standing to bring a post-ratification challenge is held by:
-- Any member of Congress
-- The legislature of any state
-- The President
-- The Accountability Commission (Article XII)
-- Any citizen whose rights are directly impaired by the amendment
-
-Any citizen has standing to challenge a ratified amendment that violates the unamendable core of Section 3, regardless of whether that citizen can demonstrate particularized injury beyond the impairment of the constitutional order protected by that Section. A challenge by any citizen under this paragraph must be filed within 2 years of the certification of ratification.
+Any member of Congress, the legislature of any state, the President, the Accountability Commission, or any citizen whose rights are directly impaired by the amendment has standing to bring a post-ratification challenge. Any citizen also has standing to challenge an amendment alleged to violate Section 3, regardless of particularized injury beyond the impairment of the constitutional order.
 
 ### 5.3 — Adjudication
 

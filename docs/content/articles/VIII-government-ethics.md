@@ -6,7 +6,7 @@
 
 ## Scope
 
-Establishes the ethics rules that govern how federal officials behave in office. These provisions address corruption, financial conflicts of interest, civil service merit protection, lobbying, and the integrity of financial markets. Enforcement is primarily through the Accountability Commission (Article XII). Democratic integrity provisions — anti-subversion, foreign interference in elections, and media pluralism — are in Article VI.
+Establishes the ethics rules that govern how federal officials behave in office. These provisions address corruption, financial conflicts of interest, civil service merit protection, lobbying, and the integrity of financial markets. Enforcement is primarily through the Accountability Commission (Article XII). Democratic integrity provisions — anti-subversion, foreign interference in elections, and media pluralism — are in Article VI. General constitutional rules governing the structure, classification, and independence of federal agencies are in Article XIII; this Article states the substantive ethics and market-integrity requirements that those agencies and officials must obey.
 
 ---
 
@@ -75,7 +75,11 @@ The investment rules of Sections 1.8 through 1.11 apply to:
 
 The rules apply from the date the official takes office or, for staff, from the date of appointment to a covered position. Congress may extend reasonable post-service rules where necessary to prevent evasion.
 
-### 1.13 — Prohibition on use of government resources for campaign purposes
+### 1.13 — Beneficial ownership disclosure for federal contractors
+
+Congress shall require entities seeking major federal contracts, concessions, or control of assets in sectors designated by law as critical to national security or constitutional government operations to disclose their beneficial owners with sufficient particularity to identify any foreign government, foreign national, foreign-controlled entity, or organized criminal enterprise with a substantial interest or effective control. No such contract or concession may be awarded to an entity that cannot verify its beneficial ownership to the required standard, or whose beneficial ownership is materially concealed through nominees, shell entities, or other evasive structures. Law shall provide public disclosure and reporting sufficient to enforce this Section.
+
+### 1.14 — Prohibition on use of government resources for campaign purposes
 
 No federal official and no federal employee may use government staff, facilities, equipment, communications systems, or funds paid for by taxpayers for any activity whose primary purpose is to support or oppose a candidate, political party, or ballot measure. This prohibition applies to:
 
@@ -98,7 +102,7 @@ Financial markets are infrastructure of national importance. Fraud, manipulation
 
 ### 2.2 — Independence of the financial market regulator
 
-The primary federal financial market regulator established by Congress shall be structured as an independent agency whose commissioners serve fixed terms and may be removed only for cause. Disagreement with regulatory decisions, enforcement priorities, or legal interpretations made in good faith is not cause. The President may not direct, delay, or terminate any specific enforcement action or investigation.
+The primary federal financial market regulator established by Congress shall be structured as an independent regulatory agency within the meaning of Article XIII, with commissioners serving fixed terms and removable only for cause. Disagreement with regulatory decisions, enforcement priorities, or legal interpretations made in good faith is not cause. The President may not direct, delay, or terminate any specific enforcement action or investigation.
 
 ### 2.3 — Independent funding
 

@@ -64,7 +64,7 @@ Governs ratification, legal continuity, supersession of the prior constitutional
 
 **5.2** The Constitutional Organs established by Article XII shall be constituted as soon as practicable after ratification and shall assume their constitutional functions on the timeline provided by law, but no later than one year after ratification unless impossible due to conditions identified publicly by the Supreme Court.
 
-**5.2A** If the deadline in Section 5.2 is missed and no impossibility finding has been identified publicly by the Supreme Court, the Court shall order completion of the applicable transitional or ordinary appointment process within 30 days. If that period also expires without constitution of the affected Organ, a majority of the Supreme Court may appoint temporary Commissioners from among persons meeting the qualification requirements of Article XII, in the number strictly necessary to create a lawful quorum and permit the Organ to begin performing its constitutional startup, continuity, and protective functions. During the period of temporary appointment, any appointing authority that failed to act by the constitutional deadline loses exclusive control over the affected temporary seat. Temporary Commissioners may not permanently alter the structure, jurisdiction, or ordinary rules of the Organ except as strictly necessary to begin lawful operation and preserve constitutional continuity. Such temporary appointments expire when the ordinary constitutional appointment process is completed or after 180 days, whichever comes first, and may be renewed once by written judicial findings that completion remains unlawfully delayed despite good-faith efforts.
+**5.2A** If the deadline in Section 5.2 is missed and no impossibility finding has been identified publicly by the Supreme Court, the Court shall order completion of the applicable appointment process within 30 days. If that period also expires without constitution of the affected Organ, a majority of the Supreme Court may appoint temporary Commissioners meeting the qualifications of Article XII in the number strictly necessary to create a lawful quorum and permit the Organ to begin performing its startup, continuity, and protective functions. Temporary Commissioners may exercise only those powers necessary to begin lawful operation and preserve constitutional continuity, and their appointments expire when the ordinary appointment process is completed or after 180 days, whichever comes first, unless renewed once by written judicial findings that completion remains unlawfully delayed despite good-faith efforts.
 
 **5.3** Existing agencies and officers whose functions are reassigned under this Constitution shall continue only until those functions are lawfully transferred, replaced, or terminated consistent with this Constitution.
 
@@ -82,16 +82,13 @@ Governs ratification, legal continuity, supersession of the prior constitutional
 
 **6.4** No outgoing officer may use emergency authority, appointment power, classified control, fiscal control, or control of records to frustrate the lawful implementation of this Constitution after ratification.
 
+**6.5** No outgoing officer or federal employee may deliberately destroy, alter, conceal, or transfer outside lawful custody any federal record, communication, or official document during a constitutional transition. Deliberate destruction or concealment of public records during transition is anti-subversion conduct under Article VI Section 1.1 and grounds for prosecution by the Accountability Commission. This provision applies to all federal records and is independent of the protections for electoral records in Article VI Section 1.2(c).
+
 ---
 
 ## Section 7 — Temporary Corrective Legislation
 
-**7.1** For ten years after ratification, Congress may enact corrective legislation under this Section only to address one of the following specific defects arising from implementation of this Constitution:
-  (a) a genuine procedural gap that prevents a constitutional institution or process from functioning because no law exists to implement it;
-  (b) a direct textual conflict between two provisions of this Constitution that cannot both be applied to the same factual circumstance; or
-  (c) a missing sequencing rule required to carry out a constitutionally mandated process.
-
-Corrective legislation may not expand any power, restrict any right, modify any structural provision beyond the scope of the identified defect, or address any matter of policy left to ordinary legislation. Each corrective act must identify by section and subsection the specific constitutional provision giving rise to the defect, describe the defect with particularity, and certify that no provision of the act addresses any matter beyond that defect. The authority of this Section expires ten years after ratification and may not be extended.
+**7.1** For ten years after ratification, Congress may enact corrective legislation under this Section only to address a genuine procedural gap, a direct textual conflict, or a missing sequencing rule arising from implementation of this Constitution. Corrective legislation may not expand any power, restrict any right, modify any structural provision beyond the identified defect, or address matters left to ordinary legislation. Each corrective act must identify with specificity the constitutional defect it addresses. The authority of this Section expires ten years after ratification and may not be extended.
 
 **7.2** The Supreme Court shall have expedited jurisdiction to review any claim that purported corrective legislation exceeds the authority of this Section. Any ambiguity about whether an act qualifies under this Section shall be resolved against the legislation.
 

@@ -6,7 +6,7 @@
 
 ## Scope
 
-Establishes the constitutional framework governing federal agencies, commissions, and administrative bodies created by Congress. The administrative state is the primary instrument through which the federal government implements law in practice. Its structure, independence, accountability, and integrity are matters of constitutional importance. This Article does not enumerate specific agencies — those are created, modified, and abolished by statute — but establishes the rules that all agencies must follow and the protections that certain categories of agency must receive.
+Establishes the constitutional framework governing federal agencies, commissions, and administrative bodies created by Congress. The administrative state is the primary instrument through which the federal government implements law in practice. Its structure, independence, accountability, and integrity are matters of constitutional importance. This Article does not enumerate specific agencies — those are created, modified, and abolished by statute — but establishes the structural rules that all agencies must follow and the protections that certain categories of agency must receive. Where another Article imposes agency-specific substantive duties or additional safeguards, those provisions control in addition to this Article.
 
 ---
 
@@ -63,6 +63,8 @@ Use of agency power for political retaliation is a violation of this Constitutio
 
 **3.4 — Constitutional Organs.** The Electoral Commission and Accountability Commission established in Article XII are a separate category. They are Constitutional Organs, not agencies of either the executive or legislative branch. The provisions of this Article do not govern them except where this Article explicitly says otherwise.
 
+**3.5 — Article-specific regulators.** Congress may create regulators or commissions subject both to this Article and to additional requirements elsewhere in this Constitution. In such cases, this Article governs general agency structure unless another Article supplies a narrower or stricter rule.
+
 ---
 
 ## Section 4 — Protections for Independent Regulatory Agencies
@@ -112,17 +114,17 @@ Disagreement with an agency's regulatory decisions, enforcement choices, rulemak
 
 ## Section 7 — Revolving Door: General Framework
 
-**7.1 — Principle.** The revolving door between regulated industries and the agencies that regulate them corrupts regulatory independence and transfers public authority to private benefit. Every federal regulatory agency is subject to this Section. The specific provisions of Article VIII Section 2.10 governing the financial market regulator represent the constitutional floor for that agency; this Section establishes the floor for all others.
+**7.1 — Principle.** The revolving door between regulated industries and the agencies that regulate them corrupts regulatory independence and transfers public authority to private benefit. Every federal regulatory agency is subject to this Section. The specific provisions of Article VIII Section 2 governing the financial market regulator represent the constitutional floor for that regulator; this Section establishes the floor for all others.
 
 **7.2 — Post-service cooling-off.** Senior officials of any federal regulatory agency may not, for a period set by Congress of not less than two years following their departure, work for, consult for, lobby, or accept compensation from any entity they directly regulated, investigated, or supervised during their service. Congress may establish longer cooling-off periods tailored to particular agencies or offices, but may not set shorter ones.
 
-**7.3 — Transition support.** Any former regulatory official subject to a mandatory cooling-off period of more than one year shall receive a transition stipend during that period. Congress may not eliminate this stipend or reduce it below thirty percent of the official's final salary. The stipend vests with length of service; Congress shall establish the vesting schedule by law.
+**7.3 — Transition support.** Congress shall provide lawful transition support sufficient to ensure that mandatory cooling-off periods do not function as a deterrent to qualified public service.
 
 **7.4 — Pre-service restrictions.** A person appointed to a senior regulatory position from a regulated industry shall be recused from all matters directly involving their former employer for a period set by Congress of not less than two years. Deferred compensation or unvested equity from a regulated entity that creates a continuing financial incentive to favor that entity shall be forfeited upon appointment or placed under conditions that remove the incentive.
 
 **7.5 — Compensation floor.** Congress shall maintain compensation for senior regulatory personnel at levels sufficient to attract and retain qualified professionals. Where significant pay gaps between government and regulated industry are documented, Congress shall address them. Chronic underpayment that structurally forces experienced officials to seek industry employment is incompatible with effective regulation.
 
-**7.6 — Public registry.** The Accountability Commission shall maintain a public registry of all departing senior officials of federal regulatory agencies, recording their agency, position, date of departure, and disclosed post-service employment for the duration of any applicable cooling-off period.
+**7.6 — Public reporting.** Law shall provide public reporting sufficient to enforce the post-service restrictions of this Section.
 
 ---
 
@@ -167,5 +169,13 @@ Disagreement with an agency's regulatory decisions, enforcement choices, rulemak
 **11.3 — No reclassification as workaround.** The cap of Section 11.2 applies to all positions subject to at-will removal by political officials, regardless of title, category, or form of creation. A presidential action that reclassifies career positions as political appointments is void to the extent it would evade or exceed the constitutional cap.
 
 **11.4 — Public accounting.** Law shall provide public accounting of political appointments and independent review sufficient to enforce this Section. Congress shall establish by law the categories of political appointment, and the President may not create new categories beyond those established by law.
+
+---
+
+## Section 12 — Critical Infrastructure Continuity
+
+**12.1** Congress may establish continuity and integrity standards for elections infrastructure, power and energy systems, telecommunications networks, ports and logistics, payment systems, and public-health supply chains where their failure or hostile control would materially impair the capacity of constitutional institutions to function or of citizens to exercise constitutional rights. Standards established under this Section are subject to public accountability, congressional oversight, and the judicial review provisions of Article IV.
+
+**12.2** Nothing in this Section authorizes open-ended military control of civilian infrastructure. Emergency measures authorized under this Section are subject to the limitations on emergency powers in Article III, the civil liberties protections of Article V, and independent judicial review. The President may take emergency action under this Section only within authority expressly granted by statute, subject to congressional approval on the timeline required by Article III.
 
 ---

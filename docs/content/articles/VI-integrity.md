@@ -121,6 +121,12 @@ All persons acting as agents of a foreign government or foreign political party 
 
 No candidate or campaign official who receives an offer of foreign assistance in connection with a federal election may accept, act upon, or fail to report that offer. Receipt of foreign electoral assistance without reporting it is a violation of Section 1.1 of this Article. Receiving a foreign offer and failing to report it within 24 hours constitutes "acting upon" it for purposes of this Section. Willful blindness as to the foreign origin of an offer is not a defense.
 
+### 5.5 — Shell entities and covert foreign political influence
+
+No person or entity may serve as a conduit to route foreign political funding, direction, or sponsorship in a manner that would be prohibited under this Section if engaged in directly by a foreign government, foreign national, or foreign-controlled entity. The domestic legal form of an intermediary does not determine whether the underlying activity constitutes foreign political interference under this Article.
+
+Congress shall require disclosure of the ultimate beneficial sponsor of mass political communications where there is reasonable basis to believe the communication is funded, directed, or materially sponsored by a foreign source. This requirement extends to political communications beyond formal campaign expenditures where those communications are directed at the domestic public on matters of federal governance, elections, or constitutional legitimacy.
+
 ---
 
 ## Section 6 — Lobbying and Access
@@ -153,6 +159,15 @@ Major digital platforms that use algorithmic systems to determine the distributi
   (a) Disclose to the Electoral Commission the criteria and weighting used by their algorithms in distributing such content
   (b) Submit to independent audits of their systems for discriminatory or manipulative amplification
   (c) Provide equal access to advertising tools and distribution for all lawfully registered political candidates and parties
+
+### 7.5A — Dominant civic intermediaries
+
+Congress may by law impose neutral continuity, nondiscrimination, audit, and emergency-carriage duties on dominant private intermediaries whose services are effectively indispensable to lawful federal political participation, election administration, or the distribution of official emergency information. Such duties may be imposed only where:
+  (a) the intermediary provides infrastructure or distribution services so concentrated that coordinated denial or manipulation would materially impair meaningful federal political competition, election administration, or access to official emergency information
+  (b) the duties are viewpoint-neutral, publicly stated in advance, and reviewable on an expedited basis by the Electoral Commission and the federal courts
+  (c) the duties do not authorize general control of lawful private editorial judgment or compelled ideological speech beyond what is strictly necessary to preserve fair electoral competition, election administration, or access to official emergency information
+
+During a declared constitutional emergency, a federal election period, or a federally certified election-administration disruption, Congress may authorize the Electoral Commission to order temporary corrective relief under such laws, including restoration of nondiscriminatory access, suspension of manipulative visibility practices affecting official emergency or election-administration information, and preservation of service sufficient to prevent coordinated exclusion of lawful qualified political actors.
 
 ### 7.6 — Enforcement
 

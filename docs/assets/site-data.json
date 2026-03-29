@@ -4,7 +4,7 @@
     "title": "Constitution of the United States of America",
     "subtitle": "A modern replacement draft built around democratic legitimacy, anti-authoritarian safeguards, and readable constitutional architecture.",
     "article_count": 19,
-    "scenario_count": 45,
+    "scenario_count": 72,
     "overall_score": "8.9",
     "overall_status": "Strong",
     "unresolved_obligations": 0,
@@ -189,7 +189,7 @@
           "anchor": "section-13-recall-of-elected-federal-officials"
         }
       ],
-      "score": "9.0",
+      "score": "9.1",
       "score_status": "Strong"
     },
     {
@@ -558,7 +558,7 @@
           "anchor": "section-11-transition-at-ratification"
         }
       ],
-      "score": "8.9",
+      "score": "9.0",
       "score_status": "Strong"
     },
     {
@@ -656,7 +656,7 @@
           "anchor": "section-16-conflicting-rights"
         }
       ],
-      "score": "8.7",
+      "score": "8.9",
       "score_status": "Strong"
     },
     {
@@ -754,6 +754,11 @@
           "anchor": "54-prohibition-on-acting-on-foreign-electoral-assistance"
         },
         {
+          "level": 3,
+          "text": "5.5 \u2014 Shell entities and covert foreign political influence",
+          "anchor": "55-shell-entities-and-covert-foreign-political-influence"
+        },
+        {
           "level": 2,
           "text": "Section 6 \u2014 Lobbying and Access",
           "anchor": "section-6-lobbying-and-access"
@@ -790,6 +795,11 @@
         },
         {
           "level": 3,
+          "text": "7.5A \u2014 Dominant civic intermediaries",
+          "anchor": "75a-dominant-civic-intermediaries"
+        },
+        {
+          "level": 3,
           "text": "7.6 \u2014 Enforcement",
           "anchor": "76-enforcement"
         },
@@ -799,8 +809,8 @@
           "anchor": "section-8-enforcement"
         }
       ],
-      "score": "9.0",
-      "score_status": "Strong"
+      "score": "9.2",
+      "score_status": "Near-final"
     },
     {
       "slug": "vii-campaign-finance",
@@ -972,7 +982,7 @@
       "kind": "article",
       "source": "articles/VIII-government-ethics.md",
       "status": "DRAFT",
-      "summary": "Establishes the ethics rules that govern how federal officials behave in office. These provisions address corruption, financial conflicts of interest, civil service merit protection, lobbying, and the integrity of financial markets. Enforcement is primarily through the Accountability Commission (Article XII). Democratic integrity provisions \u2014 anti-subversion, foreign interference in elections, and media pluralism \u2014 are in Article VI.",
+      "summary": "Establishes the ethics rules that govern how federal officials behave in office. These provisions address corruption, financial conflicts of interest, civil service merit protection, lobbying, and the integrity of financial markets. Enforcement is primarily through the Accountability Commission (Article XII). Democratic integrity provisions \u2014 anti-subversion, foreign interference in elections, and media pluralism \u2014 are in Article VI. General constitutional rules governing the structure, classification, and independence of federal agencies are in Article XIII; this Article states the substantive ethics and market-integrity requirements that those agencies and officials must obey.",
       "headings": [
         {
           "level": 2,
@@ -1046,8 +1056,13 @@
         },
         {
           "level": 3,
-          "text": "1.13 \u2014 Prohibition on use of government resources for campaign purposes",
-          "anchor": "113-prohibition-on-use-of-government-resources-for-campaign-purposes"
+          "text": "1.13 \u2014 Beneficial ownership disclosure for federal contractors",
+          "anchor": "113-beneficial-ownership-disclosure-for-federal-contractors"
+        },
+        {
+          "level": 3,
+          "text": "1.14 \u2014 Prohibition on use of government resources for campaign purposes",
+          "anchor": "114-prohibition-on-use-of-government-resources-for-campaign-purposes"
         },
         {
           "level": 2,
@@ -1165,7 +1180,7 @@
           "anchor": "section-5-enforcement"
         }
       ],
-      "score": "9.1",
+      "score": "9.2",
       "score_status": "Near-final"
     },
     {
@@ -1218,7 +1233,7 @@
           "anchor": "section-7-construction"
         }
       ],
-      "score": "8.4",
+      "score": "8.7",
       "score_status": "Strong"
     },
     {
@@ -1281,7 +1296,7 @@
           "anchor": "section-9-federal-supremacy"
         }
       ],
-      "score": "8.5",
+      "score": "8.8",
       "score_status": "Strong"
     },
     {
@@ -1337,11 +1352,6 @@
           "level": 3,
           "text": "3.2 \u2014 Principled Backstop",
           "anchor": "32-principled-backstop"
-        },
-        {
-          "level": 3,
-          "text": "3.3 \u2014 Why These Provisions Are Unamendable",
-          "anchor": "33-why-these-provisions-are-unamendable"
         },
         {
           "level": 2,
@@ -1457,7 +1467,7 @@
           "anchor": "section-6-transition-at-ratification"
         }
       ],
-      "score": "8.6",
+      "score": "8.9",
       "score_status": "Strong"
     },
     {
@@ -1467,7 +1477,7 @@
       "kind": "article",
       "source": "articles/XIII-federal-agencies.md",
       "status": "DRAFT",
-      "summary": "Establishes the constitutional framework governing federal agencies, commissions, and administrative bodies created by Congress. The administrative state is the primary instrument through which the federal government implements law in practice. Its structure, independence, accountability, and integrity are matters of constitutional importance. This Article does not enumerate specific agencies \u2014 those are created, modified, and abolished by statute \u2014 but establishes the rules that all agencies must follow and the protections that certain categories of agency must receive.",
+      "summary": "Establishes the constitutional framework governing federal agencies, commissions, and administrative bodies created by Congress. The administrative state is the primary instrument through which the federal government implements law in practice. Its structure, independence, accountability, and integrity are matters of constitutional importance. This Article does not enumerate specific agencies \u2014 those are created, modified, and abolished by statute \u2014 but establishes the structural rules that all agencies must follow and the protections that certain categories of agency must receive. Where another Article imposes agency-specific substantive duties or additional safeguards, those provisions control in addition to this Article.",
       "headings": [
         {
           "level": 2,
@@ -1528,9 +1538,14 @@
           "level": 2,
           "text": "Section 11 \u2014 Limit on Political Appointments",
           "anchor": "section-11-limit-on-political-appointments"
+        },
+        {
+          "level": 2,
+          "text": "Section 12 \u2014 Critical Infrastructure Continuity",
+          "anchor": "section-12-critical-infrastructure-continuity"
         }
       ],
-      "score": "8.6",
+      "score": "8.8",
       "score_status": "Strong"
     },
     {
@@ -1815,7 +1830,7 @@
           "anchor": "section-4-rights-of-children"
         }
       ],
-      "score": "8.4",
+      "score": "8.7",
       "score_status": "Strong"
     },
     {
@@ -2327,6 +2342,11 @@
         },
         {
           "level": 2,
+          "text": "Current Weaknesses",
+          "anchor": "current-weaknesses"
+        },
+        {
+          "level": 2,
           "text": "Next Review Targets",
           "anchor": "next-review-targets"
         }
@@ -2343,6 +2363,106 @@
       "status": null,
       "summary": "This document records conclusions drawn from the constitutional flow simulator and its generated reports. Each entry should cite the relevant scenario outputs so recurring bottlenecks can be tracked over time.",
       "headings": [
+        {
+          "level": 2,
+          "text": "2026-03-29 Article V and Article X Edge-Case Validation Pass",
+          "anchor": "2026-03-29-article-v-and-article-x-edge-case-validation-pass"
+        },
+        {
+          "level": 3,
+          "text": "Inputs Reviewed",
+          "anchor": "inputs-reviewed"
+        },
+        {
+          "level": 3,
+          "text": "Aggregate Read",
+          "anchor": "aggregate-read"
+        },
+        {
+          "level": 3,
+          "text": "Main Results",
+          "anchor": "main-results"
+        },
+        {
+          "level": 2,
+          "text": "2026-03-29 Organized Crime and Financial-Capture Coverage Pass",
+          "anchor": "2026-03-29-organized-crime-and-financial-capture-coverage-pass"
+        },
+        {
+          "level": 3,
+          "text": "Inputs Reviewed",
+          "anchor": "inputs-reviewed"
+        },
+        {
+          "level": 3,
+          "text": "Aggregate Read",
+          "anchor": "aggregate-read"
+        },
+        {
+          "level": 3,
+          "text": "Main Results",
+          "anchor": "main-results"
+        },
+        {
+          "level": 2,
+          "text": "2026-03-29 Private Chokepoint Coverage Pass",
+          "anchor": "2026-03-29-private-chokepoint-coverage-pass"
+        },
+        {
+          "level": 3,
+          "text": "Inputs Reviewed",
+          "anchor": "inputs-reviewed"
+        },
+        {
+          "level": 3,
+          "text": "Aggregate Read",
+          "anchor": "aggregate-read"
+        },
+        {
+          "level": 3,
+          "text": "Main Results",
+          "anchor": "main-results"
+        },
+        {
+          "level": 2,
+          "text": "2026-03-29 Party-System Degradation Coverage Pass",
+          "anchor": "2026-03-29-party-system-degradation-coverage-pass"
+        },
+        {
+          "level": 3,
+          "text": "Inputs Reviewed",
+          "anchor": "inputs-reviewed"
+        },
+        {
+          "level": 3,
+          "text": "Aggregate Read",
+          "anchor": "aggregate-read"
+        },
+        {
+          "level": 3,
+          "text": "Main Results",
+          "anchor": "main-results"
+        },
+        {
+          "level": 2,
+          "text": "2026-03-29 Oligarchic-Resilience Coverage Pass",
+          "anchor": "2026-03-29-oligarchic-resilience-coverage-pass"
+        },
+        {
+          "level": 3,
+          "text": "Inputs Reviewed",
+          "anchor": "inputs-reviewed"
+        },
+        {
+          "level": 3,
+          "text": "Aggregate Read",
+          "anchor": "aggregate-read"
+        },
+        {
+          "level": 3,
+          "text": "Main Results",
+          "anchor": "main-results"
+        },
         {
           "level": 2,
           "text": "2026-03-29 Article IV and Article V Coverage Pass",
@@ -2542,6 +2662,131 @@
           "level": 2,
           "text": "2026-03-29 Article IX / XIX Validation Pass",
           "anchor": "2026-03-29-article-ix-xix-validation-pass"
+        },
+        {
+          "level": 3,
+          "text": "Files Reviewed",
+          "anchor": "files-reviewed"
+        },
+        {
+          "level": 3,
+          "text": "Findings",
+          "anchor": "findings"
+        },
+        {
+          "level": 3,
+          "text": "Net Effect",
+          "anchor": "net-effect"
+        },
+        {
+          "level": 3,
+          "text": "Recommended Follow-Up",
+          "anchor": "recommended-follow-up"
+        },
+        {
+          "level": 2,
+          "text": "2026-03-29 Article I / VI Soft-Exclusion Validation Pass",
+          "anchor": "2026-03-29-article-i-vi-soft-exclusion-validation-pass"
+        },
+        {
+          "level": 3,
+          "text": "Files Reviewed",
+          "anchor": "files-reviewed"
+        },
+        {
+          "level": 3,
+          "text": "Findings",
+          "anchor": "findings"
+        },
+        {
+          "level": 3,
+          "text": "Net Effect",
+          "anchor": "net-effect"
+        },
+        {
+          "level": 3,
+          "text": "Recommended Follow-Up",
+          "anchor": "recommended-follow-up"
+        },
+        {
+          "level": 2,
+          "text": "2026-03-29 Article X Preemption and Local-Self-Government Validation Pass",
+          "anchor": "2026-03-29-article-x-preemption-and-local-self-government-validation-pass"
+        },
+        {
+          "level": 3,
+          "text": "Files Reviewed",
+          "anchor": "files-reviewed"
+        },
+        {
+          "level": 3,
+          "text": "Findings",
+          "anchor": "findings"
+        },
+        {
+          "level": 3,
+          "text": "Net Effect",
+          "anchor": "net-effect"
+        },
+        {
+          "level": 3,
+          "text": "Recommended Follow-Up",
+          "anchor": "recommended-follow-up"
+        },
+        {
+          "level": 2,
+          "text": "2026-03-29 Article IX Sensitive-Office and Proof Validation Pass",
+          "anchor": "2026-03-29-article-ix-sensitive-office-and-proof-validation-pass"
+        },
+        {
+          "level": 3,
+          "text": "Files Reviewed",
+          "anchor": "files-reviewed"
+        },
+        {
+          "level": 3,
+          "text": "Findings",
+          "anchor": "findings"
+        },
+        {
+          "level": 3,
+          "text": "Net Effect",
+          "anchor": "net-effect"
+        },
+        {
+          "level": 3,
+          "text": "Recommended Follow-Up",
+          "anchor": "recommended-follow-up"
+        },
+        {
+          "level": 2,
+          "text": "2026-03-29 Article V Religion and Bodily-Autonomy Validation Pass",
+          "anchor": "2026-03-29-article-v-religion-and-bodily-autonomy-validation-pass"
+        },
+        {
+          "level": 3,
+          "text": "Files Reviewed",
+          "anchor": "files-reviewed"
+        },
+        {
+          "level": 3,
+          "text": "Findings",
+          "anchor": "findings"
+        },
+        {
+          "level": 3,
+          "text": "Net Effect",
+          "anchor": "net-effect"
+        },
+        {
+          "level": 3,
+          "text": "Recommended Follow-Up",
+          "anchor": "recommended-follow-up"
+        },
+        {
+          "level": 2,
+          "text": "2026-03-29 Article XII Internal-Boycott Validation Pass",
+          "anchor": "2026-03-29-article-xii-internal-boycott-validation-pass"
         },
         {
           "level": 3,

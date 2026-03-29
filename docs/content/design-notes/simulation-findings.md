@@ -2,6 +2,266 @@
 
 This document records conclusions drawn from the constitutional flow simulator and its generated reports. Each entry should cite the relevant scenario outputs so recurring bottlenecks can be tracked over time.
 
+## 2026-03-29 Article V and Article X Edge-Case Validation Pass
+
+### Inputs Reviewed
+
+- [aggregate.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/aggregate.json)
+- [family-status-discrimination-parental-recognition.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/family-status-discrimination-parental-recognition.summary.json)
+- [political-internet-access-punishment.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/political-internet-access-punishment.summary.json)
+- [extraterritorial-digital-jurisdiction.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/extraterritorial-digital-jurisdiction.summary.json)
+
+### Aggregate Read
+
+- Scenario count rises from `69` to `72`.
+- `unresolved_obligations` remains `0`.
+- This pass does not expose new structural gaps. It closes part of the remaining “good text, under-validated” concern for Articles V and X.
+
+### Main Results
+
+#### 1. Article V now has direct family-autonomy validation
+
+Source:
+- [family-status-discrimination-parental-recognition.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/family-status-discrimination-parental-recognition.summary.json)
+
+- A state denies parental recognition to a lawfully formed same-sex family.
+- Courts restore parental recognition and reject discriminatory family-status rules.
+
+Assessment:
+This confirms that Article V protects family autonomy in practice, not just intimate choice in abstraction. The constitutional family-protection language now has direct simulation support beyond speech, religion, bodily autonomy, and surveillance.
+
+#### 2. Article V's internet-access clause now has direct coercion coverage
+
+Source:
+- [political-internet-access-punishment.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/political-internet-access-punishment.summary.json)
+
+- Government throttles internet access to punish political opposition.
+- Courts order prompt restoration of access.
+
+Assessment:
+This validates that Section 10.6 is not symbolic. The Constitution can treat internet access as protected civic infrastructure against direct political punishment or coercion by government.
+
+#### 3. Article X now has a direct digital-border federalism scenario
+
+Source:
+- [extraterritorial-digital-jurisdiction.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/extraterritorial-digital-jurisdiction.summary.json)
+
+- A state attempts to project its law onto out-of-state online conduct based only on in-state audience reach.
+- Courts reject the assertion of jurisdiction under the digital-conduct territorial rule.
+
+Assessment:
+This closes one of the cleanest remaining modern federalism validation gaps. Article X now has direct scenario coverage not only for democratic-floor and preemption disputes, but also for territorial limits on state regulation of digital conduct.
+
+## 2026-03-29 Organized Crime and Financial-Capture Coverage Pass
+
+### Inputs Reviewed
+
+- [aggregate.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/aggregate.json)
+- [systemically-important-bank-criminal-case.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/systemically-important-bank-criminal-case.summary.json)
+- [domestic-criminal-contractor-capture.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/domestic-criminal-contractor-capture.summary.json)
+
+### Aggregate Read
+
+- Scenario count rises from `67` to `69`.
+- `unresolved_obligations` remains `0`.
+- The new coverage does not expose a broad organized-crime architecture failure. It shows one area of existing strength and one narrower contractor-capture gap.
+
+### Main Results
+
+#### 1. The Constitution already has a real foothold against politically protected bank misconduct
+
+Source:
+- [systemically-important-bank-criminal-case.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/systemically-important-bank-criminal-case.summary.json)
+
+- A politically connected systemically important bank conceals large-scale money laundering and fraudulent compliance reporting.
+- The financial market regulator makes a criminal referral instead of treating systemic importance as a reason for forbearance.
+- The Accountability Commission prosecutes despite claims that enforcement would destabilize the economy.
+
+Assessment:
+Article VIII is stronger here than it first appears. The financial-regulator independence rule, criminal-referral duty, and explicit rejection of any institution being too large or connected to prosecute combine into a meaningful constitutional anti-capture footing.
+
+#### 2. Concealed domestic criminal control of major federal contractors is now directly reachable
+
+Source:
+- [domestic-criminal-contractor-capture.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/domestic-criminal-contractor-capture.summary.json)
+
+- A major federal contractor is secretly controlled through domestic nominees tied to an organized criminal enterprise.
+- The Accountability Commission confirms the concealed ownership.
+- No provable bribery by federal officials is found.
+- The contract is invalidated directly under the broadened Article VIII Section 1.13 rule.
+
+Assessment:
+The narrower contractor-capture gap is now closed. Article VIII Section 1.13 no longer depends on proving foreign ownership or a separate bribery offense before concealed criminal-enterprise control of major federal contractors can be reached directly.
+
+## 2026-03-29 Private Chokepoint Coverage Pass
+
+### Inputs Reviewed
+
+- [aggregate.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/aggregate.json)
+- [executive-coerces-platform-suppression.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/executive-coerces-platform-suppression.summary.json)
+- [private-chokepoint-election-cutoff.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/private-chokepoint-election-cutoff.summary.json)
+- [platform-denies-candidate-ad-tools.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/platform-denies-candidate-ad-tools.summary.json)
+- [platform-manipulates-emergency-information-visibility.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/platform-manipulates-emergency-information-visibility.summary.json)
+
+### Aggregate Read
+
+- Scenario count rises from `53` to `55`.
+- `unresolved_obligations` remains `0`.
+- The new category does not expose a broad new machinery failure. It exposes one narrower but real modern-democracy gap.
+
+### Main Results
+
+#### 1. Coercive private suppression by the state is reachable under current text
+
+Source:
+- [executive-coerces-platform-suppression.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/executive-coerces-platform-suppression.summary.json)
+
+- Senior executive officials pressure major digital platforms to suppress lawful political dissent through threatened regulatory retaliation.
+- Courts treat the resulting suppression as state action in substance rather than private discretion in form.
+- The Accountability Commission can investigate the weaponization of agency power under Article XIII Section 2.0.5.
+
+Assessment:
+The Constitution is stronger here than it first appears. It can already reach indirect censorship where private action is driven by coercive government pressure.
+
+#### 2. Purely private coordinated chokepoint exclusion remains a real gap
+
+Source:
+- [private-chokepoint-election-cutoff.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/private-chokepoint-election-cutoff.summary.json)
+
+- Dominant payment processors and hosting firms jointly cut off a lawful opposition organization during a federal election period.
+- No formal government coercion is proved.
+- Courts find no clear direct constitutional remedy under the current text absent state action, foreign control, or an existing statutory duty.
+
+Assessment:
+This is now a confirmed under-tested gap rather than a speculative concern. The draft is stronger against public censorship and foreign-controlled infrastructure than against synchronized private exclusion by dominant civic intermediaries.
+
+#### 3. Article VI already gives a meaningful foothold against discriminatory candidate-tool denial
+
+Source:
+- [platform-denies-candidate-ad-tools.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/platform-denies-candidate-ad-tools.summary.json)
+
+- A major digital platform denies a lawfully registered federal candidate equal access to political advertising and structured distribution tools available to rivals.
+- The Electoral Commission can order nondiscriminatory access and open an audit under Article VI Section 7.5(c).
+
+Assessment:
+The draft is better here than on purely private cutoffs. Where the platform is offering a structured political toolset, Article VI already creates a usable constitutional foothold.
+
+#### 4. Algorithmic visibility manipulation remains a narrower rapid-remedy gap
+
+Source:
+- [platform-manipulates-emergency-information-visibility.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/platform-manipulates-emergency-information-visibility.summary.json)
+
+- A dominant platform materially downranks lawful emergency and election-administration information during a live crisis.
+- The Electoral Commission can compel disclosure and audit information under Article VI Section 7.5.
+- But the current draft does not yet provide a clearly defined rapid corrective mechanism requiring neutral carriage or visibility restoration in real time.
+
+Assessment:
+This is a narrower but real second-order gap. The Constitution already has transparency hooks here, but not yet a clean urgent remedy once manipulative visibility decisions are underway.
+
+## 2026-03-29 Party-System Degradation Coverage Pass
+
+### Inputs Reviewed
+
+- [aggregate.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/aggregate.json)
+- [cartelized-ballot-access-barriers.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/cartelized-ballot-access-barriers.summary.json)
+- [soft-party-cartelization.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/soft-party-cartelization.summary.json)
+
+### Aggregate Read
+
+- Scenario count rises from `57` to `59`.
+- `unresolved_obligations` remains `0`.
+- The new party-system coverage follows the same pattern as the private-chokepoint work: overt exclusion is better covered than softer contestation distortion.
+
+### Main Results
+
+#### 1. Overt ballot-access cartelization is already reachable
+
+Source:
+- [cartelized-ballot-access-barriers.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/cartelized-ballot-access-barriers.summary.json)
+
+- State election authorities, under pressure from dominant parties, impose extraordinary barriers targeted at new entrants.
+- Federal courts can void the barriers under Article I Section 9.1 and Section 9.4, together with associational protection.
+
+Assessment:
+The draft already has a meaningful constitutional foothold against overt ballot-access cartelization by dominant parties and cooperating state authorities.
+
+#### 2. Soft cartelization remains under-addressed
+
+Source:
+- [soft-party-cartelization.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/soft-party-cartelization.summary.json)
+
+- Dominant parties preserve formal ballot access but coordinate exclusion from debates, data feeds, and routine campaign-information infrastructure.
+- The Electoral Commission finds no clear direct constitutional remedy because the exclusion operates through softer institutional and quasi-private channels rather than explicit ballot denial.
+
+Assessment:
+This is now a confirmed under-tested gap rather than a speculative concern. The Constitution is stronger against formal exclusion than against coordinated soft cartelization that preserves legal competition in form while degrading it in practice.
+
+## 2026-03-29 Oligarchic-Resilience Coverage Pass
+
+### Inputs Reviewed
+
+- [aggregate.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/aggregate.json)
+- [foreign-influence-shell-funding.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/foreign-influence-shell-funding.summary.json)
+- [contractor-foreign-beneficial-ownership.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/contractor-foreign-beneficial-ownership.summary.json)
+- [critical-infrastructure-coercion.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/critical-infrastructure-coercion.summary.json)
+- [records-destruction-transition.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/records-destruction-transition.summary.json)
+
+### Aggregate Read
+
+- Scenario count rises by four once the resilience set is included.
+- `unresolved_obligations` remains `0`.
+- The new scenarios do not expose missing constitutional machinery; they validate the targeted additions in Articles VI, VIII, XIII, and XIX.
+
+### Main Results
+
+#### 1. Shell routing no longer defeats the foreign-influence rule
+
+Source:
+- [foreign-influence-shell-funding.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/foreign-influence-shell-funding.summary.json)
+
+- A foreign government routes destabilizing political messaging through a domestic shell entity.
+- The Accountability Commission orders disclosure of the ultimate sponsor and penalizes the operation.
+- The key move is direct reliance on Article VI Section 5.5 rather than only on a foreign-agent-registration theory.
+
+Assessment:
+The foreign-influence hardening works as intended. The next useful edge case is foreign-linked platform or media-control influence rather than simple shell routing.
+
+#### 2. Contractor beneficial-ownership concealment is now directly reachable
+
+Source:
+- [contractor-foreign-beneficial-ownership.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/contractor-foreign-beneficial-ownership.summary.json)
+
+- A foreign-state-linked entity conceals beneficial ownership while seeking sensitive federal work.
+- The Accountability Commission confirms the concealed ownership even though no bribery offense by a federal official is proved.
+- The constitutional foothold is now Article VIII Section 1.13 rather than a strained attempt to force the case into an official-corruption theory.
+
+Assessment:
+This is a real resilience gain. The constitutional question is now less “can the system reach it at all?” and more “how much implementation detail should remain in the constitutional clause?”
+
+#### 3. Critical infrastructure continuity now has a clean constitutional anchor
+
+Source:
+- [critical-infrastructure-coercion.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/critical-infrastructure-coercion.summary.json)
+
+- A foreign-state-linked company acquires controlling ownership of a major telecom carrier.
+- Congress orders divestiture under statutory authority.
+- The scenario resolves cleanly because Article XIII Section 12 now gives explicit constitutional support for continuity and integrity standards in critical civilian infrastructure.
+
+Assessment:
+The main gap is closed. The next stress cases should involve more ambiguous ownership structures, capital flight, or platform dependence rather than outright acquisition.
+
+#### 4. Transition-record destruction is now directly anti-subversion conduct
+
+Source:
+- [records-destruction-transition.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/records-destruction-transition.summary.json)
+
+- Outgoing officials destroy or conceal non-electoral public records during transition.
+- The Accountability Commission prosecutes under Article XIX Section 6.5 and Article VI Section 1.1.
+- The system no longer has to rely on a stretched election-records-only theory or a generalized obstruction theory.
+
+Assessment:
+This closes a real continuity and accountability vulnerability. The next useful scenario would be broader administrative sabotage short of outright destruction.
+
 ## 2026-03-29 Article IV and Article V Coverage Pass
 
 ### Inputs Reviewed
@@ -651,3 +911,237 @@ This is not an ambiguity bug. It is a substantive design choice that may still n
    - Article XVI adversarial stress tests
    - Article XII simplification
    - Article XIX organ-delay follow-up if desired
+
+## 2026-03-29 Article I / VI Soft-Exclusion Validation Pass
+
+### Files Reviewed
+
+- [simulation/reports/private-chokepoint-election-cutoff.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/private-chokepoint-election-cutoff.summary.json)
+- [simulation/reports/platform-manipulates-emergency-information-visibility.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/platform-manipulates-emergency-information-visibility.summary.json)
+- [simulation/reports/soft-party-cartelization.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/soft-party-cartelization.summary.json)
+- [simulation/reports/aggregate.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/aggregate.json)
+
+### Findings
+
+#### 1. Article VI now reaches coordinated private chokepoint exclusion in a narrow, reviewable way
+
+Sources:
+- [simulation/reports/private-chokepoint-election-cutoff.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/private-chokepoint-election-cutoff.summary.json)
+- [articles/VI-integrity.md](/Users/chris/Documents/GitHub/The-Constitution/articles/VI-integrity.md)
+
+- Article VI §7.5A now permits neutral continuity and nondiscrimination duties for dominant civic intermediaries where coordinated denial would materially impair meaningful federal political competition.
+- The Electoral Commission can issue temporary restoration relief on an expedited basis.
+- Federal courts sustain the order as a narrow continuity measure rather than a general power to control private speech or editorial judgment.
+
+Assessment:
+This closes the most important private-chokepoint gap without constitutionalizing a general common-carrier rule for all platforms.
+
+#### 2. Article VI now supplies a fast corrective remedy for manipulative visibility of official emergency and election information
+
+Sources:
+- [simulation/reports/platform-manipulates-emergency-information-visibility.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/platform-manipulates-emergency-information-visibility.summary.json)
+- [articles/VI-integrity.md](/Users/chris/Documents/GitHub/The-Constitution/articles/VI-integrity.md)
+
+- Article VI §7.5 still provides disclosure and audit.
+- Article VI §7.5A now adds a narrow restoration path when a dominant platform manipulates visibility of official emergency or election-administration information during a live crisis.
+- The remedy is temporary and judicially reviewable.
+
+Assessment:
+The Constitution now distinguishes ordinary editorial ranking from crisis-stage manipulation of official civic information, which is the right line.
+
+#### 3. Article I now reaches soft cartelization within core public or publicly regulated election infrastructure
+
+Sources:
+- [simulation/reports/soft-party-cartelization.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/soft-party-cartelization.summary.json)
+- [articles/I-electoral-system.md](/Users/chris/Documents/GitHub/The-Constitution/articles/I-electoral-system.md)
+
+- Article I §9.5 creates a qualified-entrant access floor for core public or publicly regulated election infrastructure necessary for meaningful contestation.
+- Article I §10.6 lets the Electoral Commission issue expedited temporary orders where delay would materially impair a pending federal election.
+- Courts uphold the remedy without requiring compelled ideological sponsorship beyond the constitutional floor.
+
+Assessment:
+This closes the main soft-cartelization gap while avoiding a sweeping rule for every private debate host or campaign-service provider.
+
+### Net Effect
+
+- The two clearest modern soft-exclusion gaps are no longer open constitutional gaps.
+- The new remedies are narrow, reviewable, and tied to election integrity and official civic information rather than general platform governance.
+- The remaining open edge case is softer quasi-private exclusion outside public or publicly regulated election infrastructure.
+
+### Recommended Follow-Up
+
+1. Add one more scenario family for quasi-private exclusion outside the new constitutional floor.
+2. Watch Article VI §7.5A in later draft-discipline passes so it does not drift into a general platform-regulation clause.
+3. Continue with Article X, Article IX, and Article V validation work.
+
+## 2026-03-29 Article X Preemption and Local-Self-Government Validation Pass
+
+### Files Reviewed
+
+- [simulation/reports/implied-field-preemption-overreach.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/implied-field-preemption-overreach.summary.json)
+- [simulation/reports/state-preempts-local-housing-without-interest.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/state-preempts-local-housing-without-interest.summary.json)
+- [simulation/reports/aggregate.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/aggregate.json)
+
+### Findings
+
+#### 1. Article X now gives courts a real basis to reject implied field-preemption overreach
+
+Sources:
+- [simulation/reports/implied-field-preemption-overreach.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/implied-field-preemption-overreach.summary.json)
+- [articles/X-federalism.md](/Users/chris/Documents/GitHub/The-Constitution/articles/X-federalism.md)
+
+- Federal officials claimed that dense federal environmental regulation automatically displaced a stricter state methane-emissions rule.
+- Courts rejected the claim because Article X abolishes implied field preemption outside a narrow set of constitutionally uniform national domains.
+- The state rule survives as valid concurrent stricter regulation.
+
+Assessment:
+This validates one of Article X's most distinctive doctrines and confirms that the article is not quietly drifting back toward ordinary broad field-preemption assumptions.
+
+#### 2. Article X now gives local self-government meaningful protection against generalized state override
+
+Sources:
+- [simulation/reports/state-preempts-local-housing-without-interest.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/state-preempts-local-housing-without-interest.summary.json)
+- [articles/X-federalism.md](/Users/chris/Documents/GitHub/The-Constitution/articles/X-federalism.md)
+
+- A state attempted to nullify local housing reform with only generalized claims of statewide uniformity.
+- Courts blocked the override because Article X requires a specific compelling statewide interest shown by clear and convincing evidence.
+- The scenario preserves room for genuine statewide minimum standards while preventing blanket state flattening of local self-government.
+
+Assessment:
+This is a meaningful validation of the local-government protections and one of the better indicators that Article X is functioning at the right constitutional level.
+
+### Net Effect
+
+- Article X is no longer primarily a paper-validated article.
+- Democratic-floor enforcement, anti-commandeering, preemption boundaries, and local-self-government protection now all have direct scenario support.
+- The remaining useful validation work for Article X is narrower: cross-border digital conduct and interstate-harm standing.
+
+### Recommended Follow-Up
+
+1. Add one later Article X scenario on cross-border digital conduct or interstate-harm standing.
+2. Move Article IX and Article V back above Article X in the validation queue.
+
+## 2026-03-29 Article IX Sensitive-Office and Proof Validation Pass
+
+### Files Reviewed
+
+- [simulation/reports/sensitive-office-restriction-overreach.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/sensitive-office-restriction-overreach.summary.json)
+- [simulation/reports/citizenship-proof-dispute.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/citizenship-proof-dispute.summary.json)
+- [simulation/reports/aggregate.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/aggregate.json)
+
+### Findings
+
+#### 1. Article IX now prevents sensitive-office safeguards from turning into general civic hierarchy
+
+Sources:
+- [simulation/reports/sensitive-office-restriction-overreach.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/sensitive-office-restriction-overreach.summary.json)
+- [articles/IX-citizenship-membership.md](/Users/chris/Documents/GitHub/The-Constitution/articles/IX-citizenship-membership.md)
+
+- Congress attempted to turn a sensitive-office safeguard into a blanket dual-citizenship exclusion for a broad class of senior federal offices.
+- Courts narrowed the rule and held that Article IX permits only genuinely exceptional, narrowly tailored nationality safeguards for especially sensitive offices.
+- The rule could not be used as a general civic disability by implication.
+
+Assessment:
+This validates the article's core anti-caste logic in one of the most realistic hostile edge cases.
+
+#### 2. Article IX now gives prompt judicial relief against citizenship-proof regimes that would nullify political membership in practice
+
+Sources:
+- [simulation/reports/citizenship-proof-dispute.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/citizenship-proof-dispute.summary.json)
+- [articles/IX-citizenship-membership.md](/Users/chris/Documents/GitHub/The-Constitution/articles/IX-citizenship-membership.md)
+
+- Election officials imposed an excessive documentary burden after a database mismatch shortly before a registration deadline.
+- Courts restored the citizen's political status on a prompt timeline.
+- The scenario confirms that Article IX bars administrative practices that make citizenship practically impossible to prove for ordinary eligible persons.
+
+Assessment:
+This is a strong validation of the article's fair-proof and prompt-review machinery and shows that Article IX now functions as a practical membership-protection article, not only a statement of principle.
+
+### Net Effect
+
+- Article IX is no longer carrying obvious unbuilt validation gaps.
+- The core equal-membership, officeholding-equality, sensitive-office-narrowing, and fair-proof rules now all have direct scenario support.
+- The remaining useful work for Article IX is narrow and optional rather than urgent.
+
+### Recommended Follow-Up
+
+1. Move Article V above Article IX in the validation queue.
+2. Add one later Article IX scenario on renunciation, statelessness avoidance, or foreign-office incompatibility if a final edge-case pass still seems worthwhile.
+
+## 2026-03-29 Article V Religion and Bodily-Autonomy Validation Pass
+
+### Files Reviewed
+
+- [simulation/reports/state-sponsored-school-prayer.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/state-sponsored-school-prayer.summary.json)
+- [simulation/reports/forced-medical-procedure-without-necessity.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/forced-medical-procedure-without-necessity.summary.json)
+- [simulation/reports/aggregate.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/aggregate.json)
+
+### Findings
+
+#### 1. Article V now directly validates government neutrality in public-school religion
+
+Sources:
+- [simulation/reports/state-sponsored-school-prayer.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/state-sponsored-school-prayer.summary.json)
+- [articles/V-rights.md](/Users/chris/Documents/GitHub/The-Constitution/articles/V-rights.md)
+
+- Public school officials organized and led prayer in an official capacity.
+- Courts enjoined the practice and preserved voluntary private student religious expression.
+- The scenario confirms that Article V protects both free exercise and no-establishment neutrality rather than sacrificing one to the other.
+
+Assessment:
+This closes one of the clearest missing first-order religion validations.
+
+#### 2. Article V now directly validates bodily autonomy against overbroad compulsory medical decision-making
+
+Sources:
+- [simulation/reports/forced-medical-procedure-without-necessity.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/forced-medical-procedure-without-necessity.summary.json)
+- [articles/V-rights.md](/Users/chris/Documents/GitHub/The-Constitution/articles/V-rights.md)
+
+- A state compelled a non-emergency medical procedure without a sufficiently tailored public-health showing or adequate exemptions.
+- Courts blocked the law under the bodily-autonomy and privacy rules.
+- The scenario confirms that the public-health exception in Article V §4.2 is narrow and does not license open-ended state control over medical decisions.
+
+Assessment:
+This materially improves validation of the privacy/autonomy section and makes Article V less dependent on inference from doctrine-style text.
+
+### Net Effect
+
+- Article V is no longer missing obvious first-order validation in religion and bodily autonomy.
+- The remaining useful work is narrower: family autonomy, internet-access discrimination, and a few other digital-rights edge cases.
+
+### Recommended Follow-Up
+
+1. Move Article VIII / XIII and Article XII / XIX back above Article V in the main queue.
+2. Keep one or two later Article V scenarios for family autonomy or digital-rights edge cases, but treat them as refinement rather than urgent gap repair.
+
+## 2026-03-29 Article XII Internal-Boycott Validation Pass
+
+### Files Reviewed
+
+- [simulation/reports/constitutional-organ-internal-boycott.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/constitutional-organ-internal-boycott.summary.json)
+- [simulation/reports/aggregate.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/aggregate.json)
+
+### Findings
+
+#### 1. Article XII §5.5 is operational under adversarial pressure
+
+Sources:
+- [simulation/reports/constitutional-organ-internal-boycott.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/constitutional-organ-internal-boycott.summary.json)
+- [articles/XII-constitutional-organs.md](/Users/chris/Documents/GitHub/The-Constitution/articles/XII-constitutional-organs.md)
+
+- A bloc of Electoral Commissioners refused quorum or certification in order to block a required constitutional function.
+- Courts issued expedited anti-boycott continuity relief under the article's existing structure.
+- Certification still proceeded on time under court-approved continuity procedures.
+
+Assessment:
+This is the key answer the queue was waiting on. The article's internal anti-sabotage rule does real work in the simulator without needing new constitutional machinery.
+
+### Net Effect
+
+- Article XII's main remaining issue is now startup and transition friction, not internal boycott.
+- The article is materially closer to near-final status.
+
+### Recommended Follow-Up
+
+1. Keep Article XIX startup-delay work separate from the now-validated internal-boycott issue.
+2. Move the next concrete scenario priority to quasi-private soft cartelization outside the new Article I / Article VI floor, or to a whole-draft compression pass if you want a stylistic rather than adversarial step next.

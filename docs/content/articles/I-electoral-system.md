@@ -146,6 +146,8 @@ A vacancy in the Regional Assembly shall be filled by special election held with
 
 **9.4** No law may prohibit the formation or operation of a political party on the basis of its ideology, platform, or political positions, except where the party's stated purpose is the violent overthrow of this Constitution or the permanent removal of the right to vote.
 
+**9.5** A qualified party, and any independent or party candidate lawfully entitled to appear on a federal ballot, is entitled under neutral and publicly stated rules to nondiscriminatory access to core public or publicly regulated election infrastructure necessary for meaningful federal contestation. Congress may by law authorize the Electoral Commission to define and enforce such access with respect to official ballot information systems, publicly funded or officially designated candidate debates, public voter-information feeds, and other election-related channels whose exclusionary control would materially degrade effective political competition. This Section does not require private persons to endorse, sponsor, or carry partisan viewpoints except where Article VI permits narrowly tailored continuity or nondiscrimination duties for dominant civic intermediaries.
+
 ---
 
 ## Section 10 — Election Administration
@@ -159,6 +161,8 @@ A vacancy in the Regional Assembly shall be filled by special election held with
 **10.4** Results shall be certified by the Electoral Commission within 30 days of Election Day. Certification may be delayed only by order of a federal court. No elected or appointed official may refuse to certify, delay certification without court order, or substitute their judgment for the certified result.
 
 **10.5** Attempts to interfere with the administration of an election, intimidate voters or election workers, or obstruct the counting or certification of votes are federal crimes and constitute grounds for the anti-subversion penalties of Article VI.
+
+**10.6** The Electoral Commission may issue expedited temporary orders, subject to prompt judicial review, to prevent or remedy discriminatory exclusion of qualified parties or lawful candidates from the election infrastructure described in Section 9.5 where delay would materially impair a pending federal election.
 
 ---
 

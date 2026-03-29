@@ -70,7 +70,7 @@ Establishes equal citizenship, national membership, domicile principles, oversea
 
 **5.1** Congress may provide by law for voluntary renunciation of United States citizenship and for administrative procedures necessary to recognize that renunciation.
 
-**5.2** No citizen shall lose citizenship except by voluntary renunciation made knowingly and intentionally, or by a judicial finding that the person knowingly obtained citizenship by material fraud under standards established by law and consistent with due process. No law may provide for involuntary loss of citizenship as punishment, political exclusion, or civil disability.
+**5.2** No citizen shall lose citizenship except by voluntary renunciation made knowingly and intentionally, or by a judicial finding that the person knowingly obtained citizenship by material fraud. Any proceeding to revoke citizenship must provide notice, a meaningful hearing before an independent tribunal, the right to counsel, and judicial review on the merits before revocation takes effect. No law may provide for involuntary loss of citizenship as punishment, political exclusion, or civil disability, or reduce the procedural protections required by this Section.
 
 **5.3** Congress may regulate dual citizenship, foreign allegiance, and foreign-office incompatibility for holders of sensitive federal office, but may not impose civic disabilities on ordinary citizens solely for holding another nationality.
 

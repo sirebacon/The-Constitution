@@ -129,6 +129,8 @@ The Electoral Commission shall publish all disclosures publicly within 5 days of
 
 **6.3 Publication.** All executive orders must be published in a public federal register within 48 hours of signing and may not take effect until 15 days after publication, except in a declared emergency. An emergency declaration issued solely to accelerate the effective date of an executive order is void.
 
+Any executive order or presidential directive meeting the criteria of Article IV Section 9.6A is subject to the expedited constitutional review timetable established in that Section.
+
 **6.4 Congressional override.** Either chamber of Congress may pass a resolution of disapproval of any executive order within 60 days of its publication. An executive order disapproved by a majority of both chambers is void. The President may not reissue a disapproved order in substantially the same form without statutory authorization.
 
 **6.5 Expiration.** An executive order expires at the end of the presidential term in which it was issued unless reissued by the incumbent or successor President. Reissuance requires the same publication and waiting period as original issuance.
