@@ -212,8 +212,25 @@ def derive_system_risk(summary_data: dict[str, Any]) -> str:
 def categorize_failed_obligation(obligation: Obligation) -> str:
     if obligation.source.startswith("Article X Section 1.6"):
         return "state_backsliding"
-    if obligation.actor in {"Congress", "House of Representatives", "Regional Assembly", "Speaker of the House"}:
+    legislative_actors = {
+        "Congress",
+        "House of Representatives",
+        "Regional Assembly",
+        "Speaker of the House",
+        "Regional Assembly presiding officer",
+        "Congress and appointing authorities",
+    }
+    if obligation.actor in legislative_actors:
         return "legislative_deadline_failure"
+    executive_markers = (
+        "President",
+        "Secretary",
+        "Executive",
+        "agency",
+        "Marshal",
+    )
+    if any(marker in obligation.actor for marker in executive_markers):
+        return "executive_defiance"
     if obligation.actor in {"Federal courts", "Chief Justice", "Supreme Court", "U.S. District Court for D.C."}:
         return "judicial_delay"
     if obligation.actor in {"Accountability Commission", "Electoral Commission"}:
@@ -473,6 +490,29 @@ def handle_event(state: SimulationState, event: dict[str, Any]) -> None:
             day,
             day + 21,
             severity="high",
+        )
+
+    elif event_type == "house_members_coordinate_absence_to_block_required_vote":
+        state.provisions.add("Article II Section 15A")
+        state.add_entry(
+            day,
+            "event",
+            "A bloc of House members coordinates absence and refuses available continuity procedures in order to defeat a constitutionally required impeachment vote.",
+            "Article II Section 15A.4",
+        )
+        state.add_violation(
+            "coordinated_absenteeism_required_vote",
+            "institutional_stress",
+            "Bloc of House members",
+            "House members coordinate absence and refuse available continuity procedures in order to defeat a constitutionally required vote, constituting obstruction of a constitutional process.",
+            "Article II Section 15A.4",
+            day,
+        )
+        state.add_entry(
+            day,
+            "outcome",
+            "Nominal reliance on travel, hardship, or ordinary chamber custom does not excuse coordinated absentee obstruction under Article II Section 15A.4.",
+            "Article II Section 15A.4",
         )
 
     elif event_type == "president_declares_domestic_insurrection":
@@ -1236,6 +1276,15 @@ def handle_event(state: SimulationState, event: dict[str, Any]) -> None:
             day + 180,
             severity="high",
         )
+        state.add_obligation(
+            "supreme_court_decide_expedited_case",
+            "Supreme Court",
+            "issue a written decision in the constitutionally expedited case",
+            "Article IV Section 10.1",
+            day,
+            day + 365,
+            severity="high",
+        )
 
     elif event_type == "supreme_court_fails_delay_notice":
         state.fail_obligation(
@@ -1251,6 +1300,12 @@ def handle_event(state: SimulationState, event: dict[str, Any]) -> None:
             "Article IV Section 10.1",
             day,
             severity="high",
+        )
+        state.add_entry(
+            day,
+            "outcome",
+            "Because the case involves constitutionally expedited election administration review, the last operative lower-court judgment remains temporarily in force until the Supreme Court acts or publicly enters a narrower interim order supported by written findings of genuine necessity.",
+            "Article IV Section 10.1 and Section 10.4",
         )
         state.add_obligation(
             "judicial_conduct_board_delay_review",
@@ -1281,6 +1336,19 @@ def handle_event(state: SimulationState, event: dict[str, Any]) -> None:
             "outcome",
             "The finding constitutes conduct-based grounds for judicial removal and does not rest on the substance of any judicial opinion.",
             "Article IV Section 8.1, Section 8.2, and Section 10.1",
+        )
+
+    elif event_type == "supreme_court_misses_expedited_decision_deadline":
+        state.fail_obligation(
+            "supreme_court_decide_expedited_case",
+            day,
+            "Supreme Court failed to issue a written decision within twelve months of argument in a constitutionally expedited case under Article IV Section 10.1.",
+        )
+        state.add_entry(
+            day,
+            "outcome",
+            "The last operative lower-court judgment becomes final and binding on the parties to the case and is no longer subject to Supreme Court review.",
+            "Article IV Section 10.1 and Section 10.4",
         )
 
     # --- Category E continued: Emergency Rights ---

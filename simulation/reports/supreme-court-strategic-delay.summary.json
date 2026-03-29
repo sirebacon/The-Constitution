@@ -9,11 +9,11 @@
   ],
   "metrics": {
     "satisfied_obligations": 1,
-    "failed_obligations": 1,
+    "failed_obligations": 2,
     "unresolved_obligations": 0,
     "violations": 1,
-    "bottlenecks": 1,
-    "timeline_entries": 9
+    "bottlenecks": 2,
+    "timeline_entries": 13
   },
   "violations": [
     {
@@ -36,6 +36,16 @@
       "day": 190,
       "deadline_day": 180,
       "summary": "Supreme Court failed to publish a public notice identifying the case and the reason for delay if no decision has issued within six months of argument by day 180 under Article IV Section 10.1."
+    },
+    {
+      "id": "supreme_court_decide_expedited_case",
+      "category": "judicial_delay",
+      "actor": "Supreme Court",
+      "source": "Article IV Section 10.1",
+      "severity": "high",
+      "day": 370,
+      "deadline_day": 365,
+      "summary": "Supreme Court failed to issue a written decision in the constitutionally expedited case by day 365 under Article IV Section 10.1."
     }
   ],
   "open_duties": [],
@@ -55,6 +65,15 @@
       "deadline_day": 180,
       "closed_day": 190,
       "outcome": "Supreme Court failed to publish a public notice identifying the case and the reason for delay if no decision has issued within six months of argument by day 180 under Article IV Section 10.1.",
+      "source": "Article IV Section 10.1",
+      "severity": "high"
+    },
+    {
+      "actor": "Supreme Court",
+      "duty": "issue a written decision in the constitutionally expedited case",
+      "deadline_day": 365,
+      "closed_day": 370,
+      "outcome": "Supreme Court failed to issue a written decision in the constitutionally expedited case by day 365 under Article IV Section 10.1.",
       "source": "Article IV Section 10.1",
       "severity": "high"
     }

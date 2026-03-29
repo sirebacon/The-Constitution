@@ -1,23 +1,23 @@
 {
-  "scenario_count": 35,
-  "stress_point_scenarios": 33,
+  "scenario_count": 36,
+  "stress_point_scenarios": 34,
   "totals": {
-    "violations": 30,
-    "bottlenecks": 18,
+    "violations": 32,
+    "bottlenecks": 21,
     "unresolved_obligations": 0
   },
   "risk_pattern_counts": [
     {
       "risk": "executive_defiance",
-      "count": 16
+      "count": 17
     },
     {
       "risk": "institutional_stress",
-      "count": 10
+      "count": 9
     },
     {
       "risk": "legislative_delay",
-      "count": 6
+      "count": 7
     },
     {
       "risk": "none",
@@ -31,15 +31,15 @@
   "bottleneck_categories": [
     {
       "category": "legislative_deadline_failure",
-      "count": 8
+      "count": 14
     },
     {
-      "category": "missed_deadline",
-      "count": 8
+      "category": "executive_defiance",
+      "count": 4
     },
     {
       "category": "judicial_delay",
-      "count": 1
+      "count": 2
     },
     {
       "category": "state_backsliding",
@@ -49,7 +49,7 @@
   "violation_categories": [
     {
       "category": "executive_defiance",
-      "count": 16
+      "count": 17
     },
     {
       "category": "rights_suppression",
@@ -64,6 +64,10 @@
       "count": 2
     },
     {
+      "category": "institutional_stress",
+      "count": 2
+    },
+    {
       "category": "caste_hierarchy",
       "count": 1
     },
@@ -73,10 +77,6 @@
     },
     {
       "category": "election_restriction",
-      "count": 1
-    },
-    {
-      "category": "institutional_stress",
       "count": 1
     },
     {
@@ -99,10 +99,18 @@
     },
     {
       "provision": "Article II Section 15A",
-      "count": 2
+      "count": 3
+    },
+    {
+      "provision": "Article XVI Section 1",
+      "count": 3
     },
     {
       "provision": "Article II Section 16.2",
+      "count": 2
+    },
+    {
+      "provision": "Article III Section 10",
       "count": 2
     },
     {
@@ -115,10 +123,6 @@
     },
     {
       "provision": "Article XIX Section 5",
-      "count": 2
-    },
-    {
-      "provision": "Article XVI Section 1",
       "count": 2
     },
     {
@@ -163,10 +167,6 @@
     },
     {
       "provision": "Article II Section 5.3",
-      "count": 1
-    },
-    {
-      "provision": "Article III Section 10",
       "count": 1
     },
     {
@@ -477,7 +477,7 @@
       "bottlenecks": [
         {
           "id": "executive_comply_subpoena",
-          "category": "missed_deadline",
+          "category": "executive_defiance",
           "actor": "Secretary of Defense",
           "source": "Article II Section 16.2 and Section 16.3",
           "severity": "high",
@@ -544,7 +544,7 @@
       "bottlenecks": [
         {
           "id": "constitute_constitutional_organs",
-          "category": "missed_deadline",
+          "category": "legislative_deadline_failure",
           "actor": "Congress and appointing authorities",
           "source": "Article XIX Section 5.2",
           "severity": "high",
@@ -554,7 +554,7 @@
         },
         {
           "id": "complete_constitutional_organs_after_court_order",
-          "category": "missed_deadline",
+          "category": "legislative_deadline_failure",
           "actor": "Congress and appointing authorities",
           "source": "Article XIX Section 5.2A",
           "severity": "high",
@@ -605,7 +605,7 @@
         "primary_violation": null,
         "primary_bottleneck": "Congress and appointing authorities failed to constitute the Constitutional Organs on the timeline required by the Constitution by day 365 under Article XIX Section 5.2.",
         "primary_open_duty": null,
-        "system_risk": "institutional_stress",
+        "system_risk": "legislative_delay",
         "recommended_focus": "review bottlenecks, violations, and unresolved duties"
       }
     },
@@ -662,6 +662,112 @@
       }
     },
     {
+      "scenario_id": "coordinated-absenteeism-required-vote",
+      "title": "Coordinated Absenteeism to Defeat a Constitutionally Required Vote",
+      "source_file": "simulation/scenarios/coordinated-absenteeism-required-vote.json",
+      "status": "stress_point_found",
+      "triggered_provisions": [
+        "Article II Section 15A",
+        "Article III Section 10",
+        "Article XVI Section 1"
+      ],
+      "metrics": {
+        "satisfied_obligations": 2,
+        "failed_obligations": 2,
+        "unresolved_obligations": 0,
+        "violations": 2,
+        "bottlenecks": 2,
+        "timeline_entries": 16
+      },
+      "violations": [
+        {
+          "id": "president_ignores_withdrawal_order",
+          "category": "executive_defiance",
+          "actor": "President",
+          "source": "Article XVI Section 8(e)",
+          "severity": "high",
+          "day": 40,
+          "summary": "President continues military operations in violation of a withdrawal order."
+        },
+        {
+          "id": "coordinated_absenteeism_required_vote",
+          "category": "institutional_stress",
+          "actor": "Bloc of House members",
+          "source": "Article II Section 15A.4",
+          "severity": "high",
+          "day": 58,
+          "summary": "House members coordinate absence and refuse available continuity procedures in order to defeat a constitutionally required vote, constituting obstruction of a constitutional process."
+        }
+      ],
+      "bottlenecks": [
+        {
+          "id": "congress_authorize_force",
+          "category": "legislative_deadline_failure",
+          "actor": "Congress",
+          "source": "Article XVI Section 1",
+          "severity": "high",
+          "day": 31,
+          "deadline_day": 30,
+          "summary": "Congress failed to grant authorization for continued military force or refuse it by day 30 under Article XVI Section 1."
+        },
+        {
+          "id": "house_vote_impeachment_war",
+          "category": "legislative_deadline_failure",
+          "actor": "House of Representatives",
+          "source": "Article XVI Section 1.5(e) and Article III Section 10.2A",
+          "severity": "high",
+          "day": 65,
+          "deadline_day": 61,
+          "summary": "House of Representatives failed to hold a recorded impeachment vote on the unlawful continued military operation by day 61 under Article XVI Section 1.5(e) and Article III Section 10.2A."
+        }
+      ],
+      "open_duties": [],
+      "satisfied_duties": [
+        {
+          "actor": "Chief Justice",
+          "duty": "issue the required withdrawal order for unauthorized continued operations",
+          "closed_day": 34,
+          "outcome": "issued a withdrawal order",
+          "source": "Article XVI Section 1.5(c)"
+        },
+        {
+          "actor": "Regional Assembly",
+          "duty": "proceed to impeachment trial on the automatically transmitted war-powers articles",
+          "closed_day": 65,
+          "outcome": "began trial on automatically transmitted war-powers articles",
+          "source": "Article III Section 10.2A and Section 10.3"
+        }
+      ],
+      "failed_duties": [
+        {
+          "actor": "Congress",
+          "duty": "grant authorization for continued military force or refuse it",
+          "deadline_day": 30,
+          "closed_day": 31,
+          "outcome": "Congress failed to grant authorization for continued military force or refuse it by day 30 under Article XVI Section 1.",
+          "source": "Article XVI Section 1",
+          "severity": "high"
+        },
+        {
+          "actor": "House of Representatives",
+          "duty": "hold a recorded impeachment vote on the unlawful continued military operation",
+          "deadline_day": 61,
+          "closed_day": 65,
+          "outcome": "House of Representatives failed to hold a recorded impeachment vote on the unlawful continued military operation by day 61 under Article XVI Section 1.5(e) and Article III Section 10.2A.",
+          "source": "Article XVI Section 1.5(e) and Article III Section 10.2A",
+          "severity": "high"
+        }
+      ],
+      "notes": [],
+      "ai_summary": {
+        "primary_violation": "President continues military operations in violation of a withdrawal order.",
+        "primary_bottleneck": "Congress failed to grant authorization for continued military force or refuse it by day 30 under Article XVI Section 1.",
+        "primary_open_duty": null,
+        "system_risk": "executive_defiance",
+        "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+      }
+    },
+    {
       "scenario_id": "court-order-defied",
       "title": "Executive Branch Defies Federal Court Order",
       "source_file": "simulation/scenarios/court-order-defied.json",
@@ -691,7 +797,7 @@
       "bottlenecks": [
         {
           "id": "executive_comply_court_order",
-          "category": "missed_deadline",
+          "category": "executive_defiance",
           "actor": "Executive agency",
           "source": "Article II Section 16.2(c)",
           "severity": "high",
@@ -875,7 +981,7 @@
       "bottlenecks": [
         {
           "id": "president_cooperate_transition",
-          "category": "missed_deadline",
+          "category": "executive_defiance",
           "actor": "President",
           "source": "Article III Section 13.1",
           "severity": "high",
@@ -1470,7 +1576,7 @@
       "bottlenecks": [
         {
           "id": "president_nominate_justice",
-          "category": "missed_deadline",
+          "category": "executive_defiance",
           "actor": "President",
           "source": "Article IV Section 3.1",
           "severity": "medium",
@@ -2102,7 +2208,7 @@
       "bottlenecks": [
         {
           "id": "presiding_officer_15a_motion",
-          "category": "missed_deadline",
+          "category": "legislative_deadline_failure",
           "actor": "Regional Assembly presiding officer",
           "source": "Article II Section 15A.1(b)",
           "severity": "high",
@@ -2196,7 +2302,7 @@
       "bottlenecks": [
         {
           "id": "presiding_officer_15a_motion",
-          "category": "missed_deadline",
+          "category": "legislative_deadline_failure",
           "actor": "Regional Assembly presiding officer",
           "source": "Article II Section 15A.1(b)",
           "severity": "high",
@@ -2426,11 +2532,11 @@
       ],
       "metrics": {
         "satisfied_obligations": 1,
-        "failed_obligations": 1,
+        "failed_obligations": 2,
         "unresolved_obligations": 0,
         "violations": 1,
-        "bottlenecks": 1,
-        "timeline_entries": 9
+        "bottlenecks": 2,
+        "timeline_entries": 13
       },
       "violations": [
         {
@@ -2453,6 +2559,16 @@
           "day": 190,
           "deadline_day": 180,
           "summary": "Supreme Court failed to publish a public notice identifying the case and the reason for delay if no decision has issued within six months of argument by day 180 under Article IV Section 10.1."
+        },
+        {
+          "id": "supreme_court_decide_expedited_case",
+          "category": "judicial_delay",
+          "actor": "Supreme Court",
+          "source": "Article IV Section 10.1",
+          "severity": "high",
+          "day": 370,
+          "deadline_day": 365,
+          "summary": "Supreme Court failed to issue a written decision in the constitutionally expedited case by day 365 under Article IV Section 10.1."
         }
       ],
       "open_duties": [],
@@ -2472,6 +2588,15 @@
           "deadline_day": 180,
           "closed_day": 190,
           "outcome": "Supreme Court failed to publish a public notice identifying the case and the reason for delay if no decision has issued within six months of argument by day 180 under Article IV Section 10.1.",
+          "source": "Article IV Section 10.1",
+          "severity": "high"
+        },
+        {
+          "actor": "Supreme Court",
+          "duty": "issue a written decision in the constitutionally expedited case",
+          "deadline_day": 365,
+          "closed_day": 370,
+          "outcome": "Supreme Court failed to issue a written decision in the constitutionally expedited case by day 365 under Article IV Section 10.1.",
           "source": "Article IV Section 10.1",
           "severity": "high"
         }
