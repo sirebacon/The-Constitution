@@ -130,54 +130,28 @@ In major enforcement actions for securities fraud, market manipulation, or insid
 
 When the financial market regulator determines that criminal conduct has occurred, it shall refer the matter promptly to the Accountability Commission for criminal prosecution. No financial institution shall be deemed too large, connected, or systemically important to prosecute.
 
-### 2.7 — Emergency asset freeze
+### 2.7 — Additional Congressional mandates
 
-The financial market regulator shall have authority to seek emergency judicial orders freezing assets where necessary to preserve funds subject to disgorgement or other lawful remedies.
+Congress shall provide the financial market regulator with authority to seek emergency judicial asset preservation where necessary to protect funds subject to disgorgement. Congress shall also provide for executive compensation clawback where compensation was based on fraudulent reporting or paid to officers responsible for serious violations, and shall maintain a whistleblower reward and protection program for financial market violations.
 
-### 2.8 — Executive clawback
+### 2.8 — Revolving door
 
-Congress shall provide the financial market regulator with authority to claw back executive compensation that was based on fraudulent reporting or was paid to officers who were responsible for or knowingly participated in serious violations.
+The financial market regulator is structurally vulnerable to capture through personnel rotation between the regulator and the financial industry. Both incoming and outgoing rotation must be governed by law. Congress shall establish:
 
-### 2.9 — Whistleblower rewards
+  (a) Post-service cooling-off periods, graduated by seniority and access to confidential supervisory information, during which former personnel may not work for, represent, or advise regulated entities. The most senior positions shall carry the longest restrictions.
+  (b) Pre-service recusal for persons appointed from regulated entities, covering matters involving their former employer for a period set by law, and full disclosure of financial interests and contingent compensation at the time of appointment. Unvested or contingent arrangements that create an incentive to favor a former employer are void.
+  (c) A prohibition on any regulated entity offering payment or financial benefit to a departing employee conditioned on that employee's future regulatory decisions or favorable treatment. Any such arrangement is void.
+  (d) Transition support sufficient to ensure that post-service restrictions do not function as a deterrent to qualified public service, and compensation during service adequate to attract qualified regulators.
 
-Congress shall maintain a whistleblower reward program for financial market violations and protect whistleblowers from retaliation.
+The Accountability Commission shall maintain a public registry of departing senior officials, their cooling-off status, and their disclosed post-service employment. Violations by former officials are prosecuted by the Accountability Commission; violations by regulated institutions are subject to the civil penalty regime of Section 2.4.
 
-### 2.10 — Revolving Door: Comprehensive Restrictions and Protections
-
-**2.10.1 — Purpose.** The revolving door between the financial market regulator and the financial industry corrupts enforcement in two directions: industry insiders placed in regulatory positions protect their former employers; regulators who expect to join the industry pull their punches to preserve future employment. Both patterns must be eliminated.
-
-**2.10.2 — Post-service cooling-off periods.** Personnel of the financial market regulator with access to confidential supervisory information, enforcement plans, or non-public regulatory data may not, for a substantial period set by law, work for, advise, consult for, represent before the regulator, or accept compensation from any financial institution or entity subject to the regulator's jurisdiction. Congress shall establish graduated periods by responsibility, and the most senior positions shall be subject to the longest restrictions.
-
-**2.10.3 — Scope of post-service restrictions.** During any applicable cooling-off period, a former official may not:
-
-  (a) Accept employment, compensation, or equity in any regulated financial institution or entity subject to the regulator's jurisdiction
-  (b) Advise, consult for, or provide strategic guidance to any such entity, whether compensated or not
-  (c) Appear before, communicate with, or advocate to the regulator on behalf of any private party
-  (d) Provide to any private party non-public information obtained during service
-
-A former official may, without restriction, work in academia, publish, teach, work in industries not subject to the regulator's jurisdiction, or provide services to other government agencies.
-
-**2.10.4 — Transition support.** Congress shall provide reasonable transition support for former officials subject to substantial cooling-off periods so that anti-corruption restrictions do not become a device for excluding qualified public service.
-
-**2.10.5 — Compensation during service.** Congress shall set compensation for senior regulatory personnel at levels sufficient to attract and retain qualified experts in competition with the private sector.
-
-**2.10.6 — Pre-service restrictions: industry hires.** A person appointed to a senior regulatory position from a regulated financial institution shall:
-
-  (a) Be recused from all matters directly involving their former employer for not less than two years from the date of their departure from that employer
-  (b) Disclose at the time of appointment all financial interests, equity compensation, deferred compensation, unvested awards, and contractual obligations from their former employer
-  (c) Not retain unvested equity, deferred compensation, or contingent payments from a regulated entity that would create a continuing financial incentive to favor that entity's interests while in regulatory service. Arrangements that condition future payment on regulatory outcomes are void as against public policy.
-
-**2.10.7 — No golden parachute conditioning.** No regulated financial institution may offer or provide to a departing employee, in connection with that employee entering regulatory service, any payment or financial benefit contingent upon the employee's future regulatory decisions or favorable treatment of the institution. Any such arrangement is void.
-
-**2.10.8 — Enforcement.** Violations of this Section by former officials shall be prosecuted by the Accountability Commission. Violations by regulated institutions are subject to the civil penalty regime of Section 2.4. The Accountability Commission shall maintain a public registry of departing senior officials, their cooling-off status, and their disclosed post-service employment.
-
-### 2.11 — Jurisdiction over new financial instruments
+### 2.9 — Jurisdiction over new financial instruments
 
 The financial market regulator's jurisdiction extends to all instruments that function as investments, securities, or derivatives, regardless of their technological form, the label applied by their issuers, or the novelty of the underlying asset. No financial instrument escapes regulatory oversight solely because it is new, digital, or structured to avoid existing definitional categories. Congress shall define the outer boundaries of this jurisdiction by law, but may not exempt a class of investment instruments from oversight entirely.
 
-### 2.12 — Market surveillance authority
+### 2.10 — Market surveillance authority
 
-The financial market regulator shall maintain market-surveillance systems capable of detecting fraud, manipulation, and insider trading. Data collected through market surveillance shall be used only for lawful regulatory and enforcement purposes.
+The financial market regulator shall maintain systems capable of detecting fraud, manipulation, and insider trading. Surveillance data shall be used only for lawful regulatory and enforcement purposes.
 
 ---
 

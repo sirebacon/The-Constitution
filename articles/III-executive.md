@@ -155,9 +155,7 @@ The Electoral Commission shall publish all disclosures publicly within 5 days of
 
 ## Section 8 — Commander in Chief and War Powers
 
-*This section has been moved to **[Article XVI — War Powers and National Security](XVI-war-powers-national-security.md)**. See Article XVI for all war powers provisions, including: Commander in Chief authority, congressional authorization requirements, the definition of military force, cyber warfare, nuclear weapons, private military contractors, covert operations, treaty-based defense obligations, domestic deployment restrictions, and unlawful orders. The complementary foreign policy and national security framework (economic security, foreign influence operations, critical infrastructure, foreign intelligence collection, gray zone response, alliance reliability, and technology security) is in **[Article XVII — Foreign Policy and National Security](XVII-foreign-policy-national-security.md)**.*
-
-*For cross-reference purposes: the former Section 8 subsections (8.1–8.14) correspond to Article XVI Sections 1–8. Section 15.9 of this Article cross-references Article XVI.*
+**8.1** The President is Commander in Chief. All Commander in Chief authority, congressional authorization requirements, nuclear weapons, private military contractors, covert operations, domestic deployment restrictions, and unlawful-order duties are governed by Article XVI. Section 15.9 of this Article and Article XVI Section 8(e) establish the consequences of presidential defiance of a lawful withdrawal order.
 
 ---
 

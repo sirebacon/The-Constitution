@@ -87,15 +87,7 @@ The Commission may not assess candidates' political views, ideological positions
 
 **4.8 Judicial review of rejection.** A candidate rejected from the certified pool may challenge the rejection in the United States Court of Appeals for the District of Columbia Circuit within 30 days. The court shall review only whether the Commission correctly applied the objective criteria of Section 4.5. The court may order reconsideration under the correct standard, but may not add a candidate to the pool directly.
 
-**4.9 Accountability Commission oversight.** The Accountability Commission (Article XII) shall conduct an annual audit of the Judicial Nominations Commission covering:
-  (a) Procedural compliance with this Article
-  (b) Conflicts of interest among Commission members in specific certification decisions
-  (c) Consistency of the criteria applied across all candidates reviewed in the audit period
-  (d) Compliance with the transparency requirements of Section 4.7
-
-Audit findings shall be published publicly and submitted to both chambers of Congress. The Accountability Commission may refer evidence of misconduct by Commission members for criminal prosecution or congressional removal proceedings.
-
-**4.10 Member conflicts.** A Commission member must recuse from the certification review of any candidate who was their former colleague, employer, employee, legal partner, or law clerk within the preceding ten years. Recusal decisions shall be published. A member who willfully fails to recuse when required is subject to removal under Section 4.4.
+**4.9 Oversight and member conflicts.** The Accountability Commission (Article XII) shall conduct an annual audit of the Judicial Nominations Commission for procedural compliance, consistency of certification criteria, conflicts of interest, and adherence to the transparency requirements of Section 4.7. Audit findings shall be published and submitted to both chambers of Congress. The Accountability Commission may refer evidence of misconduct by Commission members for prosecution or congressional removal proceedings. A Commission member must recuse from reviewing any candidate who was their former colleague, employer, employee, legal partner, or law clerk within the preceding ten years; recusal decisions shall be published; and a member who willfully fails to recuse is subject to removal under Section 4.4.
 
 ---
 
@@ -150,6 +142,8 @@ The Judicial Conduct Board shall have its own independent budget line within the
   (c) A close family member is a party or has a direct financial interest in the outcome
   (d) They have made prior public statements that demonstrate prejudgment of the specific facts at issue
 
+A party may petition the Judicial Conduct Board for an order directing recusal. A judgment entered by a judge who was subject to mandatory recusal under (a), (b), or (c) and failed to recuse is voidable on timely motion in the originating court. A judge who refuses a valid recusal demand under those grounds shall be automatically referred to the Judicial Conduct Board and may not participate in the case pending resolution of the referral.
+
 **7.4 Financial disclosure.** All federal judges shall file annual financial disclosures with the Accountability Commission, including all income, investments, gifts, and hospitality received. Disclosures shall be published publicly within 30 days of filing.
 
 **7.5 Outside income.** No active federal judge may receive income from the private practice of law, from corporations or entities that regularly appear before federal courts, or from speaking engagements funded by parties with interests in federal litigation. Receiving prohibited income is grounds for removal.
@@ -158,7 +152,7 @@ The Judicial Conduct Board shall have its own independent budget line within the
 
 ## Section 8 — Removal of Federal Judges
 
-**8.1** Federal judges may be removed from office only by impeachment. The House of Representatives shall bring articles of impeachment; the Regional Assembly shall conduct the trial. Conviction requires a 2/3 vote of the Regional Assembly. No judge may be impeached solely for the substance of judicial opinions or legal rulings. Before the House may proceed to a floor vote on articles of impeachment against a federal judge, the Judicial Conduct Board must certify in writing that each article is based on conduct and not on the substance of the judge's legal reasoning.
+**8.1** Federal judges may be removed from office only by impeachment. The House of Representatives shall bring articles of impeachment; the Regional Assembly shall conduct the trial. Conviction requires a 2/3 vote of the Regional Assembly. No judge may be impeached solely for the substance of judicial opinions or legal rulings. Before the House may proceed to a floor vote on articles of impeachment against a federal judge, the Judicial Conduct Board must certify in writing that each article is based on conduct and not on the substance of the judge's legal reasoning. The Board shall issue or deny certification within 60 days of receiving the proposed articles. If the Board fails to act within that period, either chamber may by 2/3 vote declare that the articles are conduct-based and proceed to a floor vote; that chamber vote constitutes the required conduct-basis finding for purposes of this Section.
 
 **8.2 Grounds for removal.** Grounds for judicial impeachment include:
   (a) Conviction of a felony
@@ -185,7 +179,7 @@ The Judicial Conduct Board shall have its own independent budget line within the
 
 **9.2A — Mandatory jurisdiction.** The Supreme Court shall be required to accept and decide the following categories of cases, regardless of its ordinary certiorari discretion:
 
-  (a) **Circuit splits on constitutional questions.** Where two or more Circuit Courts of Appeals have issued conflicting final rulings on the same constitutional question, the Supreme Court shall accept a petition presenting the split within two terms of the conflict being identified. A circuit split on a constitutional question creates a patchwork of rights across the nation that the Supreme Court is obligated to resolve. A circuit split is "identified" for purposes of this subsection when any party to a case files a notice of conflict with the Supreme Court Clerk citing the conflicting decision; the Clerk shall maintain a public registry of all such notices. The two-term clock begins on the date the notice of conflict is filed.
+  (a) **Circuit splits on constitutional questions.** Where two or more Circuit Courts of Appeals have issued conflicting final rulings on the same constitutional question, the Supreme Court shall accept a petition presenting the split within two terms of any party filing notice of the conflict with the Supreme Court Clerk. A circuit split on a constitutional question creates a patchwork of rights across the nation that the Supreme Court is obligated to resolve.
 
   (b) **Cases involving federal officials.** Cases in which the President, Vice President, a member of Congress, or a federal judge is a named party in their official capacity, and which present a substantial constitutional question, shall be accepted within one term of final circuit court decision.
 
@@ -211,6 +205,8 @@ Congress may by law expand standing to allow suits by parties with a sufficientl
 
 Courts shall prefer narrow remedies that address the specific constitutional violation over broad remedies that reach beyond what is necessary.
 
+**9.7 Emergency order transparency.** Any Supreme Court order granting or denying emergency relief — including stays of lower court judgments, injunctions pending appeal, and applications affecting the enforcement of a constitutional right — shall be accompanied by a written statement identifying the legal standard applied and the reasons for the order. A per curiam emergency order in a constitutional case shall identify the justices joining it. An emergency order issued without the required explanation is voidable on timely motion in the originating court. This Section does not prevent the Court from acting immediately in a genuine emergency; it requires only that the written explanation follow within 48 hours of the order.
+
 ---
 
 ## Section 10 — Decision Timeliness
@@ -221,7 +217,7 @@ Courts shall prefer narrow remedies that address the specific constitutional vio
 
 **10.3 — District Courts.** District Courts shall issue decisions in non-jury matters within ninety days of the completion of all submissions. Congress may establish longer periods by statute where the complexity of the case warrants, but shall set a maximum beyond which a matter must be reassigned to another judge.
 
-**10.4 — Enforcement.** Failure to meet these deadlines does not void a judgment or deprive a court of jurisdiction, except to the limited extent that Section 10.1 withdraws Supreme Court review from a constitutionally expedited case after the twelve-month deadline has passed without decision. The temporary lower-court effect and case-specific finality specified in Section 10.1 for constitutionally expedited cases are automatic and do not require a further merits determination. The Judicial Conduct Board (Section 7.2) shall monitor compliance and may cite a pattern of unreasonable delay as grounds for a finding of neglect of duty under Section 8.2(c).
+**10.4 — Enforcement.** Failure to meet these deadlines does not void a judgment or deprive a court of jurisdiction, except to the limited extent that Section 10.1 withdraws Supreme Court review from a constitutionally expedited case after the twelve-month deadline has passed without decision. The temporary lower-court effect and case-specific finality specified in Section 10.1 for constitutionally expedited cases are automatic and do not require a further merits determination. The Judicial Conduct Board (Section 7.2) shall monitor compliance with the deadlines of this Section and may cite a pattern of unreasonable delay as grounds for a finding of neglect of duty under Section 8.2(c). In any case subject by this Constitution to expedited judicial treatment, a Circuit Court or District Court that fails to meet its applicable deadline shall file a written explanation with the Judicial Conduct Board within 10 days of the missed deadline. If the Board finds the delay unreasonable, it shall order reassignment of the matter to another judge in the same court and shall refer the matter for a neglect-of-duty finding. Reassignment does not affect the validity of prior rulings in the case.
 
 ---
 

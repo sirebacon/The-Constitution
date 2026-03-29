@@ -20,31 +20,23 @@ No judicial doctrine shall be understood to forbid reasonable regulation of poli
 
 ### 1.2 — Traceable disclosure required
 
-All contributions and expenditures made for the purpose of influencing a federal election shall be publicly disclosed. Disclosure must identify the original human source of the funds. No entity, trust, account, intermediary, nominee, or pass-through arrangement may be used to obscure that source.
-
-Congress and the Electoral Commission shall provide by law and regulation for beneficial-ownership tracing, verification of donor identity, and disclosure through chains of intermediaries. If the original human source of funds cannot be identified, the contribution or expenditure is anonymous and prohibited except for nominal contributions below a threshold fixed by law.
+All contributions and expenditures made for the purpose of influencing a federal election shall be publicly disclosed. Disclosure must identify the original human source of the funds. No entity, trust, account, intermediary, nominee, or pass-through arrangement may be used to obscure that source. If the original human source cannot be identified, the contribution or expenditure is prohibited except for nominal amounts below a threshold fixed by law. Congress and the Electoral Commission shall provide by law for enforcement of this requirement through chains of intermediaries.
 
 ### 1.3 — Timely public notice
 
 Significant contributions and expenditures must be disclosed promptly enough for voters to know their source before casting ballots. Congress may set thresholds and deadlines by law, but may not permit delayed disclosure that defeats the purpose of meaningful pre-election transparency.
 
-Congress and the Electoral Commission may provide that undisclosed or unlawfully disclosed political expenditures are void, may be enjoined, withdrawn, or corrected, and may not lawfully be distributed after notice of the defect.
-
 ### 1.4 — Nonprofit, pass-through, and affiliated-source transparency
 
-An organization may not use tax status, pass-through status, or layered entity form to conceal the original human source of political funds. Congress and the Electoral Commission may require cumulative donor tracing, treatment of coordinated or affiliated sources as a single source, and real-time reporting sufficient to prevent evasion by fragmentation.
+An organization may not use tax status, pass-through status, or layered entity form to conceal the original human source of political funds. Congress and the Electoral Commission may require that affiliated or coordinated sources be treated as a single source and that disclosure requirements not be defeated by fragmentation.
 
 ### 1.5 — Coordination and acting in concert
 
-An expenditure is not independent if it is made in coordination with a candidate, campaign, party, or their agents. Shared staff, consultants, vendors, data, strategy, material nonpublic information, common control, or other evidence of practical cooperation may be treated by law as coordination or acting in concert. Congress and the Electoral Commission may establish rebuttable presumptions to prevent disguised coordination.
-
-Coordinated spending and spending by actors found to be acting in concert may be treated as direct contributions or as spending by a single actor for purposes of limits, caps, and disclosure.
+An expenditure is not independent if it is made in coordination with a candidate, campaign, party, or their agents. Congress and the Electoral Commission may define coordination by law, establish rebuttable presumptions to prevent disguised coordination, and treat coordinated or concerted spending as a single source for purposes of limits, caps, and disclosure.
 
 ### 1.6 — Foreign money prohibited
 
-No foreign national, foreign government, foreign corporation, or entity owned or controlled by foreign interests may contribute to or make expenditures in connection with any federal, state, or local election in the United States, whether directly or through a domestic intermediary.
-
-Congress and the Electoral Commission may require reasonable donor-verification procedures, may treat willful blindness as a violation, and may prohibit political spending by entities that cannot demonstrate lawful domestic sourcing.
+No foreign national, foreign government, foreign corporation, or entity owned or controlled by foreign interests may contribute to or make expenditures in connection with any federal, state, or local election in the United States, whether directly or through a domestic intermediary. Congress and the Electoral Commission may take all measures necessary to enforce this prohibition, including treating willful blindness as a violation.
 
 ### 1.7 — Entity spending and source restrictions
 
@@ -112,7 +104,7 @@ Congress may prohibit or limit political contributions and expenditures by feder
 
 ### 4.2 — Anonymous digital-asset spending prohibited
 
-Congress may prohibit political contributions and expenditures made through cryptocurrency, digital tokens, mixing services, privacy-preserving protocols, or comparable technologies whenever the original human source of funds cannot be reliably identified and disclosed.
+Congress may prohibit political contributions and expenditures made through any means by which the original human source of funds cannot be reliably identified and disclosed, regardless of the technological form.
 
 ### 4.3 — In-kind value covered
 
@@ -126,8 +118,6 @@ Non-monetary transfers of value made for the purpose of influencing an election 
 
 The presidential transition is a governmental function and shall be funded only as provided by law from public funds. No private contribution, donation, gift, or thing of value may be accepted for transition operations. Campaign funds may not be converted to transition use.
 
-Congress shall provide by law for the lawful disposition, reporting, and audit of campaign funds remaining after an election and for full transition cooperation by the outgoing administration.
-
 ### 5.2 — Inaugural and post-election fundraising
 
 Congress may permit private fundraising for inaugural ceremonies or comparable post-election purposes only subject to the disclosure, source, segregation, and anti-corruption rules of this Article.
@@ -136,7 +126,7 @@ Campaign debt retirement, leadership political committees, and comparable post-e
 
 ### 5.3 — Political advertising transparency
 
-Congress and the Electoral Commission shall maintain a public record of political advertising sufficient to disclose its sponsor, content, targeting, medium, and material reach or expenditure. The record must remain accessible for a substantial period after the election.
+Congress and the Electoral Commission shall maintain a public record of political advertising sufficient to disclose its source, content, and material reach before and after each election.
 
 ---
 
@@ -150,7 +140,7 @@ Willful concealment of political funding sources, willful use of shell entities 
 
 ### 6.2 — Timely remedies
 
-Congress shall provide by law for expedited injunctive, declaratory, and administrative remedies sufficient to prevent unlawful political money from shaping an election before voters can know its source. Remedies may include public notice, corrective disclosure, disgorgement, invalidation of unlawful expenditures, and temporary restraints on further unlawful spending.
+Congress shall provide by law for expedited remedies sufficient to prevent unlawful political money from shaping an election before voters can know its source.
 
 ---
 

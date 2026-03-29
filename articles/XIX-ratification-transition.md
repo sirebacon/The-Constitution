@@ -86,11 +86,16 @@ Governs ratification, legal continuity, supersession of the prior constitutional
 
 ## Section 7 — Temporary Corrective Legislation
 
-**7.1** For ten years after ratification, Congress may enact technical corrective legislation to resolve conflicts, omissions, or implementation defects arising from transition, provided such legislation is consistent with this Constitution and does not alter its permanent structure.
+**7.1** For ten years after ratification, Congress may enact corrective legislation under this Section only to address one of the following specific defects arising from implementation of this Constitution:
+  (a) a genuine procedural gap that prevents a constitutional institution or process from functioning because no law exists to implement it;
+  (b) a direct textual conflict between two provisions of this Constitution that cannot both be applied to the same factual circumstance; or
+  (c) a missing sequencing rule required to carry out a constitutionally mandated process.
 
-**7.2** The Supreme Court shall have expedited jurisdiction to review any claim that purported corrective legislation exceeds the authority of this Section.
+Corrective legislation may not expand any power, restrict any right, modify any structural provision beyond the scope of the identified defect, or address any matter of policy left to ordinary legislation. Each corrective act must identify by section and subsection the specific constitutional provision giving rise to the defect, describe the defect with particularity, and certify that no provision of the act addresses any matter beyond that defect. The authority of this Section expires ten years after ratification and may not be extended.
 
-**7.3** Corrective legislation under this Section may clarify implementation, sequencing, and institutional continuity, but may not be used to preserve a superseded office, re-create a superseded veto point, or postpone a right, election, or institutional safeguard whose effective date is fixed by this Constitution.
+**7.2** The Supreme Court shall have expedited jurisdiction to review any claim that purported corrective legislation exceeds the authority of this Section. Any ambiguity about whether an act qualifies under this Section shall be resolved against the legislation.
+
+**7.3** Corrective legislation under this Section may not be used to preserve a superseded office, re-create a superseded veto point, postpone a right, election, or institutional safeguard whose effective date is fixed by this Constitution, or fill any gap that this Constitution itself addresses through a self-executing default rule.
 
 ---
 
