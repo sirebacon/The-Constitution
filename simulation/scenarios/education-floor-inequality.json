@@ -1,0 +1,24 @@
+{
+  "id": "education-floor-inequality",
+  "title": "State Leaves Students with Substantially Inferior Education",
+  "description": "A state's education funding structure leaves students in low-income districts with substantially inferior education on the basis of geographic location and income. Courts declare a violation under Art XVIII §2.2 and require a constitutionally sufficient remedy. Tests whether the education floor is judicially enforceable without courts prescribing specific policy solutions.",
+  "articles_tested": ["Article XVIII"],
+  "provisions_tested": ["Article XVIII Section 2.2"],
+  "events": [
+    {
+      "day": 1,
+      "type": "state_leaves_students_inferior_education",
+      "actor": "State government",
+      "details": {
+        "group": "students in low-income rural districts",
+        "basis": "geographic location and income"
+      }
+    },
+    {
+      "day": 80,
+      "type": "court_requires_education_remedy",
+      "actor": "Federal courts",
+      "details": {}
+    }
+  ]
+}

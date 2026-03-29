@@ -56,7 +56,7 @@ Constitutional Organs have:
 
 **2.7 Quorum and continuity.** A majority of the full membership constitutes a quorum. The Commission may act through divisions or delegated officers only as authorized by law or internal rules consistent with this Constitution, but certification of federal elections, formal findings of systematic state non-compliance, and final civil enforcement orders require action attributable to the Commission itself. The Commission shall maintain continuity procedures sufficient to preserve certification, recordkeeping, and emergency election administration during vacancy, attack, disaster, or other severe disruption.
 
-**2.8 Vacancies and temporary appointments.** If a vacancy remains unfilled for more than 90 days because an appointing authority failed to act, the Chief Justice may make a temporary appointment from among persons meeting the qualification requirements of this Article. A temporary appointment lasts until the ordinary appointing process is completed or for 180 days, whichever comes first, and may be renewed once upon written findings by a majority of the Supreme Court that the appointing process remains deadlocked despite good-faith efforts to complete it. Temporary Commissioners may exercise only the ordinary powers of the office and do not become permanent Commissioners except through the ordinary appointment process.
+**2.8 Vacancies.** Vacancies are governed by Section 5.6 of this Article.
 
 ---
 
@@ -85,7 +85,7 @@ Constitutional Organs have:
 
 **3.7 Quorum and continuity.** A majority of the full membership constitutes a quorum. The Commission may delegate ordinary investigative or auditing tasks by law or internal rule, but formal criminal charges, constitutional certifications, final audit findings, and final ethics orders must remain attributable to the Commission or to officers lawfully acting under authority specifically delegated by it. The Commission shall maintain continuity procedures sufficient to preserve investigations, classified oversight, and time-sensitive constitutional certifications during vacancy, attack, disaster, or other severe disruption.
 
-**3.8 Vacancies and temporary appointments.** If a vacancy remains unfilled for more than 90 days because an appointing authority failed to act, the Chief Justice may make a temporary appointment from among persons meeting the qualification requirements of this Article. A temporary appointment lasts until the ordinary appointing process is completed or for 180 days, whichever comes first, and may be renewed once upon written findings by a majority of the Supreme Court that the appointing process remains deadlocked despite good-faith efforts to complete it. Temporary Commissioners may exercise only the ordinary powers of the office and do not become permanent Commissioners except through the ordinary appointment process.
+**3.8 Vacancies.** Vacancies are governed by Section 5.6 of this Article.
 
 ---
 
@@ -116,6 +116,8 @@ While the Commission's decision to decline a petition is not subject to judicial
 **5.4 Coordination.** The two Commissions may share information and coordinate investigations where mandates overlap. They may not merge, consolidate, or delegate core functions to each other or to any other body.
 
 **5.5 Internal anti-sabotage rule.** No Commissioner may refuse quorum, certification, record publication, or other constitutionally required institutional action for the purpose of disabling the Organ's constitutional functions. Law may provide internal emergency procedures, temporary acting officers, and expedited judicial relief sufficient to preserve required institutional action when a Constitutional Organ is threatened by internal boycott or comparable bad-faith paralysis.
+
+**5.6 Vacancies and temporary appointments.** If a vacancy on either Constitutional Organ remains unfilled for more than 90 days because an appointing authority failed to act, the Chief Justice may make a temporary appointment from among persons meeting the qualification requirements of Sections 2 or 3. A temporary appointment lasts until the ordinary appointing process is completed or for 180 days, whichever comes first, and may be renewed once upon written findings by a majority of the Supreme Court that the appointing process remains deadlocked despite good-faith efforts to complete it. Temporary Commissioners may exercise only the ordinary powers of the office and do not become permanent Commissioners except through the ordinary appointment process.
 
 ---
 

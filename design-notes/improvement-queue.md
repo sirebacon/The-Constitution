@@ -20,11 +20,11 @@ Use this order when deciding what to work on:
 
 | Priority | Area | Why It Matters | Main Issue | Target Outcome |
 |----------|------|----------------|------------|----------------|
-| 1 | Simulation coverage gaps | The highest-leverage remaining work is direct validation of articles whose text is stronger than their scenario coverage | Articles X and XVIII still lack the dedicated scenario pressure their enforceability scores imply they need, and Article V still needs a second wave of edge-case coverage | A draft whose medium-risk articles are directly tested rather than only textually improved |
+| 1 | ~~Simulation coverage gaps~~ **DONE** | Art XVIII now has direct scenario coverage for all four floor scenarios (N1–N4); Article V still needs a second wave (religion, family/autonomy) | Articles X still lacks dedicated scenario pressure | A draft whose remaining medium-risk articles are directly tested |
 | 2 | Article VIII / Article XIII boundary review | Ethics and agency architecture are both stronger, but their overlap needs one clean final check | Article VIII still contains a specific market regulator while Article XIII governs agencies generally | A clean boundary between ethics enforcement and general agency design |
-| 3 | Article XII / Article XIX continuity edge cases | The current fallback model works, but it still deserves adversarial pressure | Internal boycott, quorum sabotage, and organ-setup friction remain the most plausible continuity edge cases | Continuity backstops that hold under hostile conditions without adding new machinery |
-| 4 | Article IX citizenship scenarios | The article is structurally improved but still under-validated | Loss-of-citizenship, overseas assignment, and sensitive-office restrictions remain lightly tested | Clear outcomes in hostile membership and eligibility cases |
-| 5 | Article II draft-discipline cleanup | The legislature article still carries the lowest draft-discipline score among the core structural articles | Enforcement and continuity mechanics can still sprawl even when they are conceptually sound | A leaner legislature article that preserves the floor while moving more process detail to law |
+| 3 | Article XII / Article XIX continuity edge cases | The duplicate vacancy rule is now merged (§5.6), but adversarial pressure is still missing | Internal boycott scenario still unbuilt | Continuity backstops that hold under hostile conditions without adding new machinery |
+| 4 | ~~Article IX citizenship scenarios~~ **PARTIAL** | §5.2 loss-of-citizenship rule tightened with explicit procedural floor; overseas assignment and naturalized-candidate scenarios already exist | Sensitive-office restriction and proof-dispute scenarios still unbuilt | Clear outcomes in remaining hostile membership and eligibility cases |
+| 5 | ~~Article II draft-discipline cleanup~~ **DONE** | §16 compressed: drafting note deleted, auto-referral machinery removed, investigation-clock mechanics removed, §16.8 stated as principle; discipline 7.8 → 8.2 | §15A.4 remains dense but simulation-validated | No further action needed unless a later pass surfaces more compressible detail |
 
 See also: [presidential-system-hardening.md](presidential-system-hardening.md)
 
@@ -203,12 +203,27 @@ Those belong to Article XII / Article XIX / Article IV review, not to further br
 
 ## Current Sprint
 
-Recommended next drafting sprint:
+**Non-legislative bottleneck decisions (closed):**
 
-1. Review the non-legislative deadline bottlenecks: Accountability Commission certification delay, Constitutional Organs setup delay, and any remaining judicial-delay edge cases
-2. Simplify Article XII
-3. Review whether Article IV delay containment is now complete
-4. Add or refresh targeted Article IX and fiscal edge-case scenarios
+- **ACC certification delay** (presidential-obstruction path): Article III §10.2A already has a 7-day ACC deadline with a House-member backup certification path. The delay bottleneck reflects political nonperformance against existing machinery, not a text gap. **Decision: keep as political-risk residual. No text change warranted.**
+
+- **Constitutional Organs setup delay**: Article XIX §5.2A already supplies Supreme Court bridge appointments as a backstop when ordinary appointment fails. The repeated missed-deadline bottleneck in simulation is the bridge mechanism working as designed. **Decision: keep as political-risk residual. No text change warranted.**
+
+- **Article XII vacancy duplication**: Merged §2.8 and §3.8 into shared §5.6. **Done.**
+
+- **Article II §16 discipline**: Drafting note deleted, three statutory-grade subsections compressed. Draft discipline 7.8 → 8.2. **Done.**
+
+- **Article IX §5.2**: Explicit procedural floor added. **Done.**
+
+- **Article XVIII scenarios**: All four N-series scenarios built and validated. **Done.**
+
+**Next sprint:**
+
+1. Article VIII / Article XIII boundary check (still open from queue item 2)
+2. Article XII internal-boycott scenario
+3. Article IX sensitive-office restriction and proof-dispute scenarios
+4. Article X preemption edge-case scenario
+5. Overall draft discipline pass targeting any residual code-like density
 
 ---
 

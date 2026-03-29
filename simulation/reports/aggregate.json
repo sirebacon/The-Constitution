@@ -1,15 +1,15 @@
 {
-  "scenario_count": 49,
-  "stress_point_scenarios": 47,
+  "scenario_count": 53,
+  "stress_point_scenarios": 51,
   "totals": {
-    "violations": 40,
+    "violations": 44,
     "bottlenecks": 30,
     "unresolved_obligations": 0
   },
   "risk_pattern_counts": [
     {
       "risk": "institutional_stress",
-      "count": 21
+      "count": 25
     },
     {
       "risk": "executive_defiance",
@@ -58,6 +58,10 @@
     {
       "category": "rights_suppression",
       "count": 9
+    },
+    {
+      "category": "constitutional_floor_breach",
+      "count": 4
     },
     {
       "category": "institutional_stress",
@@ -484,6 +488,34 @@
     {
       "provision": "Article XVII foreign policy and national security",
       "count": 1
+    },
+    {
+      "provision": "Article XVIII Section 1.2",
+      "count": 1
+    },
+    {
+      "provision": "Article XVIII Section 1.4",
+      "count": 1
+    },
+    {
+      "provision": "Article XVIII Section 2.2",
+      "count": 1
+    },
+    {
+      "provision": "Article XVIII Section 2.3",
+      "count": 1
+    },
+    {
+      "provision": "Article XVIII Section 2.4",
+      "count": 1
+    },
+    {
+      "provision": "Article XVIII Section 4.5",
+      "count": 1
+    },
+    {
+      "provision": "Article XVIII Section 4.6",
+      "count": 1
     }
   ],
   "open_duties_by_actor": [],
@@ -535,6 +567,111 @@
         "primary_bottleneck": null,
         "primary_open_duty": null,
         "system_risk": "executive_defiance",
+        "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+      }
+    },
+    {
+      "scenario_id": "child-welfare-no-independent-representation",
+      "title": "Child Welfare Proceeding Without Independent Representation",
+      "source_file": "simulation/scenarios/child-welfare-no-independent-representation.json",
+      "status": "stress_point_found",
+      "triggered_provisions": [
+        "Article XVIII Section 4.5",
+        "Article XVIII Section 4.6"
+      ],
+      "metrics": {
+        "satisfied_obligations": 1,
+        "failed_obligations": 0,
+        "unresolved_obligations": 0,
+        "violations": 1,
+        "bottlenecks": 0,
+        "timeline_entries": 5
+      },
+      "violations": [
+        {
+          "id": "child_welfare_no_independent_representation",
+          "category": "constitutional_floor_breach",
+          "actor": "State court",
+          "source": "Article XVIII Section 4.5 and Section 4.6",
+          "severity": "high",
+          "day": 1,
+          "summary": "A state court conducts a termination of parental rights proceeding affecting a child's fundamental interests without providing independent representation for the child and without stating reasons on the record for departing from the child's expressed preference, in violation of Article XVIII Section 4.5."
+        }
+      ],
+      "bottlenecks": [],
+      "open_duties": [],
+      "satisfied_duties": [
+        {
+          "actor": "Appellate court",
+          "duty": "vacate or remand the proceeding for constitutionally sufficient process including independent representation and, where the court departs materially from the child's preference, specific stated reasons grounded in the child's welfare",
+          "closed_day": 28,
+          "outcome": "vacated the proceeding and remanded for constitutionally sufficient process with independent representation for the child and an on-record explanation if the court departs from the child's expressed preference",
+          "source": "Article XVIII Section 4.5 and Section 4.6"
+        }
+      ],
+      "failed_duties": [],
+      "notes": [],
+      "ai_summary": {
+        "primary_violation": "A state court conducts a termination of parental rights proceeding affecting a child's fundamental interests without providing independent representation for the child and without stating reasons on the record for departing from the child's expressed preference, in violation of Article XVIII Section 4.5.",
+        "primary_bottleneck": null,
+        "primary_open_duty": null,
+        "system_risk": "institutional_stress",
+        "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+      }
+    },
+    {
+      "scenario_id": "climate-backsliding-without-replacement",
+      "title": "Climate Backsliding Without Constitutionally Sufficient Replacement",
+      "source_file": "simulation/scenarios/climate-backsliding-without-replacement.json",
+      "status": "stress_point_found",
+      "triggered_provisions": [
+        "Article XVIII Section 1.2",
+        "Article XVIII Section 1.4"
+      ],
+      "metrics": {
+        "satisfied_obligations": 2,
+        "failed_obligations": 0,
+        "unresolved_obligations": 0,
+        "violations": 1,
+        "bottlenecks": 0,
+        "timeline_entries": 8
+      },
+      "violations": [
+        {
+          "id": "climate_backsliding_without_replacement",
+          "category": "constitutional_floor_breach",
+          "actor": "Executive branch",
+          "source": "Article XVIII Section 1.2 and Section 1.4",
+          "severity": "high",
+          "day": 1,
+          "summary": "Government carries out administrative rollback of major greenhouse-gas regulations without replacement measures without simultaneously replacing those protections with measures constitutionally sufficient in aggregate. Article XVIII Section 1.2 prohibits knowingly and materially dismantling existing climate protections without constitutionally sufficient replacement."
+        }
+      ],
+      "bottlenecks": [],
+      "open_duties": [],
+      "satisfied_duties": [
+        {
+          "actor": "Federal courts",
+          "duty": "declare the climate-protection backsliding a constitutional violation and require the government to submit a constitutionally sufficient remedial plan within a defined period",
+          "closed_day": 55,
+          "outcome": "declared a constitutional violation and ordered the government to submit a constitutionally sufficient remedial climate plan within 180 days; retained jurisdiction to review the plan's adequacy",
+          "source": "Article XVIII Section 1.2 and Section 1.4"
+        },
+        {
+          "actor": "Congress and Executive branch",
+          "duty": "adopt and submit a constitutionally sufficient remedial climate plan within the court's deadline",
+          "closed_day": 220,
+          "outcome": "adopted and submitted a remedial climate plan that the court found constitutionally sufficient in aggregate",
+          "source": "Article XVIII Section 1.2 and Section 1.4"
+        }
+      ],
+      "failed_duties": [],
+      "notes": [],
+      "ai_summary": {
+        "primary_violation": "Government carries out administrative rollback of major greenhouse-gas regulations without replacement measures without simultaneously replacing those protections with measures constitutionally sufficient in aggregate. Article XVIII Section 1.2 prohibits knowingly and materially dismantling existing climate protections without constitutionally sufficient replacement.",
+        "primary_bottleneck": null,
+        "primary_open_duty": null,
+        "system_risk": "institutional_stress",
         "recommended_focus": "review bottlenecks, violations, and unresolved duties"
       }
     },
@@ -1193,6 +1330,54 @@
       "notes": [],
       "ai_summary": {
         "primary_violation": "Executive branch treats protest unrest as armed rebellion and orders domestic military deployment without the required constitutional basis.",
+        "primary_bottleneck": null,
+        "primary_open_duty": null,
+        "system_risk": "institutional_stress",
+        "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+      }
+    },
+    {
+      "scenario_id": "education-floor-inequality",
+      "title": "State Leaves Students with Substantially Inferior Education",
+      "source_file": "simulation/scenarios/education-floor-inequality.json",
+      "status": "stress_point_found",
+      "triggered_provisions": [
+        "Article XVIII Section 2.2"
+      ],
+      "metrics": {
+        "satisfied_obligations": 1,
+        "failed_obligations": 0,
+        "unresolved_obligations": 0,
+        "violations": 1,
+        "bottlenecks": 0,
+        "timeline_entries": 5
+      },
+      "violations": [
+        {
+          "id": "education_floor_inequality",
+          "category": "constitutional_floor_breach",
+          "actor": "State government",
+          "source": "Article XVIII Section 2.2",
+          "severity": "high",
+          "day": 1,
+          "summary": "State's education funding and resource allocation leaves students in low-income rural districts with substantially inferior education on the basis of geographic location and income, in violation of Article XVIII Section 2.2."
+        }
+      ],
+      "bottlenecks": [],
+      "open_duties": [],
+      "satisfied_duties": [
+        {
+          "actor": "Federal courts",
+          "duty": "require the state to adopt a lawful remedy within a defined period sufficient to restore the constitutional education floor for the affected students",
+          "closed_day": 80,
+          "outcome": "required the state to adopt a constitutionally sufficient remedy for the education floor violation within one year and retained jurisdiction to review adequacy",
+          "source": "Article XVIII Section 2.2"
+        }
+      ],
+      "failed_duties": [],
+      "notes": [],
+      "ai_summary": {
+        "primary_violation": "State's education funding and resource allocation leaves students in low-income rural districts with substantially inferior education on the basis of geographic location and income, in violation of Article XVIII Section 2.2.",
         "primary_bottleneck": null,
         "primary_open_duty": null,
         "system_risk": "institutional_stress",
@@ -1865,6 +2050,55 @@
       "notes": [],
       "ai_summary": {
         "primary_violation": "President suspends the privilege of the writ of habeas corpus by executive order. This power belongs exclusively to Congress under Article III Section 5.7 and may not be exercised by the President alone.",
+        "primary_bottleneck": null,
+        "primary_open_duty": null,
+        "system_risk": "institutional_stress",
+        "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+      }
+    },
+    {
+      "scenario_id": "housing-floor-failure",
+      "title": "Government Withdraws Shelter Protections Without Replacement",
+      "source_file": "simulation/scenarios/housing-floor-failure.json",
+      "status": "stress_point_found",
+      "triggered_provisions": [
+        "Article XVIII Section 2.3",
+        "Article XVIII Section 2.4"
+      ],
+      "metrics": {
+        "satisfied_obligations": 1,
+        "failed_obligations": 0,
+        "unresolved_obligations": 0,
+        "violations": 1,
+        "bottlenecks": 0,
+        "timeline_entries": 5
+      },
+      "violations": [
+        {
+          "id": "housing_floor_backsliding",
+          "category": "constitutional_floor_breach",
+          "actor": "Government",
+          "source": "Article XVIII Section 2.3 and Section 2.4",
+          "severity": "high",
+          "day": 1,
+          "summary": "Government carries out defunding of emergency shelter programs and elimination of housing-assistance obligations without replacement, leaving a class of persons without basic shelter protection through circumstances beyond their control, in violation of Article XVIII Section 2.3's requirement to maintain measures sufficient to prevent destitution."
+        }
+      ],
+      "bottlenecks": [],
+      "open_duties": [],
+      "satisfied_duties": [
+        {
+          "actor": "Federal courts",
+          "duty": "preserve existing shelter protections against backsliding and require the government to adopt a constitutionally sufficient replacement or maintain existing protections pending adoption of an adequate alternative",
+          "closed_day": 25,
+          "outcome": "preserved existing shelter protections against backsliding and required the government to adopt constitutionally sufficient replacement measures within 120 days; interim executive use of existing lawful authority ordered",
+          "source": "Article XVIII Section 2.3 and Section 2.4"
+        }
+      ],
+      "failed_duties": [],
+      "notes": [],
+      "ai_summary": {
+        "primary_violation": "Government carries out defunding of emergency shelter programs and elimination of housing-assistance obligations without replacement, leaving a class of persons without basic shelter protection through circumstances beyond their control, in violation of Article XVIII Section 2.3's requirement to maintain measures sufficient to prevent destitution.",
         "primary_bottleneck": null,
         "primary_open_duty": null,
         "system_risk": "institutional_stress",

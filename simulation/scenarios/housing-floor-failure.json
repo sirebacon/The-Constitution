@@ -1,0 +1,23 @@
+{
+  "id": "housing-floor-failure",
+  "title": "Government Withdraws Shelter Protections Without Replacement",
+  "description": "Government eliminates emergency shelter programs without constitutionally sufficient replacement, leaving a class of persons without basic shelter protection through circumstances beyond their control. Courts preserve existing protections against backsliding under Art XVIII §2.3-§2.4 and require replacement measures. Tests the anti-backsliding rule and interim enforcement authority.",
+  "articles_tested": ["Article XVIII"],
+  "provisions_tested": ["Article XVIII Section 2.3", "Article XVIII Section 2.4"],
+  "events": [
+    {
+      "day": 1,
+      "type": "government_withdraws_shelter_protections",
+      "actor": "Government",
+      "details": {
+        "action": "defunding of emergency shelter programs and elimination of housing-assistance obligations without replacement"
+      }
+    },
+    {
+      "day": 25,
+      "type": "court_preserves_shelter_floor_against_backsliding",
+      "actor": "Federal courts",
+      "details": {}
+    }
+  ]
+}

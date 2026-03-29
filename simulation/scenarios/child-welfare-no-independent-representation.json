@@ -1,0 +1,24 @@
+{
+  "id": "child-welfare-no-independent-representation",
+  "title": "Child Welfare Proceeding Without Independent Representation",
+  "description": "A state court terminates parental rights without providing the child with independent representation and without stating reasons for departing from the child's expressed preference, violating Art XVIII §4.5-§4.6. An appellate court vacates and remands for constitutionally sufficient process. Tests the best-interests standard and the child's right to be heard in proceedings affecting fundamental interests.",
+  "articles_tested": ["Article XVIII"],
+  "provisions_tested": ["Article XVIII Section 4.5", "Article XVIII Section 4.6"],
+  "events": [
+    {
+      "day": 1,
+      "type": "child_welfare_proceeding_without_independent_representation",
+      "actor": "State court",
+      "details": {
+        "proceeding": "termination of parental rights",
+        "child_age": 12
+      }
+    },
+    {
+      "day": 28,
+      "type": "court_vacates_child_welfare_proceeding_for_constitutional_defect",
+      "actor": "Appellate court",
+      "details": {}
+    }
+  ]
+}

@@ -148,10 +148,10 @@ Status markers: `[x]` implemented — `[ ]` planned.
 
 | # | Scenario | File | Provision | Stress Path | Expected Outcome |
 |---|----------|------|-----------|-------------|-----------------|
-| N1 | [ ] Climate Backsliding Without Replacement | `climate-backsliding-without-replacement.json` | Art. XVIII §1.2, §1.4 | Government dismantles major climate protections without constitutionally sufficient replacement | Court declares violation and requires a remedial plan without prescribing policy instruments |
-| N2 | [ ] Education Floor Inequality | `education-floor-inequality.json` | Art. XVIII §2.2 | State leaves one region or class of students with substantially inferior education | Court requires a lawful remedy sufficient to restore the constitutional floor |
-| N3 | [ ] Arbitrary Homelessness / Shelter Floor Failure | `housing-floor-failure.json` | Art. XVIII §2.3, §2.4 | Government withdraws shelter protections and leaves a class of people destitute without replacement | Court preserves against backsliding and requires a constitutionally sufficient remedy |
-| N4 | [ ] Child Welfare Proceeding Without Independent Representation | `child-welfare-no-independent-representation.json` | Art. XVIII §4.5, §4.6 | Child custody or placement is adjudicated without independent representation or stated reasons for overriding a mature child's view | Court vacates or remands for constitutionally sufficient process |
+| N1 | [x] Climate Backsliding Without Replacement | `climate-backsliding-without-replacement.json` | Art. XVIII §1.2, §1.4 | Government dismantles major climate protections without constitutionally sufficient replacement | Court declares violation and requires a remedial plan without prescribing policy instruments |
+| N2 | [x] Education Floor Inequality | `education-floor-inequality.json` | Art. XVIII §2.2 | State leaves students in low-income districts with substantially inferior education | Court requires a lawful remedy sufficient to restore the constitutional floor |
+| N3 | [x] Shelter Floor Failure — Withdrawal Without Replacement | `housing-floor-failure.json` | Art. XVIII §2.3, §2.4 | Government eliminates shelter programs without replacement, leaving a class without basic shelter | Court preserves against backsliding and requires constitutionally sufficient replacement |
+| N4 | [x] Child Welfare Proceeding Without Independent Representation | `child-welfare-no-independent-representation.json` | Art. XVIII §4.5, §4.6 | State court terminates parental rights without independent representation for the child or stated reasons for departing from child's preference | Appellate court vacates and remands for constitutionally sufficient process |
 
 ## Category O — Oligarchic Pressure and Strategic Resilience
 

@@ -1,0 +1,29 @@
+{
+  "id": "climate-backsliding-without-replacement",
+  "title": "Climate Backsliding Without Constitutionally Sufficient Replacement",
+  "description": "The executive branch rolls back major climate protections without simultaneously replacing them with measures constitutionally sufficient in aggregate. Courts declare a violation under Art XVIII §1.2, order a remedial plan, and retain jurisdiction. The political branches adopt a sufficient plan. Tests the anti-backsliding rule and the boundary between judicial declaration and judicial prescription of policy instruments.",
+  "articles_tested": ["Article XVIII"],
+  "provisions_tested": ["Article XVIII Section 1.2", "Article XVIII Section 1.4"],
+  "events": [
+    {
+      "day": 1,
+      "type": "government_dismantles_climate_protections_without_replacement",
+      "actor": "Executive branch",
+      "details": {
+        "action": "administrative rollback of major greenhouse-gas regulations without replacement measures"
+      }
+    },
+    {
+      "day": 55,
+      "type": "court_declares_climate_violation_orders_plan",
+      "actor": "Federal courts",
+      "details": {}
+    },
+    {
+      "day": 220,
+      "type": "government_submits_sufficient_climate_plan",
+      "actor": "Congress and Executive branch",
+      "details": {}
+    }
+  ]
+}

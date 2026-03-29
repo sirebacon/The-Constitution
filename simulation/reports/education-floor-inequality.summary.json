@@ -1,0 +1,48 @@
+{
+  "scenario_id": "education-floor-inequality",
+  "title": "State Leaves Students with Substantially Inferior Education",
+  "source_file": "simulation/scenarios/education-floor-inequality.json",
+  "status": "stress_point_found",
+  "triggered_provisions": [
+    "Article XVIII Section 2.2"
+  ],
+  "metrics": {
+    "satisfied_obligations": 1,
+    "failed_obligations": 0,
+    "unresolved_obligations": 0,
+    "violations": 1,
+    "bottlenecks": 0,
+    "timeline_entries": 5
+  },
+  "violations": [
+    {
+      "id": "education_floor_inequality",
+      "category": "constitutional_floor_breach",
+      "actor": "State government",
+      "source": "Article XVIII Section 2.2",
+      "severity": "high",
+      "day": 1,
+      "summary": "State's education funding and resource allocation leaves students in low-income rural districts with substantially inferior education on the basis of geographic location and income, in violation of Article XVIII Section 2.2."
+    }
+  ],
+  "bottlenecks": [],
+  "open_duties": [],
+  "satisfied_duties": [
+    {
+      "actor": "Federal courts",
+      "duty": "require the state to adopt a lawful remedy within a defined period sufficient to restore the constitutional education floor for the affected students",
+      "closed_day": 80,
+      "outcome": "required the state to adopt a constitutionally sufficient remedy for the education floor violation within one year and retained jurisdiction to review adequacy",
+      "source": "Article XVIII Section 2.2"
+    }
+  ],
+  "failed_duties": [],
+  "notes": [],
+  "ai_summary": {
+    "primary_violation": "State's education funding and resource allocation leaves students in low-income rural districts with substantially inferior education on the basis of geographic location and income, in violation of Article XVIII Section 2.2.",
+    "primary_bottleneck": null,
+    "primary_open_duty": null,
+    "system_risk": "institutional_stress",
+    "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+  }
+}

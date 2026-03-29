@@ -1,0 +1,49 @@
+{
+  "scenario_id": "housing-floor-failure",
+  "title": "Government Withdraws Shelter Protections Without Replacement",
+  "source_file": "simulation/scenarios/housing-floor-failure.json",
+  "status": "stress_point_found",
+  "triggered_provisions": [
+    "Article XVIII Section 2.3",
+    "Article XVIII Section 2.4"
+  ],
+  "metrics": {
+    "satisfied_obligations": 1,
+    "failed_obligations": 0,
+    "unresolved_obligations": 0,
+    "violations": 1,
+    "bottlenecks": 0,
+    "timeline_entries": 5
+  },
+  "violations": [
+    {
+      "id": "housing_floor_backsliding",
+      "category": "constitutional_floor_breach",
+      "actor": "Government",
+      "source": "Article XVIII Section 2.3 and Section 2.4",
+      "severity": "high",
+      "day": 1,
+      "summary": "Government carries out defunding of emergency shelter programs and elimination of housing-assistance obligations without replacement, leaving a class of persons without basic shelter protection through circumstances beyond their control, in violation of Article XVIII Section 2.3's requirement to maintain measures sufficient to prevent destitution."
+    }
+  ],
+  "bottlenecks": [],
+  "open_duties": [],
+  "satisfied_duties": [
+    {
+      "actor": "Federal courts",
+      "duty": "preserve existing shelter protections against backsliding and require the government to adopt a constitutionally sufficient replacement or maintain existing protections pending adoption of an adequate alternative",
+      "closed_day": 25,
+      "outcome": "preserved existing shelter protections against backsliding and required the government to adopt constitutionally sufficient replacement measures within 120 days; interim executive use of existing lawful authority ordered",
+      "source": "Article XVIII Section 2.3 and Section 2.4"
+    }
+  ],
+  "failed_duties": [],
+  "notes": [],
+  "ai_summary": {
+    "primary_violation": "Government carries out defunding of emergency shelter programs and elimination of housing-assistance obligations without replacement, leaving a class of persons without basic shelter protection through circumstances beyond their control, in violation of Article XVIII Section 2.3's requirement to maintain measures sufficient to prevent destitution.",
+    "primary_bottleneck": null,
+    "primary_open_duty": null,
+    "system_risk": "institutional_stress",
+    "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+  }
+}

@@ -328,7 +328,7 @@ A person who willfully refuses to comply with a valid congressional subpoena —
 
 **16.5(a) — Referral.** Contempt citations shall be referred by the relevant chamber to the Accountability Commission for criminal prosecution. The Department of Justice has no role in prosecuting contempt of Congress. This allocation applies for the same reason as Section 16.4(a) — the executive branch may not be the enforcer of congressional authority against executive branch witnesses.
 
-**16.5(b) — Penalties.** Criminal contempt of Congress carries criminal penalties established by law and, for current federal officials, constitutes grounds for removal from office. The Accountability Commission shall prosecute within 90 days of referral unless the Commission publishes specific written findings that the evidence is insufficient to support prosecution; a general statement of insufficient resources or prosecutorial discretion without specific findings as to the evidence does not satisfy this requirement. After the Commission has published three written explanations for declining to act on the same matter, the matter is automatically referred to the Supreme Court for the appointment of a special prosecutor, who shall have all the powers of the Accountability Commission with respect to that matter.
+**16.5(b) — Penalties.** Criminal contempt of Congress carries criminal penalties established by law and, for current federal officials, constitutes grounds for removal from office. The Accountability Commission shall prosecute within 90 days of referral unless the Commission publishes specific written findings that the evidence is insufficient to support prosecution. A general statement of insufficient resources or prosecutorial discretion without specific findings as to the evidence does not satisfy this requirement.
 
 **16.5(c) — Civil contempt.** In addition to criminal referral, a chamber may seek civil enforcement of its subpoenas directly in federal court under Section 16.2. Civil and criminal contempt proceedings may proceed simultaneously.
 
@@ -338,7 +338,7 @@ Executive privilege is a limited constitutional protection for specific categori
 
 **16.6(a) — Covered communications.** Executive privilege protects:
   (i) Communications directly between the President and senior advisers regarding the President's own deliberative process on specific pending decisions, where disclosure would chill frank advice on that specific decision
-  (ii) Information whose disclosure would compromise an active, ongoing criminal investigation or intelligence operation, upon a specific showing that disclosure would cause concrete harm to the investigation. An "active investigation" claimed as the basis for privilege under this subsection must be registered with the Accountability Commission within 72 hours of the privilege being first invoked on that basis; the registration shall identify the investigation by subject matter and supervising authority without disclosing operational details. Registered investigations are subject to quarterly review by the Accountability Commission to confirm continued active status. An investigation that has not resulted in charges, indictments, or a formal written finding of no prosecutable conduct within two years of initial privilege registration loses its privileged status under this subsection; the privilege may not be re-registered for the same investigation without a showing of extraordinary circumstances approved by the Accountability Commission
+  (ii) Information whose disclosure would compromise an active, ongoing criminal investigation or intelligence operation, upon a specific showing that disclosure would cause concrete harm to the investigation. The privilege lapses when the investigation is no longer active and may not be renewed indefinitely for the same matter. The Accountability Commission may audit the continued active status of any investigation claimed as the basis for privilege
   (iii) Genuine military operational secrets whose disclosure would directly endanger active operations or personnel
 
 **16.6(b) — Not covered.** Executive privilege does not protect:
@@ -372,33 +372,14 @@ The adverse inference provision creates a real cost for overclaiming privilege. 
 
 ### 16.8 — Protection for Congressional Witnesses
 
-Any federal official or employee who testifies truthfully before Congress — including testimony that is adverse to the interests of their superiors, their agency, or the administration in power — is protected from any form of retaliation. This protection applies from the date the official is subpoenaed or voluntarily agrees to testify.
-
-Protected against retaliation includes:
-  (a) Termination, demotion, suspension, or reassignment motivated by the testimony
-  (b) Reduction in responsibilities, access, or security clearances motivated by the testimony
-  (c) Threats, intimidation, or pressure to alter or withhold testimony
-  (d) Any adverse action taken against the official's family members in connection with the testimony
-
-An official who is retaliated against for congressional testimony may seek immediate injunctive relief in any federal court. The Accountability Commission shall investigate and prosecute officials who retaliate against congressional witnesses. A finding of retaliation constitutes grounds for removal of the retaliating official from office.
-
-The protection of this Section applies to truthful testimony. It does not protect false testimony, which remains subject to Section 16.4.
+Any federal official or employee who testifies truthfully before Congress is protected from any form of retaliation, including adverse employment action, reduction in responsibilities or clearances, threats or pressure to alter testimony, or any action directed at their family members in connection with their testimony. This protection applies from the date the official is subpoenaed or voluntarily agrees to testify. An official who is retaliated against may seek immediate injunctive relief in any federal court. The Accountability Commission shall investigate and prosecute retaliation; a finding of retaliation constitutes grounds for removal of the retaliating official. This Section does not protect false testimony.
 
 ### 16.9 — Grants of Immunity
 
-Either chamber, or a committee by majority vote with approval of the full chamber, may grant use immunity to a witness compelling their testimony before Congress. A grant of use immunity means:
-
-  (a) The witness must answer all questions put to them, notwithstanding any Fifth Amendment claim
-  (b) The Accountability Commission may not use the immunized testimony, or any evidence derived directly from it, as evidence in a criminal prosecution of the witness
-  (c) The Accountability Commission may independently investigate and prosecute the witness using evidence gathered independently of the immunized testimony
-
-A grant of immunity does not prevent prosecution — it prevents only the use of the immunized testimony itself as evidence. The purpose is to enable Congress to get truthful information while preserving the possibility of independent criminal accountability.
+Either chamber, or a committee by majority vote with approval of the full chamber, may grant use immunity to a witness compelling their testimony before Congress. Immunized testimony and evidence derived directly from it may not be used in a criminal prosecution of the witness, but independent prosecution using separately gathered evidence remains available. The purpose is to enable Congress to obtain truthful information while preserving the possibility of independent criminal accountability.
 
 ### 16.10 — No Interference with Oversight
 
-No executive order, presidential directive, agency rule, or congressional leadership decision may direct a federal official to withhold truthful information from a congressional oversight inquiry, to refuse to appear before Congress when lawfully summoned, or to provide Congress with information the official knows to be false or misleading.
-
-An order directing any of these acts is void. An official who follows such an order as justification for withholding truthful information is not thereby relieved of liability under this Section — compliance with an unlawful order to obstruct Congress is itself a violation. An official who receives such an order shall report it to the Accountability Commission within 72 hours.
+No executive order, presidential directive, agency rule, or congressional leadership decision may direct a federal official to withhold truthful information from a congressional oversight inquiry, to refuse to appear before Congress when lawfully summoned, or to provide Congress with information the official knows to be false or misleading. An order directing any of these acts is void, and compliance with such an order is not a defense to liability under this Section. An official who receives such an order shall report it to the Accountability Commission within 72 hours.
 
 ---
-- **Congressional oversight powers?** Decision: **Comprehensive oversight section added** (Section 16). Covers: affirmative oversight power; subpoena enforcement with 30-day judicial fast-track; affirmative duty to testify for senior officials; congressional perjury prosecuted by Accountability Commission (not DOJ) with automatic removal, permanent bar, no pardon, no statute of limitations; contempt referral to Accountability Commission; executive privilege defined and limited (President must personally invoke in writing; blanket claims void; bad-faith claims trigger adverse inference + obstruction referral); congressional override by 2/3 committee vote; witness protection from retaliation; immunity grants; prohibition on orders to obstruct Congress.
