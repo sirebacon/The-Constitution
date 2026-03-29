@@ -25,6 +25,7 @@ Status markers: `[x]` implemented — `[ ]` planned.
 | B2 | [x] Budget Deadlock — Automatic CR | `budget-deadlock-cr.json` | Art. XV §3.2, §3.3 | Congress misses Oct 1 deadline; executive attempts selective CR funding | CR self-executes; court blocks manipulation |
 | B3 | [x] Single-Subject Challenge | `single-subject-challenge.json` | Art. II §10.7A | Omnibus bill with unrelated riders passes both chambers | Supreme Court voids bill; returned for redrafting |
 | B4 | [x] Perjury Before Congress | `perjury-before-congress.json` | Art. II §16.4 | Senior official gives known false testimony; DOJ declines to prosecute | ACC jurisdiction; automatic removal on conviction |
+| B5 | [x] Member Bribery Shielded by Chamber | `member-bribery-shielded-by-chamber.json` | Art. II §5.3, §14.2; Art. VIII §1.4, §1.7 | Chamber leadership refuses expulsion after bribery; ACC proceeds anyway | Conviction triggers automatic removal |
 
 ---
 
@@ -34,6 +35,7 @@ Status markers: `[x]` implemented — `[ ]` planned.
 |---|----------|------|-----------|-------------|-----------------|
 | C1 | [x] Court Order Defied by Executive | `court-order-defied.json` | Art. II §16.2(c) | Executive refuses to comply with federal court enforcement order | Marshals enforce; contempt proceedings |
 | C2 | [x] Judicial Vacancy Exploitation | `judicial-vacancy-exploitation.json` | Art. IV §2.7 | Chief Justice incapacitated; President refuses to confirm successor | Judicial continuity rule designates substitute |
+| C3 | [x] Supreme Court Strategic Delay | `supreme-court-strategic-delay.json` | Art. IV §10.1, §10.4, §8.2 | Court withholds required delay notice and uses repeated nondecision to shape political timing | Judicial Conduct Board finds strategic delay as conduct-based misconduct |
 
 ---
 

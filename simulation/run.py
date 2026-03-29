@@ -847,6 +847,68 @@ def handle_event(state: SimulationState, event: dict[str, Any]) -> None:
             "initiated criminal contempt prosecution within the required 90-day window",
         )
 
+    elif event_type == "member_of_congress_accepts_bribe":
+        state.provisions.update({"Article II Section 5.3", "Article II Section 14.2", "Article VIII Section 1.4", "Article VIII Section 1.7"})
+        message = (
+            f"{actor} accepts money and future consulting promises from a regulated industry in exchange for official action, "
+            "constituting bribery and abuse of office."
+        )
+        state.add_violation(
+            "member_of_congress_bribery",
+            "corruption",
+            actor,
+            message,
+            "Article II Section 14.2 and Article VIII Section 1.4",
+            day,
+            severity="high",
+        )
+        state.add_obligation(
+            "acc_member_corruption_case",
+            "Accountability Commission",
+            "investigate and prosecute the congressional bribery matter notwithstanding any chamber preference for internal handling",
+            "Article II Section 14.2 and Article VIII Section 5.1",
+            day,
+            None,
+            severity="high",
+        )
+
+    elif event_type == "chamber_leadership_refuses_member_expulsion":
+        state.add_entry(
+            day,
+            "outcome",
+            "Chamber leadership refuses to pursue expulsion, but internal nonaction does not displace the Accountability Commission's independent jurisdiction over criminal corruption.",
+            "Article II Section 5.3 and Section 14.2",
+        )
+
+    elif event_type == "acc_opens_member_corruption_case":
+        state.resolve_obligation(
+            "acc_member_corruption_case",
+            day,
+            "opened a corruption case against the member of Congress despite chamber leadership's refusal to move on expulsion",
+        )
+        state.add_obligation(
+            "member_automatic_removal_on_bribery_conviction",
+            "Federal courts and relevant chamber officers",
+            "give effect to automatic removal upon final bribery conviction",
+            "Article II Section 5.5(a) and Article VIII Section 1.7",
+            day,
+            None,
+            severity="high",
+        )
+
+    elif event_type == "member_of_congress_convicted_of_bribery":
+        state.resolve_obligation(
+            "member_automatic_removal_on_bribery_conviction",
+            day,
+            "gave effect to automatic removal of the member from office upon bribery conviction; no chamber vote was required",
+        )
+        state.add_entry(
+            day,
+            "outcome",
+            "The member is automatically removed from office upon conviction for bribery. Chamber leadership's refusal to expel did not prevent constitutional accountability.",
+            "Article II Section 5.5(a) and Article VIII Section 1.7",
+        )
+
     elif event_type == "budget_deadline_missed":
         state.provisions.update({"Article XV Section 3.2", "Article XV Section 3.3"})
         state.add_entry(
@@ -1155,6 +1217,70 @@ def handle_event(state: SimulationState, event: dict[str, Any]) -> None:
             "event",
             f"{actor} exercises its backstop appointment authority and appoints a justice from the certified pool directly. The appointment takes office without further confirmation.",
             "Article IV Section 3.4",
+        )
+
+    elif event_type == "supreme_court_hears_major_case":
+        state.provisions.update({"Article IV Section 10.1", "Article IV Section 10.4"})
+        state.add_entry(
+            day,
+            "event",
+            "The Supreme Court hears a major constitutional case with obvious national political consequences.",
+            "Article IV Section 10.1",
+        )
+        state.add_obligation(
+            "supreme_court_delay_notice",
+            "Supreme Court",
+            "publish a public notice identifying the case and the reason for delay if no decision has issued within six months of argument",
+            "Article IV Section 10.1",
+            day,
+            day + 180,
+            severity="high",
+        )
+
+    elif event_type == "supreme_court_fails_delay_notice":
+        state.fail_obligation(
+            "supreme_court_delay_notice",
+            day,
+            "Supreme Court failed to publish the required public notice after six months without decision in a major constitutional case under Article IV Section 10.1.",
+        )
+        state.add_violation(
+            "supreme_court_strategic_delay_pattern",
+            "institutional_stress",
+            "Supreme Court",
+            "The Court appears to be using delay itself to affect the political timing of a major constitutional dispute.",
+            "Article IV Section 10.1",
+            day,
+            severity="high",
+        )
+        state.add_obligation(
+            "judicial_conduct_board_delay_review",
+            "Judicial Conduct Board",
+            "review the pattern of judicial delay and determine whether it reflects strategic misconduct rather than genuine complexity or workload",
+            "Article IV Section 10.1 and Section 10.4",
+            day,
+            None,
+            severity="high",
+        )
+
+    elif event_type == "judicial_conduct_board_opens_delay_review":
+        state.add_entry(
+            day,
+            "event",
+            "Judicial Conduct Board opens review of the Court's delay pattern and the apparent failure to provide the required public notice.",
+            "Article IV Section 10.1 and Section 10.4",
+        )
+
+    elif event_type == "judicial_conduct_board_finds_strategic_delay":
+        state.resolve_obligation(
+            "judicial_conduct_board_delay_review",
+            day,
+            "found that the delay pattern was strategic and intended to achieve political effect rather than attributable to genuine complexity or workload",
+        )
+        state.add_entry(
+            day,
+            "outcome",
+            "The finding constitutes conduct-based grounds for judicial removal and does not rest on the substance of any judicial opinion.",
+            "Article IV Section 8.1, Section 8.2, and Section 10.1",
         )
 
     # --- Category E continued: Emergency Rights ---

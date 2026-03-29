@@ -1,0 +1,27 @@
+{
+  "id": "member-bribery-shielded-by-chamber",
+  "title": "Member of Congress Takes Bribes and Chamber Leadership Shields Them",
+  "description": "A senior member of Congress accepts money and future consulting promises from a regulated industry in exchange for blocking oversight hearings and weakening pending legislation. Chamber leadership refuses to move on expulsion and argues that discipline is exclusively internal. The Accountability Commission opens a corruption case anyway, and the member is later convicted of bribery. The scenario tests whether chamber shielding can block outside constitutional enforcement.",
+  "events": [
+    {
+      "day": 0,
+      "type": "member_of_congress_accepts_bribe",
+      "actor": "Senior member of Congress"
+    },
+    {
+      "day": 10,
+      "type": "chamber_leadership_refuses_member_expulsion",
+      "actor": "Chamber leadership"
+    },
+    {
+      "day": 20,
+      "type": "acc_opens_member_corruption_case",
+      "actor": "Accountability Commission"
+    },
+    {
+      "day": 180,
+      "type": "member_of_congress_convicted_of_bribery",
+      "actor": "Federal courts"
+    }
+  ]
+}

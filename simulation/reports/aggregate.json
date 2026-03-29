@@ -1,9 +1,9 @@
 {
-  "scenario_count": 33,
-  "stress_point_scenarios": 31,
+  "scenario_count": 35,
+  "stress_point_scenarios": 33,
   "totals": {
-    "violations": 28,
-    "bottlenecks": 17,
+    "violations": 30,
+    "bottlenecks": 18,
     "unresolved_obligations": 0
   },
   "risk_pattern_counts": [
@@ -13,7 +13,7 @@
     },
     {
       "risk": "institutional_stress",
-      "count": 8
+      "count": 10
     },
     {
       "risk": "legislative_delay",
@@ -36,6 +36,10 @@
     {
       "category": "missed_deadline",
       "count": 8
+    },
+    {
+      "category": "judicial_delay",
+      "count": 1
     },
     {
       "category": "state_backsliding",
@@ -64,7 +68,15 @@
       "count": 1
     },
     {
+      "category": "corruption",
+      "count": 1
+    },
+    {
       "category": "election_restriction",
+      "count": 1
+    },
+    {
+      "category": "institutional_stress",
       "count": 1
     },
     {
@@ -134,6 +146,10 @@
       "count": 1
     },
     {
+      "provision": "Article II Section 14.2",
+      "count": 1
+    },
+    {
       "provision": "Article II Section 16.3",
       "count": 1
     },
@@ -143,6 +159,10 @@
     },
     {
       "provision": "Article II Section 16.4(b)",
+      "count": 1
+    },
+    {
+      "provision": "Article II Section 5.3",
       "count": 1
     },
     {
@@ -234,6 +254,14 @@
       "count": 1
     },
     {
+      "provision": "Article IV Section 10.1",
+      "count": 1
+    },
+    {
+      "provision": "Article IV Section 10.4",
+      "count": 1
+    },
+    {
       "provision": "Article IV Section 2.3",
       "count": 1
     },
@@ -287,6 +315,14 @@
     },
     {
       "provision": "Article VI democratic integrity provisions",
+      "count": 1
+    },
+    {
+      "provision": "Article VIII Section 1.4",
+      "count": 1
+    },
+    {
+      "provision": "Article VIII Section 1.7",
       "count": 1
     },
     {
@@ -1466,6 +1502,64 @@
       }
     },
     {
+      "scenario_id": "member-bribery-shielded-by-chamber",
+      "title": "Member of Congress Takes Bribes and Chamber Leadership Shields Them",
+      "source_file": "simulation/scenarios/member-bribery-shielded-by-chamber.json",
+      "status": "stress_point_found",
+      "triggered_provisions": [
+        "Article II Section 14.2",
+        "Article II Section 5.3",
+        "Article VIII Section 1.4",
+        "Article VIII Section 1.7"
+      ],
+      "metrics": {
+        "satisfied_obligations": 2,
+        "failed_obligations": 0,
+        "unresolved_obligations": 0,
+        "violations": 1,
+        "bottlenecks": 0,
+        "timeline_entries": 8
+      },
+      "violations": [
+        {
+          "id": "member_of_congress_bribery",
+          "category": "corruption",
+          "actor": "Senior member of Congress",
+          "source": "Article II Section 14.2 and Article VIII Section 1.4",
+          "severity": "high",
+          "day": 0,
+          "summary": "Senior member of Congress accepts money and future consulting promises from a regulated industry in exchange for official action, constituting bribery and abuse of office."
+        }
+      ],
+      "bottlenecks": [],
+      "open_duties": [],
+      "satisfied_duties": [
+        {
+          "actor": "Accountability Commission",
+          "duty": "investigate and prosecute the congressional bribery matter notwithstanding any chamber preference for internal handling",
+          "closed_day": 20,
+          "outcome": "opened a corruption case against the member of Congress despite chamber leadership's refusal to move on expulsion",
+          "source": "Article II Section 14.2 and Article VIII Section 5.1"
+        },
+        {
+          "actor": "Federal courts and relevant chamber officers",
+          "duty": "give effect to automatic removal upon final bribery conviction",
+          "closed_day": 180,
+          "outcome": "gave effect to automatic removal of the member from office upon bribery conviction; no chamber vote was required",
+          "source": "Article II Section 5.5(a) and Article VIII Section 1.7"
+        }
+      ],
+      "failed_duties": [],
+      "notes": [],
+      "ai_summary": {
+        "primary_violation": "Senior member of Congress accepts money and future consulting promises from a regulated industry in exchange for official action, constituting bribery and abuse of office.",
+        "primary_bottleneck": null,
+        "primary_open_duty": null,
+        "system_risk": "institutional_stress",
+        "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+      }
+    },
+    {
       "scenario_id": "naturalized-candidate-excluded",
       "title": "Naturalized Citizen Excluded From Federal Office",
       "source_file": "simulation/scenarios/naturalized-candidate-excluded.json",
@@ -2318,6 +2412,76 @@
         "primary_bottleneck": "Congress failed to enact a remedial measure for the violating state by day 180 under Article X Section 1.6(b).",
         "primary_open_duty": null,
         "system_risk": "democratic_backsliding",
+        "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+      }
+    },
+    {
+      "scenario_id": "supreme-court-strategic-delay",
+      "title": "Supreme Court Strategic Delay Before National Election",
+      "source_file": "simulation/scenarios/supreme-court-strategic-delay.json",
+      "status": "stress_point_found",
+      "triggered_provisions": [
+        "Article IV Section 10.1",
+        "Article IV Section 10.4"
+      ],
+      "metrics": {
+        "satisfied_obligations": 1,
+        "failed_obligations": 1,
+        "unresolved_obligations": 0,
+        "violations": 1,
+        "bottlenecks": 1,
+        "timeline_entries": 9
+      },
+      "violations": [
+        {
+          "id": "supreme_court_strategic_delay_pattern",
+          "category": "institutional_stress",
+          "actor": "Supreme Court",
+          "source": "Article IV Section 10.1",
+          "severity": "high",
+          "day": 190,
+          "summary": "The Court appears to be using delay itself to affect the political timing of a major constitutional dispute."
+        }
+      ],
+      "bottlenecks": [
+        {
+          "id": "supreme_court_delay_notice",
+          "category": "judicial_delay",
+          "actor": "Supreme Court",
+          "source": "Article IV Section 10.1",
+          "severity": "high",
+          "day": 190,
+          "deadline_day": 180,
+          "summary": "Supreme Court failed to publish a public notice identifying the case and the reason for delay if no decision has issued within six months of argument by day 180 under Article IV Section 10.1."
+        }
+      ],
+      "open_duties": [],
+      "satisfied_duties": [
+        {
+          "actor": "Judicial Conduct Board",
+          "duty": "review the pattern of judicial delay and determine whether it reflects strategic misconduct rather than genuine complexity or workload",
+          "closed_day": 260,
+          "outcome": "found that the delay pattern was strategic and intended to achieve political effect rather than attributable to genuine complexity or workload",
+          "source": "Article IV Section 10.1 and Section 10.4"
+        }
+      ],
+      "failed_duties": [
+        {
+          "actor": "Supreme Court",
+          "duty": "publish a public notice identifying the case and the reason for delay if no decision has issued within six months of argument",
+          "deadline_day": 180,
+          "closed_day": 190,
+          "outcome": "Supreme Court failed to publish a public notice identifying the case and the reason for delay if no decision has issued within six months of argument by day 180 under Article IV Section 10.1.",
+          "source": "Article IV Section 10.1",
+          "severity": "high"
+        }
+      ],
+      "notes": [],
+      "ai_summary": {
+        "primary_violation": "The Court appears to be using delay itself to affect the political timing of a major constitutional dispute.",
+        "primary_bottleneck": "Supreme Court failed to publish a public notice identifying the case and the reason for delay if no decision has issued within six months of argument by day 180 under Article IV Section 10.1.",
+        "primary_open_duty": null,
+        "system_risk": "institutional_stress",
         "recommended_focus": "review bottlenecks, violations, and unresolved duties"
       }
     },

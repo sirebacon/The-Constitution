@@ -1,0 +1,70 @@
+{
+  "scenario_id": "supreme-court-strategic-delay",
+  "title": "Supreme Court Strategic Delay Before National Election",
+  "source_file": "simulation/scenarios/supreme-court-strategic-delay.json",
+  "status": "stress_point_found",
+  "triggered_provisions": [
+    "Article IV Section 10.1",
+    "Article IV Section 10.4"
+  ],
+  "metrics": {
+    "satisfied_obligations": 1,
+    "failed_obligations": 1,
+    "unresolved_obligations": 0,
+    "violations": 1,
+    "bottlenecks": 1,
+    "timeline_entries": 9
+  },
+  "violations": [
+    {
+      "id": "supreme_court_strategic_delay_pattern",
+      "category": "institutional_stress",
+      "actor": "Supreme Court",
+      "source": "Article IV Section 10.1",
+      "severity": "high",
+      "day": 190,
+      "summary": "The Court appears to be using delay itself to affect the political timing of a major constitutional dispute."
+    }
+  ],
+  "bottlenecks": [
+    {
+      "id": "supreme_court_delay_notice",
+      "category": "judicial_delay",
+      "actor": "Supreme Court",
+      "source": "Article IV Section 10.1",
+      "severity": "high",
+      "day": 190,
+      "deadline_day": 180,
+      "summary": "Supreme Court failed to publish a public notice identifying the case and the reason for delay if no decision has issued within six months of argument by day 180 under Article IV Section 10.1."
+    }
+  ],
+  "open_duties": [],
+  "satisfied_duties": [
+    {
+      "actor": "Judicial Conduct Board",
+      "duty": "review the pattern of judicial delay and determine whether it reflects strategic misconduct rather than genuine complexity or workload",
+      "closed_day": 260,
+      "outcome": "found that the delay pattern was strategic and intended to achieve political effect rather than attributable to genuine complexity or workload",
+      "source": "Article IV Section 10.1 and Section 10.4"
+    }
+  ],
+  "failed_duties": [
+    {
+      "actor": "Supreme Court",
+      "duty": "publish a public notice identifying the case and the reason for delay if no decision has issued within six months of argument",
+      "deadline_day": 180,
+      "closed_day": 190,
+      "outcome": "Supreme Court failed to publish a public notice identifying the case and the reason for delay if no decision has issued within six months of argument by day 180 under Article IV Section 10.1.",
+      "source": "Article IV Section 10.1",
+      "severity": "high"
+    }
+  ],
+  "notes": [],
+  "ai_summary": {
+    "primary_violation": "The Court appears to be using delay itself to affect the political timing of a major constitutional dispute.",
+    "primary_bottleneck": "Supreme Court failed to publish a public notice identifying the case and the reason for delay if no decision has issued within six months of argument by day 180 under Article IV Section 10.1.",
+    "primary_open_duty": null,
+    "system_risk": "institutional_stress",
+    "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+  }
+}

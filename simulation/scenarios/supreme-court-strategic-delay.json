@@ -1,0 +1,27 @@
+{
+  "id": "supreme-court-strategic-delay",
+  "title": "Supreme Court Strategic Delay Before National Election",
+  "description": "The Supreme Court hears a major election-administration case. Six months pass without a decision and without the required public notice explaining the delay. The delay is part of a wider pattern of politically timed nondecision-making by the Court, and the Judicial Conduct Board opens review. The Board later finds that the delay was strategic rather than attributable to genuine complexity or workload. The scenario tests whether the Constitution treats strategic judicial delay as misconduct without turning discipline into punishment for the substance of a ruling.",
+  "events": [
+    {
+      "day": 0,
+      "type": "supreme_court_hears_major_case",
+      "actor": "Supreme Court"
+    },
+    {
+      "day": 190,
+      "type": "supreme_court_fails_delay_notice",
+      "actor": "Supreme Court"
+    },
+    {
+      "day": 210,
+      "type": "judicial_conduct_board_opens_delay_review",
+      "actor": "Judicial Conduct Board"
+    },
+    {
+      "day": 260,
+      "type": "judicial_conduct_board_finds_strategic_delay",
+      "actor": "Judicial Conduct Board"
+    }
+  ]
+}

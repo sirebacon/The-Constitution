@@ -1,0 +1,58 @@
+{
+  "scenario_id": "member-bribery-shielded-by-chamber",
+  "title": "Member of Congress Takes Bribes and Chamber Leadership Shields Them",
+  "source_file": "simulation/scenarios/member-bribery-shielded-by-chamber.json",
+  "status": "stress_point_found",
+  "triggered_provisions": [
+    "Article II Section 14.2",
+    "Article II Section 5.3",
+    "Article VIII Section 1.4",
+    "Article VIII Section 1.7"
+  ],
+  "metrics": {
+    "satisfied_obligations": 2,
+    "failed_obligations": 0,
+    "unresolved_obligations": 0,
+    "violations": 1,
+    "bottlenecks": 0,
+    "timeline_entries": 8
+  },
+  "violations": [
+    {
+      "id": "member_of_congress_bribery",
+      "category": "corruption",
+      "actor": "Senior member of Congress",
+      "source": "Article II Section 14.2 and Article VIII Section 1.4",
+      "severity": "high",
+      "day": 0,
+      "summary": "Senior member of Congress accepts money and future consulting promises from a regulated industry in exchange for official action, constituting bribery and abuse of office."
+    }
+  ],
+  "bottlenecks": [],
+  "open_duties": [],
+  "satisfied_duties": [
+    {
+      "actor": "Accountability Commission",
+      "duty": "investigate and prosecute the congressional bribery matter notwithstanding any chamber preference for internal handling",
+      "closed_day": 20,
+      "outcome": "opened a corruption case against the member of Congress despite chamber leadership's refusal to move on expulsion",
+      "source": "Article II Section 14.2 and Article VIII Section 5.1"
+    },
+    {
+      "actor": "Federal courts and relevant chamber officers",
+      "duty": "give effect to automatic removal upon final bribery conviction",
+      "closed_day": 180,
+      "outcome": "gave effect to automatic removal of the member from office upon bribery conviction; no chamber vote was required",
+      "source": "Article II Section 5.5(a) and Article VIII Section 1.7"
+    }
+  ],
+  "failed_duties": [],
+  "notes": [],
+  "ai_summary": {
+    "primary_violation": "Senior member of Congress accepts money and future consulting promises from a regulated industry in exchange for official action, constituting bribery and abuse of office.",
+    "primary_bottleneck": null,
+    "primary_open_duty": null,
+    "system_risk": "institutional_stress",
+    "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+  }
+}
