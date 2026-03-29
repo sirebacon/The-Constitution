@@ -1,14 +1,12 @@
 # Article IX — Citizenship and National Membership
 
-**Status:** `[ PROPOSAL ]`
+**Status:** `[ DRAFT ]`
 
 ---
 
-## Purpose
+## Scope
 
-This proposed article consolidates citizenship, equal national membership, overseas citizenship, domicile rules, and officeholding status questions that are currently distributed mainly across [articles/I-electoral-system.md](I-electoral-system.md) and [articles/III-executive.md](III-executive.md).
-
-It should not be integrated into the operative draft until overlapping sections are migrated and eligibility cross-references are rewritten.
+Establishes equal citizenship, national membership, domicile principles, overseas political participation, and constitutional rules for citizenship status. Citizenship is a legal status under this Constitution, but it is also a guarantee against hereditary caste, arbitrary exclusion, and unequal membership in the political community.
 
 ---
 
@@ -20,6 +18,8 @@ It should not be integrated into the operative draft until overlapping sections 
 
 **1.3** No law may create ranks of citizenship, hereditary civic privilege, or permanent civic disability inconsistent with this Constitution.
 
+**1.4** Citizenship by birth or naturalization shall be defined by law consistent with this Constitution. No person born or naturalized under the laws of the United States may be denied equal constitutional standing once citizenship is lawfully recognized.
+
 ---
 
 ## Section 2 — Political Membership and Domicile
@@ -29,6 +29,8 @@ It should not be integrated into the operative draft until overlapping sections 
 **2.2** Congress and the Electoral Commission shall provide uniform rules for domicile, residence, overseas voting assignment, and proof of citizenship sufficient to secure equal national membership without arbitrary exclusion.
 
 **2.3** No citizen may be denied federal electoral participation solely because that citizen resides abroad, was born abroad, or has changed domicile within the United States, except as this Constitution expressly permits.
+
+**2.4** No citizen may be assigned simultaneously to more than one state or federal electoral domicile for the same election. Congress and the Electoral Commission shall provide uniform rules to prevent duplication, manipulation, and disenfranchisement in domicile assignment.
 
 ---
 
@@ -42,6 +44,8 @@ It should not be integrated into the operative draft until overlapping sections 
 
 **3.4** Congress and the Electoral Commission shall provide secure systems for overseas registration, ballot delivery, and ballot return sufficient to make the right secured by this Section practical and timely.
 
+**3.5** Congress may distinguish among categories of overseas citizens only for purposes of electoral assignment, ballot administration, and security. No such distinction may wholly extinguish a citizen's participation in federal elections.
+
 ---
 
 ## Section 4 — Equal Eligibility for Office
@@ -51,6 +55,8 @@ It should not be integrated into the operative draft until overlapping sections 
 **4.2** Additional loyalty, sole-citizenship, foreign-service, or disclosure requirements for particular offices are valid only where this Constitution expressly provides for them or where they are narrowly tailored by law to offices involving exceptional national-security responsibility.
 
 **4.3** No law may impose a blanket disability on citizens by naturalization from holding federal office.
+
+**4.4** Where another Article imposes office-specific qualifications, incompatibilities, disclosure duties, or nationality restrictions, those requirements shall be read narrowly and shall not be expanded by implication into a general hierarchy of citizenship.
 
 ---
 
@@ -62,6 +68,8 @@ It should not be integrated into the operative draft until overlapping sections 
 
 **5.3** Congress may regulate dual citizenship, foreign allegiance, and foreign-office incompatibility for holders of sensitive federal office, but may not impose civic disabilities on ordinary citizens solely for holding another nationality.
 
+**5.4** No citizen shall be rendered stateless by involuntary government action. Any law governing loss, renunciation, or suspension of citizenship status must be construed to avoid statelessness except where a citizen has voluntarily and knowingly renounced United States citizenship.
+
 ---
 
 ## Section 6 — Proof and Administration
@@ -69,6 +77,10 @@ It should not be integrated into the operative draft until overlapping sections 
 **6.1** Congress shall by law establish fair, uniform, and reviewable procedures for proving citizenship where citizenship is relevant to voting, officeholding, or other constitutional status.
 
 **6.2** No citizen may be stripped of political rights by administrative error without prompt notice, a meaningful opportunity to contest the determination, and judicial review.
+
+**6.3** No agency may impose documentary burdens, evidentiary presumptions, or administrative practices that make citizenship practically impossible to prove for ordinary eligible persons.
+
+**6.4** Judicial review under this Article shall be prompt where delay would impair voting, candidacy, officeholding, travel, or other time-sensitive constitutional status.
 
 ---
 

@@ -1,14 +1,12 @@
 # Article XIX — Ratification and Transition
 
-**Status:** `[ PROPOSAL ]`
+**Status:** `[ DRAFT ]`
 
 ---
 
-## Purpose
+## Scope
 
-This proposed article consolidates ratification, carryover, supersession, institutional transition, and first-cycle implementation rules that are currently distributed across [Article XI — Amendments](/Users/chris/Documents/GitHub/The-Constitution/articles/XI-amendments.md), [Article III — The Executive](III-executive.md), [Article IV — The Judiciary](IV-judiciary.md), and [Article VII — Campaign Finance and Political Money](/Users/chris/Documents/GitHub/The-Constitution/articles/VII-campaign-finance.md).
-
-It should not be integrated into the operative draft until overlapping sections are migrated and cross-references are rewritten.
+Governs ratification, legal continuity, supersession of the prior constitutional order, first-cycle implementation, and transition to the institutions established by this Constitution. This Article is read to favor prompt, lawful, and democratically legitimate establishment of the new constitutional order.
 
 ---
 
@@ -42,6 +40,8 @@ It should not be integrated into the operative draft until overlapping sections 
 
 **3.4** Congress shall by law publish an official transition schedule identifying the principal prior constitutional provisions carried forward, superseded, or restated, but the legal effect of this Constitution does not depend on that publication.
 
+**3.5** No officer, court, or agency may use uncertainty about transition to preserve a superseded constitutional mechanism once this Constitution has made the contrary rule effective by its own terms.
+
 ---
 
 ## Section 4 — First Elections and Terms
@@ -54,15 +54,19 @@ It should not be integrated into the operative draft until overlapping sections 
 
 **4.4** Congress shall by law provide initial staggering, temporary seat allocation, and transitional succession arrangements necessary to establish the House of Representatives, the Regional Assembly, and the new election system, but no such law may alter the permanent constitutional design.
 
+**4.5** If Congress fails to provide by law for a first federal election on the timetable required by this Constitution, the Electoral Commission shall administer the election under interim rules consistent with this Constitution and subject to expedited judicial review.
+
 ---
 
 ## Section 5 — Judicial and Institutional Transition
 
 **5.1** Congress shall by law provide for the transition from the prior federal judiciary to the judicial structure established by Article IV, including the sequencing of terms, temporary service, and the establishment of lower-court terms consistent with that Article.
 
-**5.2** The Constitutional Organs established by Article VII shall be constituted as soon as practicable after ratification and shall assume their constitutional functions on the timeline provided by law, but no later than one year after ratification unless impossible due to conditions identified publicly by the Supreme Court.
+**5.2** The Constitutional Organs established by Article XII shall be constituted as soon as practicable after ratification and shall assume their constitutional functions on the timeline provided by law, but no later than one year after ratification unless impossible due to conditions identified publicly by the Supreme Court.
 
 **5.3** Existing agencies and officers whose functions are reassigned under this Constitution shall continue only until those functions are lawfully transferred, replaced, or terminated consistent with this Constitution.
+
+**5.4** Congress shall by law establish the initial terms, appointments, and temporary staffing needed to bring Articles XII through XV into operation without interrupting the lawful functioning of the government.
 
 ---
 
@@ -74,6 +78,8 @@ It should not be integrated into the operative draft until overlapping sections 
 
 **6.3** Obstruction of the ratified constitutional transition through force, fraud, abuse of official authority, or deliberate refusal to transfer lawful power is anti-subversion and grounds for removal, disqualification, and prosecution.
 
+**6.4** No outgoing officer may use emergency authority, appointment power, classified control, fiscal control, or control of records to frustrate the lawful implementation of this Constitution after ratification.
+
 ---
 
 ## Section 7 — Temporary Corrective Legislation
@@ -82,13 +88,17 @@ It should not be integrated into the operative draft until overlapping sections 
 
 **7.2** The Supreme Court shall have expedited jurisdiction to review any claim that purported corrective legislation exceeds the authority of this Section.
 
+**7.3** Corrective legislation under this Section may clarify implementation, sequencing, and institutional continuity, but may not be used to preserve a superseded office, re-create a superseded veto point, or postpone a right, election, or institutional safeguard whose effective date is fixed by this Constitution.
+
 ---
 
 ## Section 8 — First Amendment Cycle
 
 **8.1** Any structural amendment cooling-off period, transition limitation, or first-cycle rule established elsewhere in this Constitution shall be read in harmony with this Article.
 
-**8.2** Rights expansions remain permitted on the timetable established by Article XVI.
+**8.2** Rights expansions remain permitted on the timetable established by Article XI.
+
+**8.3** During the first federal cycle under this Constitution, courts shall prefer interpretations that preserve lawful continuity without diluting rights, democratic accountability, or anti-subversion safeguards expressly established by this Constitution.
 
 ---
 

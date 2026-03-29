@@ -55,15 +55,19 @@ These are the current working scores for the draft after the latest simplificati
 | Article VI — Democratic Integrity | 9.0 | Strong | Excellent anti-subversion framing and election-defense focus | Some media and enforcement provisions may need narrowing | Stress-test enforceability and speech boundaries |
 | Article VII — Campaign Finance and Political Money | 8.5 | Strong | One of the clearest and most purposeful reform sections | Still reads like compliance code in places; draft discipline is 7.0 and High-priority compression is open — inconsistent with a 9.0 | Compress into higher-level constitutional principles and push implementation detail to statute |
 | Article VIII — Government Ethics | 9.0 | Near-final | Strong anti-corruption architecture now stated at a more constitutional level | Some market-integrity provisions may still be slightly detailed | Final polish for abstraction and readability |
+| Article IX — Citizenship and National Membership | 8.0 | Strong | Equal citizenship and national membership are now stated clearly as constitutional first principles rather than scattered implications | Still needs integration cleanup with overlapping electoral and executive provisions already living in Articles I and III | Consolidate overlapping citizenship, domicile, and eligibility rules without reopening settled equal-citizenship principles |
 | Article X — Federalism and the States | 8.5 | Strong | Modernized federalism with cleaner democratic-floor enforcement | Some preemption and local-control edge cases still need testing | Review administrability of preemption and local override rules |
 | Article XI — Amendments | 8.5 | Strong | Thoughtful two-track design with anti-backsliding protection | Unamendability and review mechanics need careful calibration | Test for legitimacy and over-judicialization risk |
 | Article XII — Constitutional Organs | 8.0 | Strong | Narrow oversight bodies are a good design choice | Most cross-reference-dependent article in the draft; two High-priority simplification tasks remain open | Reduce cross-reference dependence and compress commission detail |
 | Article XIII — Federal Agencies | 8.5 | Strong | Strong anti-capture architecture with cleaner constitutional abstraction | A few agency-governance rules could still be compressed | Continue pruning operational detail |
+| Article XIV — Taxation and Public Revenue | 8.0 | Strong | Taxation now has a distinct constitutional home with good anti-weaponization and accountability principles | Still needs migration of overlapping fiscal language out of Article II and testing against edge-case revenue powers | Integrate with Article II and Article XV cleanly and verify the abstraction level stays constitutional rather than tax-code-like |
+| Article XV — Budget, Public Credit, and Appropriations | 8.5 | Strong | Fiscal continuity, debt, classified spending, and anti-shutdown principles are now grouped coherently in one place | Budget rules still overlap with Article II and need one more integration pass to avoid duplicate constitutional machinery | Complete migration of appropriations and fiscal-continuity logic out of Article II and tighten overlap boundaries with Article XIV |
 | Article XVI — War Powers and National Security | 8.5 | Strong | Strong anti-abuse architecture with a much clearer war-powers framework | Enforcement under real command-chain pressure has not been validated by simulation; hardest defiance scenario in the suite | Stress-test PMC, fiscal-hold, and withdrawal-order enforcement under adversarial conditions |
 | Article XVII — Foreign Policy and National Security | 8.5 | Strong | Non-war national-security framework is clearer and better bounded | Gray-zone and intelligence provisions still need edge-case testing | Stress-test executive stretch scenarios |
 | Article XVIII — Social, Economic, and Affirmative Rights | 8.0 | Strong | Clearer adequacy-review model and stronger judicial limits | Positive-rights language still needs some tightening | Continue simplifying guarantees without weakening floors |
+| Article XIX — Ratification and Transition | 8.0 | Strong | Transition, continuity, and anti-obstruction rules are now stated in one coherent article instead of being scattered | Still needs a final integration pass against Article XI, Article III, Article IV, and first-cycle implementation details | Tighten overlap boundaries and verify that first-cycle fallback rules do not duplicate other operative articles |
 | Cross-References and Draft Integration | 9.0 | Strong | The draft now coordinates legislative continuity, emergency lapse, judicial fallback, and simulation coverage cleanly — recess-evasion scenario verifies the cross-article §15A/§5.4 enforcement chain | Historical notes and residual drafting artifacts still deserve one final cleanup pass; Art XI adversarial chain still needs deeper testing | Run Article XI against fiscal-hold and multi-refusal adversarial conditions; final whole-draft consistency pass |
-| Overall Draft | 8.5 | Strong | 29 scenarios, 0 unresolved obligations; Articles I, II, III, VI, and VIII verified at 9.0 | Articles IV, XII, XVI, and XVIII remain below 9.0 due to text density, simulation depth, and drafting discipline, not missing machinery | Focus remaining work on drafting passes for XII and XVIII and adversarial simulation for XVI |
+| Overall Draft | 8.6 | Strong | The architecture is now more complete: citizenship, public finance, budget continuity, and transition each have dedicated articles rather than scattered fallback notes | The new articles are promising but not yet fully integrated or stress-tested, and several core articles still carry density and simulation gaps | Focus remaining work on integrating IX, XIV, XV, and XIX with adjacent articles while continuing adversarial simulation for XVI and simplification for XII and XVIII |
 
 ### Criterion Breakdown
 
@@ -78,15 +82,19 @@ These are the current working scores for the draft after the latest simplificati
 | Article VI — Democratic Integrity | 8.5 | 8.5 | 9.0 | 9.0 | 9.5 | 8.0 | 9.0 |
 | Article VII — Campaign Finance and Political Money | 8.5 | 9.0 | 9.0 | 9.0 | 9.5 | 7.0 | 8.5 |
 | Article VIII — Government Ethics | 8.8 | 9.0 | 9.0 | 8.8 | 9.5 | 8.8 | 9.0 |
+| Article IX — Citizenship and National Membership | 8.3 | 8.0 | 8.0 | 9.0 | 8.5 | 7.8 | 8.0 |
 | Article X — Federalism and the States | 8.5 | 8.8 | 8.0 | 8.8 | 8.3 | 8.2 | 8.5 |
 | Article XI — Amendments | 8.0 | 8.5 | 8.5 | 8.5 | 9.0 | 7.5 | 8.5 |
 | Article XII — Constitutional Organs | 8.0 | 8.5 | 8.5 | 8.5 | 9.0 | 7.0 | 8.0 |
 | Article XIII — Federal Agencies | 8.2 | 8.5 | 8.5 | 8.3 | 8.8 | 8.5 | 8.5 |
+| Article XIV — Taxation and Public Revenue | 8.2 | 8.0 | 8.0 | 8.5 | 8.5 | 8.0 | 8.0 |
+| Article XV — Budget, Public Credit, and Appropriations | 8.5 | 8.5 | 8.5 | 8.8 | 8.8 | 8.0 | 8.5 |
 | Article XVI — War Powers and National Security | 8.8 | 9.0 | 8.0 | 8.8 | 9.5 | 8.5 | 8.5 |
 | Article XVII — Foreign Policy and National Security | 8.3 | 8.5 | 8.5 | 8.3 | 8.8 | 8.5 | 8.5 |
 | Article XVIII — Social, Economic, and Affirmative Rights | 8.0 | 8.0 | 7.8 | 8.8 | 8.3 | 7.3 | 8.0 |
+| Article XIX — Ratification and Transition | 8.2 | 8.0 | 8.0 | 8.8 | 8.3 | 7.8 | 8.0 |
 | Cross-References and Draft Integration | 8.8 | 9.0 | 9.0 | 8.3 | 9.0 | 8.8 | 9.0 |
-| Overall Draft | 8.7 | 8.9 | 8.8 | 8.9 | 9.1 | 8.2 | 8.5 |
+| Overall Draft | 8.7 | 8.9 | 8.8 | 8.9 | 9.1 | 8.3 | 8.6 |
 
 ### Current US Constitution Baseline
 
@@ -121,13 +129,17 @@ Use this table for future review rounds.
 | Article VI — Democratic Integrity |  |  |  |  |  |  |  |  |
 | Article VII — Campaign Finance and Political Money |  |  |  |  |  |  |  |  |
 | Article VIII — Government Ethics |  |  |  |  |  |  |  |  |
+| Article IX — Citizenship and National Membership |  |  |  |  |  |  |  |  |
 | Article X — Federalism and the States |  |  |  |  |  |  |  |  |
 | Article XI — Amendments |  |  |  |  |  |  |  |  |
 | Article XII — Constitutional Organs |  |  |  |  |  |  |  |  |
 | Article XIII — Federal Agencies |  |  |  |  |  |  |  |  |
+| Article XIV — Taxation and Public Revenue |  |  |  |  |  |  |  |  |
+| Article XV — Budget, Public Credit, and Appropriations |  |  |  |  |  |  |  |  |
 | Article XVI — War Powers and National Security |  |  |  |  |  |  |  |  |
 | Article XVII — Foreign Policy and National Security |  |  |  |  |  |  |  |  |
 | Article XVIII — Social, Economic, and Affirmative Rights |  |  |  |  |  |  |  |  |
+| Article XIX — Ratification and Transition |  |  |  |  |  |  |  |  |
 | Cross-References and Draft Integration |  |  |  |  |  |  |  |  |
 | Overall Draft |  |  |  |  |  |  |  |  |
 
@@ -153,6 +165,7 @@ Update this table whenever a score changes.
 | Date | Area | Old Score | New Score | Reason for Change | Remaining Issue |
 |------|------|-----------|-----------|-------------------|-----------------|
 | 2026-03-28 | Preamble | 9.0 | 9.0 | Design notes were extracted from the operative preamble into a separate drafting document, leaving the preamble file as pure constitutional text without changing its substance | Remaining work is still limited to cadence and memorability |
+| 2026-03-28 | Articles IX / XIV / XV / XIX / Overall | — | 8.0 / 8.0 / 8.5 / 8.0 / 8.6 | The new citizenship, taxation, budget, and transition articles were filled out into actual draft articles and now deserve direct scoring rather than being treated as structural placeholders | The new articles still need integration cleanup with adjacent operative articles and have not yet had full simulation or migration-pressure testing |
 | 2026-03-28 | Article VIII / Article IX / Article X / Cross-References | 8.5 / 8.5 / 8.5 / 8.0 | 8.5 / 8.5 / 8.5 / 8.5 | The amendment transition placeholder was closed, Constitutional Organs vacancy rules were made more coherent, the Article X sunset contradiction was resolved, and live cross-reference drift was reduced further | The main remaining work is simplification and stress-testing rather than contradiction repair |
 | 2026-03-28 | Preamble | 9.0 | 9.0 | The anti-capture clause now ties democratic self-defense more directly to law and equal citizenship, reducing the risk that the line could be misread as a free-floating warrant for partisan suppression | Remaining work is still cadence and memorability, not substance |
 | 2026-03-28 | Preamble | 9.0 | 9.0 | Conservative preamble refinement replaced the slightly more abstract "world capable of sustaining life" with the more concrete "planet capable of sustaining life" and confirmed no meaningful exploit or mismatch with the operative articles | Remaining work is limited to final cadence polish rather than substantive revision |
@@ -186,8 +199,8 @@ Before raising a score, ask:
 
 Recommended focus order:
 
-1. Article XVI — War Powers adversarial stress-testing — fiscal-hold/Treasury-firing chain and nuclear multi-refusal depth test are the two highest-leverage remaining simulation gaps
-2. Article VII — Campaign Finance compression pass — draft discipline (7.0) is the main drag on an otherwise strong article
+1. Articles XIV and XV — fiscal integration pass — migrate overlapping revenue, budget, debt, and continuity language cleanly out of Article II
+2. Article XVI — War Powers adversarial stress-testing — fiscal-hold/Treasury-firing chain and nuclear multi-refusal depth test are the two highest-leverage remaining simulation gaps
 3. Article XII — Constitutional Organs simplification — reduce cross-reference dependence and compress commission detail
-4. Article XVIII — Social/Economic Rights language tightening — positive-rights framing still reads programmatic in places
+4. Article IX and Article XIX — integration pass — align citizenship and transition rules tightly with Articles I, III, IV, XI, and XII
 5. Final whole-draft consistency and polish pass

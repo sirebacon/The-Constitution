@@ -1,14 +1,12 @@
 # Article XV — Budget, Public Credit, and Appropriations
 
-**Status:** `[ PROPOSAL ]`
+**Status:** `[ DRAFT ]`
 
 ---
 
-## Purpose
+## Scope
 
-This proposed article consolidates borrowing, appropriations discipline, budget integrity, public reporting, classified spending oversight, and fiscal continuity now concentrated in [articles/II-legislature.md](II-legislature.md).
-
-It should not be integrated into the operative draft until overlapping budget and appropriations provisions are migrated from Article II.
+Establishes the constitutional principles governing borrowing, appropriations, fiscal continuity, budget integrity, classified spending, and public credit. Article XIV governs how revenue is raised. This Article governs how public money is authorized, financed, disclosed, and spent.
 
 ---
 
@@ -30,6 +28,8 @@ It should not be integrated into the operative draft until overlapping budget an
 
 **2.3** The public credit of the United States shall not be impaired by a refusal to honor obligations previously authorized by law.
 
+**2.4** Borrowing authority must remain subordinate to law. No executive officer may create, conceal, or materially restructure public obligations outside the borrowing authority granted by Congress.
+
 ---
 
 ## Section 3 — Appropriations and Continuity of Government
@@ -39,6 +39,8 @@ It should not be integrated into the operative draft until overlapping budget an
 **3.2** Congress shall provide for timely appropriations. If it fails to do so, this Constitution or laws enacted under it may provide an automatic continuing funding rule sufficient to prevent government shutdown and default.
 
 **3.3** No officer may alter appropriated funding ratios, withhold lawfully appropriated funds, or selectively implement appropriations for partisan, personal, or unlawful reasons.
+
+**3.4** Revenue and appropriations measures must originate in the House of Representatives as provided in Article II, but the fiscal principles and continuity guarantees of this Article bind both chambers and every officer of the United States.
 
 ---
 
@@ -50,6 +52,8 @@ It should not be integrated into the operative draft until overlapping budget an
 
 **4.3** Congress may by law require long-term fiscal projections, performance reporting, and independent fiscal analysis sufficient to support informed budgeting.
 
+**4.4** No classification label, emergency designation, or accounting device may be used to evade the disclosure, audit, or law-governed spending requirements of this Constitution.
+
 ---
 
 ## Section 5 — Transparency and Public Reporting
@@ -59,6 +63,8 @@ It should not be integrated into the operative draft until overlapping budget an
 **5.2** Citizens have a right to know the aggregate scale of public spending, public debt, and classified spending, subject only to narrow security exceptions consistent with this Constitution.
 
 **5.3** Congress may by law require public fiscal summaries, long-term projections, and program-performance reports sufficient to permit democratic oversight.
+
+**5.4** Congress shall maintain an independent fiscal analysis body with access sufficient to evaluate the budgetary and debt effects of major legislation and emergency finance proposals. Its methods and assumptions shall be public unless classification is strictly necessary to protect national security.
 
 ---
 
@@ -72,6 +78,8 @@ It should not be integrated into the operative draft until overlapping budget an
 
 **6.4** Classified appropriations may not be used for domestic political manipulation, unlawful surveillance, or evasion of ordinary constitutional limits.
 
+**6.5** Any officer who knowingly conceals classified spending from the constitutionally authorized oversight process, or who spends classified funds for an unlawful domestic political purpose, is subject to removal, disqualification, and prosecution as provided elsewhere in this Constitution.
+
 ---
 
 ## Section 7 — Long-Term Responsibility and Emergency Finance
@@ -81,6 +89,8 @@ It should not be integrated into the operative draft until overlapping budget an
 **7.2** The Constitution does not require balanced budgets in all circumstances, but it does require that borrowing and spending remain law-governed, transparent, and reviewable.
 
 **7.3** Fiscal emergencies may justify temporary departures from ordinary procedures only on terms established by law and consistent with this Constitution.
+
+**7.4** No fiscal emergency may be used to suspend elections, rights, judicial review, ordinary legislative oversight, or the requirement that public money be raised and spent under law.
 
 ---
 
