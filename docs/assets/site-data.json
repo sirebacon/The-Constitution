@@ -1,0 +1,2571 @@
+{
+  "generated_at": "",
+  "overview": {
+    "title": "Constitution of the United States of America",
+    "subtitle": "A modern replacement draft built around democratic legitimacy, anti-authoritarian safeguards, and readable constitutional architecture.",
+    "article_count": 19,
+    "scenario_count": 45,
+    "overall_score": "8.9",
+    "overall_status": "Strong",
+    "unresolved_obligations": 0,
+    "top_strength": "The architecture is now materially cleaner and the simulator still shows a closure-oriented system with 0 unresolved obligations even under a larger, harsher suite",
+    "top_weakness": "The remaining weakness is no longer missing machinery; it is a mix of deadline-driven political nonperformance, a few judicial and institutional delay chains, and residual code-like density in a handful of articles"
+  },
+  "navigation": [
+    {
+      "group": "Start Here",
+      "items": [
+        "overview",
+        "index",
+        "comparison",
+        "scorecard"
+      ]
+    },
+    {
+      "group": "Read the Constitution",
+      "items": [
+        "preamble",
+        "i-electoral-system",
+        "ii-legislature",
+        "iii-executive",
+        "iv-judiciary",
+        "v-rights",
+        "vi-integrity",
+        "vii-campaign-finance",
+        "viii-government-ethics",
+        "ix-citizenship-membership",
+        "x-federalism",
+        "xi-amendments",
+        "xii-constitutional-organs",
+        "xiii-federal-agencies",
+        "xiv-taxation-public-revenue",
+        "xv-budget-public-credit-appropriations",
+        "xvi-war-powers-national-security",
+        "xvii-foreign-policy-national-security",
+        "xviii-social-economic-rights",
+        "xix-ratification-transition"
+      ]
+    },
+    {
+      "group": "Background",
+      "items": [
+        "rationale",
+        "findings",
+        "overview-zh"
+      ]
+    }
+  ],
+  "docs": [
+    {
+      "slug": "preamble",
+      "title": "Preamble",
+      "group": "Constitution",
+      "kind": "preamble",
+      "source": "preamble.md",
+      "status": "DRAFT",
+      "summary": "We the People of the United States, all of us without exception, establish this Constitution.",
+      "headings": [
+        {
+          "level": 2,
+          "text": "The Preamble",
+          "anchor": "the-preamble"
+        }
+      ],
+      "score": "9.0",
+      "score_status": "Strong"
+    },
+    {
+      "slug": "i-electoral-system",
+      "title": "Article I \u2014 The Electoral System",
+      "group": "Constitution",
+      "kind": "article",
+      "source": "articles/I-electoral-system.md",
+      "status": "DRAFT",
+      "summary": "Establishes the right to vote, the mechanics of all federal elections, the rules for political party participation, and the citizens' initiative process. Election administration is delegated to the Electoral Commission under Article XII.",
+      "headings": [
+        {
+          "level": 2,
+          "text": "Scope",
+          "anchor": "scope"
+        },
+        {
+          "level": 2,
+          "text": "Section 1 \u2014 The Right to Vote",
+          "anchor": "section-1-the-right-to-vote"
+        },
+        {
+          "level": 2,
+          "text": "Section 2 \u2014 Voter Registration",
+          "anchor": "section-2-voter-registration"
+        },
+        {
+          "level": 2,
+          "text": "Section 3 \u2014 Federal Election Schedule",
+          "anchor": "section-3-federal-election-schedule"
+        },
+        {
+          "level": 2,
+          "text": "Section 4 \u2014 Elections to the House of Representatives",
+          "anchor": "section-4-elections-to-the-house-of-representatives"
+        },
+        {
+          "level": 3,
+          "text": "4.1 \u2014 Method: Single Transferable Vote",
+          "anchor": "41-method-single-transferable-vote"
+        },
+        {
+          "level": 3,
+          "text": "4.2 \u2014 Multi-Member Districts",
+          "anchor": "42-multi-member-districts"
+        },
+        {
+          "level": 3,
+          "text": "4.3 \u2014 Terms",
+          "anchor": "43-terms"
+        },
+        {
+          "level": 3,
+          "text": "4.4 \u2014 Vacancies",
+          "anchor": "44-vacancies"
+        },
+        {
+          "level": 2,
+          "text": "Section 5 \u2014 Elections to the Regional Assembly",
+          "anchor": "section-5-elections-to-the-regional-assembly"
+        },
+        {
+          "level": 3,
+          "text": "5.1 \u2014 Method: Ranked Choice Voting",
+          "anchor": "51-method-ranked-choice-voting"
+        },
+        {
+          "level": 3,
+          "text": "5.2 \u2014 Staggered Terms",
+          "anchor": "52-staggered-terms"
+        },
+        {
+          "level": 3,
+          "text": "5.3 \u2014 Vacancies",
+          "anchor": "53-vacancies"
+        },
+        {
+          "level": 2,
+          "text": "Section 6 \u2014 Presidential Election",
+          "anchor": "section-6-presidential-election"
+        },
+        {
+          "level": 2,
+          "text": "Section 7 \u2014 Apportionment",
+          "anchor": "section-7-apportionment"
+        },
+        {
+          "level": 2,
+          "text": "Section 8 \u2014 Independent Redistricting",
+          "anchor": "section-8-independent-redistricting"
+        },
+        {
+          "level": 2,
+          "text": "Section 9 \u2014 Party Qualification and Representation Threshold",
+          "anchor": "section-9-party-qualification-and-representation-threshold"
+        },
+        {
+          "level": 2,
+          "text": "Section 10 \u2014 Election Administration",
+          "anchor": "section-10-election-administration"
+        },
+        {
+          "level": 2,
+          "text": "Section 11 \u2014 Citizens' Initiative",
+          "anchor": "section-11-citizens-initiative"
+        },
+        {
+          "level": 2,
+          "text": "Section 12 \u2014 Overseas Citizens",
+          "anchor": "section-12-overseas-citizens"
+        },
+        {
+          "level": 2,
+          "text": "Section 13 \u2014 Recall of Elected Federal Officials",
+          "anchor": "section-13-recall-of-elected-federal-officials"
+        }
+      ],
+      "score": "9.0",
+      "score_status": "Strong"
+    },
+    {
+      "slug": "ii-legislature",
+      "title": "Article II \u2014 The Legislature",
+      "group": "Constitution",
+      "kind": "article",
+      "source": "articles/II-legislature.md",
+      "status": "DRAFT",
+      "summary": "Establishes the structure, composition, powers, and procedures of the federal legislature. The legislature consists of two chambers: the House of Representatives and the Regional Assembly. Together they form the Congress of the United States.",
+      "headings": [
+        {
+          "level": 2,
+          "text": "Scope",
+          "anchor": "scope"
+        },
+        {
+          "level": 2,
+          "text": "Section 1 \u2014 The Congress",
+          "anchor": "section-1-the-congress"
+        },
+        {
+          "level": 2,
+          "text": "Section 2 \u2014 The House of Representatives",
+          "anchor": "section-2-the-house-of-representatives"
+        },
+        {
+          "level": 2,
+          "text": "Section 3 \u2014 The Regional Assembly",
+          "anchor": "section-3-the-regional-assembly"
+        },
+        {
+          "level": 2,
+          "text": "Section 4 \u2014 Geographic Regions",
+          "anchor": "section-4-geographic-regions"
+        },
+        {
+          "level": 2,
+          "text": "Section 5 \u2014 Disqualification and Removal",
+          "anchor": "section-5-disqualification-and-removal"
+        },
+        {
+          "level": 2,
+          "text": "Section 6 \u2014 Compensation and Conflicts",
+          "anchor": "section-6-compensation-and-conflicts"
+        },
+        {
+          "level": 2,
+          "text": "Section 7 \u2014 Exclusive Powers of the House",
+          "anchor": "section-7-exclusive-powers-of-the-house"
+        },
+        {
+          "level": 2,
+          "text": "Section 8 \u2014 Exclusive Powers of the Regional Assembly",
+          "anchor": "section-8-exclusive-powers-of-the-regional-assembly"
+        },
+        {
+          "level": 2,
+          "text": "Section 9 \u2014 Joint Powers of Congress",
+          "anchor": "section-9-joint-powers-of-congress"
+        },
+        {
+          "level": 2,
+          "text": "Section 10 \u2014 The Legislative Process",
+          "anchor": "section-10-the-legislative-process"
+        },
+        {
+          "level": 2,
+          "text": "Section 11 \u2014 Deadlock Resolution",
+          "anchor": "section-11-deadlock-resolution"
+        },
+        {
+          "level": 2,
+          "text": "Section 12 \u2014 The Budget Process",
+          "anchor": "section-12-the-budget-process"
+        },
+        {
+          "level": 2,
+          "text": "Section 12A \u2014 Classified Spending",
+          "anchor": "section-12a-classified-spending"
+        },
+        {
+          "level": 2,
+          "text": "Section 13 \u2014 Supermajority Requirements",
+          "anchor": "section-13-supermajority-requirements"
+        },
+        {
+          "level": 2,
+          "text": "Section 14 \u2014 Congressional Ethics",
+          "anchor": "section-14-congressional-ethics"
+        },
+        {
+          "level": 2,
+          "text": "Section 15 \u2014 Minimum Session Requirement",
+          "anchor": "section-15-minimum-session-requirement"
+        },
+        {
+          "level": 2,
+          "text": "Section 15A \u2014 Mandatory Scheduling for Constitutionally Required Votes",
+          "anchor": "section-15a-mandatory-scheduling-for-constitutionally-required-votes"
+        },
+        {
+          "level": 2,
+          "text": "Section 16 \u2014 Congressional Oversight",
+          "anchor": "section-16-congressional-oversight"
+        },
+        {
+          "level": 3,
+          "text": "16.1 \u2014 The Oversight Power",
+          "anchor": "161-the-oversight-power"
+        },
+        {
+          "level": 3,
+          "text": "16.2 \u2014 Subpoena Power and Expedited Judicial Enforcement",
+          "anchor": "162-subpoena-power-and-expedited-judicial-enforcement"
+        },
+        {
+          "level": 3,
+          "text": "16.3 \u2014 Affirmative Duty to Testify",
+          "anchor": "163-affirmative-duty-to-testify"
+        },
+        {
+          "level": 3,
+          "text": "16.4 \u2014 Perjury and False Statements Before Congress",
+          "anchor": "164-perjury-and-false-statements-before-congress"
+        },
+        {
+          "level": 3,
+          "text": "16.5 \u2014 Contempt of Congress",
+          "anchor": "165-contempt-of-congress"
+        },
+        {
+          "level": 3,
+          "text": "16.6 \u2014 Executive Privilege: Definition, Scope, and Limits",
+          "anchor": "166-executive-privilege-definition-scope-and-limits"
+        },
+        {
+          "level": 3,
+          "text": "16.7 \u2014 Adverse Inference for Bad-Faith Privilege Claims",
+          "anchor": "167-adverse-inference-for-bad-faith-privilege-claims"
+        },
+        {
+          "level": 3,
+          "text": "16.8 \u2014 Protection for Congressional Witnesses",
+          "anchor": "168-protection-for-congressional-witnesses"
+        },
+        {
+          "level": 3,
+          "text": "16.9 \u2014 Grants of Immunity",
+          "anchor": "169-grants-of-immunity"
+        },
+        {
+          "level": 3,
+          "text": "16.10 \u2014 No Interference with Oversight",
+          "anchor": "1610-no-interference-with-oversight"
+        }
+      ],
+      "score": "9.0",
+      "score_status": "Strong"
+    },
+    {
+      "slug": "iii-executive",
+      "title": "Article III \u2014 The Executive",
+      "group": "Constitution",
+      "kind": "article",
+      "source": "articles/III-executive.md",
+      "status": "DRAFT",
+      "summary": "Establishes the structure, powers, and limits of the executive branch. The President is both head of state and head of government. Executive power is derived from this Constitution and may not be exercised beyond its limits regardless of congressional authorization.",
+      "headings": [
+        {
+          "level": 2,
+          "text": "Scope",
+          "anchor": "scope"
+        },
+        {
+          "level": 2,
+          "text": "Section 1 \u2014 The President",
+          "anchor": "section-1-the-president"
+        },
+        {
+          "level": 2,
+          "text": "Section 2 \u2014 Eligibility and Term",
+          "anchor": "section-2-eligibility-and-term"
+        },
+        {
+          "level": 2,
+          "text": "Section 3 \u2014 The Vice President",
+          "anchor": "section-3-the-vice-president"
+        },
+        {
+          "level": 2,
+          "text": "Section 4 \u2014 The Cabinet and Executive Departments",
+          "anchor": "section-4-the-cabinet-and-executive-departments"
+        },
+        {
+          "level": 2,
+          "text": "Section 5 \u2014 Emergency Powers",
+          "anchor": "section-5-emergency-powers"
+        },
+        {
+          "level": 2,
+          "text": "Section 6 \u2014 Executive Orders",
+          "anchor": "section-6-executive-orders"
+        },
+        {
+          "level": 2,
+          "text": "Section 7 \u2014 The Pardon Power",
+          "anchor": "section-7-the-pardon-power"
+        },
+        {
+          "level": 2,
+          "text": "Section 8 \u2014 Commander in Chief and War Powers",
+          "anchor": "section-8-commander-in-chief-and-war-powers"
+        },
+        {
+          "level": 2,
+          "text": "Section 9 \u2014 Foreign Affairs and Treaties",
+          "anchor": "section-9-foreign-affairs-and-treaties"
+        },
+        {
+          "level": 2,
+          "text": "Section 10 \u2014 Impeachment and Removal",
+          "anchor": "section-10-impeachment-and-removal"
+        },
+        {
+          "level": 2,
+          "text": "Section 11 \u2014 Presidential Incapacity",
+          "anchor": "section-11-presidential-incapacity"
+        },
+        {
+          "level": 2,
+          "text": "Section 12 \u2014 Succession",
+          "anchor": "section-12-succession"
+        },
+        {
+          "level": 2,
+          "text": "Section 13 \u2014 Presidential Transition",
+          "anchor": "section-13-presidential-transition"
+        },
+        {
+          "level": 2,
+          "text": "Section 14 \u2014 Public Recall of the President",
+          "anchor": "section-14-public-recall-of-the-president"
+        },
+        {
+          "level": 2,
+          "text": "Section 15 \u2014 Presidential Accountability and Immunity",
+          "anchor": "section-15-presidential-accountability-and-immunity"
+        },
+        {
+          "level": 3,
+          "text": "15.1 \u2014 The Core Principle: No Immunity for Criminal Conduct",
+          "anchor": "151-the-core-principle-no-immunity-for-criminal-conduct"
+        },
+        {
+          "level": 3,
+          "text": "15.2 \u2014 Official Capacity Is Not Immunity",
+          "anchor": "152-official-capacity-is-not-immunity"
+        },
+        {
+          "level": 3,
+          "text": "15.3 \u2014 Absolute Prohibitions: No Immunity in Any Circumstance",
+          "anchor": "153-absolute-prohibitions-no-immunity-in-any-circumstance"
+        },
+        {
+          "level": 3,
+          "text": "15.4 \u2014 Heightened Procedural Protection for Other Official-Capacity Conduct",
+          "anchor": "154-heightened-procedural-protection-for-other-official-capacity-conduct"
+        },
+        {
+          "level": 3,
+          "text": "15.5 \u2014 Indictment of a Sitting President",
+          "anchor": "155-indictment-of-a-sitting-president"
+        },
+        {
+          "level": 3,
+          "text": "15.6 \u2014 Former Presidents: No Special Post-Presidential Immunity",
+          "anchor": "156-former-presidents-no-special-post-presidential-immunity"
+        },
+        {
+          "level": 3,
+          "text": "15.7 \u2014 Accountability Commission Jurisdiction",
+          "anchor": "157-accountability-commission-jurisdiction"
+        },
+        {
+          "level": 3,
+          "text": "15.8 \u2014 No Interference with Investigation",
+          "anchor": "158-no-interference-with-investigation"
+        },
+        {
+          "level": 3,
+          "text": "15.9 \u2014 Cross-References",
+          "anchor": "159-cross-references"
+        }
+      ],
+      "score": "9.0",
+      "score_status": "Strong"
+    },
+    {
+      "slug": "iv-judiciary",
+      "title": "Article IV \u2014 The Judiciary",
+      "group": "Constitution",
+      "kind": "article",
+      "source": "articles/IV-judiciary.md",
+      "status": "DRAFT",
+      "summary": "Establishes the structure, composition, independence, and jurisdiction of the federal judiciary. Judicial power is vested in courts established by this Constitution and by Congress. The judiciary is the final arbiter of the meaning of this Constitution.",
+      "headings": [
+        {
+          "level": 2,
+          "text": "Scope",
+          "anchor": "scope"
+        },
+        {
+          "level": 2,
+          "text": "Section 1 \u2014 The Federal Judiciary",
+          "anchor": "section-1-the-federal-judiciary"
+        },
+        {
+          "level": 2,
+          "text": "Section 2 \u2014 The Supreme Court",
+          "anchor": "section-2-the-supreme-court"
+        },
+        {
+          "level": 2,
+          "text": "Section 3 \u2014 Appointment of Supreme Court Justices",
+          "anchor": "section-3-appointment-of-supreme-court-justices"
+        },
+        {
+          "level": 2,
+          "text": "Section 4 \u2014 The Judicial Nominations Commission",
+          "anchor": "section-4-the-judicial-nominations-commission"
+        },
+        {
+          "level": 2,
+          "text": "Section 5 \u2014 Federal Courts Below the Supreme Court",
+          "anchor": "section-5-federal-courts-below-the-supreme-court"
+        },
+        {
+          "level": 2,
+          "text": "Section 6 \u2014 Judicial Independence",
+          "anchor": "section-6-judicial-independence"
+        },
+        {
+          "level": 2,
+          "text": "Section 7 \u2014 Judicial Ethics",
+          "anchor": "section-7-judicial-ethics"
+        },
+        {
+          "level": 2,
+          "text": "Section 8 \u2014 Removal of Federal Judges",
+          "anchor": "section-8-removal-of-federal-judges"
+        },
+        {
+          "level": 2,
+          "text": "Section 9 \u2014 Jurisdiction and Constitutional Review",
+          "anchor": "section-9-jurisdiction-and-constitutional-review"
+        },
+        {
+          "level": 2,
+          "text": "Section 10 \u2014 Decision Timeliness",
+          "anchor": "section-10-decision-timeliness"
+        },
+        {
+          "level": 2,
+          "text": "Section 11 \u2014 Transition at Ratification",
+          "anchor": "section-11-transition-at-ratification"
+        }
+      ],
+      "score": "8.9",
+      "score_status": "Strong"
+    },
+    {
+      "slug": "v-rights",
+      "title": "Article V \u2014 Rights and Freedoms",
+      "group": "Constitution",
+      "kind": "article",
+      "source": "articles/V-rights.md",
+      "status": "DRAFT",
+      "summary": "Enumerates and protects the civil and political rights of all persons within the United States. This Article replaces and expands the Bill of Rights and all rights-bearing amendments of the prior Constitution. Rights enumerated here are a floor \u2014 states may expand but may not reduce them. The enumeration of specific rights shall not be construed to deny or disparage others retained by the people.",
+      "headings": [
+        {
+          "level": 2,
+          "text": "Scope",
+          "anchor": "scope"
+        },
+        {
+          "level": 2,
+          "text": "Section 1 \u2014 General Principles",
+          "anchor": "section-1-general-principles"
+        },
+        {
+          "level": 2,
+          "text": "Section 2 \u2014 Free Expression and Assembly",
+          "anchor": "section-2-free-expression-and-assembly"
+        },
+        {
+          "level": 2,
+          "text": "Section 3 \u2014 Religion",
+          "anchor": "section-3-religion"
+        },
+        {
+          "level": 2,
+          "text": "Section 4 \u2014 Privacy and Personal Autonomy",
+          "anchor": "section-4-privacy-and-personal-autonomy"
+        },
+        {
+          "level": 2,
+          "text": "Section 5 \u2014 Security of Person and Home",
+          "anchor": "section-5-security-of-person-and-home"
+        },
+        {
+          "level": 2,
+          "text": "Section 6 \u2014 Due Process and Fair Treatment",
+          "anchor": "section-6-due-process-and-fair-treatment"
+        },
+        {
+          "level": 2,
+          "text": "Section 7 \u2014 Equal Rights",
+          "anchor": "section-7-equal-rights"
+        },
+        {
+          "level": 2,
+          "text": "Section 8 \u2014 The Right to Keep and Bear Arms",
+          "anchor": "section-8-the-right-to-keep-and-bear-arms"
+        },
+        {
+          "level": 2,
+          "text": "Section 9 \u2014 Rights of the Accused and Punishments",
+          "anchor": "section-9-rights-of-the-accused-and-punishments"
+        },
+        {
+          "level": 2,
+          "text": "Section 10 \u2014 Digital Rights",
+          "anchor": "section-10-digital-rights"
+        },
+        {
+          "level": 2,
+          "text": "Section 11 \u2014 Environmental Rights",
+          "anchor": "section-11-environmental-rights"
+        },
+        {
+          "level": 2,
+          "text": "Section 12 \u2014 Affirmative Rights",
+          "anchor": "section-12-affirmative-rights"
+        },
+        {
+          "level": 2,
+          "text": "Section 13 \u2014 Economic Rights",
+          "anchor": "section-13-economic-rights"
+        },
+        {
+          "level": 2,
+          "text": "Section 14 \u2014 Rights in Emergency",
+          "anchor": "section-14-rights-in-emergency"
+        },
+        {
+          "level": 2,
+          "text": "Section 15 \u2014 Rights of Children",
+          "anchor": "section-15-rights-of-children"
+        },
+        {
+          "level": 2,
+          "text": "Section 16 \u2014 Conflicting Rights",
+          "anchor": "section-16-conflicting-rights"
+        }
+      ],
+      "score": "8.7",
+      "score_status": "Strong"
+    },
+    {
+      "slug": "vi-integrity",
+      "title": "Article VI \u2014 Democratic Integrity",
+      "group": "Constitution",
+      "kind": "article",
+      "source": "articles/VI-integrity.md",
+      "status": "DRAFT",
+      "summary": "Protects the democratic system itself from subversion, foreign interference, and capture of the information environment. This Article has no equivalent in the prior Constitution \u2014 it treats bad-faith actors as a design constraint rather than an anomaly. It establishes the rules governing electoral subversion, foreign meddling in elections and politics, and media plurality. Enforcement is primarily through the Constitutional Organs established in Article XII.",
+      "headings": [
+        {
+          "level": 2,
+          "text": "Scope",
+          "anchor": "scope"
+        },
+        {
+          "level": 2,
+          "text": "Section 1 \u2014 Anti-Subversion and Protection of Democratic Processes",
+          "anchor": "section-1-anti-subversion-and-protection-of-democratic-processes"
+        },
+        {
+          "level": 3,
+          "text": "1.1 \u2014 The Core Prohibition",
+          "anchor": "11-the-core-prohibition"
+        },
+        {
+          "level": 3,
+          "text": "1.2 \u2014 Definition of Subversion",
+          "anchor": "12-definition-of-subversion"
+        },
+        {
+          "level": 3,
+          "text": "1.3 \u2014 What Is Not Subversion",
+          "anchor": "13-what-is-not-subversion"
+        },
+        {
+          "level": 3,
+          "text": "1.4 \u2014 Penalties",
+          "anchor": "14-penalties"
+        },
+        {
+          "level": 3,
+          "text": "1.5 \u2014 Scope of Application",
+          "anchor": "15-scope-of-application"
+        },
+        {
+          "level": 3,
+          "text": "1.6 \u2014 Adjudication",
+          "anchor": "16-adjudication"
+        },
+        {
+          "level": 2,
+          "text": "Section 2 \u2014 Campaign Finance and Political Money",
+          "anchor": "section-2-campaign-finance-and-political-money"
+        },
+        {
+          "level": 2,
+          "text": "Section 3 \u2014 Corruption, Conflicts of Interest, and Self-Dealing",
+          "anchor": "section-3-corruption-conflicts-of-interest-and-self-dealing"
+        },
+        {
+          "level": 2,
+          "text": "Section 3A \u2014 Financial Market Integrity",
+          "anchor": "section-3a-financial-market-integrity"
+        },
+        {
+          "level": 2,
+          "text": "Section 4 \u2014 The Civil Service",
+          "anchor": "section-4-the-civil-service"
+        },
+        {
+          "level": 2,
+          "text": "Section 5 \u2014 Foreign Interference",
+          "anchor": "section-5-foreign-interference"
+        },
+        {
+          "level": 3,
+          "text": "5.1 \u2014 Prohibition on foreign electoral interference",
+          "anchor": "51-prohibition-on-foreign-electoral-interference"
+        },
+        {
+          "level": 3,
+          "text": "5.2 \u2014 Disclosure of foreign contacts",
+          "anchor": "52-disclosure-of-foreign-contacts"
+        },
+        {
+          "level": 3,
+          "text": "5.3 \u2014 Foreign lobbying",
+          "anchor": "53-foreign-lobbying"
+        },
+        {
+          "level": 3,
+          "text": "5.4 \u2014 Prohibition on acting on foreign electoral assistance",
+          "anchor": "54-prohibition-on-acting-on-foreign-electoral-assistance"
+        },
+        {
+          "level": 2,
+          "text": "Section 6 \u2014 Lobbying and Access",
+          "anchor": "section-6-lobbying-and-access"
+        },
+        {
+          "level": 2,
+          "text": "Section 7 \u2014 Media Pluralism and Information Integrity",
+          "anchor": "section-7-media-pluralism-and-information-integrity"
+        },
+        {
+          "level": 3,
+          "text": "7.1 \u2014 Ownership concentration limits",
+          "anchor": "71-ownership-concentration-limits"
+        },
+        {
+          "level": 3,
+          "text": "7.2 \u2014 Local market limits",
+          "anchor": "72-local-market-limits"
+        },
+        {
+          "level": 3,
+          "text": "7.3 \u2014 Foreign ownership",
+          "anchor": "73-foreign-ownership"
+        },
+        {
+          "level": 3,
+          "text": "7.4 \u2014 Public broadcasting",
+          "anchor": "74-public-broadcasting"
+        },
+        {
+          "level": 3,
+          "text": "7.5 \u2014 Algorithmic transparency",
+          "anchor": "75-algorithmic-transparency"
+        },
+        {
+          "level": 3,
+          "text": "7.6 \u2014 Enforcement",
+          "anchor": "76-enforcement"
+        },
+        {
+          "level": 2,
+          "text": "Section 8 \u2014 Enforcement",
+          "anchor": "section-8-enforcement"
+        }
+      ],
+      "score": "9.0",
+      "score_status": "Strong"
+    },
+    {
+      "slug": "vii-campaign-finance",
+      "title": "Article VII \u2014 Campaign Finance and Political Money",
+      "group": "Constitution",
+      "kind": "article",
+      "source": "articles/VII-campaign-finance.md",
+      "status": "DRAFT",
+      "summary": "Establishes the constitutional framework governing money in federal and state elections. The core principles are that voters have a right to know who is funding political power, that political office must remain realistically accessible without wealth or large private donors, and that legislatures may regulate political money to prevent corruption, domination, concealment, and foreign influence.",
+      "headings": [
+        {
+          "level": 2,
+          "text": "Scope",
+          "anchor": "scope"
+        },
+        {
+          "level": 2,
+          "text": "Section 1 \u2014 Constitutional Authority and Disclosure",
+          "anchor": "section-1-constitutional-authority-and-disclosure"
+        },
+        {
+          "level": 3,
+          "text": "1.1 \u2014 Authority to regulate political money",
+          "anchor": "11-authority-to-regulate-political-money"
+        },
+        {
+          "level": 3,
+          "text": "1.2 \u2014 Traceable disclosure required",
+          "anchor": "12-traceable-disclosure-required"
+        },
+        {
+          "level": 3,
+          "text": "1.3 \u2014 Timely public notice",
+          "anchor": "13-timely-public-notice"
+        },
+        {
+          "level": 3,
+          "text": "1.4 \u2014 Nonprofit, pass-through, and affiliated-source transparency",
+          "anchor": "14-nonprofit-pass-through-and-affiliated-source-transparency"
+        },
+        {
+          "level": 3,
+          "text": "1.5 \u2014 Coordination and acting in concert",
+          "anchor": "15-coordination-and-acting-in-concert"
+        },
+        {
+          "level": 3,
+          "text": "1.6 \u2014 Foreign money prohibited",
+          "anchor": "16-foreign-money-prohibited"
+        },
+        {
+          "level": 3,
+          "text": "1.7 \u2014 Entity spending and source restrictions",
+          "anchor": "17-entity-spending-and-source-restrictions"
+        },
+        {
+          "level": 2,
+          "text": "Section 2 \u2014 Public Financing",
+          "anchor": "section-2-public-financing"
+        },
+        {
+          "level": 3,
+          "text": "2.1 \u2014 Competitive public financing required",
+          "anchor": "21-competitive-public-financing-required"
+        },
+        {
+          "level": 3,
+          "text": "2.2 \u2014 Parameter setting and incumbency neutrality",
+          "anchor": "22-parameter-setting-and-incumbency-neutrality"
+        },
+        {
+          "level": 3,
+          "text": "2.3 \u2014 Adjustment and adequacy",
+          "anchor": "23-adjustment-and-adequacy"
+        },
+        {
+          "level": 3,
+          "text": "2.4 \u2014 Self-financing and legislative self-dealing",
+          "anchor": "24-self-financing-and-legislative-self-dealing"
+        },
+        {
+          "level": 2,
+          "text": "Section 3 \u2014 Spending Limits and Outside Spending",
+          "anchor": "section-3-spending-limits-and-outside-spending"
+        },
+        {
+          "level": 3,
+          "text": "3.1 \u2014 Outside spending may be limited",
+          "anchor": "31-outside-spending-may-be-limited"
+        },
+        {
+          "level": 3,
+          "text": "3.2 \u2014 Single-candidate and concentrated outside spending",
+          "anchor": "32-single-candidate-and-concentrated-outside-spending"
+        },
+        {
+          "level": 3,
+          "text": "3.3 \u2014 Pre-election restraint and anti-evasion",
+          "anchor": "33-pre-election-restraint-and-anti-evasion"
+        },
+        {
+          "level": 2,
+          "text": "Section 4 \u2014 Source Restrictions",
+          "anchor": "section-4-source-restrictions"
+        },
+        {
+          "level": 3,
+          "text": "4.1 \u2014 Contractors and comparable dependency relationships",
+          "anchor": "41-contractors-and-comparable-dependency-relationships"
+        },
+        {
+          "level": 3,
+          "text": "4.2 \u2014 Anonymous digital-asset spending prohibited",
+          "anchor": "42-anonymous-digital-asset-spending-prohibited"
+        },
+        {
+          "level": 3,
+          "text": "4.3 \u2014 In-kind value covered",
+          "anchor": "43-in-kind-value-covered"
+        },
+        {
+          "level": 2,
+          "text": "Section 5 \u2014 Transition, Inaugural, and Post-Election Money",
+          "anchor": "section-5-transition-inaugural-and-post-election-money"
+        },
+        {
+          "level": 3,
+          "text": "5.1 \u2014 Presidential transition funding",
+          "anchor": "51-presidential-transition-funding"
+        },
+        {
+          "level": 3,
+          "text": "5.2 \u2014 Inaugural and post-election fundraising",
+          "anchor": "52-inaugural-and-post-election-fundraising"
+        },
+        {
+          "level": 3,
+          "text": "5.3 \u2014 Political advertising transparency",
+          "anchor": "53-political-advertising-transparency"
+        },
+        {
+          "level": 2,
+          "text": "Section 6 \u2014 Enforcement",
+          "anchor": "section-6-enforcement"
+        },
+        {
+          "level": 3,
+          "text": "6.1 \u2014 Administration and prosecution",
+          "anchor": "61-administration-and-prosecution"
+        },
+        {
+          "level": 3,
+          "text": "6.2 \u2014 Timely remedies",
+          "anchor": "62-timely-remedies"
+        },
+        {
+          "level": 2,
+          "text": "Section 7 \u2014 State Elections Floor",
+          "anchor": "section-7-state-elections-floor"
+        }
+      ],
+      "score": "8.8",
+      "score_status": "Strong"
+    },
+    {
+      "slug": "viii-government-ethics",
+      "title": "Article VIII \u2014 Government Ethics",
+      "group": "Constitution",
+      "kind": "article",
+      "source": "articles/VIII-government-ethics.md",
+      "status": "DRAFT",
+      "summary": "Establishes the ethics rules that govern how federal officials behave in office. These provisions address corruption, financial conflicts of interest, civil service merit protection, lobbying, and the integrity of financial markets. Enforcement is primarily through the Accountability Commission (Article XII). Democratic integrity provisions \u2014 anti-subversion, foreign interference in elections, and media pluralism \u2014 are in Article VI.",
+      "headings": [
+        {
+          "level": 2,
+          "text": "Scope",
+          "anchor": "scope"
+        },
+        {
+          "level": 2,
+          "text": "Section 1 \u2014 Corruption, Conflicts of Interest, and Self-Dealing",
+          "anchor": "section-1-corruption-conflicts-of-interest-and-self-dealing"
+        },
+        {
+          "level": 3,
+          "text": "1.1 \u2014 Financial disclosure",
+          "anchor": "11-financial-disclosure"
+        },
+        {
+          "level": 3,
+          "text": "1.2 \u2014 Blind trusts",
+          "anchor": "12-blind-trusts"
+        },
+        {
+          "level": 3,
+          "text": "1.3 \u2014 Emoluments",
+          "anchor": "13-emoluments"
+        },
+        {
+          "level": 3,
+          "text": "1.4 \u2014 Bribery and self-dealing",
+          "anchor": "14-bribery-and-self-dealing"
+        },
+        {
+          "level": 3,
+          "text": "1.5 \u2014 Revolving door",
+          "anchor": "15-revolving-door"
+        },
+        {
+          "level": 3,
+          "text": "1.6 \u2014 Nepotism",
+          "anchor": "16-nepotism"
+        },
+        {
+          "level": 3,
+          "text": "1.7 \u2014 Automatic removal",
+          "anchor": "17-automatic-removal"
+        },
+        {
+          "level": 3,
+          "text": "1.8 \u2014 Permitted investments: the index fund rule",
+          "anchor": "18-permitted-investments-the-index-fund-rule"
+        },
+        {
+          "level": 3,
+          "text": "1.9 \u2014 Divestiture upon taking office",
+          "anchor": "19-divestiture-upon-taking-office"
+        },
+        {
+          "level": 3,
+          "text": "1.10 \u2014 Real-time disclosure of all trades",
+          "anchor": "110-real-time-disclosure-of-all-trades"
+        },
+        {
+          "level": 3,
+          "text": "1.11 \u2014 Penalties for investment violations",
+          "anchor": "111-penalties-for-investment-violations"
+        },
+        {
+          "level": 3,
+          "text": "1.12 \u2014 Scope of application",
+          "anchor": "112-scope-of-application"
+        },
+        {
+          "level": 3,
+          "text": "1.13 \u2014 Prohibition on use of government resources for campaign purposes",
+          "anchor": "113-prohibition-on-use-of-government-resources-for-campaign-purposes"
+        },
+        {
+          "level": 2,
+          "text": "Section 2 \u2014 Financial Market Integrity",
+          "anchor": "section-2-financial-market-integrity"
+        },
+        {
+          "level": 3,
+          "text": "2.1 \u2014 Purpose",
+          "anchor": "21-purpose"
+        },
+        {
+          "level": 3,
+          "text": "2.2 \u2014 Independence of the financial market regulator",
+          "anchor": "22-independence-of-the-financial-market-regulator"
+        },
+        {
+          "level": 3,
+          "text": "2.3 \u2014 Independent funding",
+          "anchor": "23-independent-funding"
+        },
+        {
+          "level": 3,
+          "text": "2.4 \u2014 Penalty floors",
+          "anchor": "24-penalty-floors"
+        },
+        {
+          "level": 3,
+          "text": "2.5 \u2014 No settlement without admission for major fraud",
+          "anchor": "25-no-settlement-without-admission-for-major-fraud"
+        },
+        {
+          "level": 3,
+          "text": "2.6 \u2014 Criminal referral and prosecution",
+          "anchor": "26-criminal-referral-and-prosecution"
+        },
+        {
+          "level": 3,
+          "text": "2.7 \u2014 Additional Congressional mandates",
+          "anchor": "27-additional-congressional-mandates"
+        },
+        {
+          "level": 3,
+          "text": "2.8 \u2014 Revolving door",
+          "anchor": "28-revolving-door"
+        },
+        {
+          "level": 3,
+          "text": "2.9 \u2014 Functional jurisdiction and enforcement capacity",
+          "anchor": "29-functional-jurisdiction-and-enforcement-capacity"
+        },
+        {
+          "level": 2,
+          "text": "Section 3 \u2014 The Civil Service",
+          "anchor": "section-3-the-civil-service"
+        },
+        {
+          "level": 3,
+          "text": "3.1 \u2014 Merit principle",
+          "anchor": "31-merit-principle"
+        },
+        {
+          "level": 3,
+          "text": "3.2 \u2014 Protected positions",
+          "anchor": "32-protected-positions"
+        },
+        {
+          "level": 3,
+          "text": "3.3 \u2014 Policy appointments",
+          "anchor": "33-policy-appointments"
+        },
+        {
+          "level": 3,
+          "text": "3.4 \u2014 Whistleblower protections",
+          "anchor": "34-whistleblower-protections"
+        },
+        {
+          "level": 3,
+          "text": "3.5 \u2014 Enforcement",
+          "anchor": "35-enforcement"
+        },
+        {
+          "level": 2,
+          "text": "Section 4 \u2014 Lobbying and Access",
+          "anchor": "section-4-lobbying-and-access"
+        },
+        {
+          "level": 3,
+          "text": "4.1 \u2014 Mandatory registration",
+          "anchor": "41-mandatory-registration"
+        },
+        {
+          "level": 3,
+          "text": "4.2 \u2014 Disclosure of contacts",
+          "anchor": "42-disclosure-of-contacts"
+        },
+        {
+          "level": 3,
+          "text": "4.3 \u2014 Gifts and hospitality",
+          "anchor": "43-gifts-and-hospitality"
+        },
+        {
+          "level": 3,
+          "text": "4.4 \u2014 Revolving door \u2014 lobbyists to officials",
+          "anchor": "44-revolving-door-lobbyists-to-officials"
+        },
+        {
+          "level": 3,
+          "text": "4.5 \u2014 Enforcement",
+          "anchor": "45-enforcement"
+        },
+        {
+          "level": 2,
+          "text": "Section 5 \u2014 Enforcement",
+          "anchor": "section-5-enforcement"
+        }
+      ],
+      "score": "9.1",
+      "score_status": "Near-final"
+    },
+    {
+      "slug": "ix-citizenship-membership",
+      "title": "Article IX \u2014 Citizenship and National Membership",
+      "group": "Constitution",
+      "kind": "article",
+      "source": "articles/IX-citizenship-membership.md",
+      "status": "DRAFT",
+      "summary": "Establishes equal citizenship, national membership, domicile principles, overseas political participation, and constitutional rules for citizenship status. Citizenship is a legal status under this Constitution, but it is also a guarantee against hereditary caste, arbitrary exclusion, and unequal membership in the political community.",
+      "headings": [
+        {
+          "level": 2,
+          "text": "Scope",
+          "anchor": "scope"
+        },
+        {
+          "level": 2,
+          "text": "Section 1 \u2014 Equal Citizenship",
+          "anchor": "section-1-equal-citizenship"
+        },
+        {
+          "level": 2,
+          "text": "Section 2 \u2014 Political Membership and Domicile",
+          "anchor": "section-2-political-membership-and-domicile"
+        },
+        {
+          "level": 2,
+          "text": "Section 3 \u2014 Overseas Citizens",
+          "anchor": "section-3-overseas-citizens"
+        },
+        {
+          "level": 2,
+          "text": "Section 4 \u2014 Equal Eligibility for Office",
+          "anchor": "section-4-equal-eligibility-for-office"
+        },
+        {
+          "level": 2,
+          "text": "Section 5 \u2014 Loss, Renunciation, and Conflict of Membership",
+          "anchor": "section-5-loss-renunciation-and-conflict-of-membership"
+        },
+        {
+          "level": 2,
+          "text": "Section 6 \u2014 Proof and Administration",
+          "anchor": "section-6-proof-and-administration"
+        },
+        {
+          "level": 2,
+          "text": "Section 7 \u2014 Construction",
+          "anchor": "section-7-construction"
+        }
+      ],
+      "score": "8.4",
+      "score_status": "Strong"
+    },
+    {
+      "slug": "x-federalism",
+      "title": "Article X \u2014 Federalism and the States",
+      "group": "Constitution",
+      "kind": "article",
+      "source": "articles/X-federalism.md",
+      "status": "DRAFT",
+      "summary": "Establishes the division of authority between the federal government and the states. The United States is a federal republic in which the national government and state governments each possess defined sovereign authority. Neither is a mere creation of the other. This Article replaces the prior Constitution's Articles IV and VI and the Tenth Amendment.",
+      "headings": [
+        {
+          "level": 2,
+          "text": "Scope",
+          "anchor": "scope"
+        },
+        {
+          "level": 2,
+          "text": "Section 1 \u2014 Principles of Federalism",
+          "anchor": "section-1-principles-of-federalism"
+        },
+        {
+          "level": 2,
+          "text": "Section 2 \u2014 Powers of the Federal Government",
+          "anchor": "section-2-powers-of-the-federal-government"
+        },
+        {
+          "level": 2,
+          "text": "Section 3 \u2014 Powers Reserved to the States",
+          "anchor": "section-3-powers-reserved-to-the-states"
+        },
+        {
+          "level": 2,
+          "text": "Section 4 \u2014 Federal Preemption",
+          "anchor": "section-4-federal-preemption"
+        },
+        {
+          "level": 2,
+          "text": "Section 5 \u2014 Interstate Relations",
+          "anchor": "section-5-interstate-relations"
+        },
+        {
+          "level": 2,
+          "text": "Section 6 \u2014 Washington D.C. and the National Capital",
+          "anchor": "section-6-washington-dc-and-the-national-capital"
+        },
+        {
+          "level": 2,
+          "text": "Section 7 \u2014 Territories and Admission of New States",
+          "anchor": "section-7-territories-and-admission-of-new-states"
+        },
+        {
+          "level": 2,
+          "text": "Section 8 \u2014 Local Government",
+          "anchor": "section-8-local-government"
+        },
+        {
+          "level": 2,
+          "text": "Section 9 \u2014 Federal Supremacy",
+          "anchor": "section-9-federal-supremacy"
+        }
+      ],
+      "score": "8.5",
+      "score_status": "Strong"
+    },
+    {
+      "slug": "xi-amendments",
+      "title": "Article XI \u2014 Amendments",
+      "group": "Constitution",
+      "kind": "article",
+      "source": "articles/XI-amendments.md",
+      "status": "DRAFT",
+      "summary": "Establishes the processes by which this Constitution may be amended, the provisions that may never be amended, and the judicial mechanisms that enforce both.",
+      "headings": [
+        {
+          "level": 2,
+          "text": "Scope",
+          "anchor": "scope"
+        },
+        {
+          "level": 2,
+          "text": "Section 1 \u2014 General Principle",
+          "anchor": "section-1-general-principle"
+        },
+        {
+          "level": 2,
+          "text": "Section 2 \u2014 Two-Track Amendment Process",
+          "anchor": "section-2-two-track-amendment-process"
+        },
+        {
+          "level": 3,
+          "text": "Track 1 \u2014 Structural Amendments",
+          "anchor": "track-1-structural-amendments"
+        },
+        {
+          "level": 3,
+          "text": "Track 2 \u2014 Rights Amendments",
+          "anchor": "track-2-rights-amendments"
+        },
+        {
+          "level": 3,
+          "text": "Shared Rules for Both Tracks",
+          "anchor": "shared-rules-for-both-tracks"
+        },
+        {
+          "level": 2,
+          "text": "Section 3 \u2014 The Unamendable Core",
+          "anchor": "section-3-the-unamendable-core"
+        },
+        {
+          "level": 3,
+          "text": "3.1 \u2014 Enumerated Unamendable Provisions",
+          "anchor": "31-enumerated-unamendable-provisions"
+        },
+        {
+          "level": 3,
+          "text": "3.2 \u2014 Principled Backstop",
+          "anchor": "32-principled-backstop"
+        },
+        {
+          "level": 3,
+          "text": "3.3 \u2014 Why These Provisions Are Unamendable",
+          "anchor": "33-why-these-provisions-are-unamendable"
+        },
+        {
+          "level": 2,
+          "text": "Section 4 \u2014 Judicial Pre-Clearance",
+          "anchor": "section-4-judicial-pre-clearance"
+        },
+        {
+          "level": 3,
+          "text": "4.1 \u2014 Mandatory Review",
+          "anchor": "41-mandatory-review"
+        },
+        {
+          "level": 3,
+          "text": "4.2 \u2014 Review Standard",
+          "anchor": "42-review-standard"
+        },
+        {
+          "level": 3,
+          "text": "4.3 \u2014 Timeline",
+          "anchor": "43-timeline"
+        },
+        {
+          "level": 3,
+          "text": "4.4 \u2014 Outcomes",
+          "anchor": "44-outcomes"
+        },
+        {
+          "level": 3,
+          "text": "4.5 \u2014 Standing",
+          "anchor": "45-standing"
+        },
+        {
+          "level": 2,
+          "text": "Section 5 \u2014 Post-Ratification Review",
+          "anchor": "section-5-post-ratification-review"
+        },
+        {
+          "level": 3,
+          "text": "5.1 \u2014 Challenge Window",
+          "anchor": "51-challenge-window"
+        },
+        {
+          "level": 3,
+          "text": "5.2 \u2014 Standing to Challenge",
+          "anchor": "52-standing-to-challenge"
+        },
+        {
+          "level": 3,
+          "text": "5.3 \u2014 Adjudication",
+          "anchor": "53-adjudication"
+        },
+        {
+          "level": 3,
+          "text": "5.4 \u2014 Remedy",
+          "anchor": "54-remedy"
+        },
+        {
+          "level": 3,
+          "text": "5.5 \u2014 Finality",
+          "anchor": "55-finality"
+        },
+        {
+          "level": 2,
+          "text": "Section 6 \u2014 Transition at Ratification",
+          "anchor": "section-6-transition-at-ratification"
+        }
+      ],
+      "score": "8.8",
+      "score_status": "Strong"
+    },
+    {
+      "slug": "xii-constitutional-organs",
+      "title": "Article XII \u2014 Constitutional Organs",
+      "group": "Constitution",
+      "kind": "article",
+      "source": "articles/XII-constitutional-organs.md",
+      "status": "DRAFT",
+      "summary": "Establishes two independent Constitutional Organs: the Electoral Commission and the Accountability Commission. These are not branches of government. They do not make law, set policy, or govern. They enforce the rules and integrity of the system that the three branches operate within.",
+      "headings": [
+        {
+          "level": 2,
+          "text": "Scope",
+          "anchor": "scope"
+        },
+        {
+          "level": 2,
+          "text": "Section 1 \u2014 General Principles",
+          "anchor": "section-1-general-principles"
+        },
+        {
+          "level": 2,
+          "text": "Section 2 \u2014 The Electoral Commission",
+          "anchor": "section-2-the-electoral-commission"
+        },
+        {
+          "level": 2,
+          "text": "Section 3 \u2014 The Accountability Commission",
+          "anchor": "section-3-the-accountability-commission"
+        },
+        {
+          "level": 2,
+          "text": "Section 4 \u2014 Citizen Access",
+          "anchor": "section-4-citizen-access"
+        },
+        {
+          "level": 2,
+          "text": "Section 5 \u2014 Shared Protections",
+          "anchor": "section-5-shared-protections"
+        },
+        {
+          "level": 2,
+          "text": "Section 6 \u2014 Transition at Ratification",
+          "anchor": "section-6-transition-at-ratification"
+        }
+      ],
+      "score": "8.6",
+      "score_status": "Strong"
+    },
+    {
+      "slug": "xiii-federal-agencies",
+      "title": "Article XIII \u2014 Federal Agencies and the Administrative State",
+      "group": "Constitution",
+      "kind": "article",
+      "source": "articles/XIII-federal-agencies.md",
+      "status": "DRAFT",
+      "summary": "Establishes the constitutional framework governing federal agencies, commissions, and administrative bodies created by Congress. The administrative state is the primary instrument through which the federal government implements law in practice. Its structure, independence, accountability, and integrity are matters of constitutional importance. This Article does not enumerate specific agencies \u2014 those are created, modified, and abolished by statute \u2014 but establishes the rules that all agencies must follow and the protections that certain categories of agency must receive.",
+      "headings": [
+        {
+          "level": 2,
+          "text": "Scope",
+          "anchor": "scope"
+        },
+        {
+          "level": 2,
+          "text": "Section 1 \u2014 Principles",
+          "anchor": "section-1-principles"
+        },
+        {
+          "level": 2,
+          "text": "Section 2 \u2014 Division of Authority Over Agencies",
+          "anchor": "section-2-division-of-authority-over-agencies"
+        },
+        {
+          "level": 2,
+          "text": "Section 3 \u2014 Classification of Federal Agencies",
+          "anchor": "section-3-classification-of-federal-agencies"
+        },
+        {
+          "level": 2,
+          "text": "Section 4 \u2014 Protections for Independent Regulatory Agencies",
+          "anchor": "section-4-protections-for-independent-regulatory-agencies"
+        },
+        {
+          "level": 2,
+          "text": "Section 5 \u2014 Protection Against Abolition and Restructuring",
+          "anchor": "section-5-protection-against-abolition-and-restructuring"
+        },
+        {
+          "level": 2,
+          "text": "Section 6 \u2014 Accountability and Transparency",
+          "anchor": "section-6-accountability-and-transparency"
+        },
+        {
+          "level": 2,
+          "text": "Section 7 \u2014 Revolving Door: General Framework",
+          "anchor": "section-7-revolving-door-general-framework"
+        },
+        {
+          "level": 2,
+          "text": "Section 8 \u2014 Civil Service Protections",
+          "anchor": "section-8-civil-service-protections"
+        },
+        {
+          "level": 2,
+          "text": "Section 9 \u2014 Captured Agencies",
+          "anchor": "section-9-captured-agencies"
+        },
+        {
+          "level": 2,
+          "text": "Section 10 \u2014 Sunset and Reauthorization",
+          "anchor": "section-10-sunset-and-reauthorization"
+        },
+        {
+          "level": 2,
+          "text": "Section 11 \u2014 Limit on Political Appointments",
+          "anchor": "section-11-limit-on-political-appointments"
+        }
+      ],
+      "score": "8.6",
+      "score_status": "Strong"
+    },
+    {
+      "slug": "xiv-taxation-public-revenue",
+      "title": "Article XIV \u2014 Taxation and Public Revenue",
+      "group": "Constitution",
+      "kind": "article",
+      "source": "articles/XIV-taxation-public-revenue.md",
+      "status": "DRAFT",
+      "summary": "Establishes the constitutional principles governing taxation and public revenue. This Article concerns how public money is raised. Article XV governs how money is borrowed, appropriated, and spent.",
+      "headings": [
+        {
+          "level": 2,
+          "text": "Scope",
+          "anchor": "scope"
+        },
+        {
+          "level": 2,
+          "text": "Section 1 \u2014 General Principle",
+          "anchor": "section-1-general-principle"
+        },
+        {
+          "level": 2,
+          "text": "Section 2 \u2014 Power to Tax",
+          "anchor": "section-2-power-to-tax"
+        },
+        {
+          "level": 2,
+          "text": "Section 3 \u2014 Revenue Integrity",
+          "anchor": "section-3-revenue-integrity"
+        },
+        {
+          "level": 2,
+          "text": "Section 4 \u2014 Uniformity and Fair Administration",
+          "anchor": "section-4-uniformity-and-fair-administration"
+        },
+        {
+          "level": 2,
+          "text": "Section 5 \u2014 Construction",
+          "anchor": "section-5-construction"
+        }
+      ],
+      "score": "8.4",
+      "score_status": "Strong"
+    },
+    {
+      "slug": "xv-budget-public-credit-appropriations",
+      "title": "Article XV \u2014 Budget, Public Credit, and Appropriations",
+      "group": "Constitution",
+      "kind": "article",
+      "source": "articles/XV-budget-public-credit-appropriations.md",
+      "status": "DRAFT",
+      "summary": "Establishes the constitutional principles governing borrowing, appropriations, fiscal continuity, budget integrity, classified spending, and public credit. Article XIV governs how revenue is raised. This Article governs how public money is authorized, financed, disclosed, and spent.",
+      "headings": [
+        {
+          "level": 2,
+          "text": "Scope",
+          "anchor": "scope"
+        },
+        {
+          "level": 2,
+          "text": "Section 1 \u2014 General Fiscal Principles",
+          "anchor": "section-1-general-fiscal-principles"
+        },
+        {
+          "level": 2,
+          "text": "Section 2 \u2014 Borrowing and Public Credit",
+          "anchor": "section-2-borrowing-and-public-credit"
+        },
+        {
+          "level": 2,
+          "text": "Section 3 \u2014 Appropriations and Continuity of Government",
+          "anchor": "section-3-appropriations-and-continuity-of-government"
+        },
+        {
+          "level": 2,
+          "text": "Section 4 \u2014 Budget Integrity",
+          "anchor": "section-4-budget-integrity"
+        },
+        {
+          "level": 2,
+          "text": "Section 5 \u2014 Transparency and Public Reporting",
+          "anchor": "section-5-transparency-and-public-reporting"
+        },
+        {
+          "level": 2,
+          "text": "Section 6 \u2014 Classified and Exceptional Spending",
+          "anchor": "section-6-classified-and-exceptional-spending"
+        },
+        {
+          "level": 2,
+          "text": "Section 7 \u2014 Long-Term Responsibility and Emergency Finance",
+          "anchor": "section-7-long-term-responsibility-and-emergency-finance"
+        },
+        {
+          "level": 2,
+          "text": "Section 8 \u2014 Construction",
+          "anchor": "section-8-construction"
+        }
+      ],
+      "score": "8.8",
+      "score_status": "Strong"
+    },
+    {
+      "slug": "xvi-war-powers-national-security",
+      "title": "Article XVI \u2014 War Powers and National Security",
+      "group": "Constitution",
+      "kind": "article",
+      "source": "articles/XVI-war-powers-national-security.md",
+      "status": "DRAFT",
+      "summary": "Establishes the constitutional framework for the use of military force and the conduct of war. The war-making power belongs to Congress. The President directs authorized operations and responds to immediate threats. This Article governs armed conflict, combat operations, and other uses of military force.",
+      "headings": [
+        {
+          "level": 2,
+          "text": "Scope",
+          "anchor": "scope"
+        },
+        {
+          "level": 2,
+          "text": "Section 1 \u2014 Commander in Chief and War Powers Authority",
+          "anchor": "section-1-commander-in-chief-and-war-powers-authority"
+        },
+        {
+          "level": 2,
+          "text": "Section 2 \u2014 Cyber Warfare",
+          "anchor": "section-2-cyber-warfare"
+        },
+        {
+          "level": 2,
+          "text": "Section 3 \u2014 Nuclear Weapons",
+          "anchor": "section-3-nuclear-weapons"
+        },
+        {
+          "level": 2,
+          "text": "Section 4 \u2014 Private Military Contractors",
+          "anchor": "section-4-private-military-contractors"
+        },
+        {
+          "level": 2,
+          "text": "Section 5 \u2014 Covert Lethal Operations",
+          "anchor": "section-5-covert-lethal-operations"
+        },
+        {
+          "level": 2,
+          "text": "Section 6 \u2014 Treaty-Based Defense Obligations",
+          "anchor": "section-6-treaty-based-defense-obligations"
+        },
+        {
+          "level": 2,
+          "text": "Section 7 \u2014 Domestic Deployment",
+          "anchor": "section-7-domestic-deployment"
+        },
+        {
+          "level": 2,
+          "text": "Section 8 \u2014 Unlawful Orders",
+          "anchor": "section-8-unlawful-orders"
+        },
+        {
+          "level": 2,
+          "text": "Section 9 \u2014 Economic Security and Countermeasures",
+          "anchor": "section-9-economic-security-and-countermeasures"
+        },
+        {
+          "level": 2,
+          "text": "Section 10 \u2014 Foreign Influence Operations",
+          "anchor": "section-10-foreign-influence-operations"
+        },
+        {
+          "level": 2,
+          "text": "Section 11 \u2014 Critical Infrastructure Protection",
+          "anchor": "section-11-critical-infrastructure-protection"
+        },
+        {
+          "level": 2,
+          "text": "Section 12 \u2014 Foreign Intelligence Collection",
+          "anchor": "section-12-foreign-intelligence-collection"
+        },
+        {
+          "level": 2,
+          "text": "Section 13 \u2014 Gray Zone Response Authority",
+          "anchor": "section-13-gray-zone-response-authority"
+        },
+        {
+          "level": 2,
+          "text": "Section 14 \u2014 Alliance Reliability",
+          "anchor": "section-14-alliance-reliability"
+        },
+        {
+          "level": 2,
+          "text": "Section 15 \u2014 Technology and Supply Chain Security",
+          "anchor": "section-15-technology-and-supply-chain-security"
+        }
+      ],
+      "score": "8.8",
+      "score_status": "Strong"
+    },
+    {
+      "slug": "xvii-foreign-policy-national-security",
+      "title": "Article XVII \u2014 Foreign Policy and National Security",
+      "group": "Constitution",
+      "kind": "article",
+      "source": "articles/XVII-foreign-policy-national-security.md",
+      "status": "DRAFT",
+      "summary": "Establishes the constitutional framework for economic security, foreign influence defense, critical infrastructure protection, foreign intelligence collection, gray-zone response authority, alliance obligations, and technology security. These provisions address modern threats that fall below or alongside conventional military conflict, including economic coercion, information warfare, cyber attacks on civilian systems, and supply-chain vulnerabilities. Article XVI remains the exclusive framework for war, sustained hostilities, and other uses of military force.",
+      "headings": [
+        {
+          "level": 2,
+          "text": "Scope",
+          "anchor": "scope"
+        },
+        {
+          "level": 2,
+          "text": "Section 1 \u2014 Economic Security and Countermeasures",
+          "anchor": "section-1-economic-security-and-countermeasures"
+        },
+        {
+          "level": 2,
+          "text": "Section 2 \u2014 Foreign Influence Operations",
+          "anchor": "section-2-foreign-influence-operations"
+        },
+        {
+          "level": 2,
+          "text": "Section 3 \u2014 Critical Infrastructure Protection",
+          "anchor": "section-3-critical-infrastructure-protection"
+        },
+        {
+          "level": 2,
+          "text": "Section 4 \u2014 Foreign Intelligence Collection",
+          "anchor": "section-4-foreign-intelligence-collection"
+        },
+        {
+          "level": 2,
+          "text": "Section 5 \u2014 Gray Zone Response Authority",
+          "anchor": "section-5-gray-zone-response-authority"
+        },
+        {
+          "level": 2,
+          "text": "Section 6 \u2014 Alliance Reliability",
+          "anchor": "section-6-alliance-reliability"
+        },
+        {
+          "level": 2,
+          "text": "Section 7 \u2014 Technology and Supply Chain Security",
+          "anchor": "section-7-technology-and-supply-chain-security"
+        }
+      ],
+      "score": "8.5",
+      "score_status": "Strong"
+    },
+    {
+      "slug": "xviii-social-economic-rights",
+      "title": "Article XVIII \u2014 Social, Economic, and Affirmative Rights",
+      "group": "Constitution",
+      "kind": "article",
+      "source": "articles/XVIII-social-economic-rights.md",
+      "status": "DRAFT",
+      "summary": "Establishes social, economic, environmental, and affirmative rights of all persons within the United States. These rights impose positive duties on government to maintain constitutional floors of protection against destitution, exclusion, and preventable harm inconsistent with a minimally dignified life. They complement the civil and political rights in Article V. The general principles of Article V Section 1, including the rights floor, the prohibition on permanent suspension, absolute rights, and the rule that enumeration does not deny unenumerated rights, apply equally to the rights in this Article. Judicial enforcement under this Article is limited to deciding whether government has met the constitutional floor, whether government has impermissibly backslid from that floor, and what timely lawful remedy is required. Courts may not govern program design in the place of the political branches.",
+      "headings": [
+        {
+          "level": 2,
+          "text": "Scope",
+          "anchor": "scope"
+        },
+        {
+          "level": 2,
+          "text": "Section 1 \u2014 Environmental Rights",
+          "anchor": "section-1-environmental-rights"
+        },
+        {
+          "level": 2,
+          "text": "Section 2 \u2014 Affirmative Rights",
+          "anchor": "section-2-affirmative-rights"
+        },
+        {
+          "level": 2,
+          "text": "Section 3 \u2014 Economic Rights",
+          "anchor": "section-3-economic-rights"
+        },
+        {
+          "level": 2,
+          "text": "Section 4 \u2014 Rights of Children",
+          "anchor": "section-4-rights-of-children"
+        }
+      ],
+      "score": "8.4",
+      "score_status": "Strong"
+    },
+    {
+      "slug": "xix-ratification-transition",
+      "title": "Article XIX \u2014 Ratification and Transition",
+      "group": "Constitution",
+      "kind": "article",
+      "source": "articles/XIX-ratification-transition.md",
+      "status": "DRAFT",
+      "summary": "Governs ratification, legal continuity, supersession of the prior constitutional order, first-cycle implementation, and transition to the institutions established by this Constitution. This Article is read to favor prompt, lawful, and democratically legitimate establishment of the new constitutional order.",
+      "headings": [
+        {
+          "level": 2,
+          "text": "Scope",
+          "anchor": "scope"
+        },
+        {
+          "level": 2,
+          "text": "Section 1 \u2014 Ratification",
+          "anchor": "section-1-ratification"
+        },
+        {
+          "level": 2,
+          "text": "Section 2 \u2014 Continuity of Law",
+          "anchor": "section-2-continuity-of-law"
+        },
+        {
+          "level": 2,
+          "text": "Section 3 \u2014 Carried-Forward and Superseded Constitutional Provisions",
+          "anchor": "section-3-carried-forward-and-superseded-constitutional-provisions"
+        },
+        {
+          "level": 2,
+          "text": "Section 4 \u2014 First Elections and Terms",
+          "anchor": "section-4-first-elections-and-terms"
+        },
+        {
+          "level": 2,
+          "text": "Section 5 \u2014 Judicial and Institutional Transition",
+          "anchor": "section-5-judicial-and-institutional-transition"
+        },
+        {
+          "level": 2,
+          "text": "Section 6 \u2014 Electoral and Executive Transition",
+          "anchor": "section-6-electoral-and-executive-transition"
+        },
+        {
+          "level": 2,
+          "text": "Section 7 \u2014 Temporary Corrective Legislation",
+          "anchor": "section-7-temporary-corrective-legislation"
+        },
+        {
+          "level": 2,
+          "text": "Section 8 \u2014 First Amendment Cycle",
+          "anchor": "section-8-first-amendment-cycle"
+        },
+        {
+          "level": 2,
+          "text": "Section 9 \u2014 Construction",
+          "anchor": "section-9-construction"
+        }
+      ],
+      "score": "8.9",
+      "score_status": "Strong"
+    },
+    {
+      "slug": "index",
+      "title": "Constitution Index",
+      "group": "Overview",
+      "kind": "note",
+      "source": "CONSTITUTION.md",
+      "status": null,
+      "summary": "This is the master index for the revised Constitution. Each major component lives in its own file for easier editing and review. This document tracks the status of each part and provides navigation.",
+      "headings": [
+        {
+          "level": 3,
+          "text": "Revised Draft \u2014 Working Document",
+          "anchor": "revised-draft-working-document"
+        },
+        {
+          "level": 2,
+          "text": "How This Document Works",
+          "anchor": "how-this-document-works"
+        },
+        {
+          "level": 2,
+          "text": "Document Structure",
+          "anchor": "document-structure"
+        },
+        {
+          "level": 3,
+          "text": "Preamble",
+          "anchor": "preamble"
+        },
+        {
+          "level": 3,
+          "text": "Articles",
+          "anchor": "articles"
+        },
+        {
+          "level": 3,
+          "text": "Amendments",
+          "anchor": "amendments"
+        },
+        {
+          "level": 3,
+          "text": "Design Notes",
+          "anchor": "design-notes"
+        },
+        {
+          "level": 2,
+          "text": "Core Design Principles",
+          "anchor": "core-design-principles"
+        },
+        {
+          "level": 2,
+          "text": "Drafting Log",
+          "anchor": "drafting-log"
+        }
+      ],
+      "score": null,
+      "score_status": null
+    },
+    {
+      "slug": "overview",
+      "title": "Project Overview",
+      "group": "Overview",
+      "kind": "note",
+      "source": "design-notes/constitutional-overview.md",
+      "status": null,
+      "summary": "This document describes the revised draft in broad terms: what kind of constitution it is, what problems it is trying to solve, and how it compares to the current United States Constitution and to common constitutional models in other democracies.",
+      "headings": [
+        {
+          "level": 2,
+          "text": "In Broad Terms",
+          "anchor": "in-broad-terms"
+        },
+        {
+          "level": 2,
+          "text": "Core Character of the Draft",
+          "anchor": "core-character-of-the-draft"
+        },
+        {
+          "level": 3,
+          "text": "1. More Democratic Than the Current U.S. Constitution",
+          "anchor": "1-more-democratic-than-the-current-us-constitution"
+        },
+        {
+          "level": 3,
+          "text": "2. Still Presidential, But Less Personalist",
+          "anchor": "2-still-presidential-but-less-personalist"
+        },
+        {
+          "level": 3,
+          "text": "3. More Explicit About Constitutional Self-Defense",
+          "anchor": "3-more-explicit-about-constitutional-self-defense"
+        },
+        {
+          "level": 3,
+          "text": "4. Broader Rights, Including Positive Rights",
+          "anchor": "4-broader-rights-including-positive-rights"
+        },
+        {
+          "level": 3,
+          "text": "5. More Institutionalized Integrity Enforcement",
+          "anchor": "5-more-institutionalized-integrity-enforcement"
+        },
+        {
+          "level": 2,
+          "text": "How It Compares to the Current U.S. Constitution",
+          "anchor": "how-it-compares-to-the-current-us-constitution"
+        },
+        {
+          "level": 3,
+          "text": "Democracy",
+          "anchor": "democracy"
+        },
+        {
+          "level": 3,
+          "text": "Rights",
+          "anchor": "rights"
+        },
+        {
+          "level": 3,
+          "text": "Executive Power",
+          "anchor": "executive-power"
+        },
+        {
+          "level": 3,
+          "text": "Anti-Corruption and Democratic Integrity",
+          "anchor": "anti-corruption-and-democratic-integrity"
+        },
+        {
+          "level": 3,
+          "text": "Amendment Design",
+          "anchor": "amendment-design"
+        },
+        {
+          "level": 2,
+          "text": "How It Compares to Other Constitutional Models",
+          "anchor": "how-it-compares-to-other-constitutional-models"
+        },
+        {
+          "level": 3,
+          "text": "Compared with Older Liberal Constitutions",
+          "anchor": "compared-with-older-liberal-constitutions"
+        },
+        {
+          "level": 3,
+          "text": "Compared with Parliamentary Democracies",
+          "anchor": "compared-with-parliamentary-democracies"
+        },
+        {
+          "level": 3,
+          "text": "Compared with Germany",
+          "anchor": "compared-with-germany"
+        },
+        {
+          "level": 3,
+          "text": "Compared with South Africa",
+          "anchor": "compared-with-south-africa"
+        },
+        {
+          "level": 3,
+          "text": "Compared with Canada and Similar Systems",
+          "anchor": "compared-with-canada-and-similar-systems"
+        },
+        {
+          "level": 2,
+          "text": "What Kind of Constitution This Is",
+          "anchor": "what-kind-of-constitution-this-is"
+        },
+        {
+          "level": 2,
+          "text": "Main Strengths of the Draft",
+          "anchor": "main-strengths-of-the-draft"
+        },
+        {
+          "level": 2,
+          "text": "Main Risks to Watch",
+          "anchor": "main-risks-to-watch"
+        },
+        {
+          "level": 2,
+          "text": "Bottom Line",
+          "anchor": "bottom-line"
+        }
+      ],
+      "score": null,
+      "score_status": null
+    },
+    {
+      "slug": "overview-zh",
+      "title": "Project Overview (\u4e2d\u6587)",
+      "group": "Overview",
+      "kind": "note",
+      "source": "design-notes/constitutional-overview.zh.md",
+      "status": null,
+      "summary": "\u672c\u6587\u4ee5\u5b8f\u89c2\u65b9\u5f0f\u4ecb\u7ecd\u8fd9\u4efd\u4fee\u8ba2\u7248\u5baa\u6cd5\u8349\u6848\uff1a\u5b83\u5c5e\u4e8e\u4ec0\u4e48\u7c7b\u578b\u7684\u5baa\u6cd5\u3001\u8bd5\u56fe\u89e3\u51b3\u4ec0\u4e48\u95ee\u9898\uff0c\u4ee5\u53ca\u5b83\u4e0e\u7f8e\u56fd\u73b0\u884c\u5baa\u6cd5\u548c\u5176\u4ed6\u5e38\u89c1\u6c11\u4e3b\u56fd\u5bb6\u5baa\u6cd5\u6a21\u5f0f\u76f8\u6bd4\u6709\u4f55\u4e0d\u540c\u3002",
+      "headings": [
+        {
+          "level": 2,
+          "text": "\u603b\u4f53\u6982\u8ff0",
+          "anchor": "\u603b\u4f53\u6982\u8ff0"
+        },
+        {
+          "level": 2,
+          "text": "\u8fd9\u90e8\u8349\u6848\u7684\u6838\u5fc3\u6027\u8d28",
+          "anchor": "\u8fd9\u90e8\u8349\u6848\u7684\u6838\u5fc3\u6027\u8d28"
+        },
+        {
+          "level": 3,
+          "text": "1. \u6bd4\u7f8e\u56fd\u73b0\u884c\u5baa\u6cd5\u66f4\u6c11\u4e3b",
+          "anchor": "1-\u6bd4\u7f8e\u56fd\u73b0\u884c\u5baa\u6cd5\u66f4\u6c11\u4e3b"
+        },
+        {
+          "level": 3,
+          "text": "2. \u4ecd\u7136\u662f\u603b\u7edf\u5236\uff0c\u4f46\u66f4\u4e0d\u4f9d\u8d56\u4e2a\u4eba",
+          "anchor": "2-\u4ecd\u7136\u662f\u603b\u7edf\u5236\u4f46\u66f4\u4e0d\u4f9d\u8d56\u4e2a\u4eba"
+        },
+        {
+          "level": 3,
+          "text": "3. \u66f4\u660e\u786e\u5730\u8fdb\u884c\u201c\u5baa\u6cd5\u81ea\u536b\u201d",
+          "anchor": "3-\u66f4\u660e\u786e\u5730\u8fdb\u884c\u5baa\u6cd5\u81ea\u536b"
+        },
+        {
+          "level": 3,
+          "text": "4. \u6743\u5229\u8303\u56f4\u66f4\u5e7f\uff0c\u5305\u62ec\u79ef\u6781\u6743\u5229",
+          "anchor": "4-\u6743\u5229\u8303\u56f4\u66f4\u5e7f\u5305\u62ec\u79ef\u6781\u6743\u5229"
+        },
+        {
+          "level": 3,
+          "text": "5. \u66f4\u5236\u5ea6\u5316\u7684\u5ec9\u6b63\u4e0e\u8ffd\u8d23\u673a\u5236",
+          "anchor": "5-\u66f4\u5236\u5ea6\u5316\u7684\u5ec9\u6b63\u4e0e\u8ffd\u8d23\u673a\u5236"
+        },
+        {
+          "level": 2,
+          "text": "\u5b83\u4e0e\u7f8e\u56fd\u73b0\u884c\u5baa\u6cd5\u7684\u6bd4\u8f83",
+          "anchor": "\u5b83\u4e0e\u7f8e\u56fd\u73b0\u884c\u5baa\u6cd5\u7684\u6bd4\u8f83"
+        },
+        {
+          "level": 3,
+          "text": "\u6c11\u4e3b\u7ed3\u6784",
+          "anchor": "\u6c11\u4e3b\u7ed3\u6784"
+        },
+        {
+          "level": 3,
+          "text": "\u6743\u5229\u7ed3\u6784",
+          "anchor": "\u6743\u5229\u7ed3\u6784"
+        },
+        {
+          "level": 3,
+          "text": "\u884c\u653f\u6743\u529b",
+          "anchor": "\u884c\u653f\u6743\u529b"
+        },
+        {
+          "level": 3,
+          "text": "\u53cd\u8150\u8d25\u4e0e\u6c11\u4e3b\u5ec9\u6b63",
+          "anchor": "\u53cd\u8150\u8d25\u4e0e\u6c11\u4e3b\u5ec9\u6b63"
+        },
+        {
+          "level": 3,
+          "text": "\u4fee\u5baa\u8bbe\u8ba1",
+          "anchor": "\u4fee\u5baa\u8bbe\u8ba1"
+        },
+        {
+          "level": 2,
+          "text": "\u5b83\u4e0e\u5176\u4ed6\u5baa\u6cd5\u6a21\u5f0f\u7684\u6bd4\u8f83",
+          "anchor": "\u5b83\u4e0e\u5176\u4ed6\u5baa\u6cd5\u6a21\u5f0f\u7684\u6bd4\u8f83"
+        },
+        {
+          "level": 3,
+          "text": "\u4e0e\u8f83\u65e9\u671f\u81ea\u7531\u4e3b\u4e49\u5baa\u6cd5\u76f8\u6bd4",
+          "anchor": "\u4e0e\u8f83\u65e9\u671f\u81ea\u7531\u4e3b\u4e49\u5baa\u6cd5\u76f8\u6bd4"
+        },
+        {
+          "level": 3,
+          "text": "\u4e0e\u8bae\u4f1a\u5236\u6c11\u4e3b\u56fd\u5bb6\u76f8\u6bd4",
+          "anchor": "\u4e0e\u8bae\u4f1a\u5236\u6c11\u4e3b\u56fd\u5bb6\u76f8\u6bd4"
+        },
+        {
+          "level": 3,
+          "text": "\u4e0e\u5fb7\u56fd\u76f8\u6bd4",
+          "anchor": "\u4e0e\u5fb7\u56fd\u76f8\u6bd4"
+        },
+        {
+          "level": 3,
+          "text": "\u4e0e\u5357\u975e\u76f8\u6bd4",
+          "anchor": "\u4e0e\u5357\u975e\u76f8\u6bd4"
+        },
+        {
+          "level": 3,
+          "text": "\u4e0e\u52a0\u62ff\u5927\u53ca\u7c7b\u4f3c\u4f53\u7cfb\u76f8\u6bd4",
+          "anchor": "\u4e0e\u52a0\u62ff\u5927\u53ca\u7c7b\u4f3c\u4f53\u7cfb\u76f8\u6bd4"
+        },
+        {
+          "level": 2,
+          "text": "\u8fd9\u5230\u5e95\u662f\u4e00\u90e8\u4ec0\u4e48\u6837\u7684\u5baa\u6cd5",
+          "anchor": "\u8fd9\u5230\u5e95\u662f\u4e00\u90e8\u4ec0\u4e48\u6837\u7684\u5baa\u6cd5"
+        },
+        {
+          "level": 2,
+          "text": "\u8fd9\u4efd\u8349\u6848\u7684\u4e3b\u8981\u4f18\u52bf",
+          "anchor": "\u8fd9\u4efd\u8349\u6848\u7684\u4e3b\u8981\u4f18\u52bf"
+        },
+        {
+          "level": 2,
+          "text": "\u9700\u8981\u6301\u7eed\u8b66\u60d5\u7684\u98ce\u9669",
+          "anchor": "\u9700\u8981\u6301\u7eed\u8b66\u60d5\u7684\u98ce\u9669"
+        },
+        {
+          "level": 2,
+          "text": "\u7ed3\u8bba",
+          "anchor": "\u7ed3\u8bba"
+        }
+      ],
+      "score": null,
+      "score_status": null
+    },
+    {
+      "slug": "comparison",
+      "title": "Comparison",
+      "group": "Overview",
+      "kind": "note",
+      "source": "design-notes/comparison.md",
+      "status": null,
+      "summary": "A side-by-side reference showing what changed and why.",
+      "headings": [
+        {
+          "level": 2,
+          "text": "What Was Preserved",
+          "anchor": "what-was-preserved"
+        }
+      ],
+      "score": null,
+      "score_status": null
+    },
+    {
+      "slug": "rationale",
+      "title": "Design Rationale",
+      "group": "Overview",
+      "kind": "note",
+      "source": "design-notes/rationale.md",
+      "status": null,
+      "summary": "This document explains the reasoning behind major structural departures from the current US Constitution.",
+      "headings": [
+        {
+          "level": 2,
+          "text": "Electoral System",
+          "anchor": "electoral-system"
+        },
+        {
+          "level": 2,
+          "text": "Legislature",
+          "anchor": "legislature"
+        },
+        {
+          "level": 2,
+          "text": "Executive",
+          "anchor": "executive"
+        },
+        {
+          "level": 2,
+          "text": "Judiciary",
+          "anchor": "judiciary"
+        },
+        {
+          "level": 2,
+          "text": "Rights",
+          "anchor": "rights"
+        },
+        {
+          "level": 2,
+          "text": "Anti-Backsliding (Article VI)",
+          "anchor": "anti-backsliding-article-vi"
+        },
+        {
+          "level": 2,
+          "text": "Constitutional Organs (Article IX)",
+          "anchor": "constitutional-organs-article-ix"
+        },
+        {
+          "level": 2,
+          "text": "Amendments",
+          "anchor": "amendments"
+        }
+      ],
+      "score": null,
+      "score_status": null
+    },
+    {
+      "slug": "scorecard",
+      "title": "Scorecard",
+      "group": "Overview",
+      "kind": "note",
+      "source": "design-notes/scorecard.md",
+      "status": null,
+      "summary": "Use this document to track the quality of the draft over time. The goal is not just to rate the text, but to identify where improvement work should go next.",
+      "headings": [
+        {
+          "level": 2,
+          "text": "Scoring Scale",
+          "anchor": "scoring-scale"
+        },
+        {
+          "level": 2,
+          "text": "Evaluation Criteria",
+          "anchor": "evaluation-criteria"
+        },
+        {
+          "level": 2,
+          "text": "Current Baseline",
+          "anchor": "current-baseline"
+        },
+        {
+          "level": 3,
+          "text": "Summary Baseline",
+          "anchor": "summary-baseline"
+        },
+        {
+          "level": 3,
+          "text": "Criterion Breakdown",
+          "anchor": "criterion-breakdown"
+        },
+        {
+          "level": 3,
+          "text": "Current US Constitution Baseline",
+          "anchor": "current-us-constitution-baseline"
+        },
+        {
+          "level": 3,
+          "text": "Blank Re-Scoring Template",
+          "anchor": "blank-re-scoring-template"
+        },
+        {
+          "level": 2,
+          "text": "Priority Bands",
+          "anchor": "priority-bands"
+        },
+        {
+          "level": 2,
+          "text": "Improvement Log",
+          "anchor": "improvement-log"
+        },
+        {
+          "level": 2,
+          "text": "Review Checklist",
+          "anchor": "review-checklist"
+        },
+        {
+          "level": 2,
+          "text": "Next Review Targets",
+          "anchor": "next-review-targets"
+        }
+      ],
+      "score": null,
+      "score_status": null
+    },
+    {
+      "slug": "findings",
+      "title": "Simulation Findings",
+      "group": "Research",
+      "kind": "note",
+      "source": "design-notes/simulation-findings.md",
+      "status": null,
+      "summary": "This document records conclusions drawn from the constitutional flow simulator and its generated reports. Each entry should cite the relevant scenario outputs so recurring bottlenecks can be tracked over time.",
+      "headings": [
+        {
+          "level": 2,
+          "text": "2026-03-29 Article IV and Article V Coverage Pass",
+          "anchor": "2026-03-29-article-iv-and-article-v-coverage-pass"
+        },
+        {
+          "level": 3,
+          "text": "Inputs Reviewed",
+          "anchor": "inputs-reviewed"
+        },
+        {
+          "level": 3,
+          "text": "Aggregate Read",
+          "anchor": "aggregate-read"
+        },
+        {
+          "level": 3,
+          "text": "Main Results",
+          "anchor": "main-results"
+        },
+        {
+          "level": 2,
+          "text": "2026-03-28 Rerun Review",
+          "anchor": "2026-03-28-rerun-review"
+        },
+        {
+          "level": 3,
+          "text": "Inputs Reviewed",
+          "anchor": "inputs-reviewed"
+        },
+        {
+          "level": 3,
+          "text": "Aggregate Read",
+          "anchor": "aggregate-read"
+        },
+        {
+          "level": 3,
+          "text": "Main Results",
+          "anchor": "main-results"
+        },
+        {
+          "level": 3,
+          "text": "Structural Pattern",
+          "anchor": "structural-pattern"
+        },
+        {
+          "level": 3,
+          "text": "Best Revision Targets",
+          "anchor": "best-revision-targets"
+        },
+        {
+          "level": 3,
+          "text": "Logging Guidance For Future Runs",
+          "anchor": "logging-guidance-for-future-runs"
+        },
+        {
+          "level": 2,
+          "text": "2026-03-28 Expanded Scenario Review",
+          "anchor": "2026-03-28-expanded-scenario-review"
+        },
+        {
+          "level": 3,
+          "text": "Inputs Reviewed",
+          "anchor": "inputs-reviewed"
+        },
+        {
+          "level": 3,
+          "text": "Aggregate Read",
+          "anchor": "aggregate-read"
+        },
+        {
+          "level": 3,
+          "text": "Main Results",
+          "anchor": "main-results"
+        },
+        {
+          "level": 3,
+          "text": "Structural Pattern",
+          "anchor": "structural-pattern"
+        },
+        {
+          "level": 3,
+          "text": "Best Revision Targets",
+          "anchor": "best-revision-targets"
+        },
+        {
+          "level": 2,
+          "text": "2026-03-28 House Fallback Review",
+          "anchor": "2026-03-28-house-fallback-review"
+        },
+        {
+          "level": 3,
+          "text": "Inputs Reviewed",
+          "anchor": "inputs-reviewed"
+        },
+        {
+          "level": 3,
+          "text": "Aggregate Read",
+          "anchor": "aggregate-read"
+        },
+        {
+          "level": 3,
+          "text": "Main Results",
+          "anchor": "main-results"
+        },
+        {
+          "level": 3,
+          "text": "Structural Pattern",
+          "anchor": "structural-pattern"
+        },
+        {
+          "level": 3,
+          "text": "Best Revision Targets",
+          "anchor": "best-revision-targets"
+        },
+        {
+          "level": 2,
+          "text": "2026-03-28 Judicial Continuity Review",
+          "anchor": "2026-03-28-judicial-continuity-review"
+        },
+        {
+          "level": 3,
+          "text": "Inputs Reviewed",
+          "anchor": "inputs-reviewed"
+        },
+        {
+          "level": 3,
+          "text": "Aggregate Read",
+          "anchor": "aggregate-read"
+        },
+        {
+          "level": 3,
+          "text": "Main Results",
+          "anchor": "main-results"
+        },
+        {
+          "level": 3,
+          "text": "Structural Pattern",
+          "anchor": "structural-pattern"
+        },
+        {
+          "level": 3,
+          "text": "Best Revision Targets",
+          "anchor": "best-revision-targets"
+        },
+        {
+          "level": 2,
+          "text": "2026-03-28 Expanded 28-Scenario Review",
+          "anchor": "2026-03-28-expanded-28-scenario-review"
+        },
+        {
+          "level": 3,
+          "text": "Inputs Reviewed",
+          "anchor": "inputs-reviewed"
+        },
+        {
+          "level": 3,
+          "text": "Aggregate Read",
+          "anchor": "aggregate-read"
+        },
+        {
+          "level": 3,
+          "text": "Main Results",
+          "anchor": "main-results"
+        },
+        {
+          "level": 3,
+          "text": "Structural Pattern",
+          "anchor": "structural-pattern"
+        },
+        {
+          "level": 3,
+          "text": "Top Three Revision Targets",
+          "anchor": "top-three-revision-targets"
+        },
+        {
+          "level": 2,
+          "text": "2026-03-28 Legislative Continuity Patch",
+          "anchor": "2026-03-28-legislative-continuity-patch"
+        },
+        {
+          "level": 3,
+          "text": "Text Changes Made",
+          "anchor": "text-changes-made"
+        },
+        {
+          "level": 3,
+          "text": "Purpose",
+          "anchor": "purpose"
+        },
+        {
+          "level": 3,
+          "text": "Amendments",
+          "anchor": "amendments"
+        },
+        {
+          "level": 2,
+          "text": "2026-03-29 Article IX / XIX Validation Pass",
+          "anchor": "2026-03-29-article-ix-xix-validation-pass"
+        },
+        {
+          "level": 3,
+          "text": "Files Reviewed",
+          "anchor": "files-reviewed"
+        },
+        {
+          "level": 3,
+          "text": "Findings",
+          "anchor": "findings"
+        },
+        {
+          "level": 3,
+          "text": "Net Effect",
+          "anchor": "net-effect"
+        },
+        {
+          "level": 3,
+          "text": "Recommended Follow-Up",
+          "anchor": "recommended-follow-up"
+        }
+      ],
+      "score": null,
+      "score_status": null
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Constitution Project</title>
+    <meta
+      name="description"
+      content="A readable public site for the revised constitutional draft, with guided overview, article explorer, and scorecard."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/app.css" />
+  </head>
+  <body>
+    <div class="site-shell">
+      <aside class="sidebar" id="sidebar">
+        <div class="sidebar__brand">
+          <div class="eyebrow">Constitution Project</div>
+          <a href="#home" class="brand-link">Revised Draft</a>
+          <p class="sidebar__tagline">Readable constitutional text, overview, and review notes in one GitHub Pages site.</p>
+        </div>
+
+        <label class="search-box">
+          <span class="search-box__label">Find a document</span>
+          <input id="searchInput" type="search" placeholder="Search articles, overview, scorecard..." />
+        </label>
+
+        <nav id="navGroups" class="nav-groups"></nav>
+      </aside>
+
+      <main class="main-panel">
+        <header class="topbar">
+          <button class="topbar__menu" id="menuButton" aria-label="Toggle navigation">Menu</button>
+          <div class="topbar__meta">
+            <span class="topbar__eyebrow">GitHub Pages-ready constitutional reader</span>
+          </div>
+          <a class="topbar__repo" href="https://github.com/sirebacon/The-Constitution" target="_blank" rel="noreferrer">View Repo</a>
+        </header>
+
+        <section id="heroPanel" class="hero-panel"></section>
+        <section id="contentPanel" class="content-panel"></section>
+      </main>
+
+      <aside class="toc-panel">
+        <div class="toc-panel__inner">
+          <div class="eyebrow">On This Page</div>
+          <div id="tocContent" class="toc-content"></div>
+        </div>
+      </aside>
+    </div>
+
+    <script type="module" src="./assets/app.js"></script>
+  </body>
+</html>
