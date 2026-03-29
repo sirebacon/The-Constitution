@@ -20,7 +20,7 @@ Use this order when deciding what to work on:
 
 | Priority | Area | Why It Matters | Main Issue | Target Outcome |
 |----------|------|----------------|------------|----------------|
-| 1 | ~~Simulation coverage gaps~~ **DONE** | Art XVIII and Article X now both have direct scenario coverage, and Article V still needs a second wave (religion, family/autonomy) | The main remaining coverage gaps are Article IX sensitive-office/proof disputes and additional Article V edge cases | A draft whose remaining medium-risk articles are directly tested |
+| 1 | ~~Simulation coverage gaps~~ **DONE** | Articles V, IX, X, and XVIII now all have direct scenario coverage across their main live edge cases | Remaining validation work is now optional refinement rather than a meaningful coverage deficit | A draft whose remaining medium-risk articles are directly tested |
 | 2 | ~~Article VIII / Article XIII boundary review~~ **DONE** | Ethics and agency architecture now state their boundary more cleanly: Article VIII owns substantive ethics and market-integrity duties, Article XIII owns general agency structure, and the stale Article XIII cross-reference to nonexistent Article VIII §2.10 is fixed | Remaining work is only light later compression of Article VIII §1.13 and some operational detail in Article XIII | No further action needed unless a later whole-draft pass surfaces new overlap |
 | 3 | ~~Article XII / Article XIX continuity edge cases~~ **PARTIAL** | The duplicate vacancy rule is now merged (§5.6), and the internal-boycott scenario now validates Article XII §5.5 under pressure | The remaining adversarial work is narrower: Article XIX startup friction and any broader continuity sabotage beyond certification boycott | Continuity backstops that hold under hostile conditions without adding new machinery |
 | 4 | ~~Article IX citizenship scenarios~~ **DONE** | §5.2 loss-of-citizenship rule tightened with explicit procedural floor; overseas assignment, naturalized-candidate, sensitive-office, and proof-dispute scenarios now all exist | Only one optional later cleanup scenario remains for renunciation/statelessness/foreign-office incompatibility | No further action needed unless a later edge-case review surfaces a new exploit |
@@ -36,8 +36,8 @@ See also: [presidential-system-hardening.md](presidential-system-hardening.md)
 
 These are the main weaknesses of the draft in its current state. They are narrower than earlier structural gaps and should guide the next revision cycle.
 
-1. Simulation coverage still lags behind text quality in a few articles.
-   The remaining gaps are now narrower: a few Article V family/autonomy or digital-rights scenarios, plus optional cleanup scenarios for Article IX and Article X.
+1. Simulation coverage is now broad, with only optional cleanup scenarios left.
+   Remaining validation work is mainly discretionary: one later Article IX nationality edge case, one later Article X cross-border variant, and any future “unknown gap” families the project decides are worth exploring.
 
 2. Some core articles are still denser than ideal constitutional text.
    Article II remains the clearest draft-discipline outlier, and parts of Articles VIII, XIII, and XIX still risk reading more like advanced statutory design than near-final constitutional prose, even though the VIII/XIII boundary itself is now clearer.
@@ -222,10 +222,25 @@ Those belong to Article XII / Article XIX / Article IV review, not to further br
 
 - **Article XVIII scenarios**: All four N-series scenarios built and validated. **Done.**
 
+**Completed this sprint:**
+
+- **Art VIII / Art XIII boundary check**: Boundary is clean. Art VIII §2 owns substantive market-integrity rules; Art XIII owns general agency structure; cross-references (Art VIII §2.2 → Art XIII; Art XIII §7.1 → Art VIII §2 as floor) are correct. **No text changes warranted.**
+
+- **Art XII internal boycott scenario**: Already built and validated as L7 in catalog. §5.5 anti-sabotage rule confirmed enforceable under adversarial pressure. **Done.**
+
+- **Art IX sensitive-office and proof-dispute scenarios**: L5 (sensitive-office restriction overreach) and L6 (citizenship proof dispute) both built, validated, and cataloged. **Done.**
+
+- **Art X preemption edge-case**: G3 (implied field preemption) and G4 (state preempts local housing) both built, validated, and cataloged. **Done.**
+
+- **Quasi-private soft-cartel decision**: The O11 scenario confirms the gap exists — purely private coordination by dominant debate/data consortia can still degrade political competition outside the constitutional floor for public or publicly regulated infrastructure. **Decision: leave as statutory problem and flagged residual risk.** The constitutional floor (Art I §9.5, §10.6) reaches public or publicly regulated infrastructure; Congress may extend further by statute. Constitutionalizing private market conduct for non-state-sponsored actors at this level risks over-entrenchment.
+
+- **Draft discipline pass**: Art IV §4.7A, §4.9, §10.1, §10.4 compressed — statutory-grade procedure (3-deadline trigger, lower-court reassignment mechanics) moved to "law shall provide" or removed. Art XI Rationale paragraphs removed from both tracks, §3.3 explanatory commentary removed, §5.2 standing list consolidated. Draft discipline: Art IV 8.0 → 8.3, Art XI 7.8 → 8.3, overall 8.8 → 8.9.
+
 **Next sprint:**
 
-1. Decide whether the newly built quasi-private soft-cartel scenario should remain a statutory problem, become a constitutional target, or stay as a flagged residual risk
-2. Overall draft discipline pass targeting any residual code-like density
+1. Art XIX operational density — transition article has the second-lowest discipline score (7.8); targeted compression pass to identify any remaining implementation-code detail
+2. Art VI §7.5A — watch for overbreadth; keep tightly limited to indispensable civic intermediaries; one more boundary scenario if needed
+3. Final cross-article consistency pass after all discipline changes are settled
 
 ---
 
@@ -239,8 +254,8 @@ Those belong to Article XII / Article XIX / Article IV review, not to further br
 
 | Task | Priority | Reason | Done When |
 |------|----------|--------|-----------|
-| Tighten loss-of-citizenship rule | High | Section 5.2 still leaves more discretion to future law than ideal | Involuntary loss standards are narrowly bounded and due-process protected |
-| Add citizenship and eligibility scenarios | High | The de-duplicated structure has not yet been tested under hostile edge cases | Overseas assignment, proof disputes, and sensitive-office restrictions all produce clear outcomes |
+| ~~Tighten loss-of-citizenship rule~~ **DONE** | High | §5.2 now requires notice, independent tribunal, counsel, and judicial review before revocation | Done |
+| ~~Add citizenship and eligibility scenarios~~ **DONE** | High | L3 (overseas), L4 (naturalized candidate), L5 (sensitive-office), L6 (proof dispute) all validated | Done |
 
 ### Article XIV and Article XV — Public Finance
 

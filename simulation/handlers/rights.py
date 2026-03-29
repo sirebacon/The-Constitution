@@ -416,6 +416,84 @@ def handle_court_blocks_forced_medical_procedure(state: SimulationState, event: 
     )
 
 
+def handle_state_refuses_parental_recognition_based_on_family_structure(state: SimulationState, event: dict[str, Any]) -> None:
+    day = int(event["day"])
+    details = event.get("details", {})
+    family = details.get("family", "a lawfully formed family")
+    state.provisions.update({"Article V Section 4.1", "Article V Section 4.3", "Article V Section 7.2"})
+    state.add_violation(
+        "family_autonomy_parental_recognition_violation",
+        "rights_suppression",
+        "State government",
+        f"State officials refuse to recognize the parental status of {family} solely because of the sex, gender, or family structure of the parents. Article V protects family formation and parental recognition from unjustified government interference and bars discriminatory classifications affecting family status.",
+        "Article V Section 4.1, Section 4.3, and Section 7.2",
+        day,
+    )
+    state.add_obligation(
+        "court_restore_parental_recognition",
+        "Federal or state courts",
+        "restore lawful parental recognition and enjoin enforcement of the discriminatory family-status rule",
+        "Article V Section 4.3 and Section 7.2",
+        day,
+        day + 21,
+        severity="high",
+    )
+
+
+def handle_court_restores_parental_recognition(state: SimulationState, event: dict[str, Any]) -> None:
+    day = int(event["day"])
+    state.resolve_obligation(
+        "court_restore_parental_recognition",
+        day,
+        "restored parental recognition, barred enforcement of the discriminatory family-status rule, and held that family decisions may not be denied legal effect because of the sex, gender, or sexual orientation of the parents",
+    )
+    state.add_entry(
+        day,
+        "outcome",
+        "The scenario validates that Article V protects family autonomy in substance, not only marriage in name. The state may not deny legal parental recognition to an otherwise lawful family on discriminatory grounds.",
+        "Article V Section 4.3 and Section 7.2",
+    )
+
+
+def handle_government_throttles_internet_access_for_political_punishment(state: SimulationState, event: dict[str, Any]) -> None:
+    day = int(event["day"])
+    details = event.get("details", {})
+    target = details.get("target", "a disfavored political association")
+    state.provisions.update({"Article V Section 10.6", "Article V Section 2.6"})
+    state.add_violation(
+        "political_internet_access_punishment",
+        "rights_suppression",
+        "Government",
+        f"Government officials deny, throttle, or otherwise degrade internet access for {target} because of political views or associations. Article V forbids using internet access as punishment, political coercion, or discrimination based on political viewpoint.",
+        "Article V Section 10.6 and Section 2.6",
+        day,
+    )
+    state.add_obligation(
+        "court_restore_internet_access",
+        "Federal courts",
+        "order prompt restoration of nondiscriminatory internet access and bar the politically punitive restriction",
+        "Article V Section 10.6 and Section 2.6",
+        day,
+        day + 10,
+        severity="high",
+    )
+
+
+def handle_court_restores_internet_access(state: SimulationState, event: dict[str, Any]) -> None:
+    day = int(event["day"])
+    state.resolve_obligation(
+        "court_restore_internet_access",
+        day,
+        "ordered prompt restoration of nondiscriminatory internet access and barred the politically punitive restriction",
+    )
+    state.add_entry(
+        day,
+        "outcome",
+        "The scenario validates that the right to internet access is not symbolic. Government may not use throttling or denial of access as a political punishment or coercive tool.",
+        "Article V Section 10.6 and Section 2.6",
+    )
+
+
 HANDLERS = {
     "warrantless_surveillance_conducted": handle_warrantless_surveillance_conducted,
     "court_orders_surveillance_halt": handle_court_orders_surveillance_halt,
@@ -439,4 +517,8 @@ HANDLERS = {
     "court_enjoins_school_prayer_sponsorship": handle_court_enjoins_school_prayer_sponsorship,
     "state_forces_medical_procedure_without_sufficient_justification": handle_state_forces_medical_procedure_without_sufficient_justification,
     "court_blocks_forced_medical_procedure": handle_court_blocks_forced_medical_procedure,
+    "state_refuses_parental_recognition_based_on_family_structure": handle_state_refuses_parental_recognition_based_on_family_structure,
+    "court_restores_parental_recognition": handle_court_restores_parental_recognition,
+    "government_throttles_internet_access_for_political_punishment": handle_government_throttles_internet_access_for_political_punishment,
+    "court_restores_internet_access": handle_court_restores_internet_access,
 }

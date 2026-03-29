@@ -85,6 +85,7 @@ Status markers: `[x]` implemented — `[ ]` planned.
 | G2 | [x] Federal Commandeering of State Officials | `federal-commandeering.json` | Art. X §1.2 | Congress statute requires state executives to implement federal program | Courts void the commandeering statute |
 | G3 | [x] Implied Field Preemption Overreach Outside Uniform National Domains | `implied-field-preemption-overreach.json` | Art. X §4.1, §4.3, §4.4 | Federal officials claim dense federal regulation automatically wipes out stricter state environmental rules | Courts reject implied field preemption and preserve stricter concurrent state regulation |
 | G4 | [x] State Preempts Local Housing Rule Without Specific Compelling Statewide Interest | `state-preempts-local-housing-without-interest.json` | Art. X §8.1, §8.2, §8.3 | State nullifies local housing reform with only generalized statewide-uniformity claims | Courts block the override and preserve meaningful local self-government absent a specific compelling statewide interest |
+| G5 | [x] State Asserts Extraterritorial Jurisdiction Over Out-of-State Digital Conduct | `extraterritorial-digital-jurisdiction.json` | Art. X §5.5, §9.2 | State attempts to punish out-of-state online conduct solely because it reached an in-state audience | Courts block the extraterritorial assertion of jurisdiction |
 
 ---
 
@@ -125,6 +126,8 @@ Status markers: `[x]` implemented — `[ ]` planned.
 | K5 | [x] Data Purchase Warrant Circumvention | `data-purchase-warrant-circumvention.json` | Art. V §10.3, §5.3 | Government buys personal data from a broker to avoid the warrant requirement | Courts treat data as government-obtained and suppress it |
 | K6 | [x] State-Sponsored School Prayer | `state-sponsored-school-prayer.json` | Art. V §3.2-§3.4 | Public school officials lead prayer and pressure student participation | Courts enjoin the practice while preserving voluntary private student religious expression |
 | K7 | [x] Forced Medical Procedure Without Narrow Necessity | `forced-medical-procedure-without-necessity.json` | Art. V §4.1-§4.3 | State compels a medical procedure without sufficiently tailored public-health necessity or adequate exemptions | Courts block the law under bodily-autonomy and privacy protections |
+| K8 | [x] State Denies Parental Recognition Based on Family Structure | `family-status-discrimination-parental-recognition.json` | Art. V §4.3, §7.2 | State denies legal parental recognition to a lawfully formed same-sex family | Courts restore parental recognition and bar discriminatory family-status rules |
+| K9 | [x] Government Uses Internet Access as Political Punishment | `political-internet-access-punishment.json` | Art. V §10.6, §2.6 | Government throttles or cuts internet access to punish political opposition | Courts restore nondiscriminatory access and bar the punishment |
 
 ---
 

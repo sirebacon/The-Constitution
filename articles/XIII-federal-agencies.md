@@ -118,13 +118,13 @@ Disagreement with an agency's regulatory decisions, enforcement choices, rulemak
 
 **7.2 — Post-service cooling-off.** Senior officials of any federal regulatory agency may not, for a period set by Congress of not less than two years following their departure, work for, consult for, lobby, or accept compensation from any entity they directly regulated, investigated, or supervised during their service. Congress may establish longer cooling-off periods tailored to particular agencies or offices, but may not set shorter ones.
 
-**7.3 — Transition support.** Any former regulatory official subject to a mandatory cooling-off period of more than one year shall receive a transition stipend during that period. Congress may not eliminate this stipend or reduce it below thirty percent of the official's final salary. The stipend vests with length of service; Congress shall establish the vesting schedule by law.
+**7.3 — Transition support.** Congress shall provide lawful transition support sufficient to ensure that mandatory cooling-off periods do not function as a deterrent to qualified public service.
 
 **7.4 — Pre-service restrictions.** A person appointed to a senior regulatory position from a regulated industry shall be recused from all matters directly involving their former employer for a period set by Congress of not less than two years. Deferred compensation or unvested equity from a regulated entity that creates a continuing financial incentive to favor that entity shall be forfeited upon appointment or placed under conditions that remove the incentive.
 
 **7.5 — Compensation floor.** Congress shall maintain compensation for senior regulatory personnel at levels sufficient to attract and retain qualified professionals. Where significant pay gaps between government and regulated industry are documented, Congress shall address them. Chronic underpayment that structurally forces experienced officials to seek industry employment is incompatible with effective regulation.
 
-**7.6 — Public registry.** The Accountability Commission shall maintain a public registry of all departing senior officials of federal regulatory agencies, recording their agency, position, date of departure, and disclosed post-service employment for the duration of any applicable cooling-off period.
+**7.6 — Public reporting.** Law shall provide public reporting sufficient to enforce the post-service restrictions of this Section.
 
 ---
 

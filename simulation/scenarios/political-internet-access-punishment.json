@@ -1,0 +1,23 @@
+{
+  "id": "political-internet-access-punishment",
+  "title": "Government Uses Internet Access as Political Punishment",
+  "description": "Local officials order a municipal broadband authority to throttle and repeatedly interrupt internet access for an opposition political organization after it criticizes the government. The scenario tests whether Article V's internet-access guarantee has real bite against political punishment or coercion.",
+  "articles_tested": ["Article V"],
+  "provisions_tested": ["Article V Section 10.6", "Article V Section 2.6"],
+  "events": [
+    {
+      "day": 1,
+      "type": "government_throttles_internet_access_for_political_punishment",
+      "actor": "Local government",
+      "details": {
+        "target": "a municipal opposition political organization"
+      }
+    },
+    {
+      "day": 6,
+      "type": "court_restores_internet_access",
+      "actor": "Federal district court",
+      "details": {}
+    }
+  ]
+}

@@ -2,6 +2,56 @@
 
 This document records conclusions drawn from the constitutional flow simulator and its generated reports. Each entry should cite the relevant scenario outputs so recurring bottlenecks can be tracked over time.
 
+## 2026-03-29 Article V and Article X Edge-Case Validation Pass
+
+### Inputs Reviewed
+
+- [aggregate.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/aggregate.json)
+- [family-status-discrimination-parental-recognition.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/family-status-discrimination-parental-recognition.summary.json)
+- [political-internet-access-punishment.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/political-internet-access-punishment.summary.json)
+- [extraterritorial-digital-jurisdiction.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/extraterritorial-digital-jurisdiction.summary.json)
+
+### Aggregate Read
+
+- Scenario count rises from `69` to `72`.
+- `unresolved_obligations` remains `0`.
+- This pass does not expose new structural gaps. It closes part of the remaining “good text, under-validated” concern for Articles V and X.
+
+### Main Results
+
+#### 1. Article V now has direct family-autonomy validation
+
+Source:
+- [family-status-discrimination-parental-recognition.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/family-status-discrimination-parental-recognition.summary.json)
+
+- A state denies parental recognition to a lawfully formed same-sex family.
+- Courts restore parental recognition and reject discriminatory family-status rules.
+
+Assessment:
+This confirms that Article V protects family autonomy in practice, not just intimate choice in abstraction. The constitutional family-protection language now has direct simulation support beyond speech, religion, bodily autonomy, and surveillance.
+
+#### 2. Article V's internet-access clause now has direct coercion coverage
+
+Source:
+- [political-internet-access-punishment.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/political-internet-access-punishment.summary.json)
+
+- Government throttles internet access to punish political opposition.
+- Courts order prompt restoration of access.
+
+Assessment:
+This validates that Section 10.6 is not symbolic. The Constitution can treat internet access as protected civic infrastructure against direct political punishment or coercion by government.
+
+#### 3. Article X now has a direct digital-border federalism scenario
+
+Source:
+- [extraterritorial-digital-jurisdiction.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/extraterritorial-digital-jurisdiction.summary.json)
+
+- A state attempts to project its law onto out-of-state online conduct based only on in-state audience reach.
+- Courts reject the assertion of jurisdiction under the digital-conduct territorial rule.
+
+Assessment:
+This closes one of the cleanest remaining modern federalism validation gaps. Article X now has direct scenario coverage not only for democratic-floor and preemption disputes, but also for territorial limits on state regulation of digital conduct.
+
 ## 2026-03-29 Organized Crime and Financial-Capture Coverage Pass
 
 ### Inputs Reviewed

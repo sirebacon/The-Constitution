@@ -1,15 +1,15 @@
 {
-  "scenario_count": 69,
-  "stress_point_scenarios": 67,
+  "scenario_count": 72,
+  "stress_point_scenarios": 70,
   "totals": {
-    "violations": 60,
+    "violations": 63,
     "bottlenecks": 30,
     "unresolved_obligations": 0
   },
   "risk_pattern_counts": [
     {
       "risk": "institutional_stress",
-      "count": 40
+      "count": 43
     },
     {
       "risk": "executive_defiance",
@@ -57,7 +57,7 @@
     },
     {
       "category": "rights_suppression",
-      "count": 11
+      "count": 13
     },
     {
       "category": "institutional_stress",
@@ -69,7 +69,7 @@
     },
     {
       "category": "federalism_breach",
-      "count": 3
+      "count": 4
     },
     {
       "category": "legislative_deadline_failure",
@@ -138,6 +138,10 @@
       "count": 6
     },
     {
+      "provision": "Article V Section 2.6",
+      "count": 4
+    },
+    {
       "provision": "Article II Section 15A",
       "count": 3
     },
@@ -151,10 +155,6 @@
     },
     {
       "provision": "Article V Section 2.5",
-      "count": 3
-    },
-    {
-      "provision": "Article V Section 2.6",
       "count": 3
     },
     {
@@ -182,7 +182,19 @@
       "count": 2
     },
     {
+      "provision": "Article V Section 4.1",
+      "count": 2
+    },
+    {
+      "provision": "Article V Section 4.3",
+      "count": 2
+    },
+    {
       "provision": "Article V Section 5.3",
+      "count": 2
+    },
+    {
+      "provision": "Article V Section 7.2",
       "count": 2
     },
     {
@@ -442,6 +454,10 @@
       "count": 1
     },
     {
+      "provision": "Article V Section 10.6",
+      "count": 1
+    },
+    {
       "provision": "Article V Section 14.3",
       "count": 1
     },
@@ -458,15 +474,7 @@
       "count": 1
     },
     {
-      "provision": "Article V Section 4.1",
-      "count": 1
-    },
-    {
       "provision": "Article V Section 4.2",
-      "count": 1
-    },
-    {
-      "provision": "Article V Section 4.3",
       "count": 1
     },
     {
@@ -475,10 +483,6 @@
     },
     {
       "provision": "Article V Section 6.2",
-      "count": 1
-    },
-    {
-      "provision": "Article V Section 7.2",
       "count": 1
     },
     {
@@ -558,6 +562,10 @@
       "count": 1
     },
     {
+      "provision": "Article X Section 5.5",
+      "count": 1
+    },
+    {
       "provision": "Article X Section 8.1",
       "count": 1
     },
@@ -567,6 +575,10 @@
     },
     {
       "provision": "Article X Section 8.3",
+      "count": 1
+    },
+    {
+      "provision": "Article X Section 9.2",
       "count": 1
     },
     {
@@ -2170,6 +2182,105 @@
       }
     },
     {
+      "scenario_id": "extraterritorial-digital-jurisdiction",
+      "title": "State Asserts Extraterritorial Jurisdiction Over Out-of-State Digital Conduct",
+      "source_file": "simulation/scenarios/extraterritorial-digital-jurisdiction.json",
+      "status": "stress_point_found",
+      "triggered_provisions": [
+        "Article X Section 5.5",
+        "Article X Section 9.2"
+      ],
+      "metrics": {
+        "satisfied_obligations": 1,
+        "failed_obligations": 0,
+        "unresolved_obligations": 0,
+        "violations": 1,
+        "bottlenecks": 0,
+        "timeline_entries": 5
+      },
+      "violations": [
+        {
+          "id": "extraterritorial_digital_jurisdiction",
+          "category": "federalism_breach",
+          "actor": "State government",
+          "source": "Article X Section 5.5 and Section 9.2",
+          "severity": "high",
+          "day": 1,
+          "summary": "State officials attempt to apply their law to an out-of-state nonprofit publisher for lawful online publication created and posted entirely in another state that occurred entirely outside the state, relying only on the fact that the digital content reached an in-state audience. Article X bars a state from asserting jurisdiction over out-of-state digital conduct based solely on audience reach or downstream effects."
+        }
+      ],
+      "bottlenecks": [],
+      "open_duties": [],
+      "satisfied_duties": [
+        {
+          "actor": "State or federal courts",
+          "duty": "block the state's attempt to apply its law extraterritorially to out-of-state digital conduct absent a constitutionally sufficient nexus",
+          "closed_day": 15,
+          "outcome": "blocked the state's extraterritorial assertion of jurisdiction after finding that the conduct occurred outside the state and that audience reach alone did not supply the required nexus",
+          "source": "Article X Section 5.5 and Section 9.2"
+        }
+      ],
+      "failed_duties": [],
+      "notes": [],
+      "ai_summary": {
+        "primary_violation": "State officials attempt to apply their law to an out-of-state nonprofit publisher for lawful online publication created and posted entirely in another state that occurred entirely outside the state, relying only on the fact that the digital content reached an in-state audience. Article X bars a state from asserting jurisdiction over out-of-state digital conduct based solely on audience reach or downstream effects.",
+        "primary_bottleneck": null,
+        "primary_open_duty": null,
+        "system_risk": "institutional_stress",
+        "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+      }
+    },
+    {
+      "scenario_id": "family-status-discrimination-parental-recognition",
+      "title": "State Denies Parental Recognition Based on Family Structure",
+      "source_file": "simulation/scenarios/family-status-discrimination-parental-recognition.json",
+      "status": "stress_point_found",
+      "triggered_provisions": [
+        "Article V Section 4.1",
+        "Article V Section 4.3",
+        "Article V Section 7.2"
+      ],
+      "metrics": {
+        "satisfied_obligations": 1,
+        "failed_obligations": 0,
+        "unresolved_obligations": 0,
+        "violations": 1,
+        "bottlenecks": 0,
+        "timeline_entries": 5
+      },
+      "violations": [
+        {
+          "id": "family_autonomy_parental_recognition_violation",
+          "category": "rights_suppression",
+          "actor": "State government",
+          "source": "Article V Section 4.1, Section 4.3, and Section 7.2",
+          "severity": "high",
+          "day": 1,
+          "summary": "State officials refuse to recognize the parental status of a married same-sex couple raising a child born during the marriage solely because of the sex, gender, or family structure of the parents. Article V protects family formation and parental recognition from unjustified government interference and bars discriminatory classifications affecting family status."
+        }
+      ],
+      "bottlenecks": [],
+      "open_duties": [],
+      "satisfied_duties": [
+        {
+          "actor": "Federal or state courts",
+          "duty": "restore lawful parental recognition and enjoin enforcement of the discriminatory family-status rule",
+          "closed_day": 14,
+          "outcome": "restored parental recognition, barred enforcement of the discriminatory family-status rule, and held that family decisions may not be denied legal effect because of the sex, gender, or sexual orientation of the parents",
+          "source": "Article V Section 4.3 and Section 7.2"
+        }
+      ],
+      "failed_duties": [],
+      "notes": [],
+      "ai_summary": {
+        "primary_violation": "State officials refuse to recognize the parental status of a married same-sex couple raising a child born during the marriage solely because of the sex, gender, or family structure of the parents. Article V protects family formation and parental recognition from unjustified government interference and bars discriminatory classifications affecting family status.",
+        "primary_bottleneck": null,
+        "primary_open_duty": null,
+        "system_risk": "institutional_stress",
+        "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+      }
+    },
+    {
       "scenario_id": "federal-commandeering",
       "title": "Federal Commandeering of State Officials",
       "source_file": "simulation/scenarios/federal-commandeering.json",
@@ -3319,6 +3430,55 @@
         "primary_bottleneck": "House of Representatives failed to hold the required impeachment vote on the PMC substitution violation by day 26 under Article III Section 10.2A and Article XVI Section 4.4.",
         "primary_open_duty": null,
         "system_risk": "executive_defiance",
+        "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+      }
+    },
+    {
+      "scenario_id": "political-internet-access-punishment",
+      "title": "Government Uses Internet Access as Political Punishment",
+      "source_file": "simulation/scenarios/political-internet-access-punishment.json",
+      "status": "stress_point_found",
+      "triggered_provisions": [
+        "Article V Section 10.6",
+        "Article V Section 2.6"
+      ],
+      "metrics": {
+        "satisfied_obligations": 1,
+        "failed_obligations": 0,
+        "unresolved_obligations": 0,
+        "violations": 1,
+        "bottlenecks": 0,
+        "timeline_entries": 5
+      },
+      "violations": [
+        {
+          "id": "political_internet_access_punishment",
+          "category": "rights_suppression",
+          "actor": "Government",
+          "source": "Article V Section 10.6 and Section 2.6",
+          "severity": "high",
+          "day": 1,
+          "summary": "Government officials deny, throttle, or otherwise degrade internet access for a municipal opposition political organization because of political views or associations. Article V forbids using internet access as punishment, political coercion, or discrimination based on political viewpoint."
+        }
+      ],
+      "bottlenecks": [],
+      "open_duties": [],
+      "satisfied_duties": [
+        {
+          "actor": "Federal courts",
+          "duty": "order prompt restoration of nondiscriminatory internet access and bar the politically punitive restriction",
+          "closed_day": 6,
+          "outcome": "ordered prompt restoration of nondiscriminatory internet access and barred the politically punitive restriction",
+          "source": "Article V Section 10.6 and Section 2.6"
+        }
+      ],
+      "failed_duties": [],
+      "notes": [],
+      "ai_summary": {
+        "primary_violation": "Government officials deny, throttle, or otherwise degrade internet access for a municipal opposition political organization because of political views or associations. Article V forbids using internet access as punishment, political coercion, or discrimination based on political viewpoint.",
+        "primary_bottleneck": null,
+        "primary_open_duty": null,
+        "system_risk": "institutional_stress",
         "recommended_focus": "review bottlenecks, violations, and unresolved duties"
       }
     },

@@ -1,0 +1,24 @@
+{
+  "id": "extraterritorial-digital-jurisdiction",
+  "title": "State Asserts Extraterritorial Jurisdiction Over Out-of-State Digital Conduct",
+  "description": "A state attempts to prosecute an out-of-state publisher for online material created and posted lawfully in another state, relying only on the fact that residents of the prosecuting state could access the content. The scenario tests Article X's modern territorial rule for digital conduct.",
+  "articles_tested": ["Article X"],
+  "provisions_tested": ["Article X Section 5.5", "Article X Section 9.2"],
+  "events": [
+    {
+      "day": 1,
+      "type": "state_asserts_extraterritorial_jurisdiction_over_digital_conduct",
+      "actor": "State attorney general",
+      "details": {
+        "actor": "an out-of-state nonprofit publisher",
+        "conduct": "lawful online publication created and posted entirely in another state"
+      }
+    },
+    {
+      "day": 15,
+      "type": "court_blocks_extraterritorial_digital_jurisdiction",
+      "actor": "Federal court",
+      "details": {}
+    }
+  ]
+}

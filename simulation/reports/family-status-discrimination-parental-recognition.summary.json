@@ -1,0 +1,50 @@
+{
+  "scenario_id": "family-status-discrimination-parental-recognition",
+  "title": "State Denies Parental Recognition Based on Family Structure",
+  "source_file": "simulation/scenarios/family-status-discrimination-parental-recognition.json",
+  "status": "stress_point_found",
+  "triggered_provisions": [
+    "Article V Section 4.1",
+    "Article V Section 4.3",
+    "Article V Section 7.2"
+  ],
+  "metrics": {
+    "satisfied_obligations": 1,
+    "failed_obligations": 0,
+    "unresolved_obligations": 0,
+    "violations": 1,
+    "bottlenecks": 0,
+    "timeline_entries": 5
+  },
+  "violations": [
+    {
+      "id": "family_autonomy_parental_recognition_violation",
+      "category": "rights_suppression",
+      "actor": "State government",
+      "source": "Article V Section 4.1, Section 4.3, and Section 7.2",
+      "severity": "high",
+      "day": 1,
+      "summary": "State officials refuse to recognize the parental status of a married same-sex couple raising a child born during the marriage solely because of the sex, gender, or family structure of the parents. Article V protects family formation and parental recognition from unjustified government interference and bars discriminatory classifications affecting family status."
+    }
+  ],
+  "bottlenecks": [],
+  "open_duties": [],
+  "satisfied_duties": [
+    {
+      "actor": "Federal or state courts",
+      "duty": "restore lawful parental recognition and enjoin enforcement of the discriminatory family-status rule",
+      "closed_day": 14,
+      "outcome": "restored parental recognition, barred enforcement of the discriminatory family-status rule, and held that family decisions may not be denied legal effect because of the sex, gender, or sexual orientation of the parents",
+      "source": "Article V Section 4.3 and Section 7.2"
+    }
+  ],
+  "failed_duties": [],
+  "notes": [],
+  "ai_summary": {
+    "primary_violation": "State officials refuse to recognize the parental status of a married same-sex couple raising a child born during the marriage solely because of the sex, gender, or family structure of the parents. Article V protects family formation and parental recognition from unjustified government interference and bars discriminatory classifications affecting family status.",
+    "primary_bottleneck": null,
+    "primary_open_duty": null,
+    "system_risk": "institutional_stress",
+    "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "family-status-discrimination-parental-recognition",
+  "title": "State Denies Parental Recognition Based on Family Structure",
+  "description": "A state refuses to recognize the parental status of a lawfully formed same-sex married couple and treats one parent as a legal stranger to the child solely because of the sex and family structure of the parents. The scenario tests whether Article V protects family autonomy and parental recognition from discriminatory government interference.",
+  "articles_tested": ["Article V"],
+  "provisions_tested": ["Article V Section 4.3", "Article V Section 7.2"],
+  "events": [
+    {
+      "day": 1,
+      "type": "state_refuses_parental_recognition_based_on_family_structure",
+      "actor": "State government",
+      "details": {
+        "family": "a married same-sex couple raising a child born during the marriage"
+      }
+    },
+    {
+      "day": 14,
+      "type": "court_restores_parental_recognition",
+      "actor": "State supreme court",
+      "details": {}
+    }
+  ]
+}

@@ -199,6 +199,46 @@ def handle_court_blocks_local_preemption_overreach(state: SimulationState, event
     )
 
 
+def handle_state_asserts_extraterritorial_jurisdiction_over_digital_conduct(state: SimulationState, event: dict[str, Any]) -> None:
+    day = int(event["day"])
+    details = event.get("details", {})
+    actor = details.get("actor", "an out-of-state speaker")
+    conduct = details.get("conduct", "lawful digital publication")
+    state.provisions.update({"Article X Section 5.5", "Article X Section 9.2"})
+    state.add_violation(
+        "extraterritorial_digital_jurisdiction",
+        "federalism_breach",
+        "State government",
+        f"State officials attempt to apply their law to {actor} for {conduct} that occurred entirely outside the state, relying only on the fact that the digital content reached an in-state audience. Article X bars a state from asserting jurisdiction over out-of-state digital conduct based solely on audience reach or downstream effects.",
+        "Article X Section 5.5 and Section 9.2",
+        day,
+    )
+    state.add_obligation(
+        "court_block_extraterritorial_digital_jurisdiction",
+        "State or federal courts",
+        "block the state's attempt to apply its law extraterritorially to out-of-state digital conduct absent a constitutionally sufficient nexus",
+        "Article X Section 5.5 and Section 9.2",
+        day,
+        day + 21,
+        severity="high",
+    )
+
+
+def handle_court_blocks_extraterritorial_digital_jurisdiction(state: SimulationState, event: dict[str, Any]) -> None:
+    day = int(event["day"])
+    state.resolve_obligation(
+        "court_block_extraterritorial_digital_jurisdiction",
+        day,
+        "blocked the state's extraterritorial assertion of jurisdiction after finding that the conduct occurred outside the state and that audience reach alone did not supply the required nexus",
+    )
+    state.add_entry(
+        day,
+        "outcome",
+        "The scenario validates Article X's modern territorial rule for digital conduct: a state may not project its law across borders merely because online activity was visible or had downstream effects within the state.",
+        "Article X Section 5.5 and Section 9.2",
+    )
+
+
 HANDLERS = {
     "supreme_court_finds_state_democratic_floor_violation": handle_supreme_court_finds_state_democratic_floor_violation,
     "congress_fails_state_remedy": handle_congress_fails_state_remedy,
@@ -211,4 +251,6 @@ HANDLERS = {
     "court_rejects_implied_field_preemption_overreach": handle_court_rejects_implied_field_preemption_overreach,
     "state_preempts_local_housing_rule_without_showing_statewide_interest": handle_state_preempts_local_housing_rule_without_showing_statewide_interest,
     "court_blocks_local_preemption_overreach": handle_court_blocks_local_preemption_overreach,
+    "state_asserts_extraterritorial_jurisdiction_over_digital_conduct": handle_state_asserts_extraterritorial_jurisdiction_over_digital_conduct,
+    "court_blocks_extraterritorial_digital_jurisdiction": handle_court_blocks_extraterritorial_digital_jurisdiction,
 }
