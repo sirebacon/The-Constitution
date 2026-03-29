@@ -210,6 +210,27 @@ Before raising a score, ask:
 
 ---
 
+## Current Weaknesses
+
+The draft is now in refinement mode rather than redesign mode. The main weaknesses are:
+
+1. Simulation coverage gaps.
+   Articles XVIII, IX, and X still need more direct scenario pressure, and Article V still needs a second wave of edge-case coverage.
+
+2. Residual code-like density.
+   Article II remains the densest core article, and parts of Articles VIII, XIII, and XIX still need a later compression pass.
+
+3. Political nonperformance under stress.
+   The Constitution now usually provides an automatic consequence, but repeated missed deadlines and refusals to act remain the dominant operational stress pattern in the simulator.
+
+4. New resilience provisions that may later need compression.
+   The recent anti-oligarchic hardening improved abuse resistance materially, but some clauses should eventually be checked for constitutional abstraction level.
+
+5. Final cross-article boundary review.
+   The remaining integration risk is not broad contradiction but narrower overlap at the boundaries of emergency power, ethics and agency design, continuity, and enforcement.
+
+---
+
 ## Next Review Targets
 
 Recommended focus order:

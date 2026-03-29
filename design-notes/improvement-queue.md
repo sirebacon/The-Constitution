@@ -30,6 +30,27 @@ See also: [presidential-system-hardening.md](presidential-system-hardening.md)
 
 ---
 
+## Current Weaknesses Snapshot
+
+These are the main weaknesses of the draft in its current state. They are narrower than earlier structural gaps and should guide the next revision cycle.
+
+1. Simulation coverage still lags behind text quality in a few articles.
+   Articles XVIII, IX, and X are stronger on paper than in direct scenario validation, and Article V still needs a second wave of edge-case coverage.
+
+2. Some core articles are still denser than ideal constitutional text.
+   Article II remains the clearest draft-discipline outlier, and parts of Articles VIII, XIII, and XIX still risk reading more like advanced statutory design than near-final constitutional prose.
+
+3. Political nonperformance remains the dominant live stress pattern.
+   The draft now usually supplies an automatic consequence, but the simulator still shows repeated missed deadlines, refusals to act, and delay chains under hostile conditions.
+
+4. The new resilience clauses are good but may need later compression.
+   The oligarchic-pressure hardening closed real gaps, but provisions such as contractor beneficial-ownership disclosure should eventually be checked for constitutional abstraction level.
+
+5. A final cross-article edge-case pass is still needed.
+   The remaining risk is less contradiction than boundary drift: emergency overlap, ethics/agency overlap, continuity overlap, and enforcement-path complexity.
+
+---
+
 ## Legislative Deadline Matrix
 
 This matrix converts the current simulator bottlenecks into explicit keep/change decisions. The goal is to avoid repeatedly revisiting deadline failures that are already backed by an acceptable automatic constitutional consequence.
