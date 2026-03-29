@@ -5,10 +5,10 @@
     "subtitle": "A modern replacement draft built around democratic legitimacy, anti-authoritarian safeguards, and readable constitutional architecture.",
     "article_count": 19,
     "scenario_count": 72,
-    "overall_score": "8.9",
+    "overall_score": "9.0",
     "overall_status": "Strong",
     "unresolved_obligations": 0,
-    "top_strength": "The architecture is now materially cleaner and the simulator still shows a closure-oriented system with 0 unresolved obligations even under a larger, harsher suite",
+    "top_strength": "The architecture is now materially cleaner and the simulator still shows a closure-oriented system with 0 unresolved obligations even under a larger, harsher suite; recent validation and compression passes have shifted the project firmly into final-refinement territory",
     "top_weakness": "The remaining weakness is no longer missing machinery; it is a mix of deadline-driven political nonperformance, a few judicial and institutional delay chains, and residual code-like density in a handful of articles"
   },
   "navigation": [

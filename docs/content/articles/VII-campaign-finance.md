@@ -62,9 +62,7 @@ The system shall be designed and administered so that a challenger with demonstr
 
 ### 2.3 — Adjustment and adequacy
 
-Campaign-finance thresholds and public-financing parameters shall be periodically adjusted for inflation or other objective changes in economic conditions. The Electoral Commission shall review and publish those adjustments on a schedule set by law.
-
-The Accountability Commission shall periodically audit whether the public-financing system is adequately funded to remain genuinely competitive. Congress shall provide by law for the response to a finding of inadequacy.
+Campaign-finance thresholds and public-financing parameters shall be periodically adjusted for inflation or other objective changes in economic conditions. Law shall provide for review of whether the public-financing system remains genuinely competitive and for response to any finding of inadequacy.
 
 ### 2.4 — Self-financing and legislative self-dealing
 
@@ -78,9 +76,7 @@ No chamber of Congress may unilaterally set the specific campaign-finance parame
 
 ### 3.1 — Outside spending may be limited
 
-Congress may limit total outside spending in connection with a federal race, across federal races, or both. It may distinguish between candidate spending, party spending, and outside spending, and may exempt bona fide news reporting, editorial activity, and other journalistic work.
-
-Congress and the Electoral Commission may define the election windows, race connection, and level of advocacy that bring spending within such limits, provided those definitions are directed to real electoral influence and not evaded by formal wording tests alone.
+Congress may limit total outside spending in connection with a federal race, across federal races, or both. It may distinguish between candidate spending, party spending, and outside spending, and may exempt bona fide news reporting, editorial activity, and other journalistic work. Law may define the election periods and forms of advocacy subject to such limits, provided those definitions are directed to real electoral influence and not evaded by formal wording tests alone.
 
 ### 3.2 — Single-candidate and concentrated outside spending
 

@@ -60,11 +60,9 @@ Establishes the constitutional principles governing taxation and public revenue.
 
 **4.5** Congress may authorize emergency revenue measures only by law, for publicly stated purposes, and for limited duration. No emergency revenue measure may be continued indefinitely by executive action alone.
 
-**4.6** Law shall provide a simple and accessible means for persons to determine, confirm, contest, and discharge tax liability. Law may provide for simplified or automatic assessment, withholding, and collection procedures consistent with due process, equal treatment, and meaningful opportunity to correct error.
+**4.6** Law shall provide a simple and accessible means for persons to determine, confirm, contest, and discharge tax liability, including any lawful system of simplified or automatic assessment, withholding, and collection consistent with due process, equal treatment, and meaningful opportunity to correct error.
 
-**4.7** No person shall be penalized for failure caused principally by unreasonable administrative complexity, material reporting failure by the state or a legally required reporting party, or the state's refusal to make available a lawful means of determining and satisfying tax liability.
-
-**4.8** Revenue administration must remain sufficiently transparent that the public can understand the effective structure of taxation, including major tax expenditures and comparable revenue preferences, subject to narrow privacy protections consistent with this Constitution.
+**4.7** No person shall be penalized for failure caused principally by unreasonable administrative complexity, material reporting failure by the state or a legally required reporting party, or the state's refusal to make available a lawful means of determining and satisfying tax liability. Revenue administration must remain sufficiently transparent that the public can understand the effective structure of taxation, including major tax expenditures and comparable revenue preferences, subject to narrow privacy protections consistent with this Constitution.
 
 ---
 
