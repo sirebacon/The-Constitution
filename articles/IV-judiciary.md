@@ -205,6 +205,13 @@ Congress may by law expand standing to allow suits by parties with a sufficientl
 
 Courts shall prefer narrow remedies that address the specific constitutional violation over broad remedies that reach beyond what is necessary.
 
+**9.6A Expedited review of high-impact presidential directives.** Any executive order or other presidential directive is entitled to expedited constitutional review where it:
+  (a) Claims emergency, inherent, or unilateral executive authority as the principal basis for its legal effect
+  (b) Materially alters legal rights, duties, status, or eligibility for a class of persons on a nationwide or effectively nationwide basis
+  (c) Materially affects elections, civil liberties, immigration status, tariffs or other trade restrictions, or the domestic or foreign use of military or paramilitary force
+
+A directive is not high-impact under this Section merely because it concerns internal executive-branch management without materially altering the legal position of persons outside the executive branch. A party with standing to challenge such a directive may seek direct expedited review in the United States District Court for the District of Columbia or in any otherwise proper federal court. The court shall issue an initial ruling within 7 days of filing unless impossibility is publicly certified with specificity. The Supreme Court shall give any appeal from such a ruling the highest non-emergency priority. This Section creates an accelerated timetable only and does not alter ordinary standards of standing, merits, or remedy.
+
 **9.7 Emergency order transparency.** Any Supreme Court order granting or denying emergency relief — including stays of lower court judgments, injunctions pending appeal, and applications affecting the enforcement of a constitutional right — shall be accompanied by a written statement identifying the legal standard applied and the reasons for the order. A per curiam emergency order in a constitutional case shall identify the justices joining it. An emergency order issued without the required explanation is voidable on timely motion in the originating court. This Section does not prevent the Court from acting immediately in a genuine emergency; it requires only that the written explanation follow within 48 hours of the order.
 
 ---
