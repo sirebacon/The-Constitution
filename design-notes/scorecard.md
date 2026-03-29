@@ -48,8 +48,8 @@ These are the current working scores for the draft after the latest simplificati
 |------|-------|--------|---------------|---------------|-------------------------|
 | Preamble | 9.0 | Strong | Clear statement of purpose and democratic intent in more durable founding prose | It can still be pressure-tested for cadence and public readability | Final polish for rhythm and memorability |
 | Article I — Electoral System | 9.0 | Strong | Modern, coherent democratic architecture | Administration details are dense in places | Simplify without losing safeguards |
-| Article II — Legislature | 9.0 | Strong | Good balance of majority rule and institutional structure | Some procedures are highly detailed | Trim procedural text that could be statutory |
-| Article III — Executive | 9.0 | Strong | Serious anti-abuse design with cleaner emergency, recall, and accountability rules | Recall remains structurally unusual and should keep being stress-tested | Stress-test the revised triggers and institutional handoffs |
+| Article II — Legislature | 9.0 | Strong | Mandatory-vote enforcement and continuity rules now make legislative deadlines harder to evade by leadership or recess games | Some oversight and floor-enforcement mechanics are still fairly detailed for constitutional text | Keep trimming enforcement mechanics that can safely move to statute |
+| Article III — Executive | 9.0 | Strong | Emergency lapse, impeachment fallback, and anti-evasion rules now produce much clearer constitutional closure under stress | Emergency review still ultimately depends on the Regional Assembly meeting deadlines in practice | Keep stress-testing emergency and executive-defiance pathways |
 | Article IV — Judiciary | 8.0 | Strong | Court design is more legible and durable than before | Some institutional detail is still heavier than it needs to be | Continue trimming procedural density |
 | Article V — Civil and Political Rights | 8.5 | Strong | Broad, modern rights coverage with clearer principle-level drafting | A few sensitive carve-outs still need stress-testing | Review speech, religion, and digital-rights edge cases |
 | Article VI — Democratic Integrity | 9.0 | Strong | Excellent anti-subversion framing and election-defense focus | Some media and enforcement provisions may need narrowing | Stress-test enforceability and speech boundaries |
@@ -62,8 +62,8 @@ These are the current working scores for the draft after the latest simplificati
 | Article XIII — Social, Economic, and Affirmative Rights | 8.0 | Strong | Clearer adequacy-review model and stronger judicial limits | Positive-rights language still needs some tightening | Continue simplifying guarantees without weakening floors |
 | Article XIV — Foreign Policy and National Security | 8.5 | Strong | Non-war national-security framework is clearer and better bounded | Gray-zone and intelligence provisions still need edge-case testing | Stress-test executive stretch scenarios |
 | Article XV — Government Ethics | 9.0 | Near-final | Strong anti-corruption architecture now stated at a more constitutional level | Some market-integrity provisions may still be slightly detailed | Final polish for abstraction and readability |
-| Cross-References and Draft Integration | 8.5 | Strong | Major split-article drift and several live cross-article conflicts have now been corrected | Historical logs and a few drafting residues still deserve one last cleanup pass | Run one final whole-draft audit after future major edits |
-| Overall Draft | 9.0 | Strong | The draft is now substantially cleaner, more coherent, more enforceable, and more readable as constitutional text | Remaining work is mostly edge-case testing and polish rather than redesign | Finish targeted refinement in the remaining dense articles |
+| Cross-References and Draft Integration | 9.0 | Strong | The draft now coordinates legislative continuity, emergency lapse, judicial fallback, and simulation coverage much more cleanly than before | Historical logs and a few residual drafting artifacts still deserve one last cleanup pass | Run one final whole-draft audit after future major edits |
+| Overall Draft | 9.0 | Strong | The draft now has materially stronger closure rules, broader stress-test coverage, and fewer live structural ambiguities | The main remaining weaknesses are political nonperformance and realism-testing rather than missing machinery | Focus the next pass on hardest crisis scenarios rather than broad redesign |
 
 ### Criterion Breakdown
 
@@ -71,8 +71,8 @@ These are the current working scores for the draft after the latest simplificati
 |------|---------|-------------|----------------|------------|------------------|------------------|---------|
 | Preamble | 9.3 | 8.8 | 8.0 | 9.0 | 7.8 | 9.2 | 9.0 |
 | Article I — Electoral System | 8.5 | 9.0 | 9.0 | 9.5 | 9.5 | 8.5 | 9.0 |
-| Article II — Legislature | 8.5 | 9.0 | 9.0 | 9.5 | 9.0 | 8.0 | 9.0 |
-| Article III — Executive | 8.8 | 8.8 | 8.8 | 8.7 | 9.5 | 8.5 | 9.0 |
+| Article II — Legislature | 8.5 | 9.0 | 9.2 | 9.5 | 9.2 | 7.8 | 9.0 |
+| Article III — Executive | 8.8 | 9.0 | 9.0 | 8.7 | 9.5 | 8.5 | 9.0 |
 | Article IV — Judiciary | 7.8 | 8.0 | 8.0 | 8.5 | 8.5 | 7.2 | 8.0 |
 | Article V — Civil and Political Rights | 8.5 | 8.5 | 8.0 | 8.8 | 8.8 | 8.2 | 8.5 |
 | Article VI — Democratic Integrity | 8.5 | 8.5 | 9.0 | 9.0 | 9.5 | 8.0 | 9.0 |
@@ -85,8 +85,8 @@ These are the current working scores for the draft after the latest simplificati
 | Article XIII — Social, Economic, and Affirmative Rights | 8.0 | 8.0 | 7.8 | 8.8 | 8.3 | 7.3 | 8.0 |
 | Article XIV — Foreign Policy and National Security | 8.3 | 8.5 | 8.5 | 8.3 | 8.8 | 8.5 | 8.5 |
 | Article XV — Government Ethics | 8.8 | 9.0 | 9.0 | 8.8 | 9.5 | 8.8 | 9.0 |
-| Cross-References and Draft Integration | 8.5 | 8.5 | 8.5 | 8.0 | 8.5 | 8.5 | 8.5 |
-| Overall Draft | 8.7 | 8.7 | 8.7 | 8.9 | 9.0 | 8.4 | 9.0 |
+| Cross-References and Draft Integration | 8.8 | 9.0 | 9.0 | 8.3 | 9.0 | 8.8 | 9.0 |
+| Overall Draft | 8.8 | 8.9 | 8.9 | 8.9 | 9.1 | 8.5 | 9.0 |
 
 ### Current US Constitution Baseline
 
@@ -155,6 +155,7 @@ Update this table whenever a score changes.
 | 2026-03-28 | Article VIII / Article IX / Article X / Cross-References | 8.5 / 8.5 / 8.5 / 8.0 | 8.5 / 8.5 / 8.5 / 8.5 | The amendment transition placeholder was closed, Constitutional Organs vacancy rules were made more coherent, the Article X sunset contradiction was resolved, and live cross-reference drift was reduced further | The main remaining work is simplification and stress-testing rather than contradiction repair |
 | 2026-03-28 | Preamble | 8.5 | 9.0 | The preamble was rewritten into tighter, more declarative founding prose while preserving its commitments to equal inclusion, accountable government, future generations, and democratic self-defense | One more light polish pass could still improve cadence and memorability |
 | 2026-03-28 | Article III — Executive | 8.5 | 9.0 | Emergency powers, incapacity, recall, and presidential-accountability rules were simplified into cleaner constitutional triggers with less procedural clutter | Recall and crisis scenarios should still be stress-tested against edge-case abuse |
+| 2026-03-28 | Article II / Article III / Cross-References | 9.0 / 9.0 / 8.5 | 9.0 / 9.0 / 9.0 | Mandatory-vote continuity rules, emergency lapse hardening, judicial fallback integration, and the new recess-evasion scenario closed a real text-to-simulation gap and made cross-article enforcement fit together more cleanly | Legislative nonperformance is still the main practical stress point even though the constitutional machinery is now clearer |
 | 2026-03-28 | Article XI / Article XV | 8.5 / 8.5 | 9.0 / 9.0 | Article XI keeps its safeguards with cleaner doctrine-level rules, and Article XV now states stronger constitutional floors with less code-like implementation detail | Remaining work is mostly polishing and a final global consistency sweep rather than structural redesign |
 | 2026-03-28 | Article VII / Article XIV | 8.0 / 8.0 | 8.5 / 8.5 | Democratic-floor enforcement was simplified, and the non-war national-security article now has a sharper boundary with Article XI | Article XI still has some operationally dense provisions that could be compressed further in a later pass |
 | 2026-03-28 | Article V / Article X / Cross-References | 8.0 / 8.0 / 7.0 | 8.5 / 8.5 / 8.0 | Article V and X were trimmed to more constitutional abstraction levels, and stale drafting-log drift was corrected | Federalism and war/foreign-policy boundary rules still need later simplification and audit work |
@@ -180,8 +181,8 @@ Before raising a score, ask:
 
 Recommended focus order:
 
-1. Article XII — Campaign Finance
-2. Article IV — Judiciary
-3. Stress-test revised Executive and War Powers crisis pathways
-4. Final whole-draft polish and consistency review
-5. Light final cleanup in Article IX and the drafting logs
+1. Article XI — War Powers realism-testing under executive defiance
+2. Article XII — Campaign Finance compression pass
+3. Article IV — Judiciary and Article IX — Constitutional Organs final simplification pass
+4. Expand simulator coverage for remaining high-risk crisis pathways
+5. Final whole-draft polish and consistency review
