@@ -5,43 +5,50 @@
   "status": "stress_point_found",
   "triggered_provisions": [
     "Article V Section 2.6",
-    "Article VII",
-    "Article XIII"
+    "Article VI Section 7.5A",
+    "Article XII"
   ],
   "metrics": {
-    "satisfied_obligations": 1,
+    "satisfied_obligations": 2,
     "failed_obligations": 0,
     "unresolved_obligations": 0,
     "violations": 1,
     "bottlenecks": 0,
-    "timeline_entries": 5
+    "timeline_entries": 7
   },
   "violations": [
     {
       "id": "private_chokepoint_election_cutoff",
-      "category": "structural_gap",
+      "category": "institutional_stress",
       "actor": "Private infrastructure chokepoints",
-      "source": "Article V Section 2.6; Article VII; Article XIII",
+      "source": "Article VI Section 7.5A; Article XII; Article V Section 2.6",
       "severity": "high",
       "day": 1,
-      "summary": "dominant payment processors and hosting firms jointly cut off service to a lawful opposition organization operating nationally during a federal election period. No formal government coercion is proved. The harm is politically severe, but the current Constitution has no clearly defined direct remedy for synchronized private exclusion by dominant civic infrastructure intermediaries absent state action, foreign control, or campaign-finance violation."
+      "summary": "dominant payment processors and hosting firms jointly cut off service to a lawful opposition organization operating nationally during a federal election period. Article VI Section 7.5A permits neutral continuity and nondiscrimination duties for dominant civic intermediaries where coordinated denial would materially impair lawful political competition."
     }
   ],
   "bottlenecks": [],
   "open_duties": [],
   "satisfied_duties": [
     {
+      "actor": "Electoral Commission",
+      "duty": "determine whether the excluded organization is a lawful qualified political actor and order temporary nondiscriminatory restoration of essential service if Article VI Section 7.5A is triggered",
+      "closed_day": 5,
+      "outcome": "found that the coordinated cutoff threatened meaningful federal political competition, ordered temporary restoration of nondiscriminatory payment and hosting access under Article VI Section 7.5A, and directed expedited judicial review of the order",
+      "source": "Article VI Section 7.5A; Article XII"
+    },
+    {
       "actor": "Federal courts",
-      "duty": "determine whether existing constitutional provisions or implementing law provide a direct remedy for coordinated private exclusion of a lawful political organization during an election",
-      "closed_day": 10,
-      "outcome": "found no clear direct constitutional remedy because the exclusion was carried out by private firms without proven state coercion, foreign control, or a violation of an existing statutory duty",
-      "source": "Article V Section 2.6; Article VII; Article XIII"
+      "duty": "review the temporary restoration order on an expedited basis and sustain it if the targeted firms are dominant civic intermediaries whose coordinated denial materially impairs lawful federal political competition",
+      "closed_day": 9,
+      "outcome": "upheld the temporary restoration order as a narrowly tailored, viewpoint-neutral continuity measure against coordinated exclusion by dominant civic intermediaries during a federal election period",
+      "source": "Article VI Section 7.5A; Article V Section 2.6"
     }
   ],
   "failed_duties": [],
   "notes": [],
   "ai_summary": {
-    "primary_violation": "dominant payment processors and hosting firms jointly cut off service to a lawful opposition organization operating nationally during a federal election period. No formal government coercion is proved. The harm is politically severe, but the current Constitution has no clearly defined direct remedy for synchronized private exclusion by dominant civic infrastructure intermediaries absent state action, foreign control, or campaign-finance violation.",
+    "primary_violation": "dominant payment processors and hosting firms jointly cut off service to a lawful opposition organization operating nationally during a federal election period. Article VI Section 7.5A permits neutral continuity and nondiscrimination duties for dominant civic intermediaries where coordinated denial would materially impair lawful political competition.",
     "primary_bottleneck": null,
     "primary_open_duty": null,
     "system_risk": "institutional_stress",

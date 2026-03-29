@@ -48,38 +48,56 @@ def handle_dominant_parties_collude_to_exclude_debates_and_infrastructure(state:
     day = int(event["day"])
     details = event.get("details", {})
     exclusion = details.get("exclusion", "debates, data feeds, and routine election-information channels")
-    state.provisions.update({"Article I Section 9.4", "Article V Section 2.5", "Article VII"})
+    state.provisions.update({"Article I Section 9.5", "Article I Section 10.6", "Article V Section 2.5"})
     state.add_violation(
         "party_cartel_soft_exclusion",
-        "structural_gap",
+        "party_cartelization",
         "Dominant parties and affiliated intermediaries",
-        f"Dominant parties and affiliated intermediaries coordinate to deny qualified new entrants access to {exclusion} while preserving formal ballot access. The current Constitution clearly protects party formation and ballot qualification, but it is less explicit about cartelized exclusion from the softer infrastructure of meaningful contestation once ballot access itself is achieved.",
-        "Article I Section 9.4; Article V Section 2.5; Article VII",
+        f"Dominant parties and affiliated intermediaries coordinate to deny qualified new entrants access to {exclusion} while preserving formal ballot access. Article I Section 9.5 now protects nondiscriminatory access to core public or publicly regulated election infrastructure necessary for meaningful federal contestation.",
+        "Article I Section 9.5 and Section 10.6; Article V Section 2.5",
         day,
     )
     state.add_obligation(
         "electoral_commission_review_party_cartel_soft_exclusion",
         "Electoral Commission",
-        "determine whether existing constitutional and statutory authority is sufficient to remedy coordinated exclusion of qualified entrants from core campaign infrastructure short of ballot denial",
-        "Article I Section 9.4; Article V Section 2.5; Article VII",
+        "determine whether the excluded entrants are lawfully qualified and order temporary nondiscriminatory access to core public or publicly regulated election infrastructure under Article I Section 9.5 and Section 10.6",
+        "Article I Section 9.5 and Section 10.6; Article V Section 2.5",
         day,
-        day + 21,
+        day + 10,
         severity="high",
     )
 
 
-def handle_electoral_commission_finds_no_clear_remedy_for_soft_party_cartelization(state: SimulationState, event: dict[str, Any]) -> None:
+def handle_electoral_commission_orders_relief_for_soft_party_cartelization(state: SimulationState, event: dict[str, Any]) -> None:
     day = int(event["day"])
     state.resolve_obligation(
         "electoral_commission_review_party_cartel_soft_exclusion",
         day,
-        "found no clear direct constitutional remedy because the exclusion preserved formal ballot access and operated through party-controlled or quasi-private infrastructure rather than through explicit state ballot denial",
+        "found that qualified entrants were being discriminatorily excluded from core public or publicly regulated election infrastructure, ordered temporary nondiscriminatory access, and required neutral participation criteria for the affected channels",
+    )
+    state.add_obligation(
+        "court_review_soft_party_cartel_relief",
+        "Federal courts",
+        "review the temporary access order on an expedited basis and sustain it if it is limited to core public or publicly regulated election infrastructure necessary for meaningful federal contestation",
+        "Article I Section 9.5 and Section 10.6; Article V Section 2.5",
+        day,
+        day + 7,
+        severity="high",
+    )
+
+
+def handle_court_upholds_relief_for_soft_party_cartelization(state: SimulationState, event: dict[str, Any]) -> None:
+    day = int(event["day"])
+    state.resolve_obligation(
+        "court_review_soft_party_cartel_relief",
+        day,
+        "upheld the temporary access order as a narrow remedy preserving meaningful electoral competition without compelling private ideological sponsorship beyond the constitutional floor",
     )
     state.add_entry(
         day,
         "outcome",
-        "This scenario exposes a quieter party-system gap. The draft is stronger against formal exclusion than against coordinated soft cartelization that preserves legal competition in form while degrading it in practice.",
-        "Article I Section 9.4; Article V Section 2.5; Article VII",
+        "The scenario validates that Article I now reaches soft cartelization where qualified entrants are excluded from core public or publicly regulated election infrastructure even though formal ballot access remains intact.",
+        "Article I Section 9.5 and Section 10.6; Article V Section 2.5",
     )
 
 
@@ -87,5 +105,6 @@ HANDLERS = {
     "cartelized_ballot_access_barriers_imposed": handle_cartelized_ballot_access_barriers_imposed,
     "court_voids_cartelized_ballot_access_barriers": handle_court_voids_cartelized_ballot_access_barriers,
     "dominant_parties_collude_to_exclude_debates_and_infrastructure": handle_dominant_parties_collude_to_exclude_debates_and_infrastructure,
-    "electoral_commission_finds_no_clear_remedy_for_soft_party_cartelization": handle_electoral_commission_finds_no_clear_remedy_for_soft_party_cartelization,
+    "electoral_commission_orders_relief_for_soft_party_cartelization": handle_electoral_commission_orders_relief_for_soft_party_cartelization,
+    "court_upholds_relief_for_soft_party_cartelization": handle_court_upholds_relief_for_soft_party_cartelization,
 }

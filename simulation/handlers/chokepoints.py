@@ -69,38 +69,56 @@ def handle_private_infrastructure_firms_cut_off_opposition(state: SimulationStat
     details = event.get("details", {})
     firms = details.get("firms", "payment processors and hosting firms")
     organization = details.get("organization", "a lawful opposition organization")
-    state.provisions.update({"Article V Section 2.6", "Article VII", "Article XIII"})
+    state.provisions.update({"Article VI Section 7.5A", "Article XII", "Article V Section 2.6"})
     state.add_violation(
         "private_chokepoint_election_cutoff",
-        "structural_gap",
+        "institutional_stress",
         "Private infrastructure chokepoints",
-        f"{firms} jointly cut off service to {organization} during a federal election period. No formal government coercion is proved. The harm is politically severe, but the current Constitution has no clearly defined direct remedy for synchronized private exclusion by dominant civic infrastructure intermediaries absent state action, foreign control, or campaign-finance violation.",
-        "Article V Section 2.6; Article VII; Article XIII",
+        f"{firms} jointly cut off service to {organization} during a federal election period. Article VI Section 7.5A permits neutral continuity and nondiscrimination duties for dominant civic intermediaries where coordinated denial would materially impair lawful political competition.",
+        "Article VI Section 7.5A; Article XII; Article V Section 2.6",
         day,
     )
     state.add_obligation(
-        "court_review_private_chokepoint_cutoff",
-        "Federal courts",
-        "determine whether existing constitutional provisions or implementing law provide a direct remedy for coordinated private exclusion of a lawful political organization during an election",
-        "Article V Section 2.6; Article VII; Article XIII",
+        "electoral_commission_review_private_chokepoint_cutoff",
+        "Electoral Commission",
+        "determine whether the excluded organization is a lawful qualified political actor and order temporary nondiscriminatory restoration of essential service if Article VI Section 7.5A is triggered",
+        "Article VI Section 7.5A; Article XII",
         day,
-        day + 14,
+        day + 7,
         severity="high",
     )
 
 
-def handle_court_finds_no_clear_constitutional_remedy_for_private_cutoff(state: SimulationState, event: dict[str, Any]) -> None:
+def handle_electoral_commission_orders_temporary_restoration_for_private_cutoff(state: SimulationState, event: dict[str, Any]) -> None:
     day = int(event["day"])
     state.resolve_obligation(
-        "court_review_private_chokepoint_cutoff",
+        "electoral_commission_review_private_chokepoint_cutoff",
         day,
-        "found no clear direct constitutional remedy because the exclusion was carried out by private firms without proven state coercion, foreign control, or a violation of an existing statutory duty",
+        "found that the coordinated cutoff threatened meaningful federal political competition, ordered temporary restoration of nondiscriminatory payment and hosting access under Article VI Section 7.5A, and directed expedited judicial review of the order",
+    )
+    state.add_obligation(
+        "court_review_private_chokepoint_restoration_order",
+        "Federal courts",
+        "review the temporary restoration order on an expedited basis and sustain it if the targeted firms are dominant civic intermediaries whose coordinated denial materially impairs lawful federal political competition",
+        "Article VI Section 7.5A; Article V Section 2.6",
+        day,
+        day + 7,
+        severity="high",
+    )
+
+
+def handle_court_upholds_private_chokepoint_restoration_order(state: SimulationState, event: dict[str, Any]) -> None:
+    day = int(event["day"])
+    state.resolve_obligation(
+        "court_review_private_chokepoint_restoration_order",
+        day,
+        "upheld the temporary restoration order as a narrowly tailored, viewpoint-neutral continuity measure against coordinated exclusion by dominant civic intermediaries during a federal election period",
     )
     state.add_entry(
         day,
         "outcome",
-        "This scenario exposes a real under-tested gap. The draft is stronger against government censorship and foreign control than against purely private chokepoint exclusion of lawful political actors during an election.",
-        "Article V Section 2.6; Article VII; Article XIII",
+        "The scenario validates the new Article VI Section 7.5A backstop. The Constitution now permits a narrow, reviewable remedy against coordinated private chokepoint exclusion of lawful political actors during a federal election without creating a general power to control private speech or editorial judgment.",
+        "Article VI Section 7.5A; Article XII; Article V Section 2.6",
     )
 
 
@@ -149,38 +167,56 @@ def handle_platform_manipulates_emergency_information_visibility(state: Simulati
     details = event.get("details", {})
     platform = details.get("platform", "A dominant digital platform")
     information = details.get("information", "lawful emergency and election-administration information")
-    state.provisions.update({"Article VI Section 7.5", "Article I", "Article V"})
+    state.provisions.update({"Article VI Section 7.5", "Article VI Section 7.5A", "Article I"})
     state.add_violation(
         "platform_emergency_visibility_manipulation",
-        "structural_gap",
+        "institutional_stress",
         platform,
-        f"{platform} materially downranks or obscures {information} during a live constitutional emergency or election-administration disruption. Article VI Section 7.5 supports disclosure and audit of algorithmic criteria, but the current draft has no clearly defined rapid neutralization or carriage remedy for manipulative visibility decisions by a dominant private platform absent foreign control or state coercion.",
-        "Article VI Section 7.5; Article I; Article V",
+        f"{platform} materially downranks or obscures {information} during a live constitutional emergency or election-administration disruption. Article VI Section 7.5A permits temporary corrective relief where manipulative visibility practices by a dominant platform materially impair access to official emergency or election-administration information.",
+        "Article VI Section 7.5 and Section 7.5A; Article I",
         day,
     )
     state.add_obligation(
         "electoral_commission_review_emergency_visibility_manipulation",
         "Electoral Commission",
-        "review the manipulation claim, compel disclosure of relevant ranking criteria, and determine whether existing constitutional and statutory authority provides a rapid corrective remedy",
-        "Article VI Section 7.5 and Article XII",
+        "review the manipulation claim, compel disclosure of relevant ranking criteria, and order temporary neutral restoration of access to official emergency or election-administration information if Article VI Section 7.5A is triggered",
+        "Article VI Section 7.5 and Section 7.5A; Article XII",
         day,
         day + 10,
         severity="high",
     )
 
 
-def handle_electoral_commission_finds_no_rapid_visibility_remedy(state: SimulationState, event: dict[str, Any]) -> None:
+def handle_electoral_commission_orders_visibility_restoration(state: SimulationState, event: dict[str, Any]) -> None:
     day = int(event["day"])
     state.resolve_obligation(
         "electoral_commission_review_emergency_visibility_manipulation",
         day,
-        "compelled disclosure of ranking criteria and audit information but found no clearly defined rapid constitutional remedy requiring real-time neutral carriage or visibility restoration",
+        "compelled disclosure of ranking criteria and audit information, found manipulative suppression of official emergency or election-administration information, and ordered temporary neutral restoration of visibility under Article VI Section 7.5A",
+    )
+    state.add_obligation(
+        "court_review_visibility_restoration_order",
+        "Federal courts",
+        "review the temporary visibility-restoration order on an expedited basis and sustain it if it is narrowly limited to preserving access to official emergency or election-administration information",
+        "Article VI Section 7.5A; Article I",
+        day,
+        day + 5,
+        severity="high",
+    )
+
+
+def handle_court_upholds_visibility_restoration_order(state: SimulationState, event: dict[str, Any]) -> None:
+    day = int(event["day"])
+    state.resolve_obligation(
+        "court_review_visibility_restoration_order",
+        day,
+        "upheld the temporary restoration order as a narrow election-and-emergency continuity measure rather than a general power to control private editorial rankings",
     )
     state.add_entry(
         day,
         "outcome",
-        "This scenario exposes a narrower but real gap. The Constitution has transparency and audit hooks for algorithmic political distribution, but not yet a clear fast corrective mechanism when dominant private platforms distort emergency or election information visibility in real time.",
-        "Article VI Section 7.5; Article I; Article V",
+        "The scenario validates that Article VI now supplies a narrow rapid corrective remedy for manipulative visibility practices affecting official emergency or election-administration information on dominant platforms.",
+        "Article VI Section 7.5 and Section 7.5A; Article I",
     )
 
 
@@ -189,9 +225,11 @@ HANDLERS = {
     "court_enjoins_coercive_platform_pressure": handle_court_enjoins_coercive_platform_pressure,
     "acc_refers_platform_pressure_officials": handle_acc_refers_platform_pressure_officials,
     "private_infrastructure_firms_cut_off_opposition": handle_private_infrastructure_firms_cut_off_opposition,
-    "court_finds_no_clear_constitutional_remedy_for_private_cutoff": handle_court_finds_no_clear_constitutional_remedy_for_private_cutoff,
+    "electoral_commission_orders_temporary_restoration_for_private_cutoff": handle_electoral_commission_orders_temporary_restoration_for_private_cutoff,
+    "court_upholds_private_chokepoint_restoration_order": handle_court_upholds_private_chokepoint_restoration_order,
     "platform_denies_equal_candidate_tools": handle_platform_denies_equal_candidate_tools,
     "electoral_commission_orders_equal_candidate_access": handle_electoral_commission_orders_equal_candidate_access,
     "platform_manipulates_emergency_information_visibility": handle_platform_manipulates_emergency_information_visibility,
-    "electoral_commission_finds_no_rapid_visibility_remedy": handle_electoral_commission_finds_no_rapid_visibility_remedy,
+    "electoral_commission_orders_visibility_restoration": handle_electoral_commission_orders_visibility_restoration,
+    "court_upholds_visibility_restoration_order": handle_court_upholds_visibility_restoration_order,
 }

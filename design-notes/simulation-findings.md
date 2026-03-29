@@ -820,3 +820,65 @@ This is not an ambiguity bug. It is a substantive design choice that may still n
    - Article XVI adversarial stress tests
    - Article XII simplification
    - Article XIX organ-delay follow-up if desired
+
+## 2026-03-29 Article I / VI Soft-Exclusion Validation Pass
+
+### Files Reviewed
+
+- [simulation/reports/private-chokepoint-election-cutoff.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/private-chokepoint-election-cutoff.summary.json)
+- [simulation/reports/platform-manipulates-emergency-information-visibility.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/platform-manipulates-emergency-information-visibility.summary.json)
+- [simulation/reports/soft-party-cartelization.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/soft-party-cartelization.summary.json)
+- [simulation/reports/aggregate.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/aggregate.json)
+
+### Findings
+
+#### 1. Article VI now reaches coordinated private chokepoint exclusion in a narrow, reviewable way
+
+Sources:
+- [simulation/reports/private-chokepoint-election-cutoff.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/private-chokepoint-election-cutoff.summary.json)
+- [articles/VI-integrity.md](/Users/chris/Documents/GitHub/The-Constitution/articles/VI-integrity.md)
+
+- Article VI §7.5A now permits neutral continuity and nondiscrimination duties for dominant civic intermediaries where coordinated denial would materially impair meaningful federal political competition.
+- The Electoral Commission can issue temporary restoration relief on an expedited basis.
+- Federal courts sustain the order as a narrow continuity measure rather than a general power to control private speech or editorial judgment.
+
+Assessment:
+This closes the most important private-chokepoint gap without constitutionalizing a general common-carrier rule for all platforms.
+
+#### 2. Article VI now supplies a fast corrective remedy for manipulative visibility of official emergency and election information
+
+Sources:
+- [simulation/reports/platform-manipulates-emergency-information-visibility.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/platform-manipulates-emergency-information-visibility.summary.json)
+- [articles/VI-integrity.md](/Users/chris/Documents/GitHub/The-Constitution/articles/VI-integrity.md)
+
+- Article VI §7.5 still provides disclosure and audit.
+- Article VI §7.5A now adds a narrow restoration path when a dominant platform manipulates visibility of official emergency or election-administration information during a live crisis.
+- The remedy is temporary and judicially reviewable.
+
+Assessment:
+The Constitution now distinguishes ordinary editorial ranking from crisis-stage manipulation of official civic information, which is the right line.
+
+#### 3. Article I now reaches soft cartelization within core public or publicly regulated election infrastructure
+
+Sources:
+- [simulation/reports/soft-party-cartelization.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/soft-party-cartelization.summary.json)
+- [articles/I-electoral-system.md](/Users/chris/Documents/GitHub/The-Constitution/articles/I-electoral-system.md)
+
+- Article I §9.5 creates a qualified-entrant access floor for core public or publicly regulated election infrastructure necessary for meaningful contestation.
+- Article I §10.6 lets the Electoral Commission issue expedited temporary orders where delay would materially impair a pending federal election.
+- Courts uphold the remedy without requiring compelled ideological sponsorship beyond the constitutional floor.
+
+Assessment:
+This closes the main soft-cartelization gap while avoiding a sweeping rule for every private debate host or campaign-service provider.
+
+### Net Effect
+
+- The two clearest modern soft-exclusion gaps are no longer open constitutional gaps.
+- The new remedies are narrow, reviewable, and tied to election integrity and official civic information rather than general platform governance.
+- The remaining open edge case is softer quasi-private exclusion outside public or publicly regulated election infrastructure.
+
+### Recommended Follow-Up
+
+1. Add one more scenario family for quasi-private exclusion outside the new constitutional floor.
+2. Watch Article VI §7.5A in later draft-discipline passes so it does not drift into a general platform-regulation clause.
+3. Continue with Article X, Article IX, and Article V validation work.

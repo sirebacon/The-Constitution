@@ -160,6 +160,15 @@ Major digital platforms that use algorithmic systems to determine the distributi
   (b) Submit to independent audits of their systems for discriminatory or manipulative amplification
   (c) Provide equal access to advertising tools and distribution for all lawfully registered political candidates and parties
 
+### 7.5A — Dominant civic intermediaries
+
+Congress may by law impose neutral continuity, nondiscrimination, audit, and emergency-carriage duties on dominant private intermediaries whose services are effectively indispensable to lawful federal political participation, election administration, or the distribution of official emergency information. Such duties may be imposed only where:
+  (a) the intermediary provides infrastructure or distribution services so concentrated that coordinated denial or manipulation would materially impair meaningful federal political competition, election administration, or access to official emergency information
+  (b) the duties are viewpoint-neutral, publicly stated in advance, and reviewable on an expedited basis by the Electoral Commission and the federal courts
+  (c) the duties do not authorize general control of lawful private editorial judgment or compelled ideological speech beyond what is strictly necessary to preserve fair electoral competition, election administration, or access to official emergency information
+
+During a declared constitutional emergency, a federal election period, or a federally certified election-administration disruption, Congress may authorize the Electoral Commission to order temporary corrective relief under such laws, including restoration of nondiscriminatory access, suspension of manipulative visibility practices affecting official emergency or election-administration information, and preservation of service sufficient to prevent coordinated exclusion of lawful qualified political actors.
+
 ### 7.6 — Enforcement
 
 Congress shall establish an independent regulatory body with authority to enforce media ownership limits. This body shall be structured as an independent agency under Article XIII, removable only for cause.

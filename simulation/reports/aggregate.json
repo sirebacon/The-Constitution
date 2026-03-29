@@ -60,11 +60,11 @@
       "count": 9
     },
     {
-      "category": "constitutional_floor_breach",
-      "count": 4
+      "category": "institutional_stress",
+      "count": 6
     },
     {
-      "category": "institutional_stress",
+      "category": "constitutional_floor_breach",
       "count": 4
     },
     {
@@ -72,8 +72,8 @@
       "count": 3
     },
     {
-      "category": "structural_gap",
-      "count": 3
+      "category": "party_cartelization",
+      "count": 2
     },
     {
       "category": "anti_subversion",
@@ -110,10 +110,6 @@
     {
       "category": "membership_exclusion",
       "count": 1
-    },
-    {
-      "category": "party_cartelization",
-      "count": 1
     }
   ],
   "top_triggered_provisions": [
@@ -146,19 +142,11 @@
       "count": 3
     },
     {
-      "provision": "Article I Section 9.4",
-      "count": 2
-    },
-    {
       "provision": "Article I election administration provisions",
       "count": 2
     },
     {
       "provision": "Article II Section 16.2",
-      "count": 2
-    },
-    {
-      "provision": "Article V",
       "count": 2
     },
     {
@@ -186,7 +174,7 @@
       "count": 2
     },
     {
-      "provision": "Article VII",
+      "provision": "Article VI Section 7.5A",
       "count": 2
     },
     {
@@ -199,6 +187,10 @@
     },
     {
       "provision": "Article XI Section 4",
+      "count": 2
+    },
+    {
+      "provision": "Article XII",
       "count": 2
     },
     {
@@ -222,7 +214,19 @@
       "count": 1
     },
     {
+      "provision": "Article I Section 10.6",
+      "count": 1
+    },
+    {
       "provision": "Article I Section 9.1",
+      "count": 1
+    },
+    {
+      "provision": "Article I Section 9.4",
+      "count": 1
+    },
+    {
+      "provision": "Article I Section 9.5",
       "count": 1
     },
     {
@@ -374,6 +378,10 @@
       "count": 1
     },
     {
+      "provision": "Article V",
+      "count": 1
+    },
+    {
       "provision": "Article V Section 10.3",
       "count": 1
     },
@@ -450,15 +458,7 @@
       "count": 1
     },
     {
-      "provision": "Article XII",
-      "count": 1
-    },
-    {
       "provision": "Article XII Section 2",
-      "count": 1
-    },
-    {
-      "provision": "Article XIII",
       "count": 1
     },
     {
@@ -2824,26 +2824,26 @@
       "status": "stress_point_found",
       "triggered_provisions": [
         "Article I",
-        "Article V",
-        "Article VI Section 7.5"
+        "Article VI Section 7.5",
+        "Article VI Section 7.5A"
       ],
       "metrics": {
-        "satisfied_obligations": 1,
+        "satisfied_obligations": 2,
         "failed_obligations": 0,
         "unresolved_obligations": 0,
         "violations": 1,
         "bottlenecks": 0,
-        "timeline_entries": 5
+        "timeline_entries": 7
       },
       "violations": [
         {
           "id": "platform_emergency_visibility_manipulation",
-          "category": "structural_gap",
+          "category": "institutional_stress",
           "actor": "a dominant digital platform",
-          "source": "Article VI Section 7.5; Article I; Article V",
+          "source": "Article VI Section 7.5 and Section 7.5A; Article I",
           "severity": "high",
           "day": 1,
-          "summary": "a dominant digital platform materially downranks or obscures lawful emergency and election-administration information during a live constitutional emergency or election-administration disruption. Article VI Section 7.5 supports disclosure and audit of algorithmic criteria, but the current draft has no clearly defined rapid neutralization or carriage remedy for manipulative visibility decisions by a dominant private platform absent foreign control or state coercion."
+          "summary": "a dominant digital platform materially downranks or obscures lawful emergency and election-administration information during a live constitutional emergency or election-administration disruption. Article VI Section 7.5A permits temporary corrective relief where manipulative visibility practices by a dominant platform materially impair access to official emergency or election-administration information."
         }
       ],
       "bottlenecks": [],
@@ -2851,16 +2851,23 @@
       "satisfied_duties": [
         {
           "actor": "Electoral Commission",
-          "duty": "review the manipulation claim, compel disclosure of relevant ranking criteria, and determine whether existing constitutional and statutory authority provides a rapid corrective remedy",
-          "closed_day": 8,
-          "outcome": "compelled disclosure of ranking criteria and audit information but found no clearly defined rapid constitutional remedy requiring real-time neutral carriage or visibility restoration",
-          "source": "Article VI Section 7.5 and Article XII"
+          "duty": "review the manipulation claim, compel disclosure of relevant ranking criteria, and order temporary neutral restoration of access to official emergency or election-administration information if Article VI Section 7.5A is triggered",
+          "closed_day": 4,
+          "outcome": "compelled disclosure of ranking criteria and audit information, found manipulative suppression of official emergency or election-administration information, and ordered temporary neutral restoration of visibility under Article VI Section 7.5A",
+          "source": "Article VI Section 7.5 and Section 7.5A; Article XII"
+        },
+        {
+          "actor": "Federal courts",
+          "duty": "review the temporary visibility-restoration order on an expedited basis and sustain it if it is narrowly limited to preserving access to official emergency or election-administration information",
+          "closed_day": 7,
+          "outcome": "upheld the temporary restoration order as a narrow election-and-emergency continuity measure rather than a general power to control private editorial rankings",
+          "source": "Article VI Section 7.5A; Article I"
         }
       ],
       "failed_duties": [],
       "notes": [],
       "ai_summary": {
-        "primary_violation": "a dominant digital platform materially downranks or obscures lawful emergency and election-administration information during a live constitutional emergency or election-administration disruption. Article VI Section 7.5 supports disclosure and audit of algorithmic criteria, but the current draft has no clearly defined rapid neutralization or carriage remedy for manipulative visibility decisions by a dominant private platform absent foreign control or state coercion.",
+        "primary_violation": "a dominant digital platform materially downranks or obscures lawful emergency and election-administration information during a live constitutional emergency or election-administration disruption. Article VI Section 7.5A permits temporary corrective relief where manipulative visibility practices by a dominant platform materially impair access to official emergency or election-administration information.",
         "primary_bottleneck": null,
         "primary_open_duty": null,
         "system_risk": "institutional_stress",
@@ -3240,43 +3247,50 @@
       "status": "stress_point_found",
       "triggered_provisions": [
         "Article V Section 2.6",
-        "Article VII",
-        "Article XIII"
+        "Article VI Section 7.5A",
+        "Article XII"
       ],
       "metrics": {
-        "satisfied_obligations": 1,
+        "satisfied_obligations": 2,
         "failed_obligations": 0,
         "unresolved_obligations": 0,
         "violations": 1,
         "bottlenecks": 0,
-        "timeline_entries": 5
+        "timeline_entries": 7
       },
       "violations": [
         {
           "id": "private_chokepoint_election_cutoff",
-          "category": "structural_gap",
+          "category": "institutional_stress",
           "actor": "Private infrastructure chokepoints",
-          "source": "Article V Section 2.6; Article VII; Article XIII",
+          "source": "Article VI Section 7.5A; Article XII; Article V Section 2.6",
           "severity": "high",
           "day": 1,
-          "summary": "dominant payment processors and hosting firms jointly cut off service to a lawful opposition organization operating nationally during a federal election period. No formal government coercion is proved. The harm is politically severe, but the current Constitution has no clearly defined direct remedy for synchronized private exclusion by dominant civic infrastructure intermediaries absent state action, foreign control, or campaign-finance violation."
+          "summary": "dominant payment processors and hosting firms jointly cut off service to a lawful opposition organization operating nationally during a federal election period. Article VI Section 7.5A permits neutral continuity and nondiscrimination duties for dominant civic intermediaries where coordinated denial would materially impair lawful political competition."
         }
       ],
       "bottlenecks": [],
       "open_duties": [],
       "satisfied_duties": [
         {
+          "actor": "Electoral Commission",
+          "duty": "determine whether the excluded organization is a lawful qualified political actor and order temporary nondiscriminatory restoration of essential service if Article VI Section 7.5A is triggered",
+          "closed_day": 5,
+          "outcome": "found that the coordinated cutoff threatened meaningful federal political competition, ordered temporary restoration of nondiscriminatory payment and hosting access under Article VI Section 7.5A, and directed expedited judicial review of the order",
+          "source": "Article VI Section 7.5A; Article XII"
+        },
+        {
           "actor": "Federal courts",
-          "duty": "determine whether existing constitutional provisions or implementing law provide a direct remedy for coordinated private exclusion of a lawful political organization during an election",
-          "closed_day": 10,
-          "outcome": "found no clear direct constitutional remedy because the exclusion was carried out by private firms without proven state coercion, foreign control, or a violation of an existing statutory duty",
-          "source": "Article V Section 2.6; Article VII; Article XIII"
+          "duty": "review the temporary restoration order on an expedited basis and sustain it if the targeted firms are dominant civic intermediaries whose coordinated denial materially impairs lawful federal political competition",
+          "closed_day": 9,
+          "outcome": "upheld the temporary restoration order as a narrowly tailored, viewpoint-neutral continuity measure against coordinated exclusion by dominant civic intermediaries during a federal election period",
+          "source": "Article VI Section 7.5A; Article V Section 2.6"
         }
       ],
       "failed_duties": [],
       "notes": [],
       "ai_summary": {
-        "primary_violation": "dominant payment processors and hosting firms jointly cut off service to a lawful opposition organization operating nationally during a federal election period. No formal government coercion is proved. The harm is politically severe, but the current Constitution has no clearly defined direct remedy for synchronized private exclusion by dominant civic infrastructure intermediaries absent state action, foreign control, or campaign-finance violation.",
+        "primary_violation": "dominant payment processors and hosting firms jointly cut off service to a lawful opposition organization operating nationally during a federal election period. Article VI Section 7.5A permits neutral continuity and nondiscrimination duties for dominant civic intermediaries where coordinated denial would materially impair lawful political competition.",
         "primary_bottleneck": null,
         "primary_open_duty": null,
         "system_risk": "institutional_stress",
@@ -3758,27 +3772,27 @@
       "source_file": "simulation/scenarios/soft-party-cartelization.json",
       "status": "stress_point_found",
       "triggered_provisions": [
-        "Article I Section 9.4",
-        "Article V Section 2.5",
-        "Article VII"
+        "Article I Section 10.6",
+        "Article I Section 9.5",
+        "Article V Section 2.5"
       ],
       "metrics": {
-        "satisfied_obligations": 1,
+        "satisfied_obligations": 2,
         "failed_obligations": 0,
         "unresolved_obligations": 0,
         "violations": 1,
         "bottlenecks": 0,
-        "timeline_entries": 5
+        "timeline_entries": 7
       },
       "violations": [
         {
           "id": "party_cartel_soft_exclusion",
-          "category": "structural_gap",
+          "category": "party_cartelization",
           "actor": "Dominant parties and affiliated intermediaries",
-          "source": "Article I Section 9.4; Article V Section 2.5; Article VII",
+          "source": "Article I Section 9.5 and Section 10.6; Article V Section 2.5",
           "severity": "high",
           "day": 1,
-          "summary": "Dominant parties and affiliated intermediaries coordinate to deny qualified new entrants access to debates, data feeds, and routine election-information channels while preserving formal ballot access. The current Constitution clearly protects party formation and ballot qualification, but it is less explicit about cartelized exclusion from the softer infrastructure of meaningful contestation once ballot access itself is achieved."
+          "summary": "Dominant parties and affiliated intermediaries coordinate to deny qualified new entrants access to debates, data feeds, and routine election-information channels while preserving formal ballot access. Article I Section 9.5 now protects nondiscriminatory access to core public or publicly regulated election infrastructure necessary for meaningful federal contestation."
         }
       ],
       "bottlenecks": [],
@@ -3786,16 +3800,23 @@
       "satisfied_duties": [
         {
           "actor": "Electoral Commission",
-          "duty": "determine whether existing constitutional and statutory authority is sufficient to remedy coordinated exclusion of qualified entrants from core campaign infrastructure short of ballot denial",
-          "closed_day": 18,
-          "outcome": "found no clear direct constitutional remedy because the exclusion preserved formal ballot access and operated through party-controlled or quasi-private infrastructure rather than through explicit state ballot denial",
-          "source": "Article I Section 9.4; Article V Section 2.5; Article VII"
+          "duty": "determine whether the excluded entrants are lawfully qualified and order temporary nondiscriminatory access to core public or publicly regulated election infrastructure under Article I Section 9.5 and Section 10.6",
+          "closed_day": 8,
+          "outcome": "found that qualified entrants were being discriminatorily excluded from core public or publicly regulated election infrastructure, ordered temporary nondiscriminatory access, and required neutral participation criteria for the affected channels",
+          "source": "Article I Section 9.5 and Section 10.6; Article V Section 2.5"
+        },
+        {
+          "actor": "Federal courts",
+          "duty": "review the temporary access order on an expedited basis and sustain it if it is limited to core public or publicly regulated election infrastructure necessary for meaningful federal contestation",
+          "closed_day": 13,
+          "outcome": "upheld the temporary access order as a narrow remedy preserving meaningful electoral competition without compelling private ideological sponsorship beyond the constitutional floor",
+          "source": "Article I Section 9.5 and Section 10.6; Article V Section 2.5"
         }
       ],
       "failed_duties": [],
       "notes": [],
       "ai_summary": {
-        "primary_violation": "Dominant parties and affiliated intermediaries coordinate to deny qualified new entrants access to debates, data feeds, and routine election-information channels while preserving formal ballot access. The current Constitution clearly protects party formation and ballot qualification, but it is less explicit about cartelized exclusion from the softer infrastructure of meaningful contestation once ballot access itself is achieved.",
+        "primary_violation": "Dominant parties and affiliated intermediaries coordinate to deny qualified new entrants access to debates, data feeds, and routine election-information channels while preserving formal ballot access. Article I Section 9.5 now protects nondiscriminatory access to core public or publicly regulated election infrastructure necessary for meaningful federal contestation.",
         "primary_bottleneck": null,
         "primary_open_duty": null,
         "system_risk": "institutional_stress",

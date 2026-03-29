@@ -47,12 +47,12 @@ These are the current working scores for the draft after the latest simplificati
 | Area | Score | Status | Main Strength | Main Weakness | Next Improvement Target |
 |------|-------|--------|---------------|---------------|-------------------------|
 | Preamble | 9.0 | Strong | Clear statement of purpose and democratic intent in durable founding prose with anti-capture language now anchored more directly to law and equal citizenship | Remaining work is limited to cadence and memorability rather than substance or exploit risk | Final polish for rhythm and memorability |
-| Article I — Electoral System | 9.0 | Strong | Modern, coherent democratic architecture | Administration details are dense in places | Simplify without losing safeguards |
+| Article I — Electoral System | 9.1 | Strong | Modern, coherent democratic architecture now validated not only against formal ballot exclusion but also against softer exclusion from core public or publicly regulated election infrastructure through new §§9.5 and 10.6 | Administration details remain a bit dense, and quasi-private cartelization outside the new constitutional floor still needs scenario pressure | Simplify without losing safeguards and add one more softer-cartel scenario family |
 | Article II — Legislature | 9.0 | Strong | Mandatory-vote enforcement, continuity rules, and recess-evasion bar all verified by simulation; §16 compressed: drafting note deleted, auto-referral machinery removed from §16.5(b), active-investigation clock mechanics removed from §16.6(a)(ii), §16.8 retaliation protection stated as principle | Draft discipline score rises to 8.2; §15A.4 coordinated-absenteeism provision remains dense but is simulation-validated and necessary | Continue compressing any remaining procedural detail that can safely move to statute |
 | Article III — Executive | 9.0 | Strong | Emergency lapse, impeachment fallback, anti-evasion rules, and recess-evasion enforcement all verified; §10.2A now has a 7-day ACC certification deadline with House-member backup path; high-impact presidential directives now point cleanly to a dedicated fast-track review path in Article IV | Emergency review remains the most recurring practical bottleneck — the text is correct but political nonperformance is the residual risk | Keep stress-testing re-declaration and lapse-certificate-refused edge cases |
 | Article IV — Judiciary | 9.0 | Strong | The recent judicial hardening provisions are now directly validated in simulation, and the article now provides a narrow fast-track for high-impact presidential directives before ordinary delay can harden into fait accompli governance | Strategic delay remains an intentional stress case, and broader judicial-governance edge cases still deserve later review | Extend later scenario coverage into broader judicial-governance and delay edge cases |
 | Article V — Civil and Political Rights | 8.7 | Strong | Broad, modern rights coverage now has direct simulation support for political speech, equal protection, overbroad rights suspension, and data-broker warrant evasion | Speech, religion, and some family/autonomy boundaries still need additional edge-case testing | Extend scenario coverage to religion and family/autonomy edge cases |
-| Article VI — Democratic Integrity | 9.1 | Near-final | Excellent anti-subversion framing and election-defense focus, now with direct resilience coverage for covert foreign shell routing of destabilizing political messaging | Some media and enforcement provisions may still need narrowing at the boundary with protected speech | Stress-test media-pluralism and information-integrity speech boundaries |
+| Article VI — Democratic Integrity | 9.2 | Near-final | Excellent anti-subversion framing and election-defense focus, now with direct resilience coverage for covert foreign shell routing, dominant-civic-intermediary continuity, and rapid corrective relief against manipulative visibility of official emergency and election information | Some media and enforcement provisions may still need narrowing at the boundary with protected speech, and Article VI §7.5A should stay tightly limited to indispensable civic intermediaries | Stress-test media-pluralism and information-integrity speech boundaries and watch §7.5A for overbreadth |
 | Article VII — Campaign Finance and Political Money | 8.8 | Strong | Sustained compression passes have brought the article to genuine constitutional principle level: traceable disclosure, foreign-money prohibition, public financing mandate, outside-spending limits, and enforcement all stated as constitutional rules without statutory machinery | Remaining density is in §2.2 (parameter enumeration) and §3.1 (election-window definition); draft discipline is now 8.5 | Final polish pass on §2.2 and §3.1 if a later review surfaces residual density |
 | Article VIII — Government Ethics | 9.1 | Near-final | Strong anti-corruption architecture now stated at a cleaner constitutional level, and Article 1.13 adds a direct constitutional foothold against concealed foreign beneficial ownership in major federal contracting | The new contractor-transparency clause is useful but slightly more code-like than ideal and should be revisited in a later compression pass | Final whole-draft consistency pass; verify no overlap with Art XIII on independent agency structure and later compress Article 1.13 if safe |
 | Article IX — Citizenship and National Membership | 8.6 | Strong | Equal citizenship, overseas political membership, and officeholding equality sit clearly in one home; §5.2 loss-of-citizenship now requires notice, independent tribunal hearing, right to counsel, and judicial review before revocation takes effect — the procedural floor is now explicit rather than delegated to future law | Sensitive-office restriction edge cases and proof-dispute scenarios still need direct validation | Add targeted scenarios for sensitive-office restrictions and citizenship proof disputes |
@@ -74,12 +74,12 @@ These are the current working scores for the draft after the latest simplificati
 | Area | Clarity | Consistency | Enforceability | Legitimacy | Abuse Resistance | Draft Discipline | Overall |
 |------|---------|-------------|----------------|------------|------------------|------------------|---------|
 | Preamble | 9.4 | 9.0 | 8.0 | 9.0 | 8.2 | 9.2 | 9.0 |
-| Article I — Electoral System | 8.5 | 9.0 | 9.0 | 9.5 | 9.5 | 8.5 | 9.0 |
+| Article I — Electoral System | 8.6 | 9.2 | 9.1 | 9.5 | 9.5 | 8.5 | 9.1 |
 | Article II — Legislature | 8.5 | 9.0 | 9.0 | 9.5 | 9.2 | 8.2 | 9.0 |
 | Article III — Executive | 8.8 | 9.0 | 9.0 | 8.7 | 9.5 | 8.7 | 9.0 |
 | Article IV — Judiciary | 8.6 | 9.0 | 9.3 | 8.5 | 9.3 | 8.0 | 9.0 |
 | Article V — Civil and Political Rights | 8.6 | 8.6 | 8.5 | 8.8 | 9.0 | 8.2 | 8.7 |
-| Article VI — Democratic Integrity | 8.7 | 8.7 | 9.1 | 9.0 | 9.6 | 8.0 | 9.1 |
+| Article VI — Democratic Integrity | 8.7 | 9.0 | 9.2 | 9.0 | 9.6 | 8.0 | 9.2 |
 | Article VII — Campaign Finance and Political Money | 8.8 | 9.0 | 9.0 | 9.0 | 9.5 | 8.5 | 8.8 |
 | Article VIII — Government Ethics | 8.9 | 9.0 | 9.0 | 8.8 | 9.5 | 9.4 | 9.1 |
 | Article IX — Citizenship and National Membership | 8.5 | 8.5 | 8.6 | 9.0 | 8.7 | 8.0 | 8.6 |
@@ -164,6 +164,7 @@ Update this table whenever a score changes.
 
 | Date | Area | Old Score | New Score | Reason for Change | Remaining Issue |
 |------|------|-----------|-----------|-------------------|-----------------|
+| 2026-03-29 | Article I / Article VI | 9.0 / 9.1 | 9.1 / 9.2 | Closed the two most important modern soft-exclusion gaps identified by the new scenario family. Article I now protects qualified entrants against exclusion from core public or publicly regulated election infrastructure through §§9.5 and 10.6, and Article VI §7.5A now supplies a narrow continuity and emergency-information remedy for dominant civic intermediaries; the formerly gap-marked scenarios now close with satisfied obligations and no bottlenecks | Quasi-private exclusion beyond public or publicly regulated infrastructure still needs scenario pressure, and Article VI §7.5A should remain tightly limited so it does not become a general platform-control power |
 | 2026-03-29 | Art II / IX / XII / XVIII / Overall | 9.0 / 8.4 / 8.6 / 8.4 / 8.9 | 9.0 / 8.6 / 8.8 / 8.7 / 9.0 | Art II §16 compressed: drafting note deleted, §16.5(b) auto-referral machinery removed, §16.6(a)(ii) investigation-clock mechanics removed, §16.8 retaliation list replaced with principle; draft discipline 7.8 → 8.2. Art IX §5.2 tightened: explicit procedural floor (notice, independent tribunal, right to counsel, judicial review before revocation). Art XII §2.8 and §3.8 merged into shared §5.6 vacancy rule. Art XVIII all four floor scenarios validated: climate backsliding, education inequality, housing floor failure, child welfare representation defect all produce clear judicial outcomes confirming anti-backsliding rule and judicial-declaration-without-prescription boundary | Art II §15A.4 remains dense but is simulation-validated; Art IX sensitive-office and proof-dispute scenarios still unbuilt; Art XII internal boycott scenario still unbuilt; Art XVIII government non-compliance with remedial-plan order untested |
 | 2026-03-29 | Article VI / Article XIII | 9.0 / 8.6 | 9.1 / 8.7 | Oligarchic-resilience hardening added direct anti-shell foreign influence language in Article VI, a beneficial-ownership foothold in Article VIII, a critical-infrastructure continuity anchor in Article XIII, and transition-records protection in Article XIX; new scenarios validate the foreign shell-routing, contractor-transparency, infrastructure-divestiture, and transition-records chains | Article VIII's contractor-transparency clause should be compressed later if it starts reading too code-like, and the new resilience scenarios should be extended into media-control and capital-flight edge cases |
 | 2026-03-29 | Article IV — Judiciary | 8.9 | 9.0 | Added a narrow fast-track review path for high-impact presidential directives, giving courts a guaranteed early timetable before sweeping executive orders can settle into practical fait accompli governance; Article III now cross-references that path cleanly | The article still needs later scenario coverage for broader judicial-governance and delay edge cases beyond the currently validated provisions |
@@ -216,7 +217,7 @@ Before raising a score, ask:
 The draft is now in refinement mode rather than redesign mode. The main weaknesses are:
 
 1. Simulation coverage gaps.
-   Articles XVIII, IX, and X still need more direct scenario pressure, and Article V still needs a second wave of edge-case coverage.
+   Article X still needs direct scenario pressure, Article IX still needs sensitive-office and proof-dispute scenarios, and Article V still needs a second wave of edge-case coverage.
 
 2. Residual code-like density.
    Article II remains the densest core article, and parts of Articles VIII, XIII, and XIX still need a later compression pass.
@@ -224,13 +225,10 @@ The draft is now in refinement mode rather than redesign mode. The main weakness
 3. Political nonperformance under stress.
    The Constitution now usually provides an automatic consequence, but repeated missed deadlines and refusals to act remain the dominant operational stress pattern in the simulator.
 
-4. Private chokepoint exclusion.
-   The first direct simulations now show that state-coerced private suppression is reachable, but synchronized private cutoff by dominant civic intermediaries still lacks a clear direct constitutional remedy absent state action or foreign control.
-
-5. New resilience provisions that may later need compression.
+4. New resilience provisions that may later need compression.
    The recent anti-oligarchic hardening improved abuse resistance materially, but some clauses should eventually be checked for constitutional abstraction level.
 
-6. Final cross-article boundary review.
+5. Final cross-article boundary review.
    The remaining integration risk is not broad contradiction but narrower overlap at the boundaries of emergency power, ethics and agency design, continuity, and enforcement.
 
 ---
@@ -239,12 +237,11 @@ The draft is now in refinement mode rather than redesign mode. The main weakness
 
 Recommended focus order:
 
-1. Article XVIII — add dedicated simulation coverage for climate, education, housing, and child-welfare floors. This is the clearest remaining “strengthened but not directly validated” article.
-2. Article IX — add dedicated citizenship and eligibility scenarios: loss-of-citizenship, overseas assignment, naturalized-candidate exclusion, and sensitive-office rules.
-3. Article X — add dedicated simulation coverage for federalism/preemption and democratic-floor enforcement. Enforceability remains lower than the overall score.
-4. Article XIV — stress-test emergency revenue powers and edge-case revenue authorities to confirm the article remains principle-level while still enforceable.
-5. Article II — continue draft-discipline cleanup. The article is structurally strong but still the densest core article.
-6. Article V — extend the new rights coverage into religion, family/autonomy, and remaining digital-rights edge cases.
-7. Article V / Article VI / Article XIII — decide whether private chokepoint exclusion by dominant civic intermediaries should remain a statutory problem, become a constitutional target, or stay as a flagged residual risk after more scenarios.
-8. Article VIII / Article XIII — verify no structural duplication on independent agency architecture and continue light compression where needed.
-9. Article XII / Article XIX — pressure-test internal boycott, quorum sabotage, and remaining organ-setup friction under adversarial conditions.
+1. Article X — add dedicated simulation coverage for federalism/preemption and democratic-floor enforcement. It is now the clearest remaining article with stronger text than direct scenario validation.
+2. Article IX — add the remaining citizenship and eligibility scenarios focused on sensitive-office restrictions and proof disputes.
+3. Article V — extend the new rights coverage into religion, family/autonomy, and remaining digital-rights edge cases.
+4. Article VIII / Article XIII — verify no structural duplication on independent agency architecture and continue light compression where needed.
+5. Article XII / Article XIX — pressure-test internal boycott, quorum sabotage, and remaining organ-setup friction under adversarial conditions.
+6. Article II — continue draft-discipline cleanup. The article is structurally strong but still the densest core article.
+7. Article XIV — stress-test emergency revenue powers and edge-case revenue authorities to confirm the article remains principle-level while still enforceable.
+8. Article I / Article VI — add one more scenario family for quasi-private exclusion or softer cartelization outside public or publicly regulated infrastructure, to confirm the new constitutional floor is neither too narrow nor too broad.

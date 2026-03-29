@@ -1,9 +1,9 @@
 {
   "id": "platform-manipulates-emergency-information-visibility",
   "title": "Dominant Platform Manipulates Emergency and Election Information Visibility",
-  "description": "A dominant digital platform materially downranks lawful emergency and election-administration information during a live constitutional emergency or election-administration disruption. The scenario tests whether the current Constitution's algorithmic-transparency provisions provide a rapid corrective remedy or only audit and disclosure authority.",
-  "articles_tested": ["Article VI", "Article I", "Article V"],
-  "provisions_tested": ["Article VI Section 7.5", "Article I", "Article V"],
+  "description": "A dominant digital platform materially downranks lawful emergency and election-administration information during a live constitutional emergency or election-administration disruption. The scenario tests the new narrow rapid corrective remedy for manipulative visibility practices affecting official emergency and election information.",
+  "articles_tested": ["Article VI", "Article I"],
+  "provisions_tested": ["Article VI Section 7.5", "Article VI Section 7.5A", "Article I"],
   "events": [
     {
       "day": 1,
@@ -15,9 +15,15 @@
       }
     },
     {
-      "day": 8,
-      "type": "electoral_commission_finds_no_rapid_visibility_remedy",
+      "day": 4,
+      "type": "electoral_commission_orders_visibility_restoration",
       "actor": "Electoral Commission",
+      "details": {}
+    },
+    {
+      "day": 7,
+      "type": "court_upholds_visibility_restoration_order",
+      "actor": "Federal courts",
       "details": {}
     }
   ]
