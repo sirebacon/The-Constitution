@@ -77,25 +77,25 @@ Charges under this Section shall be prosecuted by the Accountability Commission 
 
 ## Section 2 — Campaign Finance and Political Money
 
-*This section has been moved to **[Article VII — Campaign Finance](VII-campaign-finance.md)**. See Article VII for the complete campaign finance framework, including: constitutional authority to regulate, mandatory disclosure and tracing, anonymous contribution prohibition, real-time disclosure, coordination rules, foreign money prohibition, public financing, spending limits, acting-in-concert rules, geographic concentration limits, government contractors, cryptocurrency restrictions, transition funding, inaugural committees, and enforcement.*
+The constitutional framework governing political money, disclosure, public financing, coordination, source restrictions, and campaign-finance enforcement is established in **[Article VII — Campaign Finance and Political Money](VII-campaign-finance.md)**. Nothing in this Article limits the operation of Article VII.
 
 ---
 
 ## Section 3 — Corruption, Conflicts of Interest, and Self-Dealing
 
-*This section has been moved to **[Article VIII — Government Ethics](VIII-government-ethics.md)** (Article VIII Section 1).*
+The constitutional rules governing corruption, financial conflicts of interest, self-dealing, and related misconduct by federal officials are established in **[Article VIII — Government Ethics](VIII-government-ethics.md)**.
 
 ---
 
 ## Section 3A — Financial Market Integrity
 
-*This section has been moved to **[Article VIII — Government Ethics](VIII-government-ethics.md)** (Article VIII Section 2).*
+The constitutional rules governing financial-market integrity, including the special safeguards applicable to market regulators and officeholders with market-moving authority, are established in **[Article VIII — Government Ethics](VIII-government-ethics.md)**.
 
 ---
 
 ## Section 4 — The Civil Service
 
-*This section has been moved to **[Article VIII — Government Ethics](VIII-government-ethics.md)** (Article VIII Section 3).*
+The constitutional rules governing the civil service, merit protection, and retaliation against public employees are established in **[Article VIII — Government Ethics](VIII-government-ethics.md)**.
 
 ---
 
@@ -125,7 +125,7 @@ No candidate or campaign official who receives an offer of foreign assistance in
 
 ## Section 6 — Lobbying and Access
 
-*This section has been moved to **[Article VIII — Government Ethics](VIII-government-ethics.md)** (Article VIII Section 4).*
+The constitutional rules governing lobbying, access, and related disclosure obligations are established in **[Article VIII — Government Ethics](VIII-government-ethics.md)**.
 
 ---
 
@@ -173,6 +173,3 @@ The provisions of this Article are enforced by:
 **8.2** Neither the President, Congress, nor any court may direct either Constitutional Organ in the handling of individual cases under this Article. The Accountability Commission's prosecutorial independence under this Article is part of the unamendable core of Article XI.
 
 **8.3** Any person — including a sitting President, member of Congress, or federal judge — is subject to investigation and prosecution under this Article. No office confers immunity from the provisions of this Article. A sitting President under investigation retains the ability to perform official duties but may not direct or obstruct the investigation.
-
----
-- **Media ownership cap?** Decision: **Mandate in Constitution, specific thresholds in statute** (Section 7.1). Constitution requires Congress to establish and maintain plurality limits; the specific numbers are legislative.

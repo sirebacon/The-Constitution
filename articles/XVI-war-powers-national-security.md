@@ -168,42 +168,42 @@ A member of the armed forces who refuses to carry out an unlawful order under th
 
 ## Section 9 — Economic Security and Countermeasures
 
-*This section has been moved to **[Article XVII — Foreign Policy and National Security](XVII-foreign-policy-national-security.md)** (Article XVII Section 1).*
+Economic security and non-military countermeasures are governed by **[Article XVII — Foreign Policy and National Security](XVII-foreign-policy-national-security.md)**. Nothing in this Article enlarges military power by implication from those authorities.
 
 ---
 
 ## Section 10 — Foreign Influence Operations
 
-*This section has been moved to **[Article XVII — Foreign Policy and National Security](XVII-foreign-policy-national-security.md)** (Article XVII Section 2).*
+Foreign influence operations are governed by **[Article XVII — Foreign Policy and National Security](XVII-foreign-policy-national-security.md)** and by Article VI where the conduct targets democratic processes directly.
 
 ---
 
 ## Section 11 — Critical Infrastructure Protection
 
-*This section has been moved to **[Article XVII — Foreign Policy and National Security](XVII-foreign-policy-national-security.md)** (Article XVII Section 3).*
+Critical-infrastructure protection, outside the use of military force governed by this Article, is governed by **[Article XVII — Foreign Policy and National Security](XVII-foreign-policy-national-security.md)**.
 
 ---
 
 ## Section 12 — Foreign Intelligence Collection
 
-*This section has been moved to **[Article XVII — Foreign Policy and National Security](XVII-foreign-policy-national-security.md)** (Article XVII Section 4).*
+Foreign intelligence collection is governed by **[Article XVII — Foreign Policy and National Security](XVII-foreign-policy-national-security.md)**, subject to the limits on covert lethal operations established in Section 5 of this Article.
 
 ---
 
 ## Section 13 — Gray Zone Response Authority
 
-*This section has been moved to **[Article XVII — Foreign Policy and National Security](XVII-foreign-policy-national-security.md)** (Article XVII Section 5).*
+Gray-zone response short of military force is governed by **[Article XVII — Foreign Policy and National Security](XVII-foreign-policy-national-security.md)**. Measures that constitute military force remain subject to this Article.
 
 ---
 
 ## Section 14 — Alliance Reliability
 
-*This section has been moved to **[Article XVII — Foreign Policy and National Security](XVII-foreign-policy-national-security.md)** (Article XVII Section 6).*
+Alliance reliability, treaty-execution duties, and non-war alliance questions are governed by **[Article XVII — Foreign Policy and National Security](XVII-foreign-policy-national-security.md)**, except where this Article governs the actual use of military force.
 
 ---
 
 ## Section 15 — Technology and Supply Chain Security
 
-*This section has been moved to **[Article XVII — Foreign Policy and National Security](XVII-foreign-policy-national-security.md)** (Article XVII Section 7).*
+Technology and supply-chain security are governed by **[Article XVII — Foreign Policy and National Security](XVII-foreign-policy-national-security.md)**.
 
 ---

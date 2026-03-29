@@ -242,19 +242,19 @@ Human review must be real and not a rubber stamp.
 
 ## Section 11 — Environmental Rights
 
-*This section has been moved to **[Article XVIII — Social, Economic, and Affirmative Rights](XVIII-social-economic-rights.md)** (Article XVIII Section 1).*
+Environmental rights are established in **[Article XVIII — Social, Economic, and Affirmative Rights](XVIII-social-economic-rights.md)**. The general principles of this Article apply to their interpretation and enforcement.
 
 ---
 
 ## Section 12 — Affirmative Rights
 
-*This section has been moved to **[Article XVIII — Social, Economic, and Affirmative Rights](XVIII-social-economic-rights.md)** (Article XVIII Section 2).*
+Affirmative rights, including healthcare, education, and housing guarantees, are established in **[Article XVIII — Social, Economic, and Affirmative Rights](XVIII-social-economic-rights.md)**. The general principles of this Article apply to their interpretation and enforcement.
 
 ---
 
 ## Section 13 — Economic Rights
 
-*This section has been moved to **[Article XVIII — Social, Economic, and Affirmative Rights](XVIII-social-economic-rights.md)** (Article XVIII Section 3).*
+Economic rights are established in **[Article XVIII — Social, Economic, and Affirmative Rights](XVIII-social-economic-rights.md)**. The general principles of this Article apply to their interpretation and enforcement.
 
 ---
 
@@ -275,7 +275,7 @@ Human review must be real and not a rubber stamp.
 
 ## Section 15 — Rights of Children
 
-*This section has been moved to **[Article XVIII — Social, Economic, and Affirmative Rights](XVIII-social-economic-rights.md)** (Article XVIII Section 4).*
+The rights of children are established in **[Article XVIII — Social, Economic, and Affirmative Rights](XVIII-social-economic-rights.md)**. The general principles of this Article apply to their interpretation and enforcement.
 
 ---
 

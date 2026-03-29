@@ -126,6 +126,3 @@ This requirement applies regardless of whether the organization engages in polit
 **7.4 — Supply chain security.** The federal government shall assess and mitigate national security risks in the supply chains for critical technology, defense systems, and critical infrastructure. Congress shall by law establish requirements for supply chain security assessment as a condition of federal procurement. Equipment from foreign adversary manufacturers shall not be used in federal systems or designated critical infrastructure where the Accountability Commission's technical review finds a material security risk.
 
 **7.5 — No targeting of persons by national origin.** Nothing in this Article authorizes surveillance, investigation, restriction of employment, or any adverse action against any person solely on the basis of national origin, ethnicity, or country of birth. Technology security measures must be based on specific and articulable security concerns, not on demographic characteristics. Racial or ethnic profiling in the implementation of this Article is prohibited.
-
----
-- All provisions moved from Article XVI Sections 9–15. Internal cross-references updated throughout. References to Article XVI war powers authorities preserved as cross-references.

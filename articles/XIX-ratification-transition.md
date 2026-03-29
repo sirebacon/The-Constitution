@@ -64,6 +64,8 @@ Governs ratification, legal continuity, supersession of the prior constitutional
 
 **5.2** The Constitutional Organs established by Article XII shall be constituted as soon as practicable after ratification and shall assume their constitutional functions on the timeline provided by law, but no later than one year after ratification unless impossible due to conditions identified publicly by the Supreme Court.
 
+**5.2A** If the deadline in Section 5.2 is missed and no impossibility finding has been identified publicly by the Supreme Court, the Court shall order completion of the applicable transitional or ordinary appointment process within 30 days. If that period also expires without constitution of the affected Organ, a majority of the Supreme Court may appoint temporary Commissioners from among persons meeting the qualification requirements of Article XII, in the number strictly necessary to permit the Organ to begin performing its constitutional functions. Such temporary appointments expire when the ordinary constitutional appointment process is completed or after 180 days, whichever comes first, and may be renewed once by written judicial findings that completion remains unlawfully delayed despite good-faith efforts.
+
 **5.3** Existing agencies and officers whose functions are reassigned under this Constitution shall continue only until those functions are lawfully transferred, replaced, or terminated consistent with this Constitution.
 
 **5.4** Congress shall by law establish the initial terms, appointments, and temporary staffing needed to bring Articles XII through XV into operation without interrupting the lawful functioning of the government.
