@@ -156,15 +156,45 @@ def handle_accountability_commission_acts(state: SimulationState, event: dict[st
         day,
         "certified the obstruction violation and transmitted the matter for expedited impeachment consideration",
     )
-    state.add_obligation(
-        "house_vote_impeachment_obstruction",
-        "House of Representatives",
-        "hold a recorded impeachment vote on the certified obstruction violation",
-        "Article III Section 10.2A and Section 15.8",
+    existing = state.obligations.get("house_vote_impeachment_obstruction")
+    if existing is None:
+        state.add_obligation(
+            "house_vote_impeachment_obstruction",
+            "House of Representatives",
+            "hold a recorded impeachment vote on the certified obstruction violation",
+            "Article III Section 10.2A and Section 15.8",
+            day,
+            day + 21,
+            severity="high",
+        )
+
+
+def handle_house_member_files_obstruction_certification_motion(state: SimulationState, event: dict[str, Any]) -> None:
+    day = int(event["day"])
+    actor = event.get("actor", "House member")
+    state.add_entry(
         day,
-        day + 21,
-        severity="high",
+        "event",
+        f"{actor} files a privileged certification motion after the Accountability Commission missed the certification deadline.",
+        "Article III Section 10.2A and Section 15.8",
     )
+    state.add_entry(
+        day,
+        "outcome",
+        "The certification motion is deemed filed and certified upon submission to the Clerk and starts the expedited impeachment timetable without need for recognition, committee referral, or preliminary vote.",
+        "Article III Section 10.2A",
+    )
+    existing = state.obligations.get("house_vote_impeachment_obstruction")
+    if existing is None:
+        state.add_obligation(
+            "house_vote_impeachment_obstruction",
+            "House of Representatives",
+            "hold a recorded impeachment vote on the certified obstruction violation",
+            "Article III Section 10.2A and Section 15.8",
+            day,
+            day + 21,
+            severity="high",
+        )
 
 
 def handle_electoral_commission_certifies_election(state: SimulationState, event: dict[str, Any]) -> None:
@@ -581,6 +611,7 @@ HANDLERS = {
     "accountability_commission_investigation_opened": handle_accountability_commission_investigation_opened,
     "president_interferes_with_investigation": handle_president_interferes_with_investigation,
     "accountability_commission_acts": handle_accountability_commission_acts,
+    "house_member_files_obstruction_certification_motion": handle_house_member_files_obstruction_certification_motion,
     "electoral_commission_certifies_election": handle_electoral_commission_certifies_election,
     "president_refuses_transition_cooperation": handle_president_refuses_transition_cooperation,
     "acc_opens_electoral_subversion_investigation": handle_acc_opens_electoral_subversion_investigation,

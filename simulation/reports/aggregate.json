@@ -2039,7 +2039,7 @@
         "unresolved_obligations": 0,
         "violations": 1,
         "bottlenecks": 2,
-        "timeline_entries": 10
+        "timeline_entries": 12
       },
       "violations": [
         {
@@ -2059,7 +2059,7 @@
           "actor": "Accountability Commission",
           "source": "Article III Section 15.8 and Section 10.2A",
           "severity": "high",
-          "day": 20,
+          "day": 13,
           "deadline_day": 12,
           "summary": "Accountability Commission failed to certify the presidential obstruction violation and transmit the matter for expedited impeachment consideration by day 12 under Article III Section 15.8 and Section 10.2A."
         },
@@ -2070,8 +2070,8 @@
           "source": "Article III Section 10.2A and Section 15.8",
           "severity": "high",
           "day": 45,
-          "deadline_day": 41,
-          "summary": "House of Representatives failed to hold a recorded impeachment vote on the certified obstruction violation by day 41 under Article III Section 10.2A and Section 15.8."
+          "deadline_day": 34,
+          "summary": "House of Representatives failed to hold a recorded impeachment vote on the certified obstruction violation by day 34 under Article III Section 10.2A and Section 15.8."
         }
       ],
       "open_duties": [],
@@ -2089,7 +2089,7 @@
           "actor": "Accountability Commission",
           "duty": "certify the presidential obstruction violation and transmit the matter for expedited impeachment consideration",
           "deadline_day": 12,
-          "closed_day": 20,
+          "closed_day": 13,
           "outcome": "Accountability Commission failed to certify the presidential obstruction violation and transmit the matter for expedited impeachment consideration by day 12 under Article III Section 15.8 and Section 10.2A.",
           "source": "Article III Section 15.8 and Section 10.2A",
           "severity": "high"
@@ -2097,9 +2097,9 @@
         {
           "actor": "House of Representatives",
           "duty": "hold a recorded impeachment vote on the certified obstruction violation",
-          "deadline_day": 41,
+          "deadline_day": 34,
           "closed_day": 45,
-          "outcome": "House of Representatives failed to hold a recorded impeachment vote on the certified obstruction violation by day 41 under Article III Section 10.2A and Section 15.8.",
+          "outcome": "House of Representatives failed to hold a recorded impeachment vote on the certified obstruction violation by day 34 under Article III Section 10.2A and Section 15.8.",
           "source": "Article III Section 10.2A and Section 15.8",
           "severity": "high"
         }

@@ -82,19 +82,19 @@ These are the current working scores for the draft after the latest simplificati
 | Article VI — Democratic Integrity | 8.5 | 8.5 | 9.0 | 9.0 | 9.5 | 8.0 | 9.0 |
 | Article VII — Campaign Finance and Political Money | 8.5 | 9.0 | 9.0 | 9.0 | 9.5 | 7.0 | 8.5 |
 | Article VIII — Government Ethics | 8.8 | 9.0 | 9.0 | 8.8 | 9.5 | 8.8 | 9.0 |
-| Article IX — Citizenship and National Membership | 8.3 | 8.0 | 8.0 | 9.0 | 8.5 | 7.8 | 8.0 |
+| Article IX — Citizenship and National Membership | 8.3 | 8.3 | 8.3 | 9.0 | 8.5 | 7.8 | 8.4 |
 | Article X — Federalism and the States | 8.5 | 8.8 | 8.0 | 8.8 | 8.3 | 8.2 | 8.5 |
 | Article XI — Amendments | 8.0 | 8.5 | 8.5 | 8.5 | 9.0 | 7.5 | 8.5 |
 | Article XII — Constitutional Organs | 8.0 | 8.5 | 8.5 | 8.5 | 9.0 | 7.0 | 8.0 |
 | Article XIII — Federal Agencies | 8.2 | 8.5 | 8.5 | 8.3 | 8.8 | 8.5 | 8.5 |
-| Article XIV — Taxation and Public Revenue | 8.2 | 8.0 | 8.0 | 8.5 | 8.5 | 8.0 | 8.0 |
-| Article XV — Budget, Public Credit, and Appropriations | 8.5 | 8.5 | 8.5 | 8.8 | 8.8 | 8.0 | 8.5 |
+| Article XIV — Taxation and Public Revenue | 8.3 | 8.3 | 8.2 | 8.5 | 8.5 | 8.0 | 8.3 |
+| Article XV — Budget, Public Credit, and Appropriations | 8.8 | 8.8 | 8.8 | 8.8 | 8.8 | 8.5 | 8.8 |
 | Article XVI — War Powers and National Security | 8.8 | 9.0 | 8.8 | 8.8 | 9.5 | 8.5 | 8.8 |
 | Article XVII — Foreign Policy and National Security | 8.3 | 8.5 | 8.5 | 8.3 | 8.8 | 8.5 | 8.5 |
 | Article XVIII — Social, Economic, and Affirmative Rights | 8.0 | 8.0 | 7.8 | 8.8 | 8.3 | 7.3 | 8.0 |
 | Article XIX — Ratification and Transition | 8.3 | 8.8 | 8.8 | 8.8 | 8.5 | 7.8 | 8.8 |
 | Cross-References and Draft Integration | 8.8 | 9.0 | 9.0 | 8.3 | 9.0 | 8.8 | 9.0 |
-| Overall Draft | 8.8 | 8.9 | 8.9 | 8.9 | 9.1 | 8.3 | 8.8 |
+| Overall Draft | 8.9 | 8.9 | 8.9 | 8.9 | 9.1 | 8.5 | 8.9 |
 
 ### Current US Constitution Baseline
 

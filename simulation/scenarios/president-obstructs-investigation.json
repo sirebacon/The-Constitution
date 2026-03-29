@@ -14,6 +14,11 @@
       "actor": "President"
     },
     {
+      "day": 13,
+      "type": "house_member_files_obstruction_certification_motion",
+      "actor": "House member"
+    },
+    {
       "day": 20,
       "type": "accountability_commission_acts",
       "actor": "Accountability Commission"

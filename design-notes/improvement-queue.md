@@ -20,11 +20,39 @@ Use this order when deciding what to work on:
 
 | Priority | Area | Why It Matters | Main Issue | Target Outcome |
 |----------|------|----------------|------------|----------------|
-| 1 | Article VII — Campaign Finance and Political Money | Strong substance still reads too much like compliance code | Too many implementation mechanics remain in constitutional text | A shorter principles-first campaign-finance article |
-| 2 | Article XVI — War Powers and National Security | The architecture is strong, but it remains the hardest executive-defiance stress case | Enforcement still needs realism-testing under command pressure | A war-powers article that stays tough without depending on implausible execution assumptions |
-| 3 | Article IV and Article XII — Institutional Simplification | Both articles are materially better but still denser than the rest of the draft | Court and commission governance rules remain more procedural than ideal | Simpler near-final institutional articles |
-| 4 | Article XIX and Article IX — Targeted Stress Testing | The structure is cleaner now, but first-cycle and citizenship edge cases have not been pressure-tested enough | Transition failure modes and membership-status disputes still need scenario coverage | A cleaner constitutional architecture that is also tested under failure conditions |
-| 5 | Final Consistency and Polish | The draft is close enough that cleanup now matters | Historical notes, residual drafting artifacts, and minor wording drift remain | A clean final-review candidate draft |
+| 1 | Legislative nonperformance chains | The simulator now shows recurring missed constitutional deadlines as the dominant live weakness | War powers, emergency review, obstruction impeachment, and incapacity paths still depend on chambers acting on time | A draft where every remaining constitutionally required vote has a defensible default-consequence or anti-obstruction backstop |
+| 2 | Article XII — Constitutional Organs | It remains the weakest article on the scorecard and the most cross-reference-dependent | Commission powers and structure still read denser and more externally dependent than the rest of the draft | A simpler Constitutional Organs article that can stand more on its own |
+| 3 | Article IV — Judicial delay review | Strategic delay is better contained, but still one of the few non-legislative bottlenecks | Need to confirm that notice, conduct review, temporary effect, and finality are the right stopping point | A judiciary article that is anti-delay enough without becoming anti-independence |
+| 4 | Article IX plus Articles XIV/XV — targeted stress-testing and compression | These newer or newly centralized articles are structurally stronger but still need more edge-case pressure and cleanup | Citizenship edge cases and fiscal edge cases still need scenario coverage and selective compression | Cleaner, better-tested articles without backsliding into code-like text |
+| 5 | Final consistency and polish | The draft is close enough that cleanup now matters | Historical notes, residual wording drift, and presentation inconsistencies remain | A clean final-review candidate draft |
+
+---
+
+## Legislative Deadline Matrix
+
+This matrix converts the current simulator bottlenecks into explicit keep/change decisions. The goal is to avoid repeatedly revisiting deadline failures that are already backed by an acceptable automatic constitutional consequence.
+
+| Scenario | Deadline Failure | Current Consequence | Keep or Change | Reason |
+|----------|------------------|---------------------|----------------|--------|
+| Unauthorized military action | Congress misses day-30 force authorization | Article XVI already treats missed authorization as nonauthorization for all purposes, triggering withdrawal-order and fiscal-hold sequence | Keep | The constitutional consequence is already automatic; the bottleneck reflects political failure, not missing text |
+| Unauthorized military action | House misses war-powers impeachment vote | Article III Section 10.2A already transmits the certified charge automatically to the Regional Assembly | Keep | The House miss is already bypassed by an operative fallback |
+| Coordinated absenteeism required vote | Congress misses day-30 force authorization through organized obstruction | Default nonauthorization still applies, and Article II Section 15A.4 now classifies coordinated absentee obstruction as constitutional-process obstruction | Keep | This path is now covered both substantively and normatively |
+| President obstructs investigation | House misses expedited impeachment vote | Article III Section 10.2A already supplies automatic transmission to the Regional Assembly after House nonperformance | Keep | Same logic as the war-powers impeachment path; additional hardening is not obviously worth the extra complexity |
+| Emergency extension without real review | Regional Assembly misses day-30 emergency review vote | Article III Section 5.4 already causes automatic lapse and voids continued emergency measures | Keep | The current consequence is strong, immediate, and already one of the cleanest automatic defaults in the draft |
+| Emergency near election | Regional Assembly misses day-30 emergency review vote | Same automatic lapse and voiding rule under Article III Section 5.4 | Keep | Same reason; this is a residual political-risk scenario, not a text gap |
+| Contested incapacity declaration | Congress misses day-23 contest resolution vote | Article III Section 11.3 already returns presidential powers if Congress does not sustain the incapacity determination | Keep | The Constitution already provides a clear status-default, and forcing a harsher consequence would risk biasing a contested incapacity process |
+| PMC substitution | House misses expedited impeachment vote | Article III Section 10.2A already supplies the same automatic transmission fallback | Keep | The impeachment fallback is already doing the work it was designed to do |
+| State democratic backsliding | Congress misses day-180 remedial legislation deadline | Article X Section 1.6 already starts automatic federal election administration and later hard suspension timelines | Keep | This path already has a meaningful automatic consequence and was previously misread as a gap when it was not |
+
+### Separate Non-Legislative Follow-Up
+
+These still matter, but they are not legislative missed-vote problems and should be tracked separately:
+
+- Accountability Commission certification delay in the presidential-obstruction path
+- Constitutional Organs setup delay after ratification
+- Supreme Court delay in expedited constitutional cases
+
+Those belong to Article XII / Article XIX / Article IV review, not to further broadening Article II default-vote machinery.
 
 ---
 
@@ -41,6 +69,8 @@ Use this order when deciding what to work on:
 
 | Task | Priority | Reason | Done When |
 |------|----------|--------|-----------|
+| Map every remaining constitutionally required vote with a live missed-deadline bottleneck | High | Legislative deadline failure is now the dominant system weakness | Each recurring scenario has an explicit determination on whether the current default is sufficient or needs hardening |
+| Review anti-obstruction consequences for coordinated nonperformance | High | The text now covers coordinated absenteeism, but not every missed-vote chain has been revisited in that light | The highest-risk paths have a clear answer on sabotage versus ordinary nonperformance |
 | Reduce procedural code density | Medium | Legislature article is strong but detailed | Structural rules remain while legislative mechanics are simplified |
 | Review deadlock and oversight timelines | Medium | Tight timelines can break in practice | Deadlines are realistic under actual institutional load |
 | Re-check subpoena enforcement detail | Medium | Oversight enforcement still reads somewhat code-like | The article preserves strong oversight without over-specifying marshals, detention, or execution detail |
@@ -49,6 +79,7 @@ Use this order when deciding what to work on:
 
 | Task | Priority | Reason | Done When |
 |------|----------|--------|-----------|
+| Revisit emergency-review and impeachment bottlenecks with Article II continuity/default rules in mind | High | The text is structurally stronger, but Regional Assembly and House nonperformance still recur in the suite | The remaining missed-vote paths are either accepted as political-risk residuals or narrowed further by constitutional default rules |
 | Review recall design for practicality | Medium | National recall is structurally unusual | Thresholds and timing feel constitutional, not aspirational only |
 | Expand emergency-review simulation coverage | Medium | Emergency review is still the clearest recurring legislative bottleneck | Recess, leadership obstruction, nonapproval, and redeclaration scenarios all produce one clear answer |
 
@@ -56,6 +87,7 @@ Use this order when deciding what to work on:
 
 | Task | Priority | Reason | Done When |
 |------|----------|--------|-----------|
+| Review whether the current anti-delay stack is sufficient | High | Notice duty, conduct review, temporary lower-court effect, and party-level finality now exist, but judicial-delay bottlenecks still appear | There is a clear decision to stop where the article is, or one narrowly justified further hardening step |
 | Simplify appointment and governance machinery | High | The article is improved, but still denser than most of the draft | Appointment process and court governance can be summarized more cleanly without losing safeguards |
 | Re-check lower court design and senior-justice fallback rules | Medium | The institutional model should remain coherent after the continuity revisions | Terms, senior status, and fallback duties fit the overall judicial philosophy |
 
@@ -94,6 +126,7 @@ Use this order when deciding what to work on:
 |------|----------|--------|-----------|
 | Reduce cross-reference dependence | High | This article is central and should stand on its own | Core powers are understandable without constant external lookup |
 | Simplify commission detail | High | Dense institutional design can still create fragility | Organ design stays narrow but reads more clearly |
+| Reconcile organ-delay fallback with the permanent article text | Medium | Article XIX now supplies a validated bridge, but the permanent organ article should read cleanly alongside it | The transition fallback and permanent commission architecture feel integrated rather than patched together |
 
 ### Article XIII — Federal Agencies
 
@@ -149,10 +182,10 @@ Use this order when deciding what to work on:
 
 Recommended next drafting sprint:
 
-1. Compress Article VII
-2. Stress-test Article XVI against harder executive-defiance scenarios
-3. Simplify Articles IV and XII
-4. Add targeted Article XIX and Article IX scenarios
+1. Review the non-legislative deadline bottlenecks: Accountability Commission certification delay, Constitutional Organs setup delay, and any remaining judicial-delay edge cases
+2. Simplify Article XII
+3. Review whether Article IV delay containment is now complete
+4. Add or refresh targeted Article IX and fiscal edge-case scenarios
 
 ---
 
