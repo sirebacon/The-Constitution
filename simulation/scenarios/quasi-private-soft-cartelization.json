@@ -1,0 +1,24 @@
+{
+  "id": "quasi-private-soft-cartelization",
+  "title": "Quasi-Private Debate and Data Cartel Excludes Qualified Entrant",
+  "description": "A dominant privately run debate-and-data consortium excludes a qualified federal entrant from major debate access and campaign-information feeds, but the channel is neither publicly funded nor officially designated. The scenario tests the narrower residual gap after Article I's public-infrastructure fix.",
+  "articles_tested": ["Article I", "Article V"],
+  "provisions_tested": ["Article I Section 9.5", "Article I Section 10.6", "Article V Section 2.5"],
+  "events": [
+    {
+      "day": 1,
+      "type": "private_debate_and_data_cartel_excludes_qualified_entrant",
+      "actor": "Private debate and data intermediaries",
+      "details": {
+        "channel": "a dominant privately run debate-and-data consortium",
+        "entrant": "a qualified federal entrant"
+      }
+    },
+    {
+      "day": 8,
+      "type": "electoral_commission_finds_quasi_private_cartel_gap",
+      "actor": "Electoral Commission",
+      "details": {}
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "systemically-important-bank-criminal-case",
+  "title": "Systemically Important Bank Faces Criminal Referral",
+  "description": "A politically connected systemically important bank conceals large-scale money laundering and fraudulent books-and-records practices. The financial market regulator refers the matter to the Accountability Commission, which prosecutes despite claims that criminal enforcement would destabilize the economy. The scenario tests whether Article VIII's market-integrity architecture truly rejects a 'too big to prosecute' exemption.",
+  "articles_tested": ["Article VIII"],
+  "provisions_tested": ["Article VIII Section 2.5", "Article VIII Section 2.6", "Article VIII Section 2.7"],
+  "events": [
+    {
+      "day": 1,
+      "type": "systemically_important_bank_conceals_criminal_exposure",
+      "actor": "Systemically important bank",
+      "details": {
+        "bank": "Union Atlantic Bank",
+        "scheme": "large-scale money laundering tied to transnational trafficking proceeds and falsified compliance reporting"
+      }
+    },
+    {
+      "day": 35,
+      "type": "regulator_refers_systemic_bank_case",
+      "actor": "Financial market regulator",
+      "details": {
+        "bank": "Union Atlantic Bank"
+      }
+    },
+    {
+      "day": 58,
+      "type": "acc_prosecutes_systemic_bank_case",
+      "actor": "Accountability Commission",
+      "details": {}
+    }
+  ]
+}

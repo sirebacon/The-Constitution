@@ -6,7 +6,7 @@
 
 ## Scope
 
-Establishes the constitutional framework governing federal agencies, commissions, and administrative bodies created by Congress. The administrative state is the primary instrument through which the federal government implements law in practice. Its structure, independence, accountability, and integrity are matters of constitutional importance. This Article does not enumerate specific agencies — those are created, modified, and abolished by statute — but establishes the rules that all agencies must follow and the protections that certain categories of agency must receive.
+Establishes the constitutional framework governing federal agencies, commissions, and administrative bodies created by Congress. The administrative state is the primary instrument through which the federal government implements law in practice. Its structure, independence, accountability, and integrity are matters of constitutional importance. This Article does not enumerate specific agencies — those are created, modified, and abolished by statute — but establishes the structural rules that all agencies must follow and the protections that certain categories of agency must receive. Where another Article imposes agency-specific substantive duties or additional safeguards, those provisions control in addition to this Article.
 
 ---
 
@@ -63,6 +63,8 @@ Use of agency power for political retaliation is a violation of this Constitutio
 
 **3.4 — Constitutional Organs.** The Electoral Commission and Accountability Commission established in Article XII are a separate category. They are Constitutional Organs, not agencies of either the executive or legislative branch. The provisions of this Article do not govern them except where this Article explicitly says otherwise.
 
+**3.5 — Article-specific regulators.** Congress may create regulators or commissions subject both to this Article and to additional requirements elsewhere in this Constitution. In such cases, this Article governs general agency structure unless another Article supplies a narrower or stricter rule.
+
 ---
 
 ## Section 4 — Protections for Independent Regulatory Agencies
@@ -112,7 +114,7 @@ Disagreement with an agency's regulatory decisions, enforcement choices, rulemak
 
 ## Section 7 — Revolving Door: General Framework
 
-**7.1 — Principle.** The revolving door between regulated industries and the agencies that regulate them corrupts regulatory independence and transfers public authority to private benefit. Every federal regulatory agency is subject to this Section. The specific provisions of Article VIII Section 2.10 governing the financial market regulator represent the constitutional floor for that agency; this Section establishes the floor for all others.
+**7.1 — Principle.** The revolving door between regulated industries and the agencies that regulate them corrupts regulatory independence and transfers public authority to private benefit. Every federal regulatory agency is subject to this Section. The specific provisions of Article VIII Section 2 governing the financial market regulator represent the constitutional floor for that regulator; this Section establishes the floor for all others.
 
 **7.2 — Post-service cooling-off.** Senior officials of any federal regulatory agency may not, for a period set by Congress of not less than two years following their departure, work for, consult for, lobby, or accept compensation from any entity they directly regulated, investigated, or supervised during their service. Congress may establish longer cooling-off periods tailored to particular agencies or offices, but may not set shorter ones.
 

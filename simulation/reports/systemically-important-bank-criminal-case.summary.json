@@ -1,0 +1,58 @@
+{
+  "scenario_id": "systemically-important-bank-criminal-case",
+  "title": "Systemically Important Bank Faces Criminal Referral",
+  "source_file": "simulation/scenarios/systemically-important-bank-criminal-case.json",
+  "status": "stress_point_found",
+  "triggered_provisions": [
+    "Article VIII Section 2.1",
+    "Article VIII Section 2.5",
+    "Article VIII Section 2.6",
+    "Article VIII Section 2.7"
+  ],
+  "metrics": {
+    "satisfied_obligations": 2,
+    "failed_obligations": 0,
+    "unresolved_obligations": 0,
+    "violations": 1,
+    "bottlenecks": 0,
+    "timeline_entries": 8
+  },
+  "violations": [
+    {
+      "id": "systemically_important_bank_criminal_scheme",
+      "category": "market_corruption",
+      "actor": "Union Atlantic Bank",
+      "source": "Article VIII Section 2.1, Section 2.5, Section 2.6, and Section 2.7",
+      "severity": "high",
+      "day": 1,
+      "summary": "Union Atlantic Bank concealed large-scale money laundering tied to transnational trafficking proceeds and falsified compliance reporting while senior executives misled regulators and investors about the bank's risk controls. The scenario tests whether Article VIII's market-integrity provisions permit direct enforcement even where the target institution is politically connected and systemically important."
+    }
+  ],
+  "bottlenecks": [],
+  "open_duties": [],
+  "satisfied_duties": [
+    {
+      "actor": "Financial market regulator",
+      "duty": "complete the investigation, make formal criminal referrals, and seek emergency asset-preservation or clawback remedies if warranted",
+      "closed_day": 35,
+      "outcome": "completed the investigation, referred the criminal conduct to the Accountability Commission, and sought emergency judicial asset-preservation and executive-compensation clawback remedies",
+      "source": "Article VIII Section 2.5, Section 2.6, and Section 2.7"
+    },
+    {
+      "actor": "Accountability Commission",
+      "duty": "decide whether to prosecute the referred criminal conduct without regard to the institution's size, political influence, or claimed systemic importance",
+      "closed_day": 58,
+      "outcome": "filed charges against the institution and responsible executives, rejecting claims that systemic importance justified nonprosecution",
+      "source": "Article VIII Section 2.5 and Section 2.6"
+    }
+  ],
+  "failed_duties": [],
+  "notes": [],
+  "ai_summary": {
+    "primary_violation": "Union Atlantic Bank concealed large-scale money laundering tied to transnational trafficking proceeds and falsified compliance reporting while senior executives misled regulators and investors about the bank's risk controls. The scenario tests whether Article VIII's market-integrity provisions permit direct enforcement even where the target institution is politically connected and systemically important.",
+    "primary_bottleneck": null,
+    "primary_open_duty": null,
+    "system_risk": "institutional_stress",
+    "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+  }
+}

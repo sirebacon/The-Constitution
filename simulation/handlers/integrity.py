@@ -224,6 +224,119 @@ def handle_acc_prosecutes_records_destruction(state: SimulationState, event: dic
     )
 
 
+def handle_systemically_important_bank_conceals_criminal_exposure(state: SimulationState, event: dict[str, Any]) -> None:
+    day = int(event["day"])
+    details = event.get("details", {})
+    bank = details.get("bank", "A systemically important financial institution")
+    scheme = details.get("scheme", "large-scale money laundering and fraudulent books-and-records practices")
+    state.provisions.update(
+        {
+            "Article VIII Section 2.1",
+            "Article VIII Section 2.5",
+            "Article VIII Section 2.6",
+            "Article VIII Section 2.7",
+        }
+    )
+    state.add_violation(
+        "systemically_important_bank_criminal_scheme",
+        "market_corruption",
+        bank,
+        f"{bank} concealed {scheme} while senior executives misled regulators and investors about the bank's risk controls. The scenario tests whether Article VIII's market-integrity provisions permit direct enforcement even where the target institution is politically connected and systemically important.",
+        "Article VIII Section 2.1, Section 2.5, Section 2.6, and Section 2.7",
+        day,
+    )
+    state.add_obligation(
+        "financial_regulator_refer_systemic_bank_case",
+        "Financial market regulator",
+        "complete the investigation, make formal criminal referrals, and seek emergency asset-preservation or clawback remedies if warranted",
+        "Article VIII Section 2.5, Section 2.6, and Section 2.7",
+        day,
+        day + 45,
+        severity="high",
+    )
+
+
+def handle_regulator_refers_systemic_bank_case(state: SimulationState, event: dict[str, Any]) -> None:
+    day = int(event["day"])
+    details = event.get("details", {})
+    bank = details.get("bank", "The bank")
+    state.resolve_obligation(
+        "financial_regulator_refer_systemic_bank_case",
+        day,
+        "completed the investigation, referred the criminal conduct to the Accountability Commission, and sought emergency judicial asset-preservation and executive-compensation clawback remedies",
+    )
+    state.add_obligation(
+        "acc_prosecute_systemic_bank_case",
+        "Accountability Commission",
+        "decide whether to prosecute the referred criminal conduct without regard to the institution's size, political influence, or claimed systemic importance",
+        "Article VIII Section 2.5 and Section 2.6",
+        day,
+        day + 30,
+        severity="high",
+    )
+    state.add_entry(
+        day,
+        "outcome",
+        f"The regulator treated {bank}'s size as irrelevant to criminal referral. The constitutional rule against 'too big to prosecute' behavior is now directly engaged.",
+        "Article VIII Section 2.5 and Section 2.6",
+    )
+
+
+def handle_acc_prosecutes_systemic_bank_case(state: SimulationState, event: dict[str, Any]) -> None:
+    day = int(event["day"])
+    state.resolve_obligation(
+        "acc_prosecute_systemic_bank_case",
+        day,
+        "filed charges against the institution and responsible executives, rejecting claims that systemic importance justified nonprosecution",
+    )
+    state.add_entry(
+        day,
+        "outcome",
+        "The scenario validates that Article VIII already has a meaningful constitutional foothold against politically protected large-institution misconduct. The financial market regulator and Accountability Commission can pursue criminal conduct without any constitutional exemption for institutions deemed too large or connected to prosecute.",
+        "Article VIII Section 2.5 and Section 2.6",
+    )
+
+
+def handle_criminal_enterprise_hides_domestic_control_of_major_federal_contractor(state: SimulationState, event: dict[str, Any]) -> None:
+    day = int(event["day"])
+    details = event.get("details", {})
+    entity = details.get("entity", "A major federal contractor")
+    sector = details.get("sector", "federal logistics")
+    state.provisions.update({"Article VIII Section 1.13", "Article XIII Section 9.3"})
+    state.add_violation(
+        "criminal_enterprise_hidden_contractor_control",
+        "criminal_capture_risk",
+        entity,
+        f"{entity} wins sensitive federal work in {sector} while its true beneficial owners are concealed through domestic nominees tied to an organized criminal enterprise. Article VIII Section 1.13 now reaches concealed criminal beneficial ownership in major federal contracting, not only concealed foreign ownership.",
+        "Article VIII Section 1.13 and Article XIII Section 9.3",
+        day,
+    )
+    state.add_obligation(
+        "acc_review_hidden_domestic_criminal_contractor_control",
+        "Accountability Commission",
+        "investigate the concealed ownership, determine whether any official engaged in corruption, and apply Article VIII Section 1.13's contractor-disqualification rule if concealed criminal beneficial ownership is confirmed",
+        "Article VIII Section 1.13 and Article XIII Section 9.3",
+        day,
+        day + 45,
+        severity="high",
+    )
+
+
+def handle_acc_invalidates_criminally_controlled_contractor(state: SimulationState, event: dict[str, Any]) -> None:
+    day = int(event["day"])
+    state.resolve_obligation(
+        "acc_review_hidden_domestic_criminal_contractor_control",
+        day,
+        "completed the investigation, confirmed concealed criminal-enterprise ownership, found no provable bribery by federal officials, and invalidated the contract under Article VIII Section 1.13's direct contractor-disqualification rule",
+    )
+    state.add_entry(
+        day,
+        "outcome",
+        "The scenario validates the narrowed contractor-capture fix: Article VIII Section 1.13 now reaches concealed domestic criminal-enterprise beneficial ownership directly, without requiring proof of foreign control or a separate bribery offense by a federal official.",
+        "Article VIII Section 1.13 and Article XIII Section 9.3",
+    )
+
+
 HANDLERS = {
     "foreign_shell_entity_funds_political_messaging": handle_foreign_shell_entity_funds_political_messaging,
     "acc_orders_foreign_shell_disclosure": handle_acc_orders_foreign_shell_disclosure,
@@ -235,4 +348,9 @@ HANDLERS = {
     "divestiture_completed": handle_divestiture_completed,
     "official_destroys_nonelectoral_records_during_transition": handle_official_destroys_nonelectoral_records_during_transition,
     "acc_prosecutes_records_destruction": handle_acc_prosecutes_records_destruction,
+    "systemically_important_bank_conceals_criminal_exposure": handle_systemically_important_bank_conceals_criminal_exposure,
+    "regulator_refers_systemic_bank_case": handle_regulator_refers_systemic_bank_case,
+    "acc_prosecutes_systemic_bank_case": handle_acc_prosecutes_systemic_bank_case,
+    "criminal_enterprise_hides_domestic_control_of_major_federal_contractor": handle_criminal_enterprise_hides_domestic_control_of_major_federal_contractor,
+    "acc_invalidates_criminally_controlled_contractor": handle_acc_invalidates_criminally_controlled_contractor,
 }

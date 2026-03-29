@@ -1,0 +1,24 @@
+{
+  "id": "domestic-criminal-contractor-capture",
+  "title": "Domestic Criminal Enterprise Conceals Control of Major Federal Contractor",
+  "description": "A major federal contractor providing sensitive logistics services conceals its true domestic beneficial owners through nominees tied to an organized criminal enterprise. The Accountability Commission confirms the hidden criminal control, finds no provable bribery by a federal official, and invalidates the contract directly under the broadened Article VIII Section 1.13 rule. The scenario tests whether the Constitution now has a direct anti-capture footing for concealed domestic criminal beneficial ownership in major federal contracting.",
+  "articles_tested": ["Article VIII", "Article XIII"],
+  "provisions_tested": ["Article VIII Section 1.13", "Article XIII Section 9.3"],
+  "events": [
+    {
+      "day": 1,
+      "type": "criminal_enterprise_hides_domestic_control_of_major_federal_contractor",
+      "actor": "Federal contractor",
+      "details": {
+        "entity": "Harbor Shield Logistics",
+        "sector": "federal detention and emergency logistics"
+      }
+    },
+    {
+      "day": 40,
+      "type": "acc_invalidates_criminally_controlled_contractor",
+      "actor": "Accountability Commission",
+      "details": {}
+    }
+  ]
+}

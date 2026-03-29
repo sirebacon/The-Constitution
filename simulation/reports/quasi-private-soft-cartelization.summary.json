@@ -1,0 +1,49 @@
+{
+  "scenario_id": "quasi-private-soft-cartelization",
+  "title": "Quasi-Private Debate and Data Cartel Excludes Qualified Entrant",
+  "source_file": "simulation/scenarios/quasi-private-soft-cartelization.json",
+  "status": "stress_point_found",
+  "triggered_provisions": [
+    "Article I Section 9.5",
+    "Article V Section 2.5"
+  ],
+  "metrics": {
+    "satisfied_obligations": 1,
+    "failed_obligations": 0,
+    "unresolved_obligations": 0,
+    "violations": 1,
+    "bottlenecks": 0,
+    "timeline_entries": 5
+  },
+  "violations": [
+    {
+      "id": "quasi_private_soft_cartel_exclusion",
+      "category": "structural_gap",
+      "actor": "Private debate and data intermediaries",
+      "source": "Article I Section 9.5 and Section 10.6; Article V Section 2.5",
+      "severity": "high",
+      "day": 1,
+      "summary": "a dominant privately run debate-and-data consortium excludes a qualified federal entrant from major privately controlled debate access and campaign-information feeds without relying on public designation, public funding, or formal ballot exclusion. The exclusion materially degrades competition, but it may fall outside the current Article I floor for core public or publicly regulated election infrastructure."
+    }
+  ],
+  "bottlenecks": [],
+  "open_duties": [],
+  "satisfied_duties": [
+    {
+      "actor": "Electoral Commission",
+      "duty": "determine whether the exclusion falls within existing constitutional authority or remains outside the current floor for public or publicly regulated election infrastructure",
+      "closed_day": 8,
+      "outcome": "found that the exclusion did not involve core public or publicly regulated election infrastructure and therefore remained outside the Constitution's current direct remedy, absent further legislation or a broader constitutional rule",
+      "source": "Article I Section 9.5 and Section 10.6; Article V Section 2.5"
+    }
+  ],
+  "failed_duties": [],
+  "notes": [],
+  "ai_summary": {
+    "primary_violation": "a dominant privately run debate-and-data consortium excludes a qualified federal entrant from major privately controlled debate access and campaign-information feeds without relying on public designation, public funding, or formal ballot exclusion. The exclusion materially degrades competition, but it may fall outside the current Article I floor for core public or publicly regulated election infrastructure.",
+    "primary_bottleneck": null,
+    "primary_open_duty": null,
+    "system_risk": "institutional_stress",
+    "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+  }
+}

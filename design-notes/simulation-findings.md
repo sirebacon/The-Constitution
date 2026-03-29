@@ -2,6 +2,47 @@
 
 This document records conclusions drawn from the constitutional flow simulator and its generated reports. Each entry should cite the relevant scenario outputs so recurring bottlenecks can be tracked over time.
 
+## 2026-03-29 Organized Crime and Financial-Capture Coverage Pass
+
+### Inputs Reviewed
+
+- [aggregate.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/aggregate.json)
+- [systemically-important-bank-criminal-case.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/systemically-important-bank-criminal-case.summary.json)
+- [domestic-criminal-contractor-capture.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/domestic-criminal-contractor-capture.summary.json)
+
+### Aggregate Read
+
+- Scenario count rises from `67` to `69`.
+- `unresolved_obligations` remains `0`.
+- The new coverage does not expose a broad organized-crime architecture failure. It shows one area of existing strength and one narrower contractor-capture gap.
+
+### Main Results
+
+#### 1. The Constitution already has a real foothold against politically protected bank misconduct
+
+Source:
+- [systemically-important-bank-criminal-case.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/systemically-important-bank-criminal-case.summary.json)
+
+- A politically connected systemically important bank conceals large-scale money laundering and fraudulent compliance reporting.
+- The financial market regulator makes a criminal referral instead of treating systemic importance as a reason for forbearance.
+- The Accountability Commission prosecutes despite claims that enforcement would destabilize the economy.
+
+Assessment:
+Article VIII is stronger here than it first appears. The financial-regulator independence rule, criminal-referral duty, and explicit rejection of any institution being too large or connected to prosecute combine into a meaningful constitutional anti-capture footing.
+
+#### 2. Concealed domestic criminal control of major federal contractors is now directly reachable
+
+Source:
+- [domestic-criminal-contractor-capture.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/domestic-criminal-contractor-capture.summary.json)
+
+- A major federal contractor is secretly controlled through domestic nominees tied to an organized criminal enterprise.
+- The Accountability Commission confirms the concealed ownership.
+- No provable bribery by federal officials is found.
+- The contract is invalidated directly under the broadened Article VIII Section 1.13 rule.
+
+Assessment:
+The narrower contractor-capture gap is now closed. Article VIII Section 1.13 no longer depends on proving foreign ownership or a separate bribery offense before concealed criminal-enterprise control of major federal contractors can be reached directly.
+
 ## 2026-03-29 Private Chokepoint Coverage Pass
 
 ### Inputs Reviewed
@@ -1022,3 +1063,35 @@ This materially improves validation of the privacy/autonomy section and makes Ar
 
 1. Move Article VIII / XIII and Article XII / XIX back above Article V in the main queue.
 2. Keep one or two later Article V scenarios for family autonomy or digital-rights edge cases, but treat them as refinement rather than urgent gap repair.
+
+## 2026-03-29 Article XII Internal-Boycott Validation Pass
+
+### Files Reviewed
+
+- [simulation/reports/constitutional-organ-internal-boycott.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/constitutional-organ-internal-boycott.summary.json)
+- [simulation/reports/aggregate.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/aggregate.json)
+
+### Findings
+
+#### 1. Article XII §5.5 is operational under adversarial pressure
+
+Sources:
+- [simulation/reports/constitutional-organ-internal-boycott.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/constitutional-organ-internal-boycott.summary.json)
+- [articles/XII-constitutional-organs.md](/Users/chris/Documents/GitHub/The-Constitution/articles/XII-constitutional-organs.md)
+
+- A bloc of Electoral Commissioners refused quorum or certification in order to block a required constitutional function.
+- Courts issued expedited anti-boycott continuity relief under the article's existing structure.
+- Certification still proceeded on time under court-approved continuity procedures.
+
+Assessment:
+This is the key answer the queue was waiting on. The article's internal anti-sabotage rule does real work in the simulator without needing new constitutional machinery.
+
+### Net Effect
+
+- Article XII's main remaining issue is now startup and transition friction, not internal boycott.
+- The article is materially closer to near-final status.
+
+### Recommended Follow-Up
+
+1. Keep Article XIX startup-delay work separate from the now-validated internal-boycott issue.
+2. Move the next concrete scenario priority to quasi-private soft cartelization outside the new Article I / Article VI floor, or to a whole-draft compression pass if you want a stylistic rather than adversarial step next.

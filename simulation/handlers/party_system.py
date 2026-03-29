@@ -101,10 +101,52 @@ def handle_court_upholds_relief_for_soft_party_cartelization(state: SimulationSt
     )
 
 
+def handle_private_debate_and_data_cartel_excludes_qualified_entrant(state: SimulationState, event: dict[str, Any]) -> None:
+    day = int(event["day"])
+    details = event.get("details", {})
+    channel = details.get("channel", "a dominant privately run debate-and-data consortium")
+    entrant = details.get("entrant", "a qualified federal entrant")
+    state.provisions.update({"Article I Section 9.5", "Article V Section 2.5"})
+    state.add_violation(
+        "quasi_private_soft_cartel_exclusion",
+        "structural_gap",
+        "Private debate and data intermediaries",
+        f"{channel} excludes {entrant} from major privately controlled debate access and campaign-information feeds without relying on public designation, public funding, or formal ballot exclusion. The exclusion materially degrades competition, but it may fall outside the current Article I floor for core public or publicly regulated election infrastructure.",
+        "Article I Section 9.5 and Section 10.6; Article V Section 2.5",
+        day,
+    )
+    state.add_obligation(
+        "electoral_commission_review_quasi_private_cartel_exclusion",
+        "Electoral Commission",
+        "determine whether the exclusion falls within existing constitutional authority or remains outside the current floor for public or publicly regulated election infrastructure",
+        "Article I Section 9.5 and Section 10.6; Article V Section 2.5",
+        day,
+        day + 10,
+        severity="high",
+    )
+
+
+def handle_electoral_commission_finds_quasi_private_cartel_gap(state: SimulationState, event: dict[str, Any]) -> None:
+    day = int(event["day"])
+    state.resolve_obligation(
+        "electoral_commission_review_quasi_private_cartel_exclusion",
+        day,
+        "found that the exclusion did not involve core public or publicly regulated election infrastructure and therefore remained outside the Constitution's current direct remedy, absent further legislation or a broader constitutional rule",
+    )
+    state.add_entry(
+        day,
+        "outcome",
+        "This scenario confirms the remaining narrower gap after the soft-cartelization fix: quasi-private coordination can still degrade competition where the channel is neither public nor publicly regulated enough to fall within Article I Section 9.5.",
+        "Article I Section 9.5 and Section 10.6; Article V Section 2.5",
+    )
+
+
 HANDLERS = {
     "cartelized_ballot_access_barriers_imposed": handle_cartelized_ballot_access_barriers_imposed,
     "court_voids_cartelized_ballot_access_barriers": handle_court_voids_cartelized_ballot_access_barriers,
     "dominant_parties_collude_to_exclude_debates_and_infrastructure": handle_dominant_parties_collude_to_exclude_debates_and_infrastructure,
     "electoral_commission_orders_relief_for_soft_party_cartelization": handle_electoral_commission_orders_relief_for_soft_party_cartelization,
     "court_upholds_relief_for_soft_party_cartelization": handle_court_upholds_relief_for_soft_party_cartelization,
+    "private_debate_and_data_cartel_excludes_qualified_entrant": handle_private_debate_and_data_cartel_excludes_qualified_entrant,
+    "electoral_commission_finds_quasi_private_cartel_gap": handle_electoral_commission_finds_quasi_private_cartel_gap,
 }

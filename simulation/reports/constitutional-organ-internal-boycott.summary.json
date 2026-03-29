@@ -1,0 +1,57 @@
+{
+  "scenario_id": "constitutional-organ-internal-boycott",
+  "title": "Electoral Commission Internal Boycott of Required Certification",
+  "source_file": "simulation/scenarios/constitutional-organ-internal-boycott.json",
+  "status": "stress_point_found",
+  "triggered_provisions": [
+    "Article I Section 10.4",
+    "Article XII Section 2.7",
+    "Article XII Section 5.5"
+  ],
+  "metrics": {
+    "satisfied_obligations": 2,
+    "failed_obligations": 0,
+    "unresolved_obligations": 0,
+    "violations": 1,
+    "bottlenecks": 0,
+    "timeline_entries": 7
+  },
+  "violations": [
+    {
+      "id": "electoral_commission_internal_boycott",
+      "category": "institutional_stress",
+      "actor": "Bloc of Electoral Commissioners",
+      "source": "Article XII Section 2.7 and Section 5.5; Article I Section 10.4",
+      "severity": "high",
+      "day": 1,
+      "summary": "A bloc of Electoral Commissioners refuses quorum or certification in order to prevent timely certification of a presidential election, threatening the Commission's constitutionally required function."
+    }
+  ],
+  "bottlenecks": [],
+  "open_duties": [],
+  "satisfied_duties": [
+    {
+      "actor": "Federal courts",
+      "duty": "issue expedited judicial relief sufficient to preserve the Electoral Commission's required certification function despite internal boycott",
+      "closed_day": 4,
+      "outcome": "ordered emergency anti-boycott relief, authorized temporary internal continuity procedures, and directed the Commission to complete certification on the constitutional timetable",
+      "source": "Article XII Section 5.5 and Article I Section 10.4"
+    },
+    {
+      "actor": "Electoral Commission",
+      "duty": "complete certification under the court-approved anti-boycott continuity procedures",
+      "closed_day": 7,
+      "outcome": "completed certification through the court-approved continuity procedure despite the internal boycott",
+      "source": "Article XII Section 2.7 and Section 5.5; Article I Section 10.4"
+    }
+  ],
+  "failed_duties": [],
+  "notes": [],
+  "ai_summary": {
+    "primary_violation": "A bloc of Electoral Commissioners refuses quorum or certification in order to prevent timely certification of a presidential election, threatening the Commission's constitutionally required function.",
+    "primary_bottleneck": null,
+    "primary_open_duty": null,
+    "system_risk": "institutional_stress",
+    "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+  }
+}

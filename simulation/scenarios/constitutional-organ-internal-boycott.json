@@ -1,0 +1,29 @@
+{
+  "id": "constitutional-organ-internal-boycott",
+  "title": "Electoral Commission Internal Boycott of Required Certification",
+  "description": "A bloc of Electoral Commissioners refuses quorum or certification in order to block timely certification of a federal election. The scenario tests whether Article XII's anti-sabotage and continuity rules, together with expedited judicial relief, preserve the Commission's required constitutional function without creating a general judicial-management power over the Organ.",
+  "articles_tested": ["Article XII", "Article I"],
+  "provisions_tested": ["Article XII Section 2.7", "Article XII Section 5.5", "Article I Section 10.4"],
+  "events": [
+    {
+      "day": 1,
+      "type": "electoral_commission_internal_boycott_blocks_certification",
+      "actor": "Bloc of Electoral Commissioners",
+      "details": {
+        "election": "a presidential election"
+      }
+    },
+    {
+      "day": 4,
+      "type": "court_orders_constitutional_organ_anti_boycott_relief",
+      "actor": "Federal courts",
+      "details": {}
+    },
+    {
+      "day": 7,
+      "type": "electoral_commission_completes_certification_under_relief",
+      "actor": "Electoral Commission",
+      "details": {}
+    }
+  ]
+}

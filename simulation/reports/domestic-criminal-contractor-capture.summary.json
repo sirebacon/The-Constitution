@@ -1,0 +1,49 @@
+{
+  "scenario_id": "domestic-criminal-contractor-capture",
+  "title": "Domestic Criminal Enterprise Conceals Control of Major Federal Contractor",
+  "source_file": "simulation/scenarios/domestic-criminal-contractor-capture.json",
+  "status": "stress_point_found",
+  "triggered_provisions": [
+    "Article VIII Section 1.13",
+    "Article XIII Section 9.3"
+  ],
+  "metrics": {
+    "satisfied_obligations": 1,
+    "failed_obligations": 0,
+    "unresolved_obligations": 0,
+    "violations": 1,
+    "bottlenecks": 0,
+    "timeline_entries": 5
+  },
+  "violations": [
+    {
+      "id": "criminal_enterprise_hidden_contractor_control",
+      "category": "criminal_capture_risk",
+      "actor": "Harbor Shield Logistics",
+      "source": "Article VIII Section 1.13 and Article XIII Section 9.3",
+      "severity": "high",
+      "day": 1,
+      "summary": "Harbor Shield Logistics wins sensitive federal work in federal detention and emergency logistics while its true beneficial owners are concealed through domestic nominees tied to an organized criminal enterprise. Article VIII Section 1.13 now reaches concealed criminal beneficial ownership in major federal contracting, not only concealed foreign ownership."
+    }
+  ],
+  "bottlenecks": [],
+  "open_duties": [],
+  "satisfied_duties": [
+    {
+      "actor": "Accountability Commission",
+      "duty": "investigate the concealed ownership, determine whether any official engaged in corruption, and apply Article VIII Section 1.13's contractor-disqualification rule if concealed criminal beneficial ownership is confirmed",
+      "closed_day": 40,
+      "outcome": "completed the investigation, confirmed concealed criminal-enterprise ownership, found no provable bribery by federal officials, and invalidated the contract under Article VIII Section 1.13's direct contractor-disqualification rule",
+      "source": "Article VIII Section 1.13 and Article XIII Section 9.3"
+    }
+  ],
+  "failed_duties": [],
+  "notes": [],
+  "ai_summary": {
+    "primary_violation": "Harbor Shield Logistics wins sensitive federal work in federal detention and emergency logistics while its true beneficial owners are concealed through domestic nominees tied to an organized criminal enterprise. Article VIII Section 1.13 now reaches concealed criminal beneficial ownership in major federal contracting, not only concealed foreign ownership.",
+    "primary_bottleneck": null,
+    "primary_open_duty": null,
+    "system_risk": "institutional_stress",
+    "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+  }
+}

@@ -158,6 +158,63 @@ def handle_supreme_court_makes_temporary_constitutional_organ_appointments(state
     )
 
 
+def handle_electoral_commission_internal_boycott_blocks_certification(state: SimulationState, event: dict[str, Any]) -> None:
+    day = int(event["day"])
+    details = event.get("details", {})
+    election = details.get("election", "a federal election")
+    state.provisions.update({"Article XII Section 2.7", "Article XII Section 5.5", "Article I Section 10.4"})
+    state.add_violation(
+        "electoral_commission_internal_boycott",
+        "institutional_stress",
+        "Bloc of Electoral Commissioners",
+        f"A bloc of Electoral Commissioners refuses quorum or certification in order to prevent timely certification of {election}, threatening the Commission's constitutionally required function.",
+        "Article XII Section 2.7 and Section 5.5; Article I Section 10.4",
+        day,
+    )
+    state.add_obligation(
+        "court_preserve_electoral_commission_function",
+        "Federal courts",
+        "issue expedited judicial relief sufficient to preserve the Electoral Commission's required certification function despite internal boycott",
+        "Article XII Section 5.5 and Article I Section 10.4",
+        day,
+        day + 5,
+        severity="high",
+    )
+
+
+def handle_court_orders_constitutional_organ_anti_boycott_relief(state: SimulationState, event: dict[str, Any]) -> None:
+    day = int(event["day"])
+    state.resolve_obligation(
+        "court_preserve_electoral_commission_function",
+        day,
+        "ordered emergency anti-boycott relief, authorized temporary internal continuity procedures, and directed the Commission to complete certification on the constitutional timetable",
+    )
+    state.add_obligation(
+        "electoral_commission_complete_certification_under_relief",
+        "Electoral Commission",
+        "complete certification under the court-approved anti-boycott continuity procedures",
+        "Article XII Section 2.7 and Section 5.5; Article I Section 10.4",
+        day,
+        day + 5,
+        severity="high",
+    )
+
+
+def handle_electoral_commission_completes_certification_under_relief(state: SimulationState, event: dict[str, Any]) -> None:
+    day = int(event["day"])
+    state.resolve_obligation(
+        "electoral_commission_complete_certification_under_relief",
+        day,
+        "completed certification through the court-approved continuity procedure despite the internal boycott",
+    )
+    state.add_entry(
+        day,
+        "outcome",
+        "The scenario validates that Article XII Section 5.5 is operational: internal boycott does not disable a Constitutional Organ's time-sensitive constitutional function when expedited judicial relief and continuity procedures are available.",
+        "Article XII Section 2.7 and Section 5.5; Article I Section 10.4",
+    )
+
+
 HANDLERS = {
     "constitution_ratified": handle_constitution_ratified,
     "congress_fails_first_election_law": handle_congress_fails_first_election_law,
@@ -167,4 +224,7 @@ HANDLERS = {
     "constitutional_organs_deadline_missed": handle_constitutional_organs_deadline_missed,
     "supreme_court_orders_constitutional_organs_completion": handle_supreme_court_orders_constitutional_organs_completion,
     "supreme_court_makes_temporary_constitutional_organ_appointments": handle_supreme_court_makes_temporary_constitutional_organ_appointments,
+    "electoral_commission_internal_boycott_blocks_certification": handle_electoral_commission_internal_boycott_blocks_certification,
+    "court_orders_constitutional_organ_anti_boycott_relief": handle_court_orders_constitutional_organ_anti_boycott_relief,
+    "electoral_commission_completes_certification_under_relief": handle_electoral_commission_completes_certification_under_relief,
 }

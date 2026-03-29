@@ -1,15 +1,15 @@
 {
-  "scenario_count": 65,
-  "stress_point_scenarios": 63,
+  "scenario_count": 69,
+  "stress_point_scenarios": 67,
   "totals": {
-    "violations": 56,
+    "violations": 60,
     "bottlenecks": 30,
     "unresolved_obligations": 0
   },
   "risk_pattern_counts": [
     {
       "risk": "institutional_stress",
-      "count": 36
+      "count": 40
     },
     {
       "risk": "executive_defiance",
@@ -61,7 +61,7 @@
     },
     {
       "category": "institutional_stress",
-      "count": 6
+      "count": 7
     },
     {
       "category": "constitutional_floor_breach",
@@ -96,6 +96,10 @@
       "count": 1
     },
     {
+      "category": "criminal_capture_risk",
+      "count": 1
+    },
+    {
       "category": "election_fairness_breach",
       "count": 1
     },
@@ -109,6 +113,14 @@
     },
     {
       "category": "foreign_interference",
+      "count": 1
+    },
+    {
+      "category": "market_corruption",
+      "count": 1
+    },
+    {
+      "category": "structural_gap",
       "count": 1
     }
   ],
@@ -138,8 +150,16 @@
       "count": 3
     },
     {
+      "provision": "Article V Section 2.5",
+      "count": 3
+    },
+    {
       "provision": "Article V Section 2.6",
       "count": 3
+    },
+    {
+      "provision": "Article I Section 9.5",
+      "count": 2
     },
     {
       "provision": "Article I election administration provisions",
@@ -162,10 +182,6 @@
       "count": 2
     },
     {
-      "provision": "Article V Section 2.5",
-      "count": 2
-    },
-    {
       "provision": "Article V Section 5.3",
       "count": 2
     },
@@ -175,6 +191,10 @@
     },
     {
       "provision": "Article VI Section 7.5A",
+      "count": 2
+    },
+    {
+      "provision": "Article VIII Section 1.13",
       "count": 2
     },
     {
@@ -198,6 +218,10 @@
       "count": 2
     },
     {
+      "provision": "Article XIII Section 9.3",
+      "count": 2
+    },
+    {
       "provision": "Article XIX Section 4",
       "count": 2
     },
@@ -214,6 +238,10 @@
       "count": 1
     },
     {
+      "provision": "Article I Section 10.4",
+      "count": 1
+    },
+    {
       "provision": "Article I Section 10.6",
       "count": 1
     },
@@ -223,10 +251,6 @@
     },
     {
       "provision": "Article I Section 9.4",
-      "count": 1
-    },
-    {
-      "provision": "Article I Section 9.5",
       "count": 1
     },
     {
@@ -486,15 +510,27 @@
       "count": 1
     },
     {
-      "provision": "Article VIII Section 1.13",
-      "count": 1
-    },
-    {
       "provision": "Article VIII Section 1.4",
       "count": 1
     },
     {
       "provision": "Article VIII Section 1.7",
+      "count": 1
+    },
+    {
+      "provision": "Article VIII Section 2.1",
+      "count": 1
+    },
+    {
+      "provision": "Article VIII Section 2.5",
+      "count": 1
+    },
+    {
+      "provision": "Article VIII Section 2.6",
+      "count": 1
+    },
+    {
+      "provision": "Article VIII Section 2.7",
       "count": 1
     },
     {
@@ -542,15 +578,19 @@
       "count": 1
     },
     {
+      "provision": "Article XII Section 2.7",
+      "count": 1
+    },
+    {
+      "provision": "Article XII Section 5.5",
+      "count": 1
+    },
+    {
       "provision": "Article XIII Section 12",
       "count": 1
     },
     {
       "provision": "Article XIII Section 2.0.5",
-      "count": 1
-    },
-    {
-      "provision": "Article XIII Section 9.3",
       "count": 1
     },
     {
@@ -979,6 +1019,63 @@
         "primary_bottleneck": "Secretary of Defense failed to comply with the congressional subpoena by testifying and producing required documents by day 30 under Article II Section 16.2 and Section 16.3.",
         "primary_open_duty": null,
         "system_risk": "executive_defiance",
+        "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+      }
+    },
+    {
+      "scenario_id": "constitutional-organ-internal-boycott",
+      "title": "Electoral Commission Internal Boycott of Required Certification",
+      "source_file": "simulation/scenarios/constitutional-organ-internal-boycott.json",
+      "status": "stress_point_found",
+      "triggered_provisions": [
+        "Article I Section 10.4",
+        "Article XII Section 2.7",
+        "Article XII Section 5.5"
+      ],
+      "metrics": {
+        "satisfied_obligations": 2,
+        "failed_obligations": 0,
+        "unresolved_obligations": 0,
+        "violations": 1,
+        "bottlenecks": 0,
+        "timeline_entries": 7
+      },
+      "violations": [
+        {
+          "id": "electoral_commission_internal_boycott",
+          "category": "institutional_stress",
+          "actor": "Bloc of Electoral Commissioners",
+          "source": "Article XII Section 2.7 and Section 5.5; Article I Section 10.4",
+          "severity": "high",
+          "day": 1,
+          "summary": "A bloc of Electoral Commissioners refuses quorum or certification in order to prevent timely certification of a presidential election, threatening the Commission's constitutionally required function."
+        }
+      ],
+      "bottlenecks": [],
+      "open_duties": [],
+      "satisfied_duties": [
+        {
+          "actor": "Federal courts",
+          "duty": "issue expedited judicial relief sufficient to preserve the Electoral Commission's required certification function despite internal boycott",
+          "closed_day": 4,
+          "outcome": "ordered emergency anti-boycott relief, authorized temporary internal continuity procedures, and directed the Commission to complete certification on the constitutional timetable",
+          "source": "Article XII Section 5.5 and Article I Section 10.4"
+        },
+        {
+          "actor": "Electoral Commission",
+          "duty": "complete certification under the court-approved anti-boycott continuity procedures",
+          "closed_day": 7,
+          "outcome": "completed certification through the court-approved continuity procedure despite the internal boycott",
+          "source": "Article XII Section 2.7 and Section 5.5; Article I Section 10.4"
+        }
+      ],
+      "failed_duties": [],
+      "notes": [],
+      "ai_summary": {
+        "primary_violation": "A bloc of Electoral Commissioners refuses quorum or certification in order to prevent timely certification of a presidential election, threatening the Commission's constitutionally required function.",
+        "primary_bottleneck": null,
+        "primary_open_duty": null,
+        "system_risk": "institutional_stress",
         "recommended_focus": "review bottlenecks, violations, and unresolved duties"
       }
     },
@@ -1503,6 +1600,55 @@
       "notes": [],
       "ai_summary": {
         "primary_violation": "Government agency purchases personal data from a private data broker \u2014 including location data, communications metadata, and association records \u2014 in order to obtain information it would need a warrant to collect directly, in violation of Article V Section 10.3.",
+        "primary_bottleneck": null,
+        "primary_open_duty": null,
+        "system_risk": "institutional_stress",
+        "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+      }
+    },
+    {
+      "scenario_id": "domestic-criminal-contractor-capture",
+      "title": "Domestic Criminal Enterprise Conceals Control of Major Federal Contractor",
+      "source_file": "simulation/scenarios/domestic-criminal-contractor-capture.json",
+      "status": "stress_point_found",
+      "triggered_provisions": [
+        "Article VIII Section 1.13",
+        "Article XIII Section 9.3"
+      ],
+      "metrics": {
+        "satisfied_obligations": 1,
+        "failed_obligations": 0,
+        "unresolved_obligations": 0,
+        "violations": 1,
+        "bottlenecks": 0,
+        "timeline_entries": 5
+      },
+      "violations": [
+        {
+          "id": "criminal_enterprise_hidden_contractor_control",
+          "category": "criminal_capture_risk",
+          "actor": "Harbor Shield Logistics",
+          "source": "Article VIII Section 1.13 and Article XIII Section 9.3",
+          "severity": "high",
+          "day": 1,
+          "summary": "Harbor Shield Logistics wins sensitive federal work in federal detention and emergency logistics while its true beneficial owners are concealed through domestic nominees tied to an organized criminal enterprise. Article VIII Section 1.13 now reaches concealed criminal beneficial ownership in major federal contracting, not only concealed foreign ownership."
+        }
+      ],
+      "bottlenecks": [],
+      "open_duties": [],
+      "satisfied_duties": [
+        {
+          "actor": "Accountability Commission",
+          "duty": "investigate the concealed ownership, determine whether any official engaged in corruption, and apply Article VIII Section 1.13's contractor-disqualification rule if concealed criminal beneficial ownership is confirmed",
+          "closed_day": 40,
+          "outcome": "completed the investigation, confirmed concealed criminal-enterprise ownership, found no provable bribery by federal officials, and invalidated the contract under Article VIII Section 1.13's direct contractor-disqualification rule",
+          "source": "Article VIII Section 1.13 and Article XIII Section 9.3"
+        }
+      ],
+      "failed_duties": [],
+      "notes": [],
+      "ai_summary": {
+        "primary_violation": "Harbor Shield Logistics wins sensitive federal work in federal detention and emergency logistics while its true beneficial owners are concealed through domestic nominees tied to an organized criminal enterprise. Article VIII Section 1.13 now reaches concealed criminal beneficial ownership in major federal contracting, not only concealed foreign ownership.",
         "primary_bottleneck": null,
         "primary_open_duty": null,
         "system_risk": "institutional_stress",
@@ -3530,6 +3676,55 @@
       }
     },
     {
+      "scenario_id": "quasi-private-soft-cartelization",
+      "title": "Quasi-Private Debate and Data Cartel Excludes Qualified Entrant",
+      "source_file": "simulation/scenarios/quasi-private-soft-cartelization.json",
+      "status": "stress_point_found",
+      "triggered_provisions": [
+        "Article I Section 9.5",
+        "Article V Section 2.5"
+      ],
+      "metrics": {
+        "satisfied_obligations": 1,
+        "failed_obligations": 0,
+        "unresolved_obligations": 0,
+        "violations": 1,
+        "bottlenecks": 0,
+        "timeline_entries": 5
+      },
+      "violations": [
+        {
+          "id": "quasi_private_soft_cartel_exclusion",
+          "category": "structural_gap",
+          "actor": "Private debate and data intermediaries",
+          "source": "Article I Section 9.5 and Section 10.6; Article V Section 2.5",
+          "severity": "high",
+          "day": 1,
+          "summary": "a dominant privately run debate-and-data consortium excludes a qualified federal entrant from major privately controlled debate access and campaign-information feeds without relying on public designation, public funding, or formal ballot exclusion. The exclusion materially degrades competition, but it may fall outside the current Article I floor for core public or publicly regulated election infrastructure."
+        }
+      ],
+      "bottlenecks": [],
+      "open_duties": [],
+      "satisfied_duties": [
+        {
+          "actor": "Electoral Commission",
+          "duty": "determine whether the exclusion falls within existing constitutional authority or remains outside the current floor for public or publicly regulated election infrastructure",
+          "closed_day": 8,
+          "outcome": "found that the exclusion did not involve core public or publicly regulated election infrastructure and therefore remained outside the Constitution's current direct remedy, absent further legislation or a broader constitutional rule",
+          "source": "Article I Section 9.5 and Section 10.6; Article V Section 2.5"
+        }
+      ],
+      "failed_duties": [],
+      "notes": [],
+      "ai_summary": {
+        "primary_violation": "a dominant privately run debate-and-data consortium excludes a qualified federal entrant from major privately controlled debate access and campaign-information feeds without relying on public designation, public funding, or formal ballot exclusion. The exclusion materially degrades competition, but it may fall outside the current Article I floor for core public or publicly regulated election infrastructure.",
+        "primary_bottleneck": null,
+        "primary_open_duty": null,
+        "system_risk": "institutional_stress",
+        "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+      }
+    },
+    {
       "scenario_id": "ra-blocks-emergency-vote",
       "title": "Regional Assembly Blocks Emergency Vote \u2014 Section 15A Enforcement",
       "source_file": "simulation/scenarios/ra-blocks-emergency-vote.json",
@@ -4398,6 +4593,64 @@
       "ai_summary": {
         "primary_violation": "The Court appears to be using delay itself to affect the political timing of a major constitutional dispute.",
         "primary_bottleneck": "Supreme Court failed to publish a public notice identifying the case and the reason for delay if no decision has issued within six months of argument by day 180 under Article IV Section 10.1.",
+        "primary_open_duty": null,
+        "system_risk": "institutional_stress",
+        "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+      }
+    },
+    {
+      "scenario_id": "systemically-important-bank-criminal-case",
+      "title": "Systemically Important Bank Faces Criminal Referral",
+      "source_file": "simulation/scenarios/systemically-important-bank-criminal-case.json",
+      "status": "stress_point_found",
+      "triggered_provisions": [
+        "Article VIII Section 2.1",
+        "Article VIII Section 2.5",
+        "Article VIII Section 2.6",
+        "Article VIII Section 2.7"
+      ],
+      "metrics": {
+        "satisfied_obligations": 2,
+        "failed_obligations": 0,
+        "unresolved_obligations": 0,
+        "violations": 1,
+        "bottlenecks": 0,
+        "timeline_entries": 8
+      },
+      "violations": [
+        {
+          "id": "systemically_important_bank_criminal_scheme",
+          "category": "market_corruption",
+          "actor": "Union Atlantic Bank",
+          "source": "Article VIII Section 2.1, Section 2.5, Section 2.6, and Section 2.7",
+          "severity": "high",
+          "day": 1,
+          "summary": "Union Atlantic Bank concealed large-scale money laundering tied to transnational trafficking proceeds and falsified compliance reporting while senior executives misled regulators and investors about the bank's risk controls. The scenario tests whether Article VIII's market-integrity provisions permit direct enforcement even where the target institution is politically connected and systemically important."
+        }
+      ],
+      "bottlenecks": [],
+      "open_duties": [],
+      "satisfied_duties": [
+        {
+          "actor": "Financial market regulator",
+          "duty": "complete the investigation, make formal criminal referrals, and seek emergency asset-preservation or clawback remedies if warranted",
+          "closed_day": 35,
+          "outcome": "completed the investigation, referred the criminal conduct to the Accountability Commission, and sought emergency judicial asset-preservation and executive-compensation clawback remedies",
+          "source": "Article VIII Section 2.5, Section 2.6, and Section 2.7"
+        },
+        {
+          "actor": "Accountability Commission",
+          "duty": "decide whether to prosecute the referred criminal conduct without regard to the institution's size, political influence, or claimed systemic importance",
+          "closed_day": 58,
+          "outcome": "filed charges against the institution and responsible executives, rejecting claims that systemic importance justified nonprosecution",
+          "source": "Article VIII Section 2.5 and Section 2.6"
+        }
+      ],
+      "failed_duties": [],
+      "notes": [],
+      "ai_summary": {
+        "primary_violation": "Union Atlantic Bank concealed large-scale money laundering tied to transnational trafficking proceeds and falsified compliance reporting while senior executives misled regulators and investors about the bank's risk controls. The scenario tests whether Article VIII's market-integrity provisions permit direct enforcement even where the target institution is politically connected and systemically important.",
+        "primary_bottleneck": null,
         "primary_open_duty": null,
         "system_risk": "institutional_stress",
         "recommended_focus": "review bottlenecks, violations, and unresolved duties"

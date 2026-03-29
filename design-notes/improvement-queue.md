@@ -21,8 +21,8 @@ Use this order when deciding what to work on:
 | Priority | Area | Why It Matters | Main Issue | Target Outcome |
 |----------|------|----------------|------------|----------------|
 | 1 | ~~Simulation coverage gaps~~ **DONE** | Art XVIII and Article X now both have direct scenario coverage, and Article V still needs a second wave (religion, family/autonomy) | The main remaining coverage gaps are Article IX sensitive-office/proof disputes and additional Article V edge cases | A draft whose remaining medium-risk articles are directly tested |
-| 2 | Article VIII / Article XIII boundary review | Ethics and agency architecture are both stronger, but their overlap needs one clean final check | Article VIII still contains a specific market regulator while Article XIII governs agencies generally | A clean boundary between ethics enforcement and general agency design |
-| 3 | Article XII / Article XIX continuity edge cases | The duplicate vacancy rule is now merged (§5.6), but adversarial pressure is still missing | Internal boycott scenario still unbuilt | Continuity backstops that hold under hostile conditions without adding new machinery |
+| 2 | ~~Article VIII / Article XIII boundary review~~ **DONE** | Ethics and agency architecture now state their boundary more cleanly: Article VIII owns substantive ethics and market-integrity duties, Article XIII owns general agency structure, and the stale Article XIII cross-reference to nonexistent Article VIII §2.10 is fixed | Remaining work is only light later compression of Article VIII §1.13 and some operational detail in Article XIII | No further action needed unless a later whole-draft pass surfaces new overlap |
+| 3 | ~~Article XII / Article XIX continuity edge cases~~ **PARTIAL** | The duplicate vacancy rule is now merged (§5.6), and the internal-boycott scenario now validates Article XII §5.5 under pressure | The remaining adversarial work is narrower: Article XIX startup friction and any broader continuity sabotage beyond certification boycott | Continuity backstops that hold under hostile conditions without adding new machinery |
 | 4 | ~~Article IX citizenship scenarios~~ **DONE** | §5.2 loss-of-citizenship rule tightened with explicit procedural floor; overseas assignment, naturalized-candidate, sensitive-office, and proof-dispute scenarios now all exist | Only one optional later cleanup scenario remains for renunciation/statelessness/foreign-office incompatibility | No further action needed unless a later edge-case review surfaces a new exploit |
 | 5 | ~~Article II draft-discipline cleanup~~ **DONE** | §16 compressed: drafting note deleted, auto-referral machinery removed, investigation-clock mechanics removed, §16.8 stated as principle; discipline 7.8 → 8.2 | §15A.4 remains dense but simulation-validated | No further action needed unless a later pass surfaces more compressible detail |
 | 6 | ~~Private platform and infrastructure chokepoint power~~ **DONE** | Dominant-civic-intermediary scenarios are now built and Article VI §7.5A supplies a narrow constitutional continuity remedy | The remaining issue is later compression: keep the duty viewpoint-neutral and confined to indispensable civic intermediaries | No further action needed unless later scenarios show overbreadth or underreach |
@@ -40,7 +40,7 @@ These are the main weaknesses of the draft in its current state. They are narrow
    The remaining gaps are now narrower: a few Article V family/autonomy or digital-rights scenarios, plus optional cleanup scenarios for Article IX and Article X.
 
 2. Some core articles are still denser than ideal constitutional text.
-   Article II remains the clearest draft-discipline outlier, and parts of Articles VIII, XIII, and XIX still risk reading more like advanced statutory design than near-final constitutional prose.
+   Article II remains the clearest draft-discipline outlier, and parts of Articles VIII, XIII, and XIX still risk reading more like advanced statutory design than near-final constitutional prose, even though the VIII/XIII boundary itself is now clearer.
 
 3. Political nonperformance remains the dominant live stress pattern.
    The draft now usually supplies an automatic consequence, but the simulator still shows repeated missed deadlines, refusals to act, and delay chains under hostile conditions.
@@ -48,7 +48,10 @@ These are the main weaknesses of the draft in its current state. They are narrow
 4. The new resilience clauses are good but may need later compression.
    The oligarchic-pressure hardening closed real gaps, but provisions such as contractor beneficial-ownership disclosure should eventually be checked for constitutional abstraction level.
 
-5. A final cross-article edge-case pass is still needed.
+5. Some resilience clauses are now stronger but may need later compression.
+   Article VIII Section 1.13 is now doing more real work after the contractor-capture hardening, which increases the value of a later abstraction-level review.
+
+6. A final cross-article edge-case pass is still needed.
    The remaining risk is less contradiction than boundary drift: emergency overlap, ethics/agency overlap, continuity overlap, and enforcement-path complexity.
 
 ---
@@ -221,10 +224,8 @@ Those belong to Article XII / Article XIX / Article IV review, not to further br
 
 **Next sprint:**
 
-1. Article VIII / Article XIII boundary check (still open from queue item 2)
-2. Article XII internal-boycott scenario
-3. Quasi-private soft-cartel scenario outside public or publicly regulated election infrastructure
-4. Overall draft discipline pass targeting any residual code-like density
+1. Decide whether the newly built quasi-private soft-cartel scenario should remain a statutory problem, become a constitutional target, or stay as a flagged residual risk
+2. Overall draft discipline pass targeting any residual code-like density
 
 ---
 
