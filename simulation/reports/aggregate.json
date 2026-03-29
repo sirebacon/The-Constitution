@@ -1,9 +1,9 @@
 {
-  "scenario_count": 72,
-  "stress_point_scenarios": 70,
+  "scenario_count": 73,
+  "stress_point_scenarios": 71,
   "totals": {
     "violations": 63,
-    "bottlenecks": 30,
+    "bottlenecks": 32,
     "unresolved_obligations": 0
   },
   "risk_pattern_counts": [
@@ -17,7 +17,7 @@
     },
     {
       "risk": "legislative_delay",
-      "count": 7
+      "count": 8
     },
     {
       "risk": "none",
@@ -31,7 +31,7 @@
   "bottleneck_categories": [
     {
       "category": "legislative_deadline_failure",
-      "count": 14
+      "count": 16
     },
     {
       "category": "judicial_delay",
@@ -158,6 +158,14 @@
       "count": 3
     },
     {
+      "provision": "Article XIX Section 4",
+      "count": 3
+    },
+    {
+      "provision": "Article XIX Section 5",
+      "count": 3
+    },
+    {
       "provision": "Article I Section 9.5",
       "count": 2
     },
@@ -231,14 +239,6 @@
     },
     {
       "provision": "Article XIII Section 9.3",
-      "count": 2
-    },
-    {
-      "provision": "Article XIX Section 4",
-      "count": 2
-    },
-    {
-      "provision": "Article XIX Section 5",
       "count": 2
     },
     {
@@ -1031,6 +1031,99 @@
         "primary_bottleneck": "Secretary of Defense failed to comply with the congressional subpoena by testifying and producing required documents by day 30 under Article II Section 16.2 and Section 16.3.",
         "primary_open_duty": null,
         "system_risk": "executive_defiance",
+        "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+      }
+    },
+    {
+      "scenario_id": "constitutional-organ-bridge-startup",
+      "title": "Temporary Constitutional Organ Quorum Begins Operations",
+      "source_file": "simulation/scenarios/constitutional-organ-bridge-startup.json",
+      "status": "stress_point_found",
+      "triggered_provisions": [
+        "Article XIX Section 4",
+        "Article XIX Section 5"
+      ],
+      "metrics": {
+        "satisfied_obligations": 3,
+        "failed_obligations": 2,
+        "unresolved_obligations": 0,
+        "violations": 0,
+        "bottlenecks": 2,
+        "timeline_entries": 15
+      },
+      "violations": [],
+      "bottlenecks": [
+        {
+          "id": "constitute_constitutional_organs",
+          "category": "legislative_deadline_failure",
+          "actor": "Congress and appointing authorities",
+          "source": "Article XIX Section 5.2",
+          "severity": "high",
+          "day": 366,
+          "deadline_day": 365,
+          "summary": "Congress and appointing authorities failed to constitute the Constitutional Organs on the timeline required by the Constitution by day 365 under Article XIX Section 5.2."
+        },
+        {
+          "id": "constitute_constitutional_organs_after_order",
+          "category": "legislative_deadline_failure",
+          "actor": "Congress and appointing authorities",
+          "source": "Article XIX Section 5.2A",
+          "severity": "high",
+          "day": 425,
+          "deadline_day": 420,
+          "summary": "Congress and appointing authorities failed to complete the constitutional-organ appointment process after Supreme Court order by day 420 under Article XIX Section 5.2A."
+        }
+      ],
+      "open_duties": [],
+      "satisfied_duties": [
+        {
+          "actor": "Congress",
+          "duty": "provide by law for the first federal elections and orderly commencement of terms under the new constitutional order",
+          "closed_day": 180,
+          "outcome": "provided by law for the first federal elections and orderly commencement of terms under the new constitutional order",
+          "source": "Article XIX Section 4.1 and Section 4.2"
+        },
+        {
+          "actor": "Supreme Court",
+          "duty": "order completion of the constitutional-organ appointment process",
+          "closed_day": 390,
+          "outcome": "ordered completion of the constitutional-organ appointment process within 30 days",
+          "source": "Article XIX Section 5.2A"
+        },
+        {
+          "actor": "Temporary Constitutional Organs",
+          "duty": "begin lawful startup, continuity, and protective functions under the temporary quorum created by the Supreme Court",
+          "closed_day": 439,
+          "outcome": "began lawful startup, continuity, and protective functions under the temporary quorum while the ordinary appointment process remained incomplete",
+          "source": "Article XIX Section 5.2A; Article XII Section 2.7, Section 3.7, and Section 5.6"
+        }
+      ],
+      "failed_duties": [
+        {
+          "actor": "Congress and appointing authorities",
+          "duty": "constitute the Constitutional Organs on the timeline required by the Constitution",
+          "deadline_day": 365,
+          "closed_day": 366,
+          "outcome": "Congress and appointing authorities failed to constitute the Constitutional Organs on the timeline required by the Constitution by day 365 under Article XIX Section 5.2.",
+          "source": "Article XIX Section 5.2",
+          "severity": "high"
+        },
+        {
+          "actor": "Congress and appointing authorities",
+          "duty": "complete the constitutional-organ appointment process after Supreme Court order",
+          "deadline_day": 420,
+          "closed_day": 425,
+          "outcome": "Congress and appointing authorities failed to complete the constitutional-organ appointment process after Supreme Court order by day 420 under Article XIX Section 5.2A.",
+          "source": "Article XIX Section 5.2A",
+          "severity": "high"
+        }
+      ],
+      "notes": [],
+      "ai_summary": {
+        "primary_violation": null,
+        "primary_bottleneck": "Congress and appointing authorities failed to constitute the Constitutional Organs on the timeline required by the Constitution by day 365 under Article XIX Section 5.2.",
+        "primary_open_duty": null,
+        "system_risk": "legislative_delay",
         "recommended_focus": "review bottlenecks, violations, and unresolved duties"
       }
     },

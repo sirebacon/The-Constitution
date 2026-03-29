@@ -4,7 +4,7 @@
     "title": "Constitution of the United States of America",
     "subtitle": "A modern replacement draft built around democratic legitimacy, anti-authoritarian safeguards, and readable constitutional architecture.",
     "article_count": 19,
-    "scenario_count": 72,
+    "scenario_count": 73,
     "overall_score": "9.0",
     "overall_status": "Strong",
     "unresolved_obligations": 0,
@@ -1467,8 +1467,8 @@
           "anchor": "section-6-transition-at-ratification"
         }
       ],
-      "score": "8.9",
-      "score_status": "Strong"
+      "score": "9.0",
+      "score_status": "Near-final"
     },
     {
       "slug": "xiii-federal-agencies",
@@ -1893,8 +1893,8 @@
           "anchor": "section-9-construction"
         }
       ],
-      "score": "8.9",
-      "score_status": "Strong"
+      "score": "9.0",
+      "score_status": "Near-final"
     },
     {
       "slug": "index",
@@ -2787,6 +2787,31 @@
           "level": 2,
           "text": "2026-03-29 Article XII Internal-Boycott Validation Pass",
           "anchor": "2026-03-29-article-xii-internal-boycott-validation-pass"
+        },
+        {
+          "level": 3,
+          "text": "Files Reviewed",
+          "anchor": "files-reviewed"
+        },
+        {
+          "level": 3,
+          "text": "Findings",
+          "anchor": "findings"
+        },
+        {
+          "level": 3,
+          "text": "Net Effect",
+          "anchor": "net-effect"
+        },
+        {
+          "level": 3,
+          "text": "Recommended Follow-Up",
+          "anchor": "recommended-follow-up"
+        },
+        {
+          "level": 2,
+          "text": "2026-03-29 Article XII / Article XIX Bridge-Startup Validation Pass",
+          "anchor": "2026-03-29-article-xii-article-xix-bridge-startup-validation-pass"
         },
         {
           "level": 3,

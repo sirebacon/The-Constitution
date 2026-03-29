@@ -156,6 +156,31 @@ def handle_supreme_court_makes_temporary_constitutional_organ_appointments(state
         "The Supreme Court appointed the minimum temporary Commissioners necessary to create lawful quorums and begin startup, continuity, and protective functions in the affected Constitutional Organs.",
         "Article XIX Section 5.2A",
     )
+    if details.get("expect_startup_operations"):
+        state.add_obligation(
+            "temporary_constitutional_organs_begin_operations",
+            "Temporary Constitutional Organs",
+            "begin lawful startup, continuity, and protective functions under the temporary quorum created by the Supreme Court",
+            "Article XIX Section 5.2A; Article XII Section 2.7, Section 3.7, and Section 5.6",
+            day,
+            day + 30,
+            severity="high",
+        )
+
+
+def handle_temporary_constitutional_organs_begin_operations(state: SimulationState, event: dict[str, Any]) -> None:
+    day = int(event["day"])
+    state.resolve_obligation(
+        "temporary_constitutional_organs_begin_operations",
+        day,
+        "began lawful startup, continuity, and protective functions under the temporary quorum while the ordinary appointment process remained incomplete",
+    )
+    state.add_entry(
+        day,
+        "outcome",
+        "The bridge mechanism proved operational rather than merely formal: temporary Commissioners created a lawful quorum and the Constitutional Organs actually began carrying out startup and continuity functions before the ordinary appointment process was complete.",
+        "Article XIX Section 5.2A; Article XII Section 2.7, Section 3.7, and Section 5.6",
+    )
 
 
 def handle_electoral_commission_internal_boycott_blocks_certification(state: SimulationState, event: dict[str, Any]) -> None:
@@ -224,6 +249,7 @@ HANDLERS = {
     "constitutional_organs_deadline_missed": handle_constitutional_organs_deadline_missed,
     "supreme_court_orders_constitutional_organs_completion": handle_supreme_court_orders_constitutional_organs_completion,
     "supreme_court_makes_temporary_constitutional_organ_appointments": handle_supreme_court_makes_temporary_constitutional_organ_appointments,
+    "temporary_constitutional_organs_begin_operations": handle_temporary_constitutional_organs_begin_operations,
     "electoral_commission_internal_boycott_blocks_certification": handle_electoral_commission_internal_boycott_blocks_certification,
     "court_orders_constitutional_organ_anti_boycott_relief": handle_court_orders_constitutional_organ_anti_boycott_relief,
     "electoral_commission_completes_certification_under_relief": handle_electoral_commission_completes_certification_under_relief,

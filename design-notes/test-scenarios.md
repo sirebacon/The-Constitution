@@ -142,6 +142,7 @@ Status markers: `[x]` implemented — `[ ]` planned.
 | L5 | [x] Sensitive-Office Restriction Overreach | `sensitive-office-restriction-overreach.json` | Art. IX §4.2, §4.5, §5.3 | Congress expands a sensitive-office nationality rule into a broad dual-citizenship disability | Courts narrow or invalidate the rule so it does not become a general civic hierarchy |
 | L6 | [x] Citizenship Proof Dispute | `citizenship-proof-dispute.json` | Art. IX §2.2, §6.1-§6.4 | Election officials reject citizenship proof through excessive documentary burden and administrative mismatch | Courts restore political status on a prompt timeline and reject the unlawful proof regime |
 | L7 | [x] Constitutional Organ Internal Boycott | `constitutional-organ-internal-boycott.json` | Art. XII §2.7, §5.5; Art. I §10.4 | Bloc of Electoral Commissioners refuses quorum or certification to block a required constitutional function | Courts order anti-boycott continuity relief and certification proceeds on time |
+| L8 | [x] Temporary Constitutional Organ Bridge Startup | `constitutional-organ-bridge-startup.json` | Art. XIX §5.2, §5.2A; Art. XII §2.7, §3.7, §5.6 | Ordinary appointments fail, the Supreme Court creates a temporary quorum, and the temporary quorum must actually begin startup functions before the ordinary process is complete | Temporary Commissioners do not just exist on paper; they begin lawful startup and continuity operations under the bridge mechanism |
 
 ---
 

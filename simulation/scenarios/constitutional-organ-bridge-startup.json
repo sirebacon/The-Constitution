@@ -1,0 +1,42 @@
+{
+  "id": "constitutional-organ-bridge-startup",
+  "title": "Temporary Constitutional Organ Quorum Begins Operations",
+  "description": "The Constitutional Organs are not constituted on time, the Supreme Court orders completion, the appointing actors still fail to act, and the Court then appoints the minimum temporary Commissioners needed for lawful quorum. The temporary quorum then begins startup and continuity functions before the ordinary appointment process is complete. The scenario tests whether Article XIX's bridge mechanism creates real operational continuity rather than a merely formal temporary appointment power.",
+  "articles_tested": ["Article XII", "Article XIX"],
+  "provisions_tested": ["Article XIX Section 5.2", "Article XIX Section 5.2A", "Article XII Section 2.7", "Article XII Section 3.7", "Article XII Section 5.6"],
+  "events": [
+    {
+      "day": 0,
+      "type": "constitution_ratified",
+      "actor": "States"
+    },
+    {
+      "day": 180,
+      "type": "congress_enacts_first_election_law",
+      "actor": "Congress"
+    },
+    {
+      "day": 366,
+      "type": "constitutional_organs_deadline_missed",
+      "actor": "Congress and appointing authorities"
+    },
+    {
+      "day": 390,
+      "type": "supreme_court_orders_constitutional_organs_completion",
+      "actor": "Supreme Court"
+    },
+    {
+      "day": 425,
+      "type": "supreme_court_makes_temporary_constitutional_organ_appointments",
+      "actor": "Supreme Court",
+      "details": {
+        "expect_startup_operations": true
+      }
+    },
+    {
+      "day": 439,
+      "type": "temporary_constitutional_organs_begin_operations",
+      "actor": "Temporary Constitutional Organs"
+    }
+  ]
+}

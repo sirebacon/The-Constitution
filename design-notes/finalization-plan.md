@@ -4,10 +4,10 @@ This plan is for the current stage of the project: the architecture is largely s
 
 Current baseline:
 
-- `69` scenarios
-- `67` stress-point scenarios
-- `60` violations
-- `30` bottlenecks
+- `73` scenarios
+- `71` stress-point scenarios
+- `63` violations
+- `33` bottlenecks
 - `0` unresolved obligations
 - overall draft score: about `9.0`
 
