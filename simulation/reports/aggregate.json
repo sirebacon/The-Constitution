@@ -3,7 +3,7 @@
   "stress_point_scenarios": 31,
   "totals": {
     "violations": 28,
-    "bottlenecks": 16,
+    "bottlenecks": 17,
     "unresolved_obligations": 0
   },
   "risk_pattern_counts": [
@@ -35,7 +35,7 @@
     },
     {
       "category": "missed_deadline",
-      "count": 7
+      "count": 8
     },
     {
       "category": "state_backsliding",
@@ -497,12 +497,12 @@
         "Article XIX Section 5"
       ],
       "metrics": {
-        "satisfied_obligations": 1,
-        "failed_obligations": 1,
+        "satisfied_obligations": 2,
+        "failed_obligations": 2,
         "unresolved_obligations": 0,
         "violations": 0,
-        "bottlenecks": 1,
-        "timeline_entries": 7
+        "bottlenecks": 2,
+        "timeline_entries": 12
       },
       "violations": [],
       "bottlenecks": [
@@ -515,6 +515,16 @@
           "day": 366,
           "deadline_day": 365,
           "summary": "Congress and appointing authorities failed to constitute the Constitutional Organs on the timeline required by the Constitution by day 365 under Article XIX Section 5.2."
+        },
+        {
+          "id": "complete_constitutional_organs_after_court_order",
+          "category": "missed_deadline",
+          "actor": "Congress and appointing authorities",
+          "source": "Article XIX Section 5.2A",
+          "severity": "high",
+          "day": 425,
+          "deadline_day": 420,
+          "summary": "Congress and appointing authorities failed to complete the constitutional-organ appointment process after Supreme Court order by day 420 under Article XIX Section 5.2A."
         }
       ],
       "open_duties": [],
@@ -525,6 +535,13 @@
           "closed_day": 180,
           "outcome": "provided by law for the first federal elections and orderly commencement of terms under the new constitutional order",
           "source": "Article XIX Section 4.1 and Section 4.2"
+        },
+        {
+          "actor": "Supreme Court",
+          "duty": "order completion of the constitutional-organ appointment process",
+          "closed_day": 390,
+          "outcome": "ordered completion of the constitutional-organ appointment process within 30 days",
+          "source": "Article XIX Section 5.2A"
         }
       ],
       "failed_duties": [
@@ -535,6 +552,15 @@
           "closed_day": 366,
           "outcome": "Congress and appointing authorities failed to constitute the Constitutional Organs on the timeline required by the Constitution by day 365 under Article XIX Section 5.2.",
           "source": "Article XIX Section 5.2",
+          "severity": "high"
+        },
+        {
+          "actor": "Congress and appointing authorities",
+          "duty": "complete the constitutional-organ appointment process after Supreme Court order",
+          "deadline_day": 420,
+          "closed_day": 425,
+          "outcome": "Congress and appointing authorities failed to complete the constitutional-organ appointment process after Supreme Court order by day 420 under Article XIX Section 5.2A.",
+          "source": "Article XIX Section 5.2A",
           "severity": "high"
         }
       ],

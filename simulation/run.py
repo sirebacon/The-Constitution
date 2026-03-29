@@ -1361,11 +1361,49 @@ def handle_event(state: SimulationState, event: dict[str, Any]) -> None:
             day,
             "Congress and appointing authorities failed to constitute the Constitutional Organs by the one-year deadline and no impossibility finding has yet been identified publicly by the Supreme Court under Article XIX Section 5.2.",
         )
+        state.add_obligation(
+            "supreme_court_orders_constitutional_organs_completion",
+            "Supreme Court",
+            "order completion of the constitutional-organ appointment process",
+            "Article XIX Section 5.2A",
+            day,
+            day + 30,
+            severity="high",
+        )
         state.add_entry(
             day,
             "outcome",
-            "The constitutional delay leaves a live institutional gap unless the Supreme Court publicly identifies impossible conditions or the organs are promptly constituted.",
-            "Article XIX Section 5.2",
+            "The missed deadline triggers a Supreme Court duty to order completion of the appointment process within 30 days.",
+            "Article XIX Section 5.2A",
+        )
+
+    elif event_type == "supreme_court_orders_constitutional_organs_completion":
+        state.resolve_obligation(
+            "supreme_court_orders_constitutional_organs_completion",
+            day,
+            "ordered completion of the constitutional-organ appointment process within 30 days",
+        )
+        state.add_obligation(
+            "complete_constitutional_organs_after_court_order",
+            "Congress and appointing authorities",
+            "complete the constitutional-organ appointment process after Supreme Court order",
+            "Article XIX Section 5.2A",
+            day,
+            day + 30,
+            severity="high",
+        )
+
+    elif event_type == "supreme_court_makes_temporary_constitutional_organ_appointments":
+        state.fail_obligation(
+            "complete_constitutional_organs_after_court_order",
+            day,
+            "Congress and appointing authorities failed to complete the constitutional-organ appointment process within 30 days after Supreme Court order under Article XIX Section 5.2A.",
+        )
+        state.add_entry(
+            day,
+            "outcome",
+            "The Supreme Court appointed the minimum temporary Commissioners necessary to create lawful quorums and begin startup, continuity, and protective functions in the affected Constitutional Organs.",
+            "Article XIX Section 5.2A",
         )
 
     elif event_type == "state_denies_overseas_citizen_assignment":

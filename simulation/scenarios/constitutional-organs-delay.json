@@ -1,7 +1,7 @@
 {
   "id": "constitutional-organs-delay",
   "title": "Constitutional Organs Not Constituted on Time",
-  "description": "The Constitution is ratified, but Congress and the appointing authorities fail to constitute the Electoral Commission and Accountability Commission within one year, and the Supreme Court has not publicly identified impossible conditions. The scenario tests whether Article XIX clearly identifies the delay as a constitutional breach and surfaces the remaining institutional gap.",
+  "description": "The Constitution is ratified, but Congress and the appointing authorities fail to constitute the Electoral Commission and Accountability Commission within one year, and the Supreme Court has not publicly identified impossible conditions. The Supreme Court then orders completion of the appointment process within 30 days. That deadline also fails, and the Court appoints the minimum temporary Commissioners needed to create lawful quorums and begin startup operations. The scenario tests whether Article XIX now converts the missed deadline into a continuity-preserving fallback rather than an open institutional gap.",
   "events": [
     {
       "day": 0,
@@ -17,6 +17,16 @@
       "day": 366,
       "type": "constitutional_organs_deadline_missed",
       "actor": "Congress and appointing authorities"
+    },
+    {
+      "day": 390,
+      "type": "supreme_court_orders_constitutional_organs_completion",
+      "actor": "Supreme Court"
+    },
+    {
+      "day": 425,
+      "type": "supreme_court_makes_temporary_constitutional_organ_appointments",
+      "actor": "Supreme Court"
     }
   ]
 }

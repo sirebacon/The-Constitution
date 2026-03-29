@@ -39,8 +39,12 @@ A scenario passes when:
   Mapping between prose stress tests and simulator scenarios.
 - `article-iii-executive/`
   Executive abuse, accountability, emergency, and succession tests.
+- `article-iv-judiciary/`
+  Judicial independence, misconduct, recusal, and rogue-court tests.
 - `article-ix-citizenship/`
   Citizenship, naturalization, domicile, and political-membership tests.
+- `article-ii-legislature/`
+  Rogue-member, expulsion, oversight, and chamber-integrity tests.
 - `article-x-federalism/`
   Federalism, democratic-floor, preemption, and local-control tests.
 - `article-xvi-war-powers/`
