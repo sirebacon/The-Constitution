@@ -4,7 +4,7 @@ Scenario: unauthorized-military-action.json
 ## Timeline
 - Day 0: EVENT - President initiates military action without prior authorization. [Article XVI Section 1]
 - Day 0: OBLIGATION - Congress must grant authorization for continued military force or refuse it by day 30. [Article XVI Section 1]
-- Day 0: SCENARIO - The President initiates sustained military operations without authorization, Congress does not pass an AUMF, and the President then ignores the required withdrawal order. The scenario tests the war-powers backstop under pressure.
+- Day 0: SCENARIO - The President initiates sustained military operations without authorization, Congress does not pass an AUMF within 30 days, and that failure counts as nonauthorization for all purposes of Article XVI. The President then ignores the required withdrawal order. The scenario tests the war-powers backstop under pressure.
 - Day 31: BOTTLENECK - Congress failed to grant authorization for continued military force or refuse it by day 30 under Article XVI Section 1. [Article XVI Section 1]
 - Day 31: EVENT - Congress does not provide timely authorization for the military action. [Article XVI Section 1]
 - Day 31: OBLIGATION - Chief Justice must issue the required withdrawal order for unauthorized continued operations by day 36. [Article XVI Section 1.5(c)]

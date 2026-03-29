@@ -47,7 +47,7 @@ Defensive action under this Section must be proportionate to the threat, limited
 
   **(a) Reporting.** Within 24 hours of ordering military action under Section 1.4 or any other use of military force, the President shall submit a written report to Congress describing the action, its legal basis, its anticipated duration, and the forces involved.
 
-  **(b) Authorization window.** Military action taken under Section 1.4 must receive congressional authorization within 30 days or forces must be withdrawn. Failure of Congress to authorize within that period has the same legal effect as a vote against authorization.
+  **(b) Authorization window.** Military action taken under Section 1.4 must receive congressional authorization within 30 days or forces must be withdrawn. Failure of Congress to authorize within that period has the same legal effect as a vote against authorization and constitutes nonauthorization for every purpose of this Article.
 
   **(c) Enforcement — withdrawal order.** If authorization is not granted within 30 days, the Chief Justice of the Supreme Court, or the judicial officer designated under Article IV Section 2.7, shall issue a binding withdrawal order enforceable by the federal courts. The Secretary of Defense shall ensure compliance within the period fixed by law, which may not exceed 15 days. Presidential defiance of a withdrawal order is a grave constitutional violation and an absolute no-immunity category under Article III Section 15.
 

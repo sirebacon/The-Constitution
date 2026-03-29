@@ -1,7 +1,7 @@
 {
   "id": "unauthorized-military-action",
   "title": "Unauthorized Sustained Military Action",
-  "description": "The President initiates sustained military operations without authorization, Congress does not pass an AUMF, and the President then ignores the required withdrawal order. The scenario tests the war-powers backstop under pressure.",
+  "description": "The President initiates sustained military operations without authorization, Congress does not pass an AUMF within 30 days, and that failure counts as nonauthorization for all purposes of Article XVI. The President then ignores the required withdrawal order. The scenario tests the war-powers backstop under pressure.",
   "events": [
     {
       "day": 0,
