@@ -170,26 +170,8 @@ After the 2-year challenge window closes, a ratified amendment is immune from ch
 
 ## Section 6 — Transition at Ratification
 
-### 6.1 — Carrying Over Existing Amendments
+**6.1** Ratification transition, carried-forward law, supersession of prior constitutional provisions, and first-cycle implementation are governed by Article XIX.
 
-All amendments to the prior United States Constitution that are consistent with this Constitution are carried forward and incorporated into Article V (Rights and Freedoms) unless explicitly superseded.
-
-### 6.2 — Superseded Provisions
-
-The following provisions of the prior United States Constitution are superseded by this Constitution and are not carried forward except to the extent that a substantively equivalent protection is restated elsewhere in this Constitution:
-
-  (a) All prior constitutional provisions governing the structure, composition, selection, terms, powers, or internal procedures of Congress, the Presidency, the Vice Presidency, the federal judiciary, and presidential electors, because those matters are replaced by Articles I through IV of this Constitution
-
-  (b) All prior constitutional provisions governing federalism, state-federal relations, and constitutional amendment procedures to the extent those matters are replaced by Articles VII and VIII of this Constitution
-
-  (c) The Tenth, Twelfth, Seventeenth, Twentieth, Twenty-Second, Twenty-Third, and Twenty-Fifth Amendments, all of which are replaced by express provisions of this Constitution
-
-  (d) Any clause, amendment, or structural rule of the prior Constitution that is inconsistent with direct national election of the President, the abolition of the Electoral College, the Regional Assembly, fixed Supreme Court terms, the Constitutional Organs established by Article XII, or the amendment framework of this Article
-
-### 6.3 — First Amendment Cycle
-
-No **Track 1 structural amendment** to this Constitution may be proposed until 10 years after the date of ratification, except to correct technical errors or conflicts identified during implementation. This cooling-off period allows the structural constitutional order to stabilize before revision begins.
-
-**Track 2 rights amendments** are not subject to this cooling-off period. Rights expansions may be proposed at any time after ratification. The democratic process that produces a rights amendment is itself sufficient deliberation; there is no justification for freezing rights expansion for a decade.
+**6.2** The permanent amendment rules of this Article apply subject to the first-cycle limitations and harmonizing rules established in Article XIX.
 
 ---

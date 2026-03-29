@@ -227,18 +227,20 @@ the House Judiciary Committee shall report articles of impeachment, or a written
 
 ## Section 13 — Presidential Transition
 
-**13.1** The outgoing President shall cooperate fully with the President-elect in a transition of power beginning on the day after the election is certified. Cooperation shall include access to security briefings, agency records necessary for transition planning, and office space and staff.
+**13.1** General ratification and first-cycle transition rules are governed by Article XIX. This Section governs the transfer of executive power between an outgoing President and a President-elect or successor.
 
-**13.2** Federal agencies shall provide transition teams of the President-elect with access to information necessary to prepare for governance, subject to existing classification requirements.
+**13.2** The outgoing President shall cooperate fully with the President-elect in a transition of power beginning on the day after the election is certified. Cooperation shall include access to security briefings, agency records necessary for transition planning, and office space and staff.
 
-**13.3** The outgoing President may not during the transition period:
+**13.3** Federal agencies shall provide transition teams of the President-elect with access to information necessary to prepare for governance, subject to existing classification requirements.
+
+**13.4** The outgoing President may not during the transition period:
   (a) Enter into treaties or executive agreements with foreign governments beyond routine matters
   (b) Issue extraordinary waves of pardons designed to evade political accountability
   (c) Make significant senior appointments without the incoming President's written concurrence, except where immediate action is necessary for ongoing national security operations
 
-**13.4** The President-elect shall take office on the twentieth day of January. If that day falls on a Sunday, the oath shall be administered on the following Monday.
+**13.5** The President-elect shall take office on the twentieth day of January. If that day falls on a Sunday, the oath shall be administered on the following Monday.
 
-**13.5** An outgoing President who refuses to cooperate with the transition or who takes actions prohibited by Section 13.3 is subject to the anti-subversion provisions of Article VI.
+**13.6** An outgoing President who refuses to cooperate with the transition or who takes actions prohibited by Section 13.4 is subject to the anti-subversion provisions of Article VI and to Article XIX where applicable.
 
 ---
 

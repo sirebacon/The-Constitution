@@ -60,7 +60,7 @@ Governs ratification, legal continuity, supersession of the prior constitutional
 
 ## Section 5 — Judicial and Institutional Transition
 
-**5.1** Congress shall by law provide for the transition from the prior federal judiciary to the judicial structure established by Article IV, including the sequencing of terms, temporary service, and the establishment of lower-court terms consistent with that Article.
+**5.1** Congress shall by law provide for the transition from the prior federal judiciary to the judicial structure established by Article IV, including the sequencing of terms, temporary service, the commencement of the Article IV appointment schedule, the constitution of the Judicial Nominations Commission, and the establishment of lower-court terms consistent with that Article.
 
 **5.2** The Constitutional Organs established by Article XII shall be constituted as soon as practicable after ratification and shall assume their constitutional functions on the timeline provided by law, but no later than one year after ratification unless impossible due to conditions identified publicly by the Supreme Court.
 
@@ -72,7 +72,7 @@ Governs ratification, legal continuity, supersession of the prior constitutional
 
 ## Section 6 — Electoral and Executive Transition
 
-**6.1** The lawful constitutional transfer of power to officers elected or confirmed under this Constitution is mandatory. No outgoing official may obstruct the establishment of the constitutional order or use the powers of an expiring office to frustrate transition.
+**6.1** The lawful constitutional transfer of power to officers elected or confirmed under this Constitution is mandatory. No outgoing official may obstruct the establishment of the constitutional order or use the powers of an expiring office to frustrate transition. Branch-specific transfer duties remain applicable where separately stated in this Constitution.
 
 **6.2** Congress shall provide public funding, access, records, security, and administrative support sufficient for constitutional transition.
 
@@ -94,11 +94,13 @@ Governs ratification, legal continuity, supersession of the prior constitutional
 
 ## Section 8 — First Amendment Cycle
 
-**8.1** Any structural amendment cooling-off period, transition limitation, or first-cycle rule established elsewhere in this Constitution shall be read in harmony with this Article.
+**8.1** No Track 1 structural amendment may be proposed until ten years after ratification except to correct technical errors or conflicts identified during implementation. This cooling-off period allows the structural constitutional order to stabilize before revision begins.
 
-**8.2** Rights expansions remain permitted on the timetable established by Article XI.
+**8.2** Track 2 rights amendments remain permitted immediately on the timetable established by Article XI. Rights expansion is not frozen during the structural cooling-off period.
 
-**8.3** During the first federal cycle under this Constitution, courts shall prefer interpretations that preserve lawful continuity without diluting rights, democratic accountability, or anti-subversion safeguards expressly established by this Constitution.
+**8.3** The amendment rules of Article XI shall be read in harmony with this Article during the first federal cycle under this Constitution.
+
+**8.4** During the first federal cycle under this Constitution, courts shall prefer interpretations that preserve lawful continuity without diluting rights, democratic accountability, or anti-subversion safeguards expressly established by this Constitution.
 
 ---
 

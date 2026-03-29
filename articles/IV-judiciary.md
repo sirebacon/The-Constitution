@@ -227,12 +227,14 @@ Courts shall prefer narrow remedies that address the specific constitutional vio
 
 ## Section 11 — Transition at Ratification
 
-**11.1** Justices serving on the Supreme Court at the time this Constitution is ratified shall continue to serve. Their remaining active tenure under this Constitution shall be calculated as 15 years from their original date of appointment, minus time already served. A justice who has already served 15 or more years shall transition to Senior Justice status upon ratification.
+**11.1** General ratification and first-cycle transition rules are governed by Article XIX. This Section governs only judiciary-specific transition mechanics.
 
-**11.2** The appointment schedule under Section 2.3 shall begin in the first year following ratification, filling vacancies as they arise through the transition or as new seats become active to reach the full complement of fifteen.
+**11.2** Justices serving on the Supreme Court at the time this Constitution is ratified shall continue to serve. Their remaining active tenure under this Constitution shall be calculated as 15 years from their original date of appointment, minus time already served. A justice who has already served 15 or more years shall transition to Senior Justice status upon ratification.
 
-**11.3** The Judicial Nominations Commission shall be constituted within one year of ratification. Until the Commission is constituted, the President may nominate justices from any qualified candidates, subject to Regional Assembly confirmation.
+**11.3** The appointment schedule under Section 2.3 shall begin in the first year following ratification, filling vacancies as they arise through the transition or as new seats become active to reach the full complement of fifteen.
 
-**11.4** Existing federal district and circuit judges shall serve out their current appointments. Upon the expiration of each existing appointment, the new term limits of this Article apply to any successor.
+**11.4** The Judicial Nominations Commission shall be constituted within one year of ratification. Until the Commission is constituted, the President may nominate justices from any qualified candidates, subject to Regional Assembly confirmation.
+
+**11.5** Existing federal district and circuit judges shall serve out their current appointments. Upon the expiration of each existing appointment, the new term limits of this Article apply to any successor.
 
 ---
