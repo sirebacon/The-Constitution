@@ -1,0 +1,50 @@
+{
+  "scenario_id": "sensitive-office-restriction-overreach",
+  "title": "Sensitive-Office Nationality Restriction Expands into General Civic Disability",
+  "source_file": "simulation/scenarios/sensitive-office-restriction-overreach.json",
+  "status": "stress_point_found",
+  "triggered_provisions": [
+    "Article IX Section 4.2",
+    "Article IX Section 4.5",
+    "Article IX Section 5.3"
+  ],
+  "metrics": {
+    "satisfied_obligations": 1,
+    "failed_obligations": 0,
+    "unresolved_obligations": 0,
+    "violations": 1,
+    "bottlenecks": 0,
+    "timeline_entries": 4
+  },
+  "violations": [
+    {
+      "id": "sensitive_office_overreach",
+      "category": "membership_exclusion",
+      "actor": "Congress",
+      "source": "Article IX Section 4.2, Section 4.5, and Section 5.3",
+      "severity": "high",
+      "day": 1,
+      "summary": "Congress imposes a blanket exclusion of all dual citizens on eligibility for a wide class of senior federal offices without showing that the rule is narrowly tailored to an office involving exceptional national-security responsibility. Article IX permits targeted nationality, loyalty, or disclosure rules for especially sensitive offices, but not overbroad civic hierarchy by implication."
+    }
+  ],
+  "bottlenecks": [],
+  "open_duties": [],
+  "satisfied_duties": [
+    {
+      "actor": "Federal courts",
+      "duty": "invalidate or narrowly construe the overbroad sensitive-office restriction so that it does not create a general hierarchy of citizenship or nationality",
+      "closed_day": 10,
+      "outcome": "held that the restriction was overbroad, limited any valid nationality safeguards to genuinely exceptional national-security offices, and barred use of the rule as a general civic disability",
+      "source": "Article IX Section 4.2, Section 4.5, and Section 5.3"
+    }
+  ],
+  "failed_duties": [],
+  "notes": [],
+  "ai_summary": {
+    "primary_violation": "Congress imposes a blanket exclusion of all dual citizens on eligibility for a wide class of senior federal offices without showing that the rule is narrowly tailored to an office involving exceptional national-security responsibility. Article IX permits targeted nationality, loyalty, or disclosure rules for especially sensitive offices, but not overbroad civic hierarchy by implication.",
+    "primary_bottleneck": null,
+    "primary_open_duty": null,
+    "system_risk": "institutional_stress",
+    "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+  }
+}

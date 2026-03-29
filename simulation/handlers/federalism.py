@@ -120,6 +120,85 @@ def handle_court_voids_commandeering_statute(state: SimulationState, event: dict
     )
 
 
+def handle_federal_government_asserts_implied_field_preemption(state: SimulationState, event: dict[str, Any]) -> None:
+    day = int(event["day"])
+    details = event.get("details", {})
+    subject = details.get("subject", "environmental regulation")
+    stricter_rule = details.get("stricter_rule", "a stricter state protection")
+    state.provisions.update({"Article X Section 4.1", "Article X Section 4.3", "Article X Section 4.4"})
+    state.add_violation(
+        "implied_field_preemption_overreach",
+        "federalism_breach",
+        "Federal government",
+        f"Federal officials assert that federal regulation of {subject} automatically occupies the field and displaces {stricter_rule} even though Congress did not expressly preempt the state rule and the subject is outside the narrow domains of implied field preemption preserved by Article X Section 4.3.",
+        "Article X Section 4.1, Section 4.3, and Section 4.4",
+        day,
+    )
+    state.add_obligation(
+        "court_reject_implied_field_preemption_overreach",
+        "Federal courts",
+        "reject the implied field preemption claim and preserve stricter concurrent state regulation where Congress has not expressly preempted the field",
+        "Article X Section 4.1, Section 4.3, and Section 4.4",
+        day,
+        day + 20,
+        severity="high",
+    )
+
+
+def handle_court_rejects_implied_field_preemption_overreach(state: SimulationState, event: dict[str, Any]) -> None:
+    day = int(event["day"])
+    state.resolve_obligation(
+        "court_reject_implied_field_preemption_overreach",
+        day,
+        "held that implied field preemption is abolished in the regulated domain, found no express preemption, and preserved the stricter state rule as valid concurrent regulation",
+    )
+    state.add_entry(
+        day,
+        "outcome",
+        "The scenario validates that Article X sharply limits implied field preemption and preserves concurrent state regulation outside the few constitutionally uniform national domains.",
+        "Article X Section 4.1, Section 4.3, and Section 4.4",
+    )
+
+
+def handle_state_preempts_local_housing_rule_without_showing_statewide_interest(state: SimulationState, event: dict[str, Any]) -> None:
+    day = int(event["day"])
+    details = event.get("details", {})
+    ordinance = details.get("ordinance", "a local housing ordinance")
+    state.provisions.update({"Article X Section 8.1", "Article X Section 8.2", "Article X Section 8.3"})
+    state.add_violation(
+        "state_local_preemption_overreach",
+        "federalism_breach",
+        "State government",
+        f"State officials nullify {ordinance} with only generalized claims of statewide uniformity and no specific, compelling statewide interest shown by clear and convincing evidence, despite Article X's protection for local self-government on matters of local concern.",
+        "Article X Section 8.1, Section 8.2, and Section 8.3",
+        day,
+    )
+    state.add_obligation(
+        "court_review_local_preemption_overreach",
+        "State or federal courts",
+        "review the state override under heightened scrutiny and enjoin it unless the state demonstrates a specific compelling statewide interest that cannot be served by less intrusive means",
+        "Article X Section 8.2 and Section 8.3",
+        day,
+        day + 21,
+        severity="high",
+    )
+
+
+def handle_court_blocks_local_preemption_overreach(state: SimulationState, event: dict[str, Any]) -> None:
+    day = int(event["day"])
+    state.resolve_obligation(
+        "court_review_local_preemption_overreach",
+        day,
+        "blocked the state override after finding that the asserted statewide interests were generalized and that the state had not shown by clear and convincing evidence that preemption was necessary",
+    )
+    state.add_entry(
+        day,
+        "outcome",
+        "The scenario validates that Article X gives local self-government meaningful protection against broad state nullification of local housing, labor, and environmental ordinances without disabling genuine statewide minimum standards.",
+        "Article X Section 8.1, Section 8.2, and Section 8.3",
+    )
+
+
 HANDLERS = {
     "supreme_court_finds_state_democratic_floor_violation": handle_supreme_court_finds_state_democratic_floor_violation,
     "congress_fails_state_remedy": handle_congress_fails_state_remedy,
@@ -128,4 +207,8 @@ HANDLERS = {
     "congress_enacts_commandeering_statute": handle_congress_enacts_commandeering_statute,
     "state_refuses_commandeering": handle_state_refuses_commandeering,
     "court_voids_commandeering_statute": handle_court_voids_commandeering_statute,
+    "federal_government_asserts_implied_field_preemption": handle_federal_government_asserts_implied_field_preemption,
+    "court_rejects_implied_field_preemption_overreach": handle_court_rejects_implied_field_preemption_overreach,
+    "state_preempts_local_housing_rule_without_showing_statewide_interest": handle_state_preempts_local_housing_rule_without_showing_statewide_interest,
+    "court_blocks_local_preemption_overreach": handle_court_blocks_local_preemption_overreach,
 }

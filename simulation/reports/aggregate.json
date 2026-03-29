@@ -1,15 +1,15 @@
 {
-  "scenario_count": 59,
-  "stress_point_scenarios": 57,
+  "scenario_count": 65,
+  "stress_point_scenarios": 63,
   "totals": {
-    "violations": 50,
+    "violations": 56,
     "bottlenecks": 30,
     "unresolved_obligations": 0
   },
   "risk_pattern_counts": [
     {
       "risk": "institutional_stress",
-      "count": 30
+      "count": 36
     },
     {
       "risk": "executive_defiance",
@@ -57,7 +57,7 @@
     },
     {
       "category": "rights_suppression",
-      "count": 9
+      "count": 11
     },
     {
       "category": "institutional_stress",
@@ -68,7 +68,15 @@
       "count": 4
     },
     {
+      "category": "federalism_breach",
+      "count": 3
+    },
+    {
       "category": "legislative_deadline_failure",
+      "count": 3
+    },
+    {
+      "category": "membership_exclusion",
       "count": 3
     },
     {
@@ -96,19 +104,11 @@
       "count": 1
     },
     {
-      "category": "federalism_breach",
-      "count": 1
-    },
-    {
       "category": "foreign_capture_risk",
       "count": 1
     },
     {
       "category": "foreign_interference",
-      "count": 1
-    },
-    {
-      "category": "membership_exclusion",
       "count": 1
     }
   ],
@@ -374,7 +374,39 @@
       "count": 1
     },
     {
+      "provision": "Article IX Section 2.2",
+      "count": 1
+    },
+    {
       "provision": "Article IX Section 3",
+      "count": 1
+    },
+    {
+      "provision": "Article IX Section 4.2",
+      "count": 1
+    },
+    {
+      "provision": "Article IX Section 4.5",
+      "count": 1
+    },
+    {
+      "provision": "Article IX Section 5.3",
+      "count": 1
+    },
+    {
+      "provision": "Article IX Section 6.1",
+      "count": 1
+    },
+    {
+      "provision": "Article IX Section 6.2",
+      "count": 1
+    },
+    {
+      "provision": "Article IX Section 6.3",
+      "count": 1
+    },
+    {
+      "provision": "Article IX Section 6.4",
       "count": 1
     },
     {
@@ -387,6 +419,30 @@
     },
     {
       "provision": "Article V Section 14.3",
+      "count": 1
+    },
+    {
+      "provision": "Article V Section 3.2",
+      "count": 1
+    },
+    {
+      "provision": "Article V Section 3.3",
+      "count": 1
+    },
+    {
+      "provision": "Article V Section 3.4",
+      "count": 1
+    },
+    {
+      "provision": "Article V Section 4.1",
+      "count": 1
+    },
+    {
+      "provision": "Article V Section 4.2",
+      "count": 1
+    },
+    {
+      "provision": "Article V Section 4.3",
       "count": 1
     },
     {
@@ -451,6 +507,30 @@
     },
     {
       "provision": "Article X Section 1.6",
+      "count": 1
+    },
+    {
+      "provision": "Article X Section 4.1",
+      "count": 1
+    },
+    {
+      "provision": "Article X Section 4.3",
+      "count": 1
+    },
+    {
+      "provision": "Article X Section 4.4",
+      "count": 1
+    },
+    {
+      "provision": "Article X Section 8.1",
+      "count": 1
+    },
+    {
+      "provision": "Article X Section 8.2",
+      "count": 1
+    },
+    {
+      "provision": "Article X Section 8.3",
       "count": 1
     },
     {
@@ -711,6 +791,58 @@
       "notes": [],
       "ai_summary": {
         "primary_violation": "A state court conducts a termination of parental rights proceeding affecting a child's fundamental interests without providing independent representation for the child and without stating reasons on the record for departing from the child's expressed preference, in violation of Article XVIII Section 4.5.",
+        "primary_bottleneck": null,
+        "primary_open_duty": null,
+        "system_risk": "institutional_stress",
+        "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+      }
+    },
+    {
+      "scenario_id": "citizenship-proof-dispute",
+      "title": "Citizenship Proof Dispute Threatens Time-Sensitive Political Rights",
+      "source_file": "simulation/scenarios/citizenship-proof-dispute.json",
+      "status": "stress_point_found",
+      "triggered_provisions": [
+        "Article IX Section 2.2",
+        "Article IX Section 6.1",
+        "Article IX Section 6.2",
+        "Article IX Section 6.3",
+        "Article IX Section 6.4"
+      ],
+      "metrics": {
+        "satisfied_obligations": 1,
+        "failed_obligations": 0,
+        "unresolved_obligations": 0,
+        "violations": 1,
+        "bottlenecks": 0,
+        "timeline_entries": 4
+      },
+      "violations": [
+        {
+          "id": "citizenship_proof_dispute",
+          "category": "membership_exclusion",
+          "actor": "Election officials",
+          "source": "Article IX Section 2.2 and Section 6.1 through Section 6.4",
+          "severity": "high",
+          "day": 1,
+          "summary": "Election officials deny recognition of citizenship in a federal election registration dispute days before the registration deadline based on an excessive documentary burden triggered by a database mismatch, making citizenship practically impossible to prove for an otherwise eligible person and threatening time-sensitive political rights."
+        }
+      ],
+      "bottlenecks": [],
+      "open_duties": [],
+      "satisfied_duties": [
+        {
+          "actor": "Federal courts",
+          "duty": "provide prompt review, reject the unlawful proof burden, and restore the citizen's political status before the time-sensitive right is lost",
+          "closed_day": 4,
+          "outcome": "found the proof regime unlawfully burdensome, restored the citizen's political status, and ordered use of fair and reviewable procedures consistent with Article IX",
+          "source": "Article IX Section 6.1 through Section 6.4"
+        }
+      ],
+      "failed_duties": [],
+      "notes": [],
+      "ai_summary": {
+        "primary_violation": "Election officials deny recognition of citizenship in a federal election registration dispute days before the registration deadline based on an excessive documentary burden triggered by a database mismatch, making citizenship practically impossible to prove for an otherwise eligible person and threatening time-sensitive political rights.",
         "primary_bottleneck": null,
         "primary_open_duty": null,
         "system_risk": "institutional_stress",
@@ -2020,6 +2152,56 @@
       }
     },
     {
+      "scenario_id": "forced-medical-procedure-without-necessity",
+      "title": "Forced Medical Procedure Without Narrow Public-Health Justification",
+      "source_file": "simulation/scenarios/forced-medical-procedure-without-necessity.json",
+      "status": "stress_point_found",
+      "triggered_provisions": [
+        "Article V Section 4.1",
+        "Article V Section 4.2",
+        "Article V Section 4.3"
+      ],
+      "metrics": {
+        "satisfied_obligations": 1,
+        "failed_obligations": 0,
+        "unresolved_obligations": 0,
+        "violations": 1,
+        "bottlenecks": 0,
+        "timeline_entries": 5
+      },
+      "violations": [
+        {
+          "id": "bodily_autonomy_violation",
+          "category": "rights_suppression",
+          "actor": "State government",
+          "source": "Article V Section 4.1, Section 4.2, and Section 4.3",
+          "severity": "high",
+          "day": 1,
+          "summary": "State law compels a non-emergency medical procedure as a condition of continued public-school attendance without a sufficiently tailored public-health justification, medical exemption structure, or individualized necessity. Article V protects bodily autonomy and bars compulsory medical decision-making absent a compelling interest pursued by the least restrictive means."
+        }
+      ],
+      "bottlenecks": [],
+      "open_duties": [],
+      "satisfied_duties": [
+        {
+          "actor": "Federal courts",
+          "duty": "block enforcement of the compulsory medical procedure law unless the state satisfies Article V's strict bodily-autonomy and public-health requirements",
+          "closed_day": 7,
+          "outcome": "blocked enforcement of the compulsory medical-procedure law after finding that the state had not shown a sufficiently tailored public-health necessity or adequate medical exemptions",
+          "source": "Article V Section 4.1 and Section 4.2"
+        }
+      ],
+      "failed_duties": [],
+      "notes": [],
+      "ai_summary": {
+        "primary_violation": "State law compels a non-emergency medical procedure as a condition of continued public-school attendance without a sufficiently tailored public-health justification, medical exemption structure, or individualized necessity. Article V protects bodily autonomy and bars compulsory medical decision-making absent a compelling interest pursued by the least restrictive means.",
+        "primary_bottleneck": null,
+        "primary_open_duty": null,
+        "system_risk": "institutional_stress",
+        "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+      }
+    },
+    {
       "scenario_id": "foreign-cyber-election-crisis",
       "title": "Foreign Cyber Election Crisis",
       "source_file": "simulation/scenarios/foreign-cyber-election-crisis.json",
@@ -2254,6 +2436,56 @@
       "notes": [],
       "ai_summary": {
         "primary_violation": "Government carries out defunding of emergency shelter programs and elimination of housing-assistance obligations without replacement, leaving a class of persons without basic shelter protection through circumstances beyond their control, in violation of Article XVIII Section 2.3's requirement to maintain measures sufficient to prevent destitution.",
+        "primary_bottleneck": null,
+        "primary_open_duty": null,
+        "system_risk": "institutional_stress",
+        "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+      }
+    },
+    {
+      "scenario_id": "implied-field-preemption-overreach",
+      "title": "Federal Officials Claim Implied Field Preemption Outside Uniform National Domains",
+      "source_file": "simulation/scenarios/implied-field-preemption-overreach.json",
+      "status": "stress_point_found",
+      "triggered_provisions": [
+        "Article X Section 4.1",
+        "Article X Section 4.3",
+        "Article X Section 4.4"
+      ],
+      "metrics": {
+        "satisfied_obligations": 1,
+        "failed_obligations": 0,
+        "unresolved_obligations": 0,
+        "violations": 1,
+        "bottlenecks": 0,
+        "timeline_entries": 5
+      },
+      "violations": [
+        {
+          "id": "implied_field_preemption_overreach",
+          "category": "federalism_breach",
+          "actor": "Federal government",
+          "source": "Article X Section 4.1, Section 4.3, and Section 4.4",
+          "severity": "high",
+          "day": 1,
+          "summary": "Federal officials assert that federal regulation of environmental regulation automatically occupies the field and displaces a stricter state methane-emissions rule even though Congress did not expressly preempt the state rule and the subject is outside the narrow domains of implied field preemption preserved by Article X Section 4.3."
+        }
+      ],
+      "bottlenecks": [],
+      "open_duties": [],
+      "satisfied_duties": [
+        {
+          "actor": "Federal courts",
+          "duty": "reject the implied field preemption claim and preserve stricter concurrent state regulation where Congress has not expressly preempted the field",
+          "closed_day": 14,
+          "outcome": "held that implied field preemption is abolished in the regulated domain, found no express preemption, and preserved the stricter state rule as valid concurrent regulation",
+          "source": "Article X Section 4.1, Section 4.3, and Section 4.4"
+        }
+      ],
+      "failed_duties": [],
+      "notes": [],
+      "ai_summary": {
+        "primary_violation": "Federal officials assert that federal regulation of environmental regulation automatically occupies the field and displaces a stricter state methane-emissions rule even though Congress did not expressly preempt the state rule and the subject is outside the narrow domains of implied field preemption preserved by Article X Section 4.3.",
         "primary_bottleneck": null,
         "primary_open_duty": null,
         "system_risk": "institutional_stress",
@@ -3659,6 +3891,56 @@
       }
     },
     {
+      "scenario_id": "sensitive-office-restriction-overreach",
+      "title": "Sensitive-Office Nationality Restriction Expands into General Civic Disability",
+      "source_file": "simulation/scenarios/sensitive-office-restriction-overreach.json",
+      "status": "stress_point_found",
+      "triggered_provisions": [
+        "Article IX Section 4.2",
+        "Article IX Section 4.5",
+        "Article IX Section 5.3"
+      ],
+      "metrics": {
+        "satisfied_obligations": 1,
+        "failed_obligations": 0,
+        "unresolved_obligations": 0,
+        "violations": 1,
+        "bottlenecks": 0,
+        "timeline_entries": 4
+      },
+      "violations": [
+        {
+          "id": "sensitive_office_overreach",
+          "category": "membership_exclusion",
+          "actor": "Congress",
+          "source": "Article IX Section 4.2, Section 4.5, and Section 5.3",
+          "severity": "high",
+          "day": 1,
+          "summary": "Congress imposes a blanket exclusion of all dual citizens on eligibility for a wide class of senior federal offices without showing that the rule is narrowly tailored to an office involving exceptional national-security responsibility. Article IX permits targeted nationality, loyalty, or disclosure rules for especially sensitive offices, but not overbroad civic hierarchy by implication."
+        }
+      ],
+      "bottlenecks": [],
+      "open_duties": [],
+      "satisfied_duties": [
+        {
+          "actor": "Federal courts",
+          "duty": "invalidate or narrowly construe the overbroad sensitive-office restriction so that it does not create a general hierarchy of citizenship or nationality",
+          "closed_day": 10,
+          "outcome": "held that the restriction was overbroad, limited any valid nationality safeguards to genuinely exceptional national-security offices, and barred use of the rule as a general civic disability",
+          "source": "Article IX Section 4.2, Section 4.5, and Section 5.3"
+        }
+      ],
+      "failed_duties": [],
+      "notes": [],
+      "ai_summary": {
+        "primary_violation": "Congress imposes a blanket exclusion of all dual citizens on eligibility for a wide class of senior federal offices without showing that the rule is narrowly tailored to an office involving exceptional national-security responsibility. Article IX permits targeted nationality, loyalty, or disclosure rules for especially sensitive offices, but not overbroad civic hierarchy by implication.",
+        "primary_bottleneck": null,
+        "primary_open_duty": null,
+        "system_risk": "institutional_stress",
+        "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+      }
+    },
+    {
       "scenario_id": "shadow-docket-unexplained-order",
       "title": "Shadow Docket \u2014 Emergency Stay Without Explanation",
       "source_file": "simulation/scenarios/shadow-docket-unexplained-order.json",
@@ -3926,6 +4208,106 @@
       "notes": [],
       "ai_summary": {
         "primary_violation": "State enacts a law that classifies persons on the basis of sexual orientation. Such classifications are presumptively unconstitutional under Article V Section 7.2 and must satisfy strict scrutiny.",
+        "primary_bottleneck": null,
+        "primary_open_duty": null,
+        "system_risk": "institutional_stress",
+        "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+      }
+    },
+    {
+      "scenario_id": "state-preempts-local-housing-without-interest",
+      "title": "State Nullifies Local Housing Rule Without Specific Compelling Statewide Interest",
+      "source_file": "simulation/scenarios/state-preempts-local-housing-without-interest.json",
+      "status": "stress_point_found",
+      "triggered_provisions": [
+        "Article X Section 8.1",
+        "Article X Section 8.2",
+        "Article X Section 8.3"
+      ],
+      "metrics": {
+        "satisfied_obligations": 1,
+        "failed_obligations": 0,
+        "unresolved_obligations": 0,
+        "violations": 1,
+        "bottlenecks": 0,
+        "timeline_entries": 5
+      },
+      "violations": [
+        {
+          "id": "state_local_preemption_overreach",
+          "category": "federalism_breach",
+          "actor": "State government",
+          "source": "Article X Section 8.1, Section 8.2, and Section 8.3",
+          "severity": "high",
+          "day": 1,
+          "summary": "State officials nullify a city ordinance allowing multifamily housing near transit corridors with only generalized claims of statewide uniformity and no specific, compelling statewide interest shown by clear and convincing evidence, despite Article X's protection for local self-government on matters of local concern."
+        }
+      ],
+      "bottlenecks": [],
+      "open_duties": [],
+      "satisfied_duties": [
+        {
+          "actor": "State or federal courts",
+          "duty": "review the state override under heightened scrutiny and enjoin it unless the state demonstrates a specific compelling statewide interest that cannot be served by less intrusive means",
+          "closed_day": 18,
+          "outcome": "blocked the state override after finding that the asserted statewide interests were generalized and that the state had not shown by clear and convincing evidence that preemption was necessary",
+          "source": "Article X Section 8.2 and Section 8.3"
+        }
+      ],
+      "failed_duties": [],
+      "notes": [],
+      "ai_summary": {
+        "primary_violation": "State officials nullify a city ordinance allowing multifamily housing near transit corridors with only generalized claims of statewide uniformity and no specific, compelling statewide interest shown by clear and convincing evidence, despite Article X's protection for local self-government on matters of local concern.",
+        "primary_bottleneck": null,
+        "primary_open_duty": null,
+        "system_risk": "institutional_stress",
+        "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+      }
+    },
+    {
+      "scenario_id": "state-sponsored-school-prayer",
+      "title": "Public School Officials Sponsor Prayer",
+      "source_file": "simulation/scenarios/state-sponsored-school-prayer.json",
+      "status": "stress_point_found",
+      "triggered_provisions": [
+        "Article V Section 3.2",
+        "Article V Section 3.3",
+        "Article V Section 3.4"
+      ],
+      "metrics": {
+        "satisfied_obligations": 1,
+        "failed_obligations": 0,
+        "unresolved_obligations": 0,
+        "violations": 1,
+        "bottlenecks": 0,
+        "timeline_entries": 5
+      },
+      "violations": [
+        {
+          "id": "state_school_prayer_sponsorship",
+          "category": "rights_suppression",
+          "actor": "Public school officials",
+          "source": "Article V Section 3.2, Section 3.3, and Section 3.4",
+          "severity": "high",
+          "day": 1,
+          "summary": "Public school officials organize or lead prayer in an official capacity and pressure students to participate, violating the no-establishment, neutrality, and school-specific religion rules of Article V."
+        }
+      ],
+      "bottlenecks": [],
+      "open_duties": [],
+      "satisfied_duties": [
+        {
+          "actor": "Federal courts",
+          "duty": "enjoin the official prayer practice and require religious neutrality in the public school",
+          "closed_day": 8,
+          "outcome": "enjoined the official prayer practice, barred school-led religious activity, and reaffirmed that student religious expression may remain voluntary and private on the same terms as other student expression",
+          "source": "Article V Section 3.2, Section 3.3, and Section 3.4"
+        }
+      ],
+      "failed_duties": [],
+      "notes": [],
+      "ai_summary": {
+        "primary_violation": "Public school officials organize or lead prayer in an official capacity and pressure students to participate, violating the no-establishment, neutrality, and school-specific religion rules of Article V.",
         "primary_bottleneck": null,
         "primary_open_duty": null,
         "system_risk": "institutional_stress",

@@ -1,0 +1,23 @@
+{
+  "id": "forced-medical-procedure-without-necessity",
+  "title": "Forced Medical Procedure Without Narrow Public-Health Justification",
+  "description": "A state compels a medical procedure for a broad class of persons without a sufficiently tailored public-health justification or adequate medical exemptions. The scenario tests Article V's bodily-autonomy and privacy protections.",
+  "articles_tested": ["Article V"],
+  "provisions_tested": ["Article V Section 4.1", "Article V Section 4.2", "Article V Section 4.3"],
+  "events": [
+    {
+      "day": 1,
+      "type": "state_forces_medical_procedure_without_sufficient_justification",
+      "actor": "State government",
+      "details": {
+        "procedure": "a non-emergency medical procedure as a condition of continued public-school attendance"
+      }
+    },
+    {
+      "day": 7,
+      "type": "court_blocks_forced_medical_procedure",
+      "actor": "Federal courts",
+      "details": {}
+    }
+  ]
+}

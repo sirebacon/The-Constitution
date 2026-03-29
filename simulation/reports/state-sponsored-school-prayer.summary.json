@@ -1,0 +1,50 @@
+{
+  "scenario_id": "state-sponsored-school-prayer",
+  "title": "Public School Officials Sponsor Prayer",
+  "source_file": "simulation/scenarios/state-sponsored-school-prayer.json",
+  "status": "stress_point_found",
+  "triggered_provisions": [
+    "Article V Section 3.2",
+    "Article V Section 3.3",
+    "Article V Section 3.4"
+  ],
+  "metrics": {
+    "satisfied_obligations": 1,
+    "failed_obligations": 0,
+    "unresolved_obligations": 0,
+    "violations": 1,
+    "bottlenecks": 0,
+    "timeline_entries": 5
+  },
+  "violations": [
+    {
+      "id": "state_school_prayer_sponsorship",
+      "category": "rights_suppression",
+      "actor": "Public school officials",
+      "source": "Article V Section 3.2, Section 3.3, and Section 3.4",
+      "severity": "high",
+      "day": 1,
+      "summary": "Public school officials organize or lead prayer in an official capacity and pressure students to participate, violating the no-establishment, neutrality, and school-specific religion rules of Article V."
+    }
+  ],
+  "bottlenecks": [],
+  "open_duties": [],
+  "satisfied_duties": [
+    {
+      "actor": "Federal courts",
+      "duty": "enjoin the official prayer practice and require religious neutrality in the public school",
+      "closed_day": 8,
+      "outcome": "enjoined the official prayer practice, barred school-led religious activity, and reaffirmed that student religious expression may remain voluntary and private on the same terms as other student expression",
+      "source": "Article V Section 3.2, Section 3.3, and Section 3.4"
+    }
+  ],
+  "failed_duties": [],
+  "notes": [],
+  "ai_summary": {
+    "primary_violation": "Public school officials organize or lead prayer in an official capacity and pressure students to participate, violating the no-establishment, neutrality, and school-specific religion rules of Article V.",
+    "primary_bottleneck": null,
+    "primary_open_duty": null,
+    "system_risk": "institutional_stress",
+    "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+  }
+}

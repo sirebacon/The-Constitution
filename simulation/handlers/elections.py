@@ -176,6 +176,74 @@ def handle_court_voids_naturalized_candidate_exclusion(state: SimulationState, e
     )
 
 
+def handle_sensitive_office_rule_overreaches(state: SimulationState, event: dict[str, Any]) -> None:
+    day = int(event["day"])
+    details = event.get("details", {})
+    office = details.get("office", "a sensitive federal office")
+    restriction = details.get("restriction", "a blanket exclusion of all dual citizens")
+    state.provisions.update({"Article IX Section 4.2", "Article IX Section 4.5", "Article IX Section 5.3"})
+    state.add_violation(
+        "sensitive_office_overreach",
+        "membership_exclusion",
+        "Congress",
+        f"Congress imposes {restriction} on eligibility for {office} without showing that the rule is narrowly tailored to an office involving exceptional national-security responsibility. Article IX permits targeted nationality, loyalty, or disclosure rules for especially sensitive offices, but not overbroad civic hierarchy by implication.",
+        "Article IX Section 4.2, Section 4.5, and Section 5.3",
+        day,
+    )
+    state.add_obligation(
+        "court_narrow_sensitive_office_rule",
+        "Federal courts",
+        "invalidate or narrowly construe the overbroad sensitive-office restriction so that it does not create a general hierarchy of citizenship or nationality",
+        "Article IX Section 4.2, Section 4.5, and Section 5.3",
+        day,
+        day + 14,
+        severity="high",
+    )
+
+
+def handle_court_narrows_sensitive_office_rule(state: SimulationState, event: dict[str, Any]) -> None:
+    day = int(event["day"])
+    state.resolve_obligation(
+        "court_narrow_sensitive_office_rule",
+        day,
+        "held that the restriction was overbroad, limited any valid nationality safeguards to genuinely exceptional national-security offices, and barred use of the rule as a general civic disability",
+    )
+
+
+def handle_agency_wrongly_rejects_citizenship_proof(state: SimulationState, event: dict[str, Any]) -> None:
+    day = int(event["day"])
+    details = event.get("details", {})
+    context = details.get("context", "a federal election registration dispute")
+    burden = details.get("burden", "an excessive documentary burden")
+    state.provisions.update({"Article IX Section 2.2", "Article IX Section 6.1", "Article IX Section 6.2", "Article IX Section 6.3", "Article IX Section 6.4"})
+    state.add_violation(
+        "citizenship_proof_dispute",
+        "membership_exclusion",
+        "Election officials",
+        f"Election officials deny recognition of citizenship in {context} based on {burden}, making citizenship practically impossible to prove for an otherwise eligible person and threatening time-sensitive political rights.",
+        "Article IX Section 2.2 and Section 6.1 through Section 6.4",
+        day,
+    )
+    state.add_obligation(
+        "court_restore_citizenship_status",
+        "Federal courts",
+        "provide prompt review, reject the unlawful proof burden, and restore the citizen's political status before the time-sensitive right is lost",
+        "Article IX Section 6.1 through Section 6.4",
+        day,
+        day + 5,
+        severity="high",
+    )
+
+
+def handle_court_restores_citizenship_status(state: SimulationState, event: dict[str, Any]) -> None:
+    day = int(event["day"])
+    state.resolve_obligation(
+        "court_restore_citizenship_status",
+        day,
+        "found the proof regime unlawfully burdensome, restored the citizen's political status, and ordered use of fair and reviewable procedures consistent with Article IX",
+    )
+
+
 HANDLERS = {
     "foreign_cyber_election_attack_detected": handle_foreign_cyber_election_attack_detected,
     "president_attempts_direct_state_takeover": handle_president_attempts_direct_state_takeover,
@@ -187,4 +255,8 @@ HANDLERS = {
     "court_restores_overseas_assignment": handle_court_restores_overseas_assignment,
     "naturalized_candidate_excluded_by_statute": handle_naturalized_candidate_excluded_by_statute,
     "court_voids_naturalized_candidate_exclusion": handle_court_voids_naturalized_candidate_exclusion,
+    "sensitive_office_rule_overreaches": handle_sensitive_office_rule_overreaches,
+    "court_narrows_sensitive_office_rule": handle_court_narrows_sensitive_office_rule,
+    "agency_wrongly_rejects_citizenship_proof": handle_agency_wrongly_rejects_citizenship_proof,
+    "court_restores_citizenship_status": handle_court_restores_citizenship_status,
 }

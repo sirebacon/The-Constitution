@@ -1,0 +1,24 @@
+{
+  "id": "implied-field-preemption-overreach",
+  "title": "Federal Officials Claim Implied Field Preemption Outside Uniform National Domains",
+  "description": "Federal officials argue that an extensive federal environmental regime automatically occupies the field and displaces a stricter state protection even though Congress did not expressly preempt the state rule. The scenario tests Article X's abolition of implied field preemption outside a narrow set of constitutionally uniform domains.",
+  "articles_tested": ["Article X"],
+  "provisions_tested": ["Article X Section 4.1", "Article X Section 4.3", "Article X Section 4.4"],
+  "events": [
+    {
+      "day": 1,
+      "type": "federal_government_asserts_implied_field_preemption",
+      "actor": "Federal government",
+      "details": {
+        "subject": "environmental regulation",
+        "stricter_rule": "a stricter state methane-emissions rule"
+      }
+    },
+    {
+      "day": 14,
+      "type": "court_rejects_implied_field_preemption_overreach",
+      "actor": "Federal courts",
+      "details": {}
+    }
+  ]
+}

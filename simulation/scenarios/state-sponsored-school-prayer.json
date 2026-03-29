@@ -1,0 +1,21 @@
+{
+  "id": "state-sponsored-school-prayer",
+  "title": "Public School Officials Sponsor Prayer",
+  "description": "Public school officials organize and lead prayer in an official capacity at a school event and pressure students to participate. The scenario tests Article V's neutrality and school-religion provisions.",
+  "articles_tested": ["Article V"],
+  "provisions_tested": ["Article V Section 3.2", "Article V Section 3.3", "Article V Section 3.4"],
+  "events": [
+    {
+      "day": 1,
+      "type": "state_sponsors_school_prayer",
+      "actor": "Public school officials",
+      "details": {}
+    },
+    {
+      "day": 8,
+      "type": "court_enjoins_school_prayer_sponsorship",
+      "actor": "Federal courts",
+      "details": {}
+    }
+  ]
+}

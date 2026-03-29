@@ -1,0 +1,50 @@
+{
+  "scenario_id": "state-preempts-local-housing-without-interest",
+  "title": "State Nullifies Local Housing Rule Without Specific Compelling Statewide Interest",
+  "source_file": "simulation/scenarios/state-preempts-local-housing-without-interest.json",
+  "status": "stress_point_found",
+  "triggered_provisions": [
+    "Article X Section 8.1",
+    "Article X Section 8.2",
+    "Article X Section 8.3"
+  ],
+  "metrics": {
+    "satisfied_obligations": 1,
+    "failed_obligations": 0,
+    "unresolved_obligations": 0,
+    "violations": 1,
+    "bottlenecks": 0,
+    "timeline_entries": 5
+  },
+  "violations": [
+    {
+      "id": "state_local_preemption_overreach",
+      "category": "federalism_breach",
+      "actor": "State government",
+      "source": "Article X Section 8.1, Section 8.2, and Section 8.3",
+      "severity": "high",
+      "day": 1,
+      "summary": "State officials nullify a city ordinance allowing multifamily housing near transit corridors with only generalized claims of statewide uniformity and no specific, compelling statewide interest shown by clear and convincing evidence, despite Article X's protection for local self-government on matters of local concern."
+    }
+  ],
+  "bottlenecks": [],
+  "open_duties": [],
+  "satisfied_duties": [
+    {
+      "actor": "State or federal courts",
+      "duty": "review the state override under heightened scrutiny and enjoin it unless the state demonstrates a specific compelling statewide interest that cannot be served by less intrusive means",
+      "closed_day": 18,
+      "outcome": "blocked the state override after finding that the asserted statewide interests were generalized and that the state had not shown by clear and convincing evidence that preemption was necessary",
+      "source": "Article X Section 8.2 and Section 8.3"
+    }
+  ],
+  "failed_duties": [],
+  "notes": [],
+  "ai_summary": {
+    "primary_violation": "State officials nullify a city ordinance allowing multifamily housing near transit corridors with only generalized claims of statewide uniformity and no specific, compelling statewide interest shown by clear and convincing evidence, despite Article X's protection for local self-government on matters of local concern.",
+    "primary_bottleneck": null,
+    "primary_open_duty": null,
+    "system_risk": "institutional_stress",
+    "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+  }
+}

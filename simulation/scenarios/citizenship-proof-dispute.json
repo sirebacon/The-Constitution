@@ -1,0 +1,24 @@
+{
+  "id": "citizenship-proof-dispute",
+  "title": "Citizenship Proof Dispute Threatens Time-Sensitive Political Rights",
+  "description": "Election officials reject a citizen's registration shortly before a federal election based on an excessive documentary demand and administrative mismatch, despite substantial proof of citizenship. The scenario tests Article IX's fair-proof, prompt-review, and anti-burden rules.",
+  "articles_tested": ["Article IX", "Article I"],
+  "provisions_tested": ["Article IX Section 2.2", "Article IX Section 6.1", "Article IX Section 6.2", "Article IX Section 6.3", "Article IX Section 6.4"],
+  "events": [
+    {
+      "day": 1,
+      "type": "agency_wrongly_rejects_citizenship_proof",
+      "actor": "Election officials",
+      "details": {
+        "context": "a federal election registration dispute days before the registration deadline",
+        "burden": "an excessive documentary burden triggered by a database mismatch"
+      }
+    },
+    {
+      "day": 4,
+      "type": "court_restores_citizenship_status",
+      "actor": "Federal courts",
+      "details": {}
+    }
+  ]
+}

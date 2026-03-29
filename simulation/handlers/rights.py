@@ -340,6 +340,82 @@ def handle_court_applies_warrant_requirement_to_purchased_data(state: Simulation
     )
 
 
+def handle_state_sponsors_school_prayer(state: SimulationState, event: dict[str, Any]) -> None:
+    day = int(event["day"])
+    state.provisions.update({"Article V Section 3.2", "Article V Section 3.3", "Article V Section 3.4"})
+    state.add_violation(
+        "state_school_prayer_sponsorship",
+        "rights_suppression",
+        "Public school officials",
+        "Public school officials organize or lead prayer in an official capacity and pressure students to participate, violating the no-establishment, neutrality, and school-specific religion rules of Article V.",
+        "Article V Section 3.2, Section 3.3, and Section 3.4",
+        day,
+    )
+    state.add_obligation(
+        "court_enjoin_school_prayer_sponsorship",
+        "Federal courts",
+        "enjoin the official prayer practice and require religious neutrality in the public school",
+        "Article V Section 3.2, Section 3.3, and Section 3.4",
+        day,
+        day + 14,
+        severity="high",
+    )
+
+
+def handle_court_enjoins_school_prayer_sponsorship(state: SimulationState, event: dict[str, Any]) -> None:
+    day = int(event["day"])
+    state.resolve_obligation(
+        "court_enjoin_school_prayer_sponsorship",
+        day,
+        "enjoined the official prayer practice, barred school-led religious activity, and reaffirmed that student religious expression may remain voluntary and private on the same terms as other student expression",
+    )
+    state.add_entry(
+        day,
+        "outcome",
+        "The scenario validates that Article V protects both religious freedom and government neutrality: officials may not sponsor religion, but students retain their own private religious liberty.",
+        "Article V Section 3.1 through Section 3.4",
+    )
+
+
+def handle_state_forces_medical_procedure_without_sufficient_justification(state: SimulationState, event: dict[str, Any]) -> None:
+    day = int(event["day"])
+    details = event.get("details", {})
+    procedure = details.get("procedure", "a medical procedure")
+    state.provisions.update({"Article V Section 4.1", "Article V Section 4.2", "Article V Section 4.3"})
+    state.add_violation(
+        "bodily_autonomy_violation",
+        "rights_suppression",
+        "State government",
+        f"State law compels {procedure} without a sufficiently tailored public-health justification, medical exemption structure, or individualized necessity. Article V protects bodily autonomy and bars compulsory medical decision-making absent a compelling interest pursued by the least restrictive means.",
+        "Article V Section 4.1, Section 4.2, and Section 4.3",
+        day,
+    )
+    state.add_obligation(
+        "court_block_forced_medical_procedure",
+        "Federal courts",
+        "block enforcement of the compulsory medical procedure law unless the state satisfies Article V's strict bodily-autonomy and public-health requirements",
+        "Article V Section 4.1 and Section 4.2",
+        day,
+        day + 10,
+        severity="high",
+    )
+
+
+def handle_court_blocks_forced_medical_procedure(state: SimulationState, event: dict[str, Any]) -> None:
+    day = int(event["day"])
+    state.resolve_obligation(
+        "court_block_forced_medical_procedure",
+        day,
+        "blocked enforcement of the compulsory medical-procedure law after finding that the state had not shown a sufficiently tailored public-health necessity or adequate medical exemptions",
+    )
+    state.add_entry(
+        day,
+        "outcome",
+        "The scenario validates Article V's bodily-autonomy rule: the government cannot compel medical decisions merely by invoking public welfare in the abstract.",
+        "Article V Section 4.1 and Section 4.2",
+    )
+
+
 HANDLERS = {
     "warrantless_surveillance_conducted": handle_warrantless_surveillance_conducted,
     "court_orders_surveillance_halt": handle_court_orders_surveillance_halt,
@@ -359,4 +435,8 @@ HANDLERS = {
     "court_rejects_rights_suspension_finding": handle_court_rejects_rights_suspension_finding,
     "agency_purchases_data_to_circumvent_warrant": handle_agency_purchases_data_to_circumvent_warrant,
     "court_applies_warrant_requirement_to_purchased_data": handle_court_applies_warrant_requirement_to_purchased_data,
+    "state_sponsors_school_prayer": handle_state_sponsors_school_prayer,
+    "court_enjoins_school_prayer_sponsorship": handle_court_enjoins_school_prayer_sponsorship,
+    "state_forces_medical_procedure_without_sufficient_justification": handle_state_forces_medical_procedure_without_sufficient_justification,
+    "court_blocks_forced_medical_procedure": handle_court_blocks_forced_medical_procedure,
 }

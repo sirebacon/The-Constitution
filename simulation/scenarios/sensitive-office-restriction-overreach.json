@@ -1,0 +1,24 @@
+{
+  "id": "sensitive-office-restriction-overreach",
+  "title": "Sensitive-Office Nationality Restriction Expands into General Civic Disability",
+  "description": "Congress imposes a blanket dual-citizenship exclusion for a broad class of federal offices and tries to justify it as a sensitive-office safeguard. The scenario tests whether Article IX forces such restrictions to remain narrowly tailored exceptions rather than a general hierarchy of citizenship or nationality.",
+  "articles_tested": ["Article IX"],
+  "provisions_tested": ["Article IX Section 4.2", "Article IX Section 4.5", "Article IX Section 5.3"],
+  "events": [
+    {
+      "day": 1,
+      "type": "sensitive_office_rule_overreaches",
+      "actor": "Congress",
+      "details": {
+        "office": "a wide class of senior federal offices",
+        "restriction": "a blanket exclusion of all dual citizens"
+      }
+    },
+    {
+      "day": 10,
+      "type": "court_narrows_sensitive_office_rule",
+      "actor": "Federal courts",
+      "details": {}
+    }
+  ]
+}

@@ -882,3 +882,143 @@ This closes the main soft-cartelization gap while avoiding a sweeping rule for e
 1. Add one more scenario family for quasi-private exclusion outside the new constitutional floor.
 2. Watch Article VI §7.5A in later draft-discipline passes so it does not drift into a general platform-regulation clause.
 3. Continue with Article X, Article IX, and Article V validation work.
+
+## 2026-03-29 Article X Preemption and Local-Self-Government Validation Pass
+
+### Files Reviewed
+
+- [simulation/reports/implied-field-preemption-overreach.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/implied-field-preemption-overreach.summary.json)
+- [simulation/reports/state-preempts-local-housing-without-interest.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/state-preempts-local-housing-without-interest.summary.json)
+- [simulation/reports/aggregate.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/aggregate.json)
+
+### Findings
+
+#### 1. Article X now gives courts a real basis to reject implied field-preemption overreach
+
+Sources:
+- [simulation/reports/implied-field-preemption-overreach.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/implied-field-preemption-overreach.summary.json)
+- [articles/X-federalism.md](/Users/chris/Documents/GitHub/The-Constitution/articles/X-federalism.md)
+
+- Federal officials claimed that dense federal environmental regulation automatically displaced a stricter state methane-emissions rule.
+- Courts rejected the claim because Article X abolishes implied field preemption outside a narrow set of constitutionally uniform national domains.
+- The state rule survives as valid concurrent stricter regulation.
+
+Assessment:
+This validates one of Article X's most distinctive doctrines and confirms that the article is not quietly drifting back toward ordinary broad field-preemption assumptions.
+
+#### 2. Article X now gives local self-government meaningful protection against generalized state override
+
+Sources:
+- [simulation/reports/state-preempts-local-housing-without-interest.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/state-preempts-local-housing-without-interest.summary.json)
+- [articles/X-federalism.md](/Users/chris/Documents/GitHub/The-Constitution/articles/X-federalism.md)
+
+- A state attempted to nullify local housing reform with only generalized claims of statewide uniformity.
+- Courts blocked the override because Article X requires a specific compelling statewide interest shown by clear and convincing evidence.
+- The scenario preserves room for genuine statewide minimum standards while preventing blanket state flattening of local self-government.
+
+Assessment:
+This is a meaningful validation of the local-government protections and one of the better indicators that Article X is functioning at the right constitutional level.
+
+### Net Effect
+
+- Article X is no longer primarily a paper-validated article.
+- Democratic-floor enforcement, anti-commandeering, preemption boundaries, and local-self-government protection now all have direct scenario support.
+- The remaining useful validation work for Article X is narrower: cross-border digital conduct and interstate-harm standing.
+
+### Recommended Follow-Up
+
+1. Add one later Article X scenario on cross-border digital conduct or interstate-harm standing.
+2. Move Article IX and Article V back above Article X in the validation queue.
+
+## 2026-03-29 Article IX Sensitive-Office and Proof Validation Pass
+
+### Files Reviewed
+
+- [simulation/reports/sensitive-office-restriction-overreach.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/sensitive-office-restriction-overreach.summary.json)
+- [simulation/reports/citizenship-proof-dispute.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/citizenship-proof-dispute.summary.json)
+- [simulation/reports/aggregate.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/aggregate.json)
+
+### Findings
+
+#### 1. Article IX now prevents sensitive-office safeguards from turning into general civic hierarchy
+
+Sources:
+- [simulation/reports/sensitive-office-restriction-overreach.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/sensitive-office-restriction-overreach.summary.json)
+- [articles/IX-citizenship-membership.md](/Users/chris/Documents/GitHub/The-Constitution/articles/IX-citizenship-membership.md)
+
+- Congress attempted to turn a sensitive-office safeguard into a blanket dual-citizenship exclusion for a broad class of senior federal offices.
+- Courts narrowed the rule and held that Article IX permits only genuinely exceptional, narrowly tailored nationality safeguards for especially sensitive offices.
+- The rule could not be used as a general civic disability by implication.
+
+Assessment:
+This validates the article's core anti-caste logic in one of the most realistic hostile edge cases.
+
+#### 2. Article IX now gives prompt judicial relief against citizenship-proof regimes that would nullify political membership in practice
+
+Sources:
+- [simulation/reports/citizenship-proof-dispute.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/citizenship-proof-dispute.summary.json)
+- [articles/IX-citizenship-membership.md](/Users/chris/Documents/GitHub/The-Constitution/articles/IX-citizenship-membership.md)
+
+- Election officials imposed an excessive documentary burden after a database mismatch shortly before a registration deadline.
+- Courts restored the citizen's political status on a prompt timeline.
+- The scenario confirms that Article IX bars administrative practices that make citizenship practically impossible to prove for ordinary eligible persons.
+
+Assessment:
+This is a strong validation of the article's fair-proof and prompt-review machinery and shows that Article IX now functions as a practical membership-protection article, not only a statement of principle.
+
+### Net Effect
+
+- Article IX is no longer carrying obvious unbuilt validation gaps.
+- The core equal-membership, officeholding-equality, sensitive-office-narrowing, and fair-proof rules now all have direct scenario support.
+- The remaining useful work for Article IX is narrow and optional rather than urgent.
+
+### Recommended Follow-Up
+
+1. Move Article V above Article IX in the validation queue.
+2. Add one later Article IX scenario on renunciation, statelessness avoidance, or foreign-office incompatibility if a final edge-case pass still seems worthwhile.
+
+## 2026-03-29 Article V Religion and Bodily-Autonomy Validation Pass
+
+### Files Reviewed
+
+- [simulation/reports/state-sponsored-school-prayer.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/state-sponsored-school-prayer.summary.json)
+- [simulation/reports/forced-medical-procedure-without-necessity.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/forced-medical-procedure-without-necessity.summary.json)
+- [simulation/reports/aggregate.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/aggregate.json)
+
+### Findings
+
+#### 1. Article V now directly validates government neutrality in public-school religion
+
+Sources:
+- [simulation/reports/state-sponsored-school-prayer.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/state-sponsored-school-prayer.summary.json)
+- [articles/V-rights.md](/Users/chris/Documents/GitHub/The-Constitution/articles/V-rights.md)
+
+- Public school officials organized and led prayer in an official capacity.
+- Courts enjoined the practice and preserved voluntary private student religious expression.
+- The scenario confirms that Article V protects both free exercise and no-establishment neutrality rather than sacrificing one to the other.
+
+Assessment:
+This closes one of the clearest missing first-order religion validations.
+
+#### 2. Article V now directly validates bodily autonomy against overbroad compulsory medical decision-making
+
+Sources:
+- [simulation/reports/forced-medical-procedure-without-necessity.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/forced-medical-procedure-without-necessity.summary.json)
+- [articles/V-rights.md](/Users/chris/Documents/GitHub/The-Constitution/articles/V-rights.md)
+
+- A state compelled a non-emergency medical procedure without a sufficiently tailored public-health showing or adequate exemptions.
+- Courts blocked the law under the bodily-autonomy and privacy rules.
+- The scenario confirms that the public-health exception in Article V §4.2 is narrow and does not license open-ended state control over medical decisions.
+
+Assessment:
+This materially improves validation of the privacy/autonomy section and makes Article V less dependent on inference from doctrine-style text.
+
+### Net Effect
+
+- Article V is no longer missing obvious first-order validation in religion and bodily autonomy.
+- The remaining useful work is narrower: family autonomy, internet-access discrimination, and a few other digital-rights edge cases.
+
+### Recommended Follow-Up
+
+1. Move Article VIII / XIII and Article XII / XIX back above Article V in the main queue.
+2. Keep one or two later Article V scenarios for family autonomy or digital-rights edge cases, but treat them as refinement rather than urgent gap repair.

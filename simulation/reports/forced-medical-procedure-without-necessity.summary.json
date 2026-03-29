@@ -1,0 +1,50 @@
+{
+  "scenario_id": "forced-medical-procedure-without-necessity",
+  "title": "Forced Medical Procedure Without Narrow Public-Health Justification",
+  "source_file": "simulation/scenarios/forced-medical-procedure-without-necessity.json",
+  "status": "stress_point_found",
+  "triggered_provisions": [
+    "Article V Section 4.1",
+    "Article V Section 4.2",
+    "Article V Section 4.3"
+  ],
+  "metrics": {
+    "satisfied_obligations": 1,
+    "failed_obligations": 0,
+    "unresolved_obligations": 0,
+    "violations": 1,
+    "bottlenecks": 0,
+    "timeline_entries": 5
+  },
+  "violations": [
+    {
+      "id": "bodily_autonomy_violation",
+      "category": "rights_suppression",
+      "actor": "State government",
+      "source": "Article V Section 4.1, Section 4.2, and Section 4.3",
+      "severity": "high",
+      "day": 1,
+      "summary": "State law compels a non-emergency medical procedure as a condition of continued public-school attendance without a sufficiently tailored public-health justification, medical exemption structure, or individualized necessity. Article V protects bodily autonomy and bars compulsory medical decision-making absent a compelling interest pursued by the least restrictive means."
+    }
+  ],
+  "bottlenecks": [],
+  "open_duties": [],
+  "satisfied_duties": [
+    {
+      "actor": "Federal courts",
+      "duty": "block enforcement of the compulsory medical procedure law unless the state satisfies Article V's strict bodily-autonomy and public-health requirements",
+      "closed_day": 7,
+      "outcome": "blocked enforcement of the compulsory medical-procedure law after finding that the state had not shown a sufficiently tailored public-health necessity or adequate medical exemptions",
+      "source": "Article V Section 4.1 and Section 4.2"
+    }
+  ],
+  "failed_duties": [],
+  "notes": [],
+  "ai_summary": {
+    "primary_violation": "State law compels a non-emergency medical procedure as a condition of continued public-school attendance without a sufficiently tailored public-health justification, medical exemption structure, or individualized necessity. Article V protects bodily autonomy and bars compulsory medical decision-making absent a compelling interest pursued by the least restrictive means.",
+    "primary_bottleneck": null,
+    "primary_open_duty": null,
+    "system_risk": "institutional_stress",
+    "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+  }
+}

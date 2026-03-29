@@ -1,0 +1,23 @@
+{
+  "id": "state-preempts-local-housing-without-interest",
+  "title": "State Nullifies Local Housing Rule Without Specific Compelling Statewide Interest",
+  "description": "A state nullifies a city housing ordinance expanding multifamily housing near transit but relies only on generalized claims of statewide uniformity. The scenario tests whether Article X's local self-government provisions give courts a real basis to block unsupported state preemption of local ordinances on matters of local concern.",
+  "articles_tested": ["Article X"],
+  "provisions_tested": ["Article X Section 8.1", "Article X Section 8.2", "Article X Section 8.3"],
+  "events": [
+    {
+      "day": 1,
+      "type": "state_preempts_local_housing_rule_without_showing_statewide_interest",
+      "actor": "State government",
+      "details": {
+        "ordinance": "a city ordinance allowing multifamily housing near transit corridors"
+      }
+    },
+    {
+      "day": 18,
+      "type": "court_blocks_local_preemption_overreach",
+      "actor": "State supreme court",
+      "details": {}
+    }
+  ]
+}
