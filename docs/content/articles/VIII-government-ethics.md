@@ -56,7 +56,7 @@ A federal official who holds prohibited investments at the time of taking office
 
 ### 1.10 — Real-time disclosure of all trades
 
-All purchases, sales, and transfers of investments by a federal official or their covered family members shall be disclosed promptly to the Accountability Commission and made public in a searchable form as provided by law. Late or false disclosure is a violation regardless of whether the trade itself was permitted.
+All purchases, sales, and transfers of investments by a federal official or their covered family members shall be disclosed promptly to the Accountability Commission and made public as provided by law. Late or false disclosure is a violation regardless of whether the trade itself was permitted.
 
 ### 1.11 — Penalties for investment violations
 
@@ -77,7 +77,7 @@ The rules apply from the date the official takes office or, for staff, from the 
 
 ### 1.13 — Beneficial ownership disclosure for federal contractors
 
-Congress shall require entities seeking major federal contracts, concessions, or control of assets in sectors designated by law as critical to national security or constitutional government operations to disclose their beneficial owners with sufficient particularity to identify any foreign government, foreign national, foreign-controlled entity, or organized criminal enterprise with a substantial interest or effective control. No such contract or concession may be awarded to an entity that cannot verify its beneficial ownership to the required standard, or whose beneficial ownership is materially concealed through nominees, shell entities, or other evasive structures. Law shall provide public disclosure and reporting sufficient to enforce this Section.
+Congress shall require entities seeking major federal contracts, concessions, or control of assets in sectors designated by law as critical to national security or constitutional government operations to disclose their beneficial owners sufficiently to identify any foreign government, foreign national, foreign-controlled entity, or organized criminal enterprise with a substantial interest or effective control. No such contract or concession may be awarded to an entity that cannot verify its beneficial ownership, or whose ownership is materially concealed through nominees, shell entities, or similar evasive structures. Law shall provide public transparency sufficient to enforce this Section.
 
 ### 1.14 — Prohibition on use of government resources for campaign purposes
 
@@ -137,7 +137,7 @@ The financial market regulator is structurally vulnerable to capture through per
   (c) A prohibition on any regulated entity offering payment or financial benefit to a departing employee conditioned on that employee's future regulatory decisions or favorable treatment. Any such arrangement is void.
   (d) Transition support sufficient to ensure that post-service restrictions do not function as a deterrent to qualified public service, and compensation during service adequate to attract qualified regulators.
 
-Law shall provide public transparency sufficient to make post-service restrictions enforceable. Violations by former officials are prosecuted by the Accountability Commission; violations by regulated institutions are subject to the civil penalty regime of Section 2.4.
+Law shall provide public transparency sufficient to enforce this Section. Violations by former officials are prosecuted by the Accountability Commission; violations by regulated institutions are subject to the civil penalty regime of Section 2.4.
 
 ### 2.9 — Functional jurisdiction and enforcement capacity
 

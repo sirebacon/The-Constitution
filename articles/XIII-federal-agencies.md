@@ -108,7 +108,7 @@ Disagreement with an agency's regulatory decisions, enforcement choices, rulemak
 
 **6.4 — Judicial review.** All final agency actions are subject to judicial review for compliance with the agency's authorizing statute and with this Constitution. Courts shall review agency legal interpretations independently. Courts shall defer to agency factual findings where supported by substantial evidence in the record. Courts shall not defer to agency interpretations of the scope of their own jurisdiction.
 
-**6.5 — Annual reporting.** Every federal agency shall publish an annual report including: its statutory mission; the actions taken in the prior year; the budget received and spent; any outstanding or completed significant enforcement actions, in aggregate without compromising ongoing investigations; performance against stated metrics; and any known gaps between its mandate and its capacity to fulfill it. Annual reports shall be public and published in a searchable format.
+**6.5 — Annual reporting.** Every federal agency shall publish an annual public report sufficient to disclose its statutory mission, principal actions, use of funds, and significant capacity gaps without compromising ongoing investigations or protected information.
 
 ---
 
@@ -124,7 +124,7 @@ Disagreement with an agency's regulatory decisions, enforcement choices, rulemak
 
 **7.5 — Compensation floor.** Congress shall maintain compensation for senior regulatory personnel at levels sufficient to attract and retain qualified professionals. Where significant pay gaps between government and regulated industry are documented, Congress shall address them. Chronic underpayment that structurally forces experienced officials to seek industry employment is incompatible with effective regulation.
 
-**7.6 — Public reporting.** Law shall provide public reporting sufficient to enforce the post-service restrictions of this Section.
+**7.6 — Public reporting.** Law shall provide public transparency sufficient to enforce the post-service restrictions of this Section.
 
 ---
 
@@ -168,7 +168,7 @@ Disagreement with an agency's regulatory decisions, enforcement choices, rulemak
 
 **11.3 — No reclassification as workaround.** The cap of Section 11.2 applies to all positions subject to at-will removal by political officials, regardless of title, category, or form of creation. A presidential action that reclassifies career positions as political appointments is void to the extent it would evade or exceed the constitutional cap.
 
-**11.4 — Public accounting.** Law shall provide public accounting of political appointments and independent review sufficient to enforce this Section. Congress shall establish by law the categories of political appointment, and the President may not create new categories beyond those established by law.
+**11.4 — Public accounting.** Law shall provide public accounting and independent review sufficient to enforce this Section. Congress shall establish by law the categories of political appointment, and the President may not create new categories beyond those established by law.
 
 ---
 
