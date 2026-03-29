@@ -212,11 +212,11 @@ Before raising a score, ask:
 
 Recommended focus order:
 
-1. Article X / Article XVIII — add dedicated simulation coverage for federalism/preemption and democratic-floor enforcement, and for social/economic-rights floors. These are now the clearest remaining validation gaps.
-2. Article V — extend the new rights coverage into religion, family/autonomy, and remaining digital-rights edge cases.
-3. Article VIII / Article XIII — verify no structural duplication on independent agency architecture. Article VIII contains a specific independent financial regulator while Article XIII governs agency structure generally; confirm the boundary is clean.
-4. Article XII / Article XIX continuity edge cases — pressure-test internal boycott, quorum sabotage, and remaining organ-setup friction under adversarial conditions.
-5. Article IX — add dedicated citizenship and eligibility scenarios: loss-of-citizenship, overseas assignment, naturalized-candidate exclusion, and sensitive-office rules.
-6. Article II — draft discipline 7.8; continue pruning enforcement mechanics that can move to law without weakening the constitutional floor.
-9. Article XIII — a few agency-governance rules can still be compressed; agency-specific procedures that belong in statute rather than the constitution.
-10. Articles XIV and XV — emergency revenue powers and fiscal pressure scenarios; one final compression pass if detail has re-accumulated.
+1. Article XVIII — add dedicated simulation coverage for climate, education, housing, and child-welfare floors. This is the clearest remaining “strengthened but not directly validated” article.
+2. Article IX — add dedicated citizenship and eligibility scenarios: loss-of-citizenship, overseas assignment, naturalized-candidate exclusion, and sensitive-office rules.
+3. Article X — add dedicated simulation coverage for federalism/preemption and democratic-floor enforcement. Enforceability remains lower than the overall score.
+4. Article XIV — stress-test emergency revenue powers and edge-case revenue authorities to confirm the article remains principle-level while still enforceable.
+5. Article II — continue draft-discipline cleanup. The article is structurally strong but still the densest core article.
+6. Article V — extend the new rights coverage into religion, family/autonomy, and remaining digital-rights edge cases.
+7. Article VIII / Article XIII — verify no structural duplication on independent agency architecture and continue light compression where needed.
+8. Article XII / Article XIX — pressure-test internal boycott, quorum sabotage, and remaining organ-setup friction under adversarial conditions.
