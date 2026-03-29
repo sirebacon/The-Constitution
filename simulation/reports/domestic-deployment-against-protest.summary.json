@@ -1,0 +1,57 @@
+{
+  "scenario_id": "domestic-deployment-against-protest",
+  "title": "Domestic Deployment Against Protest",
+  "source_file": "simulation/scenarios/domestic-deployment-against-protest.json",
+  "status": "stress_point_found",
+  "triggered_provisions": [
+    "Article V Section 1",
+    "Article XI Section 7",
+    "Article XI Section 8"
+  ],
+  "metrics": {
+    "satisfied_obligations": 2,
+    "failed_obligations": 0,
+    "unresolved_obligations": 0,
+    "violations": 1,
+    "bottlenecks": 0,
+    "timeline_entries": 7
+  },
+  "violations": [
+    {
+      "id": "domestic_deployment_unlawful",
+      "category": "rights_suppression",
+      "actor": "Executive branch",
+      "source": "Article XI Section 7 and Article V Section 1",
+      "severity": "high",
+      "day": 2,
+      "summary": "Executive branch treats protest unrest as armed rebellion and orders domestic military deployment without the required constitutional basis."
+    }
+  ],
+  "bottlenecks": [],
+  "open_duties": [],
+  "satisfied_duties": [
+    {
+      "actor": "Federal courts",
+      "duty": "review the constitutional basis for the domestic deployment",
+      "closed_day": 2,
+      "outcome": "held that the domestic deployment lacked a constitutional basis and must cease",
+      "source": "Article XI Section 7 and Section 8"
+    },
+    {
+      "actor": "Service members",
+      "duty": "refuse compliance with an unconstitutional domestic deployment order",
+      "closed_day": 2,
+      "outcome": "refused the unconstitutional domestic deployment order",
+      "source": "Article XI Section 8"
+    }
+  ],
+  "failed_duties": [],
+  "notes": [],
+  "ai_summary": {
+    "primary_violation": "Executive branch treats protest unrest as armed rebellion and orders domestic military deployment without the required constitutional basis.",
+    "primary_bottleneck": null,
+    "primary_open_duty": null,
+    "system_risk": "institutional_stress",
+    "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+  }
+}

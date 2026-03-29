@@ -22,6 +22,14 @@
       "day": 40,
       "type": "president_ignores_withdrawal_order",
       "actor": "President"
+    },
+    {
+      "day": 65,
+      "type": "regional_assembly_begins_trial_on_transmitted_articles",
+      "actor": "Regional Assembly",
+      "details": {
+        "trial_type": "war"
+      }
     }
   ]
 }

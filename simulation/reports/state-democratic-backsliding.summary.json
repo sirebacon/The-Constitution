@@ -32,9 +32,9 @@
   "satisfied_duties": [
     {
       "actor": "Congress",
-      "duty": "decide whether to suspend the state's representation until compliance is restored",
-      "closed_day": 760,
-      "outcome": "suspended the state's representation pending Supreme Court certification of compliance",
+      "duty": "hold a recorded vote on suspension of the state's representation",
+      "closed_day": 245,
+      "outcome": "held the required vote and suspended the state's representation pending Supreme Court certification of compliance",
       "source": "Article VII Section 1.6(c)"
     }
   ],

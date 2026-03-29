@@ -17,6 +17,14 @@
       "day": 20,
       "type": "accountability_commission_acts",
       "actor": "Accountability Commission"
+    },
+    {
+      "day": 45,
+      "type": "regional_assembly_begins_trial_on_transmitted_articles",
+      "actor": "Regional Assembly",
+      "details": {
+        "trial_type": "obstruction"
+      }
     }
   ]
 }

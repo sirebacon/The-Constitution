@@ -1,0 +1,76 @@
+{
+  "scenario_id": "foreign-cyber-election-crisis",
+  "title": "Foreign Cyber Election Crisis",
+  "source_file": "simulation/scenarios/foreign-cyber-election-crisis.json",
+  "status": "stress_point_found",
+  "triggered_provisions": [
+    "Article I election administration provisions",
+    "Article V speech and press protections",
+    "Article VI democratic integrity provisions",
+    "Article VII federalism provisions",
+    "Article XI war powers",
+    "Article XIV foreign policy and national security"
+  ],
+  "metrics": {
+    "satisfied_obligations": 3,
+    "failed_obligations": 0,
+    "unresolved_obligations": 0,
+    "violations": 2,
+    "bottlenecks": 0,
+    "timeline_entries": 10
+  },
+  "violations": [
+    {
+      "id": "president_attempts_direct_state_takeover",
+      "category": "federalism_breach",
+      "actor": "President",
+      "source": "Article I election administration provisions and Article VII federalism provisions",
+      "severity": "high",
+      "day": 1,
+      "summary": "President attempts direct federal control over state election administration outside the constitutional election framework."
+    },
+    {
+      "id": "president_attempts_speech_restriction",
+      "category": "rights_suppression",
+      "actor": "Executive branch",
+      "source": "Article V speech and press protections",
+      "severity": "high",
+      "day": 1,
+      "summary": "Executive branch attempts to suppress suspected foreign propaganda directly rather than using disclosure and transparency tools."
+    }
+  ],
+  "bottlenecks": [],
+  "open_duties": [],
+  "satisfied_duties": [
+    {
+      "actor": "President",
+      "duty": "confine immediate response measures to non-military Article XIV authorities unless Article XI is lawfully triggered",
+      "closed_day": 1,
+      "outcome": "used attribution, sanctions, and other non-military countermeasures under Article XIV",
+      "source": "Article XI war powers and Article XIV foreign policy and national security"
+    },
+    {
+      "actor": "Electoral Commission",
+      "duty": "coordinate constitutional election-protection measures with the states",
+      "closed_day": 2,
+      "outcome": "implemented constitutional election-protection measures in coordination with affected states",
+      "source": "Article I election administration provisions and Article IX electoral administration provisions"
+    },
+    {
+      "actor": "Federal courts",
+      "duty": "review any attempted suppression of protected expression",
+      "closed_day": 3,
+      "outcome": "blocked direct suppression of protected expression while allowing disclosure-based responses",
+      "source": "Article V speech and press protections"
+    }
+  ],
+  "failed_duties": [],
+  "notes": [],
+  "ai_summary": {
+    "primary_violation": "President attempts direct federal control over state election administration outside the constitutional election framework.",
+    "primary_bottleneck": null,
+    "primary_open_duty": null,
+    "system_risk": "institutional_stress",
+    "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+  }
+}

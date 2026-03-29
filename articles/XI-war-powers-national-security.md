@@ -51,9 +51,11 @@ Defensive action under this Section must be proportionate to the threat, limited
 
   **(c) Enforcement — withdrawal order.** If authorization is not granted within 30 days, the Chief Justice of the Supreme Court shall issue a binding withdrawal order enforceable by the federal courts. The Secretary of Defense shall ensure compliance within the period fixed by law, which may not exceed 15 days. Presidential defiance of a withdrawal order is a grave constitutional violation and an absolute no-immunity category under Article III Section 15.
 
-  **(d) Continued operations after withdrawal order.** Ordering or maintaining military operations in violation of a withdrawal order is a violation of this Constitution, grounds for impeachment, a criminal abuse of official power, and an unlawful order under Section 8.
+  **(d) Continued operations after withdrawal order.** Ordering or maintaining military operations in violation of a withdrawal order is a violation of this Constitution, grounds for impeachment, a criminal abuse of official power, and an unlawful order under Section 8. Upon issuance of the withdrawal order, no funds may be obligated or expended for continued unlawful operations except as strictly necessary to protect forces during disengagement. If the President purports to continue the operation after the withdrawal order takes effect, lawful operational authority is limited to terminating, withdrawing, or defending withdrawing forces; no officer is required or permitted to continue the unlawful operation on the President's command.
 
-  **(e) No self-authorization.** Only an act of Congress constitutes authorization under this Article.
+  **(e) Expedited impeachment vote.** A presidential order maintaining operations in violation of a withdrawal order shall trigger the expedited impeachment timetable of Article III Section 10.2A.
+
+  **(f) No self-authorization.** Only an act of Congress constitutes authorization under this Article.
 
 **1.6 — Requirements for an Authorization for Use of Military Force.** An Authorization for Use of Military Force (AUMF) passed by Congress must:
 

@@ -1,0 +1,72 @@
+{
+  "scenario_id": "emergency-extension-without-real-review",
+  "title": "Emergency Extension Without Real Review",
+  "source_file": "simulation/scenarios/emergency-extension-without-real-review.json",
+  "status": "stress_point_found",
+  "triggered_provisions": [
+    "Article I Section 3",
+    "Article III Section 5",
+    "Article V Section 1.3",
+    "Article V Section 14"
+  ],
+  "metrics": {
+    "satisfied_obligations": 1,
+    "failed_obligations": 1,
+    "unresolved_obligations": 0,
+    "violations": 1,
+    "bottlenecks": 1,
+    "timeline_entries": 9
+  },
+  "violations": [
+    {
+      "id": "president_attempts_emergency_self_extension",
+      "category": "executive_defiance",
+      "actor": "President",
+      "source": "Article III Section 5.4 and Article V Section 1.3",
+      "severity": "high",
+      "day": 90,
+      "summary": "President attempts to continue emergency restrictions without the constitutionally required outside review."
+    }
+  ],
+  "bottlenecks": [
+    {
+      "id": "emergency_approve_ra",
+      "category": "legislative_deadline_failure",
+      "actor": "Regional Assembly",
+      "source": "Article III Section 5.4",
+      "severity": "high",
+      "day": 31,
+      "deadline_day": 30,
+      "summary": "Regional Assembly failed to approve or reject the emergency declaration by day 30 under Article III Section 5.4."
+    }
+  ],
+  "open_duties": [],
+  "satisfied_duties": [
+    {
+      "actor": "President",
+      "duty": "submit the emergency declaration to the Regional Assembly",
+      "closed_day": 1,
+      "outcome": "submitted the emergency declaration to the Regional Assembly",
+      "source": "Article III Section 5.4"
+    }
+  ],
+  "failed_duties": [
+    {
+      "actor": "Regional Assembly",
+      "duty": "approve or reject the emergency declaration",
+      "deadline_day": 30,
+      "closed_day": 31,
+      "outcome": "Regional Assembly failed to approve or reject the emergency declaration by day 30 under Article III Section 5.4.",
+      "source": "Article III Section 5.4",
+      "severity": "high"
+    }
+  ],
+  "notes": [],
+  "ai_summary": {
+    "primary_violation": "President attempts to continue emergency restrictions without the constitutionally required outside review.",
+    "primary_bottleneck": "Regional Assembly failed to approve or reject the emergency declaration by day 30 under Article III Section 5.4.",
+    "primary_open_duty": null,
+    "system_risk": "executive_defiance",
+    "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+  }
+}

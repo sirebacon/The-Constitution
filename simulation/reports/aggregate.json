@@ -1,14 +1,18 @@
 {
-  "scenario_count": 4,
-  "stress_point_scenarios": 4,
+  "scenario_count": 7,
+  "stress_point_scenarios": 7,
   "totals": {
-    "violations": 3,
-    "bottlenecks": 3,
-    "unresolved_obligations": 2
+    "violations": 7,
+    "bottlenecks": 6,
+    "unresolved_obligations": 0
   },
   "risk_pattern_counts": [
     {
       "risk": "executive_defiance",
+      "count": 3
+    },
+    {
+      "risk": "institutional_stress",
       "count": 2
     },
     {
@@ -23,7 +27,7 @@
   "bottleneck_categories": [
     {
       "category": "legislative_deadline_failure",
-      "count": 2
+      "count": 5
     },
     {
       "category": "state_backsliding",
@@ -33,20 +37,40 @@
   "violation_categories": [
     {
       "category": "executive_defiance",
+      "count": 3
+    },
+    {
+      "category": "rights_suppression",
       "count": 2
     },
     {
       "category": "election_restriction",
+      "count": 1
+    },
+    {
+      "category": "federalism_breach",
       "count": 1
     }
   ],
   "top_triggered_provisions": [
     {
       "provision": "Article I Section 3",
-      "count": 1
+      "count": 2
+    },
+    {
+      "provision": "Article III Section 5",
+      "count": 2
+    },
+    {
+      "provision": "Article V Section 14",
+      "count": 2
     },
     {
       "provision": "Article I Section 3.4",
+      "count": 1
+    },
+    {
+      "provision": "Article I election administration provisions",
       "count": 1
     },
     {
@@ -62,15 +86,23 @@
       "count": 1
     },
     {
-      "provision": "Article III Section 5",
-      "count": 1
-    },
-    {
       "provision": "Article IX Section 3",
       "count": 1
     },
     {
-      "provision": "Article V Section 14",
+      "provision": "Article V Section 1",
+      "count": 1
+    },
+    {
+      "provision": "Article V Section 1.3",
+      "count": 1
+    },
+    {
+      "provision": "Article V speech and press protections",
+      "count": 1
+    },
+    {
+      "provision": "Article VI democratic integrity provisions",
       "count": 1
     },
     {
@@ -82,17 +114,161 @@
       "count": 1
     },
     {
+      "provision": "Article VII federalism provisions",
+      "count": 1
+    },
+    {
       "provision": "Article XI Section 1",
+      "count": 1
+    },
+    {
+      "provision": "Article XI Section 7",
+      "count": 1
+    },
+    {
+      "provision": "Article XI Section 8",
+      "count": 1
+    },
+    {
+      "provision": "Article XI war powers",
+      "count": 1
+    },
+    {
+      "provision": "Article XIV foreign policy and national security",
       "count": 1
     }
   ],
-  "open_duties_by_actor": [
-    {
-      "actor": "House of Representatives",
-      "count": 2
-    }
-  ],
+  "open_duties_by_actor": [],
   "scenarios": [
+    {
+      "scenario_id": "domestic-deployment-against-protest",
+      "title": "Domestic Deployment Against Protest",
+      "source_file": "simulation/scenarios/domestic-deployment-against-protest.json",
+      "status": "stress_point_found",
+      "triggered_provisions": [
+        "Article V Section 1",
+        "Article XI Section 7",
+        "Article XI Section 8"
+      ],
+      "metrics": {
+        "satisfied_obligations": 2,
+        "failed_obligations": 0,
+        "unresolved_obligations": 0,
+        "violations": 1,
+        "bottlenecks": 0,
+        "timeline_entries": 7
+      },
+      "violations": [
+        {
+          "id": "domestic_deployment_unlawful",
+          "category": "rights_suppression",
+          "actor": "Executive branch",
+          "source": "Article XI Section 7 and Article V Section 1",
+          "severity": "high",
+          "day": 2,
+          "summary": "Executive branch treats protest unrest as armed rebellion and orders domestic military deployment without the required constitutional basis."
+        }
+      ],
+      "bottlenecks": [],
+      "open_duties": [],
+      "satisfied_duties": [
+        {
+          "actor": "Federal courts",
+          "duty": "review the constitutional basis for the domestic deployment",
+          "closed_day": 2,
+          "outcome": "held that the domestic deployment lacked a constitutional basis and must cease",
+          "source": "Article XI Section 7 and Section 8"
+        },
+        {
+          "actor": "Service members",
+          "duty": "refuse compliance with an unconstitutional domestic deployment order",
+          "closed_day": 2,
+          "outcome": "refused the unconstitutional domestic deployment order",
+          "source": "Article XI Section 8"
+        }
+      ],
+      "failed_duties": [],
+      "notes": [],
+      "ai_summary": {
+        "primary_violation": "Executive branch treats protest unrest as armed rebellion and orders domestic military deployment without the required constitutional basis.",
+        "primary_bottleneck": null,
+        "primary_open_duty": null,
+        "system_risk": "institutional_stress",
+        "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+      }
+    },
+    {
+      "scenario_id": "emergency-extension-without-real-review",
+      "title": "Emergency Extension Without Real Review",
+      "source_file": "simulation/scenarios/emergency-extension-without-real-review.json",
+      "status": "stress_point_found",
+      "triggered_provisions": [
+        "Article I Section 3",
+        "Article III Section 5",
+        "Article V Section 1.3",
+        "Article V Section 14"
+      ],
+      "metrics": {
+        "satisfied_obligations": 1,
+        "failed_obligations": 1,
+        "unresolved_obligations": 0,
+        "violations": 1,
+        "bottlenecks": 1,
+        "timeline_entries": 9
+      },
+      "violations": [
+        {
+          "id": "president_attempts_emergency_self_extension",
+          "category": "executive_defiance",
+          "actor": "President",
+          "source": "Article III Section 5.4 and Article V Section 1.3",
+          "severity": "high",
+          "day": 90,
+          "summary": "President attempts to continue emergency restrictions without the constitutionally required outside review."
+        }
+      ],
+      "bottlenecks": [
+        {
+          "id": "emergency_approve_ra",
+          "category": "legislative_deadline_failure",
+          "actor": "Regional Assembly",
+          "source": "Article III Section 5.4",
+          "severity": "high",
+          "day": 31,
+          "deadline_day": 30,
+          "summary": "Regional Assembly failed to approve or reject the emergency declaration by day 30 under Article III Section 5.4."
+        }
+      ],
+      "open_duties": [],
+      "satisfied_duties": [
+        {
+          "actor": "President",
+          "duty": "submit the emergency declaration to the Regional Assembly",
+          "closed_day": 1,
+          "outcome": "submitted the emergency declaration to the Regional Assembly",
+          "source": "Article III Section 5.4"
+        }
+      ],
+      "failed_duties": [
+        {
+          "actor": "Regional Assembly",
+          "duty": "approve or reject the emergency declaration",
+          "deadline_day": 30,
+          "closed_day": 31,
+          "outcome": "Regional Assembly failed to approve or reject the emergency declaration by day 30 under Article III Section 5.4.",
+          "source": "Article III Section 5.4",
+          "severity": "high"
+        }
+      ],
+      "notes": [],
+      "ai_summary": {
+        "primary_violation": "President attempts to continue emergency restrictions without the constitutionally required outside review.",
+        "primary_bottleneck": "Regional Assembly failed to approve or reject the emergency declaration by day 30 under Article III Section 5.4.",
+        "primary_open_duty": null,
+        "system_risk": "executive_defiance",
+        "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+      }
+    },
     {
       "scenario_id": "emergency-near-election",
       "title": "Emergency Near Election Day",
@@ -175,6 +351,82 @@
       }
     },
     {
+      "scenario_id": "foreign-cyber-election-crisis",
+      "title": "Foreign Cyber Election Crisis",
+      "source_file": "simulation/scenarios/foreign-cyber-election-crisis.json",
+      "status": "stress_point_found",
+      "triggered_provisions": [
+        "Article I election administration provisions",
+        "Article V speech and press protections",
+        "Article VI democratic integrity provisions",
+        "Article VII federalism provisions",
+        "Article XI war powers",
+        "Article XIV foreign policy and national security"
+      ],
+      "metrics": {
+        "satisfied_obligations": 3,
+        "failed_obligations": 0,
+        "unresolved_obligations": 0,
+        "violations": 2,
+        "bottlenecks": 0,
+        "timeline_entries": 10
+      },
+      "violations": [
+        {
+          "id": "president_attempts_direct_state_takeover",
+          "category": "federalism_breach",
+          "actor": "President",
+          "source": "Article I election administration provisions and Article VII federalism provisions",
+          "severity": "high",
+          "day": 1,
+          "summary": "President attempts direct federal control over state election administration outside the constitutional election framework."
+        },
+        {
+          "id": "president_attempts_speech_restriction",
+          "category": "rights_suppression",
+          "actor": "Executive branch",
+          "source": "Article V speech and press protections",
+          "severity": "high",
+          "day": 1,
+          "summary": "Executive branch attempts to suppress suspected foreign propaganda directly rather than using disclosure and transparency tools."
+        }
+      ],
+      "bottlenecks": [],
+      "open_duties": [],
+      "satisfied_duties": [
+        {
+          "actor": "President",
+          "duty": "confine immediate response measures to non-military Article XIV authorities unless Article XI is lawfully triggered",
+          "closed_day": 1,
+          "outcome": "used attribution, sanctions, and other non-military countermeasures under Article XIV",
+          "source": "Article XI war powers and Article XIV foreign policy and national security"
+        },
+        {
+          "actor": "Electoral Commission",
+          "duty": "coordinate constitutional election-protection measures with the states",
+          "closed_day": 2,
+          "outcome": "implemented constitutional election-protection measures in coordination with affected states",
+          "source": "Article I election administration provisions and Article IX electoral administration provisions"
+        },
+        {
+          "actor": "Federal courts",
+          "duty": "review any attempted suppression of protected expression",
+          "closed_day": 3,
+          "outcome": "blocked direct suppression of protected expression while allowing disclosure-based responses",
+          "source": "Article V speech and press protections"
+        }
+      ],
+      "failed_duties": [],
+      "notes": [],
+      "ai_summary": {
+        "primary_violation": "President attempts direct federal control over state election administration outside the constitutional election framework.",
+        "primary_bottleneck": null,
+        "primary_open_duty": null,
+        "system_risk": "institutional_stress",
+        "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+      }
+    },
+    {
       "scenario_id": "president-obstructs-investigation",
       "title": "President Interferes With Own Investigation",
       "source_file": "simulation/scenarios/president-obstructs-investigation.json",
@@ -185,12 +437,12 @@
         "Article IX Section 3"
       ],
       "metrics": {
-        "satisfied_obligations": 1,
-        "failed_obligations": 0,
-        "unresolved_obligations": 1,
+        "satisfied_obligations": 2,
+        "failed_obligations": 1,
+        "unresolved_obligations": 0,
         "violations": 1,
-        "bottlenecks": 0,
-        "timeline_entries": 6
+        "bottlenecks": 1,
+        "timeline_entries": 10
       },
       "violations": [
         {
@@ -203,31 +455,51 @@
           "summary": "President interferes with an investigation into their own conduct."
         }
       ],
-      "bottlenecks": [],
-      "open_duties": [
+      "bottlenecks": [
         {
+          "id": "house_vote_impeachment_obstruction",
+          "category": "legislative_deadline_failure",
           "actor": "House of Representatives",
-          "duty": "consider impeachment for interference with investigation",
-          "deadline_day": null,
-          "source": "Article III Section 10 and Section 15.8",
-          "severity": "medium"
+          "source": "Article III Section 10.2A and Section 15.8",
+          "severity": "high",
+          "day": 45,
+          "deadline_day": 41,
+          "summary": "House of Representatives failed to hold a recorded impeachment vote on the certified obstruction violation by day 41 under Article III Section 10.2A and Section 15.8."
         }
       ],
+      "open_duties": [],
       "satisfied_duties": [
         {
           "actor": "Accountability Commission",
           "duty": "pursue obstruction-related enforcement",
           "closed_day": 20,
-          "outcome": "acted on the obstruction matter",
+          "outcome": "acted on the obstruction matter and formally certified the violation",
           "source": "Article III Section 15.8"
+        },
+        {
+          "actor": "Regional Assembly",
+          "duty": "proceed to impeachment trial on the automatically transmitted obstruction articles",
+          "closed_day": 45,
+          "outcome": "began trial on automatically transmitted obstruction articles",
+          "source": "Article III Section 10.2A and Section 10.3"
         }
       ],
-      "failed_duties": [],
+      "failed_duties": [
+        {
+          "actor": "House of Representatives",
+          "duty": "hold a recorded impeachment vote on the certified obstruction violation",
+          "deadline_day": 41,
+          "closed_day": 45,
+          "outcome": "House of Representatives failed to hold a recorded impeachment vote on the certified obstruction violation by day 41 under Article III Section 10.2A and Section 15.8.",
+          "source": "Article III Section 10.2A and Section 15.8",
+          "severity": "high"
+        }
+      ],
       "notes": [],
       "ai_summary": {
         "primary_violation": "President interferes with an investigation into their own conduct.",
-        "primary_bottleneck": null,
-        "primary_open_duty": "consider impeachment for interference with investigation",
+        "primary_bottleneck": "House of Representatives failed to hold a recorded impeachment vote on the certified obstruction violation by day 41 under Article III Section 10.2A and Section 15.8.",
+        "primary_open_duty": null,
         "system_risk": "executive_defiance",
         "recommended_focus": "review bottlenecks, violations, and unresolved duties"
       }
@@ -266,9 +538,9 @@
       "satisfied_duties": [
         {
           "actor": "Congress",
-          "duty": "decide whether to suspend the state's representation until compliance is restored",
-          "closed_day": 760,
-          "outcome": "suspended the state's representation pending Supreme Court certification of compliance",
+          "duty": "hold a recorded vote on suspension of the state's representation",
+          "closed_day": 245,
+          "outcome": "held the required vote and suspended the state's representation pending Supreme Court certification of compliance",
           "source": "Article VII Section 1.6(c)"
         }
       ],
@@ -302,12 +574,12 @@
         "Article XI Section 1"
       ],
       "metrics": {
-        "satisfied_obligations": 1,
-        "failed_obligations": 1,
-        "unresolved_obligations": 1,
+        "satisfied_obligations": 2,
+        "failed_obligations": 2,
+        "unresolved_obligations": 0,
         "violations": 1,
-        "bottlenecks": 1,
-        "timeline_entries": 9
+        "bottlenecks": 2,
+        "timeline_entries": 13
       },
       "violations": [
         {
@@ -330,17 +602,19 @@
           "day": 31,
           "deadline_day": 30,
           "summary": "Congress failed to grant authorization for continued military force or refuse it by day 30 under Article XI Section 1."
-        }
-      ],
-      "open_duties": [
+        },
         {
+          "id": "house_vote_impeachment_war",
+          "category": "legislative_deadline_failure",
           "actor": "House of Representatives",
-          "duty": "consider impeachment for unlawful continued military operations",
-          "deadline_day": null,
-          "source": "Article XI Section 8(e) and Article III Section 10",
-          "severity": "high"
+          "source": "Article XI Section 1.5(e) and Article III Section 10.2A",
+          "severity": "high",
+          "day": 65,
+          "deadline_day": 61,
+          "summary": "House of Representatives failed to hold a recorded impeachment vote on the unlawful continued military operation by day 61 under Article XI Section 1.5(e) and Article III Section 10.2A."
         }
       ],
+      "open_duties": [],
       "satisfied_duties": [
         {
           "actor": "Chief Justice",
@@ -348,6 +622,13 @@
           "closed_day": 34,
           "outcome": "issued a withdrawal order",
           "source": "Article XI Section 1.5(c)"
+        },
+        {
+          "actor": "Regional Assembly",
+          "duty": "proceed to impeachment trial on the automatically transmitted war-powers articles",
+          "closed_day": 65,
+          "outcome": "began trial on automatically transmitted war-powers articles",
+          "source": "Article III Section 10.2A and Section 10.3"
         }
       ],
       "failed_duties": [
@@ -359,13 +640,22 @@
           "outcome": "Congress failed to grant authorization for continued military force or refuse it by day 30 under Article XI Section 1.",
           "source": "Article XI Section 1",
           "severity": "high"
+        },
+        {
+          "actor": "House of Representatives",
+          "duty": "hold a recorded impeachment vote on the unlawful continued military operation",
+          "deadline_day": 61,
+          "closed_day": 65,
+          "outcome": "House of Representatives failed to hold a recorded impeachment vote on the unlawful continued military operation by day 61 under Article XI Section 1.5(e) and Article III Section 10.2A.",
+          "source": "Article XI Section 1.5(e) and Article III Section 10.2A",
+          "severity": "high"
         }
       ],
       "notes": [],
       "ai_summary": {
         "primary_violation": "President continues military operations in violation of a withdrawal order.",
         "primary_bottleneck": "Congress failed to grant authorization for continued military force or refuse it by day 30 under Article XI Section 1.",
-        "primary_open_duty": "consider impeachment for unlawful continued military operations",
+        "primary_open_duty": null,
         "system_risk": "executive_defiance",
         "recommended_focus": "review bottlenecks, violations, and unresolved duties"
       }

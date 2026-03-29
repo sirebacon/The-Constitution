@@ -112,6 +112,38 @@ class SimulationState:
             )
         )
         self.add_entry(day, "bottleneck", summary, obligation.source)
+        if key == "house_vote_impeachment_obstruction":
+            self.add_entry(
+                day,
+                "outcome",
+                "The certified obstruction charge is automatically transmitted to the Regional Assembly as articles of impeachment limited to the certified violation.",
+                "Article III Section 10.2A",
+            )
+            self.add_obligation(
+                "regional_assembly_trial_obstruction",
+                "Regional Assembly",
+                "proceed to impeachment trial on the automatically transmitted obstruction articles",
+                "Article III Section 10.2A and Section 10.3",
+                day,
+                day + 21,
+                severity="high",
+            )
+        elif key == "house_vote_impeachment_war":
+            self.add_entry(
+                day,
+                "outcome",
+                "The certified war-powers charge is automatically transmitted to the Regional Assembly as articles of impeachment limited to the certified violation.",
+                "Article III Section 10.2A",
+            )
+            self.add_obligation(
+                "regional_assembly_trial_war",
+                "Regional Assembly",
+                "proceed to impeachment trial on the automatically transmitted war-powers articles",
+                "Article III Section 10.2A and Section 10.3",
+                day,
+                day + 21,
+                severity="high",
+            )
 
     def add_violation(
         self,
@@ -137,7 +169,7 @@ class SimulationState:
         self.add_entry(day, "violation", summary, source)
 
     def check_due_obligations(self, current_day: int) -> None:
-        for obligation in self.obligations.values():
+        for obligation in list(self.obligations.values()):
             if obligation.status != "open" or obligation.due_day is None:
                 continue
             if current_day > obligation.due_day:
@@ -218,6 +250,24 @@ def handle_event(state: SimulationState, event: dict[str, Any]) -> None:
         state.resolve_obligation("emergency_approve_ra", day, "failed to approve the emergency declaration, causing it to lapse", success=False)
         state.add_entry(day, "outcome", "Emergency declaration lapses unless independently authorized ordinary law remains in effect.", "Article III Section 5.4")
 
+    elif event_type == "president_attempts_emergency_self_extension":
+        state.provisions.update({"Article III Section 5", "Article V Section 1.3", "Article V Section 14"})
+        message = "President attempts to continue emergency restrictions without the constitutionally required outside review."
+        state.add_violation(
+            "president_attempts_emergency_self_extension",
+            "executive_defiance",
+            "President",
+            message,
+            "Article III Section 5.4 and Article V Section 1.3",
+            day,
+        )
+        state.add_entry(
+            day,
+            "outcome",
+            "Emergency restrictions lapse absent the required constitutional renewal and cannot rest on internal executive memoranda alone.",
+            "Article III Section 5.4 and Article V Section 1.3",
+        )
+
     elif event_type == "election_access_restricted_by_emergency":
         state.provisions.add("Article I Section 3.4")
         message = "Emergency measures restrict access to polling places, early voting, or certification."
@@ -266,18 +316,18 @@ def handle_event(state: SimulationState, event: dict[str, Any]) -> None:
             day + 30,
             severity="high",
         )
-        state.add_obligation(
-            "house_consider_impeachment",
-            "House of Representatives",
-            "consider impeachment for interference with investigation",
-            "Article III Section 10 and Section 15.8",
-            day,
-            None,
-            severity="medium",
-        )
 
     elif event_type == "accountability_commission_acts":
-        state.resolve_obligation("acc_prosecute_obstruction", day, "acted on the obstruction matter")
+        state.resolve_obligation("acc_prosecute_obstruction", day, "acted on the obstruction matter and formally certified the violation")
+        state.add_obligation(
+            "house_vote_impeachment_obstruction",
+            "House of Representatives",
+            "hold a recorded impeachment vote on the certified obstruction violation",
+            "Article III Section 10.2A and Section 15.8",
+            day,
+            day + 21,
+            severity="high",
+        )
 
     elif event_type == "supreme_court_finds_state_democratic_floor_violation":
         state.provisions.update({"Article VII Section 1.5", "Article VII Section 1.6"})
@@ -299,21 +349,48 @@ def handle_event(state: SimulationState, event: dict[str, Any]) -> None:
             day,
             "Congress failed to enact a remedial measure for the violating state by day 180 under Article VII Section 1.6(b).",
         )
-
-    elif event_type == "state_violation_persists_two_years":
         state.add_obligation(
-            "congress_suspend_representation",
+            "congress_vote_suspend_representation",
             "Congress",
-            "decide whether to suspend the state's representation until compliance is restored",
+            "hold a recorded vote on suspension of the state's representation",
             "Article VII Section 1.6(c)",
             day,
-            None,
+            day + 30,
             severity="high",
         )
-        state.add_entry(day, "event", "The state remains in material violation two years after the Supreme Court finding.", "Article VII Section 1.6(c)")
+
+    elif event_type == "state_violation_persists_one_year":
+        state.add_entry(day, "event", "The state remains in material violation one year after the Supreme Court finding.", "Article VII Section 1.6(d)")
+        vote_obligation = state.obligations.get("congress_vote_suspend_representation")
+        if not vote_obligation or vote_obligation.status != "satisfied":
+            state.add_entry(
+                day,
+                "outcome",
+                "The state's representation is suspended automatically until the Supreme Court certifies compliance.",
+                "Article VII Section 1.6(d)",
+            )
 
     elif event_type == "congress_suspends_representation":
-        state.resolve_obligation("congress_suspend_representation", day, "suspended the state's representation pending Supreme Court certification of compliance")
+        state.resolve_obligation(
+            "congress_vote_suspend_representation",
+            day,
+            "held the required vote and suspended the state's representation pending Supreme Court certification of compliance",
+        )
+
+    elif event_type == "regional_assembly_begins_trial_on_transmitted_articles":
+        trial_type = details.get("trial_type", "certified")
+        if trial_type == "obstruction":
+            state.resolve_obligation(
+                "regional_assembly_trial_obstruction",
+                day,
+                "began trial on automatically transmitted obstruction articles",
+            )
+        elif trial_type == "war":
+            state.resolve_obligation(
+                "regional_assembly_trial_war",
+                day,
+                "began trial on automatically transmitted war-powers articles",
+            )
 
     elif event_type == "unauthorized_military_action_started":
         state.provisions.update({"Article XI Section 1", "Article III Section 10"})
@@ -359,13 +436,145 @@ def handle_event(state: SimulationState, event: dict[str, Any]) -> None:
             day,
         )
         state.add_obligation(
-            "house_consider_impeachment_war",
+            "house_vote_impeachment_war",
             "House of Representatives",
-            "consider impeachment for unlawful continued military operations",
-            "Article XI Section 8(e) and Article III Section 10",
+            "hold a recorded impeachment vote on the unlawful continued military operation",
+            "Article XI Section 1.5(e) and Article III Section 10.2A",
+            day,
+            day + 21,
+            severity="high",
+        )
+
+    elif event_type == "president_declares_domestic_insurrection":
+        state.provisions.update({"Article XI Section 7", "Article XI Section 8", "Article V Section 1"})
+        state.add_entry(day, "event", f"{actor} declares an insurrection and orders domestic military deployment.", "Article XI Section 7")
+        state.add_obligation(
+            "court_review_domestic_deployment",
+            "Federal courts",
+            "review the constitutional basis for the domestic deployment",
+            "Article XI Section 7 and Section 8",
+            day,
+            day + 3,
+            severity="high",
+        )
+        state.add_obligation(
+            "service_members_assess_order",
+            "Service members",
+            "refuse compliance with an unconstitutional domestic deployment order",
+            "Article XI Section 8",
             day,
             None,
             severity="high",
+        )
+
+    elif event_type == "courts_reject_domestic_deployment":
+        message = "Executive branch treats protest unrest as armed rebellion and orders domestic military deployment without the required constitutional basis."
+        state.add_violation(
+            "domestic_deployment_unlawful",
+            "rights_suppression",
+            "Executive branch",
+            message,
+            "Article XI Section 7 and Article V Section 1",
+            day,
+        )
+        state.resolve_obligation(
+            "court_review_domestic_deployment",
+            day,
+            "held that the domestic deployment lacked a constitutional basis and must cease",
+        )
+
+    elif event_type == "service_members_refuse_unlawful_order":
+        state.resolve_obligation(
+            "service_members_assess_order",
+            day,
+            "refused the unconstitutional domestic deployment order",
+        )
+
+    elif event_type == "foreign_cyber_election_attack_detected":
+        state.provisions.update(
+            {
+                "Article I election administration provisions",
+                "Article V speech and press protections",
+                "Article VI democratic integrity provisions",
+                "Article VII federalism provisions",
+                "Article XI war powers",
+                "Article XIV foreign policy and national security",
+            }
+        )
+        state.add_entry(
+            day,
+            "event",
+            "A foreign adversary hacks voter systems, releases forged materials, and disrupts power near an election.",
+        )
+        state.add_obligation(
+            "electoral_commission_protect_election",
+            "Electoral Commission",
+            "coordinate constitutional election-protection measures with the states",
+            "Article I election administration provisions and Article IX electoral administration provisions",
+            day,
+            day + 3,
+            severity="high",
+        )
+        state.add_obligation(
+            "executive_choose_nonmilitary_response",
+            "President",
+            "confine immediate response measures to non-military Article XIV authorities unless Article XI is lawfully triggered",
+            "Article XI war powers and Article XIV foreign policy and national security",
+            day,
+            day + 1,
+            severity="high",
+        )
+        state.add_obligation(
+            "federal_courts_protect_speech",
+            "Federal courts",
+            "review any attempted suppression of protected expression",
+            "Article V speech and press protections",
+            day,
+            day + 3,
+            severity="high",
+        )
+
+    elif event_type == "president_attempts_direct_state_takeover":
+        message = "President attempts direct federal control over state election administration outside the constitutional election framework."
+        state.add_violation(
+            "president_attempts_direct_state_takeover",
+            "federalism_breach",
+            "President",
+            message,
+            "Article I election administration provisions and Article VII federalism provisions",
+            day,
+        )
+
+    elif event_type == "president_attempts_speech_restriction":
+        message = "Executive branch attempts to suppress suspected foreign propaganda directly rather than using disclosure and transparency tools."
+        state.add_violation(
+            "president_attempts_speech_restriction",
+            "rights_suppression",
+            "Executive branch",
+            message,
+            "Article V speech and press protections",
+            day,
+        )
+
+    elif event_type == "electoral_commission_acts":
+        state.resolve_obligation(
+            "electoral_commission_protect_election",
+            day,
+            "implemented constitutional election-protection measures in coordination with affected states",
+        )
+
+    elif event_type == "president_uses_article_xiv_tools":
+        state.resolve_obligation(
+            "executive_choose_nonmilitary_response",
+            day,
+            "used attribution, sanctions, and other non-military countermeasures under Article XIV",
+        )
+
+    elif event_type == "courts_block_speech_restriction":
+        state.resolve_obligation(
+            "federal_courts_protect_speech",
+            day,
+            "blocked direct suppression of protected expression while allowing disclosure-based responses",
         )
 
     else:

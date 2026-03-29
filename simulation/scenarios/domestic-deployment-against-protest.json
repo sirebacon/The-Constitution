@@ -1,0 +1,22 @@
+{
+  "id": "domestic-deployment-against-protest",
+  "title": "Domestic Deployment Against Protest",
+  "description": "After protests and scattered unrest following a disputed election, the President declares an insurrection and deploys federal troops over state objections. The scenario tests whether the Constitution distinguishes protest from armed rebellion and forces rapid review of unlawful domestic deployment.",
+  "events": [
+    {
+      "day": 0,
+      "type": "president_declares_domestic_insurrection",
+      "actor": "President"
+    },
+    {
+      "day": 2,
+      "type": "courts_reject_domestic_deployment",
+      "actor": "Federal courts"
+    },
+    {
+      "day": 2,
+      "type": "service_members_refuse_unlawful_order",
+      "actor": "Service members"
+    }
+  ]
+}

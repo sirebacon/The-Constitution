@@ -8,12 +8,12 @@
     "Article XI Section 1"
   ],
   "metrics": {
-    "satisfied_obligations": 1,
-    "failed_obligations": 1,
-    "unresolved_obligations": 1,
+    "satisfied_obligations": 2,
+    "failed_obligations": 2,
+    "unresolved_obligations": 0,
     "violations": 1,
-    "bottlenecks": 1,
-    "timeline_entries": 9
+    "bottlenecks": 2,
+    "timeline_entries": 13
   },
   "violations": [
     {
@@ -36,17 +36,19 @@
       "day": 31,
       "deadline_day": 30,
       "summary": "Congress failed to grant authorization for continued military force or refuse it by day 30 under Article XI Section 1."
-    }
-  ],
-  "open_duties": [
+    },
     {
+      "id": "house_vote_impeachment_war",
+      "category": "legislative_deadline_failure",
       "actor": "House of Representatives",
-      "duty": "consider impeachment for unlawful continued military operations",
-      "deadline_day": null,
-      "source": "Article XI Section 8(e) and Article III Section 10",
-      "severity": "high"
+      "source": "Article XI Section 1.5(e) and Article III Section 10.2A",
+      "severity": "high",
+      "day": 65,
+      "deadline_day": 61,
+      "summary": "House of Representatives failed to hold a recorded impeachment vote on the unlawful continued military operation by day 61 under Article XI Section 1.5(e) and Article III Section 10.2A."
     }
   ],
+  "open_duties": [],
   "satisfied_duties": [
     {
       "actor": "Chief Justice",
@@ -54,6 +56,13 @@
       "closed_day": 34,
       "outcome": "issued a withdrawal order",
       "source": "Article XI Section 1.5(c)"
+    },
+    {
+      "actor": "Regional Assembly",
+      "duty": "proceed to impeachment trial on the automatically transmitted war-powers articles",
+      "closed_day": 65,
+      "outcome": "began trial on automatically transmitted war-powers articles",
+      "source": "Article III Section 10.2A and Section 10.3"
     }
   ],
   "failed_duties": [
@@ -65,13 +74,22 @@
       "outcome": "Congress failed to grant authorization for continued military force or refuse it by day 30 under Article XI Section 1.",
       "source": "Article XI Section 1",
       "severity": "high"
+    },
+    {
+      "actor": "House of Representatives",
+      "duty": "hold a recorded impeachment vote on the unlawful continued military operation",
+      "deadline_day": 61,
+      "closed_day": 65,
+      "outcome": "House of Representatives failed to hold a recorded impeachment vote on the unlawful continued military operation by day 61 under Article XI Section 1.5(e) and Article III Section 10.2A.",
+      "source": "Article XI Section 1.5(e) and Article III Section 10.2A",
+      "severity": "high"
     }
   ],
   "notes": [],
   "ai_summary": {
     "primary_violation": "President continues military operations in violation of a withdrawal order.",
     "primary_bottleneck": "Congress failed to grant authorization for continued military force or refuse it by day 30 under Article XI Section 1.",
-    "primary_open_duty": "consider impeachment for unlawful continued military operations",
+    "primary_open_duty": null,
     "system_risk": "executive_defiance",
     "recommended_focus": "review bottlenecks, violations, and unresolved duties"
   }

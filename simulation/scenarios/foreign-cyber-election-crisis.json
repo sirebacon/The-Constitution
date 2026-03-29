@@ -1,0 +1,37 @@
+{
+  "id": "foreign-cyber-election-crisis",
+  "title": "Foreign Cyber Election Crisis",
+  "description": "Weeks before a presidential election, a foreign adversary hacks voter systems, releases forged materials, and disrupts power near polling infrastructure. The President attempts direct federal control over state election administration and tries to suppress suspected foreign propaganda while also using non-military Article XIV countermeasures.",
+  "events": [
+    {
+      "day": 0,
+      "type": "foreign_cyber_election_attack_detected",
+      "actor": "Foreign adversary"
+    },
+    {
+      "day": 1,
+      "type": "president_attempts_direct_state_takeover",
+      "actor": "President"
+    },
+    {
+      "day": 1,
+      "type": "president_attempts_speech_restriction",
+      "actor": "Executive branch"
+    },
+    {
+      "day": 1,
+      "type": "president_uses_article_xiv_tools",
+      "actor": "President"
+    },
+    {
+      "day": 2,
+      "type": "electoral_commission_acts",
+      "actor": "Electoral Commission"
+    },
+    {
+      "day": 3,
+      "type": "courts_block_speech_restriction",
+      "actor": "Federal courts"
+    }
+  ]
+}

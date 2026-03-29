@@ -1,0 +1,27 @@
+{
+  "id": "emergency-extension-without-real-review",
+  "title": "Emergency Extension Without Real Review",
+  "description": "The President declares a national emergency after civil unrest, submits it initially, and later attempts to continue the restrictions by internal executive memorandum rather than the constitutionally required outside review and renewal process.",
+  "events": [
+    {
+      "day": 0,
+      "type": "national_emergency_declared",
+      "actor": "President"
+    },
+    {
+      "day": 1,
+      "type": "emergency_submitted_to_regional_assembly",
+      "actor": "President"
+    },
+    {
+      "day": 31,
+      "type": "regional_assembly_rejects_or_fails_emergency",
+      "actor": "Regional Assembly"
+    },
+    {
+      "day": 90,
+      "type": "president_attempts_emergency_self_extension",
+      "actor": "President"
+    }
+  ]
+}

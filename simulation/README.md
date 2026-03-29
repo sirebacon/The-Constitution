@@ -27,7 +27,10 @@ simulation/
   README.md
   run.py
   scenarios/
+    domestic-deployment-against-protest.json
     emergency-near-election.json
+    emergency-extension-without-real-review.json
+    foreign-cyber-election-crisis.json
     president-obstructs-investigation.json
     state-democratic-backsliding.json
     unauthorized-military-action.json
@@ -154,10 +157,16 @@ The engine converts those events into:
 
 The seeded scenarios focus on the highest-value system tests:
 
+- domestic deployment against protest
 - emergency powers near an election
+- emergency extension without real review
+- foreign cyber election crisis
 - presidential interference with an investigation
 - state democratic backsliding
 - unauthorized sustained military action
+
+For decisions about which prose stress tests should be converted into simulator scenarios, see [design-notes/stress-test-conversion-plan.md](/Users/chris/Documents/GitHub/The-Constitution/design-notes/stress-test-conversion-plan.md).
+For the current one-to-one mapping between prose stress tests and simulator scenarios, see [stress-tests/CROSSWALK.md](/Users/chris/Documents/GitHub/The-Constitution/stress-tests/CROSSWALK.md).
 
 ## Limits
 

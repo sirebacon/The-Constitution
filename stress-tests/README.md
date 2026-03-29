@@ -35,6 +35,8 @@ A scenario passes when:
   Common scoring guidance for all scenarios.
 - `TEMPLATE.md`
   Template for adding more scenarios.
+- `CROSSWALK.md`
+  Mapping between prose stress tests and simulator scenarios.
 - `article-iii-executive/`
   Executive abuse, accountability, emergency, and succession tests.
 - `article-vii-federalism/`
@@ -54,3 +56,4 @@ A scenario passes when:
 - Use cross-article scenarios after any major reorganization.
 - Re-run the whole suite after large revisions to Articles III, VII, XI, XII, XIV, or XV.
 - Record failures in `design-notes/improvement-queue.md` when they indicate a real drafting gap.
+- Use [design-notes/stress-test-conversion-plan.md](/Users/chris/Documents/GitHub/The-Constitution/design-notes/stress-test-conversion-plan.md) to decide whether a prose stress test should also become a simulator scenario.

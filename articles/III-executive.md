@@ -107,7 +107,7 @@ The Electoral Commission shall publish all disclosures publicly within 5 days of
   (e) Appropriate funds not previously authorized by Congress
   (f) Override any provision of Article V (Rights and Freedoms) except as permitted by Article V itself
 
-**5.4 Congressional approval.** An emergency declaration must be submitted to the Regional Assembly within 48 hours. The Regional Assembly must approve or reject the declaration within 30 days. If approval is not granted within that period, the declaration lapses. Congress shall ensure that the Regional Assembly can assemble promptly for this purpose when in recess.
+**5.4 Congressional approval.** An emergency declaration must be submitted to the Regional Assembly within 48 hours. The Regional Assembly must approve or reject the declaration within 30 days. If approval is not granted within that period, the declaration lapses automatically at the end of the thirtieth day without need for further action by any branch. All powers, directives, suspensions, deployments, or restrictions that depend on the declaration become void upon lapse unless independently authorized by ordinary law. No internal executive memorandum, certification, or unilateral finding may continue an emergency after lapse. Congress shall ensure that the Regional Assembly can assemble promptly for this purpose when in recess.
 
 **5.5 Renewal.** The Regional Assembly may renew an approved emergency declaration for successive 30-day periods. No emergency may remain in effect for more than 180 days in total without a 2/3 vote of both chambers of Congress authorizing continuation.
 
@@ -178,6 +178,13 @@ The Electoral Commission shall publish all disclosures publicly within 5 days of
 **10.1** The President, Vice President, and all civil officers of the United States may be impeached and removed for treason, bribery, corruption, abuse of office, willful violation of this Constitution, or other serious crimes and misdemeanors.
 
 **10.2 Process.** Impeachment proceedings originate in the House of Representatives. The House Judiciary Committee shall conduct an investigation and hold public hearings before articles of impeachment are put to a floor vote. A majority of the full House membership must approve articles of impeachment.
+
+**10.2A Expedited impeachment timetable for specified presidential violations.** Where the President is alleged to have:
+  (a) Ordered or maintained military operations in violation of a withdrawal order under Article XI Section 1.5(c),
+  (b) Interfered with an Accountability Commission investigation into the President's own conduct under Section 15.8 of this Article, or
+  (c) Committed electoral subversion within the meaning of Article VI Section 1,
+
+the House Judiciary Committee shall report articles of impeachment, or a written statement declining to recommend them, within 14 days after the violation is formally certified by the Accountability Commission, the Supreme Court, or another body expressly designated by this Constitution. The House shall hold a recorded floor vote within 7 days after that report. If the Committee fails to report within the 14-day period, any filed impeachment resolution based on the certified violation is automatically discharged to the floor for a recorded vote within the next 7 days. If the House fails to hold the required recorded vote within the time fixed by this Section, the certified charge and supporting record are automatically transmitted to the Regional Assembly as articles of impeachment limited to the certified violation, and the Regional Assembly shall proceed under Section 10.3. This Section requires a vote; it does not predetermine the result in either chamber.
 
 **10.3 Trial.** Upon the House approving articles of impeachment, the Regional Assembly shall conduct a trial. The Chief Justice of the Supreme Court shall preside when the President is tried. The accused shall have the right to present a defense, call witnesses, and be represented by counsel. A 2/3 vote of the full Regional Assembly is required to convict. The Chief Justice's procedural rulings are binding, subject to judicial review as provided by law.
 

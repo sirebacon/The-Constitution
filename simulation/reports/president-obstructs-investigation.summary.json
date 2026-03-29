@@ -9,12 +9,12 @@
     "Article IX Section 3"
   ],
   "metrics": {
-    "satisfied_obligations": 1,
-    "failed_obligations": 0,
-    "unresolved_obligations": 1,
+    "satisfied_obligations": 2,
+    "failed_obligations": 1,
+    "unresolved_obligations": 0,
     "violations": 1,
-    "bottlenecks": 0,
-    "timeline_entries": 6
+    "bottlenecks": 1,
+    "timeline_entries": 10
   },
   "violations": [
     {
@@ -27,31 +27,51 @@
       "summary": "President interferes with an investigation into their own conduct."
     }
   ],
-  "bottlenecks": [],
-  "open_duties": [
+  "bottlenecks": [
     {
+      "id": "house_vote_impeachment_obstruction",
+      "category": "legislative_deadline_failure",
       "actor": "House of Representatives",
-      "duty": "consider impeachment for interference with investigation",
-      "deadline_day": null,
-      "source": "Article III Section 10 and Section 15.8",
-      "severity": "medium"
+      "source": "Article III Section 10.2A and Section 15.8",
+      "severity": "high",
+      "day": 45,
+      "deadline_day": 41,
+      "summary": "House of Representatives failed to hold a recorded impeachment vote on the certified obstruction violation by day 41 under Article III Section 10.2A and Section 15.8."
     }
   ],
+  "open_duties": [],
   "satisfied_duties": [
     {
       "actor": "Accountability Commission",
       "duty": "pursue obstruction-related enforcement",
       "closed_day": 20,
-      "outcome": "acted on the obstruction matter",
+      "outcome": "acted on the obstruction matter and formally certified the violation",
       "source": "Article III Section 15.8"
+    },
+    {
+      "actor": "Regional Assembly",
+      "duty": "proceed to impeachment trial on the automatically transmitted obstruction articles",
+      "closed_day": 45,
+      "outcome": "began trial on automatically transmitted obstruction articles",
+      "source": "Article III Section 10.2A and Section 10.3"
     }
   ],
-  "failed_duties": [],
+  "failed_duties": [
+    {
+      "actor": "House of Representatives",
+      "duty": "hold a recorded impeachment vote on the certified obstruction violation",
+      "deadline_day": 41,
+      "closed_day": 45,
+      "outcome": "House of Representatives failed to hold a recorded impeachment vote on the certified obstruction violation by day 41 under Article III Section 10.2A and Section 15.8.",
+      "source": "Article III Section 10.2A and Section 15.8",
+      "severity": "high"
+    }
+  ],
   "notes": [],
   "ai_summary": {
     "primary_violation": "President interferes with an investigation into their own conduct.",
-    "primary_bottleneck": null,
-    "primary_open_duty": "consider impeachment for interference with investigation",
+    "primary_bottleneck": "House of Representatives failed to hold a recorded impeachment vote on the certified obstruction violation by day 41 under Article III Section 10.2A and Section 15.8.",
+    "primary_open_duty": null,
     "system_risk": "executive_defiance",
     "recommended_focus": "review bottlenecks, violations, and unresolved duties"
   }
