@@ -35,7 +35,7 @@ Establishes the structure, powers, and limits of the executive branch. The Presi
   (b) Have been a citizen of the United States for at least 14 years
   (c) Have been a resident of the United States for at least 7 of the 14 years preceding election
 
-**2.2** The requirement of natural-born citizenship is abolished. No distinction shall be drawn between citizens by birth and citizens by naturalization for purposes of eligibility for the presidency. Equal citizenship is a fundamental principle of this Constitution.
+**2.2** The requirement of natural-born citizenship is abolished. No distinction shall be drawn between citizens by birth and citizens by naturalization for purposes of eligibility for the presidency. The general principles of equal citizenship and equal eligibility for office are governed by Article IX.
 
 **2.2A — Sole citizenship required.** The President must hold only United States citizenship while in office. A person who holds citizenship of any other nation at the time of election must formally renounce that citizenship before taking the oath of office. A President who acquires or accepts citizenship of a foreign nation during their term is immediately disqualified and the succession provisions of Section 12 apply. This requirement applies to the Vice President on the same terms.
 

@@ -32,15 +32,17 @@ Establishes equal citizenship, national membership, domicile principles, oversea
 
 **2.4** No citizen may be assigned simultaneously to more than one state or federal electoral domicile for the same election. Congress and the Electoral Commission shall provide uniform rules to prevent duplication, manipulation, and disenfranchisement in domicile assignment.
 
+**2.5** A citizen who returns to reside in the United States resumes full political membership according to the domicile established upon return. Time spent abroad may affect electoral assignment only as provided by law consistent with this Article and may not permanently sever national political membership.
+
 ---
 
 ## Section 3 — Overseas Citizens
 
 **3.1** Every citizen of the United States residing outside the country retains the right to participate in federal elections.
 
-**3.2** Congress and the Electoral Commission may distinguish by law between short-term and long-term residence abroad for purposes of state-assigned and federal-only voting, provided that no citizen is wholly disenfranchised from federal elections by residence abroad.
+**3.2** Congress and the Electoral Commission may distinguish by law between short-term and long-term residence abroad for purposes of state-assigned and federal-only voting, provided that no citizen is wholly disenfranchised from federal elections by residence abroad. Military service, diplomatic service, and comparable public service abroad may not be treated as abandonment of national political membership.
 
-**3.3** Citizens who have never established domicile in a state shall be assigned by law to a constitutionally valid federal electoral home for participation in federal elections.
+**3.3** Citizens who have never established domicile in a state shall be assigned by law to a constitutionally valid federal electoral home for participation in federal elections. That assignment may be tied to a citizen parent's last domicile, another lawful connecting principle, or a federal overseas pool, but may not leave the citizen without a practical federal electoral home.
 
 **3.4** Congress and the Electoral Commission shall provide secure systems for overseas registration, ballot delivery, and ballot return sufficient to make the right secured by this Section practical and timely.
 
@@ -57,6 +59,8 @@ Establishes equal citizenship, national membership, domicile principles, oversea
 **4.3** No law may impose a blanket disability on citizens by naturalization from holding federal office.
 
 **4.4** Where another Article imposes office-specific qualifications, incompatibilities, disclosure duties, or nationality restrictions, those requirements shall be read narrowly and shall not be expanded by implication into a general hierarchy of citizenship.
+
+**4.5** Office-specific nationality, loyalty, or disclosure rules applicable to especially sensitive offices must be construed as exceptions to equal citizenship, not as a general warrant for ranked civic status.
 
 ---
 

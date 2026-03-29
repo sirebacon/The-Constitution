@@ -184,21 +184,15 @@ A vacancy in the Regional Assembly shall be filled by special election held with
 
 ## Section 12 — Overseas Citizens
 
-**12.1 — Right preserved.** Every citizen of the United States residing outside the country retains the right to vote in federal elections. Residence abroad does not extinguish the right to vote for President, members of the House of Representatives, and members of the Regional Assembly.
+**12.1 — Constitutional basis.** The constitutional principles governing overseas citizenship, domicile assignment, and continued federal political membership are established in Article IX. This Section governs the administration of overseas federal voting.
 
-**12.2 — Tiered system.** The voting rights of overseas citizens are determined by the duration of their absence from the United States:
+**12.2 — Electoral assignment.** Congress and the Electoral Commission shall assign overseas citizens to the proper federal electoral home consistent with Article IX and shall prevent duplicate registration or multiple-state participation in the same election.
 
-  **(a) Short-term absence (fewer than 10 consecutive years abroad).** A citizen who has resided outside the United States for fewer than ten consecutive years votes in all federal elections — and, where permitted by state law, state elections — as a resident of their last state of domicile within the United States. For purposes of this Section, military service and diplomatic posting abroad do not count toward the ten-year period.
+**12.3 — Registration.** Overseas citizens shall register with the Electoral Commission through a secure federal overseas voter registration system. The Electoral Commission shall administer overseas balloting, maintain overseas registration rolls, and publish guidance sufficient to make overseas federal voting practical and reviewable.
 
-  **(b) Long-term absence (10 or more consecutive years abroad).** A citizen who has resided outside the United States for ten or more consecutive years retains the right to vote in federal elections only: elections for President, the House of Representatives, and the Regional Assembly. Such citizens vote as residents of their last state of domicile for purposes of federal electoral assignment. They do not retain voting rights in state or local elections.
+**12.4 — Ballot delivery and return.** The Electoral Commission shall provide reliable ballot-delivery and ballot-return methods, including electronic and postal options where lawful and secure, sufficient to allow overseas citizens to cast timely ballots in federal elections.
 
-  **(c) Return to the United States.** A citizen who returns to reside in the United States resumes full voting rights as a resident of the state in which they establish domicile. Time abroad resets upon return; a subsequent departure begins a new period of absence.
-
-**12.3 — Citizens who have never established domicile in a state.** A citizen who has never resided in any state of the United States for a continuous period of two years or more — including citizens born abroad to citizen parents who have not established independent domicile in any state — shall be assigned by the Electoral Commission to the state of their citizen parent's last domicile for purposes of federal electoral participation. If both parents are citizens from different states, the citizen may elect either state upon registration. If neither parent's state can be determined, the Electoral Commission shall assign the citizen to the federal overseas pool, which votes in the congressional district of the District of Columbia for House purposes and in federal presidential and Regional Assembly elections.
-
-**12.4 — Registration.** Overseas citizens shall register with the Electoral Commission through a secure federal overseas voter registration system. The Electoral Commission shall administer all overseas balloting, maintain overseas registration rolls, and publish guidance for citizens in each category under Section 12.2.
-
-**12.5 — Ballot delivery.** The Electoral Commission shall provide electronic and postal ballot options for overseas citizens and shall ensure that overseas ballots can be submitted and received in time to be counted in the relevant election. Overseas ballots received within 30 days after election day shall be counted, provided the ballot was cast on or before election day.
+**12.5 — Counting rule.** Overseas ballots received within 30 days after election day shall be counted, provided the ballot was cast on or before election day.
 
 ---
 
