@@ -221,7 +221,7 @@ The Accountability Commission shall certify a violation falling within this Sect
 
 **12.3** Any person in the succession line must meet the constitutional qualifications for the presidency to assume the office. A person who does not meet those qualifications is skipped in the line.
 
-**12.4** A successor under Section 12.2 who was not elected to the presidency may not exercise the pardon power, withdraw from ratified treaties, declare a national emergency, remove Senate-confirmed officials without lawful cause, or make recess appointments without the approval of a majority of both chambers of Congress. This limitation does not apply if the successor was the elected Vice President. Actions taken in violation of this Section are void.
+**12.4** A successor under Section 12.2 who was not elected to the presidency may not exercise the pardon power, withdraw from ratified treaties, declare a national emergency, remove officials whose appointments required Regional Assembly confirmation without lawful cause, or make recess appointments without the approval of a majority of both chambers of Congress. This limitation does not apply if the successor was the elected Vice President. Actions taken in violation of this Section are void.
 
 ---
 

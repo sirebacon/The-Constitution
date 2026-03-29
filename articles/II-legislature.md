@@ -300,7 +300,7 @@ The following officers of the executive branch have an affirmative constitutiona
   (a) All Cabinet secretaries and heads of executive departments
   (b) All heads of independent agencies and regulatory bodies
   (c) The Director of National Intelligence, the Director of the CIA, the Director of the FBI, and equivalent senior intelligence and law enforcement officials
-  (d) Any other Senate-confirmed officer of the United States
+  (d) Any other officer of the United States whose appointment requires Regional Assembly confirmation under this Constitution or federal law
 
 The duty to testify is distinct from the obligation to answer every question — a witness subject to this duty must appear, must answer questions not subject to a valid privilege claim under Section 16.6, and must do so truthfully. Refusal to appear without a valid legal basis, and refusal to answer questions not subject to a valid privilege claim, are each independent violations of this Section. A response of "I do not recall" or equivalent that a court subsequently finds was made in bad faith — that is, where the witness did in fact recall or had the means to recall with reasonable inquiry — constitutes perjury under Section 16.4. Witnesses subject to this duty have an affirmative obligation of reasonable inquiry before claiming lack of recall; a claim of non-recall made without reasonable inquiry is deemed knowing if the information was available to the witness through records, staff, or ordinary professional practice.
 
