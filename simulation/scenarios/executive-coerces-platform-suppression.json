@@ -1,0 +1,31 @@
+{
+  "id": "executive-coerces-platform-suppression",
+  "title": "Executive Coercion of Platforms to Suppress Lawful Political Dissent",
+  "description": "Senior executive officials pressure major digital platforms with threatened regulatory retaliation to suppress lawful political dissent without issuing a formal order. The scenario tests whether the Constitution treats coercive private suppression as state action and reaches it through Article V and Article XIII.",
+  "articles_tested": ["Article V", "Article XIII"],
+  "provisions_tested": ["Article V Section 2.1", "Article V Section 2.6", "Article XIII Section 2.0.5"],
+  "events": [
+    {
+      "day": 1,
+      "type": "executive_pressures_platforms_to_suppress_dissent",
+      "actor": "Senior executive officials",
+      "details": {
+        "official": "Senior executive officials",
+        "targets": "major digital platforms",
+        "speech": "lawful political dissent critical of the administration"
+      }
+    },
+    {
+      "day": 7,
+      "type": "court_enjoins_coercive_platform_pressure",
+      "actor": "Federal courts",
+      "details": {}
+    },
+    {
+      "day": 22,
+      "type": "acc_refers_platform_pressure_officials",
+      "actor": "Accountability Commission",
+      "details": {}
+    }
+  ]
+}

@@ -224,10 +224,13 @@ The draft is now in refinement mode rather than redesign mode. The main weakness
 3. Political nonperformance under stress.
    The Constitution now usually provides an automatic consequence, but repeated missed deadlines and refusals to act remain the dominant operational stress pattern in the simulator.
 
-4. New resilience provisions that may later need compression.
+4. Private chokepoint exclusion.
+   The first direct simulations now show that state-coerced private suppression is reachable, but synchronized private cutoff by dominant civic intermediaries still lacks a clear direct constitutional remedy absent state action or foreign control.
+
+5. New resilience provisions that may later need compression.
    The recent anti-oligarchic hardening improved abuse resistance materially, but some clauses should eventually be checked for constitutional abstraction level.
 
-5. Final cross-article boundary review.
+6. Final cross-article boundary review.
    The remaining integration risk is not broad contradiction but narrower overlap at the boundaries of emergency power, ethics and agency design, continuity, and enforcement.
 
 ---
@@ -242,5 +245,6 @@ Recommended focus order:
 4. Article XIV — stress-test emergency revenue powers and edge-case revenue authorities to confirm the article remains principle-level while still enforceable.
 5. Article II — continue draft-discipline cleanup. The article is structurally strong but still the densest core article.
 6. Article V — extend the new rights coverage into religion, family/autonomy, and remaining digital-rights edge cases.
-7. Article VIII / Article XIII — verify no structural duplication on independent agency architecture and continue light compression where needed.
-8. Article XII / Article XIX — pressure-test internal boycott, quorum sabotage, and remaining organ-setup friction under adversarial conditions.
+7. Article V / Article VI / Article XIII — decide whether private chokepoint exclusion by dominant civic intermediaries should remain a statutory problem, become a constitutional target, or stay as a flagged residual risk after more scenarios.
+8. Article VIII / Article XIII — verify no structural duplication on independent agency architecture and continue light compression where needed.
+9. Article XII / Article XIX — pressure-test internal boycott, quorum sabotage, and remaining organ-setup friction under adversarial conditions.

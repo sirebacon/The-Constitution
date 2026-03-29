@@ -25,6 +25,7 @@ Use this order when deciding what to work on:
 | 3 | Article XII / Article XIX continuity edge cases | The duplicate vacancy rule is now merged (§5.6), but adversarial pressure is still missing | Internal boycott scenario still unbuilt | Continuity backstops that hold under hostile conditions without adding new machinery |
 | 4 | ~~Article IX citizenship scenarios~~ **PARTIAL** | §5.2 loss-of-citizenship rule tightened with explicit procedural floor; overseas assignment and naturalized-candidate scenarios already exist | Sensitive-office restriction and proof-dispute scenarios still unbuilt | Clear outcomes in remaining hostile membership and eligibility cases |
 | 5 | ~~Article II draft-discipline cleanup~~ **DONE** | §16 compressed: drafting note deleted, auto-referral machinery removed, investigation-clock mechanics removed, §16.8 stated as principle; discipline 7.8 → 8.2 | §15A.4 remains dense but simulation-validated | No further action needed unless a later pass surfaces more compressible detail |
+| 6 | Private platform and infrastructure chokepoint power | First-pass coverage is now built | State-coerced private suppression is reachable, but purely private coordinated cutoff of lawful political actors still lacks a clear direct constitutional remedy | Decide whether this should remain a statutory problem, a constitutional gap, or a flagged residual risk with further scenario pressure |
 
 See also: [presidential-system-hardening.md](presidential-system-hardening.md)
 
@@ -46,7 +47,10 @@ These are the main weaknesses of the draft in its current state. They are narrow
 4. The new resilience clauses are good but may need later compression.
    The oligarchic-pressure hardening closed real gaps, but provisions such as contractor beneficial-ownership disclosure should eventually be checked for constitutional abstraction level.
 
-5. A final cross-article edge-case pass is still needed.
+5. Private chokepoint exclusion is now a confirmed under-tested gap.
+   The first new scenarios show that coercive government pressure on platforms is constitutionally reachable, but synchronized private cutoff by dominant civic intermediaries still lacks a clear direct remedy absent state action or foreign control.
+
+6. A final cross-article edge-case pass is still needed.
    The remaining risk is less contradiction than boundary drift: emergency overlap, ethics/agency overlap, continuity overlap, and enforcement-path complexity.
 
 ---

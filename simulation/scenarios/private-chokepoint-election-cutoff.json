@@ -1,0 +1,24 @@
+{
+  "id": "private-chokepoint-election-cutoff",
+  "title": "Coordinated Private Infrastructure Cutoff of Lawful Opposition Organization",
+  "description": "Payment processors and hosting firms jointly cut off a lawful opposition organization during a federal election period. No formal government coercion is proved. The scenario tests whether the current Constitution provides a direct remedy against coordinated private chokepoint exclusion absent state action or foreign control.",
+  "articles_tested": ["Article V", "Article VII", "Article XIII"],
+  "provisions_tested": ["Article V Section 2.6", "Article VII", "Article XIII"],
+  "events": [
+    {
+      "day": 1,
+      "type": "private_infrastructure_firms_cut_off_opposition",
+      "actor": "Dominant payment processors and hosting firms",
+      "details": {
+        "firms": "dominant payment processors and hosting firms",
+        "organization": "a lawful opposition organization operating nationally"
+      }
+    },
+    {
+      "day": 10,
+      "type": "court_finds_no_clear_constitutional_remedy_for_private_cutoff",
+      "actor": "Federal courts",
+      "details": {}
+    }
+  ]
+}

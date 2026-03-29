@@ -1,19 +1,19 @@
 {
-  "scenario_count": 53,
-  "stress_point_scenarios": 51,
+  "scenario_count": 55,
+  "stress_point_scenarios": 53,
   "totals": {
-    "violations": 44,
+    "violations": 46,
     "bottlenecks": 30,
     "unresolved_obligations": 0
   },
   "risk_pattern_counts": [
     {
       "risk": "institutional_stress",
-      "count": 25
+      "count": 26
     },
     {
       "risk": "executive_defiance",
-      "count": 18
+      "count": 19
     },
     {
       "risk": "legislative_delay",
@@ -53,7 +53,7 @@
   "violation_categories": [
     {
       "category": "executive_defiance",
-      "count": 16
+      "count": 17
     },
     {
       "category": "rights_suppression",
@@ -102,6 +102,10 @@
     {
       "category": "membership_exclusion",
       "count": 1
+    },
+    {
+      "category": "structural_gap",
+      "count": 1
     }
   ],
   "top_triggered_provisions": [
@@ -130,6 +134,10 @@
       "count": 3
     },
     {
+      "provision": "Article V Section 2.6",
+      "count": 3
+    },
+    {
       "provision": "Article I election administration provisions",
       "count": 2
     },
@@ -143,6 +151,10 @@
     },
     {
       "provision": "Article V Section 1.3",
+      "count": 2
+    },
+    {
+      "provision": "Article V Section 2.1",
       "count": 2
     },
     {
@@ -338,14 +350,6 @@
       "count": 1
     },
     {
-      "provision": "Article V Section 2.1",
-      "count": 1
-    },
-    {
-      "provision": "Article V Section 2.6",
-      "count": 1
-    },
-    {
       "provision": "Article V Section 5",
       "count": 1
     },
@@ -386,6 +390,10 @@
       "count": 1
     },
     {
+      "provision": "Article VII",
+      "count": 1
+    },
+    {
       "provision": "Article VIII Section 1.13",
       "count": 1
     },
@@ -418,7 +426,15 @@
       "count": 1
     },
     {
+      "provision": "Article XIII",
+      "count": 1
+    },
+    {
       "provision": "Article XIII Section 12",
+      "count": 1
+    },
+    {
+      "provision": "Article XIII Section 2.0.5",
       "count": 1
     },
     {
@@ -1684,6 +1700,63 @@
         "primary_bottleneck": "Federal courts failed to void the emergency-based restriction on protected expression by day 4 under Article III Section 5.3(f) and Article V.",
         "primary_open_duty": null,
         "system_risk": "institutional_stress",
+        "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+      }
+    },
+    {
+      "scenario_id": "executive-coerces-platform-suppression",
+      "title": "Executive Coercion of Platforms to Suppress Lawful Political Dissent",
+      "source_file": "simulation/scenarios/executive-coerces-platform-suppression.json",
+      "status": "stress_point_found",
+      "triggered_provisions": [
+        "Article V Section 2.1",
+        "Article V Section 2.6",
+        "Article XIII Section 2.0.5"
+      ],
+      "metrics": {
+        "satisfied_obligations": 2,
+        "failed_obligations": 0,
+        "unresolved_obligations": 0,
+        "violations": 1,
+        "bottlenecks": 0,
+        "timeline_entries": 7
+      },
+      "violations": [
+        {
+          "id": "executive_coercive_platform_pressure",
+          "category": "executive_defiance",
+          "actor": "Senior executive officials",
+          "source": "Article V Section 2.1 and Section 2.6; Article XIII Section 2.0.5",
+          "severity": "high",
+          "day": 1,
+          "summary": "Senior executive officials pressure major digital platforms through threatened regulatory retaliation to suppress lawful political dissent critical of the administration without issuing a formal order. The Constitution does not permit the executive to accomplish through coercive private pressure what Article V forbids it to do directly, and Article XIII Section 2.0.5 bars use of agency power for political retaliation."
+        }
+      ],
+      "bottlenecks": [],
+      "open_duties": [],
+      "satisfied_duties": [
+        {
+          "actor": "Federal courts",
+          "duty": "determine on expedited review whether the state-coerced suppression is attributable to government action and enjoin any unconstitutional pressure",
+          "closed_day": 7,
+          "outcome": "held that the pressure campaign constituted state action through coercive use of threatened agency power, enjoined further retaliation, and ordered restoration of access where the suppression resulted from that coercion",
+          "source": "Article V Section 2.1 and Section 2.6; Article XIII Section 2.0.5"
+        },
+        {
+          "actor": "Accountability Commission",
+          "duty": "investigate whether executive officials used agency threats or regulatory leverage to induce viewpoint-based suppression",
+          "closed_day": 22,
+          "outcome": "found that executive officials used threatened regulatory retaliation to induce viewpoint-based suppression and referred the responsible officials for prosecution or removal proceedings",
+          "source": "Article XIII Section 2.0.5 and Article XII"
+        }
+      ],
+      "failed_duties": [],
+      "notes": [],
+      "ai_summary": {
+        "primary_violation": "Senior executive officials pressure major digital platforms through threatened regulatory retaliation to suppress lawful political dissent critical of the administration without issuing a formal order. The Constitution does not permit the executive to accomplish through coercive private pressure what Article V forbids it to do directly, and Article XIII Section 2.0.5 bars use of agency power for political retaliation.",
+        "primary_bottleneck": null,
+        "primary_open_duty": null,
+        "system_risk": "executive_defiance",
         "recommended_focus": "review bottlenecks, violations, and unresolved duties"
       }
     },
@@ -2976,6 +3049,56 @@
         "primary_bottleneck": "Vice President is also incapacitated and cannot assume the Acting Presidency under Article III Section 12.2.",
         "primary_open_duty": null,
         "system_risk": "executive_defiance",
+        "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+      }
+    },
+    {
+      "scenario_id": "private-chokepoint-election-cutoff",
+      "title": "Coordinated Private Infrastructure Cutoff of Lawful Opposition Organization",
+      "source_file": "simulation/scenarios/private-chokepoint-election-cutoff.json",
+      "status": "stress_point_found",
+      "triggered_provisions": [
+        "Article V Section 2.6",
+        "Article VII",
+        "Article XIII"
+      ],
+      "metrics": {
+        "satisfied_obligations": 1,
+        "failed_obligations": 0,
+        "unresolved_obligations": 0,
+        "violations": 1,
+        "bottlenecks": 0,
+        "timeline_entries": 5
+      },
+      "violations": [
+        {
+          "id": "private_chokepoint_election_cutoff",
+          "category": "structural_gap",
+          "actor": "Private infrastructure chokepoints",
+          "source": "Article V Section 2.6; Article VII; Article XIII",
+          "severity": "high",
+          "day": 1,
+          "summary": "dominant payment processors and hosting firms jointly cut off service to a lawful opposition organization operating nationally during a federal election period. No formal government coercion is proved. The harm is politically severe, but the current Constitution has no clearly defined direct remedy for synchronized private exclusion by dominant civic infrastructure intermediaries absent state action, foreign control, or campaign-finance violation."
+        }
+      ],
+      "bottlenecks": [],
+      "open_duties": [],
+      "satisfied_duties": [
+        {
+          "actor": "Federal courts",
+          "duty": "determine whether existing constitutional provisions or implementing law provide a direct remedy for coordinated private exclusion of a lawful political organization during an election",
+          "closed_day": 10,
+          "outcome": "found no clear direct constitutional remedy because the exclusion was carried out by private firms without proven state coercion, foreign control, or a violation of an existing statutory duty",
+          "source": "Article V Section 2.6; Article VII; Article XIII"
+        }
+      ],
+      "failed_duties": [],
+      "notes": [],
+      "ai_summary": {
+        "primary_violation": "dominant payment processors and hosting firms jointly cut off service to a lawful opposition organization operating nationally during a federal election period. No formal government coercion is proved. The harm is politically severe, but the current Constitution has no clearly defined direct remedy for synchronized private exclusion by dominant civic infrastructure intermediaries absent state action, foreign control, or campaign-finance violation.",
+        "primary_bottleneck": null,
+        "primary_open_duty": null,
+        "system_risk": "institutional_stress",
         "recommended_focus": "review bottlenecks, violations, and unresolved duties"
       }
     },

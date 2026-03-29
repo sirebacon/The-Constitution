@@ -2,6 +2,46 @@
 
 This document records conclusions drawn from the constitutional flow simulator and its generated reports. Each entry should cite the relevant scenario outputs so recurring bottlenecks can be tracked over time.
 
+## 2026-03-29 Private Chokepoint Coverage Pass
+
+### Inputs Reviewed
+
+- [aggregate.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/aggregate.json)
+- [executive-coerces-platform-suppression.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/executive-coerces-platform-suppression.summary.json)
+- [private-chokepoint-election-cutoff.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/private-chokepoint-election-cutoff.summary.json)
+
+### Aggregate Read
+
+- Scenario count rises from `53` to `55`.
+- `unresolved_obligations` remains `0`.
+- The new category does not expose a broad new machinery failure. It exposes one narrower but real modern-democracy gap.
+
+### Main Results
+
+#### 1. Coercive private suppression by the state is reachable under current text
+
+Source:
+- [executive-coerces-platform-suppression.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/executive-coerces-platform-suppression.summary.json)
+
+- Senior executive officials pressure major digital platforms to suppress lawful political dissent through threatened regulatory retaliation.
+- Courts treat the resulting suppression as state action in substance rather than private discretion in form.
+- The Accountability Commission can investigate the weaponization of agency power under Article XIII Section 2.0.5.
+
+Assessment:
+The Constitution is stronger here than it first appears. It can already reach indirect censorship where private action is driven by coercive government pressure.
+
+#### 2. Purely private coordinated chokepoint exclusion remains a real gap
+
+Source:
+- [private-chokepoint-election-cutoff.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/private-chokepoint-election-cutoff.summary.json)
+
+- Dominant payment processors and hosting firms jointly cut off a lawful opposition organization during a federal election period.
+- No formal government coercion is proved.
+- Courts find no clear direct constitutional remedy under the current text absent state action, foreign control, or an existing statutory duty.
+
+Assessment:
+This is now a confirmed under-tested gap rather than a speculative concern. The draft is stronger against public censorship and foreign-controlled infrastructure than against synchronized private exclusion by dominant civic intermediaries.
+
 ## 2026-03-29 Oligarchic-Resilience Coverage Pass
 
 ### Inputs Reviewed

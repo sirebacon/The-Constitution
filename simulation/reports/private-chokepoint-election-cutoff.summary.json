@@ -1,0 +1,50 @@
+{
+  "scenario_id": "private-chokepoint-election-cutoff",
+  "title": "Coordinated Private Infrastructure Cutoff of Lawful Opposition Organization",
+  "source_file": "simulation/scenarios/private-chokepoint-election-cutoff.json",
+  "status": "stress_point_found",
+  "triggered_provisions": [
+    "Article V Section 2.6",
+    "Article VII",
+    "Article XIII"
+  ],
+  "metrics": {
+    "satisfied_obligations": 1,
+    "failed_obligations": 0,
+    "unresolved_obligations": 0,
+    "violations": 1,
+    "bottlenecks": 0,
+    "timeline_entries": 5
+  },
+  "violations": [
+    {
+      "id": "private_chokepoint_election_cutoff",
+      "category": "structural_gap",
+      "actor": "Private infrastructure chokepoints",
+      "source": "Article V Section 2.6; Article VII; Article XIII",
+      "severity": "high",
+      "day": 1,
+      "summary": "dominant payment processors and hosting firms jointly cut off service to a lawful opposition organization operating nationally during a federal election period. No formal government coercion is proved. The harm is politically severe, but the current Constitution has no clearly defined direct remedy for synchronized private exclusion by dominant civic infrastructure intermediaries absent state action, foreign control, or campaign-finance violation."
+    }
+  ],
+  "bottlenecks": [],
+  "open_duties": [],
+  "satisfied_duties": [
+    {
+      "actor": "Federal courts",
+      "duty": "determine whether existing constitutional provisions or implementing law provide a direct remedy for coordinated private exclusion of a lawful political organization during an election",
+      "closed_day": 10,
+      "outcome": "found no clear direct constitutional remedy because the exclusion was carried out by private firms without proven state coercion, foreign control, or a violation of an existing statutory duty",
+      "source": "Article V Section 2.6; Article VII; Article XIII"
+    }
+  ],
+  "failed_duties": [],
+  "notes": [],
+  "ai_summary": {
+    "primary_violation": "dominant payment processors and hosting firms jointly cut off service to a lawful opposition organization operating nationally during a federal election period. No formal government coercion is proved. The harm is politically severe, but the current Constitution has no clearly defined direct remedy for synchronized private exclusion by dominant civic infrastructure intermediaries absent state action, foreign control, or campaign-finance violation.",
+    "primary_bottleneck": null,
+    "primary_open_duty": null,
+    "system_risk": "institutional_stress",
+    "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+  }
+}
