@@ -4,7 +4,6 @@
   "source_file": "simulation/scenarios/electoral-certification-obstruction.json",
   "status": "stress_point_found",
   "triggered_provisions": [
-    "Article I",
     "Article III Section 13",
     "Article VI Section 1"
   ],
@@ -14,14 +13,14 @@
     "unresolved_obligations": 0,
     "violations": 1,
     "bottlenecks": 1,
-    "timeline_entries": 9
+    "timeline_entries": 8
   },
   "violations": [
     {
       "id": "transition_obstruction",
       "category": "executive_defiance",
       "actor": "President",
-      "source": "Article III Section 13.5 and Article VI Section 1",
+      "source": "Article III Section 13.1 and Article VI Section 1",
       "severity": "high",
       "day": 5,
       "summary": "Outgoing President refuses to cooperate with the constitutionally required transition, denying the President-elect access to security briefings and agency records."
@@ -29,13 +28,13 @@
   ],
   "bottlenecks": [
     {
-      "id": "president_cooperate_transition",
-      "category": "missed_deadline",
+      "id": "president_transition_cooperation",
+      "category": "executive_defiance",
       "actor": "President",
       "source": "Article III Section 13.1",
       "severity": "high",
       "day": 5,
-      "deadline_day": 81,
+      "deadline_day": 7,
       "summary": "President refused to cooperate with the constitutionally required transition under Article III Section 13.1."
     }
   ],
@@ -43,17 +42,17 @@
   "satisfied_duties": [
     {
       "actor": "Accountability Commission",
-      "duty": "pursue the electoral subversion case through investigation and prosecution",
-      "closed_day": 20,
-      "outcome": "continued pursuing the electoral subversion case while the transition proceeded under constitutional mandate",
-      "source": "Article VI Section 1"
+      "duty": "open an electoral-subversion or transition-obstruction case",
+      "closed_day": 8,
+      "outcome": "opened an electoral-subversion and transition-obstruction investigation",
+      "source": "Article VI Section 1 and Article III Section 13.2"
     }
   ],
   "failed_duties": [
     {
       "actor": "President",
-      "duty": "cooperate fully with the President-elect's transition including security briefings, agency access, and office space",
-      "deadline_day": 81,
+      "duty": "cooperate with the constitutionally required transition",
+      "deadline_day": 7,
       "closed_day": 5,
       "outcome": "President refused to cooperate with the constitutionally required transition under Article III Section 13.1.",
       "source": "Article III Section 13.1",

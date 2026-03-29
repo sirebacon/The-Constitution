@@ -47,6 +47,7 @@ Status markers: `[x]` implemented — `[ ]` planned.
 | D2 | [x] Covert Operation Against US Citizen Without Warrant | `covert-operation-against-citizen.json` | Art. XVI §5.2 | CIA orders lethal strike on citizen; warrant denied as capture is feasible | Operation blocked; ACC prosecution if proceeds anyway |
 | D3 | [x] Unauthorized Military Action (existing) | `unauthorized-military-action.json` | Art. XVI §1 | Congress misses AUMF window; President ignores withdrawal order | House fallback; Regional Assembly trial |
 | D4 | [x] PMC Substitution for Authorized Forces | `pmc-substitution.json` | Art. XVI §4.4 | Congress denies AUMF; President deploys PMCs as substitute | Violation; expedited impeachment chain |
+| D5 | [x] Coordinated Absenteeism to Defeat Required Vote | `coordinated-absenteeism-required-vote.json` | Art. II §15A.4; Art. XVI §1; Art. III §10.2A | House bloc coordinates absence and refuses continuity procedures to defeat mandatory impeachment vote | Conduct treated as obstruction; default consequence still applies and Regional Assembly trial proceeds |
 
 ---
 

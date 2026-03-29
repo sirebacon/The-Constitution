@@ -4,8 +4,8 @@
   "source_file": "simulation/scenarios/executive-order-overreach.json",
   "status": "stress_point_found",
   "triggered_provisions": [
-    "Article III Section 6.2",
-    "Article III Section 6.4"
+    "Article II Section 10",
+    "Article III Section 6.2"
   ],
   "metrics": {
     "satisfied_obligations": 1,
@@ -13,7 +13,7 @@
     "unresolved_obligations": 0,
     "violations": 1,
     "bottlenecks": 0,
-    "timeline_entries": 5
+    "timeline_entries": 4
   },
   "violations": [
     {
@@ -31,10 +31,10 @@
   "satisfied_duties": [
     {
       "actor": "Congress",
-      "duty": "pass a resolution of disapproval within 60 days to formally void the overreaching executive order",
+      "duty": "disapprove or otherwise block the unauthorized executive order",
       "closed_day": 15,
-      "outcome": "passed a resolution of disapproval; the executive order is void and may not be reissued in substantially the same form without statutory authorization",
-      "source": "Article III Section 6.4"
+      "outcome": "disapproved the unauthorized executive order and prevented it from taking effect",
+      "source": "Article III Section 6.2 and Article II Section 10"
     }
   ],
   "failed_duties": [],

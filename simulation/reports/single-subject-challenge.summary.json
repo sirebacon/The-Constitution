@@ -13,7 +13,7 @@
     "unresolved_obligations": 0,
     "violations": 1,
     "bottlenecks": 0,
-    "timeline_entries": 7
+    "timeline_entries": 5
   },
   "violations": [
     {
@@ -21,7 +21,7 @@
       "category": "legislative_deadline_failure",
       "actor": "Congress",
       "source": "Article II Section 10.7",
-      "severity": "medium",
+      "severity": "high",
       "day": 0,
       "summary": "Congress passes an omnibus bill bundling unrelated subjects \u2014 defense appropriations, immigration rules, and drug pricing \u2014 in a single bill, in violation of the single-subject rule of Article II Section 10.7."
     }
@@ -31,9 +31,9 @@
   "satisfied_duties": [
     {
       "actor": "Supreme Court",
-      "duty": "rule on the single-subject challenge within 15 days",
+      "duty": "review the pre-enactment single-subject challenge",
       "closed_day": 12,
-      "outcome": "ruled within the 15-day window, found a single-subject violation, and returned the bill to the originating chamber for severance or redrafting",
+      "outcome": "voided the omnibus bill and returned the matter for single-subject redrafting",
       "source": "Article II Section 10.7A"
     }
   ],

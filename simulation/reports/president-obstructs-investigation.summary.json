@@ -4,21 +4,21 @@
   "source_file": "simulation/scenarios/president-obstructs-investigation.json",
   "status": "stress_point_found",
   "triggered_provisions": [
+    "Article III Section 10",
     "Article III Section 15",
-    "Article III Section 15.8",
-    "Article IX Section 3"
+    "Article XII Section 3"
   ],
   "metrics": {
-    "satisfied_obligations": 2,
-    "failed_obligations": 1,
+    "satisfied_obligations": 1,
+    "failed_obligations": 2,
     "unresolved_obligations": 0,
     "violations": 1,
-    "bottlenecks": 1,
+    "bottlenecks": 2,
     "timeline_entries": 10
   },
   "violations": [
     {
-      "id": "president_interferes_with_investigation",
+      "id": "president_interference_acc",
       "category": "executive_defiance",
       "actor": "President",
       "source": "Article III Section 15.8",
@@ -28,6 +28,16 @@
     }
   ],
   "bottlenecks": [
+    {
+      "id": "acc_certify_obstruction",
+      "category": "institutional_deadline_failure",
+      "actor": "Accountability Commission",
+      "source": "Article III Section 15.8 and Section 10.2A",
+      "severity": "high",
+      "day": 20,
+      "deadline_day": 12,
+      "summary": "Accountability Commission failed to certify the presidential obstruction violation and transmit the matter for expedited impeachment consideration by day 12 under Article III Section 15.8 and Section 10.2A."
+    },
     {
       "id": "house_vote_impeachment_obstruction",
       "category": "legislative_deadline_failure",
@@ -42,13 +52,6 @@
   "open_duties": [],
   "satisfied_duties": [
     {
-      "actor": "Accountability Commission",
-      "duty": "pursue obstruction-related enforcement",
-      "closed_day": 20,
-      "outcome": "acted on the obstruction matter and formally certified the violation",
-      "source": "Article III Section 15.8"
-    },
-    {
       "actor": "Regional Assembly",
       "duty": "proceed to impeachment trial on the automatically transmitted obstruction articles",
       "closed_day": 45,
@@ -57,6 +60,15 @@
     }
   ],
   "failed_duties": [
+    {
+      "actor": "Accountability Commission",
+      "duty": "certify the presidential obstruction violation and transmit the matter for expedited impeachment consideration",
+      "deadline_day": 12,
+      "closed_day": 20,
+      "outcome": "Accountability Commission failed to certify the presidential obstruction violation and transmit the matter for expedited impeachment consideration by day 12 under Article III Section 15.8 and Section 10.2A.",
+      "source": "Article III Section 15.8 and Section 10.2A",
+      "severity": "high"
+    },
     {
       "actor": "House of Representatives",
       "duty": "hold a recorded impeachment vote on the certified obstruction violation",
@@ -70,7 +82,7 @@
   "notes": [],
   "ai_summary": {
     "primary_violation": "President interferes with an investigation into their own conduct.",
-    "primary_bottleneck": "House of Representatives failed to hold a recorded impeachment vote on the certified obstruction violation by day 41 under Article III Section 10.2A and Section 15.8.",
+    "primary_bottleneck": "Accountability Commission failed to certify the presidential obstruction violation and transmit the matter for expedited impeachment consideration by day 12 under Article III Section 15.8 and Section 10.2A.",
     "primary_open_duty": null,
     "system_risk": "executive_defiance",
     "recommended_focus": "review bottlenecks, violations, and unresolved duties"

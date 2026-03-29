@@ -4,7 +4,7 @@
   "source_file": "simulation/scenarios/covert-operation-against-citizen.json",
   "status": "stress_point_found",
   "triggered_provisions": [
-    "Article IV",
+    "Article V Section 5",
     "Article XVI Section 5.2"
   ],
   "metrics": {
@@ -13,11 +13,11 @@
     "unresolved_obligations": 0,
     "violations": 1,
     "bottlenecks": 0,
-    "timeline_entries": 8
+    "timeline_entries": 7
   },
   "violations": [
     {
-      "id": "unlawful_covert_operation_us_citizen",
+      "id": "citizen_targeting_after_warrant_denial",
       "category": "executive_defiance",
       "actor": "CIA",
       "source": "Article XVI Section 5.2",
@@ -31,17 +31,17 @@
   "satisfied_duties": [
     {
       "actor": "Federal courts",
-      "duty": "adjudicate the warrant application, finding probable cause of imminent specific threat and that capture is not feasible",
+      "duty": "review the warrant request for the lethal operation against the citizen",
       "closed_day": 1,
-      "outcome": "denied the warrant application, finding that capture remains feasible; the operation is constitutionally blocked pending a valid warrant",
+      "outcome": "denied the warrant because capture was feasible and the constitutional standard for lethal action was not met",
       "source": "Article XVI Section 5.2"
     },
     {
       "actor": "Accountability Commission",
-      "duty": "open prosecution of responsible officers for the unlawful covert lethal operation against a US citizen",
+      "duty": "open a prosecution for the unlawful covert operation against the citizen",
       "closed_day": 5,
-      "outcome": "opened prosecution of the responsible officers for conducting a covert lethal operation against a US citizen in violation of the judicial warrant requirement",
-      "source": "Article XVI Section 5.2 and Article III Section 15.7"
+      "outcome": "opened a prosecution for the unlawful covert operation against the citizen",
+      "source": "Article XVI Section 5.2 and Article XII Section 3"
     }
   ],
   "failed_duties": [],

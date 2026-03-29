@@ -7,6 +7,7 @@
     "Article I Section 3",
     "Article III Section 5",
     "Article III Section 5.7",
+    "Article V Section 1",
     "Article V Section 14"
   ],
   "metrics": {
@@ -19,8 +20,8 @@
   },
   "violations": [
     {
-      "id": "president_suspends_habeas_corpus",
-      "category": "executive_defiance",
+      "id": "executive_habeas_suspension",
+      "category": "rights_suppression",
       "actor": "President",
       "source": "Article III Section 5.7",
       "severity": "high",
@@ -40,10 +41,10 @@
     },
     {
       "actor": "Federal courts",
-      "duty": "void the unlawful executive suspension of habeas corpus",
+      "duty": "void the executive habeas suspension immediately",
       "closed_day": 4,
-      "outcome": "voided the executive suspension of habeas corpus; only Congress may suspend the writ under Article III Section 5.7",
-      "source": "Article III Section 5.7"
+      "outcome": "voided the executive habeas suspension and restored access to the writ",
+      "source": "Article III Section 5.7 and Article V Section 1"
     },
     {
       "actor": "Regional Assembly",
@@ -59,7 +60,7 @@
     "primary_violation": "President suspends the privilege of the writ of habeas corpus by executive order. This power belongs exclusively to Congress under Article III Section 5.7 and may not be exercised by the President alone.",
     "primary_bottleneck": null,
     "primary_open_duty": null,
-    "system_risk": "executive_defiance",
+    "system_risk": "institutional_stress",
     "recommended_focus": "review bottlenecks, violations, and unresolved duties"
   }
 }

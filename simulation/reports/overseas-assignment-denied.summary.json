@@ -4,10 +4,8 @@
   "source_file": "simulation/scenarios/overseas-assignment-denied.json",
   "status": "stress_point_found",
   "triggered_provisions": [
-    "Article I Section 12",
-    "Article IX Section 2",
-    "Article IX Section 3",
-    "Article IX Section 6"
+    "Article I election administration provisions",
+    "Article IX Section 3"
   ],
   "metrics": {
     "satisfied_obligations": 1,
@@ -19,10 +17,10 @@
   },
   "violations": [
     {
-      "id": "overseas_assignment_denied",
+      "id": "overseas_citizen_assignment_denied",
       "category": "membership_exclusion",
       "actor": "Election officials",
-      "source": "Article IX Section 2.3, Section 3.3, and Section 6.4",
+      "source": "Article IX Section 3 and Article I",
       "severity": "high",
       "day": 0,
       "summary": "Election officials deny an overseas citizen any practical federal electoral home and reject registration on the theory that long residence abroad extinguished meaningful federal participation."
@@ -33,10 +31,10 @@
   "satisfied_duties": [
     {
       "actor": "Federal courts",
-      "duty": "resolve the overseas-citizen assignment dispute and restore a practical federal electoral home if the denial is unconstitutional",
+      "duty": "restore a lawful federal electoral home for the overseas citizen",
       "closed_day": 5,
-      "outcome": "held that residence abroad does not extinguish federal political membership and restored a practical federal electoral assignment",
-      "source": "Article IX Section 3.3 and Section 6.4"
+      "outcome": "restored the overseas citizen's federal electoral assignment and registration rights",
+      "source": "Article IX Section 3 and Article I"
     }
   ],
   "failed_duties": [],

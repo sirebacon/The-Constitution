@@ -7,11 +7,11 @@
     "Article X Section 1.2"
   ],
   "metrics": {
-    "satisfied_obligations": 1,
-    "failed_obligations": 0,
+    "satisfied_obligations": 0,
+    "failed_obligations": 1,
     "unresolved_obligations": 0,
     "violations": 1,
-    "bottlenecks": 0,
+    "bottlenecks": 1,
     "timeline_entries": 5
   },
   "violations": [
@@ -25,22 +25,35 @@
       "summary": "Congress enacts a statute requiring state executive officials to implement and enforce a federal regulatory program, in violation of the anti-commandeering provision of Article X Section 1.2."
     }
   ],
-  "bottlenecks": [],
-  "open_duties": [],
-  "satisfied_duties": [
+  "bottlenecks": [
     {
+      "id": "court_void_commandeering",
+      "category": "judicial_delay",
       "actor": "Federal courts",
-      "duty": "review and void the commandeering statute",
-      "closed_day": 20,
-      "outcome": "voided the commandeering statute; the federal government may not conscript state executive officials to implement federal programs",
-      "source": "Article X Section 1.2"
+      "source": "Article X Section 1.2",
+      "severity": "high",
+      "day": 20,
+      "deadline_day": 15,
+      "summary": "Federal courts failed to void the federal commandeering statute by day 15 under Article X Section 1.2."
     }
   ],
-  "failed_duties": [],
+  "open_duties": [],
+  "satisfied_duties": [],
+  "failed_duties": [
+    {
+      "actor": "Federal courts",
+      "duty": "void the federal commandeering statute",
+      "deadline_day": 15,
+      "closed_day": 20,
+      "outcome": "Federal courts failed to void the federal commandeering statute by day 15 under Article X Section 1.2.",
+      "source": "Article X Section 1.2",
+      "severity": "high"
+    }
+  ],
   "notes": [],
   "ai_summary": {
     "primary_violation": "Congress enacts a statute requiring state executive officials to implement and enforce a federal regulatory program, in violation of the anti-commandeering provision of Article X Section 1.2.",
-    "primary_bottleneck": null,
+    "primary_bottleneck": "Federal courts failed to void the federal commandeering statute by day 15 under Article X Section 1.2.",
     "primary_open_duty": null,
     "system_risk": "institutional_stress",
     "recommended_focus": "review bottlenecks, violations, and unresolved duties"

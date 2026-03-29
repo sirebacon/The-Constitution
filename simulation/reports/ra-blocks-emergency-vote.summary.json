@@ -7,6 +7,7 @@
     "Article I Section 3",
     "Article II Section 15A",
     "Article III Section 5",
+    "Article III Section 5.4",
     "Article V Section 14"
   ],
   "metrics": {
@@ -31,7 +32,7 @@
   "bottlenecks": [
     {
       "id": "presiding_officer_15a_motion",
-      "category": "missed_deadline",
+      "category": "legislative_deadline_failure",
       "actor": "Regional Assembly presiding officer",
       "source": "Article II Section 15A.1(b)",
       "severity": "high",

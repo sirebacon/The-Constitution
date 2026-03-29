@@ -29,7 +29,7 @@
   "bottlenecks": [
     {
       "id": "executive_comply_subpoena",
-      "category": "missed_deadline",
+      "category": "executive_defiance",
       "actor": "Secretary of Defense",
       "source": "Article II Section 16.2 and Section 16.3",
       "severity": "high",

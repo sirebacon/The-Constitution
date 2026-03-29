@@ -12,7 +12,7 @@
     "unresolved_obligations": 0,
     "violations": 1,
     "bottlenecks": 1,
-    "timeline_entries": 8
+    "timeline_entries": 7
   },
   "violations": [
     {
@@ -28,7 +28,7 @@
   "bottlenecks": [
     {
       "id": "executive_comply_court_order",
-      "category": "missed_deadline",
+      "category": "executive_defiance",
       "actor": "Executive agency",
       "source": "Article II Section 16.2(c)",
       "severity": "high",
@@ -41,9 +41,9 @@
   "satisfied_duties": [
     {
       "actor": "U.S. Marshals Service",
-      "duty": "enforce the court order through civil contempt mechanisms without requiring DOJ direction",
+      "duty": "enforce the federal court order without further executive approval",
       "closed_day": 17,
-      "outcome": "enforced the court order through civil contempt mechanisms without DOJ involvement",
+      "outcome": "enforced the court order notwithstanding executive resistance",
       "source": "Article II Section 16.2(c)"
     }
   ],

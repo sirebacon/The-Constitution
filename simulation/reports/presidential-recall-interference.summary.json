@@ -4,8 +4,9 @@
   "source_file": "simulation/scenarios/presidential-recall-interference.json",
   "status": "stress_point_found",
   "triggered_provisions": [
-    "Article III Section 14",
     "Article III Section 14.11",
+    "Article III Section 14.5",
+    "Article III Section 14.7",
     "Article III Section 5"
   ],
   "metrics": {

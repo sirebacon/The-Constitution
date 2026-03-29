@@ -16,7 +16,7 @@
     "unresolved_obligations": 0,
     "violations": 1,
     "bottlenecks": 1,
-    "timeline_entries": 18
+    "timeline_entries": 17
   },
   "violations": [
     {
@@ -32,7 +32,7 @@
   "bottlenecks": [
     {
       "id": "presiding_officer_15a_motion",
-      "category": "missed_deadline",
+      "category": "legislative_deadline_failure",
       "actor": "Regional Assembly presiding officer",
       "source": "Article II Section 15A.1(b)",
       "severity": "high",

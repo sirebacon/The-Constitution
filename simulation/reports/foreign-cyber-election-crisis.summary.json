@@ -12,28 +12,28 @@
     "Article XVII foreign policy and national security"
   ],
   "metrics": {
-    "satisfied_obligations": 3,
+    "satisfied_obligations": 2,
     "failed_obligations": 0,
     "unresolved_obligations": 0,
     "violations": 2,
     "bottlenecks": 0,
-    "timeline_entries": 10
+    "timeline_entries": 9
   },
   "violations": [
     {
-      "id": "president_attempts_direct_state_takeover",
-      "category": "federalism_breach",
+      "id": "president_direct_state_takeover",
+      "category": "executive_defiance",
       "actor": "President",
-      "source": "Article I election administration provisions and Article X federalism provisions",
+      "source": "Article I and Article X",
       "severity": "high",
       "day": 1,
       "summary": "President attempts direct federal control over state election administration outside the constitutional election framework."
     },
     {
-      "id": "president_attempts_speech_restriction",
+      "id": "president_speech_restriction_foreign_attack",
       "category": "rights_suppression",
       "actor": "Executive branch",
-      "source": "Article V speech and press protections",
+      "source": "Article V and Article XVII",
       "severity": "high",
       "day": 1,
       "summary": "Executive branch attempts to suppress suspected foreign propaganda directly rather than using disclosure and transparency tools."
@@ -43,25 +43,18 @@
   "open_duties": [],
   "satisfied_duties": [
     {
-      "actor": "President",
-      "duty": "confine immediate response measures to non-military Article XVII authorities unless Article XI is lawfully triggered",
-      "closed_day": 1,
-      "outcome": "used attribution, sanctions, and other non-military countermeasures under Article XVII",
-      "source": "Article XVI war powers and Article XVII foreign policy and national security"
-    },
-    {
       "actor": "Electoral Commission",
-      "duty": "coordinate constitutional election-protection measures with the states",
+      "duty": "protect the election through constitutional disclosure, transparency, and emergency administration powers",
       "closed_day": 2,
-      "outcome": "implemented constitutional election-protection measures in coordination with affected states",
-      "source": "Article I election administration provisions and Article IX electoral administration provisions"
+      "outcome": "used constitutional disclosure and emergency administration powers to protect election administration without direct federal takeover",
+      "source": "Article I and Article VI"
     },
     {
       "actor": "Federal courts",
-      "duty": "review any attempted suppression of protected expression",
+      "duty": "review any direct speech restriction imposed in response to the foreign attack",
       "closed_day": 3,
-      "outcome": "blocked direct suppression of protected expression while allowing disclosure-based responses",
-      "source": "Article V speech and press protections"
+      "outcome": "blocked the direct speech restriction and required the government to use disclosure-based measures instead",
+      "source": "Article V and Article XVII"
     }
   ],
   "failed_duties": [],
@@ -70,7 +63,7 @@
     "primary_violation": "President attempts direct federal control over state election administration outside the constitutional election framework.",
     "primary_bottleneck": null,
     "primary_open_duty": null,
-    "system_risk": "institutional_stress",
+    "system_risk": "executive_defiance",
     "recommended_focus": "review bottlenecks, violations, and unresolved duties"
   }
 }

@@ -18,7 +18,7 @@
   "violations": [],
   "bottlenecks": [
     {
-      "id": "congress_first_election_law",
+      "id": "first_election_law",
       "category": "legislative_deadline_failure",
       "actor": "Congress",
       "source": "Article XIX Section 4.1 and Section 4.2",
@@ -39,9 +39,9 @@
     },
     {
       "actor": "Electoral Commission",
-      "duty": "publish and administer interim rules for the first federal election",
+      "duty": "administer the first federal election under interim constitutional rules",
       "closed_day": 385,
-      "outcome": "published interim first-election rules and administered the first federal election under constitutional supervision",
+      "outcome": "administered the first federal election under interim constitutional rules",
       "source": "Article XIX Section 4.5"
     }
   ],

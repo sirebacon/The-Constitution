@@ -1,0 +1,50 @@
+{
+  "id": "coordinated-absenteeism-required-vote",
+  "title": "Coordinated Absenteeism to Defeat a Constitutionally Required Vote",
+  "description": "The President initiates unauthorized military action, ignores the required withdrawal order, and triggers a mandatory House impeachment vote. A bloc of House members then coordinates absence and refuses available continuity procedures while publicly invoking travel, bereavement, and ordinary scheduling conflicts to prevent the vote from occurring on time. The vote deadline is missed, the default constitutional consequence still applies, and the certified charge is automatically transmitted to the Regional Assembly. This scenario tests whether Article II Section 15A.4 now treats coordinated absenteeism as obstruction of a constitutional process without treating genuine hardship as misconduct.",
+  "events": [
+    {
+      "day": 0,
+      "type": "unauthorized_military_action_started",
+      "actor": "President"
+    },
+    {
+      "day": 31,
+      "type": "congress_fails_aumf",
+      "actor": "Congress"
+    },
+    {
+      "day": 34,
+      "type": "chief_justice_issues_withdrawal_order",
+      "actor": "Chief Justice"
+    },
+    {
+      "day": 40,
+      "type": "president_ignores_withdrawal_order",
+      "actor": "President"
+    },
+    {
+      "day": 41,
+      "type": "acc_issues_fiscal_hold",
+      "actor": "Accountability Commission"
+    },
+    {
+      "day": 42,
+      "type": "treasury_implements_fiscal_hold",
+      "actor": "Secretary of the Treasury"
+    },
+    {
+      "day": 58,
+      "type": "house_members_coordinate_absence_to_block_required_vote",
+      "actor": "Bloc of House members"
+    },
+    {
+      "day": 65,
+      "type": "regional_assembly_begins_trial_on_transmitted_articles",
+      "actor": "Regional Assembly",
+      "details": {
+        "trial_type": "war"
+      }
+    }
+  ]
+}

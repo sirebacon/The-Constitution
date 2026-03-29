@@ -11,11 +11,11 @@
     "Article V Section 14"
   ],
   "metrics": {
-    "satisfied_obligations": 3,
-    "failed_obligations": 0,
+    "satisfied_obligations": 2,
+    "failed_obligations": 1,
     "unresolved_obligations": 0,
     "violations": 1,
-    "bottlenecks": 0,
+    "bottlenecks": 1,
     "timeline_entries": 9
   },
   "violations": [
@@ -23,13 +23,24 @@
       "id": "emergency_rights_suppression",
       "category": "rights_suppression",
       "actor": "Executive branch",
-      "source": "Article III Section 5.3(f)",
+      "source": "Article III Section 5.3(f) and Article V",
       "severity": "high",
       "day": 2,
       "summary": "Executive branch uses an emergency declaration to restrict protected expression, in violation of the absolute bar on overriding Article V rights through emergency powers."
     }
   ],
-  "bottlenecks": [],
+  "bottlenecks": [
+    {
+      "id": "court_void_emergency_rights_restriction",
+      "category": "judicial_delay",
+      "actor": "Federal courts",
+      "source": "Article III Section 5.3(f) and Article V",
+      "severity": "high",
+      "day": 5,
+      "deadline_day": 4,
+      "summary": "Federal courts failed to void the emergency-based restriction on protected expression by day 4 under Article III Section 5.3(f) and Article V."
+    }
+  ],
   "open_duties": [],
   "satisfied_duties": [
     {
@@ -40,13 +51,6 @@
       "source": "Article III Section 5.4"
     },
     {
-      "actor": "Federal courts",
-      "duty": "void the emergency-based speech restriction",
-      "closed_day": 5,
-      "outcome": "voided the emergency-based restriction on protected expression; Article V rights may not be overridden by emergency declaration",
-      "source": "Article III Section 5.3(f) and Article V"
-    },
-    {
       "actor": "Regional Assembly",
       "duty": "approve or reject the emergency declaration",
       "closed_day": 10,
@@ -54,11 +58,21 @@
       "source": "Article III Section 5.4"
     }
   ],
-  "failed_duties": [],
+  "failed_duties": [
+    {
+      "actor": "Federal courts",
+      "duty": "void the emergency-based restriction on protected expression",
+      "deadline_day": 4,
+      "closed_day": 5,
+      "outcome": "Federal courts failed to void the emergency-based restriction on protected expression by day 4 under Article III Section 5.3(f) and Article V.",
+      "source": "Article III Section 5.3(f) and Article V",
+      "severity": "high"
+    }
+  ],
   "notes": [],
   "ai_summary": {
     "primary_violation": "Executive branch uses an emergency declaration to restrict protected expression, in violation of the absolute bar on overriding Article V rights through emergency powers.",
-    "primary_bottleneck": null,
+    "primary_bottleneck": "Federal courts failed to void the emergency-based restriction on protected expression by day 4 under Article III Section 5.3(f) and Article V.",
     "primary_open_duty": null,
     "system_risk": "institutional_stress",
     "recommended_focus": "review bottlenecks, violations, and unresolved duties"

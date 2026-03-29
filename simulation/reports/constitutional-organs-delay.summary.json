@@ -19,7 +19,7 @@
   "bottlenecks": [
     {
       "id": "constitute_constitutional_organs",
-      "category": "missed_deadline",
+      "category": "legislative_deadline_failure",
       "actor": "Congress and appointing authorities",
       "source": "Article XIX Section 5.2",
       "severity": "high",
@@ -28,8 +28,8 @@
       "summary": "Congress and appointing authorities failed to constitute the Constitutional Organs on the timeline required by the Constitution by day 365 under Article XIX Section 5.2."
     },
     {
-      "id": "complete_constitutional_organs_after_court_order",
-      "category": "missed_deadline",
+      "id": "constitute_constitutional_organs_after_order",
+      "category": "legislative_deadline_failure",
       "actor": "Congress and appointing authorities",
       "source": "Article XIX Section 5.2A",
       "severity": "high",
@@ -80,7 +80,7 @@
     "primary_violation": null,
     "primary_bottleneck": "Congress and appointing authorities failed to constitute the Constitutional Organs on the timeline required by the Constitution by day 365 under Article XIX Section 5.2.",
     "primary_open_duty": null,
-    "system_risk": "institutional_stress",
+    "system_risk": "legislative_delay",
     "recommended_focus": "review bottlenecks, violations, and unresolved duties"
   }
 }

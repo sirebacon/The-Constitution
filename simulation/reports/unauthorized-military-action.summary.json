@@ -8,12 +8,12 @@
     "Article XVI Section 1"
   ],
   "metrics": {
-    "satisfied_obligations": 2,
+    "satisfied_obligations": 4,
     "failed_obligations": 2,
     "unresolved_obligations": 0,
     "violations": 1,
     "bottlenecks": 2,
-    "timeline_entries": 13
+    "timeline_entries": 17
   },
   "violations": [
     {
@@ -56,6 +56,20 @@
       "closed_day": 34,
       "outcome": "issued a withdrawal order",
       "source": "Article XVI Section 1.5(c)"
+    },
+    {
+      "actor": "Accountability Commission",
+      "duty": "issue a self-executing fiscal hold on appropriated funds for the unlawful operation",
+      "closed_day": 41,
+      "outcome": "issued a self-executing fiscal hold on appropriated funds for the unlawful operation",
+      "source": "Article XVI Section 1.5(d)"
+    },
+    {
+      "actor": "Secretary of the Treasury",
+      "duty": "implement the ACC fiscal hold within 24 hours",
+      "closed_day": 42,
+      "outcome": "implemented the ACC fiscal hold, cutting off appropriated funds for the unlawful operation",
+      "source": "Article XVI Section 1.5(d)"
     },
     {
       "actor": "Regional Assembly",

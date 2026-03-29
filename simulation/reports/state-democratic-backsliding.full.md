@@ -11,6 +11,7 @@ Scenario: state-democratic-backsliding.json
 - Day 220: OUTCOME - Federal elections in the state shift immediately to federally supervised administration through the Electoral Commission pending congressional action or Supreme Court certification of compliance. [Article X Section 1.6(c)]
 - Day 245: RESOLUTION - Congress held the required vote and suspended the state's representation pending Supreme Court certification of compliance. [Article X Section 1.6(c)]
 - Day 365: EVENT - The state remains in material violation one year after the Supreme Court finding. [Article X Section 1.6(d)]
+- Day 365: OUTCOME - If suspension has not already taken effect, it becomes automatic at the one-year mark under the constitutional backstop. [Article X Section 1.6(d)]
 
 ## Triggered Provisions
 - Article X Section 1.5

@@ -4,9 +4,9 @@
   "source_file": "simulation/scenarios/nuclear-first-use-circumvention.json",
   "status": "stress_point_found",
   "triggered_provisions": [
-    "Article III Section 4.4",
     "Article XVI Section 3.1",
-    "Article XVI Section 3.2"
+    "Article XVI Section 3.2",
+    "Article XVI Section 3.3"
   ],
   "metrics": {
     "satisfied_obligations": 3,
@@ -14,14 +14,14 @@
     "unresolved_obligations": 0,
     "violations": 1,
     "bottlenecks": 0,
-    "timeline_entries": 11
+    "timeline_entries": 10
   },
   "violations": [
     {
-      "id": "removal_to_circumvent_nuclear_safeguard",
+      "id": "president_fires_to_circumvent_nuclear_guardrail",
       "category": "executive_defiance",
       "actor": "President",
-      "source": "Article XVI Section 3.1 and Article III Section 4.4",
+      "source": "Article XVI Section 3.1 and Section 3.2",
       "severity": "high",
       "day": 1,
       "summary": "President removes the Secretary of Defense to install a replacement willing to confirm a nuclear first-use order, using the removal power to circumvent a constitutional authorization safeguard."
@@ -32,24 +32,24 @@
   "satisfied_duties": [
     {
       "actor": "Acting Secretary of Defense",
-      "duty": "confirm or refuse the nuclear first-use order",
+      "duty": "refuse to validate the unconstitutional nuclear first-use order notwithstanding the replacement pressure",
       "closed_day": 2,
-      "outcome": "also refused to confirm the nuclear first-use order; the launch remains blocked",
-      "source": "Article XVI Section 3.1"
+      "outcome": "also refused to validate the unconstitutional nuclear first-use order",
+      "source": "Article XVI Section 3.2"
     },
     {
       "actor": "Secretary of Defense",
-      "duty": "confirm or refuse the nuclear first-use order",
+      "duty": "refuse to confirm an unconstitutional nuclear first-use order",
       "closed_day": 0,
-      "outcome": "refused to confirm the nuclear first-use order, blocking the launch under Article XVI Section 3.1",
-      "source": "Article XVI Section 3.1"
+      "outcome": "refused to confirm the unconstitutional nuclear first-use order",
+      "source": "Article XVI Section 3.2"
     },
     {
       "actor": "Secretary of State",
-      "duty": "confirm or refuse the nuclear first-use order",
+      "duty": "refuse to countersign or support an unconstitutional nuclear first-use order",
       "closed_day": 0,
-      "outcome": "refused to confirm the nuclear first-use order",
-      "source": "Article XVI Section 3.1"
+      "outcome": "refused to support the unconstitutional nuclear first-use order",
+      "source": "Article XVI Section 3.3"
     }
   ],
   "failed_duties": [],

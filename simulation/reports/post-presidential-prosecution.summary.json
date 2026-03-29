@@ -13,7 +13,7 @@
     "unresolved_obligations": 0,
     "violations": 0,
     "bottlenecks": 0,
-    "timeline_entries": 6
+    "timeline_entries": 5
   },
   "violations": [],
   "bottlenecks": [],
@@ -21,9 +21,9 @@
   "satisfied_duties": [
     {
       "actor": "Federal courts",
-      "duty": "rule on the former President's immunity claim",
+      "duty": "reject the residual immunity claim asserted by the former President",
       "closed_day": 15,
-      "outcome": "rejected the post-presidential immunity claim; Article III Section 15.6 provides no such immunity and prosecution proceeds",
+      "outcome": "rejected the former President's residual immunity claim and allowed prosecution to proceed",
       "source": "Article III Section 15.6"
     }
   ],
