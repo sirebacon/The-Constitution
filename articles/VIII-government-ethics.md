@@ -75,7 +75,11 @@ The investment rules of Sections 1.8 through 1.11 apply to:
 
 The rules apply from the date the official takes office or, for staff, from the date of appointment to a covered position. Congress may extend reasonable post-service rules where necessary to prevent evasion.
 
-### 1.13 — Prohibition on use of government resources for campaign purposes
+### 1.13 — Beneficial ownership disclosure for federal contractors
+
+Congress shall require entities seeking major federal contracts, concessions, or control of assets in sectors designated by law as critical to national security or constitutional government operations to disclose their beneficial owners with sufficient particularity to identify any foreign government, foreign national, or foreign-controlled entity with a substantial interest. No such contract or concession may be awarded to an entity that cannot verify its beneficial ownership to the required standard. The Accountability Commission shall maintain a searchable registry of beneficial ownership disclosures for covered federal contractors and report annually on foreign-linked holdings in designated sectors.
+
+### 1.14 — Prohibition on use of government resources for campaign purposes
 
 No federal official and no federal employee may use government staff, facilities, equipment, communications systems, or funds paid for by taxpayers for any activity whose primary purpose is to support or oppose a candidate, political party, or ballot measure. This prohibition applies to:
 

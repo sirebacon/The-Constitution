@@ -1,0 +1,24 @@
+{
+  "id": "contractor-foreign-beneficial-ownership",
+  "title": "Federal Contractor with Undisclosed Foreign Beneficial Owner",
+  "description": "A foreign-state-linked entity wins a major federal contract for sensitive telecommunications infrastructure while concealing its beneficial ownership. Post-award investigation confirms the hidden foreign-government control. The scenario tests whether Art VIII §1.13 allows the ACC and procurement system to reach the concealed ownership even without proving a separate bribery offense by a federal official.",
+  "articles_tested": ["Article VIII", "Article XIII"],
+  "provisions_tested": ["Article VIII Section 1.13", "Article XIII Section 9.3"],
+  "events": [
+    {
+      "day": 1,
+      "type": "entity_with_foreign_beneficial_owner_wins_federal_contract",
+      "actor": "Federal contractor",
+      "details": {
+        "entity": "NovaTel Infrastructure Corp",
+        "sector": "federal agency telecommunications infrastructure"
+      }
+    },
+    {
+      "day": 40,
+      "type": "acc_finds_no_corrupt_official_but_foreign_ownership",
+      "actor": "Accountability Commission",
+      "details": {}
+    }
+  ]
+}

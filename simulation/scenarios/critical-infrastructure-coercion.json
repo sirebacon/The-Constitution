@@ -1,0 +1,30 @@
+{
+  "id": "critical-infrastructure-coercion",
+  "title": "Foreign Acquisition of Critical Infrastructure",
+  "description": "A foreign-state-linked company acquires controlling ownership of a major domestic telecommunications carrier. Congress invokes statutory national security review, finds a threat to constitutional governance, and orders divestiture. The scenario tests the new Art XIII §12 anchor for continuity and integrity standards governing critical civilian infrastructure.",
+  "articles_tested": ["Article XIII"],
+  "provisions_tested": ["Article XIII Section 12"],
+  "events": [
+    {
+      "day": 1,
+      "type": "foreign_entity_gains_critical_sector_control",
+      "actor": "Foreign-state-linked company",
+      "details": {
+        "entity": "Meridian Global Networks",
+        "sector": "the nation's second-largest domestic telecommunications carrier"
+      }
+    },
+    {
+      "day": 75,
+      "type": "congress_orders_critical_sector_divestiture",
+      "actor": "Congress",
+      "details": {}
+    },
+    {
+      "day": 240,
+      "type": "divestiture_completed",
+      "actor": "Meridian Global Networks",
+      "details": {}
+    }
+  ]
+}

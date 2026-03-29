@@ -153,6 +153,15 @@ Status markers: `[x]` implemented — `[ ]` planned.
 | N3 | [ ] Arbitrary Homelessness / Shelter Floor Failure | `housing-floor-failure.json` | Art. XVIII §2.3, §2.4 | Government withdraws shelter protections and leaves a class of people destitute without replacement | Court preserves against backsliding and requires a constitutionally sufficient remedy |
 | N4 | [ ] Child Welfare Proceeding Without Independent Representation | `child-welfare-no-independent-representation.json` | Art. XVIII §4.5, §4.6 | Child custody or placement is adjudicated without independent representation or stated reasons for overriding a mature child's view | Court vacates or remands for constitutionally sufficient process |
 
+## Category O — Oligarchic Pressure and Strategic Resilience
+
+| # | Scenario | File | Provision | Stress Path | Expected Outcome |
+|---|----------|------|-----------|-------------|-----------------|
+| O1 | [x] Foreign Influence via Shell Entity Political Messaging | `foreign-influence-shell-funding.json` | Art. VI §5.1, §5.3, §5.5 | Foreign government routes destabilizing political messaging through a domestic shell entity | ACC pierces the conduit, orders sponsor disclosure, and penalizes the operation |
+| O2 | [x] Federal Contractor with Concealed Foreign Beneficial Ownership | `contractor-foreign-beneficial-ownership.json` | Art. VIII §1.13; Art. XIII §9.3 | Foreign-state-linked entity conceals beneficial ownership while seeking sensitive federal contract | Concealed ownership itself becomes disqualifying even without separate bribery proof |
+| O3 | [x] Foreign Acquisition of Critical Infrastructure | `critical-infrastructure-coercion.json` | Art. XIII §12 | Foreign-state-linked company acquires major telecom carrier | Congress orders divestiture under explicit critical-infrastructure continuity authority |
+| O4 | [x] Deliberate Destruction of Public Records During Transition | `records-destruction-transition.json` | Art. XIX §6.5; Art. VI §1.1 | Outgoing officials destroy or conceal non-electoral federal records during transition | ACC prosecutes the destruction directly as anti-subversion conduct |
+
 ---
 
 ## Implementation Notes

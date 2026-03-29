@@ -121,6 +121,12 @@ All persons acting as agents of a foreign government or foreign political party 
 
 No candidate or campaign official who receives an offer of foreign assistance in connection with a federal election may accept, act upon, or fail to report that offer. Receipt of foreign electoral assistance without reporting it is a violation of Section 1.1 of this Article. Receiving a foreign offer and failing to report it within 24 hours constitutes "acting upon" it for purposes of this Section. Willful blindness as to the foreign origin of an offer is not a defense.
 
+### 5.5 — Shell entities and covert foreign political influence
+
+No person or entity may serve as a conduit to route foreign political funding, direction, or sponsorship in a manner that would be prohibited under this Section if engaged in directly by a foreign government, foreign national, or foreign-controlled entity. The domestic legal form of an intermediary does not determine whether the underlying activity constitutes foreign political interference under this Article.
+
+Congress shall require disclosure of the ultimate beneficial sponsor of mass political communications where there is reasonable basis to believe the communication is funded, directed, or materially sponsored by a foreign source. This requirement extends to political communications beyond formal campaign expenditures where those communications are directed at the domestic public on matters of federal governance, elections, or constitutional legitimacy.
+
 ---
 
 ## Section 6 — Lobbying and Access

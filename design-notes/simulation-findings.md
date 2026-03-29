@@ -2,6 +2,72 @@
 
 This document records conclusions drawn from the constitutional flow simulator and its generated reports. Each entry should cite the relevant scenario outputs so recurring bottlenecks can be tracked over time.
 
+## 2026-03-29 Oligarchic-Resilience Coverage Pass
+
+### Inputs Reviewed
+
+- [aggregate.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/aggregate.json)
+- [foreign-influence-shell-funding.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/foreign-influence-shell-funding.summary.json)
+- [contractor-foreign-beneficial-ownership.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/contractor-foreign-beneficial-ownership.summary.json)
+- [critical-infrastructure-coercion.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/critical-infrastructure-coercion.summary.json)
+- [records-destruction-transition.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/records-destruction-transition.summary.json)
+
+### Aggregate Read
+
+- Scenario count rises by four once the resilience set is included.
+- `unresolved_obligations` remains `0`.
+- The new scenarios do not expose missing constitutional machinery; they validate the targeted additions in Articles VI, VIII, XIII, and XIX.
+
+### Main Results
+
+#### 1. Shell routing no longer defeats the foreign-influence rule
+
+Source:
+- [foreign-influence-shell-funding.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/foreign-influence-shell-funding.summary.json)
+
+- A foreign government routes destabilizing political messaging through a domestic shell entity.
+- The Accountability Commission orders disclosure of the ultimate sponsor and penalizes the operation.
+- The key move is direct reliance on Article VI Section 5.5 rather than only on a foreign-agent-registration theory.
+
+Assessment:
+The foreign-influence hardening works as intended. The next useful edge case is foreign-linked platform or media-control influence rather than simple shell routing.
+
+#### 2. Contractor beneficial-ownership concealment is now directly reachable
+
+Source:
+- [contractor-foreign-beneficial-ownership.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/contractor-foreign-beneficial-ownership.summary.json)
+
+- A foreign-state-linked entity conceals beneficial ownership while seeking sensitive federal work.
+- The Accountability Commission confirms the concealed ownership even though no bribery offense by a federal official is proved.
+- The constitutional foothold is now Article VIII Section 1.13 rather than a strained attempt to force the case into an official-corruption theory.
+
+Assessment:
+This is a real resilience gain. The constitutional question is now less “can the system reach it at all?” and more “how much implementation detail should remain in the constitutional clause?”
+
+#### 3. Critical infrastructure continuity now has a clean constitutional anchor
+
+Source:
+- [critical-infrastructure-coercion.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/critical-infrastructure-coercion.summary.json)
+
+- A foreign-state-linked company acquires controlling ownership of a major telecom carrier.
+- Congress orders divestiture under statutory authority.
+- The scenario resolves cleanly because Article XIII Section 12 now gives explicit constitutional support for continuity and integrity standards in critical civilian infrastructure.
+
+Assessment:
+The main gap is closed. The next stress cases should involve more ambiguous ownership structures, capital flight, or platform dependence rather than outright acquisition.
+
+#### 4. Transition-record destruction is now directly anti-subversion conduct
+
+Source:
+- [records-destruction-transition.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/records-destruction-transition.summary.json)
+
+- Outgoing officials destroy or conceal non-electoral public records during transition.
+- The Accountability Commission prosecutes under Article XIX Section 6.5 and Article VI Section 1.1.
+- The system no longer has to rely on a stretched election-records-only theory or a generalized obstruction theory.
+
+Assessment:
+This closes a real continuity and accountability vulnerability. The next useful scenario would be broader administrative sabotage short of outright destruction.
+
 ## 2026-03-29 Article IV and Article V Coverage Pass
 
 ### Inputs Reviewed

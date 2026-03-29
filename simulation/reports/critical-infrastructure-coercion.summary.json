@@ -1,0 +1,46 @@
+{
+  "scenario_id": "critical-infrastructure-coercion",
+  "title": "Foreign Acquisition of Critical Infrastructure",
+  "source_file": "simulation/scenarios/critical-infrastructure-coercion.json",
+  "status": "clean",
+  "triggered_provisions": [
+    "Article XIII Section 12",
+    "Article XVI"
+  ],
+  "metrics": {
+    "satisfied_obligations": 2,
+    "failed_obligations": 0,
+    "unresolved_obligations": 0,
+    "violations": 0,
+    "bottlenecks": 0,
+    "timeline_entries": 7
+  },
+  "violations": [],
+  "bottlenecks": [],
+  "open_duties": [],
+  "satisfied_duties": [
+    {
+      "actor": "Congress",
+      "duty": "invoke statutory national security review authority and, if the review finds a threat to constitutional governance, direct divestiture or remedial measures",
+      "closed_day": 75,
+      "outcome": "enacted legislation directing divestiture of the foreign-controlled carrier based on documented threat to critical infrastructure supporting constitutional government operations",
+      "source": "Article XIII Section 12 and Article XVI"
+    },
+    {
+      "actor": "Acquiring entity",
+      "duty": "complete the court-supervised divestiture of the critical infrastructure carrier within the period set by Congress",
+      "closed_day": 240,
+      "outcome": "completed the court-supervised divestiture of the critical infrastructure carrier",
+      "source": "Article XIII Section 12 and implementing law"
+    }
+  ],
+  "failed_duties": [],
+  "notes": [],
+  "ai_summary": {
+    "primary_violation": null,
+    "primary_bottleneck": null,
+    "primary_open_duty": null,
+    "system_risk": "none",
+    "recommended_focus": "no immediate constitutional flow issue detected in this scenario"
+  }
+}

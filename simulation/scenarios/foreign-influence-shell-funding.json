@@ -1,0 +1,30 @@
+{
+  "id": "foreign-influence-shell-funding",
+  "title": "Foreign Influence Operation — Shell Entity Political Messaging",
+  "description": "A foreign government funds a domestic shell entity to run mass political messaging designed to destabilize public confidence in democratic institutions. The ACC investigates, orders disclosure of the ultimate sponsor, and penalizes the operation under the shell-entity and covert foreign influence rule in Art VI §5.5.",
+  "articles_tested": ["Article VI"],
+  "provisions_tested": ["Article VI Section 5.1", "Article VI Section 5.3", "Article VI Section 5.5"],
+  "events": [
+    {
+      "day": 1,
+      "type": "foreign_shell_entity_funds_political_messaging",
+      "actor": "Domestic shell entity",
+      "details": {
+        "entity": "Patriot Voice LLC",
+        "sponsor": "a foreign government intelligence service"
+      }
+    },
+    {
+      "day": 25,
+      "type": "acc_orders_foreign_shell_disclosure",
+      "actor": "Accountability Commission",
+      "details": {}
+    },
+    {
+      "day": 38,
+      "type": "foreign_shell_entity_penalized",
+      "actor": "Accountability Commission",
+      "details": {}
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "scenario_id": "foreign-influence-shell-funding",
+  "title": "Foreign Influence Operation \u2014 Shell Entity Political Messaging",
+  "source_file": "simulation/scenarios/foreign-influence-shell-funding.json",
+  "status": "stress_point_found",
+  "triggered_provisions": [
+    "Article VI Section 5.1",
+    "Article VI Section 5.3",
+    "Article VI Section 5.5"
+  ],
+  "metrics": {
+    "satisfied_obligations": 2,
+    "failed_obligations": 0,
+    "unresolved_obligations": 0,
+    "violations": 1,
+    "bottlenecks": 0,
+    "timeline_entries": 8
+  },
+  "violations": [
+    {
+      "id": "foreign_shell_political_messaging",
+      "category": "foreign_interference",
+      "actor": "Patriot Voice LLC",
+      "source": "Article VI Section 5.1(d), Section 5.3, and Section 5.5",
+      "severity": "high",
+      "day": 1,
+      "summary": "Patriot Voice LLC, covertly funded and directed by a foreign government intelligence service, runs mass political messaging designed to destabilize public confidence in democratic institutions. Article VI Section 5.5 now pierces domestic conduits used to route foreign political funding, direction, or sponsorship and extends disclosure beyond formal campaign spending to mass political communications directed at the domestic public on matters of governance, elections, or constitutional legitimacy."
+    }
+  ],
+  "bottlenecks": [],
+  "open_duties": [],
+  "satisfied_duties": [
+    {
+      "actor": "Accountability Commission",
+      "duty": "investigate whether the shell entity is acting as a conduit for prohibited foreign political funding or direction, order disclosure of the ultimate beneficial sponsor, and determine whether the messaging violates Article VI Section 5.1(d), Section 5.3, or Section 5.5",
+      "closed_day": 25,
+      "outcome": "investigated the shell entity, found it to be acting as a conduit for foreign political sponsorship under Article VI Section 5.5, and ordered public disclosure of the ultimate foreign sponsor",
+      "source": "Article VI Section 5.1, Section 5.3, and Section 5.5"
+    },
+    {
+      "actor": "Accountability Commission",
+      "duty": "impose civil and criminal penalties on the foreign sponsor and the shell entity operators under Article VI Section 5.1, Section 5.3, and Section 5.5",
+      "closed_day": 38,
+      "outcome": "imposed civil penalties and referred the foreign sponsor's domestic operators for criminal prosecution under Article VI Section 5.1 and Section 5.3",
+      "source": "Article VI Section 5.1, Section 5.3, and Section 5.5"
+    }
+  ],
+  "failed_duties": [],
+  "notes": [],
+  "ai_summary": {
+    "primary_violation": "Patriot Voice LLC, covertly funded and directed by a foreign government intelligence service, runs mass political messaging designed to destabilize public confidence in democratic institutions. Article VI Section 5.5 now pierces domestic conduits used to route foreign political funding, direction, or sponsorship and extends disclosure beyond formal campaign spending to mass political communications directed at the domestic public on matters of governance, elections, or constitutional legitimacy.",
+    "primary_bottleneck": null,
+    "primary_open_duty": null,
+    "system_risk": "institutional_stress",
+    "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+  }
+}

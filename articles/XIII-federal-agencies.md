@@ -169,3 +169,11 @@ Disagreement with an agency's regulatory decisions, enforcement choices, rulemak
 **11.4 — Public accounting.** Law shall provide public accounting of political appointments and independent review sufficient to enforce this Section. Congress shall establish by law the categories of political appointment, and the President may not create new categories beyond those established by law.
 
 ---
+
+## Section 12 — Critical Infrastructure Continuity
+
+**12.1** Congress may establish continuity and integrity standards for elections infrastructure, power and energy systems, telecommunications networks, ports and logistics, payment systems, and public-health supply chains where their failure or hostile control would materially impair the capacity of constitutional institutions to function or of citizens to exercise constitutional rights. Standards established under this Section are subject to public accountability, congressional oversight, and the judicial review provisions of Article IV.
+
+**12.2** Nothing in this Section authorizes open-ended military control of civilian infrastructure. Emergency measures authorized under this Section are subject to the limitations on emergency powers in Article III, the civil liberties protections of Article V, and independent judicial review. The President may take emergency action under this Section only within authority expressly granted by statute, subject to congressional approval on the timeline required by Article III.
+
+---

@@ -1,18 +1,18 @@
 {
-  "scenario_count": 45,
-  "stress_point_scenarios": 44,
+  "scenario_count": 49,
+  "stress_point_scenarios": 47,
   "totals": {
-    "violations": 37,
+    "violations": 40,
     "bottlenecks": 30,
     "unresolved_obligations": 0
   },
   "risk_pattern_counts": [
     {
-      "risk": "executive_defiance",
-      "count": 18
+      "risk": "institutional_stress",
+      "count": 21
     },
     {
-      "risk": "institutional_stress",
+      "risk": "executive_defiance",
       "count": 18
     },
     {
@@ -20,11 +20,11 @@
       "count": 7
     },
     {
-      "risk": "democratic_backsliding",
-      "count": 1
+      "risk": "none",
+      "count": 2
     },
     {
-      "risk": "none",
+      "risk": "democratic_backsliding",
       "count": 1
     }
   ],
@@ -68,6 +68,10 @@
       "count": 3
     },
     {
+      "category": "anti_subversion",
+      "count": 1
+    },
+    {
       "category": "caste_hierarchy",
       "count": 1
     },
@@ -81,6 +85,14 @@
     },
     {
       "category": "federalism_breach",
+      "count": 1
+    },
+    {
+      "category": "foreign_capture_risk",
+      "count": 1
+    },
+    {
+      "category": "foreign_interference",
       "count": 1
     },
     {
@@ -350,7 +362,27 @@
       "count": 1
     },
     {
+      "provision": "Article VI Section 1.1",
+      "count": 1
+    },
+    {
+      "provision": "Article VI Section 5.1",
+      "count": 1
+    },
+    {
+      "provision": "Article VI Section 5.3",
+      "count": 1
+    },
+    {
+      "provision": "Article VI Section 5.5",
+      "count": 1
+    },
+    {
       "provision": "Article VI democratic integrity provisions",
+      "count": 1
+    },
+    {
+      "provision": "Article VIII Section 1.13",
       "count": 1
     },
     {
@@ -382,6 +414,18 @@
       "count": 1
     },
     {
+      "provision": "Article XIII Section 12",
+      "count": 1
+    },
+    {
+      "provision": "Article XIII Section 9.3",
+      "count": 1
+    },
+    {
+      "provision": "Article XIX Section 6.5",
+      "count": 1
+    },
+    {
       "provision": "Article XV Section 3.2",
       "count": 1
     },
@@ -395,6 +439,10 @@
     },
     {
       "provision": "Article XV Section 6.5",
+      "count": 1
+    },
+    {
+      "provision": "Article XVI",
       "count": 1
     },
     {
@@ -706,6 +754,55 @@
       }
     },
     {
+      "scenario_id": "contractor-foreign-beneficial-ownership",
+      "title": "Federal Contractor with Undisclosed Foreign Beneficial Owner",
+      "source_file": "simulation/scenarios/contractor-foreign-beneficial-ownership.json",
+      "status": "stress_point_found",
+      "triggered_provisions": [
+        "Article VIII Section 1.13",
+        "Article XIII Section 9.3"
+      ],
+      "metrics": {
+        "satisfied_obligations": 1,
+        "failed_obligations": 0,
+        "unresolved_obligations": 0,
+        "violations": 1,
+        "bottlenecks": 0,
+        "timeline_entries": 6
+      },
+      "violations": [
+        {
+          "id": "contractor_concealed_foreign_beneficial_ownership",
+          "category": "foreign_capture_risk",
+          "actor": "Federal contractor",
+          "source": "Article VIII Section 1.13",
+          "severity": "high",
+          "day": 40,
+          "summary": "A major federal contractor concealed foreign-government beneficial ownership while seeking sensitive federal work. Article VIII Section 1.13 now makes that concealment itself constitutionally disqualifying even where no individual federal official took a bribe or committed a separate corruption offense."
+        }
+      ],
+      "bottlenecks": [],
+      "open_duties": [],
+      "satisfied_duties": [
+        {
+          "actor": "Accountability Commission",
+          "duty": "investigate whether the contractor concealed beneficial ownership in violation of Article VIII Section 1.13 and determine whether any official also engaged in regulatory corruption under Article XIII Section 9.3",
+          "closed_day": 40,
+          "outcome": "completed the investigation, confirmed concealed foreign-government beneficial ownership, found no corrupt official, and referred the contract for invalidation based on Article VIII Section 1.13's disclosure requirement",
+          "source": "Article VIII Section 1.13 and Article XIII Section 9.3"
+        }
+      ],
+      "failed_duties": [],
+      "notes": [],
+      "ai_summary": {
+        "primary_violation": "A major federal contractor concealed foreign-government beneficial ownership while seeking sensitive federal work. Article VIII Section 1.13 now makes that concealment itself constitutionally disqualifying even where no individual federal official took a bribe or committed a separate corruption offense.",
+        "primary_bottleneck": null,
+        "primary_open_duty": null,
+        "system_risk": "institutional_stress",
+        "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+      }
+    },
+    {
       "scenario_id": "coordinated-absenteeism-required-vote",
       "title": "Coordinated Absenteeism to Defeat a Constitutionally Required Vote",
       "source_file": "simulation/scenarios/coordinated-absenteeism-required-vote.json",
@@ -948,6 +1045,52 @@
         "primary_open_duty": null,
         "system_risk": "executive_defiance",
         "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+      }
+    },
+    {
+      "scenario_id": "critical-infrastructure-coercion",
+      "title": "Foreign Acquisition of Critical Infrastructure",
+      "source_file": "simulation/scenarios/critical-infrastructure-coercion.json",
+      "status": "clean",
+      "triggered_provisions": [
+        "Article XIII Section 12",
+        "Article XVI"
+      ],
+      "metrics": {
+        "satisfied_obligations": 2,
+        "failed_obligations": 0,
+        "unresolved_obligations": 0,
+        "violations": 0,
+        "bottlenecks": 0,
+        "timeline_entries": 7
+      },
+      "violations": [],
+      "bottlenecks": [],
+      "open_duties": [],
+      "satisfied_duties": [
+        {
+          "actor": "Congress",
+          "duty": "invoke statutory national security review authority and, if the review finds a threat to constitutional governance, direct divestiture or remedial measures",
+          "closed_day": 75,
+          "outcome": "enacted legislation directing divestiture of the foreign-controlled carrier based on documented threat to critical infrastructure supporting constitutional government operations",
+          "source": "Article XIII Section 12 and Article XVI"
+        },
+        {
+          "actor": "Acquiring entity",
+          "duty": "complete the court-supervised divestiture of the critical infrastructure carrier within the period set by Congress",
+          "closed_day": 240,
+          "outcome": "completed the court-supervised divestiture of the critical infrastructure carrier",
+          "source": "Article XIII Section 12 and implementing law"
+        }
+      ],
+      "failed_duties": [],
+      "notes": [],
+      "ai_summary": {
+        "primary_violation": null,
+        "primary_bottleneck": null,
+        "primary_open_duty": null,
+        "system_risk": "none",
+        "recommended_focus": "no immediate constitutional flow issue detected in this scenario"
       }
     },
     {
@@ -1602,6 +1745,63 @@
         "primary_bottleneck": null,
         "primary_open_duty": null,
         "system_risk": "executive_defiance",
+        "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+      }
+    },
+    {
+      "scenario_id": "foreign-influence-shell-funding",
+      "title": "Foreign Influence Operation \u2014 Shell Entity Political Messaging",
+      "source_file": "simulation/scenarios/foreign-influence-shell-funding.json",
+      "status": "stress_point_found",
+      "triggered_provisions": [
+        "Article VI Section 5.1",
+        "Article VI Section 5.3",
+        "Article VI Section 5.5"
+      ],
+      "metrics": {
+        "satisfied_obligations": 2,
+        "failed_obligations": 0,
+        "unresolved_obligations": 0,
+        "violations": 1,
+        "bottlenecks": 0,
+        "timeline_entries": 8
+      },
+      "violations": [
+        {
+          "id": "foreign_shell_political_messaging",
+          "category": "foreign_interference",
+          "actor": "Patriot Voice LLC",
+          "source": "Article VI Section 5.1(d), Section 5.3, and Section 5.5",
+          "severity": "high",
+          "day": 1,
+          "summary": "Patriot Voice LLC, covertly funded and directed by a foreign government intelligence service, runs mass political messaging designed to destabilize public confidence in democratic institutions. Article VI Section 5.5 now pierces domestic conduits used to route foreign political funding, direction, or sponsorship and extends disclosure beyond formal campaign spending to mass political communications directed at the domestic public on matters of governance, elections, or constitutional legitimacy."
+        }
+      ],
+      "bottlenecks": [],
+      "open_duties": [],
+      "satisfied_duties": [
+        {
+          "actor": "Accountability Commission",
+          "duty": "investigate whether the shell entity is acting as a conduit for prohibited foreign political funding or direction, order disclosure of the ultimate beneficial sponsor, and determine whether the messaging violates Article VI Section 5.1(d), Section 5.3, or Section 5.5",
+          "closed_day": 25,
+          "outcome": "investigated the shell entity, found it to be acting as a conduit for foreign political sponsorship under Article VI Section 5.5, and ordered public disclosure of the ultimate foreign sponsor",
+          "source": "Article VI Section 5.1, Section 5.3, and Section 5.5"
+        },
+        {
+          "actor": "Accountability Commission",
+          "duty": "impose civil and criminal penalties on the foreign sponsor and the shell entity operators under Article VI Section 5.1, Section 5.3, and Section 5.5",
+          "closed_day": 38,
+          "outcome": "imposed civil penalties and referred the foreign sponsor's domestic operators for criminal prosecution under Article VI Section 5.1 and Section 5.3",
+          "source": "Article VI Section 5.1, Section 5.3, and Section 5.5"
+        }
+      ],
+      "failed_duties": [],
+      "notes": [],
+      "ai_summary": {
+        "primary_violation": "Patriot Voice LLC, covertly funded and directed by a foreign government intelligence service, runs mass political messaging designed to destabilize public confidence in democratic institutions. Article VI Section 5.5 now pierces domestic conduits used to route foreign political funding, direction, or sponsorship and extends disclosure beyond formal campaign spending to mass political communications directed at the domestic public on matters of governance, elections, or constitutional legitimacy.",
+        "primary_bottleneck": null,
+        "primary_open_duty": null,
+        "system_risk": "institutional_stress",
         "recommended_focus": "review bottlenecks, violations, and unresolved duties"
       }
     },
@@ -2730,6 +2930,55 @@
         "primary_bottleneck": "Regional Assembly presiding officer failed to bring the mandatory scheduling motion to a floor vote under Article II Section 15A.1(b).",
         "primary_open_duty": null,
         "system_risk": "legislative_delay",
+        "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+      }
+    },
+    {
+      "scenario_id": "records-destruction-transition",
+      "title": "Deliberate Destruction of Federal Records During Transition",
+      "source_file": "simulation/scenarios/records-destruction-transition.json",
+      "status": "stress_point_found",
+      "triggered_provisions": [
+        "Article VI Section 1.1",
+        "Article XIX Section 6.5"
+      ],
+      "metrics": {
+        "satisfied_obligations": 1,
+        "failed_obligations": 0,
+        "unresolved_obligations": 0,
+        "violations": 1,
+        "bottlenecks": 0,
+        "timeline_entries": 6
+      },
+      "violations": [
+        {
+          "id": "nonelectoral_records_destruction_transition",
+          "category": "anti_subversion",
+          "actor": "Outgoing administration officials",
+          "source": "Article XIX Section 6.5 and Article VI Section 1.1",
+          "severity": "high",
+          "day": 1,
+          "summary": "Outgoing administration officials destroyed or concealed non-electoral federal records during transition. Article XIX Section 6.5 makes deliberate destruction or concealment of public records during transition anti-subversion conduct and independently preserves all federal records beyond the election-records-specific protection in Article VI Section 1.2(c)."
+        }
+      ],
+      "bottlenecks": [],
+      "open_duties": [],
+      "satisfied_duties": [
+        {
+          "actor": "Accountability Commission",
+          "duty": "investigate the records destruction, determine responsibility under Article XIX Section 6.5 and Article VI Section 1.1, and prosecute responsible officials",
+          "closed_day": 28,
+          "outcome": "investigated, determined that the records destruction violated Article XIX Section 6.5 as anti-subversion conduct, and filed charges under Article VI Section 1.6",
+          "source": "Article XIX Section 6.5 and Article VI Section 1.6"
+        }
+      ],
+      "failed_duties": [],
+      "notes": [],
+      "ai_summary": {
+        "primary_violation": "Outgoing administration officials destroyed or concealed non-electoral federal records during transition. Article XIX Section 6.5 makes deliberate destruction or concealment of public records during transition anti-subversion conduct and independently preserves all federal records beyond the election-records-specific protection in Article VI Section 1.2(c).",
+        "primary_bottleneck": null,
+        "primary_open_duty": null,
+        "system_risk": "institutional_stress",
         "recommended_focus": "review bottlenecks, violations, and unresolved duties"
       }
     },

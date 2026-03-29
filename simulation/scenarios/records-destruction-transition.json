@@ -1,0 +1,24 @@
+{
+  "id": "records-destruction-transition",
+  "title": "Deliberate Destruction of Federal Records During Transition",
+  "description": "Outgoing administration officials destroy or conceal diplomatic communications and agency decision records during the transition period. The ACC investigates and prosecutes under the new transition-records rule in Art XIX §6.5, which treats deliberate destruction of public records during transition as anti-subversion conduct under Art VI §1.1.",
+  "articles_tested": ["Article VI", "Article VIII", "Article XIX"],
+  "provisions_tested": ["Article VI Section 1.1", "Article XIX Section 6.5"],
+  "events": [
+    {
+      "day": 1,
+      "type": "official_destroys_nonelectoral_records_during_transition",
+      "actor": "Outgoing administration officials",
+      "details": {
+        "actor": "Outgoing administration officials",
+        "records": "diplomatic communications, agency legal opinions, and enforcement decision records"
+      }
+    },
+    {
+      "day": 28,
+      "type": "acc_prosecutes_records_destruction",
+      "actor": "Accountability Commission",
+      "details": {}
+    }
+  ]
+}

@@ -82,6 +82,8 @@ Governs ratification, legal continuity, supersession of the prior constitutional
 
 **6.4** No outgoing officer may use emergency authority, appointment power, classified control, fiscal control, or control of records to frustrate the lawful implementation of this Constitution after ratification.
 
+**6.5** No outgoing officer or federal employee may deliberately destroy, alter, conceal, or transfer outside lawful custody any federal record, communication, or official document during a constitutional transition. Deliberate destruction or concealment of public records during transition is anti-subversion conduct under Article VI Section 1.1 and grounds for prosecution by the Accountability Commission. This provision applies to all federal records and is independent of the protections for electoral records in Article VI Section 1.2(c).
+
 ---
 
 ## Section 7 — Temporary Corrective Legislation

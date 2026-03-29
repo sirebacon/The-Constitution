@@ -1,0 +1,49 @@
+{
+  "scenario_id": "records-destruction-transition",
+  "title": "Deliberate Destruction of Federal Records During Transition",
+  "source_file": "simulation/scenarios/records-destruction-transition.json",
+  "status": "stress_point_found",
+  "triggered_provisions": [
+    "Article VI Section 1.1",
+    "Article XIX Section 6.5"
+  ],
+  "metrics": {
+    "satisfied_obligations": 1,
+    "failed_obligations": 0,
+    "unresolved_obligations": 0,
+    "violations": 1,
+    "bottlenecks": 0,
+    "timeline_entries": 6
+  },
+  "violations": [
+    {
+      "id": "nonelectoral_records_destruction_transition",
+      "category": "anti_subversion",
+      "actor": "Outgoing administration officials",
+      "source": "Article XIX Section 6.5 and Article VI Section 1.1",
+      "severity": "high",
+      "day": 1,
+      "summary": "Outgoing administration officials destroyed or concealed non-electoral federal records during transition. Article XIX Section 6.5 makes deliberate destruction or concealment of public records during transition anti-subversion conduct and independently preserves all federal records beyond the election-records-specific protection in Article VI Section 1.2(c)."
+    }
+  ],
+  "bottlenecks": [],
+  "open_duties": [],
+  "satisfied_duties": [
+    {
+      "actor": "Accountability Commission",
+      "duty": "investigate the records destruction, determine responsibility under Article XIX Section 6.5 and Article VI Section 1.1, and prosecute responsible officials",
+      "closed_day": 28,
+      "outcome": "investigated, determined that the records destruction violated Article XIX Section 6.5 as anti-subversion conduct, and filed charges under Article VI Section 1.6",
+      "source": "Article XIX Section 6.5 and Article VI Section 1.6"
+    }
+  ],
+  "failed_duties": [],
+  "notes": [],
+  "ai_summary": {
+    "primary_violation": "Outgoing administration officials destroyed or concealed non-electoral federal records during transition. Article XIX Section 6.5 makes deliberate destruction or concealment of public records during transition anti-subversion conduct and independently preserves all federal records beyond the election-records-specific protection in Article VI Section 1.2(c).",
+    "primary_bottleneck": null,
+    "primary_open_duty": null,
+    "system_risk": "institutional_stress",
+    "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+  }
+}
