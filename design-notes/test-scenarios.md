@@ -22,7 +22,7 @@ Status markers: `[x]` implemented — `[ ]` planned.
 | # | Scenario | File | Provision | Stress Path | Expected Outcome |
 |---|----------|------|-----------|-------------|-----------------|
 | B1 | [x] Congressional Subpoena Defiance | `congressional-subpoena-defiance.json` | Art. II §16.2, §16.5 | Senior official defies subpoena; contempt not referred promptly | Violation; ACC prosecution chain |
-| B2 | [x] Budget Deadlock — Automatic CR | `budget-deadlock-cr.json` | Art. II §12.2, §12.3 | Congress misses Oct 1 deadline; executive attempts selective CR funding | CR self-executes; court blocks manipulation |
+| B2 | [x] Budget Deadlock — Automatic CR | `budget-deadlock-cr.json` | Art. XV §3.2, §3.3 | Congress misses Oct 1 deadline; executive attempts selective CR funding | CR self-executes; court blocks manipulation |
 | B3 | [x] Single-Subject Challenge | `single-subject-challenge.json` | Art. II §10.7A | Omnibus bill with unrelated riders passes both chambers | Supreme Court voids bill; returned for redrafting |
 | B4 | [x] Perjury Before Congress | `perjury-before-congress.json` | Art. II §16.4 | Senior official gives known false testimony; DOJ declines to prosecute | ACC jurisdiction; automatic removal on conviction |
 
@@ -41,10 +41,10 @@ Status markers: `[x]` implemented — `[ ]` planned.
 
 | # | Scenario | File | Provision | Stress Path | Expected Outcome |
 |---|----------|------|-----------|-------------|-----------------|
-| D1 | [x] Nuclear First-Use Circumvention | `nuclear-first-use-circumvention.json` | Art. XI §3.1 | SecDef refuses first-use order; President fires him to find compliant replacement | Violation; acting SecDef also refuses; launch blocked |
-| D2 | [x] Covert Operation Against US Citizen Without Warrant | `covert-operation-against-citizen.json` | Art. XI §5.2 | CIA orders lethal strike on citizen; warrant denied as capture is feasible | Operation blocked; ACC prosecution if proceeds anyway |
-| D3 | [x] Unauthorized Military Action (existing) | `unauthorized-military-action.json` | Art. XI §1 | Congress misses AUMF window; President ignores withdrawal order | House fallback; Regional Assembly trial |
-| D4 | [x] PMC Substitution for Authorized Forces | `pmc-substitution.json` | Art. XI §4.4 | Congress denies AUMF; President deploys PMCs as substitute | Violation; expedited impeachment chain |
+| D1 | [x] Nuclear First-Use Circumvention | `nuclear-first-use-circumvention.json` | Art. XVI §3.1 | SecDef refuses first-use order; President fires him to find compliant replacement | Violation; acting SecDef also refuses; launch blocked |
+| D2 | [x] Covert Operation Against US Citizen Without Warrant | `covert-operation-against-citizen.json` | Art. XVI §5.2 | CIA orders lethal strike on citizen; warrant denied as capture is feasible | Operation blocked; ACC prosecution if proceeds anyway |
+| D3 | [x] Unauthorized Military Action (existing) | `unauthorized-military-action.json` | Art. XVI §1 | Congress misses AUMF window; President ignores withdrawal order | House fallback; Regional Assembly trial |
+| D4 | [x] PMC Substitution for Authorized Forces | `pmc-substitution.json` | Art. XVI §4.4 | Congress denies AUMF; President deploys PMCs as substitute | Violation; expedited impeachment chain |
 
 ---
 
@@ -67,7 +67,7 @@ Status markers: `[x]` implemented — `[ ]` planned.
 |---|----------|------|-----------|-------------|-----------------|
 | F1 | [x] Foreign Cyber Election Crisis (existing) | `foreign-cyber-election-crisis.json` | Art. I, V, VII, XI, XIV | Foreign hack; President attempts direct state takeover and speech suppression | Violations; courts block; non-military response used |
 | F2 | [x] Electoral Certification Obstruction | `electoral-certification-obstruction.json` | Art. VI §1, Art. III §13 | President-elect certified; outgoing president refuses transition cooperation | Anti-subversion prosecution; transition proceeds |
-| F3 | [x] Domestic Deployment Against Protest (existing) | `domestic-deployment-against-protest.json` | Art. XI §7, §8 | Protest misclassified as rebellion; troops deployed | Courts reject deployment; service members refuse |
+| F3 | [x] Domestic Deployment Against Protest (existing) | `domestic-deployment-against-protest.json` | Art. XVI §7, §8 | Protest misclassified as rebellion; troops deployed | Courts reject deployment; service members refuse |
 
 ---
 
@@ -75,8 +75,8 @@ Status markers: `[x]` implemented — `[ ]` planned.
 
 | # | Scenario | File | Provision | Stress Path | Expected Outcome |
 |---|----------|------|-----------|-------------|-----------------|
-| G1 | [x] State Democratic Backsliding (existing) | `state-democratic-backsliding.json` | Art. VII §1.5, §1.6 | State dismantles free elections; Congress misses remedy deadline | Federal election administration; representation suspension |
-| G2 | [x] Federal Commandeering of State Officials | `federal-commandeering.json` | Art. VII §1.2 | Congress statute requires state executives to implement federal program | Courts void the commandeering statute |
+| G1 | [x] State Democratic Backsliding (existing) | `state-democratic-backsliding.json` | Art. X §1.5, §1.6 | State dismantles free elections; Congress misses remedy deadline | Federal election administration; representation suspension |
+| G2 | [x] Federal Commandeering of State Officials | `federal-commandeering.json` | Art. X §1.2 | Congress statute requires state executives to implement federal program | Courts void the commandeering statute |
 
 ---
 
@@ -110,7 +110,7 @@ Status markers: `[x]` implemented — `[ ]` planned.
 
 | # | Scenario | File | Provision | Stress Path | Expected Outcome |
 |---|----------|------|-----------|-------------|-----------------|
-| K1 | [x] Warrantless Domestic Surveillance | `warrantless-surveillance.json` | Art. V §4, Art. XI §8 | Intelligence agency conducts warrantless surveillance of domestic political groups | Violation; court orders halt; ACC prosecution |
+| K1 | [x] Warrantless Domestic Surveillance | `warrantless-surveillance.json` | Art. V §5, Art. XV §6.5, Art. XVII §4.7 | Intelligence agency conducts warrantless surveillance of domestic political groups | Violation; court orders halt; ACC prosecution |
 
 ---
 

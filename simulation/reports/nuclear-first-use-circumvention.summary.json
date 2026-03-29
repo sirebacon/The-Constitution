@@ -5,8 +5,8 @@
   "status": "stress_point_found",
   "triggered_provisions": [
     "Article III Section 4.4",
-    "Article XI Section 3.1",
-    "Article XI Section 3.2"
+    "Article XVI Section 3.1",
+    "Article XVI Section 3.2"
   ],
   "metrics": {
     "satisfied_obligations": 3,
@@ -21,7 +21,7 @@
       "id": "removal_to_circumvent_nuclear_safeguard",
       "category": "executive_defiance",
       "actor": "President",
-      "source": "Article XI Section 3.1 and Article III Section 4.4",
+      "source": "Article XVI Section 3.1 and Article III Section 4.4",
       "severity": "high",
       "day": 1,
       "summary": "President removes the Secretary of Defense to install a replacement willing to confirm a nuclear first-use order, using the removal power to circumvent a constitutional authorization safeguard."
@@ -35,21 +35,21 @@
       "duty": "confirm or refuse the nuclear first-use order",
       "closed_day": 2,
       "outcome": "also refused to confirm the nuclear first-use order; the launch remains blocked",
-      "source": "Article XI Section 3.1"
+      "source": "Article XVI Section 3.1"
     },
     {
       "actor": "Secretary of Defense",
       "duty": "confirm or refuse the nuclear first-use order",
       "closed_day": 0,
-      "outcome": "refused to confirm the nuclear first-use order, blocking the launch under Article XI Section 3.1",
-      "source": "Article XI Section 3.1"
+      "outcome": "refused to confirm the nuclear first-use order, blocking the launch under Article XVI Section 3.1",
+      "source": "Article XVI Section 3.1"
     },
     {
       "actor": "Secretary of State",
       "duty": "confirm or refuse the nuclear first-use order",
       "closed_day": 0,
       "outcome": "refused to confirm the nuclear first-use order",
-      "source": "Article XI Section 3.1"
+      "source": "Article XVI Section 3.1"
     }
   ],
   "failed_duties": [],

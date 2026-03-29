@@ -39,13 +39,15 @@ A scenario passes when:
   Mapping between prose stress tests and simulator scenarios.
 - `article-iii-executive/`
   Executive abuse, accountability, emergency, and succession tests.
-- `article-vii-federalism/`
+- `article-ix-citizenship/`
+  Citizenship, naturalization, domicile, and political-membership tests.
+- `article-x-federalism/`
   Federalism, democratic-floor, preemption, and local-control tests.
-- `article-xi-war-powers/`
+- `article-xvi-war-powers/`
   War powers, cyber, nuclear, covert action, and domestic deployment tests.
-- `article-xii-campaign-finance/`
+- `article-vii-campaign-finance/`
   Political-money and election-integrity edge cases.
-- `article-xv-ethics/`
+- `article-viii-ethics/`
   Corruption, conflicts, revolving door, and civil-service abuse tests.
 - `cross-article/`
   Scenarios that hit multiple articles at once.
@@ -54,6 +56,6 @@ A scenario passes when:
 
 - Use single-article scenarios during drafting.
 - Use cross-article scenarios after any major reorganization.
-- Re-run the whole suite after large revisions to Articles III, VII, XI, XII, XIV, or XV.
+- Re-run the whole suite after large revisions to Articles III, VII, VIII, X, XVI, or XVII.
 - Record failures in `design-notes/improvement-queue.md` when they indicate a real drafting gap.
 - Use [design-notes/stress-test-conversion-plan.md](/Users/chris/Documents/GitHub/The-Constitution/design-notes/stress-test-conversion-plan.md) to decide whether a prose stress test should also become a simulator scenario.

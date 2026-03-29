@@ -20,6 +20,8 @@ Establishes equal citizenship, national membership, domicile principles, oversea
 
 **1.4** Citizenship by birth or naturalization shall be defined by law consistent with this Constitution. No person born or naturalized under the laws of the United States may be denied equal constitutional standing once citizenship is lawfully recognized.
 
+**1.5** Congress shall establish by law a uniform rule of naturalization consistent with equal citizenship, due process, and this Constitution. Such law may distinguish among applicants by lawful residence, demonstrated ties, or other constitutionally sufficient criteria, but may not make naturalization permanently unavailable to any class of persons except on grounds consistent with this Constitution.
+
 ---
 
 ## Section 2 — Political Membership and Domicile

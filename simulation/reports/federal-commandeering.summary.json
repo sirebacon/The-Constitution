@@ -4,7 +4,7 @@
   "source_file": "simulation/scenarios/federal-commandeering.json",
   "status": "stress_point_found",
   "triggered_provisions": [
-    "Article VII Section 1.2"
+    "Article X Section 1.2"
   ],
   "metrics": {
     "satisfied_obligations": 1,
@@ -19,10 +19,10 @@
       "id": "federal_commandeering",
       "category": "federalism_breach",
       "actor": "Congress",
-      "source": "Article VII Section 1.2",
+      "source": "Article X Section 1.2",
       "severity": "high",
       "day": 0,
-      "summary": "Congress enacts a statute requiring state executive officials to implement and enforce a federal regulatory program, in violation of the anti-commandeering provision of Article VII Section 1.2."
+      "summary": "Congress enacts a statute requiring state executive officials to implement and enforce a federal regulatory program, in violation of the anti-commandeering provision of Article X Section 1.2."
     }
   ],
   "bottlenecks": [],
@@ -33,13 +33,13 @@
       "duty": "review and void the commandeering statute",
       "closed_day": 20,
       "outcome": "voided the commandeering statute; the federal government may not conscript state executive officials to implement federal programs",
-      "source": "Article VII Section 1.2"
+      "source": "Article X Section 1.2"
     }
   ],
   "failed_duties": [],
   "notes": [],
   "ai_summary": {
-    "primary_violation": "Congress enacts a statute requiring state executive officials to implement and enforce a federal regulatory program, in violation of the anti-commandeering provision of Article VII Section 1.2.",
+    "primary_violation": "Congress enacts a statute requiring state executive officials to implement and enforce a federal regulatory program, in violation of the anti-commandeering provision of Article X Section 1.2.",
     "primary_bottleneck": null,
     "primary_open_duty": null,
     "system_risk": "institutional_stress",

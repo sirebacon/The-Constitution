@@ -7,9 +7,9 @@
     "Article I election administration provisions",
     "Article V speech and press protections",
     "Article VI democratic integrity provisions",
-    "Article VII federalism provisions",
-    "Article XI war powers",
-    "Article XIV foreign policy and national security"
+    "Article X federalism provisions",
+    "Article XVI war powers",
+    "Article XVII foreign policy and national security"
   ],
   "metrics": {
     "satisfied_obligations": 3,
@@ -24,7 +24,7 @@
       "id": "president_attempts_direct_state_takeover",
       "category": "federalism_breach",
       "actor": "President",
-      "source": "Article I election administration provisions and Article VII federalism provisions",
+      "source": "Article I election administration provisions and Article X federalism provisions",
       "severity": "high",
       "day": 1,
       "summary": "President attempts direct federal control over state election administration outside the constitutional election framework."
@@ -44,10 +44,10 @@
   "satisfied_duties": [
     {
       "actor": "President",
-      "duty": "confine immediate response measures to non-military Article XIV authorities unless Article XI is lawfully triggered",
+      "duty": "confine immediate response measures to non-military Article XVII authorities unless Article XI is lawfully triggered",
       "closed_day": 1,
-      "outcome": "used attribution, sanctions, and other non-military countermeasures under Article XIV",
-      "source": "Article XI war powers and Article XIV foreign policy and national security"
+      "outcome": "used attribution, sanctions, and other non-military countermeasures under Article XVII",
+      "source": "Article XVI war powers and Article XVII foreign policy and national security"
     },
     {
       "actor": "Electoral Commission",

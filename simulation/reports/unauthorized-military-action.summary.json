@@ -5,7 +5,7 @@
   "status": "stress_point_found",
   "triggered_provisions": [
     "Article III Section 10",
-    "Article XI Section 1"
+    "Article XVI Section 1"
   ],
   "metrics": {
     "satisfied_obligations": 2,
@@ -20,7 +20,7 @@
       "id": "president_ignores_withdrawal_order",
       "category": "executive_defiance",
       "actor": "President",
-      "source": "Article XI Section 8(e)",
+      "source": "Article XVI Section 8(e)",
       "severity": "high",
       "day": 40,
       "summary": "President continues military operations in violation of a withdrawal order."
@@ -31,21 +31,21 @@
       "id": "congress_authorize_force",
       "category": "legislative_deadline_failure",
       "actor": "Congress",
-      "source": "Article XI Section 1",
+      "source": "Article XVI Section 1",
       "severity": "high",
       "day": 31,
       "deadline_day": 30,
-      "summary": "Congress failed to grant authorization for continued military force or refuse it by day 30 under Article XI Section 1."
+      "summary": "Congress failed to grant authorization for continued military force or refuse it by day 30 under Article XVI Section 1."
     },
     {
       "id": "house_vote_impeachment_war",
       "category": "legislative_deadline_failure",
       "actor": "House of Representatives",
-      "source": "Article XI Section 1.5(e) and Article III Section 10.2A",
+      "source": "Article XVI Section 1.5(e) and Article III Section 10.2A",
       "severity": "high",
       "day": 65,
       "deadline_day": 61,
-      "summary": "House of Representatives failed to hold a recorded impeachment vote on the unlawful continued military operation by day 61 under Article XI Section 1.5(e) and Article III Section 10.2A."
+      "summary": "House of Representatives failed to hold a recorded impeachment vote on the unlawful continued military operation by day 61 under Article XVI Section 1.5(e) and Article III Section 10.2A."
     }
   ],
   "open_duties": [],
@@ -55,7 +55,7 @@
       "duty": "issue the required withdrawal order for unauthorized continued operations",
       "closed_day": 34,
       "outcome": "issued a withdrawal order",
-      "source": "Article XI Section 1.5(c)"
+      "source": "Article XVI Section 1.5(c)"
     },
     {
       "actor": "Regional Assembly",
@@ -71,8 +71,8 @@
       "duty": "grant authorization for continued military force or refuse it",
       "deadline_day": 30,
       "closed_day": 31,
-      "outcome": "Congress failed to grant authorization for continued military force or refuse it by day 30 under Article XI Section 1.",
-      "source": "Article XI Section 1",
+      "outcome": "Congress failed to grant authorization for continued military force or refuse it by day 30 under Article XVI Section 1.",
+      "source": "Article XVI Section 1",
       "severity": "high"
     },
     {
@@ -80,15 +80,15 @@
       "duty": "hold a recorded impeachment vote on the unlawful continued military operation",
       "deadline_day": 61,
       "closed_day": 65,
-      "outcome": "House of Representatives failed to hold a recorded impeachment vote on the unlawful continued military operation by day 61 under Article XI Section 1.5(e) and Article III Section 10.2A.",
-      "source": "Article XI Section 1.5(e) and Article III Section 10.2A",
+      "outcome": "House of Representatives failed to hold a recorded impeachment vote on the unlawful continued military operation by day 61 under Article XVI Section 1.5(e) and Article III Section 10.2A.",
+      "source": "Article XVI Section 1.5(e) and Article III Section 10.2A",
       "severity": "high"
     }
   ],
   "notes": [],
   "ai_summary": {
     "primary_violation": "President continues military operations in violation of a withdrawal order.",
-    "primary_bottleneck": "Congress failed to grant authorization for continued military force or refuse it by day 30 under Article XI Section 1.",
+    "primary_bottleneck": "Congress failed to grant authorization for continued military force or refuse it by day 30 under Article XVI Section 1.",
     "primary_open_duty": null,
     "system_risk": "executive_defiance",
     "recommended_focus": "review bottlenecks, violations, and unresolved duties"

@@ -210,7 +210,7 @@ def derive_system_risk(summary_data: dict[str, Any]) -> str:
 
 
 def categorize_failed_obligation(obligation: Obligation) -> str:
-    if obligation.source.startswith("Article VII Section 1.6"):
+    if obligation.source.startswith("Article X Section 1.6"):
         return "state_backsliding"
     if obligation.actor in {"Congress", "House of Representatives", "Regional Assembly", "Speaker of the House"}:
         return "legislative_deadline_failure"
@@ -354,50 +354,50 @@ def handle_event(state: SimulationState, event: dict[str, Any]) -> None:
         )
 
     elif event_type == "supreme_court_finds_state_democratic_floor_violation":
-        state.provisions.update({"Article VII Section 1.5", "Article VII Section 1.6"})
-        state.add_entry(day, "event", "Supreme Court finds persistent and material violation of the democratic floor.", "Article VII Section 1.6(a)")
+        state.provisions.update({"Article X Section 1.5", "Article X Section 1.6"})
+        state.add_entry(day, "event", "Supreme Court finds persistent and material violation of the democratic floor.", "Article X Section 1.6(a)")
         state.add_obligation(
             "congress_state_remedy",
             "Congress",
             "enact a remedial measure for the violating state",
-            "Article VII Section 1.6(b)",
+            "Article X Section 1.6(b)",
             day,
             day + 180,
             severity="high",
         )
 
     elif event_type == "congress_fails_state_remedy":
-        state.add_entry(day, "event", "Congress fails to enact a timely remedy for the state democratic-floor violation.", "Article VII Section 1.6(b)")
+        state.add_entry(day, "event", "Congress fails to enact a timely remedy for the state democratic-floor violation.", "Article X Section 1.6(b)")
         state.fail_obligation(
             "congress_state_remedy",
             day,
-            "Congress failed to enact a remedial measure for the violating state by day 180 under Article VII Section 1.6(b).",
+            "Congress failed to enact a remedial measure for the violating state by day 180 under Article X Section 1.6(b).",
         )
         state.add_entry(
             day,
             "outcome",
             "Federal elections in the state shift immediately to federally supervised administration through the Electoral Commission pending congressional action or Supreme Court certification of compliance.",
-            "Article VII Section 1.6(c)",
+            "Article X Section 1.6(c)",
         )
         state.add_obligation(
             "congress_vote_suspend_representation",
             "Congress",
             "hold a recorded vote on suspension of the state's representation",
-            "Article VII Section 1.6(c)",
+            "Article X Section 1.6(c)",
             day,
             day + 30,
             severity="high",
         )
 
     elif event_type == "state_violation_persists_one_year":
-        state.add_entry(day, "event", "The state remains in material violation one year after the Supreme Court finding.", "Article VII Section 1.6(d)")
+        state.add_entry(day, "event", "The state remains in material violation one year after the Supreme Court finding.", "Article X Section 1.6(d)")
         vote_obligation = state.obligations.get("congress_vote_suspend_representation")
         if not vote_obligation or vote_obligation.status != "satisfied":
             state.add_entry(
                 day,
                 "outcome",
                 "The state's representation is suspended automatically until the Supreme Court certifies compliance.",
-                "Article VII Section 1.6(d)",
+                "Article X Section 1.6(d)",
             )
 
     elif event_type == "congress_suspends_representation":
@@ -423,30 +423,30 @@ def handle_event(state: SimulationState, event: dict[str, Any]) -> None:
             )
 
     elif event_type == "unauthorized_military_action_started":
-        state.provisions.update({"Article XI Section 1", "Article III Section 10"})
-        state.add_entry(day, "event", f"{actor} initiates military action without prior authorization.", "Article XI Section 1")
+        state.provisions.update({"Article XVI Section 1", "Article III Section 10"})
+        state.add_entry(day, "event", f"{actor} initiates military action without prior authorization.", "Article XVI Section 1")
         state.add_obligation(
             "congress_authorize_force",
             "Congress",
             "grant authorization for continued military force or refuse it",
-            "Article XI Section 1",
+            "Article XVI Section 1",
             day,
             day + 30,
             severity="high",
         )
 
     elif event_type == "congress_fails_aumf":
-        state.add_entry(day, "event", "Congress does not provide timely authorization for the military action.", "Article XI Section 1")
+        state.add_entry(day, "event", "Congress does not provide timely authorization for the military action.", "Article XVI Section 1")
         state.fail_obligation(
             "congress_authorize_force",
             day,
-            "Congress failed to grant authorization for continued military force or refuse it by day 30 under Article XI Section 1.",
+            "Congress failed to grant authorization for continued military force or refuse it by day 30 under Article XVI Section 1.",
         )
         state.add_obligation(
             "chief_justice_withdrawal_order",
             "Chief Justice",
             "issue the required withdrawal order for unauthorized continued operations",
-            "Article XI Section 1.5(c)",
+            "Article XVI Section 1.5(c)",
             day,
             day + 5,
             severity="high",
@@ -462,27 +462,27 @@ def handle_event(state: SimulationState, event: dict[str, Any]) -> None:
             "executive_defiance",
             "President",
             message,
-            "Article XI Section 8(e)",
+            "Article XVI Section 8(e)",
             day,
         )
         state.add_obligation(
             "house_vote_impeachment_war",
             "House of Representatives",
             "hold a recorded impeachment vote on the unlawful continued military operation",
-            "Article XI Section 1.5(e) and Article III Section 10.2A",
+            "Article XVI Section 1.5(e) and Article III Section 10.2A",
             day,
             day + 21,
             severity="high",
         )
 
     elif event_type == "president_declares_domestic_insurrection":
-        state.provisions.update({"Article XI Section 7", "Article XI Section 8", "Article V Section 1"})
-        state.add_entry(day, "event", f"{actor} declares an insurrection and orders domestic military deployment.", "Article XI Section 7")
+        state.provisions.update({"Article XVI Section 7", "Article XVI Section 8", "Article V Section 1"})
+        state.add_entry(day, "event", f"{actor} declares an insurrection and orders domestic military deployment.", "Article XVI Section 7")
         state.add_obligation(
             "court_review_domestic_deployment",
             "Federal courts",
             "review the constitutional basis for the domestic deployment",
-            "Article XI Section 7 and Section 8",
+            "Article XVI Section 7 and Section 8",
             day,
             day + 3,
             severity="high",
@@ -491,7 +491,7 @@ def handle_event(state: SimulationState, event: dict[str, Any]) -> None:
             "service_members_assess_order",
             "Service members",
             "refuse compliance with an unconstitutional domestic deployment order",
-            "Article XI Section 8",
+            "Article XVI Section 8",
             day,
             None,
             severity="high",
@@ -504,7 +504,7 @@ def handle_event(state: SimulationState, event: dict[str, Any]) -> None:
             "rights_suppression",
             "Executive branch",
             message,
-            "Article XI Section 7 and Article V Section 1",
+            "Article XVI Section 7 and Article V Section 1",
             day,
         )
         state.resolve_obligation(
@@ -526,9 +526,9 @@ def handle_event(state: SimulationState, event: dict[str, Any]) -> None:
                 "Article I election administration provisions",
                 "Article V speech and press protections",
                 "Article VI democratic integrity provisions",
-                "Article VII federalism provisions",
-                "Article XI war powers",
-                "Article XIV foreign policy and national security",
+                "Article X federalism provisions",
+                "Article XVI war powers",
+                "Article XVII foreign policy and national security",
             }
         )
         state.add_entry(
@@ -548,8 +548,8 @@ def handle_event(state: SimulationState, event: dict[str, Any]) -> None:
         state.add_obligation(
             "executive_choose_nonmilitary_response",
             "President",
-            "confine immediate response measures to non-military Article XIV authorities unless Article XI is lawfully triggered",
-            "Article XI war powers and Article XIV foreign policy and national security",
+            "confine immediate response measures to non-military Article XVII authorities unless Article XI is lawfully triggered",
+            "Article XVI war powers and Article XVII foreign policy and national security",
             day,
             day + 1,
             severity="high",
@@ -571,7 +571,7 @@ def handle_event(state: SimulationState, event: dict[str, Any]) -> None:
             "federalism_breach",
             "President",
             message,
-            "Article I election administration provisions and Article VII federalism provisions",
+            "Article I election administration provisions and Article X federalism provisions",
             day,
         )
 
@@ -597,7 +597,7 @@ def handle_event(state: SimulationState, event: dict[str, Any]) -> None:
         state.resolve_obligation(
             "executive_choose_nonmilitary_response",
             day,
-            "used attribution, sanctions, and other non-military countermeasures under Article XIV",
+            "used attribution, sanctions, and other non-military countermeasures under Article XVII",
         )
 
     elif event_type == "courts_block_speech_restriction":
@@ -894,18 +894,18 @@ def handle_event(state: SimulationState, event: dict[str, Any]) -> None:
     # --- Category D: War Powers ---
 
     elif event_type == "president_orders_nuclear_first_use":
-        state.provisions.update({"Article XI Section 3.1", "Article XI Section 3.2"})
+        state.provisions.update({"Article XVI Section 3.1", "Article XVI Section 3.2"})
         state.add_entry(
             day,
             "event",
             f"{actor} orders first use of nuclear weapons without a prior nuclear attack on the United States.",
-            "Article XI Section 3.1",
+            "Article XVI Section 3.1",
         )
         state.add_obligation(
             "secdef_confirm_nuclear_order",
             "Secretary of Defense",
             "confirm or refuse the nuclear first-use order",
-            "Article XI Section 3.1",
+            "Article XVI Section 3.1",
             day,
             day + 1,
             severity="high",
@@ -914,7 +914,7 @@ def handle_event(state: SimulationState, event: dict[str, Any]) -> None:
             "secstate_confirm_nuclear_order",
             "Secretary of State",
             "confirm or refuse the nuclear first-use order",
-            "Article XI Section 3.1",
+            "Article XVI Section 3.1",
             day,
             day + 1,
             severity="high",
@@ -924,13 +924,13 @@ def handle_event(state: SimulationState, event: dict[str, Any]) -> None:
         state.resolve_obligation(
             "secdef_confirm_nuclear_order",
             day,
-            "refused to confirm the nuclear first-use order, blocking the launch under Article XI Section 3.1",
+            "refused to confirm the nuclear first-use order, blocking the launch under Article XVI Section 3.1",
         )
         state.add_entry(
             day,
             "outcome",
-            "Nuclear first-use order cannot proceed. Under Article XI Section 3.1, the order does not proceed if either Secretary declines to confirm it.",
-            "Article XI Section 3.1",
+            "Nuclear first-use order cannot proceed. Under Article XVI Section 3.1, the order does not proceed if either Secretary declines to confirm it.",
+            "Article XVI Section 3.1",
         )
 
     elif event_type == "secretary_of_state_refuses_nuclear_order":
@@ -948,7 +948,7 @@ def handle_event(state: SimulationState, event: dict[str, Any]) -> None:
             "executive_defiance",
             "President",
             message,
-            "Article XI Section 3.1 and Article III Section 4.4",
+            "Article XVI Section 3.1 and Article III Section 4.4",
             day,
             severity="high",
         )
@@ -956,7 +956,7 @@ def handle_event(state: SimulationState, event: dict[str, Any]) -> None:
             "acting_secdef_confirm_nuclear_order",
             "Acting Secretary of Defense",
             "confirm or refuse the nuclear first-use order",
-            "Article XI Section 3.1",
+            "Article XVI Section 3.1",
             day,
             day + 1,
             severity="high",
@@ -977,7 +977,7 @@ def handle_event(state: SimulationState, event: dict[str, Any]) -> None:
             day,
             "outcome",
             "The nuclear first-use order remains blocked. The President's removal of the Secretary of Defense did not produce a compliant replacement. No authorized officer has confirmed the order.",
-            "Article XI Section 3.1",
+            "Article XVI Section 3.1",
         )
 
     # --- Category I: Presidential Recall ---
@@ -1429,14 +1429,14 @@ def handle_event(state: SimulationState, event: dict[str, Any]) -> None:
     # --- Category G: Federalism ---
 
     elif event_type == "congress_enacts_commandeering_statute":
-        state.provisions.add("Article VII Section 1.2")
-        message = "Congress enacts a statute requiring state executive officials to implement and enforce a federal regulatory program, in violation of the anti-commandeering provision of Article VII Section 1.2."
+        state.provisions.add("Article X Section 1.2")
+        message = "Congress enacts a statute requiring state executive officials to implement and enforce a federal regulatory program, in violation of the anti-commandeering provision of Article X Section 1.2."
         state.add_violation(
             "federal_commandeering",
             "federalism_breach",
             "Congress",
             message,
-            "Article VII Section 1.2",
+            "Article X Section 1.2",
             day,
             severity="high",
         )
@@ -1444,7 +1444,7 @@ def handle_event(state: SimulationState, event: dict[str, Any]) -> None:
             "court_review_commandeering",
             "Federal courts",
             "review and void the commandeering statute",
-            "Article VII Section 1.2",
+            "Article X Section 1.2",
             day,
             day + 60,
             severity="medium",
@@ -1454,8 +1454,8 @@ def handle_event(state: SimulationState, event: dict[str, Any]) -> None:
         state.add_entry(
             day,
             "event",
-            f"{actor} refuses to implement the federal program, exercising its constitutional protection against commandeering under Article VII Section 1.2.",
-            "Article VII Section 1.2",
+            f"{actor} refuses to implement the federal program, exercising its constitutional protection against commandeering under Article X Section 1.2.",
+            "Article X Section 1.2",
         )
 
     elif event_type == "court_voids_commandeering_statute":
@@ -1604,14 +1604,14 @@ def handle_event(state: SimulationState, event: dict[str, Any]) -> None:
     # --- Category K: Rights ---
 
     elif event_type == "warrantless_surveillance_conducted":
-        state.provisions.update({"Article III Section 5.3", "Article XV Section 6.5"})
-        message = "Intelligence agency conducts warrantless surveillance targeting a domestic political organization, without judicial warrant and in violation of Article III Section 5.3(d) and the prohibition on using classified appropriations for domestic political surveillance under Article XV Section 6.5."
+        state.provisions.update({"Article V Section 5.3", "Article XV Section 6.5", "Article XVII Section 4.7"})
+        message = "Intelligence agency conducts warrantless surveillance targeting a domestic political organization, in violation of Article V Section 5.3, Article XVII Section 4.7, and the prohibition on using classified appropriations for domestic political surveillance under Article XV Section 6.5."
         state.add_violation(
             "warrantless_domestic_surveillance",
             "rights_suppression",
             "Intelligence agency",
             message,
-            "Article III Section 5.3(d) and Article XV Section 6.5",
+            "Article V Section 5.3, Article XVII Section 4.7, and Article XV Section 6.5",
             day,
             severity="high",
         )
@@ -1619,7 +1619,7 @@ def handle_event(state: SimulationState, event: dict[str, Any]) -> None:
             "court_order_surveillance_halt",
             "Federal courts",
             "order an immediate halt to the warrantless domestic surveillance operation",
-            "Article III Section 5.3(d)",
+            "Article V Section 5.3 and Article XVII Section 4.7",
             day,
             day + 5,
             severity="high",
@@ -1635,7 +1635,7 @@ def handle_event(state: SimulationState, event: dict[str, Any]) -> None:
             "agency_halt_surveillance",
             "Intelligence agency",
             "cease the warrantless domestic surveillance operation in compliance with the court order",
-            "Article III Section 5.3(d)",
+            "Article V Section 5.3 and Article XVII Section 4.7",
             day,
             day + 2,
             severity="high",
@@ -1809,19 +1809,19 @@ def handle_event(state: SimulationState, event: dict[str, Any]) -> None:
     # --- Category D continued: Covert Operation Against Citizen ---
 
     elif event_type == "covert_operation_ordered_against_us_citizen":
-        state.provisions.update({"Article XI Section 5.2", "Article IV"})
+        state.provisions.update({"Article XVI Section 5.2", "Article IV"})
         state.add_entry(
             day,
             "event",
             f"{actor} orders a covert lethal operation targeting a United States citizen abroad. "
-            "Under Article XI Section 5.2, a judicial warrant issued upon probable cause is required before any such operation may proceed.",
-            "Article XI Section 5.2",
+            "Under Article XVI Section 5.2, a judicial warrant issued upon probable cause is required before any such operation may proceed.",
+            "Article XVI Section 5.2",
         )
         state.add_obligation(
             "court_issue_citizen_warrant",
             "Federal courts",
             "adjudicate the warrant application, finding probable cause of imminent specific threat and that capture is not feasible",
-            "Article XI Section 5.2",
+            "Article XVI Section 5.2",
             day,
             day + 3,
             severity="high",
@@ -1836,22 +1836,22 @@ def handle_event(state: SimulationState, event: dict[str, Any]) -> None:
         state.add_entry(
             day,
             "outcome",
-            "Without a judicial warrant under Article XI Section 5.2, no lethal covert operation against a US citizen may lawfully proceed.",
-            "Article XI Section 5.2",
+            "Without a judicial warrant under Article XVI Section 5.2, no lethal covert operation against a US citizen may lawfully proceed.",
+            "Article XVI Section 5.2",
         )
 
     elif event_type == "operation_proceeds_despite_warrant_denial":
-        state.provisions.add("Article XI Section 5.2")
+        state.provisions.add("Article XVI Section 5.2")
         message = (
             f"{actor} proceeds with a covert lethal operation against a US citizen after a court denied the required "
-            "warrant, in direct violation of Article XI Section 5.2."
+            "warrant, in direct violation of Article XVI Section 5.2."
         )
         state.add_violation(
             "unlawful_covert_operation_us_citizen",
             "executive_defiance",
             actor,
             message,
-            "Article XI Section 5.2",
+            "Article XVI Section 5.2",
             day,
             severity="high",
         )
@@ -1859,7 +1859,7 @@ def handle_event(state: SimulationState, event: dict[str, Any]) -> None:
             "acc_prosecute_covert_operation",
             "Accountability Commission",
             "open prosecution of responsible officers for the unlawful covert lethal operation against a US citizen",
-            "Article XI Section 5.2 and Article III Section 15.7",
+            "Article XVI Section 5.2 and Article III Section 15.7",
             day,
             day + 30,
             severity="high",
@@ -1875,19 +1875,19 @@ def handle_event(state: SimulationState, event: dict[str, Any]) -> None:
     # --- Category D continued: PMC Substitution ---
 
     elif event_type == "congress_denies_force_authorization":
-        state.provisions.update({"Article XI Section 1", "Article XI Section 4.4"})
+        state.provisions.update({"Article XVI Section 1", "Article XVI Section 4.4"})
         state.add_entry(
             day,
             "event",
             f"{actor} explicitly denies an Authorization for Use of Military Force. No armed operations may proceed under the denied authorization.",
-            "Article XI Section 1 and Section 4.4",
+            "Article XVI Section 1 and Section 4.4",
         )
 
     elif event_type == "president_deploys_pmcs_as_aumf_substitute":
-        state.provisions.add("Article XI Section 4.4")
+        state.provisions.add("Article XVI Section 4.4")
         message = (
             f"{actor} deploys private military contractors in a combat role to conduct the operation Congress denied, "
-            "in direct violation of Article XI Section 4.4, which prohibits using PMCs to avoid authorization "
+            "in direct violation of Article XVI Section 4.4, which prohibits using PMCs to avoid authorization "
             "requirements or to conceal the scale of US military engagement."
         )
         state.add_violation(
@@ -1895,7 +1895,7 @@ def handle_event(state: SimulationState, event: dict[str, Any]) -> None:
             "executive_defiance",
             actor,
             message,
-            "Article XI Section 4.4",
+            "Article XVI Section 4.4",
             day,
             severity="high",
         )
@@ -1910,7 +1910,7 @@ def handle_event(state: SimulationState, event: dict[str, Any]) -> None:
             "house_vote_impeachment_pmc",
             "House of Representatives",
             "hold a recorded impeachment vote on the unlawful PMC deployment used to circumvent the denied AUMF",
-            "Article III Section 10.2A and Article XI Section 4.4",
+            "Article III Section 10.2A and Article XVI Section 4.4",
             day,
             day + 21,
             severity="high",

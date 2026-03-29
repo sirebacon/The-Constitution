@@ -5,7 +5,7 @@
   "status": "stress_point_found",
   "triggered_provisions": [
     "Article IV",
-    "Article XI Section 5.2"
+    "Article XVI Section 5.2"
   ],
   "metrics": {
     "satisfied_obligations": 2,
@@ -20,10 +20,10 @@
       "id": "unlawful_covert_operation_us_citizen",
       "category": "executive_defiance",
       "actor": "CIA",
-      "source": "Article XI Section 5.2",
+      "source": "Article XVI Section 5.2",
       "severity": "high",
       "day": 2,
-      "summary": "CIA proceeds with a covert lethal operation against a US citizen after a court denied the required warrant, in direct violation of Article XI Section 5.2."
+      "summary": "CIA proceeds with a covert lethal operation against a US citizen after a court denied the required warrant, in direct violation of Article XVI Section 5.2."
     }
   ],
   "bottlenecks": [],
@@ -34,20 +34,20 @@
       "duty": "adjudicate the warrant application, finding probable cause of imminent specific threat and that capture is not feasible",
       "closed_day": 1,
       "outcome": "denied the warrant application, finding that capture remains feasible; the operation is constitutionally blocked pending a valid warrant",
-      "source": "Article XI Section 5.2"
+      "source": "Article XVI Section 5.2"
     },
     {
       "actor": "Accountability Commission",
       "duty": "open prosecution of responsible officers for the unlawful covert lethal operation against a US citizen",
       "closed_day": 5,
       "outcome": "opened prosecution of the responsible officers for conducting a covert lethal operation against a US citizen in violation of the judicial warrant requirement",
-      "source": "Article XI Section 5.2 and Article III Section 15.7"
+      "source": "Article XVI Section 5.2 and Article III Section 15.7"
     }
   ],
   "failed_duties": [],
   "notes": [],
   "ai_summary": {
-    "primary_violation": "CIA proceeds with a covert lethal operation against a US citizen after a court denied the required warrant, in direct violation of Article XI Section 5.2.",
+    "primary_violation": "CIA proceeds with a covert lethal operation against a US citizen after a court denied the required warrant, in direct violation of Article XVI Section 5.2.",
     "primary_bottleneck": null,
     "primary_open_duty": null,
     "system_risk": "executive_defiance",

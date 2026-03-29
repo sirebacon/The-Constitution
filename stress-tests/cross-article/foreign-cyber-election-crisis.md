@@ -8,14 +8,14 @@ Three weeks before a presidential election, a foreign adversary hacks voter data
 
 - Article I election administration provisions
 - Article VI democratic integrity provisions
-- Article VII federalism provisions
-- Article XI war powers
-- Article XIV foreign policy and national security
+- Article X federalism provisions
+- Article XVI war powers
+- Article XVII foreign policy and national security
 - Article V speech and press protections
 
 ## Questions
 
-1. Which responses are governed by Article XI and which by Article XIV?
+1. Which responses are governed by Article XVI and which by Article XVII?
 2. How much direct federal authority exists over state election administration in the crisis?
 3. Can suspected foreign propaganda be suppressed consistently with free-expression protections?
 4. What role do the Electoral Commission and Accountability Commission play?
@@ -23,7 +23,7 @@ Three weeks before a presidential election, a foreign adversary hacks voter data
 
 ## Expected Outcome
 
-- Military-force responses remain in Article XI; sanctions, attribution, and other non-military countermeasures remain in Article XIV.
+- Military-force responses remain in Article XVI; sanctions, attribution, and other non-military countermeasures remain in Article XVII.
 - Federal election-protection tools must operate through the constitutional election architecture rather than ad hoc executive takeover.
 - Foreign influence disclosure and platform transparency differ from direct censorship.
 - The Commissions should have identifiable, non-overlapping roles.

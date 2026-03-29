@@ -5,8 +5,8 @@
   "status": "stress_point_found",
   "triggered_provisions": [
     "Article V Section 1",
-    "Article XI Section 7",
-    "Article XI Section 8"
+    "Article XVI Section 7",
+    "Article XVI Section 8"
   ],
   "metrics": {
     "satisfied_obligations": 2,
@@ -21,7 +21,7 @@
       "id": "domestic_deployment_unlawful",
       "category": "rights_suppression",
       "actor": "Executive branch",
-      "source": "Article XI Section 7 and Article V Section 1",
+      "source": "Article XVI Section 7 and Article V Section 1",
       "severity": "high",
       "day": 2,
       "summary": "Executive branch treats protest unrest as armed rebellion and orders domestic military deployment without the required constitutional basis."
@@ -35,14 +35,14 @@
       "duty": "review the constitutional basis for the domestic deployment",
       "closed_day": 2,
       "outcome": "held that the domestic deployment lacked a constitutional basis and must cease",
-      "source": "Article XI Section 7 and Section 8"
+      "source": "Article XVI Section 7 and Section 8"
     },
     {
       "actor": "Service members",
       "duty": "refuse compliance with an unconstitutional domestic deployment order",
       "closed_day": 2,
       "outcome": "refused the unconstitutional domestic deployment order",
-      "source": "Article XI Section 8"
+      "source": "Article XVI Section 8"
     }
   ],
   "failed_duties": [],

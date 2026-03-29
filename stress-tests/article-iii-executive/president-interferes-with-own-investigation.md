@@ -7,7 +7,7 @@ The Accountability Commission opens an investigation into the President and two 
 ## Articles Implicated
 
 - Article III presidential accountability provisions
-- Article XV enforcement provisions
+- Article XII Constitutional Organs enforcement provisions
 - Article VI anti-subversion provisions
 
 ## Questions

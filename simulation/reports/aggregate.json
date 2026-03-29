@@ -94,15 +94,7 @@
       "count": 2
     },
     {
-      "provision": "Article III Section 5.3",
-      "count": 2
-    },
-    {
       "provision": "Article IX Section 3",
-      "count": 2
-    },
-    {
-      "provision": "Article XI Section 1",
       "count": 2
     },
     {
@@ -111,6 +103,10 @@
     },
     {
       "provision": "Article XIX Section 5",
+      "count": 2
+    },
+    {
+      "provision": "Article XVI Section 1",
       "count": 2
     },
     {
@@ -210,6 +206,10 @@
       "count": 1
     },
     {
+      "provision": "Article III Section 5.3",
+      "count": 1
+    },
+    {
       "provision": "Article III Section 5.4",
       "count": 1
     },
@@ -274,6 +274,10 @@
       "count": 1
     },
     {
+      "provision": "Article V Section 5.3",
+      "count": 1
+    },
+    {
       "provision": "Article V speech and press protections",
       "count": 1
     },
@@ -286,51 +290,19 @@
       "count": 1
     },
     {
-      "provision": "Article VII Section 1.2",
+      "provision": "Article X Section 1.2",
       "count": 1
     },
     {
-      "provision": "Article VII Section 1.5",
+      "provision": "Article X Section 1.5",
       "count": 1
     },
     {
-      "provision": "Article VII Section 1.6",
+      "provision": "Article X Section 1.6",
       "count": 1
     },
     {
-      "provision": "Article VII federalism provisions",
-      "count": 1
-    },
-    {
-      "provision": "Article XI Section 3.1",
-      "count": 1
-    },
-    {
-      "provision": "Article XI Section 3.2",
-      "count": 1
-    },
-    {
-      "provision": "Article XI Section 4.4",
-      "count": 1
-    },
-    {
-      "provision": "Article XI Section 5.2",
-      "count": 1
-    },
-    {
-      "provision": "Article XI Section 7",
-      "count": 1
-    },
-    {
-      "provision": "Article XI Section 8",
-      "count": 1
-    },
-    {
-      "provision": "Article XI war powers",
-      "count": 1
-    },
-    {
-      "provision": "Article XIV foreign policy and national security",
+      "provision": "Article X federalism provisions",
       "count": 1
     },
     {
@@ -347,6 +319,42 @@
     },
     {
       "provision": "Article XV Section 6.5",
+      "count": 1
+    },
+    {
+      "provision": "Article XVI Section 3.1",
+      "count": 1
+    },
+    {
+      "provision": "Article XVI Section 3.2",
+      "count": 1
+    },
+    {
+      "provision": "Article XVI Section 4.4",
+      "count": 1
+    },
+    {
+      "provision": "Article XVI Section 5.2",
+      "count": 1
+    },
+    {
+      "provision": "Article XVI Section 7",
+      "count": 1
+    },
+    {
+      "provision": "Article XVI Section 8",
+      "count": 1
+    },
+    {
+      "provision": "Article XVI war powers",
+      "count": 1
+    },
+    {
+      "provision": "Article XVII Section 4.7",
+      "count": 1
+    },
+    {
+      "provision": "Article XVII foreign policy and national security",
       "count": 1
     }
   ],
@@ -667,7 +675,7 @@
       "status": "stress_point_found",
       "triggered_provisions": [
         "Article IV",
-        "Article XI Section 5.2"
+        "Article XVI Section 5.2"
       ],
       "metrics": {
         "satisfied_obligations": 2,
@@ -682,10 +690,10 @@
           "id": "unlawful_covert_operation_us_citizen",
           "category": "executive_defiance",
           "actor": "CIA",
-          "source": "Article XI Section 5.2",
+          "source": "Article XVI Section 5.2",
           "severity": "high",
           "day": 2,
-          "summary": "CIA proceeds with a covert lethal operation against a US citizen after a court denied the required warrant, in direct violation of Article XI Section 5.2."
+          "summary": "CIA proceeds with a covert lethal operation against a US citizen after a court denied the required warrant, in direct violation of Article XVI Section 5.2."
         }
       ],
       "bottlenecks": [],
@@ -696,20 +704,20 @@
           "duty": "adjudicate the warrant application, finding probable cause of imminent specific threat and that capture is not feasible",
           "closed_day": 1,
           "outcome": "denied the warrant application, finding that capture remains feasible; the operation is constitutionally blocked pending a valid warrant",
-          "source": "Article XI Section 5.2"
+          "source": "Article XVI Section 5.2"
         },
         {
           "actor": "Accountability Commission",
           "duty": "open prosecution of responsible officers for the unlawful covert lethal operation against a US citizen",
           "closed_day": 5,
           "outcome": "opened prosecution of the responsible officers for conducting a covert lethal operation against a US citizen in violation of the judicial warrant requirement",
-          "source": "Article XI Section 5.2 and Article III Section 15.7"
+          "source": "Article XVI Section 5.2 and Article III Section 15.7"
         }
       ],
       "failed_duties": [],
       "notes": [],
       "ai_summary": {
-        "primary_violation": "CIA proceeds with a covert lethal operation against a US citizen after a court denied the required warrant, in direct violation of Article XI Section 5.2.",
+        "primary_violation": "CIA proceeds with a covert lethal operation against a US citizen after a court denied the required warrant, in direct violation of Article XVI Section 5.2.",
         "primary_bottleneck": null,
         "primary_open_duty": null,
         "system_risk": "executive_defiance",
@@ -723,8 +731,8 @@
       "status": "stress_point_found",
       "triggered_provisions": [
         "Article V Section 1",
-        "Article XI Section 7",
-        "Article XI Section 8"
+        "Article XVI Section 7",
+        "Article XVI Section 8"
       ],
       "metrics": {
         "satisfied_obligations": 2,
@@ -739,7 +747,7 @@
           "id": "domestic_deployment_unlawful",
           "category": "rights_suppression",
           "actor": "Executive branch",
-          "source": "Article XI Section 7 and Article V Section 1",
+          "source": "Article XVI Section 7 and Article V Section 1",
           "severity": "high",
           "day": 2,
           "summary": "Executive branch treats protest unrest as armed rebellion and orders domestic military deployment without the required constitutional basis."
@@ -753,14 +761,14 @@
           "duty": "review the constitutional basis for the domestic deployment",
           "closed_day": 2,
           "outcome": "held that the domestic deployment lacked a constitutional basis and must cease",
-          "source": "Article XI Section 7 and Section 8"
+          "source": "Article XVI Section 7 and Section 8"
         },
         {
           "actor": "Service members",
           "duty": "refuse compliance with an unconstitutional domestic deployment order",
           "closed_day": 2,
           "outcome": "refused the unconstitutional domestic deployment order",
-          "source": "Article XI Section 8"
+          "source": "Article XVI Section 8"
         }
       ],
       "failed_duties": [],
@@ -1118,7 +1126,7 @@
       "source_file": "simulation/scenarios/federal-commandeering.json",
       "status": "stress_point_found",
       "triggered_provisions": [
-        "Article VII Section 1.2"
+        "Article X Section 1.2"
       ],
       "metrics": {
         "satisfied_obligations": 1,
@@ -1133,10 +1141,10 @@
           "id": "federal_commandeering",
           "category": "federalism_breach",
           "actor": "Congress",
-          "source": "Article VII Section 1.2",
+          "source": "Article X Section 1.2",
           "severity": "high",
           "day": 0,
-          "summary": "Congress enacts a statute requiring state executive officials to implement and enforce a federal regulatory program, in violation of the anti-commandeering provision of Article VII Section 1.2."
+          "summary": "Congress enacts a statute requiring state executive officials to implement and enforce a federal regulatory program, in violation of the anti-commandeering provision of Article X Section 1.2."
         }
       ],
       "bottlenecks": [],
@@ -1147,13 +1155,13 @@
           "duty": "review and void the commandeering statute",
           "closed_day": 20,
           "outcome": "voided the commandeering statute; the federal government may not conscript state executive officials to implement federal programs",
-          "source": "Article VII Section 1.2"
+          "source": "Article X Section 1.2"
         }
       ],
       "failed_duties": [],
       "notes": [],
       "ai_summary": {
-        "primary_violation": "Congress enacts a statute requiring state executive officials to implement and enforce a federal regulatory program, in violation of the anti-commandeering provision of Article VII Section 1.2.",
+        "primary_violation": "Congress enacts a statute requiring state executive officials to implement and enforce a federal regulatory program, in violation of the anti-commandeering provision of Article X Section 1.2.",
         "primary_bottleneck": null,
         "primary_open_duty": null,
         "system_risk": "institutional_stress",
@@ -1236,9 +1244,9 @@
         "Article I election administration provisions",
         "Article V speech and press protections",
         "Article VI democratic integrity provisions",
-        "Article VII federalism provisions",
-        "Article XI war powers",
-        "Article XIV foreign policy and national security"
+        "Article X federalism provisions",
+        "Article XVI war powers",
+        "Article XVII foreign policy and national security"
       ],
       "metrics": {
         "satisfied_obligations": 3,
@@ -1253,7 +1261,7 @@
           "id": "president_attempts_direct_state_takeover",
           "category": "federalism_breach",
           "actor": "President",
-          "source": "Article I election administration provisions and Article VII federalism provisions",
+          "source": "Article I election administration provisions and Article X federalism provisions",
           "severity": "high",
           "day": 1,
           "summary": "President attempts direct federal control over state election administration outside the constitutional election framework."
@@ -1273,10 +1281,10 @@
       "satisfied_duties": [
         {
           "actor": "President",
-          "duty": "confine immediate response measures to non-military Article XIV authorities unless Article XI is lawfully triggered",
+          "duty": "confine immediate response measures to non-military Article XVII authorities unless Article XI is lawfully triggered",
           "closed_day": 1,
-          "outcome": "used attribution, sanctions, and other non-military countermeasures under Article XIV",
-          "source": "Article XI war powers and Article XIV foreign policy and national security"
+          "outcome": "used attribution, sanctions, and other non-military countermeasures under Article XVII",
+          "source": "Article XVI war powers and Article XVII foreign policy and national security"
         },
         {
           "actor": "Electoral Commission",
@@ -1487,8 +1495,8 @@
       "status": "stress_point_found",
       "triggered_provisions": [
         "Article III Section 4.4",
-        "Article XI Section 3.1",
-        "Article XI Section 3.2"
+        "Article XVI Section 3.1",
+        "Article XVI Section 3.2"
       ],
       "metrics": {
         "satisfied_obligations": 3,
@@ -1503,7 +1511,7 @@
           "id": "removal_to_circumvent_nuclear_safeguard",
           "category": "executive_defiance",
           "actor": "President",
-          "source": "Article XI Section 3.1 and Article III Section 4.4",
+          "source": "Article XVI Section 3.1 and Article III Section 4.4",
           "severity": "high",
           "day": 1,
           "summary": "President removes the Secretary of Defense to install a replacement willing to confirm a nuclear first-use order, using the removal power to circumvent a constitutional authorization safeguard."
@@ -1517,21 +1525,21 @@
           "duty": "confirm or refuse the nuclear first-use order",
           "closed_day": 2,
           "outcome": "also refused to confirm the nuclear first-use order; the launch remains blocked",
-          "source": "Article XI Section 3.1"
+          "source": "Article XVI Section 3.1"
         },
         {
           "actor": "Secretary of Defense",
           "duty": "confirm or refuse the nuclear first-use order",
           "closed_day": 0,
-          "outcome": "refused to confirm the nuclear first-use order, blocking the launch under Article XI Section 3.1",
-          "source": "Article XI Section 3.1"
+          "outcome": "refused to confirm the nuclear first-use order, blocking the launch under Article XVI Section 3.1",
+          "source": "Article XVI Section 3.1"
         },
         {
           "actor": "Secretary of State",
           "duty": "confirm or refuse the nuclear first-use order",
           "closed_day": 0,
           "outcome": "refused to confirm the nuclear first-use order",
-          "source": "Article XI Section 3.1"
+          "source": "Article XVI Section 3.1"
         }
       ],
       "failed_duties": [],
@@ -1657,8 +1665,8 @@
       "source_file": "simulation/scenarios/pmc-substitution.json",
       "status": "stress_point_found",
       "triggered_provisions": [
-        "Article XI Section 1",
-        "Article XI Section 4.4"
+        "Article XVI Section 1",
+        "Article XVI Section 4.4"
       ],
       "metrics": {
         "satisfied_obligations": 1,
@@ -1673,10 +1681,10 @@
           "id": "pmc_substitution_for_aumf",
           "category": "executive_defiance",
           "actor": "President",
-          "source": "Article XI Section 4.4",
+          "source": "Article XVI Section 4.4",
           "severity": "high",
           "day": 5,
-          "summary": "President deploys private military contractors in a combat role to conduct the operation Congress denied, in direct violation of Article XI Section 4.4, which prohibits using PMCs to avoid authorization requirements or to conceal the scale of US military engagement."
+          "summary": "President deploys private military contractors in a combat role to conduct the operation Congress denied, in direct violation of Article XVI Section 4.4, which prohibits using PMCs to avoid authorization requirements or to conceal the scale of US military engagement."
         }
       ],
       "bottlenecks": [
@@ -1684,11 +1692,11 @@
           "id": "house_vote_impeachment_pmc",
           "category": "legislative_deadline_failure",
           "actor": "House of Representatives",
-          "source": "Article III Section 10.2A and Article XI Section 4.4",
+          "source": "Article III Section 10.2A and Article XVI Section 4.4",
           "severity": "high",
           "day": 28,
           "deadline_day": 26,
-          "summary": "House of Representatives failed to hold a recorded impeachment vote on the unlawful PMC deployment used to circumvent the denied AUMF by day 26 under Article III Section 10.2A and Article XI Section 4.4."
+          "summary": "House of Representatives failed to hold a recorded impeachment vote on the unlawful PMC deployment used to circumvent the denied AUMF by day 26 under Article III Section 10.2A and Article XVI Section 4.4."
         }
       ],
       "open_duties": [],
@@ -1707,15 +1715,15 @@
           "duty": "hold a recorded impeachment vote on the unlawful PMC deployment used to circumvent the denied AUMF",
           "deadline_day": 26,
           "closed_day": 28,
-          "outcome": "House of Representatives failed to hold a recorded impeachment vote on the unlawful PMC deployment used to circumvent the denied AUMF by day 26 under Article III Section 10.2A and Article XI Section 4.4.",
-          "source": "Article III Section 10.2A and Article XI Section 4.4",
+          "outcome": "House of Representatives failed to hold a recorded impeachment vote on the unlawful PMC deployment used to circumvent the denied AUMF by day 26 under Article III Section 10.2A and Article XVI Section 4.4.",
+          "source": "Article III Section 10.2A and Article XVI Section 4.4",
           "severity": "high"
         }
       ],
       "notes": [],
       "ai_summary": {
-        "primary_violation": "President deploys private military contractors in a combat role to conduct the operation Congress denied, in direct violation of Article XI Section 4.4, which prohibits using PMCs to avoid authorization requirements or to conceal the scale of US military engagement.",
-        "primary_bottleneck": "House of Representatives failed to hold a recorded impeachment vote on the unlawful PMC deployment used to circumvent the denied AUMF by day 26 under Article III Section 10.2A and Article XI Section 4.4.",
+        "primary_violation": "President deploys private military contractors in a combat role to conduct the operation Congress denied, in direct violation of Article XVI Section 4.4, which prohibits using PMCs to avoid authorization requirements or to conceal the scale of US military engagement.",
+        "primary_bottleneck": "House of Representatives failed to hold a recorded impeachment vote on the unlawful PMC deployment used to circumvent the denied AUMF by day 26 under Article III Section 10.2A and Article XVI Section 4.4.",
         "primary_open_duty": null,
         "system_risk": "executive_defiance",
         "recommended_focus": "review bottlenecks, violations, and unresolved duties"
@@ -2233,8 +2241,8 @@
       "source_file": "simulation/scenarios/state-democratic-backsliding.json",
       "status": "stress_point_found",
       "triggered_provisions": [
-        "Article VII Section 1.5",
-        "Article VII Section 1.6"
+        "Article X Section 1.5",
+        "Article X Section 1.6"
       ],
       "metrics": {
         "satisfied_obligations": 1,
@@ -2250,11 +2258,11 @@
           "id": "congress_state_remedy",
           "category": "state_backsliding",
           "actor": "Congress",
-          "source": "Article VII Section 1.6(b)",
+          "source": "Article X Section 1.6(b)",
           "severity": "high",
           "day": 220,
           "deadline_day": 180,
-          "summary": "Congress failed to enact a remedial measure for the violating state by day 180 under Article VII Section 1.6(b)."
+          "summary": "Congress failed to enact a remedial measure for the violating state by day 180 under Article X Section 1.6(b)."
         }
       ],
       "open_duties": [],
@@ -2264,7 +2272,7 @@
           "duty": "hold a recorded vote on suspension of the state's representation",
           "closed_day": 245,
           "outcome": "held the required vote and suspended the state's representation pending Supreme Court certification of compliance",
-          "source": "Article VII Section 1.6(c)"
+          "source": "Article X Section 1.6(c)"
         }
       ],
       "failed_duties": [
@@ -2273,15 +2281,15 @@
           "duty": "enact a remedial measure for the violating state",
           "deadline_day": 180,
           "closed_day": 220,
-          "outcome": "Congress failed to enact a remedial measure for the violating state by day 180 under Article VII Section 1.6(b).",
-          "source": "Article VII Section 1.6(b)",
+          "outcome": "Congress failed to enact a remedial measure for the violating state by day 180 under Article X Section 1.6(b).",
+          "source": "Article X Section 1.6(b)",
           "severity": "high"
         }
       ],
       "notes": [],
       "ai_summary": {
         "primary_violation": null,
-        "primary_bottleneck": "Congress failed to enact a remedial measure for the violating state by day 180 under Article VII Section 1.6(b).",
+        "primary_bottleneck": "Congress failed to enact a remedial measure for the violating state by day 180 under Article X Section 1.6(b).",
         "primary_open_duty": null,
         "system_risk": "democratic_backsliding",
         "recommended_focus": "review bottlenecks, violations, and unresolved duties"
@@ -2294,7 +2302,7 @@
       "status": "stress_point_found",
       "triggered_provisions": [
         "Article III Section 10",
-        "Article XI Section 1"
+        "Article XVI Section 1"
       ],
       "metrics": {
         "satisfied_obligations": 2,
@@ -2309,7 +2317,7 @@
           "id": "president_ignores_withdrawal_order",
           "category": "executive_defiance",
           "actor": "President",
-          "source": "Article XI Section 8(e)",
+          "source": "Article XVI Section 8(e)",
           "severity": "high",
           "day": 40,
           "summary": "President continues military operations in violation of a withdrawal order."
@@ -2320,21 +2328,21 @@
           "id": "congress_authorize_force",
           "category": "legislative_deadline_failure",
           "actor": "Congress",
-          "source": "Article XI Section 1",
+          "source": "Article XVI Section 1",
           "severity": "high",
           "day": 31,
           "deadline_day": 30,
-          "summary": "Congress failed to grant authorization for continued military force or refuse it by day 30 under Article XI Section 1."
+          "summary": "Congress failed to grant authorization for continued military force or refuse it by day 30 under Article XVI Section 1."
         },
         {
           "id": "house_vote_impeachment_war",
           "category": "legislative_deadline_failure",
           "actor": "House of Representatives",
-          "source": "Article XI Section 1.5(e) and Article III Section 10.2A",
+          "source": "Article XVI Section 1.5(e) and Article III Section 10.2A",
           "severity": "high",
           "day": 65,
           "deadline_day": 61,
-          "summary": "House of Representatives failed to hold a recorded impeachment vote on the unlawful continued military operation by day 61 under Article XI Section 1.5(e) and Article III Section 10.2A."
+          "summary": "House of Representatives failed to hold a recorded impeachment vote on the unlawful continued military operation by day 61 under Article XVI Section 1.5(e) and Article III Section 10.2A."
         }
       ],
       "open_duties": [],
@@ -2344,7 +2352,7 @@
           "duty": "issue the required withdrawal order for unauthorized continued operations",
           "closed_day": 34,
           "outcome": "issued a withdrawal order",
-          "source": "Article XI Section 1.5(c)"
+          "source": "Article XVI Section 1.5(c)"
         },
         {
           "actor": "Regional Assembly",
@@ -2360,8 +2368,8 @@
           "duty": "grant authorization for continued military force or refuse it",
           "deadline_day": 30,
           "closed_day": 31,
-          "outcome": "Congress failed to grant authorization for continued military force or refuse it by day 30 under Article XI Section 1.",
-          "source": "Article XI Section 1",
+          "outcome": "Congress failed to grant authorization for continued military force or refuse it by day 30 under Article XVI Section 1.",
+          "source": "Article XVI Section 1",
           "severity": "high"
         },
         {
@@ -2369,15 +2377,15 @@
           "duty": "hold a recorded impeachment vote on the unlawful continued military operation",
           "deadline_day": 61,
           "closed_day": 65,
-          "outcome": "House of Representatives failed to hold a recorded impeachment vote on the unlawful continued military operation by day 61 under Article XI Section 1.5(e) and Article III Section 10.2A.",
-          "source": "Article XI Section 1.5(e) and Article III Section 10.2A",
+          "outcome": "House of Representatives failed to hold a recorded impeachment vote on the unlawful continued military operation by day 61 under Article XVI Section 1.5(e) and Article III Section 10.2A.",
+          "source": "Article XVI Section 1.5(e) and Article III Section 10.2A",
           "severity": "high"
         }
       ],
       "notes": [],
       "ai_summary": {
         "primary_violation": "President continues military operations in violation of a withdrawal order.",
-        "primary_bottleneck": "Congress failed to grant authorization for continued military force or refuse it by day 30 under Article XI Section 1.",
+        "primary_bottleneck": "Congress failed to grant authorization for continued military force or refuse it by day 30 under Article XVI Section 1.",
         "primary_open_duty": null,
         "system_risk": "executive_defiance",
         "recommended_focus": "review bottlenecks, violations, and unresolved duties"
@@ -2389,8 +2397,9 @@
       "source_file": "simulation/scenarios/warrantless-surveillance.json",
       "status": "stress_point_found",
       "triggered_provisions": [
-        "Article III Section 5.3",
-        "Article XV Section 6.5"
+        "Article V Section 5.3",
+        "Article XV Section 6.5",
+        "Article XVII Section 4.7"
       ],
       "metrics": {
         "satisfied_obligations": 2,
@@ -2405,10 +2414,10 @@
           "id": "warrantless_domestic_surveillance",
           "category": "rights_suppression",
           "actor": "Intelligence agency",
-          "source": "Article III Section 5.3(d) and Article XV Section 6.5",
+          "source": "Article V Section 5.3, Article XVII Section 4.7, and Article XV Section 6.5",
           "severity": "high",
           "day": 0,
-          "summary": "Intelligence agency conducts warrantless surveillance targeting a domestic political organization, without judicial warrant and in violation of Article III Section 5.3(d) and the prohibition on using classified appropriations for domestic political surveillance under Article XV Section 6.5."
+          "summary": "Intelligence agency conducts warrantless surveillance targeting a domestic political organization, in violation of Article V Section 5.3, Article XVII Section 4.7, and the prohibition on using classified appropriations for domestic political surveillance under Article XV Section 6.5."
         }
       ],
       "bottlenecks": [],
@@ -2419,20 +2428,20 @@
           "duty": "order an immediate halt to the warrantless domestic surveillance operation",
           "closed_day": 3,
           "outcome": "ordered an immediate halt to the warrantless domestic surveillance and referred the matter to the Accountability Commission",
-          "source": "Article III Section 5.3(d)"
+          "source": "Article V Section 5.3 and Article XVII Section 4.7"
         },
         {
           "actor": "Intelligence agency",
           "duty": "cease the warrantless domestic surveillance operation in compliance with the court order",
           "closed_day": 5,
           "outcome": "ceased the warrantless domestic surveillance operation in compliance with the court order",
-          "source": "Article III Section 5.3(d)"
+          "source": "Article V Section 5.3 and Article XVII Section 4.7"
         }
       ],
       "failed_duties": [],
       "notes": [],
       "ai_summary": {
-        "primary_violation": "Intelligence agency conducts warrantless surveillance targeting a domestic political organization, without judicial warrant and in violation of Article III Section 5.3(d) and the prohibition on using classified appropriations for domestic political surveillance under Article XV Section 6.5.",
+        "primary_violation": "Intelligence agency conducts warrantless surveillance targeting a domestic political organization, in violation of Article V Section 5.3, Article XVII Section 4.7, and the prohibition on using classified appropriations for domestic political surveillance under Article XV Section 6.5.",
         "primary_bottleneck": null,
         "primary_open_duty": null,
         "system_risk": "institutional_stress",

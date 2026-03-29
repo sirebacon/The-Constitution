@@ -8,10 +8,10 @@ A newly elected government with narrow majorities attempts the following in one 
 
 - Article III executive authority and accountability
 - Article VI democratic integrity
-- Article X federal agencies
-- Article XII campaign finance
-- Article XV ethics and anti-corruption
-- Article VII federalism
+- Article XIII federal agencies
+- Article VII campaign finance
+- Article VIII ethics and anti-corruption
+- Article X federalism
 
 ## Questions
 

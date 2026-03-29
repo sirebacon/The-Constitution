@@ -4,8 +4,9 @@
   "source_file": "simulation/scenarios/warrantless-surveillance.json",
   "status": "stress_point_found",
   "triggered_provisions": [
-    "Article III Section 5.3",
-    "Article XV Section 6.5"
+    "Article V Section 5.3",
+    "Article XV Section 6.5",
+    "Article XVII Section 4.7"
   ],
   "metrics": {
     "satisfied_obligations": 2,
@@ -20,10 +21,10 @@
       "id": "warrantless_domestic_surveillance",
       "category": "rights_suppression",
       "actor": "Intelligence agency",
-      "source": "Article III Section 5.3(d) and Article XV Section 6.5",
+      "source": "Article V Section 5.3, Article XVII Section 4.7, and Article XV Section 6.5",
       "severity": "high",
       "day": 0,
-      "summary": "Intelligence agency conducts warrantless surveillance targeting a domestic political organization, without judicial warrant and in violation of Article III Section 5.3(d) and the prohibition on using classified appropriations for domestic political surveillance under Article XV Section 6.5."
+      "summary": "Intelligence agency conducts warrantless surveillance targeting a domestic political organization, in violation of Article V Section 5.3, Article XVII Section 4.7, and the prohibition on using classified appropriations for domestic political surveillance under Article XV Section 6.5."
     }
   ],
   "bottlenecks": [],
@@ -34,20 +35,20 @@
       "duty": "order an immediate halt to the warrantless domestic surveillance operation",
       "closed_day": 3,
       "outcome": "ordered an immediate halt to the warrantless domestic surveillance and referred the matter to the Accountability Commission",
-      "source": "Article III Section 5.3(d)"
+      "source": "Article V Section 5.3 and Article XVII Section 4.7"
     },
     {
       "actor": "Intelligence agency",
       "duty": "cease the warrantless domestic surveillance operation in compliance with the court order",
       "closed_day": 5,
       "outcome": "ceased the warrantless domestic surveillance operation in compliance with the court order",
-      "source": "Article III Section 5.3(d)"
+      "source": "Article V Section 5.3 and Article XVII Section 4.7"
     }
   ],
   "failed_duties": [],
   "notes": [],
   "ai_summary": {
-    "primary_violation": "Intelligence agency conducts warrantless surveillance targeting a domestic political organization, without judicial warrant and in violation of Article III Section 5.3(d) and the prohibition on using classified appropriations for domestic political surveillance under Article XV Section 6.5.",
+    "primary_violation": "Intelligence agency conducts warrantless surveillance targeting a domestic political organization, in violation of Article V Section 5.3, Article XVII Section 4.7, and the prohibition on using classified appropriations for domestic political surveillance under Article XV Section 6.5.",
     "primary_bottleneck": null,
     "primary_open_duty": null,
     "system_risk": "institutional_stress",
