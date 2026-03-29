@@ -67,7 +67,7 @@ These are the current working scores for the draft after the latest simplificati
 | Article XVIII — Social, Economic, and Affirmative Rights | 8.4 | Strong | The article now states clearer constitutional floors and stronger anti-backsliding principles without the earlier code-like wage and child-procedure machinery | It still needs direct scenario coverage to confirm that the stronger floors are enforceable without courts drifting into program design | Add targeted climate, education, housing, and child-welfare scenarios |
 | Article XIX — Ratification and Transition | 8.9 | Strong | First-cycle election and organ-setup scenarios validate that transition deadlines convert into continuity-preserving fallbacks; §7.1 corrective-legislation power now enumerated to three specific defect types, barring policy choices and power expansion, and requiring a defect-identification statement in each act | Organ constitution still produces repeated missed deadlines before the bridge mechanism activates | Keep targeted first-cycle testing; the corrective-legislation risk is now closed |
 | Cross-References and Draft Integration | 9.0 | Strong | The draft now coordinates legislative continuity, emergency lapse, judicial fallback, transition fallback, and simulation coverage cleanly across the reordered architecture | Historical notes and residual drafting artifacts still deserve one final cleanup pass, and the remaining bottlenecks are now concentrated in a few deadline-driven chains rather than broad structural drift | Review the remaining deadline-driven chains, then do a final whole-draft consistency pass |
-| Overall Draft | 8.9 | Strong | The architecture is now materially cleaner and the simulator still shows a closure-oriented system with 0 unresolved obligations even under a larger, harsher suite | The remaining weakness is no longer missing machinery; it is recurring legislative deadline failure, plus a smaller set of judicial-delay and institutional-deadline stress points | Focus remaining work on legislative nonperformance, Article XII simplification, judicial-delay containment review, and final polish |
+| Overall Draft | 8.9 | Strong | The architecture is now materially cleaner and the simulator still shows a closure-oriented system with 0 unresolved obligations even under a larger, harsher suite | The remaining weakness is no longer missing machinery; it is a mix of deadline-driven political nonperformance, a few judicial and institutional delay chains, and residual code-like density in a handful of articles | Finish the deadline/fallback audit, run one more enforcement-architecture consistency pass, then do final draft-discipline compression |
 
 ### Criterion Breakdown
 
@@ -211,10 +211,11 @@ Before raising a score, ask:
 
 Recommended focus order:
 
-1. Article VIII / Article XIII — verify no structural overlap on independent agency architecture; one final consistency pass
-2. Article IV — run targeted scenarios for shadow docket abuse, recusal deadlock, and Conduct Board certification delay to validate new provisions
-3. Legislative nonperformance chains — review whether any remaining constitutionally required votes need narrower default-consequence or anti-obstruction hardening, especially in war powers and presidential-accountability paths
-4. Article XII / Article XIX continuity edge cases — pressure-test internal boycott, quorum sabotage, and remaining organ-setup friction
-5. Judicial-delay containment review — decide whether Article IV and Article XI have reached the right stopping point on delay consequences
-6. Article IX — targeted citizenship and eligibility stress-testing — loss-of-citizenship, overseas assignment, and sensitive-office rules
-7. Articles XIV and XV — post-integration compression pass
+1. Article V / Article X / Article XVIII — add dedicated simulation coverage for civil-rights edge cases, federalism/preemption and democratic-floor enforcement, and social/economic-rights floors. These are now the highest-leverage validation gaps.
+2. Article IV — add targeted scenarios for §9.7 shadow-docket transparency, §7.3 recusal enforcement, and §8.1 Conduct Board certification deadlock so the strengthened provisions are directly validated.
+3. Article VIII / Article XIII — verify no structural duplication on independent agency architecture. Article VIII contains a specific independent financial regulator while Article XIII governs agency structure generally; confirm the boundary is clean.
+4. Article XII / Article XIX continuity edge cases — pressure-test internal boycott, quorum sabotage, and remaining organ-setup friction under adversarial conditions.
+5. Article IX — add dedicated citizenship and eligibility scenarios: loss-of-citizenship, overseas assignment, naturalized-candidate exclusion, and sensitive-office rules.
+6. Article II — draft discipline 7.8; continue pruning enforcement mechanics that can move to law without weakening the constitutional floor.
+9. Article XIII — a few agency-governance rules can still be compressed; agency-specific procedures that belong in statute rather than the constitution.
+10. Articles XIV and XV — emergency revenue powers and fiscal pressure scenarios; one final compression pass if detail has re-accumulated.
