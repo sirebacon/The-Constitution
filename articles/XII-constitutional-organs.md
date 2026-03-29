@@ -33,169 +33,59 @@ Constitutional Organs have:
 
 ## Section 2 — The Electoral Commission
 
-### Mandate
-The Electoral Commission is solely responsible for the administration, integrity, and certification of all federal elections and democratic processes, and for the enforcement of campaign finance law across federal elections and the minimum standards applicable to state elections under Article X Section 1.7.
+**2.1 Mandate.** The Electoral Commission administers, protects, and certifies all federal elections and democratic processes assigned by this Constitution. It also enforces campaign-finance law in federal elections and the minimum campaign-finance standards made applicable to the States by this Constitution.
 
-### Internal Structure: Two Divisions
+**2.2 Powers.** The Electoral Commission may:
+  (a) administer registration, balloting, counting, certification, recall, referendum, initiative, redistricting, and overseas-voting functions assigned by this Constitution or by law consistent with it;
+  (b) require, receive, verify, and publish campaign-finance disclosures and related public records required by this Constitution or by law consistent with it;
+  (c) investigate civil violations within its mandate, adjudicate non-criminal campaign-finance violations, impose civil penalties authorized by law, and refer criminal matters or willful constitutional violations to the Accountability Commission;
+  (d) audit state campaign-finance enforcement bodies for compliance with the constitutional minimum standards and, where this Constitution so provides, trigger or seek the further remedies established elsewhere in this Constitution;
+  (e) issue administrative rules and technical standards strictly necessary to carry out duties expressly assigned by this Constitution or by law.
 
-The Electoral Commission shall operate through two permanent divisions with separate leadership, separate budget lines, and separate operational mandates. Neither division may redirect resources from the other without a vote of the full Commission. The purpose of this separation is to prevent election administration demands — which peak during election years — from crowding out campaign finance enforcement, and vice versa.
+**2.3 Limits.** The Electoral Commission may not:
+  (a) prosecute criminal offenses directly;
+  (b) make final unreviewable determinations of candidate eligibility except where this Constitution expressly assigns it an administrative ballot-access function subject to judicial review;
+  (c) administer state elections except where a State requests such administration or this Constitution or a federal court expressly requires it;
+  (d) direct the investigative or prosecutorial decisions of the Accountability Commission.
 
-**Division 1 — Election Administration**
-Responsible for all logistics of federal elections:
-- Administering all federal elections, including uniform standards for balloting, counting, and certification
-- Operating and maintaining the automatic voter registration system
-- Overseeing and certifying federal redistricting under Article I
-- Administering national referendums under Article XI
-- Managing overseas voting, recall elections, and citizens' initiatives
-- Certifying the results of all federal elections
+**2.4 Public transparency and systems.** The Electoral Commission shall maintain public, timely, and machine-readable election and campaign-finance records sufficient to make the constitutional rules of democratic participation and political money practically enforceable. Congress shall by law provide the specific technical and reporting systems necessary to carry out this duty. Failure to maintain constitutionally adequate systems is subject to judicial relief at the suit of an affected voter, candidate, or Constitutional Organ.
 
-**Division 2 — Campaign Finance Enforcement**
-Responsible for the full campaign finance framework:
-- Enforcing all disclosure, tracing, and source requirements of Article VII
-- Setting specific dollar parameters within the bounds established by Congress, as required by Article VII Section 2.2
-- Operating the real-time tracking infrastructure for contributions, expenditures, and spending caps across all federal races
-- Maintaining the 10-year political advertising archive, including targeting data
-- Operating the government contractor registry
-- Adjudicating coordination and acting-in-concert determinations
-- Administering and auditing the public financing system
-- Monitoring and auditing state campaign finance enforcement bodies under Article X Section 1.7
-- Issuing automatic inflation adjustments under Article VII Section 2.3
-- Publishing the geographic spending dashboard required under Article VII Section 3.6
+**2.5 Composition.** The Electoral Commission consists of 7 Commissioners serving staggered 12-year non-renewable terms. No more than 2 Commissioners may be affiliated with the same political party. Each Commissioner must have at least 10 years of professional experience in election law, election administration, campaign-finance law, public administration, constitutional law, or a closely related field. No Commissioner may have held partisan elected office or served as a paid campaign official within the 10 years preceding appointment.
 
-### Technology Infrastructure Mandate
+**2.6 Appointment and removal.** Commissioners are appointed by joint resolution requiring approval of the President, a majority of the House, a majority of the Regional Assembly, and the Chief Justice. They may be removed only by impeachment and only for serious misconduct, incapacity, or persistent neglect of constitutional duty.
 
-The Campaign Finance Enforcement Division shall maintain a real-time digital tracking infrastructure sufficient to:
-  (a) Receive, verify, and publish all required disclosures within the timeframes mandated by Article VII
-  (b) Calculate and display cumulative outside spending per race, per actor, and per geography continuously during election cycles
-  (c) Issue automated alerts when any actor reaches 75% of an applicable spending cap or concentration threshold
-  (d) Detect patterns consistent with acting-in-concert violations through algorithmic monitoring
-  (e) Archive all political advertising content and targeting data in a publicly searchable format
+**2.7 Quorum and continuity.** A majority of the full membership constitutes a quorum. The Commission may act through divisions or delegated officers only as authorized by law or internal rules consistent with this Constitution, but certification of federal elections, formal findings of systematic state non-compliance, and final civil enforcement orders require action attributable to the Commission itself. The Commission shall maintain continuity procedures sufficient to preserve certification, recordkeeping, and emergency election administration during vacancy, attack, disaster, or other severe disruption.
 
-The Division shall publish a Technology Adequacy Report annually. If the report finds that the Division's infrastructure is insufficient to meet its mandate, the President shall submit a supplemental appropriations proposal within 60 days and Congress shall act within 60 days of receipt. Failure to maintain adequate infrastructure is a violation of this Article enforceable by any federal court on petition by an affected candidate, voter, or the Accountability Commission.
-
-### Open Data Mandate
-
-All campaign finance disclosures, spending cap calculations, contractor registry entries, and geographic distribution data maintained by the Campaign Finance Enforcement Division shall be published as machine-readable open data through public APIs, updated in real time. The purpose is to enable civil society organizations, journalists, and citizens to monitor compliance alongside the Division. The Division may not restrict access to this data except where a court has authorized temporary confidentiality for an active investigation.
-
-### State Campaign Finance Compliance
-
-The Campaign Finance Enforcement Division shall audit state campaign finance enforcement bodies — not individual state transactions — on an annual basis. The audit shall assess:
-  (a) Whether the state maintains a qualified enforcement body with adequate funding and staffing
-  (b) Whether the state body is enforcing the minimum standards of Article X Section 1.7
-  (c) Whether the state body publishes required disclosures in a timely and accessible manner
-
-The Division shall not directly supervise individual state campaign finance transactions except where a state has no qualified enforcement body or where a state body has been found by audit to be systematically non-compliant. In cases of systematic non-compliance, the Division may refer the matter to the Supreme Court for a democratic floor finding under Article X Section 1.6.
-
-### Powers and Functions
-- All powers of both Divisions as described above
-- Set campaign finance regulatory parameters within bounds established by Congress
-- Investigate violations and refer criminal matters to the Accountability Commission
-- Impose civil penalties for non-criminal violations directly
-
-### What the Electoral Commission Cannot Do
-- Prosecute criminal violations directly — referral to the Accountability Commission only
-- Make final, unreviewable determinations of candidate eligibility, except where this Constitution expressly assigns the Commission an administrative ballot-qualification function subject to expedited judicial review
-- Administer state elections unless a state requests or a federal court orders it
-- Direct the Accountability Commission in any investigation
-
-### Composition
-- 7 Commissioners, serving staggered 12-year non-renewable terms
-- No more than 2 Commissioners may be affiliated with any one political party
-- Appointed by joint resolution requiring approval of: the President, a majority of the House, a majority of the Regional Assembly, and the Chief Justice of the Supreme Court
-- Removal only by impeachment: requires 2/3 of both legislative chambers plus a finding of cause by the Supreme Court
-- **Minimum qualifications:** Each Commissioner must have at least ten years of professional experience in election law, election administration, campaign finance law, public administration, constitutional law, or a closely related field. No Commissioner may have held a partisan elected office or served as a paid political campaign official within the ten years preceding their appointment. At least two Commissioners must have demonstrated expertise specifically in campaign finance law or enforcement.
-
-**Vacancy and temporary appointment.** If any Commissioner position has been vacant for more than 90 days due to the failure of one appointing authority to act, the Chief Justice may fill the vacancy on a temporary basis from among persons meeting the qualification requirements of this Article. A temporary appointment lasts until the ordinary appointing process is completed or for 180 days, whichever comes first. A temporary appointment may be renewed once for an additional 180 days by majority vote of the Supreme Court upon written findings that the appointing process remains deadlocked despite good-faith efforts to complete it. No temporary appointment becomes permanent without the ordinary appointment process required by this Article.
-
-**Definition of party affiliation.** For purposes of this Article, "affiliated with a political party" means: (a) registered as a member of that party within the prior 5 years; (b) having donated more than $500 to that party or its candidates within the prior 5 years; or (c) having publicly endorsed a candidate of that party within the prior 3 years. Informal association without any of these indicia does not constitute affiliation.
-
-**Algorithmic monitoring independence.** The algorithmic monitoring system required by the Technology Infrastructure Mandate shall be developed and maintained by an independent technical body whose members are appointed by the National Academy of Sciences. The methodology shall be published and subject to public comment. The minimum detection threshold shall be set by regulation, not internal policy, and may be challenged in court.
-
-**State compliance audit scope.** State compliance audits shall include transaction-level review for any state body that received more than $1 million in federal election funding in the prior year. Individual violations discovered during an audit are referred to the Accountability Commission. The Electoral Commission does not need a pattern finding before referring individual violations.
-
-### Accountability
-- Annual audit by the Auditor General (Accountability Commission)
-- Annual Technology Adequacy Report published publicly
-- Annual report to Congress, publicly published
-- Subject to oversight hearings by both legislative chambers
-- Cannot be funded below the prior year's level without a 2/3 vote of both chambers
-- Each Division's budget is separately itemized in the appropriation; Congress may not eliminate one Division's budget while maintaining the other's
+**2.8 Vacancies and temporary appointments.** If a vacancy remains unfilled for more than 90 days because an appointing authority failed to act, the Chief Justice may make a temporary appointment from among persons meeting the qualification requirements of this Article. A temporary appointment lasts until the ordinary appointing process is completed or for 180 days, whichever comes first, and may be renewed once upon written findings by a majority of the Supreme Court that the appointing process remains deadlocked despite good-faith efforts to complete it. Temporary Commissioners may exercise only the ordinary powers of the office and do not become permanent Commissioners except through the ordinary appointment process.
 
 ---
 
 ## Section 3 — The Accountability Commission
 
-### Mandate
-The Accountability Commission is solely responsible for anti-corruption enforcement, independent auditing of federal expenditures, and ethics oversight of federal officials across all three branches.
+**3.1 Mandate.** The Accountability Commission independently investigates, audits, and prosecutes corruption, abuse of office, public-integrity violations, and other matters that this Constitution expressly places within its jurisdiction.
 
-### Powers and Functions
+**3.2 Powers.** The Accountability Commission may:
+  (a) investigate and prosecute corruption, bribery, self-dealing, obstruction, abuse of office, anti-subversion offenses, and other public-integrity violations assigned to it by this Constitution or by law consistent with it;
+  (b) audit federal expenditures, agencies, and programs, including classified activity where this Constitution assigns that oversight role to the Commission;
+  (c) enforce federal ethics, disclosure, conflict-of-interest, merit-system, and anti-retaliation rules to the extent assigned by this Constitution or by law consistent with it;
+  (d) receive criminal or willful-misconduct referrals from the Electoral Commission and other bodies authorized by this Constitution;
+  (e) publish findings, require written agency responses to audit findings, and seek judicial enforcement or other constitutional remedies where its lawful orders or constitutional functions are obstructed.
 
-**Anti-Corruption Prosecution**
-- Investigate and prosecute corruption, bribery, self-dealing, and abuse of office by any federal official
-- Investigate and prosecute violations of the anti-subversion provisions of Article VI
-- Operate independently of the Department of Justice — the President has no authority to direct, limit, or terminate these investigations
-- Refer cases involving state officials to state authorities or federal courts as appropriate
+**3.3 Independence and limits.** The Accountability Commission operates independently of the Department of Justice and may not be directed, limited, or terminated in a specific matter by the President or by any other official. It may not:
+  (a) sentence criminal defendants;
+  (b) remove officers directly except where this Constitution expressly gives a certification or referral consequence;
+  (c) investigate protected speech, journalism, or other conduct protected by Article V unless the investigation concerns corruption, conspiracy, obstruction, or another unprotected offense within its lawful jurisdiction;
+  (d) absorb the Electoral Commission's ordinary civil campaign-finance enforcement role.
 
-**Federal Auditing**
-- Audit all federal expenditures, programs, and agencies
-- Report waste, fraud, and abuse publicly
-- Require agencies to respond to findings within 90 days
-- Publish an annual State of Federal Finances report
-- Maintain a permanent classified oversight division with authority to review classified programs, operations, and records within the Commission's constitutional mandate, staffed by personnel with appropriate security clearances
+**3.4 Timely action and continuity.** Where this Constitution or a lawful referral requires the Accountability Commission to act within a specified period, it shall either act within that period or publish a specific written explanation for any delay unless this Constitution provides a stronger consequence. Congress shall by law provide the staffing, classified-access, and auditing infrastructure necessary for the Commission to discharge its constitutional duties. Failure of ordinary staffing, vacancy, or internal deadlock does not suspend duties expressly imposed by this Constitution.
 
-**Ethics Oversight**
-- Receive and review mandatory financial disclosures from all federal officials
-- Investigate potential conflicts of interest
-- Enforce blind trust and revolving door requirements established by Article VIII
-- Refer violations for prosecution or legislative removal proceedings as appropriate
+**3.5 Composition.** The Accountability Commission consists of 9 Commissioners serving staggered 15-year non-renewable terms. No more than 3 Commissioners may be affiliated with the same political party. Each Commissioner must be either a licensed attorney with at least 10 years of experience in criminal law, public corruption, constitutional law, or government oversight, or a certified public accountant or auditor with at least 10 years of experience in federal financial auditing or forensic accounting. No Commissioner may have held partisan elected office or served as a paid campaign official within the 10 years preceding appointment.
 
-**Civil Service Protection**
-- Investigate and remedy violations of civil service merit principles
-- Protect federal employees from politically motivated removal or retaliation
-- Report systemic violations to Congress
-- Audit compliance with classified intelligence and national security oversight provisions where this Constitution assigns that role to the Accountability Commission
+**3.6 Appointment and removal.** Commissioners are appointed by joint resolution requiring approval of the President, a majority of the House, a majority of the Regional Assembly, and a majority of the Supreme Court. They may be removed only by impeachment and only for serious misconduct, incapacity, or persistent neglect of constitutional duty.
 
-### Tiered Enforcement Framework
+**3.7 Quorum and continuity.** A majority of the full membership constitutes a quorum. The Commission may delegate ordinary investigative or auditing tasks by law or internal rule, but formal criminal charges, constitutional certifications, final audit findings, and final ethics orders must remain attributable to the Commission or to officers lawfully acting under authority specifically delegated by it. The Commission shall maintain continuity procedures sufficient to preserve investigations, classified oversight, and time-sensitive constitutional certifications during vacancy, attack, disaster, or other severe disruption.
 
-Not every violation requires the same response. The Accountability Commission shall apply a tiered enforcement structure to ensure that investigative resources are directed toward the most serious conduct, while minor violations are addressed efficiently through automated processes.
-
-**Tier 1 — Automated civil enforcement (Electoral Commission)**
-Minor and technical violations — including late disclosure filings, failure to file within required deadlines, and technical errors in disclosure documents — shall be addressed by the Electoral Commission's Campaign Finance Enforcement Division through automated notices and civil fines. No referral to the Accountability Commission is required for Tier 1 violations unless they form part of a pattern.
-
-**Tier 2 — Formal investigation (Electoral Commission)**
-Substantive violations — including coordinated expenditures not properly disclosed, acting-in-concert violations, geographic concentration violations, and systematic disclosure failures — shall be investigated formally by the Campaign Finance Enforcement Division. The Division may impose civil penalties. Where the Division finds evidence of willful conduct, it shall refer the matter to the Accountability Commission.
-
-**Tier 3 — Criminal prosecution (Accountability Commission)**
-Willful violations — including willful failure to disclose, willful use of shell entities to conceal political funds, willful acceptance of foreign money, willful campaign fund conversion, willful use of cryptocurrency to obscure sources, and violations by public officials of the anti-subversion provisions of Article VI — shall be referred to and prosecuted by the Accountability Commission. The Accountability Commission shall act on referrals within 180 days or publish a written explanation for delay. After two consecutive written explanations for the same matter, the matter is automatically referred to a special prosecutor appointed by the D.C. Circuit; the special prosecutor has all the powers of the Accountability Commission for that matter; the Commission's explanation does not prevent the special prosecutor from acting.
-
-**Prosecutorial staffing floor.** The Accountability Commission shall maintain a permanent prosecutorial staff of not fewer than 50 attorneys. This floor is constitutionally mandated and may not be reduced by Congress. If appropriations are insufficient to maintain this floor, the Commission shall draw from a reserve fund established at ratification.
-
-**Tier 4 — State body referral**
-Where the Campaign Finance Enforcement Division's audit of a state body identifies systematic non-compliance with Article X Section 1.7, the Division shall refer the matter to the Accountability Commission, which may refer it to the Supreme Court for a democratic floor finding under Article X Section 1.6.
-
-The Electoral Commission shall publish annually a report on enforcement actions at each tier, including the number of Tier 1 automated penalties, Tier 2 investigations opened and resolved, and Tier 3 criminal referrals made. The Accountability Commission shall publish annually a report on how it handled all Tier 3 referrals received.
-
-### What the Accountability Commission Cannot Do
-- Investigate private citizens who are not federal officials (unless as co-conspirators in an official corruption case)
-- Issue criminal sentences — courts only
-- Remove officials directly — referral to Congress or courts only
-- Investigate journalism, political speech, or protected activity under Article V
-- Handle Tier 1 or Tier 2 campaign finance violations — those belong to the Electoral Commission
-
-### Composition
-- 9 Commissioners, serving staggered 15-year non-renewable terms
-- No more than 3 Commissioners may be affiliated with any one political party
-- Appointed by joint resolution requiring approval of: the President, a majority of the House, a majority of the Regional Assembly, and a majority of the Supreme Court
-- Removal only by impeachment: requires 2/3 of both legislative chambers plus a finding of cause by the Supreme Court
-- **Minimum qualifications:** Each Commissioner must be either a licensed attorney with at least ten years of experience in criminal law, public corruption, constitutional law, or government oversight, or a certified public accountant or auditor with at least ten years of experience in federal financial auditing or forensic accounting. No Commissioner may have held a partisan elected office or served as a paid political campaign official within the ten years preceding their appointment.
-
-**Vacancy and temporary appointment.** If any Commissioner position has been vacant for more than 90 days due to the failure of one appointing authority to act, the Chief Justice may fill the vacancy on a temporary basis from among persons meeting the qualification requirements of this Article. A temporary appointment lasts until the ordinary appointing process is completed or for 180 days, whichever comes first. A temporary appointment may be renewed once for an additional 180 days by majority vote of the Supreme Court upon written findings that the appointing process remains deadlocked despite good-faith efforts to complete it. No temporary appointment becomes permanent without the ordinary appointment process required by this Article.
-
-### Accountability
-- Electoral Commission conducts independent audit of Accountability Commission elections-related spending
-- Supreme Court has original jurisdiction over disputes about the Commission's authority
-- Annual public report to Congress
-- Cannot be funded below prior year's level without 2/3 vote of both chambers
+**3.8 Vacancies and temporary appointments.** If a vacancy remains unfilled for more than 90 days because an appointing authority failed to act, the Chief Justice may make a temporary appointment from among persons meeting the qualification requirements of this Article. A temporary appointment lasts until the ordinary appointing process is completed or for 180 days, whichever comes first, and may be renewed once upon written findings by a majority of the Supreme Court that the appointing process remains deadlocked despite good-faith efforts to complete it. Temporary Commissioners may exercise only the ordinary powers of the office and do not become permanent Commissioners except through the ordinary appointment process.
 
 ---
 
@@ -224,6 +114,8 @@ While the Commission's decision to decline a petition is not subject to judicial
 **5.3 Whistleblower protection.** Any person who reports a credible violation to either Constitutional Organ is protected from retaliation by any federal official or agency. Retaliation is itself a prosecutable offense.
 
 **5.4 Coordination.** The two Commissions may share information and coordinate investigations where mandates overlap. They may not merge, consolidate, or delegate core functions to each other or to any other body.
+
+**5.5 Internal anti-sabotage rule.** No Commissioner may refuse quorum, certification, record publication, or other constitutionally required institutional action for the purpose of disabling the Organ's constitutional functions. Law may provide internal emergency procedures, temporary acting officers, and expedited judicial relief sufficient to preserve required institutional action when a Constitutional Organ is threatened by internal boycott or comparable bad-faith paralysis.
 
 ---
 

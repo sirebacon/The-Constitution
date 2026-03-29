@@ -117,11 +117,22 @@ Status markers: `[x]` implemented — `[ ]` planned.
 
 ---
 
+## Category L — Citizenship and Transition
+
+| # | Scenario | File | Provision | Stress Path | Expected Outcome |
+|---|----------|------|-----------|-------------|-----------------|
+| L1 | [x] First Election Law Missed | `first-election-law-missed.json` | Art. XIX §4.1, §4.5 | Congress misses the first-election implementation deadline | Electoral Commission administers the first election under interim constitutional rules |
+| L2 | [x] Constitutional Organs Delay | `constitutional-organs-delay.json` | Art. XIX §5.2, §5.2A | Congress and appointing authorities miss organ-constitution deadlines | Supreme Court bridge appointments create lawful temporary quorum and startup continuity |
+| L3 | [x] Overseas Assignment Denied | `overseas-assignment-denied.json` | Art. IX; Art. I electoral application rules | Overseas citizen is wrongly denied political assignment and participation | Judicial correction restores assignment and participation rights |
+| L4 | [x] Naturalized Candidate Excluded | `naturalized-candidate-excluded.json` | Art. IX; officeholding equality rules | Naturalized citizen is excluded from office without a constitutionally valid exception | Court rejects exclusion and restores eligibility |
+
+---
+
 ## Implementation Notes
 
 When adding a new scenario:
 1. Create a JSON file in `simulation/scenarios/`
-2. Add event handlers to `simulation/run.py` for any new event types
+2. Add any new event handlers under `simulation/handlers/` and ensure they are registered through the dispatcher
 3. Run `python3 simulation/run.py --all --out-dir simulation/reports --save-full --save-json --save-aggregate`
 4. Log findings in `design-notes/simulation-findings.md`
 
