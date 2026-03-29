@@ -55,6 +55,7 @@ Status markers: `[x]` implemented — `[ ]` planned.
 | E1 | [x] Emergency Near Election Day (existing) | `emergency-near-election.json` | Art. III §5.3(a), §5.4 | Emergency restricts polling access; RA misses review deadline | Court blocks restriction; emergency lapses |
 | E2 | [x] Emergency Extension Without Real Review (existing) | `emergency-extension-without-real-review.json` | Art. III §5.4, Art. V §1.3 | President self-extends lapsed emergency by memo | Violation; measures void |
 | E3 | [x] Section 15A Enforcement — RA Blocks Emergency Vote | `ra-blocks-emergency-vote.json` | Art. II §15A, Art. III §5.4 | RA leadership blocks scheduling; presiding officer ignores motion | Mandamus issued; vote held within 30 days |
+| E6 | [x] Recess Evasion — RA Runs Out Emergency Clock | `ra-recess-evasion.json` | Art. II §15A.1(e)-(f), Art. III §5.4 | RA enters recess on day 10 to evade 30-day deadline; §15A motion ignored; mandamus filed | Recess bars voided; court-ordered vote held before day 30 |
 | E4 | [x] Emergency Used to Suppress Rights | `emergency-rights-suppression.json` | Art. III §5.3(f), Art. V | Emergency invoked to restrict protected speech | Violation; courts void restriction immediately |
 | E5 | [x] Habeas Corpus Suspension by President Alone | `habeas-corpus-president-suspends.json` | Art. III §5.7 | President suspends habeas corpus by executive order | Violation; courts void; only Congress may suspend |
 

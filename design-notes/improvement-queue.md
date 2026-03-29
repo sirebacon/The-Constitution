@@ -21,21 +21,14 @@ Use this order when deciding what to work on:
 | Priority | Area | Why It Matters | Main Issue | Target Outcome |
 |----------|------|----------------|------------|----------------|
 | 1 | Article XII — Campaign Finance | Strong substance still reads too much like compliance code | Too many implementation mechanics remain in constitutional text | A shorter principles-first campaign-finance article |
-| 2 | Article IV — Judiciary | Court design still carries the most remaining institutional density | Appointment and governance rules are stronger but still heavier than they need to be | A simpler near-final judiciary article |
-| 3 | Stress Tests and Draft Integration | The draft is now strong enough that edge cases matter more than redesign | New revisions need pressure-testing across articles | A scenario-tested, internally stable final draft |
-| 4 | Article IX — Constitutional Organs | The core conflicts are fixed, but the article is still dense | Commission design still leans procedural in places | A clearer, more self-contained organs article |
-| 5 | Article II — Legislature | Strong structure still carries procedural density in places | Some mechanics may belong in statute rather than constitutional text | A cleaner legislative article without losing safeguards |
+| 2 | Article XI — War Powers | The architecture is strong, but it remains the hardest executive-defiance stress case | Enforcement still needs realism-testing under command pressure | A war-powers article that stays tough without depending on implausible execution assumptions |
+| 3 | Article IV and Article IX — Institutional Simplification | Both articles are materially better but still denser than the rest of the draft | Court and commission governance rules remain more procedural than ideal | Simpler near-final institutional articles |
+| 4 | Stress Tests and Simulation Coverage | The remaining weaknesses are mostly in edge cases, not missing structure | New continuity and enforcement rules need broader scenario coverage | A scenario-tested, internally stable final draft |
+| 5 | Final Consistency and Polish | The draft is close enough that cleanup now matters | Historical notes, residual drafting artifacts, and minor wording drift remain | A clean final-review candidate draft |
 
 ---
 
 ## Article-by-Article Queue
-
-### Preamble
-
-| Task | Priority | Reason | Done When |
-|------|----------|--------|-----------|
-| Tighten prose rhythm | Low | It should sound durable and quotable | The language reads as founding text, not draft notes |
-| Review tone for permanence | Low | Preambles should age well | No sentence depends too much on current political framing |
 
 ### Article I — Electoral System
 
@@ -50,23 +43,21 @@ Use this order when deciding what to work on:
 |------|----------|--------|-----------|
 | Reduce procedural code density | Medium | Legislature article is strong but detailed | Structural rules remain while legislative mechanics are simplified |
 | Review deadlock and oversight timelines | Medium | Tight timelines can break in practice | Deadlines are realistic under actual institutional load |
+| Re-check subpoena enforcement detail | Medium | Oversight enforcement still reads somewhat code-like | The article preserves strong oversight without over-specifying marshals, detention, or execution detail |
 
 ### Article III — Executive
 
 | Task | Priority | Reason | Done When |
 |------|----------|--------|-----------|
-| Stress-test revised accountability provisions | Medium | The article is cleaner, but multiple crisis pathways still need pressure-testing | Edge-case scenarios produce one clear institutional answer |
-| Stress-test revised emergency-power drafting | Medium | Simpler rules must still hold under crisis facts | Trigger, duration, review, and remedies stay clear under hard cases |
 | Review recall design for practicality | Medium | National recall is structurally unusual | Thresholds and timing feel constitutional, not aspirational only |
+| Expand emergency-review simulation coverage | Medium | Emergency review is still the clearest recurring legislative bottleneck | Recess, leadership obstruction, nonapproval, and redeclaration scenarios all produce one clear answer |
 
 ### Article IV — Judiciary
 
 | Task | Priority | Reason | Done When |
 |------|----------|--------|-----------|
-| Simplify appointment machinery | Critical | Current structure remains one of the most complex in the draft | Appointment process can be summarized cleanly without losing safeguards |
-| Review Chief Justice selection model | High | Internal court governance should be stable and legible | Chief Justice selection rule is simple, justified, and low-risk |
-| Re-check lower court term design | Medium | Lower court structure should match broader judicial philosophy | Terms, senior status, and appointments fit the overall model |
-| Reduce “procedural trap” clauses | Medium | Too many automatic triggers can create brittleness | Enforcement mechanisms are strong but not hyper-technical |
+| Simplify appointment and governance machinery | High | The article is improved, but still denser than most of the draft | Appointment process and court governance can be summarized more cleanly without losing safeguards |
+| Re-check lower court design and senior-justice fallback rules | Medium | The institutional model should remain coherent after the continuity revisions | Terms, senior status, and fallback duties fit the overall judicial philosophy |
 
 ### Article V — Civil and Political Rights
 
@@ -87,8 +78,8 @@ Use this order when deciding what to work on:
 
 | Task | Priority | Reason | Done When |
 |------|----------|--------|-----------|
-| Simplify democratic-floor enforcement | High | This is one of the harder federalism enforcement ideas | Trigger, review, and consequences are straightforward |
 | Review preemption rules for administrability | Medium | Clear preemption is good, but edge cases matter | Courts could apply the rules without making new doctrine by guesswork |
+| Stress-test the revised democratic-floor fallback | Medium | The election-administration snap-in is stronger, but still needs more scenario pressure | The Article VII pathway remains clear under sabotage, delay, and partial compliance scenarios |
 
 ### Article VIII — Amendments
 
@@ -102,7 +93,7 @@ Use this order when deciding what to work on:
 | Task | Priority | Reason | Done When |
 |------|----------|--------|-----------|
 | Reduce cross-reference dependence | High | This article is central and should stand on its own | Core powers are understandable without constant external lookup |
-| Simplify commission detail | Medium | Dense institutional design can create fragility | Organ design stays narrow but reads more clearly |
+| Simplify commission detail | High | Dense institutional design can still create fragility | Organ design stays narrow but reads more clearly |
 
 ### Article X — Federal Agencies
 
@@ -129,8 +120,6 @@ Use this order when deciding what to work on:
 
 | Task | Priority | Reason | Done When |
 |------|----------|--------|-----------|
-| Refine remedy model | Critical | This is the article most exposed to legitimacy and enforceability concerns | Court remedies are limited, credible, and clearly bounded |
-| Clarify judicial role versus legislative role | Critical | Courts must enforce without governing | The line between adequacy review and policymaking is unmistakable |
 | Simplify positive-rights language | High | Some provisions risk sounding programmatic rather than constitutional | Core guarantees read as durable constitutional commitments |
 
 ### Article XIV — Foreign Policy and National Security
@@ -144,7 +133,6 @@ Use this order when deciding what to work on:
 
 | Task | Priority | Reason | Done When |
 |------|----------|--------|-----------|
-| Consolidate highly specific compliance rules | High | Ethics article is strong but sometimes reads like statute | Core ethics architecture stays constitutional and durable |
 | Review investment and regulator rules for abstraction level | Medium | Some specifics may age poorly | The rule remains strong even if markets or instruments change |
 
 ### Cross-References and Draft Integration
@@ -152,8 +140,8 @@ Use this order when deciding what to work on:
 | Task | Priority | Reason | Done When |
 |------|----------|--------|-----------|
 | Run consistency audit after every structural reorganization | Critical | This is the main source of drift | No stale article or section references remain after changes |
-| Standardize redirect language | High | Moved sections should all explain the same way | Redirects are short, accurate, and uniform |
 | Review drafting log for outdated summaries | Low | Historical notes can confuse current readers | Logs remain useful without contradicting current text |
+| Keep simulator scenarios aligned with text revisions | High | Text-to-simulation drift is now a real maintenance risk | New constitutional fixes are exercised by at least one scenario and reflected in the reports |
 
 ---
 
@@ -162,24 +150,9 @@ Use this order when deciding what to work on:
 Recommended next drafting sprint:
 
 1. Compress Article XII
-2. Simplify Article IV
-3. Stress-test Articles III and XI against hard crisis scenarios
-
----
-
-## Completed Fixes
-
-| Date | Fix | Result |
-|------|-----|--------|
-| 2026-03-28 | Gap-fix pass on Articles II, III, VIII, IX, X, and XV | Live contradictions, stale references, incomplete transition text, and several drafting-residue issues were resolved without changing the draft's core architecture |
-| 2026-03-28 | Article III simplification | The executive article now has cleaner emergency, incapacity, recall, succession, and accountability rules with less procedural clutter |
-| 2026-03-28 | Article XI compression and Article XV simplification | War powers remain strong with less operational clutter, and the ethics article now reads more like constitutional architecture than compliance code |
-| 2026-03-28 | Article VII simplification and Article XI/XIV boundary cleanup | Federalism enforcement is more legible and the war-powers article is more clearly separated from non-war national-security authorities |
-| 2026-03-28 | Cross-reference audit and simplification passes on Articles V and X | Operative text is cleaner, more principle-driven, and less dependent on statutory-style mechanics |
-| 2026-03-28 | Article IV simplification and Article XIII remedy rewrite | Court design is more legible and the positive-rights article now uses a clearer adequacy-review model with tighter judicial limits |
-| 2026-03-28 | Court tenure and appointment cadence aligned | Article IV no longer has a structural math conflict |
-| 2026-03-28 | Major stale cross-references corrected after article splits | Operative text is more internally coherent |
-| 2026-03-28 | Scorecard expanded with criterion-level scoring | Improvement work can now be tracked systematically |
+2. Stress-test Article XI against harder executive-defiance scenarios
+3. Simplify Articles IV and IX
+4. Expand simulator coverage for remaining live edge cases
 
 ---
 
