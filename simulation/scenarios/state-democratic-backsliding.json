@@ -1,0 +1,27 @@
+{
+  "id": "state-democratic-backsliding",
+  "title": "State Democratic Backsliding",
+  "description": "A state persists in dismantling free and fair elections and independent institutions. The scenario tests the democratic-floor finding, congressional remedy period, and representation-suspension backstop.",
+  "events": [
+    {
+      "day": 0,
+      "type": "supreme_court_finds_state_democratic_floor_violation",
+      "actor": "Supreme Court"
+    },
+    {
+      "day": 220,
+      "type": "congress_fails_state_remedy",
+      "actor": "Congress"
+    },
+    {
+      "day": 730,
+      "type": "state_violation_persists_two_years",
+      "actor": "State government"
+    },
+    {
+      "day": 760,
+      "type": "congress_suspends_representation",
+      "actor": "Congress"
+    }
+  ]
+}

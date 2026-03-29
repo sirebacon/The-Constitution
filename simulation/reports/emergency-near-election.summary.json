@@ -1,0 +1,63 @@
+{
+  "scenario_id": "emergency-near-election",
+  "title": "Emergency Near Election Day",
+  "source_file": "/Users/chris/Documents/GitHub/The-Constitution/simulation/scenarios/emergency-near-election.json",
+  "status": "stress_point_found",
+  "triggered_provisions": [
+    "Article I Section 3",
+    "Article I Section 3.4",
+    "Article III Section 5",
+    "Article V Section 14"
+  ],
+  "metrics": {
+    "resolved_obligations": 3,
+    "unresolved_obligations": 0,
+    "violations": 1,
+    "bottlenecks": 1,
+    "timeline_entries": 11
+  },
+  "violations": [
+    {
+      "id": "violation_1",
+      "summary": "Emergency measures restrict access to polling places, early voting, or certification."
+    }
+  ],
+  "bottlenecks": [
+    {
+      "id": "bottleneck_1",
+      "summary": "Regional Assembly failed to approve or reject the emergency declaration by day 30 under Article III Section 5.4."
+    }
+  ],
+  "open_duties": [],
+  "resolved_duties": [
+    {
+      "actor": "President",
+      "duty": "submit the emergency declaration to the Regional Assembly",
+      "resolved_day": 1,
+      "resolution": "submitted the emergency declaration to the Regional Assembly",
+      "source": "Article III Section 5.4"
+    },
+    {
+      "actor": "Federal courts",
+      "duty": "resolve the election-access challenge",
+      "resolved_day": 4,
+      "resolution": "blocked the election restriction on strict-scrutiny review",
+      "source": "Article I Section 3.4"
+    },
+    {
+      "actor": "Regional Assembly",
+      "duty": "approve or reject the emergency declaration",
+      "resolved_day": 31,
+      "resolution": "failed to approve the emergency declaration, causing it to lapse",
+      "source": "Article III Section 5.4"
+    }
+  ],
+  "notes": [
+    "Emergency occurs near a federal election, which raises election-access constraints."
+  ],
+  "ai_summary": {
+    "core_failure": "Emergency measures restrict access to polling places, early voting, or certification.",
+    "system_risk": "institutional_stress",
+    "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+  }
+}

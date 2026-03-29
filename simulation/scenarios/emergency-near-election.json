@@ -1,0 +1,35 @@
+{
+  "id": "emergency-near-election",
+  "title": "Emergency Near Election Day",
+  "description": "The President declares an emergency shortly before a federal election and uses it to restrict voting access. The scenario tests emergency review, election-protection rules, and judicial timing.",
+  "events": [
+    {
+      "day": 0,
+      "type": "national_emergency_declared",
+      "actor": "President",
+      "details": {
+        "near_election": true
+      }
+    },
+    {
+      "day": 1,
+      "type": "emergency_submitted_to_regional_assembly",
+      "actor": "President"
+    },
+    {
+      "day": 2,
+      "type": "election_access_restricted_by_emergency",
+      "actor": "Executive branch"
+    },
+    {
+      "day": 4,
+      "type": "court_blocks_election_restriction",
+      "actor": "Federal courts"
+    },
+    {
+      "day": 31,
+      "type": "regional_assembly_rejects_or_fails_emergency",
+      "actor": "Regional Assembly"
+    }
+  ]
+}

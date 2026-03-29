@@ -1,0 +1,287 @@
+{
+  "scenario_count": 4,
+  "stress_point_scenarios": 4,
+  "totals": {
+    "violations": 3,
+    "bottlenecks": 3,
+    "unresolved_obligations": 4
+  },
+  "top_triggered_provisions": [
+    {
+      "provision": "Article I Section 3",
+      "count": 1
+    },
+    {
+      "provision": "Article I Section 3.4",
+      "count": 1
+    },
+    {
+      "provision": "Article III Section 10",
+      "count": 1
+    },
+    {
+      "provision": "Article III Section 15",
+      "count": 1
+    },
+    {
+      "provision": "Article III Section 15.8",
+      "count": 1
+    },
+    {
+      "provision": "Article III Section 5",
+      "count": 1
+    },
+    {
+      "provision": "Article IX Section 3",
+      "count": 1
+    },
+    {
+      "provision": "Article V Section 14",
+      "count": 1
+    },
+    {
+      "provision": "Article VII Section 1.5",
+      "count": 1
+    },
+    {
+      "provision": "Article VII Section 1.6",
+      "count": 1
+    },
+    {
+      "provision": "Article XI Section 1",
+      "count": 1
+    }
+  ],
+  "open_duties_by_actor": [
+    {
+      "actor": "Congress",
+      "count": 2
+    },
+    {
+      "actor": "House of Representatives",
+      "count": 2
+    }
+  ],
+  "scenarios": [
+    {
+      "scenario_id": "emergency-near-election",
+      "title": "Emergency Near Election Day",
+      "source_file": "/Users/chris/Documents/GitHub/The-Constitution/simulation/scenarios/emergency-near-election.json",
+      "status": "stress_point_found",
+      "triggered_provisions": [
+        "Article I Section 3",
+        "Article I Section 3.4",
+        "Article III Section 5",
+        "Article V Section 14"
+      ],
+      "metrics": {
+        "resolved_obligations": 3,
+        "unresolved_obligations": 0,
+        "violations": 1,
+        "bottlenecks": 1,
+        "timeline_entries": 11
+      },
+      "violations": [
+        {
+          "id": "violation_1",
+          "summary": "Emergency measures restrict access to polling places, early voting, or certification."
+        }
+      ],
+      "bottlenecks": [
+        {
+          "id": "bottleneck_1",
+          "summary": "Regional Assembly failed to approve or reject the emergency declaration by day 30 under Article III Section 5.4."
+        }
+      ],
+      "open_duties": [],
+      "resolved_duties": [
+        {
+          "actor": "President",
+          "duty": "submit the emergency declaration to the Regional Assembly",
+          "resolved_day": 1,
+          "resolution": "submitted the emergency declaration to the Regional Assembly",
+          "source": "Article III Section 5.4"
+        },
+        {
+          "actor": "Federal courts",
+          "duty": "resolve the election-access challenge",
+          "resolved_day": 4,
+          "resolution": "blocked the election restriction on strict-scrutiny review",
+          "source": "Article I Section 3.4"
+        },
+        {
+          "actor": "Regional Assembly",
+          "duty": "approve or reject the emergency declaration",
+          "resolved_day": 31,
+          "resolution": "failed to approve the emergency declaration, causing it to lapse",
+          "source": "Article III Section 5.4"
+        }
+      ],
+      "notes": [
+        "Emergency occurs near a federal election, which raises election-access constraints."
+      ],
+      "ai_summary": {
+        "core_failure": "Emergency measures restrict access to polling places, early voting, or certification.",
+        "system_risk": "institutional_stress",
+        "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+      }
+    },
+    {
+      "scenario_id": "president-obstructs-investigation",
+      "title": "President Interferes With Own Investigation",
+      "source_file": "/Users/chris/Documents/GitHub/The-Constitution/simulation/scenarios/president-obstructs-investigation.json",
+      "status": "stress_point_found",
+      "triggered_provisions": [
+        "Article III Section 15",
+        "Article III Section 15.8",
+        "Article IX Section 3"
+      ],
+      "metrics": {
+        "resolved_obligations": 1,
+        "unresolved_obligations": 1,
+        "violations": 1,
+        "bottlenecks": 0,
+        "timeline_entries": 6
+      },
+      "violations": [
+        {
+          "id": "violation_1",
+          "summary": "President interferes with an investigation into their own conduct."
+        }
+      ],
+      "bottlenecks": [],
+      "open_duties": [
+        {
+          "actor": "House of Representatives",
+          "duty": "consider impeachment for interference with investigation",
+          "deadline_day": null,
+          "source": "Article III Section 10 and Section 15.8",
+          "severity": "medium"
+        }
+      ],
+      "resolved_duties": [
+        {
+          "actor": "Accountability Commission",
+          "duty": "pursue obstruction-related enforcement",
+          "resolved_day": 20,
+          "resolution": "acted on the obstruction matter",
+          "source": "Article III Section 15.8"
+        }
+      ],
+      "notes": [],
+      "ai_summary": {
+        "core_failure": "President interferes with an investigation into their own conduct.",
+        "system_risk": "institutional_stress",
+        "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+      }
+    },
+    {
+      "scenario_id": "state-democratic-backsliding",
+      "title": "State Democratic Backsliding",
+      "source_file": "/Users/chris/Documents/GitHub/The-Constitution/simulation/scenarios/state-democratic-backsliding.json",
+      "status": "stress_point_found",
+      "triggered_provisions": [
+        "Article VII Section 1.5",
+        "Article VII Section 1.6"
+      ],
+      "metrics": {
+        "resolved_obligations": 1,
+        "unresolved_obligations": 1,
+        "violations": 0,
+        "bottlenecks": 1,
+        "timeline_entries": 8
+      },
+      "violations": [],
+      "bottlenecks": [
+        {
+          "id": "bottleneck_1",
+          "summary": "Congress failed to enact a remedial measure for the violating state by day 180 under Article VII Section 1.6(b)."
+        }
+      ],
+      "open_duties": [
+        {
+          "actor": "Congress",
+          "duty": "enact a remedial measure for the violating state",
+          "deadline_day": 180,
+          "source": "Article VII Section 1.6(b)",
+          "severity": "high"
+        }
+      ],
+      "resolved_duties": [
+        {
+          "actor": "Congress",
+          "duty": "decide whether to suspend the state's representation until compliance is restored",
+          "resolved_day": 760,
+          "resolution": "suspended the state's representation pending Supreme Court certification of compliance",
+          "source": "Article VII Section 1.6(c)"
+        }
+      ],
+      "notes": [],
+      "ai_summary": {
+        "core_failure": "Congress failed to enact a remedial measure for the violating state by day 180 under Article VII Section 1.6(b).",
+        "system_risk": "institutional_stress",
+        "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+      }
+    },
+    {
+      "scenario_id": "unauthorized-military-action",
+      "title": "Unauthorized Sustained Military Action",
+      "source_file": "/Users/chris/Documents/GitHub/The-Constitution/simulation/scenarios/unauthorized-military-action.json",
+      "status": "stress_point_found",
+      "triggered_provisions": [
+        "Article III Section 10",
+        "Article XI Section 1"
+      ],
+      "metrics": {
+        "resolved_obligations": 1,
+        "unresolved_obligations": 2,
+        "violations": 1,
+        "bottlenecks": 1,
+        "timeline_entries": 9
+      },
+      "violations": [
+        {
+          "id": "violation_1",
+          "summary": "President continues military operations in violation of a withdrawal order."
+        }
+      ],
+      "bottlenecks": [
+        {
+          "id": "bottleneck_1",
+          "summary": "Congress failed to grant authorization for continued military force or refuse it by day 30 under Article XI Section 1."
+        }
+      ],
+      "open_duties": [
+        {
+          "actor": "Congress",
+          "duty": "grant authorization for continued military force or refuse it",
+          "deadline_day": 30,
+          "source": "Article XI Section 1",
+          "severity": "high"
+        },
+        {
+          "actor": "House of Representatives",
+          "duty": "consider impeachment for unlawful continued military operations",
+          "deadline_day": null,
+          "source": "Article XI Section 8(e) and Article III Section 10",
+          "severity": "high"
+        }
+      ],
+      "resolved_duties": [
+        {
+          "actor": "Chief Justice",
+          "duty": "issue the required withdrawal order for unauthorized continued operations",
+          "resolved_day": 34,
+          "resolution": "issued a withdrawal order",
+          "source": "Article XI Section 1.5(c)"
+        }
+      ],
+      "notes": [],
+      "ai_summary": {
+        "core_failure": "President continues military operations in violation of a withdrawal order.",
+        "system_risk": "institutional_stress",
+        "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+      }
+    }
+  ]
+}

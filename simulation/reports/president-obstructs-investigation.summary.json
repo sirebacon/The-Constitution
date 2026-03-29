@@ -1,0 +1,49 @@
+{
+  "scenario_id": "president-obstructs-investigation",
+  "title": "President Interferes With Own Investigation",
+  "source_file": "/Users/chris/Documents/GitHub/The-Constitution/simulation/scenarios/president-obstructs-investigation.json",
+  "status": "stress_point_found",
+  "triggered_provisions": [
+    "Article III Section 15",
+    "Article III Section 15.8",
+    "Article IX Section 3"
+  ],
+  "metrics": {
+    "resolved_obligations": 1,
+    "unresolved_obligations": 1,
+    "violations": 1,
+    "bottlenecks": 0,
+    "timeline_entries": 6
+  },
+  "violations": [
+    {
+      "id": "violation_1",
+      "summary": "President interferes with an investigation into their own conduct."
+    }
+  ],
+  "bottlenecks": [],
+  "open_duties": [
+    {
+      "actor": "House of Representatives",
+      "duty": "consider impeachment for interference with investigation",
+      "deadline_day": null,
+      "source": "Article III Section 10 and Section 15.8",
+      "severity": "medium"
+    }
+  ],
+  "resolved_duties": [
+    {
+      "actor": "Accountability Commission",
+      "duty": "pursue obstruction-related enforcement",
+      "resolved_day": 20,
+      "resolution": "acted on the obstruction matter",
+      "source": "Article III Section 15.8"
+    }
+  ],
+  "notes": [],
+  "ai_summary": {
+    "core_failure": "President interferes with an investigation into their own conduct.",
+    "system_risk": "institutional_stress",
+    "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+  }
+}

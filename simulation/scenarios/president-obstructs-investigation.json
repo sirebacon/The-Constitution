@@ -1,0 +1,22 @@
+{
+  "id": "president-obstructs-investigation",
+  "title": "President Interferes With Own Investigation",
+  "description": "The Accountability Commission opens an investigation into presidential misconduct. The President then attempts to interfere with that investigation, testing Article III accountability flow and the impeachment backstop.",
+  "events": [
+    {
+      "day": 0,
+      "type": "accountability_commission_investigation_opened",
+      "actor": "Accountability Commission"
+    },
+    {
+      "day": 5,
+      "type": "president_interferes_with_investigation",
+      "actor": "President"
+    },
+    {
+      "day": 20,
+      "type": "accountability_commission_acts",
+      "actor": "Accountability Commission"
+    }
+  ]
+}
