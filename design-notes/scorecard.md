@@ -57,7 +57,7 @@ These are the current working scores for the draft after the latest simplificati
 | Article VIII — Government Ethics | 9.0 | Near-final | Strong anti-corruption architecture now stated at a more constitutional level | Some market-integrity provisions may still be slightly detailed | Final polish for abstraction and readability |
 | Article IX — Citizenship and National Membership | 8.4 | Strong | Equal citizenship, overseas political membership, and officeholding equality now sit more clearly in one constitutional home instead of being split across electoral and executive articles | Loss-of-citizenship and sensitive-office rules still need one more tightening pass, and the article has not yet been pressure-tested through dedicated scenarios | Tighten the loss-of-citizenship rule and add targeted citizenship/eligibility scenarios |
 | Article X — Federalism and the States | 8.5 | Strong | Modernized federalism with cleaner democratic-floor enforcement | Some preemption and local-control edge cases still need testing | Review administrability of preemption and local override rules |
-| Article XI — Amendments | 8.6 | Strong | Thoughtful two-track design with anti-backsliding protection now sits more cleanly apart from ratification-transition mechanics | Unamendability and review mechanics still need careful calibration | Test for legitimacy and over-judicialization risk |
+| Article XI — Amendments | 8.8 | Strong | The article now has clearer anti-entrenchment doctrine and direct simulation coverage: evasive authoritarian amendments are rejected cleanly, and pre-clearance delay no longer stalls the amendment path indefinitely | Pre-clearance still adds a real judicial-delay bottleneck in rights-amendment timeout scenarios, so the review layer must remain narrow and disciplined | Keep the current structure unless new scenarios show over-judicialization or an under-specified ratification edge case |
 | Article XII — Constitutional Organs | 8.6 | Strong | The article is now much more self-contained: each Organ's mandate, powers, limits, quorum, vacancy, and continuity rules are stated at a clearer constitutional level | Organ constitution is still a live deadline bottleneck through Article XIX, and the article could still use scenario pressure around internal anti-sabotage and continuity procedures | Stress-test internal boycott and continuity edge cases, then do one final consistency pass with Article XIX |
 | Article XIII — Federal Agencies | 8.5 | Strong | Strong anti-capture architecture with cleaner constitutional abstraction | A few agency-governance rules could still be compressed | Continue pruning operational detail |
 | Article XIV — Taxation and Public Revenue | 8.3 | Strong | Taxation now clearly owns the constitutional rules of public revenue and sits more cleanly apart from borrowing and expenditure | Edge-case revenue powers and the proper level of constitutional abstraction still need pressure testing | Stress-test emergency revenue powers and confirm the article stays principle-level rather than tax-code-like |
@@ -84,7 +84,7 @@ These are the current working scores for the draft after the latest simplificati
 | Article VIII — Government Ethics | 8.8 | 9.0 | 9.0 | 8.8 | 9.5 | 8.8 | 9.0 |
 | Article IX — Citizenship and National Membership | 8.3 | 8.3 | 8.3 | 9.0 | 8.5 | 7.8 | 8.4 |
 | Article X — Federalism and the States | 8.5 | 8.8 | 8.0 | 8.8 | 8.3 | 8.2 | 8.5 |
-| Article XI — Amendments | 8.0 | 8.5 | 8.5 | 8.5 | 9.0 | 7.5 | 8.5 |
+| Article XI — Amendments | 8.5 | 8.8 | 8.8 | 8.5 | 9.1 | 7.8 | 8.8 |
 | Article XII — Constitutional Organs | 8.6 | 8.8 | 8.7 | 8.5 | 9.1 | 8.0 | 8.6 |
 | Article XIII — Federal Agencies | 8.2 | 8.5 | 8.5 | 8.3 | 8.8 | 8.5 | 8.5 |
 | Article XIV — Taxation and Public Revenue | 8.3 | 8.3 | 8.2 | 8.5 | 8.5 | 8.0 | 8.3 |
@@ -164,6 +164,7 @@ Update this table whenever a score changes.
 
 | Date | Area | Old Score | New Score | Reason for Change | Remaining Issue |
 |------|------|-----------|-----------|-------------------|-----------------|
+| 2026-03-29 | Article XI — Amendments | 8.6 | 8.8 | The amendment article was strengthened and then directly exercised in simulation: evasive authoritarian redesign is now rejected cleanly at pre-clearance, while judicial inaction in a rights-amendment case no longer blocks the process because clearance is deemed granted on timeout | The remaining live risk is over-judicialization or repeated pre-clearance delay, not missing constitutional machinery |
 | 2026-03-29 | Article XII — Constitutional Organs | 8.0 | 8.6 | The article was substantially compressed and clarified: the Electoral Commission and Accountability Commission now have cleaner mandate, powers, limits, quorum, vacancy, and continuity rules without the prior mini-code structure | The next question is not architecture but edge-case validation, especially internal anti-sabotage and continuity scenarios |
 | 2026-03-29 | Article IV / Article XVI / Article XIX / Overall | 8.0 / 8.5 / 8.5 / 8.9 | 8.5 / 8.8 / 8.8 / 8.9 | The latest simulation reruns validated three important containment chains: expedited-case Supreme Court delay now ends in party-level finality, the war-powers chain now clearly executes through fiscal hold and automatic impeachment transmission, and Article XIX transition deadlines now convert into continuity-preserving fallback rather than open paralysis | The dominant remaining weakness is recurring legislative deadline failure, with smaller judicial-delay and institutional-deadline stress points still live |
 | 2026-03-28 | Preamble | 9.0 | 9.0 | Design notes were extracted from the operative preamble into a separate drafting document, leaving the preamble file as pure constitutional text without changing its substance | Remaining work is still limited to cadence and memorability |
@@ -205,7 +206,7 @@ Before raising a score, ask:
 Recommended focus order:
 
 1. Legislative nonperformance chains — review whether any remaining constitutionally required votes need narrower default-consequence or anti-obstruction hardening, especially in war powers and presidential-accountability paths
-2. Article XII — Constitutional Organs simplification — reduce cross-reference dependence and compress commission detail now that the transition fallback has been validated
-3. Judicial-delay containment review — decide whether Article IV needs anything beyond the current notice, conduct-review, and expedited-case finality backstops
+2. Article XII / Article XIX continuity edge cases — pressure-test internal boycott, quorum sabotage, and remaining organ-setup friction now that the articles are cleaner
+3. Judicial-delay containment review — decide whether Article IV and now Article XI have reached the right stopping point on delay consequences
 4. Article IX — targeted citizenship and eligibility stress-testing — pressure-test loss-of-citizenship, overseas assignment, and sensitive-office rules
 5. Articles XIV and XV — post-integration stress-test and compression pass — verify the fiscal safeguards under pressure and trim any renewed code-like detail

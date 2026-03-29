@@ -1,0 +1,50 @@
+{
+  "scenario_id": "unamendable-core-evasion",
+  "title": "Authoritarian Amendment Evades the Unamendable Core",
+  "source_file": "simulation/scenarios/unamendable-core-evasion.json",
+  "status": "stress_point_found",
+  "triggered_provisions": [
+    "Article XI Section 2",
+    "Article XI Section 3",
+    "Article XI Section 4"
+  ],
+  "metrics": {
+    "satisfied_obligations": 1,
+    "failed_obligations": 0,
+    "unresolved_obligations": 0,
+    "violations": 1,
+    "bottlenecks": 0,
+    "timeline_entries": 5
+  },
+  "violations": [
+    {
+      "id": "authoritarian_amendment_attempt",
+      "category": "institutional_stress",
+      "actor": "Congress",
+      "source": "Article XI Section 3.1 and Section 3.2",
+      "severity": "high",
+      "day": 45,
+      "summary": "The Electoral Stability Amendment attempts to evade the unamendable core or principled backstop by structurally entrenching political power."
+    }
+  ],
+  "bottlenecks": [],
+  "open_duties": [],
+  "satisfied_duties": [
+    {
+      "actor": "Supreme Court",
+      "duty": "issue a pre-clearance ruling on the proposed amendment",
+      "closed_day": 45,
+      "outcome": "rejected the proposed amendment at pre-clearance and published a written opinion stating that it would materially impair the capacity of citizens to alter their government through free and regular elections and would functionally evade the unamendable protections of universal suffrage and binding election results",
+      "source": "Article XI Section 4.1, Section 4.3, and Section 4.4"
+    }
+  ],
+  "failed_duties": [],
+  "notes": [],
+  "ai_summary": {
+    "primary_violation": "The Electoral Stability Amendment attempts to evade the unamendable core or principled backstop by structurally entrenching political power.",
+    "primary_bottleneck": null,
+    "primary_open_duty": null,
+    "system_risk": "institutional_stress",
+    "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "unamendable-core-evasion",
+  "title": "Authoritarian Amendment Evades the Unamendable Core",
+  "description": "Congress proposes a structural amendment that redefines the electorate and allows ordinary political actors to disregard binding federal election outcomes while claiming not to amend the franchise directly. The scenario tests whether Article XI's strengthened unamendable-core and principled-backstop review rejects evasive authoritarian redesign before ratification begins.",
+  "events": [
+    {
+      "day": 0,
+      "type": "amendment_submitted_for_preclearance",
+      "actor": "Congress",
+      "details": {
+        "track": "track_1",
+        "title": "The Electoral Stability Amendment"
+      }
+    },
+    {
+      "day": 45,
+      "type": "supreme_court_rejects_amendment_preclearance",
+      "actor": "Supreme Court",
+      "details": {
+        "title": "The Electoral Stability Amendment",
+        "reason": "would materially impair the capacity of citizens to alter their government through free and regular elections and would functionally evade the unamendable protections of universal suffrage and binding election results"
+      }
+    }
+  ]
+}

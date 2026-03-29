@@ -1,0 +1,41 @@
+{
+  "id": "rights-amendment-preclearance-timeout",
+  "title": "Rights Amendment Proceeds After Pre-Clearance Timeout",
+  "description": "Congress proposes a rights-expanding amendment. The Supreme Court fails to issue a pre-clearance ruling within the 60-day Track 2 deadline, so pre-clearance is deemed granted and the amendment proceeds to state ratification and national referendum. The scenario tests whether Article XI prevents judicial inaction from stalling a rights-expansion path.",
+  "events": [
+    {
+      "day": 0,
+      "type": "amendment_submitted_for_preclearance",
+      "actor": "Congress",
+      "details": {
+        "track": "track_2",
+        "title": "The Digital Privacy Rights Amendment"
+      }
+    },
+    {
+      "day": 61,
+      "type": "supreme_court_misses_preclearance_deadline",
+      "actor": "Supreme Court",
+      "details": {
+        "track": "track_2"
+      }
+    },
+    {
+      "day": 400,
+      "type": "states_ratify_amendment",
+      "actor": "State legislatures",
+      "details": {
+        "track": "track_2",
+        "title": "The Digital Privacy Rights Amendment"
+      }
+    },
+    {
+      "day": 425,
+      "type": "national_referendum_confirms_rights_amendment",
+      "actor": "Electoral Commission",
+      "details": {
+        "title": "The Digital Privacy Rights Amendment"
+      }
+    }
+  ]
+}

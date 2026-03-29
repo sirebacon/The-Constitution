@@ -91,7 +91,14 @@ The following provisions of this Constitution may not be amended, repealed, susp
 
 ### 3.2 — Principled Backstop
 
-No amendment shall be construed to permanently concentrate governmental power in any single person, political party, or institution. No amendment shall eliminate or materially impair the capacity of citizens to alter their government through free elections. The Supreme Court shall have jurisdiction to enforce this provision, including against amendments not specifically enumerated in Section 3.1. For purposes of this Section, the Supreme Court shall determine whether an amendment "materially impairs citizen capacity to alter government" under the following standard: an amendment materially impairs such capacity if it (a) reduces the franchise by more than 5% of the eligible voting population, (b) eliminates an existing pathway for peaceful political change, or (c) concentrates power in a single person, party, or institution without adequate checks or counterbalancing mechanisms. These criteria are illustrative; the Court may find material impairment on other grounds where the record supports that finding.
+No amendment may permanently concentrate unchecked governmental power in a single person, political party, or institution. No amendment may eliminate or materially impair the capacity of citizens to alter their government through free and regular elections and lawful transfer of power. The Supreme Court shall enforce this Section against evasive or functionally equivalent changes as well as against amendments that directly contradict Section 3.1.
+
+An amendment materially impairs that capacity if, in substance or practical effect, it:
+  (a) meaningfully narrows the electorate on arbitrary, partisan, hereditary, or discriminatory grounds;
+  (b) prevents federal elections from remaining free, regular, and binding;
+  (c) disables a meaningful avenue of peaceful political change;
+  (d) strips a branch, electorate, or constitutionally independent institution of the minimum powers necessary to check entrenched rule; or
+  (e) entrenches a person, party, or governing bloc against electoral replacement beyond ordinary constitutional accountability.
 
 ### 3.3 — Why These Provisions Are Unamendable
 
@@ -115,7 +122,7 @@ The Supreme Court shall review the proposed amendment solely to determine:
 
 (b) Whether it violates the principled backstop of Section 3.2
 
-(c) Whether it is properly classified under Track 1 or Track 2 — the Court shall determine the correct track if there is a dispute, and may reclassify an amendment to the appropriate track. The Court's classification determination is itself subject to judicial review: any member of Congress or any member of the Electoral Commission may challenge the Court's Track 1 / Track 2 classification by petition to the Supreme Court within 30 days of the Court's pre-clearance determination. The Court shall rule on any such classification challenge within 30 days of the challenge being filed. A timely classification challenge tolls the pre-clearance timeline until the classification is resolved.
+(c) Whether it is properly classified under Track 1 or Track 2 — the Court shall determine the correct track if there is a dispute, and may reclassify an amendment to the appropriate track
 
 (d) Whether it targets a specific individual, party, or group in violation of Section 2
 
@@ -123,12 +130,12 @@ The Court may not review the wisdom, desirability, or policy merits of a propose
 
 ### 4.3 — Timeline
 
-For **Track 1 structural amendments**, the Supreme Court must issue its pre-clearance ruling within 90 days of submission. For **Track 2 rights amendments**, the Court must issue its ruling within 60 days. Rights expansions present narrower legal questions — whether the amendment is properly classified and does not violate the unamendable core — and the shorter timeline reflects both this and the democratic momentum that a rights amendment typically carries. If no ruling is issued within the applicable deadline, pre-clearance is deemed granted and ratification may proceed. For purposes of the 90-day (or 60-day) pre-clearance clock, any period during which the Supreme Court's administrative processes are demonstrably delayed or impeded by executive action does not count toward the deadline. The Clerk of the Supreme Court shall certify in writing any such period of executive-caused delay, specifying its duration. Upon certification, the pre-clearance clock is paused for the certified period and resumes when the impediment is removed; the automatic-grant-of-clearance rule does not apply to any portion of the deadline consumed by a certified executive-caused delay.
+For **Track 1 structural amendments**, the Supreme Court must issue its pre-clearance ruling within 90 days of submission. For **Track 2 rights amendments**, the Court must issue its ruling within 60 days. If no ruling is issued within the applicable deadline, pre-clearance is deemed granted and ratification may proceed. Any period during which the Court is demonstrably prevented from acting by executive interference does not count toward the deadline; the Clerk of the Court shall publicly certify any such period with specificity.
 
 ### 4.4 — Outcomes
 
 - **Cleared:** Ratification may proceed under the applicable track.
-- **Rejected:** The amendment may not proceed to ratification. When the Supreme Court rejects an amendment at pre-clearance, it must publish a detailed written opinion stating precisely what changes to the amendment's text or structure would render it constitutional. Congress may revise and resubmit after a 90-day waiting period (not 180 days). Upon resubmission, the Court may not reject the revised amendment on constitutional grounds not stated in its prior rejection opinion; any new ground for rejection that was not identified in the prior opinion is waived as to that resubmission.
+- **Rejected:** The amendment may not proceed to ratification. When the Supreme Court rejects an amendment at pre-clearance, it must publish a written opinion stating with specificity the constitutional ground of rejection. Congress may revise and resubmit after a 90-day waiting period.
 - **Reclassified:** The amendment proceeds under the correct track as determined by the Court.
 
 ### 4.5 — Standing
@@ -152,7 +159,7 @@ Standing to bring a post-ratification challenge is held by:
 - The Accountability Commission (Article XII)
 - Any citizen whose rights are directly impaired by the amendment
 
-Any citizen has standing to challenge a ratified amendment that violates the unamendable core of Section 3, regardless of whether that citizen can demonstrate particularized injury beyond the general impairment of the unamendable rights at stake. A challenge by any citizen under this paragraph must be filed within 2 years of the certification of ratification. The Supreme Court shall hear and decide any such challenge within 6 months of the date it is filed; if the Court fails to issue a ruling within 6 months, the challenge is deemed denied without prejudice to re-filing if new evidence of constitutional violation emerges.
+Any citizen has standing to challenge a ratified amendment that violates the unamendable core of Section 3, regardless of whether that citizen can demonstrate particularized injury beyond the impairment of the constitutional order protected by that Section. A challenge by any citizen under this paragraph must be filed within 2 years of the certification of ratification.
 
 ### 5.3 — Adjudication
 

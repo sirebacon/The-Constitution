@@ -1,9 +1,9 @@
 {
-  "scenario_count": 36,
-  "stress_point_scenarios": 35,
+  "scenario_count": 38,
+  "stress_point_scenarios": 37,
   "totals": {
-    "violations": 31,
-    "bottlenecks": 27,
+    "violations": 32,
+    "bottlenecks": 28,
     "unresolved_obligations": 0
   },
   "risk_pattern_counts": [
@@ -13,7 +13,7 @@
     },
     {
       "risk": "institutional_stress",
-      "count": 9
+      "count": 11
     },
     {
       "risk": "legislative_delay",
@@ -39,7 +39,7 @@
     },
     {
       "category": "judicial_delay",
-      "count": 4
+      "count": 5
     },
     {
       "category": "institutional_deadline_failure",
@@ -60,12 +60,12 @@
       "count": 5
     },
     {
-      "category": "legislative_deadline_failure",
+      "category": "institutional_stress",
       "count": 3
     },
     {
-      "category": "institutional_stress",
-      "count": 2
+      "category": "legislative_deadline_failure",
+      "count": 3
     },
     {
       "category": "caste_hierarchy",
@@ -123,6 +123,18 @@
     },
     {
       "provision": "Article V Section 1",
+      "count": 2
+    },
+    {
+      "provision": "Article XI Section 2",
+      "count": 2
+    },
+    {
+      "provision": "Article XI Section 3",
+      "count": 2
+    },
+    {
+      "provision": "Article XI Section 4",
       "count": 2
     },
     {
@@ -2420,6 +2432,67 @@
       }
     },
     {
+      "scenario_id": "rights-amendment-preclearance-timeout",
+      "title": "Rights Amendment Proceeds After Pre-Clearance Timeout",
+      "source_file": "simulation/scenarios/rights-amendment-preclearance-timeout.json",
+      "status": "stress_point_found",
+      "triggered_provisions": [
+        "Article XI Section 2",
+        "Article XI Section 3",
+        "Article XI Section 4"
+      ],
+      "metrics": {
+        "satisfied_obligations": 1,
+        "failed_obligations": 1,
+        "unresolved_obligations": 0,
+        "violations": 0,
+        "bottlenecks": 1,
+        "timeline_entries": 9
+      },
+      "violations": [],
+      "bottlenecks": [
+        {
+          "id": "supreme_court_preclear_amendment",
+          "category": "judicial_delay",
+          "actor": "Supreme Court",
+          "source": "Article XI Section 4.1, Section 4.3, and Section 4.4",
+          "severity": "high",
+          "day": 61,
+          "deadline_day": 60,
+          "summary": "Supreme Court failed to issue a pre-clearance ruling on the proposed amendment by day 60 under Article XI Section 4.1, Section 4.3, and Section 4.4."
+        }
+      ],
+      "open_duties": [],
+      "satisfied_duties": [
+        {
+          "actor": "Electoral Commission",
+          "duty": "administer and certify the national referendum confirming the rights amendment",
+          "closed_day": 425,
+          "outcome": "administered and certified the national referendum confirming the rights amendment",
+          "source": "Article XI Section 2"
+        }
+      ],
+      "failed_duties": [
+        {
+          "actor": "Supreme Court",
+          "duty": "issue a pre-clearance ruling on the proposed amendment",
+          "deadline_day": 60,
+          "closed_day": 61,
+          "outcome": "Supreme Court failed to issue a pre-clearance ruling on the proposed amendment by day 60 under Article XI Section 4.1, Section 4.3, and Section 4.4.",
+          "source": "Article XI Section 4.1, Section 4.3, and Section 4.4",
+          "severity": "high"
+        }
+      ],
+      "notes": [],
+      "ai_summary": {
+        "primary_violation": null,
+        "primary_bottleneck": "Supreme Court failed to issue a pre-clearance ruling on the proposed amendment by day 60 under Article XI Section 4.1, Section 4.3, and Section 4.4.",
+        "primary_open_duty": null,
+        "system_risk": "institutional_stress",
+        "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+      }
+    },
+    {
       "scenario_id": "self-pardon-attempt",
       "title": "Presidential Self-Pardon Attempt",
       "source_file": "simulation/scenarios/self-pardon-attempt.json",
@@ -2675,6 +2748,56 @@
       "ai_summary": {
         "primary_violation": "The Court appears to be using delay itself to affect the political timing of a major constitutional dispute.",
         "primary_bottleneck": "Supreme Court failed to publish a public notice identifying the case and the reason for delay if no decision has issued within six months of argument by day 180 under Article IV Section 10.1.",
+        "primary_open_duty": null,
+        "system_risk": "institutional_stress",
+        "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+      }
+    },
+    {
+      "scenario_id": "unamendable-core-evasion",
+      "title": "Authoritarian Amendment Evades the Unamendable Core",
+      "source_file": "simulation/scenarios/unamendable-core-evasion.json",
+      "status": "stress_point_found",
+      "triggered_provisions": [
+        "Article XI Section 2",
+        "Article XI Section 3",
+        "Article XI Section 4"
+      ],
+      "metrics": {
+        "satisfied_obligations": 1,
+        "failed_obligations": 0,
+        "unresolved_obligations": 0,
+        "violations": 1,
+        "bottlenecks": 0,
+        "timeline_entries": 5
+      },
+      "violations": [
+        {
+          "id": "authoritarian_amendment_attempt",
+          "category": "institutional_stress",
+          "actor": "Congress",
+          "source": "Article XI Section 3.1 and Section 3.2",
+          "severity": "high",
+          "day": 45,
+          "summary": "The Electoral Stability Amendment attempts to evade the unamendable core or principled backstop by structurally entrenching political power."
+        }
+      ],
+      "bottlenecks": [],
+      "open_duties": [],
+      "satisfied_duties": [
+        {
+          "actor": "Supreme Court",
+          "duty": "issue a pre-clearance ruling on the proposed amendment",
+          "closed_day": 45,
+          "outcome": "rejected the proposed amendment at pre-clearance and published a written opinion stating that it would materially impair the capacity of citizens to alter their government through free and regular elections and would functionally evade the unamendable protections of universal suffrage and binding election results",
+          "source": "Article XI Section 4.1, Section 4.3, and Section 4.4"
+        }
+      ],
+      "failed_duties": [],
+      "notes": [],
+      "ai_summary": {
+        "primary_violation": "The Electoral Stability Amendment attempts to evade the unamendable core or principled backstop by structurally entrenching political power.",
+        "primary_bottleneck": null,
         "primary_open_duty": null,
         "system_risk": "institutional_stress",
         "recommended_focus": "review bottlenecks, violations, and unresolved duties"

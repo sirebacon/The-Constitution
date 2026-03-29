@@ -235,6 +235,112 @@ def handle_supreme_court_misses_expedited_decision_deadline(state: SimulationSta
     )
 
 
+def handle_amendment_submitted_for_preclearance(state: SimulationState, event: dict[str, Any]) -> None:
+    day = int(event["day"])
+    details = event.get("details", {})
+    track = details.get("track", "track_1")
+    title = details.get("title", "proposed constitutional amendment")
+    source = "Article XI Section 2 and Section 4"
+    state.provisions.update({"Article XI Section 2", "Article XI Section 3", "Article XI Section 4"})
+    state.add_entry(
+        day,
+        "event",
+        f"{title} is submitted to the Supreme Court for mandatory pre-clearance review before ratification may begin.",
+        source,
+    )
+    deadline = day + (60 if track == "track_2" else 90)
+    duty = "issue a pre-clearance ruling on the proposed amendment"
+    state.add_obligation(
+        "supreme_court_preclear_amendment",
+        "Supreme Court",
+        duty,
+        "Article XI Section 4.1, Section 4.3, and Section 4.4",
+        day,
+        deadline,
+        severity="high",
+    )
+
+
+def handle_supreme_court_rejects_amendment_preclearance(state: SimulationState, event: dict[str, Any]) -> None:
+    day = int(event["day"])
+    details = event.get("details", {})
+    title = details.get("title", "The proposed amendment")
+    reason = details.get(
+        "reason",
+        "would materially impair the capacity of citizens to alter their government through free and regular elections",
+    )
+    state.resolve_obligation(
+        "supreme_court_preclear_amendment",
+        day,
+        f"rejected the proposed amendment at pre-clearance and published a written opinion stating that it {reason}",
+    )
+    state.add_violation(
+        "authoritarian_amendment_attempt",
+        "institutional_stress",
+        "Congress",
+        f"{title} attempts to evade the unamendable core or principled backstop by structurally entrenching political power.",
+        "Article XI Section 3.1 and Section 3.2",
+        day,
+        severity="high",
+    )
+
+
+def handle_supreme_court_misses_preclearance_deadline(state: SimulationState, event: dict[str, Any]) -> None:
+    day = int(event["day"])
+    details = event.get("details", {})
+    track = details.get("track", "track_1")
+    state.fail_obligation(
+        "supreme_court_preclear_amendment",
+        day,
+        f"Supreme Court failed to issue the required pre-clearance ruling within the {'60-day' if track == 'track_2' else '90-day'} deadline under Article XI Section 4.3.",
+    )
+    state.add_entry(
+        day,
+        "outcome",
+        "Pre-clearance is deemed granted by operation of Article XI Section 4.3 and the amendment may proceed to ratification.",
+        "Article XI Section 4.3",
+    )
+
+
+def handle_states_ratify_amendment(state: SimulationState, event: dict[str, Any]) -> None:
+    day = int(event["day"])
+    details = event.get("details", {})
+    title = details.get("title", "The proposed amendment")
+    state.add_entry(
+        day,
+        "event",
+        f"{title} receives the required state ratifications under the applicable amendment track.",
+        "Article XI Section 2",
+    )
+    if details.get("track", "track_1") == "track_2":
+        state.add_obligation(
+            "national_referendum_confirm_rights_amendment",
+            "Electoral Commission",
+            "administer and certify the national referendum confirming the rights amendment",
+            "Article XI Section 2",
+            day,
+            day + 30,
+            severity="high",
+        )
+
+
+def handle_national_referendum_confirms_rights_amendment(state: SimulationState, event: dict[str, Any]) -> None:
+    day = int(event["day"])
+    details = event.get("details", {})
+    title = details.get("title", "The rights amendment")
+    state.resolve_obligation(
+        "national_referendum_confirm_rights_amendment",
+        day,
+        "administered and certified the national referendum confirming the rights amendment",
+    )
+    state.add_entry(
+        day,
+        "outcome",
+        f"{title} is constitutionally ratified and takes effect on the timeline specified by Article XI.",
+        "Article XI Section 2",
+    )
+
+
 HANDLERS = {
     "court_issues_compliance_order": handle_court_issues_compliance_order,
     "executive_defies_court_order": handle_executive_defies_court_order,
@@ -248,4 +354,9 @@ HANDLERS = {
     "judicial_conduct_board_opens_delay_review": handle_judicial_conduct_board_opens_delay_review,
     "judicial_conduct_board_finds_strategic_delay": handle_judicial_conduct_board_finds_strategic_delay,
     "supreme_court_misses_expedited_decision_deadline": handle_supreme_court_misses_expedited_decision_deadline,
+    "amendment_submitted_for_preclearance": handle_amendment_submitted_for_preclearance,
+    "supreme_court_rejects_amendment_preclearance": handle_supreme_court_rejects_amendment_preclearance,
+    "supreme_court_misses_preclearance_deadline": handle_supreme_court_misses_preclearance_deadline,
+    "states_ratify_amendment": handle_states_ratify_amendment,
+    "national_referendum_confirms_rights_amendment": handle_national_referendum_confirms_rights_amendment,
 }

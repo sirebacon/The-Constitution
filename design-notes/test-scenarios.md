@@ -128,6 +128,15 @@ Status markers: `[x]` implemented — `[ ]` planned.
 
 ---
 
+## Category M — Amendments
+
+| # | Scenario | File | Provision | Stress Path | Expected Outcome |
+|---|----------|------|-----------|-------------|-----------------|
+| M1 | [x] Unamendable Core Evasion | `unamendable-core-evasion.json` | Art. XI §3.1, §3.2, §4 | Congress proposes an authoritarian amendment that functionally narrows the electorate and weakens binding election results while pretending not to amend the core directly | Supreme Court rejects the amendment at pre-clearance under the unamendable core and principled backstop |
+| M2 | [x] Rights Amendment Pre-Clearance Timeout | `rights-amendment-preclearance-timeout.json` | Art. XI §2, §4.3 | Rights-expanding amendment is submitted, but the Supreme Court misses the Track 2 pre-clearance deadline | Pre-clearance is deemed granted; ratification and national referendum proceed |
+
+---
+
 ## Implementation Notes
 
 When adding a new scenario:
