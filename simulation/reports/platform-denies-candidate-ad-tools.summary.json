@@ -1,0 +1,49 @@
+{
+  "scenario_id": "platform-denies-candidate-ad-tools",
+  "title": "Major Platform Denies Equal Candidate Access to Political Distribution Tools",
+  "source_file": "simulation/scenarios/platform-denies-candidate-ad-tools.json",
+  "status": "stress_point_found",
+  "triggered_provisions": [
+    "Article VI Section 7.5",
+    "Article XII"
+  ],
+  "metrics": {
+    "satisfied_obligations": 1,
+    "failed_obligations": 0,
+    "unresolved_obligations": 0,
+    "violations": 1,
+    "bottlenecks": 0,
+    "timeline_entries": 5
+  },
+  "violations": [
+    {
+      "id": "platform_denies_equal_candidate_tools",
+      "category": "election_fairness_breach",
+      "actor": "a major digital platform",
+      "source": "Article VI Section 7.5(c)",
+      "severity": "high",
+      "day": 1,
+      "summary": "a major digital platform denies a lawfully registered federal candidate equal access to political advertising and distribution tools available to competing candidates. Article VI Section 7.5(c) requires major digital platforms to provide equal access to such tools for all lawfully registered political candidates and parties."
+    }
+  ],
+  "bottlenecks": [],
+  "open_duties": [],
+  "satisfied_duties": [
+    {
+      "actor": "Electoral Commission",
+      "duty": "review the unequal platform access, order immediate nondiscriminatory access if a violation is found, and require an independent audit of the platform's political-content distribution tools",
+      "closed_day": 9,
+      "outcome": "found a violation of Article VI Section 7.5(c), ordered immediate equal access to the platform's political advertising and distribution tools, and opened an independent audit of the platform's political-content systems",
+      "source": "Article VI Section 7.5 and Article XII"
+    }
+  ],
+  "failed_duties": [],
+  "notes": [],
+  "ai_summary": {
+    "primary_violation": "a major digital platform denies a lawfully registered federal candidate equal access to political advertising and distribution tools available to competing candidates. Article VI Section 7.5(c) requires major digital platforms to provide equal access to such tools for all lawfully registered political candidates and parties.",
+    "primary_bottleneck": null,
+    "primary_open_duty": null,
+    "system_risk": "institutional_stress",
+    "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+  }
+}

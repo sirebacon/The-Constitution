@@ -1,0 +1,50 @@
+{
+  "scenario_id": "platform-manipulates-emergency-information-visibility",
+  "title": "Dominant Platform Manipulates Emergency and Election Information Visibility",
+  "source_file": "simulation/scenarios/platform-manipulates-emergency-information-visibility.json",
+  "status": "stress_point_found",
+  "triggered_provisions": [
+    "Article I",
+    "Article V",
+    "Article VI Section 7.5"
+  ],
+  "metrics": {
+    "satisfied_obligations": 1,
+    "failed_obligations": 0,
+    "unresolved_obligations": 0,
+    "violations": 1,
+    "bottlenecks": 0,
+    "timeline_entries": 5
+  },
+  "violations": [
+    {
+      "id": "platform_emergency_visibility_manipulation",
+      "category": "structural_gap",
+      "actor": "a dominant digital platform",
+      "source": "Article VI Section 7.5; Article I; Article V",
+      "severity": "high",
+      "day": 1,
+      "summary": "a dominant digital platform materially downranks or obscures lawful emergency and election-administration information during a live constitutional emergency or election-administration disruption. Article VI Section 7.5 supports disclosure and audit of algorithmic criteria, but the current draft has no clearly defined rapid neutralization or carriage remedy for manipulative visibility decisions by a dominant private platform absent foreign control or state coercion."
+    }
+  ],
+  "bottlenecks": [],
+  "open_duties": [],
+  "satisfied_duties": [
+    {
+      "actor": "Electoral Commission",
+      "duty": "review the manipulation claim, compel disclosure of relevant ranking criteria, and determine whether existing constitutional and statutory authority provides a rapid corrective remedy",
+      "closed_day": 8,
+      "outcome": "compelled disclosure of ranking criteria and audit information but found no clearly defined rapid constitutional remedy requiring real-time neutral carriage or visibility restoration",
+      "source": "Article VI Section 7.5 and Article XII"
+    }
+  ],
+  "failed_duties": [],
+  "notes": [],
+  "ai_summary": {
+    "primary_violation": "a dominant digital platform materially downranks or obscures lawful emergency and election-administration information during a live constitutional emergency or election-administration disruption. Article VI Section 7.5 supports disclosure and audit of algorithmic criteria, but the current draft has no clearly defined rapid neutralization or carriage remedy for manipulative visibility decisions by a dominant private platform absent foreign control or state coercion.",
+    "primary_bottleneck": null,
+    "primary_open_duty": null,
+    "system_risk": "institutional_stress",
+    "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+  }
+}

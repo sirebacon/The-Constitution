@@ -1,0 +1,24 @@
+{
+  "id": "platform-denies-candidate-ad-tools",
+  "title": "Major Platform Denies Equal Candidate Access to Political Distribution Tools",
+  "description": "A major digital platform denies a lawfully registered federal candidate equal access to political advertising and distribution tools that remain available to competitors. The scenario tests whether Article VI Section 7.5(c) gives the Electoral Commission a direct constitutional foothold to require nondiscriminatory access and audit the platform's political systems.",
+  "articles_tested": ["Article VI", "Article XII"],
+  "provisions_tested": ["Article VI Section 7.5", "Article XII"],
+  "events": [
+    {
+      "day": 1,
+      "type": "platform_denies_equal_candidate_tools",
+      "actor": "Major digital platform",
+      "details": {
+        "platform": "a major digital platform",
+        "candidate": "a lawfully registered federal candidate"
+      }
+    },
+    {
+      "day": 9,
+      "type": "electoral_commission_orders_equal_candidate_access",
+      "actor": "Electoral Commission",
+      "details": {}
+    }
+  ]
+}

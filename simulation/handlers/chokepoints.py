@@ -104,10 +104,94 @@ def handle_court_finds_no_clear_constitutional_remedy_for_private_cutoff(state: 
     )
 
 
+def handle_platform_denies_equal_candidate_tools(state: SimulationState, event: dict[str, Any]) -> None:
+    day = int(event["day"])
+    details = event.get("details", {})
+    platform = details.get("platform", "A major digital platform")
+    candidate = details.get("candidate", "a lawfully registered federal candidate")
+    state.provisions.update({"Article VI Section 7.5", "Article XII"})
+    state.add_violation(
+        "platform_denies_equal_candidate_tools",
+        "election_fairness_breach",
+        platform,
+        f"{platform} denies {candidate} equal access to political advertising and distribution tools available to competing candidates. Article VI Section 7.5(c) requires major digital platforms to provide equal access to such tools for all lawfully registered political candidates and parties.",
+        "Article VI Section 7.5(c)",
+        day,
+    )
+    state.add_obligation(
+        "electoral_commission_review_candidate_tool_denial",
+        "Electoral Commission",
+        "review the unequal platform access, order immediate nondiscriminatory access if a violation is found, and require an independent audit of the platform's political-content distribution tools",
+        "Article VI Section 7.5 and Article XII",
+        day,
+        day + 14,
+        severity="high",
+    )
+
+
+def handle_electoral_commission_orders_equal_candidate_access(state: SimulationState, event: dict[str, Any]) -> None:
+    day = int(event["day"])
+    state.resolve_obligation(
+        "electoral_commission_review_candidate_tool_denial",
+        day,
+        "found a violation of Article VI Section 7.5(c), ordered immediate equal access to the platform's political advertising and distribution tools, and opened an independent audit of the platform's political-content systems",
+    )
+    state.add_entry(
+        day,
+        "outcome",
+        "The scenario validates that Article VI Section 7.5 already provides a meaningful constitutional foothold against discriminatory denial of candidate platform tools, at least where the platform is providing structured political advertising or distribution services rather than merely ranking organic content.",
+        "Article VI Section 7.5(c)",
+    )
+
+
+def handle_platform_manipulates_emergency_information_visibility(state: SimulationState, event: dict[str, Any]) -> None:
+    day = int(event["day"])
+    details = event.get("details", {})
+    platform = details.get("platform", "A dominant digital platform")
+    information = details.get("information", "lawful emergency and election-administration information")
+    state.provisions.update({"Article VI Section 7.5", "Article I", "Article V"})
+    state.add_violation(
+        "platform_emergency_visibility_manipulation",
+        "structural_gap",
+        platform,
+        f"{platform} materially downranks or obscures {information} during a live constitutional emergency or election-administration disruption. Article VI Section 7.5 supports disclosure and audit of algorithmic criteria, but the current draft has no clearly defined rapid neutralization or carriage remedy for manipulative visibility decisions by a dominant private platform absent foreign control or state coercion.",
+        "Article VI Section 7.5; Article I; Article V",
+        day,
+    )
+    state.add_obligation(
+        "electoral_commission_review_emergency_visibility_manipulation",
+        "Electoral Commission",
+        "review the manipulation claim, compel disclosure of relevant ranking criteria, and determine whether existing constitutional and statutory authority provides a rapid corrective remedy",
+        "Article VI Section 7.5 and Article XII",
+        day,
+        day + 10,
+        severity="high",
+    )
+
+
+def handle_electoral_commission_finds_no_rapid_visibility_remedy(state: SimulationState, event: dict[str, Any]) -> None:
+    day = int(event["day"])
+    state.resolve_obligation(
+        "electoral_commission_review_emergency_visibility_manipulation",
+        day,
+        "compelled disclosure of ranking criteria and audit information but found no clearly defined rapid constitutional remedy requiring real-time neutral carriage or visibility restoration",
+    )
+    state.add_entry(
+        day,
+        "outcome",
+        "This scenario exposes a narrower but real gap. The Constitution has transparency and audit hooks for algorithmic political distribution, but not yet a clear fast corrective mechanism when dominant private platforms distort emergency or election information visibility in real time.",
+        "Article VI Section 7.5; Article I; Article V",
+    )
+
+
 HANDLERS = {
     "executive_pressures_platforms_to_suppress_dissent": handle_executive_pressures_platforms_to_suppress_dissent,
     "court_enjoins_coercive_platform_pressure": handle_court_enjoins_coercive_platform_pressure,
     "acc_refers_platform_pressure_officials": handle_acc_refers_platform_pressure_officials,
     "private_infrastructure_firms_cut_off_opposition": handle_private_infrastructure_firms_cut_off_opposition,
     "court_finds_no_clear_constitutional_remedy_for_private_cutoff": handle_court_finds_no_clear_constitutional_remedy_for_private_cutoff,
+    "platform_denies_equal_candidate_tools": handle_platform_denies_equal_candidate_tools,
+    "electoral_commission_orders_equal_candidate_access": handle_electoral_commission_orders_equal_candidate_access,
+    "platform_manipulates_emergency_information_visibility": handle_platform_manipulates_emergency_information_visibility,
+    "electoral_commission_finds_no_rapid_visibility_remedy": handle_electoral_commission_finds_no_rapid_visibility_remedy,
 }

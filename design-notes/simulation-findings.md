@@ -9,6 +9,8 @@ This document records conclusions drawn from the constitutional flow simulator a
 - [aggregate.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/aggregate.json)
 - [executive-coerces-platform-suppression.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/executive-coerces-platform-suppression.summary.json)
 - [private-chokepoint-election-cutoff.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/private-chokepoint-election-cutoff.summary.json)
+- [platform-denies-candidate-ad-tools.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/platform-denies-candidate-ad-tools.summary.json)
+- [platform-manipulates-emergency-information-visibility.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/platform-manipulates-emergency-information-visibility.summary.json)
 
 ### Aggregate Read
 
@@ -41,6 +43,29 @@ Source:
 
 Assessment:
 This is now a confirmed under-tested gap rather than a speculative concern. The draft is stronger against public censorship and foreign-controlled infrastructure than against synchronized private exclusion by dominant civic intermediaries.
+
+#### 3. Article VI already gives a meaningful foothold against discriminatory candidate-tool denial
+
+Source:
+- [platform-denies-candidate-ad-tools.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/platform-denies-candidate-ad-tools.summary.json)
+
+- A major digital platform denies a lawfully registered federal candidate equal access to political advertising and structured distribution tools available to rivals.
+- The Electoral Commission can order nondiscriminatory access and open an audit under Article VI Section 7.5(c).
+
+Assessment:
+The draft is better here than on purely private cutoffs. Where the platform is offering a structured political toolset, Article VI already creates a usable constitutional foothold.
+
+#### 4. Algorithmic visibility manipulation remains a narrower rapid-remedy gap
+
+Source:
+- [platform-manipulates-emergency-information-visibility.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/platform-manipulates-emergency-information-visibility.summary.json)
+
+- A dominant platform materially downranks lawful emergency and election-administration information during a live crisis.
+- The Electoral Commission can compel disclosure and audit information under Article VI Section 7.5.
+- But the current draft does not yet provide a clearly defined rapid corrective mechanism requiring neutral carriage or visibility restoration in real time.
+
+Assessment:
+This is a narrower but real second-order gap. The Constitution already has transparency hooks here, but not yet a clean urgent remedy once manipulative visibility decisions are underway.
 
 ## 2026-03-29 Oligarchic-Resilience Coverage Pass
 
