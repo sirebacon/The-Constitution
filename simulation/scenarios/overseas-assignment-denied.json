@@ -1,0 +1,17 @@
+{
+  "id": "overseas-assignment-denied",
+  "title": "Overseas Citizen Denied Federal Electoral Home",
+  "description": "An overseas citizen who never established independent state domicile is denied registration on the theory that long residence abroad extinguished meaningful federal political membership. The scenario tests whether Article IX forces assignment to a practical federal electoral home and permits prompt judicial correction.",
+  "events": [
+    {
+      "day": 0,
+      "type": "state_denies_overseas_citizen_assignment",
+      "actor": "Election officials"
+    },
+    {
+      "day": 5,
+      "type": "court_restores_overseas_assignment",
+      "actor": "Federal courts"
+    }
+  ]
+}

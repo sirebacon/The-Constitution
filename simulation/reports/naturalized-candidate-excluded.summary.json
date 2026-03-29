@@ -1,0 +1,49 @@
+{
+  "scenario_id": "naturalized-candidate-excluded",
+  "title": "Naturalized Citizen Excluded From Federal Office",
+  "source_file": "simulation/scenarios/naturalized-candidate-excluded.json",
+  "status": "stress_point_found",
+  "triggered_provisions": [
+    "Article IX Section 1",
+    "Article IX Section 4"
+  ],
+  "metrics": {
+    "satisfied_obligations": 1,
+    "failed_obligations": 0,
+    "unresolved_obligations": 0,
+    "violations": 1,
+    "bottlenecks": 0,
+    "timeline_entries": 4
+  },
+  "violations": [
+    {
+      "id": "naturalized_candidate_excluded",
+      "category": "caste_hierarchy",
+      "actor": "Congress",
+      "source": "Article IX Section 1.1 and Section 4.1 through Section 4.3",
+      "severity": "high",
+      "day": 0,
+      "summary": "A federal statute bars naturalized citizens from holding a non-presidential federal office, creating a blanket civic disability based on the manner of citizenship."
+    }
+  ],
+  "bottlenecks": [],
+  "open_duties": [],
+  "satisfied_duties": [
+    {
+      "actor": "Federal courts",
+      "duty": "resolve the challenge to the exclusion of naturalized citizens from federal office",
+      "closed_day": 7,
+      "outcome": "voided the blanket exclusion and restored equal eligibility for the federal office at issue",
+      "source": "Article IX Section 4.1 through Section 4.3"
+    }
+  ],
+  "failed_duties": [],
+  "notes": [],
+  "ai_summary": {
+    "primary_violation": "A federal statute bars naturalized citizens from holding a non-presidential federal office, creating a blanket civic disability based on the manner of citizenship.",
+    "primary_bottleneck": null,
+    "primary_open_duty": null,
+    "system_risk": "institutional_stress",
+    "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+  }
+}

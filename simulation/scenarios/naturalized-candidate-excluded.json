@@ -1,0 +1,17 @@
+{
+  "id": "naturalized-candidate-excluded",
+  "title": "Naturalized Citizen Excluded From Federal Office",
+  "description": "Congress enacts a statute barring naturalized citizens from a non-presidential federal office. The scenario tests whether Article IX's equal-citizenship and equal-eligibility rules are strong enough to invalidate a blanket exclusion and restore candidacy on a short timeline.",
+  "events": [
+    {
+      "day": 0,
+      "type": "naturalized_candidate_excluded_by_statute",
+      "actor": "Congress"
+    },
+    {
+      "day": 7,
+      "type": "court_voids_naturalized_candidate_exclusion",
+      "actor": "Federal courts"
+    }
+  ]
+}

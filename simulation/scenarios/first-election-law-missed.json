@@ -1,0 +1,27 @@
+{
+  "id": "first-election-law-missed",
+  "title": "First Federal Election Law Missed",
+  "description": "The Constitution is ratified, but Congress fails to provide by law for the first federal election on the required timetable. Article XIX Section 4.5 then forces the Electoral Commission to administer the first election under interim constitutional rules, subject to expedited judicial review. The scenario tests whether the transition article prevents Congress from stalling the first constitutional election by inaction.",
+  "events": [
+    {
+      "day": 0,
+      "type": "constitution_ratified",
+      "actor": "States"
+    },
+    {
+      "day": 280,
+      "type": "constitutional_organs_constituted",
+      "actor": "Congress and appointing authorities"
+    },
+    {
+      "day": 366,
+      "type": "congress_fails_first_election_law",
+      "actor": "Congress"
+    },
+    {
+      "day": 385,
+      "type": "electoral_commission_administers_interim_first_election",
+      "actor": "Electoral Commission"
+    }
+  ]
+}

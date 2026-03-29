@@ -537,3 +537,65 @@ Source: [articles/III-executive.md](/Users/chris/Documents/GitHub/The-Constituti
 
 Assessment:
 This makes the emergency lapse mechanism more operational and reduces the chance that institutional nonperformance is mistaken for continued emergency authority.
+
+## 2026-03-29 Article IX / XIX Validation Pass
+
+### Files Reviewed
+
+- [simulation/reports/first-election-law-missed.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/first-election-law-missed.summary.json)
+- [simulation/reports/constitutional-organs-delay.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/constitutional-organs-delay.summary.json)
+- [simulation/reports/overseas-assignment-denied.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/overseas-assignment-denied.summary.json)
+- [simulation/reports/naturalized-candidate-excluded.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/naturalized-candidate-excluded.summary.json)
+- [simulation/reports/aggregate.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/aggregate.json)
+
+### Findings
+
+#### 1. Article IX is now behaving more like a confirmation article than a gap article
+
+Sources:
+- [simulation/reports/overseas-assignment-denied.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/overseas-assignment-denied.summary.json)
+- [simulation/reports/naturalized-candidate-excluded.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/naturalized-candidate-excluded.summary.json)
+
+- The overseas-assignment scenario produces one clean answer: federal courts restore a practical federal electoral home.
+- The naturalized-candidate scenario also produces one clean answer: blanket exclusion from non-presidential federal office is unconstitutional.
+- Neither scenario leaves unresolved duties or timing ambiguity.
+
+Assessment:
+The Article IX de-duplication pass appears to have strengthened the constitutional architecture in the intended way. The article now functions as the authoritative home of equal citizenship and membership without generating interpretive drift in its first targeted tests.
+
+#### 2. Article XIX's first-election fallback works
+
+Source: [simulation/reports/first-election-law-missed.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/first-election-law-missed.summary.json)
+
+- Congress misses the first-election implementation deadline.
+- The Electoral Commission fallback activates under Article XIX Section 4.5.
+- The first election still proceeds under interim constitutional rules.
+
+Assessment:
+This is a meaningful success. The Constitution no longer depends entirely on Congress to create the first election machinery before the new order can operate.
+
+#### 3. Article XIX still has a real organ-constitution bottleneck
+
+Source: [simulation/reports/constitutional-organs-delay.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/constitutional-organs-delay.summary.json)
+
+- The first-election path can succeed while the Constitutional Organs still fail to come into existence on time.
+- The simulator identifies the missed one-year deadline clearly.
+- But the text still leaves the practical remedy at the level of constitutional breach and public identification, rather than a stronger automatic backstop.
+
+Assessment:
+This is not an ambiguity bug. It is a substantive design choice that may still need tightening. Article XIX now identifies the problem clearly, but it may need a fallback if the project wants guaranteed constitution of the Electoral Commission and Accountability Commission on time.
+
+### Net Effect
+
+- Article IX looks materially stronger after testing.
+- Article XIX is better than before because its first-election fallback is real.
+- The main remaining weakness in the new transition architecture is not first-election administration; it is delayed constitution of the Constitutional Organs.
+
+### Recommended Follow-Up
+
+1. Decide whether Article XIX needs an automatic fallback for delayed constitution of the Constitutional Organs.
+2. Keep the new Article IX scenarios in the permanent suite.
+3. Continue with the queue order after this:
+   - Article XVI adversarial stress tests
+   - Article XII simplification
+   - Article XIX organ-delay follow-up if desired

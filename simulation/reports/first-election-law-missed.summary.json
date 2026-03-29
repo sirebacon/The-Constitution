@@ -1,0 +1,67 @@
+{
+  "scenario_id": "first-election-law-missed",
+  "title": "First Federal Election Law Missed",
+  "source_file": "simulation/scenarios/first-election-law-missed.json",
+  "status": "stress_point_found",
+  "triggered_provisions": [
+    "Article XIX Section 4",
+    "Article XIX Section 5"
+  ],
+  "metrics": {
+    "satisfied_obligations": 2,
+    "failed_obligations": 1,
+    "unresolved_obligations": 0,
+    "violations": 0,
+    "bottlenecks": 1,
+    "timeline_entries": 9
+  },
+  "violations": [],
+  "bottlenecks": [
+    {
+      "id": "congress_first_election_law",
+      "category": "legislative_deadline_failure",
+      "actor": "Congress",
+      "source": "Article XIX Section 4.1 and Section 4.2",
+      "severity": "high",
+      "day": 366,
+      "deadline_day": 365,
+      "summary": "Congress failed to provide by law for the first federal elections and orderly commencement of terms under the new constitutional order by day 365 under Article XIX Section 4.1 and Section 4.2."
+    }
+  ],
+  "open_duties": [],
+  "satisfied_duties": [
+    {
+      "actor": "Congress and appointing authorities",
+      "duty": "constitute the Constitutional Organs on the timeline required by the Constitution",
+      "closed_day": 280,
+      "outcome": "constituted the Electoral Commission and Accountability Commission on the constitutional timetable",
+      "source": "Article XIX Section 5.2"
+    },
+    {
+      "actor": "Electoral Commission",
+      "duty": "publish and administer interim rules for the first federal election",
+      "closed_day": 385,
+      "outcome": "published interim first-election rules and administered the first federal election under constitutional supervision",
+      "source": "Article XIX Section 4.5"
+    }
+  ],
+  "failed_duties": [
+    {
+      "actor": "Congress",
+      "duty": "provide by law for the first federal elections and orderly commencement of terms under the new constitutional order",
+      "deadline_day": 365,
+      "closed_day": 366,
+      "outcome": "Congress failed to provide by law for the first federal elections and orderly commencement of terms under the new constitutional order by day 365 under Article XIX Section 4.1 and Section 4.2.",
+      "source": "Article XIX Section 4.1 and Section 4.2",
+      "severity": "high"
+    }
+  ],
+  "notes": [],
+  "ai_summary": {
+    "primary_violation": null,
+    "primary_bottleneck": "Congress failed to provide by law for the first federal elections and orderly commencement of terms under the new constitutional order by day 365 under Article XIX Section 4.1 and Section 4.2.",
+    "primary_open_duty": null,
+    "system_risk": "legislative_delay",
+    "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+  }
+}

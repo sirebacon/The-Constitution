@@ -1285,6 +1285,147 @@ def handle_event(state: SimulationState, event: dict[str, Any]) -> None:
             "Article III Section 13 and Article VI Section 1",
         )
 
+    elif event_type == "constitution_ratified":
+        state.provisions.update({"Article XIX Section 4", "Article XIX Section 5"})
+        state.add_entry(
+            day,
+            "event",
+            "The Constitution is ratified and the first-cycle implementation period begins.",
+            "Article XIX Section 1 and Section 4",
+        )
+        state.add_obligation(
+            "congress_first_election_law",
+            "Congress",
+            "provide by law for the first federal elections and orderly commencement of terms under the new constitutional order",
+            "Article XIX Section 4.1 and Section 4.2",
+            day,
+            day + 365,
+            severity="high",
+        )
+        state.add_obligation(
+            "constitute_constitutional_organs",
+            "Congress and appointing authorities",
+            "constitute the Constitutional Organs on the timeline required by the Constitution",
+            "Article XIX Section 5.2",
+            day,
+            day + 365,
+            severity="high",
+        )
+
+    elif event_type == "congress_fails_first_election_law":
+        state.fail_obligation(
+            "congress_first_election_law",
+            day,
+            "Congress failed to provide by law for the first federal election on the timetable required by Article XIX Section 4.1 and Section 4.2.",
+        )
+        state.add_entry(
+            day,
+            "outcome",
+            "The Electoral Commission must administer the first federal election under interim rules consistent with the Constitution, subject to expedited judicial review.",
+            "Article XIX Section 4.5",
+        )
+        state.add_obligation(
+            "electoral_commission_interim_first_election",
+            "Electoral Commission",
+            "publish and administer interim rules for the first federal election",
+            "Article XIX Section 4.5",
+            day,
+            day + 30,
+            severity="high",
+        )
+
+    elif event_type == "congress_enacts_first_election_law":
+        state.resolve_obligation(
+            "congress_first_election_law",
+            day,
+            "provided by law for the first federal elections and orderly commencement of terms under the new constitutional order",
+        )
+
+    elif event_type == "electoral_commission_administers_interim_first_election":
+        state.resolve_obligation(
+            "electoral_commission_interim_first_election",
+            day,
+            "published interim first-election rules and administered the first federal election under constitutional supervision",
+        )
+
+    elif event_type == "constitutional_organs_constituted":
+        state.resolve_obligation(
+            "constitute_constitutional_organs",
+            day,
+            "constituted the Electoral Commission and Accountability Commission on the constitutional timetable",
+        )
+
+    elif event_type == "constitutional_organs_deadline_missed":
+        state.fail_obligation(
+            "constitute_constitutional_organs",
+            day,
+            "Congress and appointing authorities failed to constitute the Constitutional Organs by the one-year deadline and no impossibility finding has yet been identified publicly by the Supreme Court under Article XIX Section 5.2.",
+        )
+        state.add_entry(
+            day,
+            "outcome",
+            "The constitutional delay leaves a live institutional gap unless the Supreme Court publicly identifies impossible conditions or the organs are promptly constituted.",
+            "Article XIX Section 5.2",
+        )
+
+    elif event_type == "state_denies_overseas_citizen_assignment":
+        state.provisions.update({"Article IX Section 2", "Article IX Section 3", "Article IX Section 6", "Article I Section 12"})
+        message = "Election officials deny an overseas citizen any practical federal electoral home and reject registration on the theory that long residence abroad extinguished meaningful federal participation."
+        state.add_violation(
+            "overseas_assignment_denied",
+            "membership_exclusion",
+            "Election officials",
+            message,
+            "Article IX Section 2.3, Section 3.3, and Section 6.4",
+            day,
+            severity="high",
+        )
+        state.add_obligation(
+            "court_review_overseas_assignment",
+            "Federal courts",
+            "resolve the overseas-citizen assignment dispute and restore a practical federal electoral home if the denial is unconstitutional",
+            "Article IX Section 3.3 and Section 6.4",
+            day,
+            day + 7,
+            severity="high",
+        )
+
+    elif event_type == "court_restores_overseas_assignment":
+        state.resolve_obligation(
+            "court_review_overseas_assignment",
+            day,
+            "held that residence abroad does not extinguish federal political membership and restored a practical federal electoral assignment",
+        )
+
+    elif event_type == "naturalized_candidate_excluded_by_statute":
+        state.provisions.update({"Article IX Section 1", "Article IX Section 4"})
+        message = "A federal statute bars naturalized citizens from holding a non-presidential federal office, creating a blanket civic disability based on the manner of citizenship."
+        state.add_violation(
+            "naturalized_candidate_excluded",
+            "caste_hierarchy",
+            "Congress",
+            message,
+            "Article IX Section 1.1 and Section 4.1 through Section 4.3",
+            day,
+            severity="high",
+        )
+        state.add_obligation(
+            "court_review_naturalized_candidate_exclusion",
+            "Federal courts",
+            "resolve the challenge to the exclusion of naturalized citizens from federal office",
+            "Article IX Section 4.1 through Section 4.3",
+            day,
+            day + 10,
+            severity="high",
+        )
+
+    elif event_type == "court_voids_naturalized_candidate_exclusion":
+        state.resolve_obligation(
+            "court_review_naturalized_candidate_exclusion",
+            day,
+            "voided the blanket exclusion and restored equal eligibility for the federal office at issue",
+        )
+
     # --- Category G: Federalism ---
 
     elif event_type == "congress_enacts_commandeering_statute":

@@ -1,9 +1,9 @@
 {
-  "scenario_count": 29,
-  "stress_point_scenarios": 27,
+  "scenario_count": 33,
+  "stress_point_scenarios": 31,
   "totals": {
-    "violations": 26,
-    "bottlenecks": 14,
+    "violations": 28,
+    "bottlenecks": 16,
     "unresolved_obligations": 0
   },
   "risk_pattern_counts": [
@@ -13,11 +13,11 @@
     },
     {
       "risk": "institutional_stress",
-      "count": 5
+      "count": 8
     },
     {
       "risk": "legislative_delay",
-      "count": 5
+      "count": 6
     },
     {
       "risk": "none",
@@ -31,11 +31,11 @@
   "bottleneck_categories": [
     {
       "category": "legislative_deadline_failure",
-      "count": 7
+      "count": 8
     },
     {
       "category": "missed_deadline",
-      "count": 6
+      "count": 7
     },
     {
       "category": "state_backsliding",
@@ -60,7 +60,15 @@
       "count": 2
     },
     {
+      "category": "caste_hierarchy",
+      "count": 1
+    },
+    {
       "category": "election_restriction",
+      "count": 1
+    },
+    {
+      "category": "membership_exclusion",
       "count": 1
     }
   ],
@@ -90,11 +98,27 @@
       "count": 2
     },
     {
+      "provision": "Article IX Section 3",
+      "count": 2
+    },
+    {
       "provision": "Article XI Section 1",
       "count": 2
     },
     {
+      "provision": "Article XIX Section 4",
+      "count": 2
+    },
+    {
+      "provision": "Article XIX Section 5",
+      "count": 2
+    },
+    {
       "provision": "Article I",
+      "count": 1
+    },
+    {
+      "provision": "Article I Section 12",
       "count": 1
     },
     {
@@ -222,7 +246,19 @@
       "count": 1
     },
     {
-      "provision": "Article IX Section 3",
+      "provision": "Article IX Section 1",
+      "count": 1
+    },
+    {
+      "provision": "Article IX Section 2",
+      "count": 1
+    },
+    {
+      "provision": "Article IX Section 4",
+      "count": 1
+    },
+    {
+      "provision": "Article IX Section 6",
       "count": 1
     },
     {
@@ -440,6 +476,66 @@
         "primary_bottleneck": "Secretary of Defense failed to comply with the congressional subpoena by testifying and producing required documents by day 30 under Article II Section 16.2 and Section 16.3.",
         "primary_open_duty": null,
         "system_risk": "executive_defiance",
+        "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+      }
+    },
+    {
+      "scenario_id": "constitutional-organs-delay",
+      "title": "Constitutional Organs Not Constituted on Time",
+      "source_file": "simulation/scenarios/constitutional-organs-delay.json",
+      "status": "stress_point_found",
+      "triggered_provisions": [
+        "Article XIX Section 4",
+        "Article XIX Section 5"
+      ],
+      "metrics": {
+        "satisfied_obligations": 1,
+        "failed_obligations": 1,
+        "unresolved_obligations": 0,
+        "violations": 0,
+        "bottlenecks": 1,
+        "timeline_entries": 7
+      },
+      "violations": [],
+      "bottlenecks": [
+        {
+          "id": "constitute_constitutional_organs",
+          "category": "missed_deadline",
+          "actor": "Congress and appointing authorities",
+          "source": "Article XIX Section 5.2",
+          "severity": "high",
+          "day": 366,
+          "deadline_day": 365,
+          "summary": "Congress and appointing authorities failed to constitute the Constitutional Organs on the timeline required by the Constitution by day 365 under Article XIX Section 5.2."
+        }
+      ],
+      "open_duties": [],
+      "satisfied_duties": [
+        {
+          "actor": "Congress",
+          "duty": "provide by law for the first federal elections and orderly commencement of terms under the new constitutional order",
+          "closed_day": 180,
+          "outcome": "provided by law for the first federal elections and orderly commencement of terms under the new constitutional order",
+          "source": "Article XIX Section 4.1 and Section 4.2"
+        }
+      ],
+      "failed_duties": [
+        {
+          "actor": "Congress and appointing authorities",
+          "duty": "constitute the Constitutional Organs on the timeline required by the Constitution",
+          "deadline_day": 365,
+          "closed_day": 366,
+          "outcome": "Congress and appointing authorities failed to constitute the Constitutional Organs on the timeline required by the Constitution by day 365 under Article XIX Section 5.2.",
+          "source": "Article XIX Section 5.2",
+          "severity": "high"
+        }
+      ],
+      "notes": [],
+      "ai_summary": {
+        "primary_violation": null,
+        "primary_bottleneck": "Congress and appointing authorities failed to constitute the Constitutional Organs on the timeline required by the Constitution by day 365 under Article XIX Section 5.2.",
+        "primary_open_duty": null,
+        "system_risk": "institutional_stress",
         "recommended_focus": "review bottlenecks, violations, and unresolved duties"
       }
     },
@@ -1065,6 +1161,73 @@
       }
     },
     {
+      "scenario_id": "first-election-law-missed",
+      "title": "First Federal Election Law Missed",
+      "source_file": "simulation/scenarios/first-election-law-missed.json",
+      "status": "stress_point_found",
+      "triggered_provisions": [
+        "Article XIX Section 4",
+        "Article XIX Section 5"
+      ],
+      "metrics": {
+        "satisfied_obligations": 2,
+        "failed_obligations": 1,
+        "unresolved_obligations": 0,
+        "violations": 0,
+        "bottlenecks": 1,
+        "timeline_entries": 9
+      },
+      "violations": [],
+      "bottlenecks": [
+        {
+          "id": "congress_first_election_law",
+          "category": "legislative_deadline_failure",
+          "actor": "Congress",
+          "source": "Article XIX Section 4.1 and Section 4.2",
+          "severity": "high",
+          "day": 366,
+          "deadline_day": 365,
+          "summary": "Congress failed to provide by law for the first federal elections and orderly commencement of terms under the new constitutional order by day 365 under Article XIX Section 4.1 and Section 4.2."
+        }
+      ],
+      "open_duties": [],
+      "satisfied_duties": [
+        {
+          "actor": "Congress and appointing authorities",
+          "duty": "constitute the Constitutional Organs on the timeline required by the Constitution",
+          "closed_day": 280,
+          "outcome": "constituted the Electoral Commission and Accountability Commission on the constitutional timetable",
+          "source": "Article XIX Section 5.2"
+        },
+        {
+          "actor": "Electoral Commission",
+          "duty": "publish and administer interim rules for the first federal election",
+          "closed_day": 385,
+          "outcome": "published interim first-election rules and administered the first federal election under constitutional supervision",
+          "source": "Article XIX Section 4.5"
+        }
+      ],
+      "failed_duties": [
+        {
+          "actor": "Congress",
+          "duty": "provide by law for the first federal elections and orderly commencement of terms under the new constitutional order",
+          "deadline_day": 365,
+          "closed_day": 366,
+          "outcome": "Congress failed to provide by law for the first federal elections and orderly commencement of terms under the new constitutional order by day 365 under Article XIX Section 4.1 and Section 4.2.",
+          "source": "Article XIX Section 4.1 and Section 4.2",
+          "severity": "high"
+        }
+      ],
+      "notes": [],
+      "ai_summary": {
+        "primary_violation": null,
+        "primary_bottleneck": "Congress failed to provide by law for the first federal elections and orderly commencement of terms under the new constitutional order by day 365 under Article XIX Section 4.1 and Section 4.2.",
+        "primary_open_duty": null,
+        "system_risk": "legislative_delay",
+        "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+      }
+    },
+    {
       "scenario_id": "foreign-cyber-election-crisis",
       "title": "Foreign Cyber Election Crisis",
       "source_file": "simulation/scenarios/foreign-cyber-election-crisis.json",
@@ -1269,6 +1432,55 @@
       }
     },
     {
+      "scenario_id": "naturalized-candidate-excluded",
+      "title": "Naturalized Citizen Excluded From Federal Office",
+      "source_file": "simulation/scenarios/naturalized-candidate-excluded.json",
+      "status": "stress_point_found",
+      "triggered_provisions": [
+        "Article IX Section 1",
+        "Article IX Section 4"
+      ],
+      "metrics": {
+        "satisfied_obligations": 1,
+        "failed_obligations": 0,
+        "unresolved_obligations": 0,
+        "violations": 1,
+        "bottlenecks": 0,
+        "timeline_entries": 4
+      },
+      "violations": [
+        {
+          "id": "naturalized_candidate_excluded",
+          "category": "caste_hierarchy",
+          "actor": "Congress",
+          "source": "Article IX Section 1.1 and Section 4.1 through Section 4.3",
+          "severity": "high",
+          "day": 0,
+          "summary": "A federal statute bars naturalized citizens from holding a non-presidential federal office, creating a blanket civic disability based on the manner of citizenship."
+        }
+      ],
+      "bottlenecks": [],
+      "open_duties": [],
+      "satisfied_duties": [
+        {
+          "actor": "Federal courts",
+          "duty": "resolve the challenge to the exclusion of naturalized citizens from federal office",
+          "closed_day": 7,
+          "outcome": "voided the blanket exclusion and restored equal eligibility for the federal office at issue",
+          "source": "Article IX Section 4.1 through Section 4.3"
+        }
+      ],
+      "failed_duties": [],
+      "notes": [],
+      "ai_summary": {
+        "primary_violation": "A federal statute bars naturalized citizens from holding a non-presidential federal office, creating a blanket civic disability based on the manner of citizenship.",
+        "primary_bottleneck": null,
+        "primary_open_duty": null,
+        "system_risk": "institutional_stress",
+        "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+      }
+    },
+    {
       "scenario_id": "nuclear-first-use-circumvention",
       "title": "Nuclear First-Use Order \u2014 Secretary Refusal and Circumvention Attempt",
       "source_file": "simulation/scenarios/nuclear-first-use-circumvention.json",
@@ -1329,6 +1541,57 @@
         "primary_bottleneck": null,
         "primary_open_duty": null,
         "system_risk": "executive_defiance",
+        "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+      }
+    },
+    {
+      "scenario_id": "overseas-assignment-denied",
+      "title": "Overseas Citizen Denied Federal Electoral Home",
+      "source_file": "simulation/scenarios/overseas-assignment-denied.json",
+      "status": "stress_point_found",
+      "triggered_provisions": [
+        "Article I Section 12",
+        "Article IX Section 2",
+        "Article IX Section 3",
+        "Article IX Section 6"
+      ],
+      "metrics": {
+        "satisfied_obligations": 1,
+        "failed_obligations": 0,
+        "unresolved_obligations": 0,
+        "violations": 1,
+        "bottlenecks": 0,
+        "timeline_entries": 4
+      },
+      "violations": [
+        {
+          "id": "overseas_assignment_denied",
+          "category": "membership_exclusion",
+          "actor": "Election officials",
+          "source": "Article IX Section 2.3, Section 3.3, and Section 6.4",
+          "severity": "high",
+          "day": 0,
+          "summary": "Election officials deny an overseas citizen any practical federal electoral home and reject registration on the theory that long residence abroad extinguished meaningful federal participation."
+        }
+      ],
+      "bottlenecks": [],
+      "open_duties": [],
+      "satisfied_duties": [
+        {
+          "actor": "Federal courts",
+          "duty": "resolve the overseas-citizen assignment dispute and restore a practical federal electoral home if the denial is unconstitutional",
+          "closed_day": 5,
+          "outcome": "held that residence abroad does not extinguish federal political membership and restored a practical federal electoral assignment",
+          "source": "Article IX Section 3.3 and Section 6.4"
+        }
+      ],
+      "failed_duties": [],
+      "notes": [],
+      "ai_summary": {
+        "primary_violation": "Election officials deny an overseas citizen any practical federal electoral home and reject registration on the theory that long residence abroad extinguished meaningful federal participation.",
+        "primary_bottleneck": null,
+        "primary_open_duty": null,
+        "system_risk": "institutional_stress",
         "recommended_focus": "review bottlenecks, violations, and unresolved duties"
       }
     },
