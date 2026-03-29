@@ -1,0 +1,52 @@
+{
+  "scenario_id": "emergency-revenue-measure-unilateral-extension",
+  "title": "President Continues Emergency Revenue Measure After Statutory Expiration",
+  "source_file": "simulation/scenarios/emergency-revenue-measure-unilateral-extension.json",
+  "status": "stress_point_found",
+  "triggered_provisions": [
+    "Article XIV Section 2.1",
+    "Article XIV Section 2.2",
+    "Article XIV Section 3.2",
+    "Article XIV Section 4.5",
+    "Article XIV Section 5.2"
+  ],
+  "metrics": {
+    "satisfied_obligations": 1,
+    "failed_obligations": 0,
+    "unresolved_obligations": 0,
+    "violations": 1,
+    "bottlenecks": 0,
+    "timeline_entries": 7
+  },
+  "violations": [
+    {
+      "id": "executive_continues_emergency_revenue_measure",
+      "category": "executive_defiance",
+      "actor": "President",
+      "source": "Article XIV Section 2.2, Section 3.2, Section 4.5, and Section 5.2",
+      "severity": "high",
+      "day": 31,
+      "summary": "President orders continued collection of the expired temporary customs surcharge after its lawful expiration, without new legislation. Article XIV forbids executive creation or material alteration of revenue measures and bars indefinite continuation of emergency revenue measures by executive action alone."
+    }
+  ],
+  "bottlenecks": [],
+  "open_duties": [],
+  "satisfied_duties": [
+    {
+      "actor": "Federal courts",
+      "duty": "void the unilateral continuation of the expired emergency revenue measure",
+      "closed_day": 36,
+      "outcome": "voided the unilateral continuation of the expired emergency revenue measure and ordered ordinary collection to revert to the last valid statutory baseline",
+      "source": "Article XIV Section 2.2, Section 4.5, and Section 5.2"
+    }
+  ],
+  "failed_duties": [],
+  "notes": [],
+  "ai_summary": {
+    "primary_violation": "President orders continued collection of the expired temporary customs surcharge after its lawful expiration, without new legislation. Article XIV forbids executive creation or material alteration of revenue measures and bars indefinite continuation of emergency revenue measures by executive action alone.",
+    "primary_bottleneck": null,
+    "primary_open_duty": null,
+    "system_risk": "executive_defiance",
+    "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+  }
+}

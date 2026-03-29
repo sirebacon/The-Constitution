@@ -1180,3 +1180,39 @@ This closes the main remaining uncertainty in the XII/XIX transition chain. The 
 
 1. Treat further Article XII / Article XIX scenario work as optional refinement unless a broader administrative-sabotage exploit appears.
 2. Move the queue to remaining cleanup, fiscal edge-case testing, and publication work.
+
+## 2026-03-29 Article XIV Revenue-Authority Validation Pass
+
+### Files Reviewed
+
+- [simulation/reports/emergency-revenue-measure-unilateral-extension.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/emergency-revenue-measure-unilateral-extension.summary.json)
+- [simulation/reports/selective-customs-waiver-favoritism.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/selective-customs-waiver-favoritism.summary.json)
+- [simulation/reports/aggregate.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/aggregate.json)
+
+### Findings
+
+#### 1. Article XIV now has direct coverage for the main executive-revenue abuse boundaries
+
+Sources:
+- [simulation/reports/emergency-revenue-measure-unilateral-extension.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/emergency-revenue-measure-unilateral-extension.summary.json)
+- [simulation/reports/selective-customs-waiver-favoritism.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/selective-customs-waiver-favoritism.summary.json)
+- [articles/XIV-taxation-public-revenue.md](/Users/chris/Documents/GitHub/The-Constitution/articles/XIV-taxation-public-revenue.md)
+
+- Congress lawfully enacted a temporary emergency revenue measure with an explicit duration.
+- After expiration, the President attempted to continue collection without new legislation.
+- Courts voided the unilateral continuation under Article XIV's ban on executive creation or material alteration of revenue measures and its rule against indefinite executive continuation of emergency revenue measures.
+- In a separate scenario, Treasury granted a selective customs-duty waiver to a politically favored importer without legal authority.
+- Courts voided the waiver and required lawful, nondiscriminatory collection.
+
+Assessment:
+These two scenarios cover the core constitutional question Article XIV needed to answer: whether the revenue article is just a clean drafting statement or a real enforceable limit on unilateral executive tax power and selective revenue favoritism. It now looks like the latter.
+
+### Net Effect
+
+- Article XIV is no longer mainly an under-tested article.
+- Remaining Article XIV work is optional refinement rather than a live validation gap.
+
+### Recommended Follow-Up
+
+1. Treat further Article XIV scenario-building as optional unless a more exotic revenue-preference or administrative-abuse exploit appears.
+2. Move the main queue to cross-article consistency, final compression, and publication work.

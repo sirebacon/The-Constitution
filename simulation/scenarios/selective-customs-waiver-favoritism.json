@@ -1,0 +1,22 @@
+{
+  "id": "selective-customs-waiver-favoritism",
+  "title": "Treasury Grants Selective Customs Waiver to Favored Importer",
+  "description": "Treasury grants a politically connected importer a selective customs-duty waiver without statutory authority while other similarly situated importers continue to pay the duty. The scenario tests whether Article XIV directly forbids selective waiver or withholding of taxes except as authorized by law.",
+  "articles_tested": ["Article XIV"],
+  "provisions_tested": ["Article XIV Section 3.2", "Article XIV Section 4.4", "Article XIV Section 5.1"],
+  "events": [
+    {
+      "day": 0,
+      "type": "treasury_grants_selective_customs_waiver_without_law",
+      "actor": "Treasury Department",
+      "details": {
+        "beneficiary": "a politically connected importer of critical components"
+      }
+    },
+    {
+      "day": 14,
+      "type": "court_voids_selective_customs_waiver",
+      "actor": "Federal courts"
+    }
+  ]
+}

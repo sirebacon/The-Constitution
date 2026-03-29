@@ -184,6 +184,15 @@ Status markers: `[x]` implemented — `[ ]` planned.
 
 ---
 
+## Category P — Taxation and Public Revenue
+
+| # | Scenario | File | Provision | Stress Path | Expected Outcome |
+|---|----------|------|-----------|-------------|-----------------|
+| P1 | [x] President Continues Emergency Revenue Measure After Expiration | `emergency-revenue-measure-unilateral-extension.json` | Art. XIV §2.2, §3.2, §4.5 | Temporary emergency revenue measure expires, but the President orders continued collection without new law | Courts void the unilateral extension and restore the lawful statutory baseline |
+| P2 | [x] Treasury Grants Selective Customs Waiver to Favored Importer | `selective-customs-waiver-favoritism.json` | Art. XIV §3.2, §4.4, §5.1 | Treasury selectively waives a customs duty for a politically favored importer without statutory authority | Courts void the waiver and require lawful, nondiscriminatory collection |
+
+---
+
 ## Implementation Notes
 
 When adding a new scenario:

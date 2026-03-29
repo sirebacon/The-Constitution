@@ -1,0 +1,32 @@
+{
+  "id": "emergency-revenue-measure-unilateral-extension",
+  "title": "President Continues Emergency Revenue Measure After Statutory Expiration",
+  "description": "Congress enacts a temporary emergency revenue surcharge for a publicly stated disaster-recovery purpose and gives it a short statutory duration. When the measure expires, the President orders Treasury to continue collecting it without new legislation. The scenario tests whether Article XIV forbids unilateral executive continuation of emergency revenue measures after their lawful expiration.",
+  "articles_tested": ["Article XIV"],
+  "provisions_tested": ["Article XIV Section 2.2", "Article XIV Section 3.2", "Article XIV Section 4.5", "Article XIV Section 5.2"],
+  "events": [
+    {
+      "day": 0,
+      "type": "congress_enacts_temporary_emergency_revenue_measure",
+      "actor": "Congress",
+      "details": {
+        "measure": "a temporary customs surcharge",
+        "purpose": "disaster recovery after a major coastal infrastructure collapse",
+        "duration_days": 30
+      }
+    },
+    {
+      "day": 31,
+      "type": "president_orders_emergency_revenue_measure_continued",
+      "actor": "President",
+      "details": {
+        "measure": "the expired temporary customs surcharge"
+      }
+    },
+    {
+      "day": 36,
+      "type": "court_voids_unilateral_emergency_revenue_extension",
+      "actor": "Federal courts"
+    }
+  ]
+}
