@@ -46,7 +46,7 @@ These are the current working scores for the draft after the latest simplificati
 
 | Area | Score | Status | Main Strength | Main Weakness | Next Improvement Target |
 |------|-------|--------|---------------|---------------|-------------------------|
-| Preamble | 9.0 | Strong | Clear statement of purpose and democratic intent in more durable founding prose | It can still be pressure-tested for cadence and public readability | Final polish for rhythm and memorability |
+| Preamble | 9.0 | Strong | Clear statement of purpose and democratic intent in durable founding prose with anti-capture language now anchored more directly to law and equal citizenship | Remaining work is limited to cadence and memorability rather than substance or exploit risk | Final polish for rhythm and memorability |
 | Article I — Electoral System | 9.0 | Strong | Modern, coherent democratic architecture | Administration details are dense in places | Simplify without losing safeguards |
 | Article II — Legislature | 9.0 | Strong | Mandatory-vote enforcement, continuity rules, and recess-evasion bar now all verified by simulation — §15A.1(e)/(f) produce correct enforcement chain end-to-end | Draft discipline score of 7.8 reflects real density; some enforcement mechanics could still move to statute | Continue compressing enforcement mechanics that can safely move to statute |
 | Article III — Executive | 9.0 | Strong | Emergency lapse, impeachment fallback, anti-evasion rules, and recess-evasion enforcement all verified; constitutional closure is now clear under the full stress path | Emergency review remains the most recurring practical bottleneck — the text is correct but political nonperformance is the residual risk | Keep stress-testing re-declaration and lapse-certificate-refused edge cases |
@@ -69,7 +69,7 @@ These are the current working scores for the draft after the latest simplificati
 
 | Area | Clarity | Consistency | Enforceability | Legitimacy | Abuse Resistance | Draft Discipline | Overall |
 |------|---------|-------------|----------------|------------|------------------|------------------|---------|
-| Preamble | 9.3 | 8.8 | 8.0 | 9.0 | 7.8 | 9.2 | 9.0 |
+| Preamble | 9.4 | 9.0 | 8.0 | 9.0 | 8.2 | 9.2 | 9.0 |
 | Article I — Electoral System | 8.5 | 9.0 | 9.0 | 9.5 | 9.5 | 8.5 | 9.0 |
 | Article II — Legislature | 8.5 | 9.0 | 9.0 | 9.5 | 9.2 | 7.8 | 9.0 |
 | Article III — Executive | 8.8 | 9.0 | 9.0 | 8.7 | 9.5 | 8.5 | 9.0 |
@@ -153,6 +153,8 @@ Update this table whenever a score changes.
 | Date | Area | Old Score | New Score | Reason for Change | Remaining Issue |
 |------|------|-----------|-----------|-------------------|-----------------|
 | 2026-03-28 | Article VIII / Article IX / Article X / Cross-References | 8.5 / 8.5 / 8.5 / 8.0 | 8.5 / 8.5 / 8.5 / 8.5 | The amendment transition placeholder was closed, Constitutional Organs vacancy rules were made more coherent, the Article X sunset contradiction was resolved, and live cross-reference drift was reduced further | The main remaining work is simplification and stress-testing rather than contradiction repair |
+| 2026-03-28 | Preamble | 9.0 | 9.0 | The anti-capture clause now ties democratic self-defense more directly to law and equal citizenship, reducing the risk that the line could be misread as a free-floating warrant for partisan suppression | Remaining work is still cadence and memorability, not substance |
+| 2026-03-28 | Preamble | 9.0 | 9.0 | Conservative preamble refinement replaced the slightly more abstract "world capable of sustaining life" with the more concrete "planet capable of sustaining life" and confirmed no meaningful exploit or mismatch with the operative articles | Remaining work is limited to final cadence polish rather than substantive revision |
 | 2026-03-28 | Preamble | 8.5 | 9.0 | The preamble was rewritten into tighter, more declarative founding prose while preserving its commitments to equal inclusion, accountable government, future generations, and democratic self-defense | One more light polish pass could still improve cadence and memorability |
 | 2026-03-28 | Article III — Executive | 8.5 | 9.0 | Emergency powers, incapacity, recall, and presidential-accountability rules were simplified into cleaner constitutional triggers with less procedural clutter | Recall and crisis scenarios should still be stress-tested against edge-case abuse |
 | 2026-03-28 | Article II / Article III / Cross-References | 9.0 / 9.0 / 8.5 | 9.0 / 9.0 / 9.0 | Mandatory-vote continuity rules, emergency lapse hardening, judicial fallback integration, and the new recess-evasion scenario closed a real text-to-simulation gap and made cross-article enforcement fit together more cleanly | Legislative nonperformance is still the main practical stress point even though the constitutional machinery is now clearer |
