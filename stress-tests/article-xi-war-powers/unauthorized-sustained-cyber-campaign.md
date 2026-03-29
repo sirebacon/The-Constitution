@@ -25,6 +25,9 @@ After a serious foreign cyber intrusion, the President orders an immediate count
 - Article XIV cannot be used to evade Article XI once the response amounts to military force.
 - Authorization is required within the constitutional window.
 - A withdrawal order follows if authorization is not granted.
+- Continued unlawful operations trigger the expedited impeachment timetable.
+- If the House fails to hold the required vote, the certified charge is automatically transmitted to the Regional Assembly for trial.
+- Funds for the unlawful operation may be frozen, subject to the constitutional carve-out for withdrawal and force protection.
 
 ## Stress Focus
 
@@ -36,7 +39,7 @@ After a serious foreign cyber intrusion, the President orders an immediate count
 Pass if:
 
 - Article XI and XIV draw a clear boundary.
-- The trigger for withdrawal is easy to identify.
+- The trigger for withdrawal and the post-defiance enforcement sequence are easy to identify.
 
 Fail if:
 

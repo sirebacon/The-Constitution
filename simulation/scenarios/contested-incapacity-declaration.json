@@ -1,0 +1,22 @@
+{
+  "id": "contested-incapacity-declaration",
+  "title": "Contested Presidential Incapacity — Congress Misses Resolution Deadline",
+  "description": "The Vice President and a majority of the Cabinet transmit a written declaration of presidential incapacity under Article III Section 11.2. The Vice President becomes Acting President. The President contests the determination within the required 4-day window under Section 11.3. Congress has 21 days to resolve the contest by a 2/3 vote. Congress fails to hold the required vote within 21 days. Under Section 11.3, when Congress does not sustain the incapacity determination within the required period, the President automatically resumes the powers of office. The scenario tests that the resolution deadline is enforced and that the constitutional default — presidential resumption of powers — applies without requiring further action.",
+  "events": [
+    {
+      "day": 0,
+      "type": "vp_and_cabinet_declare_presidential_incapacity",
+      "actor": "Vice President and Cabinet"
+    },
+    {
+      "day": 2,
+      "type": "president_contests_incapacity",
+      "actor": "President"
+    },
+    {
+      "day": 25,
+      "type": "congress_fails_incapacity_determination",
+      "actor": "Congress"
+    }
+  ]
+}

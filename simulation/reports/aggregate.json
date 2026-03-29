@@ -1,32 +1,40 @@
 {
-  "scenario_count": 7,
-  "stress_point_scenarios": 7,
+  "scenario_count": 28,
+  "stress_point_scenarios": 26,
   "totals": {
-    "violations": 7,
-    "bottlenecks": 6,
+    "violations": 25,
+    "bottlenecks": 13,
     "unresolved_obligations": 0
   },
   "risk_pattern_counts": [
     {
       "risk": "executive_defiance",
-      "count": 3
+      "count": 16
     },
     {
       "risk": "institutional_stress",
+      "count": 5
+    },
+    {
+      "risk": "legislative_delay",
+      "count": 4
+    },
+    {
+      "risk": "none",
       "count": 2
     },
     {
       "risk": "democratic_backsliding",
-      "count": 1
-    },
-    {
-      "risk": "legislative_delay",
       "count": 1
     }
   ],
   "bottleneck_categories": [
     {
       "category": "legislative_deadline_failure",
+      "count": 7
+    },
+    {
+      "category": "missed_deadline",
       "count": 5
     },
     {
@@ -37,33 +45,53 @@
   "violation_categories": [
     {
       "category": "executive_defiance",
-      "count": 3
+      "count": 16
     },
     {
       "category": "rights_suppression",
+      "count": 4
+    },
+    {
+      "category": "federalism_breach",
+      "count": 2
+    },
+    {
+      "category": "legislative_deadline_failure",
       "count": 2
     },
     {
       "category": "election_restriction",
       "count": 1
-    },
-    {
-      "category": "federalism_breach",
-      "count": 1
     }
   ],
   "top_triggered_provisions": [
     {
-      "provision": "Article I Section 3",
-      "count": 2
+      "provision": "Article III Section 5",
+      "count": 6
     },
     {
-      "provision": "Article III Section 5",
-      "count": 2
+      "provision": "Article I Section 3",
+      "count": 5
     },
     {
       "provision": "Article V Section 14",
+      "count": 5
+    },
+    {
+      "provision": "Article II Section 16.2",
       "count": 2
+    },
+    {
+      "provision": "Article III Section 5.3",
+      "count": 2
+    },
+    {
+      "provision": "Article XI Section 1",
+      "count": 2
+    },
+    {
+      "provision": "Article I",
+      "count": 1
     },
     {
       "provision": "Article I Section 3.4",
@@ -74,7 +102,71 @@
       "count": 1
     },
     {
+      "provision": "Article II Section 10.7",
+      "count": 1
+    },
+    {
+      "provision": "Article II Section 10.7A",
+      "count": 1
+    },
+    {
+      "provision": "Article II Section 12.2",
+      "count": 1
+    },
+    {
+      "provision": "Article II Section 12.3",
+      "count": 1
+    },
+    {
+      "provision": "Article II Section 12A.5",
+      "count": 1
+    },
+    {
+      "provision": "Article II Section 15A",
+      "count": 1
+    },
+    {
+      "provision": "Article II Section 16.3",
+      "count": 1
+    },
+    {
+      "provision": "Article II Section 16.4",
+      "count": 1
+    },
+    {
+      "provision": "Article II Section 16.4(b)",
+      "count": 1
+    },
+    {
       "provision": "Article III Section 10",
+      "count": 1
+    },
+    {
+      "provision": "Article III Section 11",
+      "count": 1
+    },
+    {
+      "provision": "Article III Section 11.2",
+      "count": 1
+    },
+    {
+      "provision": "Article III Section 11.3",
+      "count": 1
+    },
+    {
+      "provision": "Article III Section 12",
+      "count": 1
+    },
+    {
+      "provision": "Article III Section 13",
+      "count": 1
+    },
+    {
+      "provision": "Article III Section 14",
+      "count": 1
+    },
+    {
+      "provision": "Article III Section 14.11",
       "count": 1
     },
     {
@@ -82,11 +174,67 @@
       "count": 1
     },
     {
+      "provision": "Article III Section 15.3",
+      "count": 1
+    },
+    {
+      "provision": "Article III Section 15.5",
+      "count": 1
+    },
+    {
+      "provision": "Article III Section 15.6",
+      "count": 1
+    },
+    {
+      "provision": "Article III Section 15.7",
+      "count": 1
+    },
+    {
       "provision": "Article III Section 15.8",
       "count": 1
     },
     {
+      "provision": "Article III Section 4.4",
+      "count": 1
+    },
+    {
+      "provision": "Article III Section 5.7",
+      "count": 1
+    },
+    {
+      "provision": "Article III Section 6.2",
+      "count": 1
+    },
+    {
+      "provision": "Article III Section 6.4",
+      "count": 1
+    },
+    {
+      "provision": "Article III Section 7.2",
+      "count": 1
+    },
+    {
+      "provision": "Article IV",
+      "count": 1
+    },
+    {
+      "provision": "Article IV Section 2.3",
+      "count": 1
+    },
+    {
+      "provision": "Article IV Section 2.7",
+      "count": 1
+    },
+    {
+      "provision": "Article IV Section 3.4",
+      "count": 1
+    },
+    {
       "provision": "Article IX Section 3",
+      "count": 1
+    },
+    {
+      "provision": "Article V",
       "count": 1
     },
     {
@@ -102,7 +250,15 @@
       "count": 1
     },
     {
+      "provision": "Article VI Section 1",
+      "count": 1
+    },
+    {
       "provision": "Article VI democratic integrity provisions",
+      "count": 1
+    },
+    {
+      "provision": "Article VII Section 1.2",
       "count": 1
     },
     {
@@ -118,7 +274,19 @@
       "count": 1
     },
     {
-      "provision": "Article XI Section 1",
+      "provision": "Article XI Section 3.1",
+      "count": 1
+    },
+    {
+      "provision": "Article XI Section 3.2",
+      "count": 1
+    },
+    {
+      "provision": "Article XI Section 4.4",
+      "count": 1
+    },
+    {
+      "provision": "Article XI Section 5.2",
       "count": 1
     },
     {
@@ -140,6 +308,309 @@
   ],
   "open_duties_by_actor": [],
   "scenarios": [
+    {
+      "scenario_id": "budget-deadlock-cr",
+      "title": "Budget Deadlock \u2014 Automatic Continuing Resolution",
+      "source_file": "simulation/scenarios/budget-deadlock-cr.json",
+      "status": "stress_point_found",
+      "triggered_provisions": [
+        "Article II Section 12.2",
+        "Article II Section 12.3"
+      ],
+      "metrics": {
+        "satisfied_obligations": 1,
+        "failed_obligations": 0,
+        "unresolved_obligations": 0,
+        "violations": 1,
+        "bottlenecks": 0,
+        "timeline_entries": 6
+      },
+      "violations": [
+        {
+          "id": "executive_cr_manipulation",
+          "category": "executive_defiance",
+          "actor": "Executive branch",
+          "source": "Article II Section 12.2",
+          "severity": "high",
+          "day": 5,
+          "summary": "Executive branch attempts to alter funding ratios, withhold appropriated funds, or selectively apply funding levels under the automatic continuing resolution."
+        }
+      ],
+      "bottlenecks": [],
+      "open_duties": [],
+      "satisfied_duties": [
+        {
+          "actor": "Federal courts",
+          "duty": "review the executive branch's selective CR funding manipulation on an expedited basis",
+          "closed_day": 10,
+          "outcome": "issued an expedited order blocking the executive branch's selective application of the automatic continuing resolution",
+          "source": "Article II Section 12.2"
+        }
+      ],
+      "failed_duties": [],
+      "notes": [],
+      "ai_summary": {
+        "primary_violation": "Executive branch attempts to alter funding ratios, withhold appropriated funds, or selectively apply funding levels under the automatic continuing resolution.",
+        "primary_bottleneck": null,
+        "primary_open_duty": null,
+        "system_risk": "executive_defiance",
+        "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+      }
+    },
+    {
+      "scenario_id": "congressional-subpoena-defiance",
+      "title": "Executive Officer Defies Congressional Subpoena",
+      "source_file": "simulation/scenarios/congressional-subpoena-defiance.json",
+      "status": "stress_point_found",
+      "triggered_provisions": [
+        "Article II Section 16.2",
+        "Article II Section 16.3"
+      ],
+      "metrics": {
+        "satisfied_obligations": 2,
+        "failed_obligations": 1,
+        "unresolved_obligations": 0,
+        "violations": 1,
+        "bottlenecks": 1,
+        "timeline_entries": 9
+      },
+      "violations": [
+        {
+          "id": "subpoena_defiance",
+          "category": "executive_defiance",
+          "actor": "Secretary of Defense",
+          "source": "Article II Section 16.2 and Section 16.5",
+          "severity": "high",
+          "day": 35,
+          "summary": "Secretary of Defense willfully refuses to comply with a valid congressional subpoena."
+        }
+      ],
+      "bottlenecks": [
+        {
+          "id": "executive_comply_subpoena",
+          "category": "missed_deadline",
+          "actor": "Secretary of Defense",
+          "source": "Article II Section 16.2 and Section 16.3",
+          "severity": "high",
+          "day": 35,
+          "deadline_day": 30,
+          "summary": "Secretary of Defense failed to comply with the congressional subpoena by testifying and producing required documents by day 30 under Article II Section 16.2 and Section 16.3."
+        }
+      ],
+      "open_duties": [],
+      "satisfied_duties": [
+        {
+          "actor": "House Judiciary Committee",
+          "duty": "refer the contempt citation to the Accountability Commission for criminal prosecution",
+          "closed_day": 40,
+          "outcome": "referred the contempt citation to the Accountability Commission for criminal prosecution",
+          "source": "Article II Section 16.5(a)"
+        },
+        {
+          "actor": "Accountability Commission",
+          "duty": "prosecute criminal contempt within 90 days of referral or publish specific written findings for declining",
+          "closed_day": 110,
+          "outcome": "initiated criminal contempt prosecution within the required 90-day window",
+          "source": "Article II Section 16.5(b)"
+        }
+      ],
+      "failed_duties": [
+        {
+          "actor": "Secretary of Defense",
+          "duty": "comply with the congressional subpoena by testifying and producing required documents",
+          "deadline_day": 30,
+          "closed_day": 35,
+          "outcome": "Secretary of Defense failed to comply with the congressional subpoena by testifying and producing required documents by day 30 under Article II Section 16.2 and Section 16.3.",
+          "source": "Article II Section 16.2 and Section 16.3",
+          "severity": "high"
+        }
+      ],
+      "notes": [],
+      "ai_summary": {
+        "primary_violation": "Secretary of Defense willfully refuses to comply with a valid congressional subpoena.",
+        "primary_bottleneck": "Secretary of Defense failed to comply with the congressional subpoena by testifying and producing required documents by day 30 under Article II Section 16.2 and Section 16.3.",
+        "primary_open_duty": null,
+        "system_risk": "executive_defiance",
+        "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+      }
+    },
+    {
+      "scenario_id": "contested-incapacity-declaration",
+      "title": "Contested Presidential Incapacity \u2014 Congress Misses Resolution Deadline",
+      "source_file": "simulation/scenarios/contested-incapacity-declaration.json",
+      "status": "stress_point_found",
+      "triggered_provisions": [
+        "Article III Section 11.2",
+        "Article III Section 11.3"
+      ],
+      "metrics": {
+        "satisfied_obligations": 0,
+        "failed_obligations": 1,
+        "unresolved_obligations": 0,
+        "violations": 0,
+        "bottlenecks": 1,
+        "timeline_entries": 7
+      },
+      "violations": [],
+      "bottlenecks": [
+        {
+          "id": "congress_resolve_incapacity_contest",
+          "category": "legislative_deadline_failure",
+          "actor": "Congress",
+          "source": "Article III Section 11.3",
+          "severity": "high",
+          "day": 25,
+          "deadline_day": 23,
+          "summary": "Congress failed to resolve the contested incapacity determination by 2/3 vote of both chambers by day 23 under Article III Section 11.3."
+        }
+      ],
+      "open_duties": [],
+      "satisfied_duties": [],
+      "failed_duties": [
+        {
+          "actor": "Congress",
+          "duty": "resolve the contested incapacity determination by 2/3 vote of both chambers",
+          "deadline_day": 23,
+          "closed_day": 25,
+          "outcome": "Congress failed to resolve the contested incapacity determination by 2/3 vote of both chambers by day 23 under Article III Section 11.3.",
+          "source": "Article III Section 11.3",
+          "severity": "high"
+        }
+      ],
+      "notes": [],
+      "ai_summary": {
+        "primary_violation": null,
+        "primary_bottleneck": "Congress failed to resolve the contested incapacity determination by 2/3 vote of both chambers by day 23 under Article III Section 11.3.",
+        "primary_open_duty": null,
+        "system_risk": "legislative_delay",
+        "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+      }
+    },
+    {
+      "scenario_id": "court-order-defied",
+      "title": "Executive Branch Defies Federal Court Order",
+      "source_file": "simulation/scenarios/court-order-defied.json",
+      "status": "stress_point_found",
+      "triggered_provisions": [
+        "Article II Section 16.2"
+      ],
+      "metrics": {
+        "satisfied_obligations": 1,
+        "failed_obligations": 1,
+        "unresolved_obligations": 0,
+        "violations": 1,
+        "bottlenecks": 1,
+        "timeline_entries": 8
+      },
+      "violations": [
+        {
+          "id": "executive_defies_court_order",
+          "category": "executive_defiance",
+          "actor": "Executive agency",
+          "source": "Article II Section 16.2(c)",
+          "severity": "high",
+          "day": 16,
+          "summary": "Executive agency fails to comply with a federal court enforcement order within the required 15-day period."
+        }
+      ],
+      "bottlenecks": [
+        {
+          "id": "executive_comply_court_order",
+          "category": "missed_deadline",
+          "actor": "Executive agency",
+          "source": "Article II Section 16.2(c)",
+          "severity": "high",
+          "day": 16,
+          "deadline_day": 15,
+          "summary": "Executive agency failed to comply with the federal court enforcement order by day 15 under Article II Section 16.2(c)."
+        }
+      ],
+      "open_duties": [],
+      "satisfied_duties": [
+        {
+          "actor": "U.S. Marshals Service",
+          "duty": "enforce the court order through civil contempt mechanisms without requiring DOJ direction",
+          "closed_day": 17,
+          "outcome": "enforced the court order through civil contempt mechanisms without DOJ involvement",
+          "source": "Article II Section 16.2(c)"
+        }
+      ],
+      "failed_duties": [
+        {
+          "actor": "Executive agency",
+          "duty": "comply with the federal court enforcement order",
+          "deadline_day": 15,
+          "closed_day": 16,
+          "outcome": "Executive agency failed to comply with the federal court enforcement order by day 15 under Article II Section 16.2(c).",
+          "source": "Article II Section 16.2(c)",
+          "severity": "high"
+        }
+      ],
+      "notes": [],
+      "ai_summary": {
+        "primary_violation": "Executive agency fails to comply with a federal court enforcement order within the required 15-day period.",
+        "primary_bottleneck": "Executive agency failed to comply with the federal court enforcement order by day 15 under Article II Section 16.2(c).",
+        "primary_open_duty": null,
+        "system_risk": "executive_defiance",
+        "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+      }
+    },
+    {
+      "scenario_id": "covert-operation-against-citizen",
+      "title": "Covert Lethal Operation Ordered Against US Citizen \u2014 Warrant Denied",
+      "source_file": "simulation/scenarios/covert-operation-against-citizen.json",
+      "status": "stress_point_found",
+      "triggered_provisions": [
+        "Article IV",
+        "Article XI Section 5.2"
+      ],
+      "metrics": {
+        "satisfied_obligations": 2,
+        "failed_obligations": 0,
+        "unresolved_obligations": 0,
+        "violations": 1,
+        "bottlenecks": 0,
+        "timeline_entries": 8
+      },
+      "violations": [
+        {
+          "id": "unlawful_covert_operation_us_citizen",
+          "category": "executive_defiance",
+          "actor": "CIA",
+          "source": "Article XI Section 5.2",
+          "severity": "high",
+          "day": 2,
+          "summary": "CIA proceeds with a covert lethal operation against a US citizen after a court denied the required warrant, in direct violation of Article XI Section 5.2."
+        }
+      ],
+      "bottlenecks": [],
+      "open_duties": [],
+      "satisfied_duties": [
+        {
+          "actor": "Federal courts",
+          "duty": "adjudicate the warrant application, finding probable cause of imminent specific threat and that capture is not feasible",
+          "closed_day": 1,
+          "outcome": "denied the warrant application, finding that capture remains feasible; the operation is constitutionally blocked pending a valid warrant",
+          "source": "Article XI Section 5.2"
+        },
+        {
+          "actor": "Accountability Commission",
+          "duty": "open prosecution of responsible officers for the unlawful covert lethal operation against a US citizen",
+          "closed_day": 5,
+          "outcome": "opened prosecution of the responsible officers for conducting a covert lethal operation against a US citizen in violation of the judicial warrant requirement",
+          "source": "Article XI Section 5.2 and Article III Section 15.7"
+        }
+      ],
+      "failed_duties": [],
+      "notes": [],
+      "ai_summary": {
+        "primary_violation": "CIA proceeds with a covert lethal operation against a US citizen after a court denied the required warrant, in direct violation of Article XI Section 5.2.",
+        "primary_bottleneck": null,
+        "primary_open_duty": null,
+        "system_risk": "executive_defiance",
+        "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+      }
+    },
     {
       "scenario_id": "domestic-deployment-against-protest",
       "title": "Domestic Deployment Against Protest",
@@ -198,6 +669,77 @@
       }
     },
     {
+      "scenario_id": "electoral-certification-obstruction",
+      "title": "Outgoing President Obstructs Electoral Certification and Transition",
+      "source_file": "simulation/scenarios/electoral-certification-obstruction.json",
+      "status": "stress_point_found",
+      "triggered_provisions": [
+        "Article I",
+        "Article III Section 13",
+        "Article VI Section 1"
+      ],
+      "metrics": {
+        "satisfied_obligations": 1,
+        "failed_obligations": 1,
+        "unresolved_obligations": 0,
+        "violations": 1,
+        "bottlenecks": 1,
+        "timeline_entries": 9
+      },
+      "violations": [
+        {
+          "id": "transition_obstruction",
+          "category": "executive_defiance",
+          "actor": "President",
+          "source": "Article III Section 13.5 and Article VI Section 1",
+          "severity": "high",
+          "day": 5,
+          "summary": "Outgoing President refuses to cooperate with the constitutionally required transition, denying the President-elect access to security briefings and agency records."
+        }
+      ],
+      "bottlenecks": [
+        {
+          "id": "president_cooperate_transition",
+          "category": "missed_deadline",
+          "actor": "President",
+          "source": "Article III Section 13.1",
+          "severity": "high",
+          "day": 5,
+          "deadline_day": 81,
+          "summary": "President refused to cooperate with the constitutionally required transition under Article III Section 13.1."
+        }
+      ],
+      "open_duties": [],
+      "satisfied_duties": [
+        {
+          "actor": "Accountability Commission",
+          "duty": "pursue the electoral subversion case through investigation and prosecution",
+          "closed_day": 20,
+          "outcome": "continued pursuing the electoral subversion case while the transition proceeded under constitutional mandate",
+          "source": "Article VI Section 1"
+        }
+      ],
+      "failed_duties": [
+        {
+          "actor": "President",
+          "duty": "cooperate fully with the President-elect's transition including security briefings, agency access, and office space",
+          "deadline_day": 81,
+          "closed_day": 5,
+          "outcome": "President refused to cooperate with the constitutionally required transition under Article III Section 13.1.",
+          "source": "Article III Section 13.1",
+          "severity": "high"
+        }
+      ],
+      "notes": [],
+      "ai_summary": {
+        "primary_violation": "Outgoing President refuses to cooperate with the constitutionally required transition, denying the President-elect access to security briefings and agency records.",
+        "primary_bottleneck": "President refused to cooperate with the constitutionally required transition under Article III Section 13.1.",
+        "primary_open_duty": null,
+        "system_risk": "executive_defiance",
+        "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+      }
+    },
+    {
       "scenario_id": "emergency-extension-without-real-review",
       "title": "Emergency Extension Without Real Review",
       "source_file": "simulation/scenarios/emergency-extension-without-real-review.json",
@@ -214,7 +756,7 @@
         "unresolved_obligations": 0,
         "violations": 1,
         "bottlenecks": 1,
-        "timeline_entries": 9
+        "timeline_entries": 10
       },
       "violations": [
         {
@@ -286,7 +828,7 @@
         "unresolved_obligations": 0,
         "violations": 1,
         "bottlenecks": 1,
-        "timeline_entries": 10
+        "timeline_entries": 11
       },
       "violations": [
         {
@@ -347,6 +889,169 @@
         "primary_bottleneck": "Regional Assembly failed to approve or reject the emergency declaration by day 30 under Article III Section 5.4.",
         "primary_open_duty": null,
         "system_risk": "legislative_delay",
+        "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+      }
+    },
+    {
+      "scenario_id": "emergency-rights-suppression",
+      "title": "Emergency Declaration Used to Suppress Protected Speech",
+      "source_file": "simulation/scenarios/emergency-rights-suppression.json",
+      "status": "stress_point_found",
+      "triggered_provisions": [
+        "Article I Section 3",
+        "Article III Section 5",
+        "Article III Section 5.3",
+        "Article V",
+        "Article V Section 14"
+      ],
+      "metrics": {
+        "satisfied_obligations": 3,
+        "failed_obligations": 0,
+        "unresolved_obligations": 0,
+        "violations": 1,
+        "bottlenecks": 0,
+        "timeline_entries": 9
+      },
+      "violations": [
+        {
+          "id": "emergency_rights_suppression",
+          "category": "rights_suppression",
+          "actor": "Executive branch",
+          "source": "Article III Section 5.3(f)",
+          "severity": "high",
+          "day": 2,
+          "summary": "Executive branch uses an emergency declaration to restrict protected expression, in violation of the absolute bar on overriding Article V rights through emergency powers."
+        }
+      ],
+      "bottlenecks": [],
+      "open_duties": [],
+      "satisfied_duties": [
+        {
+          "actor": "President",
+          "duty": "submit the emergency declaration to the Regional Assembly",
+          "closed_day": 1,
+          "outcome": "submitted the emergency declaration to the Regional Assembly",
+          "source": "Article III Section 5.4"
+        },
+        {
+          "actor": "Federal courts",
+          "duty": "void the emergency-based speech restriction",
+          "closed_day": 5,
+          "outcome": "voided the emergency-based restriction on protected expression; Article V rights may not be overridden by emergency declaration",
+          "source": "Article III Section 5.3(f) and Article V"
+        },
+        {
+          "actor": "Regional Assembly",
+          "duty": "approve or reject the emergency declaration",
+          "closed_day": 10,
+          "outcome": "approved the emergency declaration following court-ordered scheduling",
+          "source": "Article III Section 5.4"
+        }
+      ],
+      "failed_duties": [],
+      "notes": [],
+      "ai_summary": {
+        "primary_violation": "Executive branch uses an emergency declaration to restrict protected expression, in violation of the absolute bar on overriding Article V rights through emergency powers.",
+        "primary_bottleneck": null,
+        "primary_open_duty": null,
+        "system_risk": "institutional_stress",
+        "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+      }
+    },
+    {
+      "scenario_id": "executive-order-overreach",
+      "title": "Executive Order Creates Unauthorized Private-Citizen Obligations",
+      "source_file": "simulation/scenarios/executive-order-overreach.json",
+      "status": "stress_point_found",
+      "triggered_provisions": [
+        "Article III Section 6.2",
+        "Article III Section 6.4"
+      ],
+      "metrics": {
+        "satisfied_obligations": 1,
+        "failed_obligations": 0,
+        "unresolved_obligations": 0,
+        "violations": 1,
+        "bottlenecks": 0,
+        "timeline_entries": 5
+      },
+      "violations": [
+        {
+          "id": "executive_order_overreach",
+          "category": "executive_defiance",
+          "actor": "President",
+          "source": "Article III Section 6.2(a)",
+          "severity": "high",
+          "day": 0,
+          "summary": "President issues an executive order imposing new regulatory obligations on private businesses without any statutory authorization, in violation of Article III Section 6.2(a)."
+        }
+      ],
+      "bottlenecks": [],
+      "open_duties": [],
+      "satisfied_duties": [
+        {
+          "actor": "Congress",
+          "duty": "pass a resolution of disapproval within 60 days to formally void the overreaching executive order",
+          "closed_day": 15,
+          "outcome": "passed a resolution of disapproval; the executive order is void and may not be reissued in substantially the same form without statutory authorization",
+          "source": "Article III Section 6.4"
+        }
+      ],
+      "failed_duties": [],
+      "notes": [],
+      "ai_summary": {
+        "primary_violation": "President issues an executive order imposing new regulatory obligations on private businesses without any statutory authorization, in violation of Article III Section 6.2(a).",
+        "primary_bottleneck": null,
+        "primary_open_duty": null,
+        "system_risk": "executive_defiance",
+        "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+      }
+    },
+    {
+      "scenario_id": "federal-commandeering",
+      "title": "Federal Commandeering of State Officials",
+      "source_file": "simulation/scenarios/federal-commandeering.json",
+      "status": "stress_point_found",
+      "triggered_provisions": [
+        "Article VII Section 1.2"
+      ],
+      "metrics": {
+        "satisfied_obligations": 1,
+        "failed_obligations": 0,
+        "unresolved_obligations": 0,
+        "violations": 1,
+        "bottlenecks": 0,
+        "timeline_entries": 5
+      },
+      "violations": [
+        {
+          "id": "federal_commandeering",
+          "category": "federalism_breach",
+          "actor": "Congress",
+          "source": "Article VII Section 1.2",
+          "severity": "high",
+          "day": 0,
+          "summary": "Congress enacts a statute requiring state executive officials to implement and enforce a federal regulatory program, in violation of the anti-commandeering provision of Article VII Section 1.2."
+        }
+      ],
+      "bottlenecks": [],
+      "open_duties": [],
+      "satisfied_duties": [
+        {
+          "actor": "Federal courts",
+          "duty": "review and void the commandeering statute",
+          "closed_day": 20,
+          "outcome": "voided the commandeering statute; the federal government may not conscript state executive officials to implement federal programs",
+          "source": "Article VII Section 1.2"
+        }
+      ],
+      "failed_duties": [],
+      "notes": [],
+      "ai_summary": {
+        "primary_violation": "Congress enacts a statute requiring state executive officials to implement and enforce a federal regulatory program, in violation of the anti-commandeering provision of Article VII Section 1.2.",
+        "primary_bottleneck": null,
+        "primary_open_duty": null,
+        "system_risk": "institutional_stress",
         "recommended_focus": "review bottlenecks, violations, and unresolved duties"
       }
     },
@@ -424,6 +1129,363 @@
         "primary_open_duty": null,
         "system_risk": "institutional_stress",
         "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+      }
+    },
+    {
+      "scenario_id": "habeas-corpus-president-suspends",
+      "title": "President Suspends Habeas Corpus by Executive Order",
+      "source_file": "simulation/scenarios/habeas-corpus-president-suspends.json",
+      "status": "stress_point_found",
+      "triggered_provisions": [
+        "Article I Section 3",
+        "Article III Section 5",
+        "Article III Section 5.7",
+        "Article V Section 14"
+      ],
+      "metrics": {
+        "satisfied_obligations": 3,
+        "failed_obligations": 0,
+        "unresolved_obligations": 0,
+        "violations": 1,
+        "bottlenecks": 0,
+        "timeline_entries": 9
+      },
+      "violations": [
+        {
+          "id": "president_suspends_habeas_corpus",
+          "category": "executive_defiance",
+          "actor": "President",
+          "source": "Article III Section 5.7",
+          "severity": "high",
+          "day": 2,
+          "summary": "President suspends the privilege of the writ of habeas corpus by executive order. This power belongs exclusively to Congress under Article III Section 5.7 and may not be exercised by the President alone."
+        }
+      ],
+      "bottlenecks": [],
+      "open_duties": [],
+      "satisfied_duties": [
+        {
+          "actor": "President",
+          "duty": "submit the emergency declaration to the Regional Assembly",
+          "closed_day": 1,
+          "outcome": "submitted the emergency declaration to the Regional Assembly",
+          "source": "Article III Section 5.4"
+        },
+        {
+          "actor": "Federal courts",
+          "duty": "void the unlawful executive suspension of habeas corpus",
+          "closed_day": 4,
+          "outcome": "voided the executive suspension of habeas corpus; only Congress may suspend the writ under Article III Section 5.7",
+          "source": "Article III Section 5.7"
+        },
+        {
+          "actor": "Regional Assembly",
+          "duty": "approve or reject the emergency declaration",
+          "closed_day": 10,
+          "outcome": "approved the emergency declaration following court-ordered scheduling",
+          "source": "Article III Section 5.4"
+        }
+      ],
+      "failed_duties": [],
+      "notes": [],
+      "ai_summary": {
+        "primary_violation": "President suspends the privilege of the writ of habeas corpus by executive order. This power belongs exclusively to Congress under Article III Section 5.7 and may not be exercised by the President alone.",
+        "primary_bottleneck": null,
+        "primary_open_duty": null,
+        "system_risk": "executive_defiance",
+        "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+      }
+    },
+    {
+      "scenario_id": "judicial-vacancy-exploitation",
+      "title": "Judicial Vacancy \u2014 President Refuses to Nominate",
+      "source_file": "simulation/scenarios/judicial-vacancy-exploitation.json",
+      "status": "stress_point_found",
+      "triggered_provisions": [
+        "Article IV Section 2.3",
+        "Article IV Section 2.7",
+        "Article IV Section 3.4"
+      ],
+      "metrics": {
+        "satisfied_obligations": 0,
+        "failed_obligations": 1,
+        "unresolved_obligations": 0,
+        "violations": 1,
+        "bottlenecks": 1,
+        "timeline_entries": 7
+      },
+      "violations": [
+        {
+          "id": "president_refuses_nomination_duty",
+          "category": "executive_defiance",
+          "actor": "President",
+          "source": "Article IV Section 3.1 and Article III Section 1.2(d)",
+          "severity": "high",
+          "day": 60,
+          "summary": "President refuses to submit a nomination from the Judicial Nominations Commission certified pool to fill a scheduled Supreme Court vacancy."
+        }
+      ],
+      "bottlenecks": [
+        {
+          "id": "president_nominate_justice",
+          "category": "missed_deadline",
+          "actor": "President",
+          "source": "Article IV Section 3.1",
+          "severity": "medium",
+          "day": 60,
+          "deadline_day": 90,
+          "summary": "President refused to submit a nomination within the required period, triggering the Judicial Nominations Commission backstop under Article IV Section 3.4."
+        }
+      ],
+      "open_duties": [],
+      "satisfied_duties": [],
+      "failed_duties": [
+        {
+          "actor": "President",
+          "duty": "nominate a qualified candidate from the Judicial Nominations Commission certified pool to fill the scheduled vacancy",
+          "deadline_day": 90,
+          "closed_day": 60,
+          "outcome": "President refused to submit a nomination within the required period, triggering the Judicial Nominations Commission backstop under Article IV Section 3.4.",
+          "source": "Article IV Section 3.1",
+          "severity": "medium"
+        }
+      ],
+      "notes": [],
+      "ai_summary": {
+        "primary_violation": "President refuses to submit a nomination from the Judicial Nominations Commission certified pool to fill a scheduled Supreme Court vacancy.",
+        "primary_bottleneck": "President refused to submit a nomination within the required period, triggering the Judicial Nominations Commission backstop under Article IV Section 3.4.",
+        "primary_open_duty": null,
+        "system_risk": "executive_defiance",
+        "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+      }
+    },
+    {
+      "scenario_id": "nuclear-first-use-circumvention",
+      "title": "Nuclear First-Use Order \u2014 Secretary Refusal and Circumvention Attempt",
+      "source_file": "simulation/scenarios/nuclear-first-use-circumvention.json",
+      "status": "stress_point_found",
+      "triggered_provisions": [
+        "Article III Section 4.4",
+        "Article XI Section 3.1",
+        "Article XI Section 3.2"
+      ],
+      "metrics": {
+        "satisfied_obligations": 3,
+        "failed_obligations": 0,
+        "unresolved_obligations": 0,
+        "violations": 1,
+        "bottlenecks": 0,
+        "timeline_entries": 11
+      },
+      "violations": [
+        {
+          "id": "removal_to_circumvent_nuclear_safeguard",
+          "category": "executive_defiance",
+          "actor": "President",
+          "source": "Article XI Section 3.1 and Article III Section 4.4",
+          "severity": "high",
+          "day": 1,
+          "summary": "President removes the Secretary of Defense to install a replacement willing to confirm a nuclear first-use order, using the removal power to circumvent a constitutional authorization safeguard."
+        }
+      ],
+      "bottlenecks": [],
+      "open_duties": [],
+      "satisfied_duties": [
+        {
+          "actor": "Acting Secretary of Defense",
+          "duty": "confirm or refuse the nuclear first-use order",
+          "closed_day": 2,
+          "outcome": "also refused to confirm the nuclear first-use order; the launch remains blocked",
+          "source": "Article XI Section 3.1"
+        },
+        {
+          "actor": "Secretary of Defense",
+          "duty": "confirm or refuse the nuclear first-use order",
+          "closed_day": 0,
+          "outcome": "refused to confirm the nuclear first-use order, blocking the launch under Article XI Section 3.1",
+          "source": "Article XI Section 3.1"
+        },
+        {
+          "actor": "Secretary of State",
+          "duty": "confirm or refuse the nuclear first-use order",
+          "closed_day": 0,
+          "outcome": "refused to confirm the nuclear first-use order",
+          "source": "Article XI Section 3.1"
+        }
+      ],
+      "failed_duties": [],
+      "notes": [],
+      "ai_summary": {
+        "primary_violation": "President removes the Secretary of Defense to install a replacement willing to confirm a nuclear first-use order, using the removal power to circumvent a constitutional authorization safeguard.",
+        "primary_bottleneck": null,
+        "primary_open_duty": null,
+        "system_risk": "executive_defiance",
+        "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+      }
+    },
+    {
+      "scenario_id": "perjury-before-congress",
+      "title": "Senior Official Commits Perjury Before Congress",
+      "source_file": "simulation/scenarios/perjury-before-congress.json",
+      "status": "stress_point_found",
+      "triggered_provisions": [
+        "Article II Section 16.4",
+        "Article II Section 16.4(b)"
+      ],
+      "metrics": {
+        "satisfied_obligations": 2,
+        "failed_obligations": 0,
+        "unresolved_obligations": 0,
+        "violations": 1,
+        "bottlenecks": 0,
+        "timeline_entries": 7
+      },
+      "violations": [
+        {
+          "id": "perjury_before_congress",
+          "category": "executive_defiance",
+          "actor": "Secretary of State",
+          "source": "Article II Section 16.4",
+          "severity": "high",
+          "day": 0,
+          "summary": "Secretary of State gives testimony before a congressional committee containing knowing false statements of material fact, constituting perjury before Congress under Article II Section 16.4."
+        }
+      ],
+      "bottlenecks": [],
+      "open_duties": [],
+      "satisfied_duties": [
+        {
+          "actor": "Senate Foreign Relations Committee",
+          "duty": "refer the perjury matter to the Accountability Commission",
+          "closed_day": 5,
+          "outcome": "referred the congressional perjury matter to the Accountability Commission for exclusive prosecution",
+          "source": "Article II Section 16.4"
+        },
+        {
+          "actor": "Accountability Commission",
+          "duty": "indict on the congressional perjury charge within the required indictment window",
+          "closed_day": 60,
+          "outcome": "indicted the official for congressional perjury within the required window; upon conviction the official faces automatic removal, permanent disqualification, and no possibility of pardon",
+          "source": "Article II Section 16.4"
+        }
+      ],
+      "failed_duties": [],
+      "notes": [],
+      "ai_summary": {
+        "primary_violation": "Secretary of State gives testimony before a congressional committee containing knowing false statements of material fact, constituting perjury before Congress under Article II Section 16.4.",
+        "primary_bottleneck": null,
+        "primary_open_duty": null,
+        "system_risk": "executive_defiance",
+        "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+      }
+    },
+    {
+      "scenario_id": "pmc-substitution",
+      "title": "PMC Deployment as Unauthorized-Force Substitute",
+      "source_file": "simulation/scenarios/pmc-substitution.json",
+      "status": "stress_point_found",
+      "triggered_provisions": [
+        "Article XI Section 1",
+        "Article XI Section 4.4"
+      ],
+      "metrics": {
+        "satisfied_obligations": 1,
+        "failed_obligations": 1,
+        "unresolved_obligations": 0,
+        "violations": 1,
+        "bottlenecks": 1,
+        "timeline_entries": 9
+      },
+      "violations": [
+        {
+          "id": "pmc_substitution_for_aumf",
+          "category": "executive_defiance",
+          "actor": "President",
+          "source": "Article XI Section 4.4",
+          "severity": "high",
+          "day": 5,
+          "summary": "President deploys private military contractors in a combat role to conduct the operation Congress denied, in direct violation of Article XI Section 4.4, which prohibits using PMCs to avoid authorization requirements or to conceal the scale of US military engagement."
+        }
+      ],
+      "bottlenecks": [
+        {
+          "id": "house_vote_impeachment_pmc",
+          "category": "legislative_deadline_failure",
+          "actor": "House of Representatives",
+          "source": "Article III Section 10.2A and Article XI Section 4.4",
+          "severity": "high",
+          "day": 28,
+          "deadline_day": 26,
+          "summary": "House of Representatives failed to hold a recorded impeachment vote on the unlawful PMC deployment used to circumvent the denied AUMF by day 26 under Article III Section 10.2A and Article XI Section 4.4."
+        }
+      ],
+      "open_duties": [],
+      "satisfied_duties": [
+        {
+          "actor": "Regional Assembly",
+          "duty": "proceed to impeachment trial on the automatically transmitted PMC-substitution articles",
+          "closed_day": 28,
+          "outcome": "began impeachment trial on the automatically transmitted PMC substitution articles",
+          "source": "Article III Section 10.2A and Section 10.3"
+        }
+      ],
+      "failed_duties": [
+        {
+          "actor": "House of Representatives",
+          "duty": "hold a recorded impeachment vote on the unlawful PMC deployment used to circumvent the denied AUMF",
+          "deadline_day": 26,
+          "closed_day": 28,
+          "outcome": "House of Representatives failed to hold a recorded impeachment vote on the unlawful PMC deployment used to circumvent the denied AUMF by day 26 under Article III Section 10.2A and Article XI Section 4.4.",
+          "source": "Article III Section 10.2A and Article XI Section 4.4",
+          "severity": "high"
+        }
+      ],
+      "notes": [],
+      "ai_summary": {
+        "primary_violation": "President deploys private military contractors in a combat role to conduct the operation Congress denied, in direct violation of Article XI Section 4.4, which prohibits using PMCs to avoid authorization requirements or to conceal the scale of US military engagement.",
+        "primary_bottleneck": "House of Representatives failed to hold a recorded impeachment vote on the unlawful PMC deployment used to circumvent the denied AUMF by day 26 under Article III Section 10.2A and Article XI Section 4.4.",
+        "primary_open_duty": null,
+        "system_risk": "executive_defiance",
+        "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+      }
+    },
+    {
+      "scenario_id": "post-presidential-prosecution",
+      "title": "Post-Presidential Prosecution \u2014 Immunity Claim Rejected",
+      "source_file": "simulation/scenarios/post-presidential-prosecution.json",
+      "status": "clean",
+      "triggered_provisions": [
+        "Article III Section 15.6",
+        "Article III Section 15.7"
+      ],
+      "metrics": {
+        "satisfied_obligations": 1,
+        "failed_obligations": 0,
+        "unresolved_obligations": 0,
+        "violations": 0,
+        "bottlenecks": 0,
+        "timeline_entries": 6
+      },
+      "violations": [],
+      "bottlenecks": [],
+      "open_duties": [],
+      "satisfied_duties": [
+        {
+          "actor": "Federal courts",
+          "duty": "rule on the former President's immunity claim",
+          "closed_day": 15,
+          "outcome": "rejected the post-presidential immunity claim; Article III Section 15.6 provides no such immunity and prosecution proceeds",
+          "source": "Article III Section 15.6"
+        }
+      ],
+      "failed_duties": [],
+      "notes": [],
+      "ai_summary": {
+        "primary_violation": null,
+        "primary_bottleneck": null,
+        "primary_open_duty": null,
+        "system_risk": "none",
+        "recommended_focus": "no immediate constitutional flow issue detected in this scenario"
       }
     },
     {
@@ -505,6 +1567,301 @@
       }
     },
     {
+      "scenario_id": "presidential-recall-interference",
+      "title": "Presidential Recall \u2014 Emergency Declared to Delay Referendum",
+      "source_file": "simulation/scenarios/presidential-recall-interference.json",
+      "status": "stress_point_found",
+      "triggered_provisions": [
+        "Article III Section 14",
+        "Article III Section 14.11",
+        "Article III Section 5"
+      ],
+      "metrics": {
+        "satisfied_obligations": 2,
+        "failed_obligations": 0,
+        "unresolved_obligations": 0,
+        "violations": 1,
+        "bottlenecks": 0,
+        "timeline_entries": 8
+      },
+      "violations": [
+        {
+          "id": "recall_delay_emergency",
+          "category": "executive_defiance",
+          "actor": "President",
+          "source": "Article III Section 14.11(a)",
+          "severity": "high",
+          "day": 10,
+          "summary": "President declares a national emergency for the purpose of delaying a certified recall referendum."
+        }
+      ],
+      "bottlenecks": [],
+      "open_duties": [],
+      "satisfied_duties": [
+        {
+          "actor": "Federal courts",
+          "duty": "review the emergency declaration's effect on the recall referendum schedule",
+          "closed_day": 15,
+          "outcome": "voided the emergency declaration insofar as it was used to delay the certified recall referendum",
+          "source": "Article III Section 14.11(a)"
+        },
+        {
+          "actor": "Electoral Commission",
+          "duty": "schedule and administer the recall referendum within 90 days of certification",
+          "closed_day": 85,
+          "outcome": "administered the recall referendum within the required 90-day window",
+          "source": "Article III Section 14.5"
+        }
+      ],
+      "failed_duties": [],
+      "notes": [],
+      "ai_summary": {
+        "primary_violation": "President declares a national emergency for the purpose of delaying a certified recall referendum.",
+        "primary_bottleneck": null,
+        "primary_open_duty": null,
+        "system_risk": "executive_defiance",
+        "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+      }
+    },
+    {
+      "scenario_id": "presidential-succession-gap",
+      "title": "President and Vice President Both Simultaneously Incapacitated",
+      "source_file": "simulation/scenarios/presidential-succession-gap.json",
+      "status": "clean",
+      "triggered_provisions": [
+        "Article III Section 11",
+        "Article III Section 12"
+      ],
+      "metrics": {
+        "satisfied_obligations": 2,
+        "failed_obligations": 0,
+        "unresolved_obligations": 0,
+        "violations": 0,
+        "bottlenecks": 0,
+        "timeline_entries": 6
+      },
+      "violations": [],
+      "bottlenecks": [],
+      "open_duties": [],
+      "satisfied_duties": [
+        {
+          "actor": "Speaker of the House",
+          "duty": "assume the office of Acting President with the limited powers of Article III Section 12.4",
+          "closed_day": 1,
+          "outcome": "assumed the office of Acting President; Article III Section 12.4 limitations apply \u2014 no pardon power, no treaty withdrawal, no emergency declaration, no removal of confirmed officials without cause, no recess appointments without majority approval of both chambers",
+          "source": "Article III Section 12.2"
+        },
+        {
+          "actor": "Vice President",
+          "duty": "assume the powers and duties of the President as Acting President",
+          "closed_day": 0,
+          "outcome": "VP is also incapacitated and cannot assume duties; succession advances to Speaker of the House under Article III Section 12.2",
+          "source": "Article III Section 11.2 and Section 12.1"
+        }
+      ],
+      "failed_duties": [],
+      "notes": [],
+      "ai_summary": {
+        "primary_violation": null,
+        "primary_bottleneck": null,
+        "primary_open_duty": null,
+        "system_risk": "none",
+        "recommended_focus": "no immediate constitutional flow issue detected in this scenario"
+      }
+    },
+    {
+      "scenario_id": "ra-blocks-emergency-vote",
+      "title": "Regional Assembly Blocks Emergency Vote \u2014 Section 15A Enforcement",
+      "source_file": "simulation/scenarios/ra-blocks-emergency-vote.json",
+      "status": "stress_point_found",
+      "triggered_provisions": [
+        "Article I Section 3",
+        "Article II Section 15A",
+        "Article III Section 5",
+        "Article V Section 14"
+      ],
+      "metrics": {
+        "satisfied_obligations": 4,
+        "failed_obligations": 1,
+        "unresolved_obligations": 0,
+        "violations": 1,
+        "bottlenecks": 1,
+        "timeline_entries": 17
+      },
+      "violations": [
+        {
+          "id": "ra_leadership_blocks_scheduling",
+          "category": "legislative_deadline_failure",
+          "actor": "Regional Assembly leadership",
+          "source": "Article II Section 15A.1 and Article III Section 5.4",
+          "severity": "high",
+          "day": 2,
+          "summary": "Regional Assembly leadership refuses to place the emergency declaration on the floor calendar within the required period."
+        }
+      ],
+      "bottlenecks": [
+        {
+          "id": "presiding_officer_15a_motion",
+          "category": "missed_deadline",
+          "actor": "Regional Assembly presiding officer",
+          "source": "Article II Section 15A.1(b)",
+          "severity": "high",
+          "day": 6,
+          "deadline_day": 6,
+          "summary": "Regional Assembly presiding officer failed to bring the mandatory scheduling motion to a floor vote under Article II Section 15A.1(b)."
+        }
+      ],
+      "open_duties": [],
+      "satisfied_duties": [
+        {
+          "actor": "President",
+          "duty": "submit the emergency declaration to the Regional Assembly",
+          "closed_day": 1,
+          "outcome": "submitted the emergency declaration to the Regional Assembly",
+          "source": "Article III Section 5.4"
+        },
+        {
+          "actor": "U.S. District Court for D.C.",
+          "duty": "rule on the mandamus petition and order scheduling of the required vote",
+          "closed_day": 11,
+          "outcome": "issued a writ of mandamus ordering the Regional Assembly to schedule and hold the emergency declaration vote",
+          "source": "Article II Section 15A.1(d)"
+        },
+        {
+          "actor": "Regional Assembly",
+          "duty": "approve or reject the emergency declaration",
+          "closed_day": 15,
+          "outcome": "approved the emergency declaration following court-ordered scheduling",
+          "source": "Article III Section 5.4"
+        },
+        {
+          "actor": "Regional Assembly",
+          "duty": "hold the emergency declaration vote as ordered by the court",
+          "closed_day": 15,
+          "outcome": "held the required emergency declaration vote in compliance with the court order",
+          "source": "Article II Section 15A.1(d) and Article III Section 5.4"
+        }
+      ],
+      "failed_duties": [
+        {
+          "actor": "Regional Assembly presiding officer",
+          "duty": "bring the Section 15A mandatory scheduling motion to a floor vote",
+          "deadline_day": 6,
+          "closed_day": 6,
+          "outcome": "Regional Assembly presiding officer failed to bring the mandatory scheduling motion to a floor vote under Article II Section 15A.1(b).",
+          "source": "Article II Section 15A.1(b)",
+          "severity": "high"
+        }
+      ],
+      "notes": [],
+      "ai_summary": {
+        "primary_violation": "Regional Assembly leadership refuses to place the emergency declaration on the floor calendar within the required period.",
+        "primary_bottleneck": "Regional Assembly presiding officer failed to bring the mandatory scheduling motion to a floor vote under Article II Section 15A.1(b).",
+        "primary_open_duty": null,
+        "system_risk": "legislative_delay",
+        "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+      }
+    },
+    {
+      "scenario_id": "self-pardon-attempt",
+      "title": "Presidential Self-Pardon Attempt",
+      "source_file": "simulation/scenarios/self-pardon-attempt.json",
+      "status": "stress_point_found",
+      "triggered_provisions": [
+        "Article III Section 15.3",
+        "Article III Section 15.5",
+        "Article III Section 7.2"
+      ],
+      "metrics": {
+        "satisfied_obligations": 1,
+        "failed_obligations": 0,
+        "unresolved_obligations": 0,
+        "violations": 1,
+        "bottlenecks": 0,
+        "timeline_entries": 6
+      },
+      "violations": [
+        {
+          "id": "president_self_pardon",
+          "category": "executive_defiance",
+          "actor": "President",
+          "source": "Article III Section 7.2(a) and Section 15.3",
+          "severity": "high",
+          "day": 5,
+          "summary": "President issues a pardon for their own criminal conduct."
+        }
+      ],
+      "bottlenecks": [],
+      "open_duties": [],
+      "satisfied_duties": [
+        {
+          "actor": "Accountability Commission",
+          "duty": "continue pre-trial proceedings while the President remains in office",
+          "closed_day": 10,
+          "outcome": "proceeded with pre-trial proceedings notwithstanding the void self-pardon claim",
+          "source": "Article III Section 15.5"
+        }
+      ],
+      "failed_duties": [],
+      "notes": [],
+      "ai_summary": {
+        "primary_violation": "President issues a pardon for their own criminal conduct.",
+        "primary_bottleneck": null,
+        "primary_open_duty": null,
+        "system_risk": "executive_defiance",
+        "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+      }
+    },
+    {
+      "scenario_id": "single-subject-challenge",
+      "title": "Omnibus Bill \u2014 Pre-Enactment Single-Subject Challenge",
+      "source_file": "simulation/scenarios/single-subject-challenge.json",
+      "status": "stress_point_found",
+      "triggered_provisions": [
+        "Article II Section 10.7",
+        "Article II Section 10.7A"
+      ],
+      "metrics": {
+        "satisfied_obligations": 1,
+        "failed_obligations": 0,
+        "unresolved_obligations": 0,
+        "violations": 1,
+        "bottlenecks": 0,
+        "timeline_entries": 7
+      },
+      "violations": [
+        {
+          "id": "single_subject_violation",
+          "category": "legislative_deadline_failure",
+          "actor": "Congress",
+          "source": "Article II Section 10.7",
+          "severity": "medium",
+          "day": 0,
+          "summary": "Congress passes an omnibus bill bundling unrelated subjects \u2014 defense appropriations, immigration rules, and drug pricing \u2014 in a single bill, in violation of the single-subject rule of Article II Section 10.7."
+        }
+      ],
+      "bottlenecks": [],
+      "open_duties": [],
+      "satisfied_duties": [
+        {
+          "actor": "Supreme Court",
+          "duty": "rule on the single-subject challenge within 15 days",
+          "closed_day": 12,
+          "outcome": "ruled within the 15-day window, found a single-subject violation, and returned the bill to the originating chamber for severance or redrafting",
+          "source": "Article II Section 10.7A"
+        }
+      ],
+      "failed_duties": [],
+      "notes": [],
+      "ai_summary": {
+        "primary_violation": "Congress passes an omnibus bill bundling unrelated subjects \u2014 defense appropriations, immigration rules, and drug pricing \u2014 in a single bill, in violation of the single-subject rule of Article II Section 10.7.",
+        "primary_bottleneck": null,
+        "primary_open_duty": null,
+        "system_risk": "legislative_delay",
+        "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+      }
+    },
+    {
       "scenario_id": "state-democratic-backsliding",
       "title": "State Democratic Backsliding",
       "source_file": "simulation/scenarios/state-democratic-backsliding.json",
@@ -519,7 +1876,7 @@
         "unresolved_obligations": 0,
         "violations": 0,
         "bottlenecks": 1,
-        "timeline_entries": 8
+        "timeline_entries": 9
       },
       "violations": [],
       "bottlenecks": [
@@ -657,6 +2014,62 @@
         "primary_bottleneck": "Congress failed to grant authorization for continued military force or refuse it by day 30 under Article XI Section 1.",
         "primary_open_duty": null,
         "system_risk": "executive_defiance",
+        "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+      }
+    },
+    {
+      "scenario_id": "warrantless-surveillance",
+      "title": "Warrantless Domestic Surveillance of Political Organization",
+      "source_file": "simulation/scenarios/warrantless-surveillance.json",
+      "status": "stress_point_found",
+      "triggered_provisions": [
+        "Article II Section 12A.5",
+        "Article III Section 5.3"
+      ],
+      "metrics": {
+        "satisfied_obligations": 2,
+        "failed_obligations": 0,
+        "unresolved_obligations": 0,
+        "violations": 1,
+        "bottlenecks": 0,
+        "timeline_entries": 6
+      },
+      "violations": [
+        {
+          "id": "warrantless_domestic_surveillance",
+          "category": "rights_suppression",
+          "actor": "Intelligence agency",
+          "source": "Article III Section 5.3(d) and Article II Section 12A.5(a)",
+          "severity": "high",
+          "day": 0,
+          "summary": "Intelligence agency conducts warrantless surveillance targeting a domestic political organization, without judicial warrant and in violation of Article III Section 5.3(d) and the prohibition on using classified appropriations for domestic political surveillance under Article II Section 12A.5(a)."
+        }
+      ],
+      "bottlenecks": [],
+      "open_duties": [],
+      "satisfied_duties": [
+        {
+          "actor": "Federal courts",
+          "duty": "order an immediate halt to the warrantless domestic surveillance operation",
+          "closed_day": 3,
+          "outcome": "ordered an immediate halt to the warrantless domestic surveillance and referred the matter to the Accountability Commission",
+          "source": "Article III Section 5.3(d)"
+        },
+        {
+          "actor": "Intelligence agency",
+          "duty": "cease the warrantless domestic surveillance operation in compliance with the court order",
+          "closed_day": 5,
+          "outcome": "ceased the warrantless domestic surveillance operation in compliance with the court order",
+          "source": "Article III Section 5.3(d)"
+        }
+      ],
+      "failed_duties": [],
+      "notes": [],
+      "ai_summary": {
+        "primary_violation": "Intelligence agency conducts warrantless surveillance targeting a domestic political organization, without judicial warrant and in violation of Article III Section 5.3(d) and the prohibition on using classified appropriations for domestic political surveillance under Article II Section 12A.5(a).",
+        "primary_bottleneck": null,
+        "primary_open_duty": null,
+        "system_risk": "institutional_stress",
         "recommended_focus": "review bottlenecks, violations, and unresolved duties"
       }
     }

@@ -1,0 +1,46 @@
+{
+  "scenario_id": "presidential-succession-gap",
+  "title": "President and Vice President Both Simultaneously Incapacitated",
+  "source_file": "simulation/scenarios/presidential-succession-gap.json",
+  "status": "clean",
+  "triggered_provisions": [
+    "Article III Section 11",
+    "Article III Section 12"
+  ],
+  "metrics": {
+    "satisfied_obligations": 2,
+    "failed_obligations": 0,
+    "unresolved_obligations": 0,
+    "violations": 0,
+    "bottlenecks": 0,
+    "timeline_entries": 6
+  },
+  "violations": [],
+  "bottlenecks": [],
+  "open_duties": [],
+  "satisfied_duties": [
+    {
+      "actor": "Speaker of the House",
+      "duty": "assume the office of Acting President with the limited powers of Article III Section 12.4",
+      "closed_day": 1,
+      "outcome": "assumed the office of Acting President; Article III Section 12.4 limitations apply \u2014 no pardon power, no treaty withdrawal, no emergency declaration, no removal of confirmed officials without cause, no recess appointments without majority approval of both chambers",
+      "source": "Article III Section 12.2"
+    },
+    {
+      "actor": "Vice President",
+      "duty": "assume the powers and duties of the President as Acting President",
+      "closed_day": 0,
+      "outcome": "VP is also incapacitated and cannot assume duties; succession advances to Speaker of the House under Article III Section 12.2",
+      "source": "Article III Section 11.2 and Section 12.1"
+    }
+  ],
+  "failed_duties": [],
+  "notes": [],
+  "ai_summary": {
+    "primary_violation": null,
+    "primary_bottleneck": null,
+    "primary_open_duty": null,
+    "system_risk": "none",
+    "recommended_focus": "no immediate constitutional flow issue detected in this scenario"
+  }
+}

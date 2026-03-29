@@ -1,0 +1,17 @@
+{
+  "id": "executive-order-overreach",
+  "title": "Executive Order Creates Unauthorized Private-Citizen Obligations",
+  "description": "The President issues an executive order imposing new regulatory obligations on private businesses without any statutory authorization, in violation of Article III Section 6.2(a), which bars executive orders from creating legal obligations on private citizens or entities that have not been authorized by statute. The House passes a resolution of disapproval under Article III Section 6.4 within the 60-day window. The order is void and may not be reissued in substantially the same form without statutory authorization.",
+  "events": [
+    {
+      "day": 0,
+      "type": "president_issues_overreaching_executive_order",
+      "actor": "President"
+    },
+    {
+      "day": 15,
+      "type": "congress_disapproves_executive_order",
+      "actor": "Congress"
+    }
+  ]
+}

@@ -24,6 +24,8 @@ The Accountability Commission opens an investigation into the President and two 
 - The Accountability Commission retains jurisdiction.
 - Office does not create immunity from the rule.
 - Interference creates independent grounds for prosecution and impeachment.
+- A certified obstruction violation triggers an expedited impeachment vote timetable.
+- If the House fails to hold the required vote, the certified charge is automatically transmitted to the Regional Assembly for trial.
 - The text should distinguish lawful defense from obstruction of evidence or process.
 
 ## Stress Focus
@@ -36,7 +38,7 @@ The Accountability Commission opens an investigation into the President and two 
 Pass if:
 
 - The anti-interference rule is explicit and self-contained.
-- The constitutional consequence is easy to identify.
+- The constitutional consequence and fallback after House nonaction are easy to identify.
 
 Fail if:
 

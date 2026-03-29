@@ -1,7 +1,7 @@
 {
   "id": "state-democratic-backsliding",
   "title": "State Democratic Backsliding",
-  "description": "A state persists in dismantling free and fair elections and independent institutions. The scenario tests the democratic-floor finding, the shorter congressional remedy period, the mandatory suspension vote, and the one-year automatic suspension backstop.",
+  "description": "A state persists in dismantling free and fair elections and independent institutions. The scenario tests the democratic-floor finding, the missed congressional remedy deadline, the automatic interim federal election administration fallback, the mandatory suspension vote, and the one-year automatic suspension backstop.",
   "events": [
     {
       "day": 0,

@@ -1,0 +1,56 @@
+{
+  "scenario_id": "warrantless-surveillance",
+  "title": "Warrantless Domestic Surveillance of Political Organization",
+  "source_file": "simulation/scenarios/warrantless-surveillance.json",
+  "status": "stress_point_found",
+  "triggered_provisions": [
+    "Article II Section 12A.5",
+    "Article III Section 5.3"
+  ],
+  "metrics": {
+    "satisfied_obligations": 2,
+    "failed_obligations": 0,
+    "unresolved_obligations": 0,
+    "violations": 1,
+    "bottlenecks": 0,
+    "timeline_entries": 6
+  },
+  "violations": [
+    {
+      "id": "warrantless_domestic_surveillance",
+      "category": "rights_suppression",
+      "actor": "Intelligence agency",
+      "source": "Article III Section 5.3(d) and Article II Section 12A.5(a)",
+      "severity": "high",
+      "day": 0,
+      "summary": "Intelligence agency conducts warrantless surveillance targeting a domestic political organization, without judicial warrant and in violation of Article III Section 5.3(d) and the prohibition on using classified appropriations for domestic political surveillance under Article II Section 12A.5(a)."
+    }
+  ],
+  "bottlenecks": [],
+  "open_duties": [],
+  "satisfied_duties": [
+    {
+      "actor": "Federal courts",
+      "duty": "order an immediate halt to the warrantless domestic surveillance operation",
+      "closed_day": 3,
+      "outcome": "ordered an immediate halt to the warrantless domestic surveillance and referred the matter to the Accountability Commission",
+      "source": "Article III Section 5.3(d)"
+    },
+    {
+      "actor": "Intelligence agency",
+      "duty": "cease the warrantless domestic surveillance operation in compliance with the court order",
+      "closed_day": 5,
+      "outcome": "ceased the warrantless domestic surveillance operation in compliance with the court order",
+      "source": "Article III Section 5.3(d)"
+    }
+  ],
+  "failed_duties": [],
+  "notes": [],
+  "ai_summary": {
+    "primary_violation": "Intelligence agency conducts warrantless surveillance targeting a domestic political organization, without judicial warrant and in violation of Article III Section 5.3(d) and the prohibition on using classified appropriations for domestic political surveillance under Article II Section 12A.5(a).",
+    "primary_bottleneck": null,
+    "primary_open_duty": null,
+    "system_risk": "institutional_stress",
+    "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "scenario_id": "emergency-rights-suppression",
+  "title": "Emergency Declaration Used to Suppress Protected Speech",
+  "source_file": "simulation/scenarios/emergency-rights-suppression.json",
+  "status": "stress_point_found",
+  "triggered_provisions": [
+    "Article I Section 3",
+    "Article III Section 5",
+    "Article III Section 5.3",
+    "Article V",
+    "Article V Section 14"
+  ],
+  "metrics": {
+    "satisfied_obligations": 3,
+    "failed_obligations": 0,
+    "unresolved_obligations": 0,
+    "violations": 1,
+    "bottlenecks": 0,
+    "timeline_entries": 9
+  },
+  "violations": [
+    {
+      "id": "emergency_rights_suppression",
+      "category": "rights_suppression",
+      "actor": "Executive branch",
+      "source": "Article III Section 5.3(f)",
+      "severity": "high",
+      "day": 2,
+      "summary": "Executive branch uses an emergency declaration to restrict protected expression, in violation of the absolute bar on overriding Article V rights through emergency powers."
+    }
+  ],
+  "bottlenecks": [],
+  "open_duties": [],
+  "satisfied_duties": [
+    {
+      "actor": "President",
+      "duty": "submit the emergency declaration to the Regional Assembly",
+      "closed_day": 1,
+      "outcome": "submitted the emergency declaration to the Regional Assembly",
+      "source": "Article III Section 5.4"
+    },
+    {
+      "actor": "Federal courts",
+      "duty": "void the emergency-based speech restriction",
+      "closed_day": 5,
+      "outcome": "voided the emergency-based restriction on protected expression; Article V rights may not be overridden by emergency declaration",
+      "source": "Article III Section 5.3(f) and Article V"
+    },
+    {
+      "actor": "Regional Assembly",
+      "duty": "approve or reject the emergency declaration",
+      "closed_day": 10,
+      "outcome": "approved the emergency declaration following court-ordered scheduling",
+      "source": "Article III Section 5.4"
+    }
+  ],
+  "failed_duties": [],
+  "notes": [],
+  "ai_summary": {
+    "primary_violation": "Executive branch uses an emergency declaration to restrict protected expression, in violation of the absolute bar on overriding Article V rights through emergency powers.",
+    "primary_bottleneck": null,
+    "primary_open_duty": null,
+    "system_risk": "institutional_stress",
+    "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "scenario_id": "presidential-recall-interference",
+  "title": "Presidential Recall \u2014 Emergency Declared to Delay Referendum",
+  "source_file": "simulation/scenarios/presidential-recall-interference.json",
+  "status": "stress_point_found",
+  "triggered_provisions": [
+    "Article III Section 14",
+    "Article III Section 14.11",
+    "Article III Section 5"
+  ],
+  "metrics": {
+    "satisfied_obligations": 2,
+    "failed_obligations": 0,
+    "unresolved_obligations": 0,
+    "violations": 1,
+    "bottlenecks": 0,
+    "timeline_entries": 8
+  },
+  "violations": [
+    {
+      "id": "recall_delay_emergency",
+      "category": "executive_defiance",
+      "actor": "President",
+      "source": "Article III Section 14.11(a)",
+      "severity": "high",
+      "day": 10,
+      "summary": "President declares a national emergency for the purpose of delaying a certified recall referendum."
+    }
+  ],
+  "bottlenecks": [],
+  "open_duties": [],
+  "satisfied_duties": [
+    {
+      "actor": "Federal courts",
+      "duty": "review the emergency declaration's effect on the recall referendum schedule",
+      "closed_day": 15,
+      "outcome": "voided the emergency declaration insofar as it was used to delay the certified recall referendum",
+      "source": "Article III Section 14.11(a)"
+    },
+    {
+      "actor": "Electoral Commission",
+      "duty": "schedule and administer the recall referendum within 90 days of certification",
+      "closed_day": 85,
+      "outcome": "administered the recall referendum within the required 90-day window",
+      "source": "Article III Section 14.5"
+    }
+  ],
+  "failed_duties": [],
+  "notes": [],
+  "ai_summary": {
+    "primary_violation": "President declares a national emergency for the purpose of delaying a certified recall referendum.",
+    "primary_bottleneck": null,
+    "primary_open_duty": null,
+    "system_risk": "executive_defiance",
+    "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+  }
+}

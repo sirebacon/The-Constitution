@@ -1,0 +1,27 @@
+{
+  "id": "electoral-certification-obstruction",
+  "title": "Outgoing President Obstructs Electoral Certification and Transition",
+  "description": "The Electoral Commission certifies the election result and the President-elect. The outgoing President refuses to cooperate with the constitutionally required transition, denying security briefings and agency access, in violation of Article III Section 13 and the anti-subversion provisions of Article VI Section 1. The Accountability Commission opens an investigation. The transition proceeds under the constitutional mandate regardless of the outgoing President's obstruction.",
+  "events": [
+    {
+      "day": 0,
+      "type": "electoral_commission_certifies_election",
+      "actor": "Electoral Commission"
+    },
+    {
+      "day": 5,
+      "type": "president_refuses_transition_cooperation",
+      "actor": "President"
+    },
+    {
+      "day": 8,
+      "type": "acc_opens_electoral_subversion_investigation",
+      "actor": "Accountability Commission"
+    },
+    {
+      "day": 20,
+      "type": "transition_proceeds_under_constitutional_mandate",
+      "actor": "President-elect"
+    }
+  ]
+}

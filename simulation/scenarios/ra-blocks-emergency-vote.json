@@ -1,0 +1,48 @@
+{
+  "id": "ra-blocks-emergency-vote",
+  "title": "Regional Assembly Blocks Emergency Vote — Section 15A Enforcement",
+  "description": "The President declares a national emergency and submits it to the Regional Assembly on time. Regional Assembly leadership refuses to place the declaration on the floor calendar. A member files a mandatory scheduling motion under Article II Section 15A; the presiding officer fails to act on it. An affected party petitions the U.S. District Court for the District of Columbia for a writ of mandamus. The court orders scheduling within its 5-day window. The Regional Assembly holds the approval vote at day 15, within the 30-day constitutional deadline. This scenario tests whether the Section 15A enforcement chain closes the Regional Assembly emergency review bottleneck that the existing emergency scenarios expose.",
+  "events": [
+    {
+      "day": 0,
+      "type": "national_emergency_declared",
+      "actor": "President",
+      "details": {}
+    },
+    {
+      "day": 1,
+      "type": "emergency_submitted_to_regional_assembly",
+      "actor": "President"
+    },
+    {
+      "day": 2,
+      "type": "regional_assembly_leadership_blocks_scheduling",
+      "actor": "Regional Assembly leadership"
+    },
+    {
+      "day": 3,
+      "type": "section_15a_scheduling_motion_filed",
+      "actor": "Regional Assembly member"
+    },
+    {
+      "day": 6,
+      "type": "presiding_officer_fails_15a_motion",
+      "actor": "Regional Assembly presiding officer"
+    },
+    {
+      "day": 7,
+      "type": "mandamus_filed_dc_district_court",
+      "actor": "Affected party"
+    },
+    {
+      "day": 11,
+      "type": "court_orders_emergency_scheduling",
+      "actor": "U.S. District Court for D.C."
+    },
+    {
+      "day": 15,
+      "type": "regional_assembly_approves_emergency",
+      "actor": "Regional Assembly"
+    }
+  ]
+}

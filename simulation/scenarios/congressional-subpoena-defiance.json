@@ -1,0 +1,30 @@
+{
+  "id": "congressional-subpoena-defiance",
+  "title": "Executive Officer Defies Congressional Subpoena",
+  "description": "A congressional committee issues a subpoena to a senior executive official under Article II Section 16.2. The official refuses to comply. The scenario tests the contempt referral chain: the committee refers the matter to the Accountability Commission, which prosecutes within the required 90-day window. The Department of Justice is not involved.",
+  "events": [
+    {
+      "day": 0,
+      "type": "congressional_subpoena_issued",
+      "actor": "House Judiciary Committee",
+      "details": {
+        "target": "Secretary of Defense"
+      }
+    },
+    {
+      "day": 35,
+      "type": "executive_officer_defies_subpoena",
+      "actor": "Secretary of Defense"
+    },
+    {
+      "day": 40,
+      "type": "contempt_referred_to_acc",
+      "actor": "House Judiciary Committee"
+    },
+    {
+      "day": 110,
+      "type": "acc_initiates_contempt_prosecution",
+      "actor": "Accountability Commission"
+    }
+  ]
+}

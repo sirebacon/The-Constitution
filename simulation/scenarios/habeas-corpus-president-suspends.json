@@ -1,0 +1,33 @@
+{
+  "id": "habeas-corpus-president-suspends",
+  "title": "President Suspends Habeas Corpus by Executive Order",
+  "description": "Under cover of a declared national emergency, the President issues an executive order suspending the privilege of the writ of habeas corpus. Article III Section 5.7 reserves this power exclusively to Congress, not the President. The scenario tests whether courts immediately void the suspension and whether the constitutional line between emergency powers and core individual rights is maintained.",
+  "events": [
+    {
+      "day": 0,
+      "type": "national_emergency_declared",
+      "actor": "President",
+      "details": {}
+    },
+    {
+      "day": 1,
+      "type": "emergency_submitted_to_regional_assembly",
+      "actor": "President"
+    },
+    {
+      "day": 2,
+      "type": "president_suspends_habeas_corpus_by_executive_order",
+      "actor": "President"
+    },
+    {
+      "day": 4,
+      "type": "court_voids_habeas_suspension",
+      "actor": "Federal courts"
+    },
+    {
+      "day": 10,
+      "type": "regional_assembly_approves_emergency",
+      "actor": "Regional Assembly"
+    }
+  ]
+}

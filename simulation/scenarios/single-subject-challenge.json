@@ -1,0 +1,22 @@
+{
+  "id": "single-subject-challenge",
+  "title": "Omnibus Bill — Pre-Enactment Single-Subject Challenge",
+  "description": "Congress passes a large omnibus bill containing provisions on unrelated subjects — defense appropriations, immigration rules, and drug pricing — bundled into a single bill in violation of Article II Section 10.7. Before the President can act on it, a member invokes the pre-enactment challenge mechanism of Article II Section 10.7A. The Supreme Court rules within the required 15-day window, finds a single-subject violation, and returns the bill to the originating chamber for severance or redrafting. The 15-day presidential action clock is tolled pending the ruling.",
+  "events": [
+    {
+      "day": 0,
+      "type": "omnibus_bill_passes_both_chambers",
+      "actor": "Congress"
+    },
+    {
+      "day": 3,
+      "type": "single_subject_challenge_filed",
+      "actor": "Member of Congress"
+    },
+    {
+      "day": 12,
+      "type": "supreme_court_voids_omnibus_bill",
+      "actor": "Supreme Court"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "presidential-succession-gap",
+  "title": "President and Vice President Both Simultaneously Incapacitated",
+  "description": "The President and Vice President become simultaneously unable to serve. The succession chain advances to the Speaker of the House under Article III Section 12.2. The Speaker assumes the office of Acting President with the limited powers specified in Article III Section 12.4, which prohibits an unelected successor from exercising the pardon power, withdrawing from ratified treaties, declaring a national emergency, removing Senate-confirmed officials without cause, or making recess appointments without approval of a majority of both chambers. This scenario is expected to resolve cleanly — it tests that the succession chain functions and that its limits automatically apply.",
+  "events": [
+    {
+      "day": 0,
+      "type": "president_incapacitated",
+      "actor": "President"
+    },
+    {
+      "day": 0,
+      "type": "vp_also_incapacitated",
+      "actor": "Vice President"
+    },
+    {
+      "day": 1,
+      "type": "speaker_assumes_acting_presidency",
+      "actor": "Speaker of the House"
+    }
+  ]
+}

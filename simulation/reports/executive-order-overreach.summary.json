@@ -1,0 +1,49 @@
+{
+  "scenario_id": "executive-order-overreach",
+  "title": "Executive Order Creates Unauthorized Private-Citizen Obligations",
+  "source_file": "simulation/scenarios/executive-order-overreach.json",
+  "status": "stress_point_found",
+  "triggered_provisions": [
+    "Article III Section 6.2",
+    "Article III Section 6.4"
+  ],
+  "metrics": {
+    "satisfied_obligations": 1,
+    "failed_obligations": 0,
+    "unresolved_obligations": 0,
+    "violations": 1,
+    "bottlenecks": 0,
+    "timeline_entries": 5
+  },
+  "violations": [
+    {
+      "id": "executive_order_overreach",
+      "category": "executive_defiance",
+      "actor": "President",
+      "source": "Article III Section 6.2(a)",
+      "severity": "high",
+      "day": 0,
+      "summary": "President issues an executive order imposing new regulatory obligations on private businesses without any statutory authorization, in violation of Article III Section 6.2(a)."
+    }
+  ],
+  "bottlenecks": [],
+  "open_duties": [],
+  "satisfied_duties": [
+    {
+      "actor": "Congress",
+      "duty": "pass a resolution of disapproval within 60 days to formally void the overreaching executive order",
+      "closed_day": 15,
+      "outcome": "passed a resolution of disapproval; the executive order is void and may not be reissued in substantially the same form without statutory authorization",
+      "source": "Article III Section 6.4"
+    }
+  ],
+  "failed_duties": [],
+  "notes": [],
+  "ai_summary": {
+    "primary_violation": "President issues an executive order imposing new regulatory obligations on private businesses without any statutory authorization, in violation of Article III Section 6.2(a).",
+    "primary_bottleneck": null,
+    "primary_open_duty": null,
+    "system_risk": "executive_defiance",
+    "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+  }
+}

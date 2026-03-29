@@ -1,0 +1,56 @@
+{
+  "scenario_id": "perjury-before-congress",
+  "title": "Senior Official Commits Perjury Before Congress",
+  "source_file": "simulation/scenarios/perjury-before-congress.json",
+  "status": "stress_point_found",
+  "triggered_provisions": [
+    "Article II Section 16.4",
+    "Article II Section 16.4(b)"
+  ],
+  "metrics": {
+    "satisfied_obligations": 2,
+    "failed_obligations": 0,
+    "unresolved_obligations": 0,
+    "violations": 1,
+    "bottlenecks": 0,
+    "timeline_entries": 7
+  },
+  "violations": [
+    {
+      "id": "perjury_before_congress",
+      "category": "executive_defiance",
+      "actor": "Secretary of State",
+      "source": "Article II Section 16.4",
+      "severity": "high",
+      "day": 0,
+      "summary": "Secretary of State gives testimony before a congressional committee containing knowing false statements of material fact, constituting perjury before Congress under Article II Section 16.4."
+    }
+  ],
+  "bottlenecks": [],
+  "open_duties": [],
+  "satisfied_duties": [
+    {
+      "actor": "Senate Foreign Relations Committee",
+      "duty": "refer the perjury matter to the Accountability Commission",
+      "closed_day": 5,
+      "outcome": "referred the congressional perjury matter to the Accountability Commission for exclusive prosecution",
+      "source": "Article II Section 16.4"
+    },
+    {
+      "actor": "Accountability Commission",
+      "duty": "indict on the congressional perjury charge within the required indictment window",
+      "closed_day": 60,
+      "outcome": "indicted the official for congressional perjury within the required window; upon conviction the official faces automatic removal, permanent disqualification, and no possibility of pardon",
+      "source": "Article II Section 16.4"
+    }
+  ],
+  "failed_duties": [],
+  "notes": [],
+  "ai_summary": {
+    "primary_violation": "Secretary of State gives testimony before a congressional committee containing knowing false statements of material fact, constituting perjury before Congress under Article II Section 16.4.",
+    "primary_bottleneck": null,
+    "primary_open_duty": null,
+    "system_risk": "executive_defiance",
+    "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+  }
+}

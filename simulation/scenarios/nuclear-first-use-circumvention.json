@@ -1,0 +1,32 @@
+{
+  "id": "nuclear-first-use-circumvention",
+  "title": "Nuclear First-Use Order — Secretary Refusal and Circumvention Attempt",
+  "description": "The President orders first use of nuclear weapons without a prior nuclear attack on the United States. The Secretary of Defense and Secretary of State both refuse to confirm the order, blocking the launch under Article XI Section 3.1. The President fires the Secretary of Defense to install a compliant replacement. The acting Secretary also refuses. The scenario tests the multi-party authorization requirement and confirms that removal of a refusing Secretary does not clear the constitutional block.",
+  "events": [
+    {
+      "day": 0,
+      "type": "president_orders_nuclear_first_use",
+      "actor": "President"
+    },
+    {
+      "day": 0,
+      "type": "secretary_of_defense_refuses_nuclear_order",
+      "actor": "Secretary of Defense"
+    },
+    {
+      "day": 0,
+      "type": "secretary_of_state_refuses_nuclear_order",
+      "actor": "Secretary of State"
+    },
+    {
+      "day": 1,
+      "type": "president_fires_secretary_to_compel_nuclear_compliance",
+      "actor": "President"
+    },
+    {
+      "day": 2,
+      "type": "acting_secretary_also_refuses_nuclear_order",
+      "actor": "Acting Secretary of Defense"
+    }
+  ]
+}

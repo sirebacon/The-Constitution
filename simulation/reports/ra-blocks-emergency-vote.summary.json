@@ -1,0 +1,93 @@
+{
+  "scenario_id": "ra-blocks-emergency-vote",
+  "title": "Regional Assembly Blocks Emergency Vote \u2014 Section 15A Enforcement",
+  "source_file": "simulation/scenarios/ra-blocks-emergency-vote.json",
+  "status": "stress_point_found",
+  "triggered_provisions": [
+    "Article I Section 3",
+    "Article II Section 15A",
+    "Article III Section 5",
+    "Article V Section 14"
+  ],
+  "metrics": {
+    "satisfied_obligations": 4,
+    "failed_obligations": 1,
+    "unresolved_obligations": 0,
+    "violations": 1,
+    "bottlenecks": 1,
+    "timeline_entries": 17
+  },
+  "violations": [
+    {
+      "id": "ra_leadership_blocks_scheduling",
+      "category": "legislative_deadline_failure",
+      "actor": "Regional Assembly leadership",
+      "source": "Article II Section 15A.1 and Article III Section 5.4",
+      "severity": "high",
+      "day": 2,
+      "summary": "Regional Assembly leadership refuses to place the emergency declaration on the floor calendar within the required period."
+    }
+  ],
+  "bottlenecks": [
+    {
+      "id": "presiding_officer_15a_motion",
+      "category": "missed_deadline",
+      "actor": "Regional Assembly presiding officer",
+      "source": "Article II Section 15A.1(b)",
+      "severity": "high",
+      "day": 6,
+      "deadline_day": 6,
+      "summary": "Regional Assembly presiding officer failed to bring the mandatory scheduling motion to a floor vote under Article II Section 15A.1(b)."
+    }
+  ],
+  "open_duties": [],
+  "satisfied_duties": [
+    {
+      "actor": "President",
+      "duty": "submit the emergency declaration to the Regional Assembly",
+      "closed_day": 1,
+      "outcome": "submitted the emergency declaration to the Regional Assembly",
+      "source": "Article III Section 5.4"
+    },
+    {
+      "actor": "U.S. District Court for D.C.",
+      "duty": "rule on the mandamus petition and order scheduling of the required vote",
+      "closed_day": 11,
+      "outcome": "issued a writ of mandamus ordering the Regional Assembly to schedule and hold the emergency declaration vote",
+      "source": "Article II Section 15A.1(d)"
+    },
+    {
+      "actor": "Regional Assembly",
+      "duty": "approve or reject the emergency declaration",
+      "closed_day": 15,
+      "outcome": "approved the emergency declaration following court-ordered scheduling",
+      "source": "Article III Section 5.4"
+    },
+    {
+      "actor": "Regional Assembly",
+      "duty": "hold the emergency declaration vote as ordered by the court",
+      "closed_day": 15,
+      "outcome": "held the required emergency declaration vote in compliance with the court order",
+      "source": "Article II Section 15A.1(d) and Article III Section 5.4"
+    }
+  ],
+  "failed_duties": [
+    {
+      "actor": "Regional Assembly presiding officer",
+      "duty": "bring the Section 15A mandatory scheduling motion to a floor vote",
+      "deadline_day": 6,
+      "closed_day": 6,
+      "outcome": "Regional Assembly presiding officer failed to bring the mandatory scheduling motion to a floor vote under Article II Section 15A.1(b).",
+      "source": "Article II Section 15A.1(b)",
+      "severity": "high"
+    }
+  ],
+  "notes": [],
+  "ai_summary": {
+    "primary_violation": "Regional Assembly leadership refuses to place the emergency declaration on the floor calendar within the required period.",
+    "primary_bottleneck": "Regional Assembly presiding officer failed to bring the mandatory scheduling motion to a floor vote under Article II Section 15A.1(b).",
+    "primary_open_duty": null,
+    "system_risk": "legislative_delay",
+    "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+  }
+}

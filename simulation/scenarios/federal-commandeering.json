@@ -1,0 +1,22 @@
+{
+  "id": "federal-commandeering",
+  "title": "Federal Commandeering of State Officials",
+  "description": "Congress enacts a statute requiring state executive officials to implement and enforce a federal regulatory program, in violation of Article VII Section 1.2, which prohibits commandeering state legislatures, executives, or courts. A state refuses to comply and challenges the statute. Courts void the commandeering provision. The scenario tests whether the anti-commandeering protection is judicially enforceable and whether states retain meaningful autonomy when Congress overreaches.",
+  "events": [
+    {
+      "day": 0,
+      "type": "congress_enacts_commandeering_statute",
+      "actor": "Congress"
+    },
+    {
+      "day": 5,
+      "type": "state_refuses_commandeering",
+      "actor": "State government"
+    },
+    {
+      "day": 20,
+      "type": "court_voids_commandeering_statute",
+      "actor": "Federal courts"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "budget-deadlock-cr",
+  "title": "Budget Deadlock — Automatic Continuing Resolution",
+  "description": "Congress fails to pass appropriations legislation by October 1. The automatic continuing resolution takes effect at 98% of prior-year enacted levels under Article II Section 12.2. The executive branch then attempts to manipulate funding ratios under the CR — withholding funds from disfavored programs and redirecting them to preferred ones. The scenario tests whether courts can block this manipulation on an expedited basis.",
+  "events": [
+    {
+      "day": 0,
+      "type": "budget_deadline_missed",
+      "actor": "Congress"
+    },
+    {
+      "day": 5,
+      "type": "executive_attempts_selective_cr_funding",
+      "actor": "Executive branch"
+    },
+    {
+      "day": 10,
+      "type": "court_blocks_cr_manipulation",
+      "actor": "Federal courts"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "presidential-recall-interference",
+  "title": "Presidential Recall — Emergency Declared to Delay Referendum",
+  "description": "The Electoral Commission certifies a valid recall petition under Article III Section 14.3. The President responds by declaring a national emergency for the purpose of delaying the certified recall referendum, in direct violation of Article III Section 14.11(a). A court voids the emergency declaration. The Electoral Commission holds the referendum within the required 90-day window. The recall fails to meet the 60% participation threshold under Section 14.7, and the President is retained.",
+  "events": [
+    {
+      "day": 0,
+      "type": "recall_petition_certified",
+      "actor": "Electoral Commission"
+    },
+    {
+      "day": 10,
+      "type": "president_declares_emergency_to_delay_recall",
+      "actor": "President"
+    },
+    {
+      "day": 15,
+      "type": "court_voids_recall_delay_emergency",
+      "actor": "Federal courts"
+    },
+    {
+      "day": 85,
+      "type": "recall_referendum_held",
+      "actor": "Electoral Commission"
+    },
+    {
+      "day": 85,
+      "type": "recall_fails_participation_threshold",
+      "actor": "Electoral Commission"
+    }
+  ]
+}

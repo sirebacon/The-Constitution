@@ -1,0 +1,27 @@
+{
+  "id": "pmc-substitution",
+  "title": "PMC Deployment as Unauthorized-Force Substitute",
+  "description": "Congress explicitly denies an Authorization for Use of Military Force. The President then deploys private military contractors in a combat role to conduct the same operation, in direct violation of Article XI Section 4.4, which prohibits using PMCs to avoid authorization requirements or to conceal the scale of US military engagement. The violation triggers the expedited impeachment timetable of Article III Section 10.2A. The House misses the mandatory vote deadline. The certified articles are automatically transmitted to the Regional Assembly, which begins trial.",
+  "events": [
+    {
+      "day": 0,
+      "type": "congress_denies_force_authorization",
+      "actor": "Congress"
+    },
+    {
+      "day": 5,
+      "type": "president_deploys_pmcs_as_aumf_substitute",
+      "actor": "President"
+    },
+    {
+      "day": 28,
+      "type": "house_misses_pmc_impeachment_vote",
+      "actor": "House of Representatives"
+    },
+    {
+      "day": 28,
+      "type": "regional_assembly_begins_pmc_trial",
+      "actor": "Regional Assembly"
+    }
+  ]
+}

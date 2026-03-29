@@ -1,0 +1,70 @@
+{
+  "scenario_id": "pmc-substitution",
+  "title": "PMC Deployment as Unauthorized-Force Substitute",
+  "source_file": "simulation/scenarios/pmc-substitution.json",
+  "status": "stress_point_found",
+  "triggered_provisions": [
+    "Article XI Section 1",
+    "Article XI Section 4.4"
+  ],
+  "metrics": {
+    "satisfied_obligations": 1,
+    "failed_obligations": 1,
+    "unresolved_obligations": 0,
+    "violations": 1,
+    "bottlenecks": 1,
+    "timeline_entries": 9
+  },
+  "violations": [
+    {
+      "id": "pmc_substitution_for_aumf",
+      "category": "executive_defiance",
+      "actor": "President",
+      "source": "Article XI Section 4.4",
+      "severity": "high",
+      "day": 5,
+      "summary": "President deploys private military contractors in a combat role to conduct the operation Congress denied, in direct violation of Article XI Section 4.4, which prohibits using PMCs to avoid authorization requirements or to conceal the scale of US military engagement."
+    }
+  ],
+  "bottlenecks": [
+    {
+      "id": "house_vote_impeachment_pmc",
+      "category": "legislative_deadline_failure",
+      "actor": "House of Representatives",
+      "source": "Article III Section 10.2A and Article XI Section 4.4",
+      "severity": "high",
+      "day": 28,
+      "deadline_day": 26,
+      "summary": "House of Representatives failed to hold a recorded impeachment vote on the unlawful PMC deployment used to circumvent the denied AUMF by day 26 under Article III Section 10.2A and Article XI Section 4.4."
+    }
+  ],
+  "open_duties": [],
+  "satisfied_duties": [
+    {
+      "actor": "Regional Assembly",
+      "duty": "proceed to impeachment trial on the automatically transmitted PMC-substitution articles",
+      "closed_day": 28,
+      "outcome": "began impeachment trial on the automatically transmitted PMC substitution articles",
+      "source": "Article III Section 10.2A and Section 10.3"
+    }
+  ],
+  "failed_duties": [
+    {
+      "actor": "House of Representatives",
+      "duty": "hold a recorded impeachment vote on the unlawful PMC deployment used to circumvent the denied AUMF",
+      "deadline_day": 26,
+      "closed_day": 28,
+      "outcome": "House of Representatives failed to hold a recorded impeachment vote on the unlawful PMC deployment used to circumvent the denied AUMF by day 26 under Article III Section 10.2A and Article XI Section 4.4.",
+      "source": "Article III Section 10.2A and Article XI Section 4.4",
+      "severity": "high"
+    }
+  ],
+  "notes": [],
+  "ai_summary": {
+    "primary_violation": "President deploys private military contractors in a combat role to conduct the operation Congress denied, in direct violation of Article XI Section 4.4, which prohibits using PMCs to avoid authorization requirements or to conceal the scale of US military engagement.",
+    "primary_bottleneck": "House of Representatives failed to hold a recorded impeachment vote on the unlawful PMC deployment used to circumvent the denied AUMF by day 26 under Article III Section 10.2A and Article XI Section 4.4.",
+    "primary_open_duty": null,
+    "system_risk": "executive_defiance",
+    "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+  }
+}

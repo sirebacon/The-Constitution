@@ -1,0 +1,22 @@
+{
+  "id": "perjury-before-congress",
+  "title": "Senior Official Commits Perjury Before Congress",
+  "description": "The Secretary of State gives testimony before the Senate Foreign Relations Committee containing knowing false statements of material fact about a foreign policy decision. Under Article II Section 16.4, perjury before Congress is prosecuted exclusively by the Accountability Commission — the Department of Justice has no jurisdiction. The committee refers the matter to the Accountability Commission. The ACC indicts within the required window. Upon conviction, the official faces automatic removal from office, permanent disqualification from federal office, and no possibility of pardon under Section 16.4(b).",
+  "events": [
+    {
+      "day": 0,
+      "type": "official_commits_perjury_before_congress",
+      "actor": "Secretary of State"
+    },
+    {
+      "day": 5,
+      "type": "committee_refers_perjury_to_acc",
+      "actor": "Senate Foreign Relations Committee"
+    },
+    {
+      "day": 60,
+      "type": "acc_indicts_for_congressional_perjury",
+      "actor": "Accountability Commission"
+    }
+  ]
+}

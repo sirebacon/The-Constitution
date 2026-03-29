@@ -280,6 +280,24 @@ The following actions require supermajority votes as specified:
 
 ---
 
+## Section 15A — Mandatory Scheduling for Constitutionally Required Votes
+
+**15A.1** Where any provision of this Constitution requires a chamber of Congress to hold a recorded vote by a specific deadline, the following rules apply. Congress may by statute specify more detailed procedures consistent with this Section, but may not enact rules that make scheduling harder than the floor established here.
+
+  (a) The presiding officer or majority leader of the relevant chamber shall place the required vote on the floor calendar in sufficient time for the vote to be held before the constitutional deadline. Congress shall by law establish the minimum advance notice required; absent such a law, the default is 5 days before the deadline.
+
+  (b) If the required scheduling does not occur in time for the deadline to be met, any member of the chamber may file a mandatory scheduling motion requiring no committee referral, no rule waiver, and no leadership approval. The presiding officer shall bring that motion to a floor vote promptly; Congress shall by law establish the maximum time for this step, which may not exceed 48 hours.
+
+  (c) A presiding officer or majority leader who prevents a constitutionally required vote from being scheduled without lawful justification is subject to removal from their leadership position by majority vote of the chamber and shall be referred to the Accountability Commission for investigation of obstruction of a constitutional process.
+
+  (d) Any person with a direct legal interest in the outcome of a constitutionally required vote that has not been scheduled by the applicable deadline may seek a writ of mandamus in the United States District Court for the District of Columbia compelling the scheduling. Jurisdiction is exclusive to that court to prevent conflicting orders from multiple tribunals. The court shall rule within 5 days. Enforcement of the writ shall proceed through the court's ordinary contempt and enforcement powers.
+
+**15A.2** This Section applies to all constitutionally required votes including but not limited to: emergency declaration approval under Article III Section 5.4; state representation suspension votes under Article VII Section 1.6(c); war powers authorization under Article XI Section 1.5(b); and impeachment votes under Article III Section 10.2A. It does not apply to ordinary legislation, appropriations, or other discretionary legislative business.
+
+**15A.3** This Section does not predetermine the outcome of any required vote. It requires only that the vote be held.
+
+---
+
 ## Section 16 — Congressional Oversight
 
 ### 16.1 — The Oversight Power

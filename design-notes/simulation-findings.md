@@ -301,3 +301,90 @@ This is a better failure mode than the earlier one because it is narrower and ea
    War-powers closure is materially improved and may now be good enough for a holding position pending more scenarios.
 4. [articles/VII-federalism.md](/Users/chris/Documents/GitHub/The-Constitution/articles/VII-federalism.md)
    The Article VII revision is working better; remaining work is now more about remedy speed than structural collapse.
+
+## 2026-03-28 Judicial Continuity Review
+
+### Inputs Reviewed
+
+- [aggregate.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/aggregate.json)
+- [emergency-extension-without-real-review.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/emergency-extension-without-real-review.summary.json)
+- [emergency-near-election.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/emergency-near-election.summary.json)
+- [president-obstructs-investigation.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/president-obstructs-investigation.summary.json)
+- [state-democratic-backsliding.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/state-democratic-backsliding.summary.json)
+- [unauthorized-military-action.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/unauthorized-military-action.summary.json)
+
+### Aggregate Read
+
+- Aggregate totals did not materially change.
+- All 7 scenarios remain `stress_point_found`.
+- `unresolved_obligations` remains `0`.
+- Total bottlenecks remain `6`.
+- The dominant bottleneck category remains `legislative_deadline_failure` (5).
+
+### Main Results
+
+#### 1. Judicial continuity was the right hardening fix, but not a pattern-changing one
+
+Source: [aggregate.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/aggregate.json)
+
+- The new judicial continuity rule does not reduce current bottleneck counts in the existing scenario pool.
+- That is expected because the current bottlenecks are not primarily caused by unavailable judges.
+
+Assessment:
+The change improves constitutional resilience against vacancy, recusal, incapacity, or refusal by a specifically named judicial officer, but it does not alter the main simulation diagnosis.
+
+#### 2. Emergency review is still the clearest recurring bottleneck
+
+Sources:
+- [emergency-near-election.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/emergency-near-election.summary.json)
+- [emergency-extension-without-real-review.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/emergency-extension-without-real-review.summary.json)
+
+- Both scenarios still show the Regional Assembly missing the day-30 approval deadline.
+- The lapse certificate and voiding rule now make the legal consequence clearer.
+
+Assessment:
+The legal consequence is better specified than before, but the institutional stress point remains legislative review, not judicial continuity.
+
+#### 3. The impeachment fallback remains stronger than the old model
+
+Sources:
+- [president-obstructs-investigation.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/president-obstructs-investigation.summary.json)
+- [unauthorized-military-action.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/unauthorized-military-action.summary.json)
+
+- House deadline failures still occur.
+- Automatic transmission to the Regional Assembly still prevents those failures from stopping the process.
+- The new judicial continuity rule makes the presiding judicial role more robust if the Chief Justice is unavailable.
+
+Assessment:
+This remains a successful structural fix. The remaining failure is legislative delay, not judicial vacancy risk.
+
+#### 4. Article VII remains improved relative to earlier runs
+
+Source: [state-democratic-backsliding.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/state-democratic-backsliding.summary.json)
+
+- The missed congressional remedy remains a bottleneck.
+- The interim federal election administration and required suspension vote still narrow the practical danger of that missed deadline.
+
+Assessment:
+The Article VII structure is now materially more robust even though the first missed deadline remains visible in the simulation.
+
+### Structural Pattern
+
+This review suggests the current pattern is stabilizing:
+
+- closure problems are much narrower than earlier in the drafting process
+- judicial single-point-of-failure risk is now substantially reduced
+- the main remaining weaknesses are legislative nonperformance, especially missed review or voting deadlines
+
+The Constitution now appears more resilient to officer unavailability than to chamber-level inaction.
+
+### Best Revision Targets
+
+1. [articles/III-executive.md](/Users/chris/Documents/GitHub/The-Constitution/articles/III-executive.md)
+   Emergency review remains the clearest recurring legislative bottleneck.
+2. [articles/II-legislature.md](/Users/chris/Documents/GitHub/The-Constitution/articles/II-legislature.md)
+   Consider whether any general continuity or mandatory-session rules should be added for constitutionally required deadline votes.
+3. [articles/XI-war-powers-national-security.md](/Users/chris/Documents/GitHub/The-Constitution/articles/XI-war-powers-national-security.md)
+   War-powers enforcement looks structurally stronger and may not need further revision unless new scenarios expose Regional Assembly noncompliance.
+4. [articles/IV-judiciary.md](/Users/chris/Documents/GitHub/The-Constitution/articles/IV-judiciary.md)
+   Judicial continuity now looks sufficient as a general fallback rule unless new simulations reveal a more specific judicial hierarchy problem.

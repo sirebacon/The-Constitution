@@ -1,0 +1,69 @@
+{
+  "scenario_id": "court-order-defied",
+  "title": "Executive Branch Defies Federal Court Order",
+  "source_file": "simulation/scenarios/court-order-defied.json",
+  "status": "stress_point_found",
+  "triggered_provisions": [
+    "Article II Section 16.2"
+  ],
+  "metrics": {
+    "satisfied_obligations": 1,
+    "failed_obligations": 1,
+    "unresolved_obligations": 0,
+    "violations": 1,
+    "bottlenecks": 1,
+    "timeline_entries": 8
+  },
+  "violations": [
+    {
+      "id": "executive_defies_court_order",
+      "category": "executive_defiance",
+      "actor": "Executive agency",
+      "source": "Article II Section 16.2(c)",
+      "severity": "high",
+      "day": 16,
+      "summary": "Executive agency fails to comply with a federal court enforcement order within the required 15-day period."
+    }
+  ],
+  "bottlenecks": [
+    {
+      "id": "executive_comply_court_order",
+      "category": "missed_deadline",
+      "actor": "Executive agency",
+      "source": "Article II Section 16.2(c)",
+      "severity": "high",
+      "day": 16,
+      "deadline_day": 15,
+      "summary": "Executive agency failed to comply with the federal court enforcement order by day 15 under Article II Section 16.2(c)."
+    }
+  ],
+  "open_duties": [],
+  "satisfied_duties": [
+    {
+      "actor": "U.S. Marshals Service",
+      "duty": "enforce the court order through civil contempt mechanisms without requiring DOJ direction",
+      "closed_day": 17,
+      "outcome": "enforced the court order through civil contempt mechanisms without DOJ involvement",
+      "source": "Article II Section 16.2(c)"
+    }
+  ],
+  "failed_duties": [
+    {
+      "actor": "Executive agency",
+      "duty": "comply with the federal court enforcement order",
+      "deadline_day": 15,
+      "closed_day": 16,
+      "outcome": "Executive agency failed to comply with the federal court enforcement order by day 15 under Article II Section 16.2(c).",
+      "source": "Article II Section 16.2(c)",
+      "severity": "high"
+    }
+  ],
+  "notes": [],
+  "ai_summary": {
+    "primary_violation": "Executive agency fails to comply with a federal court enforcement order within the required 15-day period.",
+    "primary_bottleneck": "Executive agency failed to comply with the federal court enforcement order by day 15 under Article II Section 16.2(c).",
+    "primary_open_duty": null,
+    "system_risk": "executive_defiance",
+    "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+  }
+}

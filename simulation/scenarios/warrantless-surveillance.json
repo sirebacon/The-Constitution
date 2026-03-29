@@ -1,0 +1,22 @@
+{
+  "id": "warrantless-surveillance",
+  "title": "Warrantless Domestic Surveillance of Political Organization",
+  "description": "An intelligence agency conducts warrantless domestic surveillance targeting a political organization, in violation of Article III Section 5.3(d) and Article XII Section 12A.5(a), which prohibit surveillance of domestic political organizations without judicial warrant and bar the use of classified appropriations for domestic political intelligence operations. A court orders an immediate halt. The agency complies. The scenario tests whether the rights and classified-spending prohibitions on domestic surveillance are judicially enforceable on a short timeline.",
+  "events": [
+    {
+      "day": 0,
+      "type": "warrantless_surveillance_conducted",
+      "actor": "Intelligence agency"
+    },
+    {
+      "day": 3,
+      "type": "court_orders_surveillance_halt",
+      "actor": "Federal courts"
+    },
+    {
+      "day": 5,
+      "type": "agency_complies_with_surveillance_halt",
+      "actor": "Intelligence agency"
+    }
+  ]
+}

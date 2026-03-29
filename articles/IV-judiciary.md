@@ -39,6 +39,8 @@ Establishes the structure, composition, independence, and jurisdiction of the fe
 
 **2.6 Decisions.** Cases before the Supreme Court shall be decided by majority vote of the justices participating. The court shall publish written opinions for all decisions on the merits. Justices in the minority may publish dissenting opinions. All opinions shall be attributed to their authors.
 
+**2.7 Judicial continuity and designated constitutional duties.** Where this Constitution assigns a duty specifically to the Chief Justice, the duty shall be performed by the Chief Justice if available and not recused. If the Chief Justice is absent, recused, incapacitated, or the office is vacant, the most senior available Associate Justice shall perform the duty. If no active justice is available, the most senior willing Senior Justice shall perform it. If no Justice of the Supreme Court is available, Congress shall by law provide for prompt designation of a panel drawn from the highest available federal court consistent with judicial independence, and that panel shall perform the duty temporarily. Failure of the designated judicial officer or body to act does not suspend, extend, or preserve any constitutional deadline, lapse, disqualification, or consequence that operates automatically under this Constitution. Any federal court with proper jurisdiction may recognize and enforce such an automatic constitutional consequence notwithstanding the failure of a designated judicial officer to issue a notice, certificate, or order acknowledging it.
+
 ---
 
 ## Section 3 — Appointment of Supreme Court Justices
@@ -234,4 +236,3 @@ Courts shall prefer narrow remedies that address the specific constitutional vio
 **11.4** Existing federal district and circuit judges shall serve out their current appointments. Upon the expiration of each existing appointment, the new term limits of this Article apply to any successor.
 
 ---
-- **Decision time limits?** Decision: **Yes — added** (Section 10). Supreme Court: 12 months from argument; Circuit Courts: 6 months; District Courts: 90 days for non-jury matters. Public notice required at 6 months for the Supreme Court.

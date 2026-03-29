@@ -1,0 +1,22 @@
+{
+  "id": "self-pardon-attempt",
+  "title": "Presidential Self-Pardon Attempt",
+  "description": "The Accountability Commission indicts the sitting President for criminal conduct. The President responds by issuing a self-pardon. The scenario tests the absolute prohibition on self-pardons under Article III Section 7.2(a) and confirms that the Accountability Commission's prosecution continues notwithstanding the void pardon claim.",
+  "events": [
+    {
+      "day": 0,
+      "type": "acc_indicts_president",
+      "actor": "Accountability Commission"
+    },
+    {
+      "day": 5,
+      "type": "president_issues_self_pardon",
+      "actor": "President"
+    },
+    {
+      "day": 10,
+      "type": "acc_proceeds_despite_pardon_claim",
+      "actor": "Accountability Commission"
+    }
+  ]
+}

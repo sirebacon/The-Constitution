@@ -1,0 +1,39 @@
+{
+  "scenario_id": "post-presidential-prosecution",
+  "title": "Post-Presidential Prosecution \u2014 Immunity Claim Rejected",
+  "source_file": "simulation/scenarios/post-presidential-prosecution.json",
+  "status": "clean",
+  "triggered_provisions": [
+    "Article III Section 15.6",
+    "Article III Section 15.7"
+  ],
+  "metrics": {
+    "satisfied_obligations": 1,
+    "failed_obligations": 0,
+    "unresolved_obligations": 0,
+    "violations": 0,
+    "bottlenecks": 0,
+    "timeline_entries": 6
+  },
+  "violations": [],
+  "bottlenecks": [],
+  "open_duties": [],
+  "satisfied_duties": [
+    {
+      "actor": "Federal courts",
+      "duty": "rule on the former President's immunity claim",
+      "closed_day": 15,
+      "outcome": "rejected the post-presidential immunity claim; Article III Section 15.6 provides no such immunity and prosecution proceeds",
+      "source": "Article III Section 15.6"
+    }
+  ],
+  "failed_duties": [],
+  "notes": [],
+  "ai_summary": {
+    "primary_violation": null,
+    "primary_bottleneck": null,
+    "primary_open_duty": null,
+    "system_risk": "none",
+    "recommended_focus": "no immediate constitutional flow issue detected in this scenario"
+  }
+}

@@ -144,6 +144,22 @@ class SimulationState:
                 day + 21,
                 severity="high",
             )
+        elif key == "house_vote_impeachment_pmc":
+            self.add_entry(
+                day,
+                "outcome",
+                "The certified PMC-substitution charge is automatically transmitted to the Regional Assembly as articles of impeachment limited to the certified violation.",
+                "Article III Section 10.2A",
+            )
+            self.add_obligation(
+                "regional_assembly_trial_pmc",
+                "Regional Assembly",
+                "proceed to impeachment trial on the automatically transmitted PMC-substitution articles",
+                "Article III Section 10.2A and Section 10.3",
+                day,
+                day + 21,
+                severity="high",
+            )
 
     def add_violation(
         self,
@@ -196,10 +212,12 @@ def derive_system_risk(summary_data: dict[str, Any]) -> str:
 def categorize_failed_obligation(obligation: Obligation) -> str:
     if obligation.source.startswith("Article VII Section 1.6"):
         return "state_backsliding"
-    if obligation.actor in {"Congress", "House of Representatives", "Regional Assembly"}:
+    if obligation.actor in {"Congress", "House of Representatives", "Regional Assembly", "Speaker of the House"}:
         return "legislative_deadline_failure"
-    if obligation.actor in {"Federal courts", "Chief Justice", "Supreme Court"}:
+    if obligation.actor in {"Federal courts", "Chief Justice", "Supreme Court", "U.S. District Court for D.C."}:
         return "judicial_delay"
+    if obligation.actor in {"Accountability Commission", "Electoral Commission"}:
+        return "institutional_deadline_failure"
     return "missed_deadline"
 
 
@@ -249,6 +267,12 @@ def handle_event(state: SimulationState, event: dict[str, Any]) -> None:
     elif event_type == "regional_assembly_rejects_or_fails_emergency":
         state.resolve_obligation("emergency_approve_ra", day, "failed to approve the emergency declaration, causing it to lapse", success=False)
         state.add_entry(day, "outcome", "Emergency declaration lapses unless independently authorized ordinary law remains in effect.", "Article III Section 5.4")
+        state.add_entry(
+            day,
+            "outcome",
+            "The Chief Justice issues a public certificate of lapse, and any continued enforcement of emergency-dependent measures is constitutionally void unless separately authorized by ordinary law.",
+            "Article III Section 5.4",
+        )
 
     elif event_type == "president_attempts_emergency_self_extension":
         state.provisions.update({"Article III Section 5", "Article V Section 1.3", "Article V Section 14"})
@@ -348,6 +372,12 @@ def handle_event(state: SimulationState, event: dict[str, Any]) -> None:
             "congress_state_remedy",
             day,
             "Congress failed to enact a remedial measure for the violating state by day 180 under Article VII Section 1.6(b).",
+        )
+        state.add_entry(
+            day,
+            "outcome",
+            "Federal elections in the state shift immediately to federally supervised administration through the Electoral Commission pending congressional action or Supreme Court certification of compliance.",
+            "Article VII Section 1.6(c)",
         )
         state.add_obligation(
             "congress_vote_suspend_representation",
@@ -575,6 +605,1160 @@ def handle_event(state: SimulationState, event: dict[str, Any]) -> None:
             "federal_courts_protect_speech",
             day,
             "blocked direct suppression of protected expression while allowing disclosure-based responses",
+        )
+
+    elif event_type == "regional_assembly_leadership_blocks_scheduling":
+        state.provisions.add("Article II Section 15A")
+        message = "Regional Assembly leadership refuses to place the emergency declaration on the floor calendar within the required period."
+        state.add_violation(
+            "ra_leadership_blocks_scheduling",
+            "legislative_deadline_failure",
+            "Regional Assembly leadership",
+            message,
+            "Article II Section 15A.1 and Article III Section 5.4",
+            day,
+            severity="high",
+        )
+        state.add_entry(
+            day,
+            "outcome",
+            "Any member of the Regional Assembly may now file a mandatory scheduling motion under Article II Section 15A.1(b).",
+            "Article II Section 15A.1(b)",
+        )
+
+    elif event_type == "section_15a_scheduling_motion_filed":
+        state.provisions.add("Article II Section 15A")
+        state.add_entry(
+            day,
+            "event",
+            f"{actor} files a mandatory scheduling motion under Article II Section 15A.1(b).",
+            "Article II Section 15A.1(b)",
+        )
+        state.add_obligation(
+            "presiding_officer_15a_motion",
+            "Regional Assembly presiding officer",
+            "bring the Section 15A mandatory scheduling motion to a floor vote",
+            "Article II Section 15A.1(b)",
+            day,
+            day + 3,
+            severity="high",
+        )
+
+    elif event_type == "presiding_officer_fails_15a_motion":
+        state.fail_obligation(
+            "presiding_officer_15a_motion",
+            day,
+            "Regional Assembly presiding officer failed to bring the mandatory scheduling motion to a floor vote under Article II Section 15A.1(b).",
+        )
+        state.add_entry(
+            day,
+            "outcome",
+            "The scheduling failure activates the Article II Section 15A.1(d) mandamus route: any affected party may petition the U.S. District Court for the District of Columbia to compel scheduling.",
+            "Article II Section 15A.1(d)",
+        )
+
+    elif event_type == "mandamus_filed_dc_district_court":
+        state.provisions.add("Article II Section 15A")
+        state.add_entry(
+            day,
+            "event",
+            f"{actor} files a mandamus petition in the U.S. District Court for the District of Columbia to compel scheduling of the emergency declaration vote.",
+            "Article II Section 15A.1(d)",
+        )
+        state.add_obligation(
+            "dc_court_mandamus_emergency",
+            "U.S. District Court for D.C.",
+            "rule on the mandamus petition and order scheduling of the required vote",
+            "Article II Section 15A.1(d)",
+            day,
+            day + 5,
+            severity="high",
+        )
+
+    elif event_type == "court_orders_emergency_scheduling":
+        state.resolve_obligation(
+            "dc_court_mandamus_emergency",
+            day,
+            "issued a writ of mandamus ordering the Regional Assembly to schedule and hold the emergency declaration vote",
+        )
+        state.add_obligation(
+            "ra_comply_court_order_emergency",
+            "Regional Assembly",
+            "hold the emergency declaration vote as ordered by the court",
+            "Article II Section 15A.1(d) and Article III Section 5.4",
+            day,
+            day + 7,
+            severity="high",
+        )
+
+    elif event_type == "regional_assembly_approves_emergency":
+        state.resolve_obligation(
+            "emergency_approve_ra",
+            day,
+            "approved the emergency declaration following court-ordered scheduling",
+        )
+        state.resolve_obligation(
+            "ra_comply_court_order_emergency",
+            day,
+            "held the required emergency declaration vote in compliance with the court order",
+        )
+
+    # --- Category A: Executive Power Limits ---
+
+    elif event_type == "acc_indicts_president":
+        state.provisions.add("Article III Section 15.5")
+        state.add_entry(
+            day,
+            "event",
+            f"{actor} indicts the sitting President. Trial is stayed until the President leaves office; pre-trial proceedings continue.",
+            "Article III Section 15.5",
+        )
+        state.add_obligation(
+            "acc_continue_pretrial",
+            "Accountability Commission",
+            "continue pre-trial proceedings while the President remains in office",
+            "Article III Section 15.5",
+            day,
+            None,
+            severity="medium",
+        )
+
+    elif event_type == "president_issues_self_pardon":
+        state.provisions.update({"Article III Section 7.2", "Article III Section 15.3"})
+        message = "President issues a pardon for their own criminal conduct."
+        state.add_violation(
+            "president_self_pardon",
+            "executive_defiance",
+            "President",
+            message,
+            "Article III Section 7.2(a) and Section 15.3",
+            day,
+            severity="high",
+        )
+        state.add_entry(
+            day,
+            "outcome",
+            "The self-pardon is void. Presidential self-pardons are absolutely prohibited under Article III Section 7.2(a) and constitute a no-immunity category under Section 15.3. The Accountability Commission's prosecution continues without interruption.",
+            "Article III Section 7.2(a) and Section 15.3",
+        )
+
+    elif event_type == "acc_proceeds_despite_pardon_claim":
+        state.resolve_obligation(
+            "acc_continue_pretrial",
+            day,
+            "proceeded with pre-trial proceedings notwithstanding the void self-pardon claim",
+        )
+
+    # --- Category B: Legislative Enforcement ---
+
+    elif event_type == "congressional_subpoena_issued":
+        state.provisions.update({"Article II Section 16.2", "Article II Section 16.3"})
+        target = details.get("target", "Subpoenaed executive official")
+        state.add_entry(
+            day,
+            "event",
+            f"{actor} issues a subpoena to {target} requiring compliance within 30 days.",
+            "Article II Section 16.2",
+        )
+        state.add_obligation(
+            "executive_comply_subpoena",
+            target,
+            "comply with the congressional subpoena by testifying and producing required documents",
+            "Article II Section 16.2 and Section 16.3",
+            day,
+            day + 30,
+            severity="high",
+        )
+
+    elif event_type == "executive_officer_defies_subpoena":
+        message = f"{actor} willfully refuses to comply with a valid congressional subpoena."
+        state.add_violation(
+            "subpoena_defiance",
+            "executive_defiance",
+            actor,
+            message,
+            "Article II Section 16.2 and Section 16.5",
+            day,
+            severity="high",
+        )
+        state.fail_obligation(
+            "executive_comply_subpoena",
+            day,
+            f"{actor} failed to comply with the congressional subpoena by the required deadline under Article II Section 16.2.",
+        )
+        state.add_obligation(
+            "contempt_referral_to_acc",
+            "House Judiciary Committee",
+            "refer the contempt citation to the Accountability Commission for criminal prosecution",
+            "Article II Section 16.5(a)",
+            day,
+            day + 7,
+            severity="medium",
+        )
+
+    elif event_type == "contempt_referred_to_acc":
+        state.resolve_obligation(
+            "contempt_referral_to_acc",
+            day,
+            "referred the contempt citation to the Accountability Commission for criminal prosecution",
+        )
+        state.add_obligation(
+            "acc_prosecute_contempt",
+            "Accountability Commission",
+            "prosecute criminal contempt within 90 days of referral or publish specific written findings for declining",
+            "Article II Section 16.5(b)",
+            day,
+            day + 90,
+            severity="high",
+        )
+
+    elif event_type == "acc_initiates_contempt_prosecution":
+        state.resolve_obligation(
+            "acc_prosecute_contempt",
+            day,
+            "initiated criminal contempt prosecution within the required 90-day window",
+        )
+
+    elif event_type == "budget_deadline_missed":
+        state.provisions.update({"Article II Section 12.2", "Article II Section 12.3"})
+        state.add_entry(
+            day,
+            "event",
+            "Congress has not enacted appropriations legislation by October 1. The automatic continuing resolution takes effect at 98% of prior-year enacted levels.",
+            "Article II Section 12.2",
+        )
+        state.add_entry(
+            day,
+            "outcome",
+            "The government may not shut down for lack of appropriations. The automatic continuing resolution is self-executing and requires no further legislative or executive action to take effect.",
+            "Article II Section 12.2",
+        )
+
+    elif event_type == "executive_attempts_selective_cr_funding":
+        state.provisions.add("Article II Section 12.2")
+        message = "Executive branch attempts to alter funding ratios, withhold appropriated funds, or selectively apply funding levels under the automatic continuing resolution."
+        state.add_violation(
+            "executive_cr_manipulation",
+            "executive_defiance",
+            "Executive branch",
+            message,
+            "Article II Section 12.2",
+            day,
+            severity="high",
+        )
+        state.add_obligation(
+            "court_review_cr_manipulation",
+            "Federal courts",
+            "review the executive branch's selective CR funding manipulation on an expedited basis",
+            "Article II Section 12.2",
+            day,
+            day + 5,
+            severity="high",
+        )
+
+    elif event_type == "court_blocks_cr_manipulation":
+        state.resolve_obligation(
+            "court_review_cr_manipulation",
+            day,
+            "issued an expedited order blocking the executive branch's selective application of the automatic continuing resolution",
+        )
+
+    # --- Category D: War Powers ---
+
+    elif event_type == "president_orders_nuclear_first_use":
+        state.provisions.update({"Article XI Section 3.1", "Article XI Section 3.2"})
+        state.add_entry(
+            day,
+            "event",
+            f"{actor} orders first use of nuclear weapons without a prior nuclear attack on the United States.",
+            "Article XI Section 3.1",
+        )
+        state.add_obligation(
+            "secdef_confirm_nuclear_order",
+            "Secretary of Defense",
+            "confirm or refuse the nuclear first-use order",
+            "Article XI Section 3.1",
+            day,
+            day + 1,
+            severity="high",
+        )
+        state.add_obligation(
+            "secstate_confirm_nuclear_order",
+            "Secretary of State",
+            "confirm or refuse the nuclear first-use order",
+            "Article XI Section 3.1",
+            day,
+            day + 1,
+            severity="high",
+        )
+
+    elif event_type == "secretary_of_defense_refuses_nuclear_order":
+        state.resolve_obligation(
+            "secdef_confirm_nuclear_order",
+            day,
+            "refused to confirm the nuclear first-use order, blocking the launch under Article XI Section 3.1",
+        )
+        state.add_entry(
+            day,
+            "outcome",
+            "Nuclear first-use order cannot proceed. Under Article XI Section 3.1, the order does not proceed if either Secretary declines to confirm it.",
+            "Article XI Section 3.1",
+        )
+
+    elif event_type == "secretary_of_state_refuses_nuclear_order":
+        state.resolve_obligation(
+            "secstate_confirm_nuclear_order",
+            day,
+            "refused to confirm the nuclear first-use order",
+        )
+
+    elif event_type == "president_fires_secretary_to_compel_nuclear_compliance":
+        state.provisions.add("Article III Section 4.4")
+        message = "President removes the Secretary of Defense to install a replacement willing to confirm a nuclear first-use order, using the removal power to circumvent a constitutional authorization safeguard."
+        state.add_violation(
+            "removal_to_circumvent_nuclear_safeguard",
+            "executive_defiance",
+            "President",
+            message,
+            "Article XI Section 3.1 and Article III Section 4.4",
+            day,
+            severity="high",
+        )
+        state.add_obligation(
+            "acting_secdef_confirm_nuclear_order",
+            "Acting Secretary of Defense",
+            "confirm or refuse the nuclear first-use order",
+            "Article XI Section 3.1",
+            day,
+            day + 1,
+            severity="high",
+        )
+
+    elif event_type == "acting_secretary_also_refuses_nuclear_order":
+        state.resolve_obligation(
+            "acting_secdef_confirm_nuclear_order",
+            day,
+            "also refused to confirm the nuclear first-use order; the launch remains blocked",
+        )
+        state.resolve_obligation(
+            "secstate_confirm_nuclear_order",
+            day,
+            "declined to confirm the nuclear first-use order",
+        )
+        state.add_entry(
+            day,
+            "outcome",
+            "The nuclear first-use order remains blocked. The President's removal of the Secretary of Defense did not produce a compliant replacement. No authorized officer has confirmed the order.",
+            "Article XI Section 3.1",
+        )
+
+    # --- Category I: Presidential Recall ---
+
+    elif event_type == "recall_petition_certified":
+        state.provisions.add("Article III Section 14")
+        state.add_entry(
+            day,
+            "event",
+            f"{actor} certifies that the recall petition meets all requirements of Article III Section 14.3.",
+            "Article III Section 14.3 and Section 14.5",
+        )
+        state.add_obligation(
+            "ec_schedule_recall_referendum",
+            "Electoral Commission",
+            "schedule and administer the recall referendum within 90 days of certification",
+            "Article III Section 14.5",
+            day,
+            day + 90,
+            severity="high",
+        )
+
+    elif event_type == "president_declares_emergency_to_delay_recall":
+        state.provisions.update({"Article III Section 14.11", "Article III Section 5"})
+        message = "President declares a national emergency for the purpose of delaying a certified recall referendum."
+        state.add_violation(
+            "recall_delay_emergency",
+            "executive_defiance",
+            "President",
+            message,
+            "Article III Section 14.11(a)",
+            day,
+            severity="high",
+        )
+        state.add_obligation(
+            "court_review_recall_emergency",
+            "Federal courts",
+            "review the emergency declaration's effect on the recall referendum schedule",
+            "Article III Section 14.11(a)",
+            day,
+            day + 5,
+            severity="high",
+        )
+
+    elif event_type == "court_voids_recall_delay_emergency":
+        state.resolve_obligation(
+            "court_review_recall_emergency",
+            day,
+            "voided the emergency declaration insofar as it was used to delay the certified recall referendum",
+        )
+
+    elif event_type == "recall_referendum_held":
+        state.resolve_obligation(
+            "ec_schedule_recall_referendum",
+            day,
+            "administered the recall referendum within the required 90-day window",
+        )
+
+    elif event_type == "recall_fails_participation_threshold":
+        state.add_entry(
+            day,
+            "outcome",
+            "Recall referendum result: participation fell below the 60% threshold required by Article III Section 14.7. The President is retained. No further recall petition may be filed for the remainder of this term.",
+            "Article III Section 14.7 and Section 14.4",
+        )
+
+    # --- Category C: Judicial Independence ---
+
+    elif event_type == "court_issues_compliance_order":
+        state.provisions.add("Article II Section 16.2")
+        respondent = details.get("respondent", "Executive agency")
+        state.add_entry(
+            day,
+            "event",
+            f"Federal court issues a compliance order to {respondent}. Compliance is required within 15 days under Article II Section 16.2(c).",
+            "Article II Section 16.2(c)",
+        )
+        state.add_obligation(
+            "executive_comply_court_order",
+            respondent,
+            "comply with the federal court enforcement order",
+            "Article II Section 16.2(c)",
+            day,
+            day + 15,
+            severity="high",
+        )
+
+    elif event_type == "executive_defies_court_order":
+        message = f"{actor} fails to comply with a federal court enforcement order within the required 15-day period."
+        state.add_violation(
+            "executive_defies_court_order",
+            "executive_defiance",
+            actor,
+            message,
+            "Article II Section 16.2(c)",
+            day,
+            severity="high",
+        )
+        state.fail_obligation(
+            "executive_comply_court_order",
+            day,
+            f"{actor} failed to comply with the court enforcement order by the required deadline under Article II Section 16.2(c).",
+        )
+        state.add_entry(
+            day,
+            "outcome",
+            "The respondent is in contempt of court. Civil detention and daily fines apply. Enforcement is by the United States Marshals Service without requiring action by the Department of Justice.",
+            "Article II Section 16.2(c)",
+        )
+        state.add_obligation(
+            "marshals_enforce_order",
+            "U.S. Marshals Service",
+            "enforce the court order through civil contempt mechanisms without requiring DOJ direction",
+            "Article II Section 16.2(c)",
+            day,
+            day + 1,
+            severity="high",
+        )
+
+    elif event_type == "marshals_enforce_court_order":
+        state.resolve_obligation(
+            "marshals_enforce_order",
+            day,
+            "enforced the court order through civil contempt mechanisms without DOJ involvement",
+        )
+
+    elif event_type == "chief_justice_vacancy_occurs":
+        state.provisions.update({"Article IV Section 2.3", "Article IV Section 2.7"})
+        state.add_entry(
+            day,
+            "event",
+            "The Chief Justice seat becomes vacant before the end of its scheduled term.",
+            "Article IV Section 2.3",
+        )
+
+    elif event_type == "judicial_continuity_activated":
+        state.provisions.add("Article IV Section 2.7")
+        state.add_entry(
+            day,
+            "event",
+            "Judicial continuity rule activates: the most senior Associate Justice assumes Chief Justice duties; the most senior willing Senior Justice fills the vacant seat temporarily until the next scheduled appointment date.",
+            "Article IV Section 2.3 and Section 2.7",
+        )
+        state.add_obligation(
+            "president_nominate_justice",
+            "President",
+            "nominate a qualified candidate from the Judicial Nominations Commission certified pool to fill the scheduled vacancy",
+            "Article IV Section 3.1",
+            day,
+            day + 90,
+            severity="medium",
+        )
+
+    elif event_type == "president_refuses_to_nominate":
+        message = "President refuses to submit a nomination from the Judicial Nominations Commission certified pool to fill a scheduled Supreme Court vacancy."
+        state.add_violation(
+            "president_refuses_nomination_duty",
+            "executive_defiance",
+            "President",
+            message,
+            "Article IV Section 3.1 and Article III Section 1.2(d)",
+            day,
+            severity="high",
+        )
+        state.fail_obligation(
+            "president_nominate_justice",
+            day,
+            "President refused to submit a nomination within the required period, triggering the Judicial Nominations Commission backstop under Article IV Section 3.4.",
+        )
+
+    elif event_type == "judicial_nominations_commission_appoints_directly":
+        state.provisions.add("Article IV Section 3.4")
+        state.add_entry(
+            day,
+            "event",
+            f"{actor} exercises its backstop appointment authority and appoints a justice from the certified pool directly. The appointment takes office without further confirmation.",
+            "Article IV Section 3.4",
+        )
+
+    # --- Category E continued: Emergency Rights ---
+
+    elif event_type == "emergency_used_to_restrict_protected_speech":
+        state.provisions.update({"Article III Section 5.3", "Article V"})
+        message = "Executive branch uses an emergency declaration to restrict protected expression, in violation of the absolute bar on overriding Article V rights through emergency powers."
+        state.add_violation(
+            "emergency_rights_suppression",
+            "rights_suppression",
+            "Executive branch",
+            message,
+            "Article III Section 5.3(f)",
+            day,
+            severity="high",
+        )
+        state.add_obligation(
+            "court_void_emergency_rights_violation",
+            "Federal courts",
+            "void the emergency-based speech restriction",
+            "Article III Section 5.3(f) and Article V",
+            day,
+            day + 5,
+            severity="high",
+        )
+
+    elif event_type == "court_voids_emergency_rights_restriction":
+        state.resolve_obligation(
+            "court_void_emergency_rights_violation",
+            day,
+            "voided the emergency-based restriction on protected expression; Article V rights may not be overridden by emergency declaration",
+        )
+
+    elif event_type == "president_suspends_habeas_corpus_by_executive_order":
+        state.provisions.update({"Article III Section 5.7", "Article III Section 5"})
+        message = "President suspends the privilege of the writ of habeas corpus by executive order. This power belongs exclusively to Congress under Article III Section 5.7 and may not be exercised by the President alone."
+        state.add_violation(
+            "president_suspends_habeas_corpus",
+            "executive_defiance",
+            "President",
+            message,
+            "Article III Section 5.7",
+            day,
+            severity="high",
+        )
+        state.add_obligation(
+            "court_void_habeas_suspension",
+            "Federal courts",
+            "void the unlawful executive suspension of habeas corpus",
+            "Article III Section 5.7",
+            day,
+            day + 5,
+            severity="high",
+        )
+
+    elif event_type == "court_voids_habeas_suspension":
+        state.resolve_obligation(
+            "court_void_habeas_suspension",
+            day,
+            "voided the executive suspension of habeas corpus; only Congress may suspend the writ under Article III Section 5.7",
+        )
+
+    # --- Category F: Elections ---
+
+    elif event_type == "electoral_commission_certifies_election":
+        state.provisions.update({"Article I", "Article III Section 13", "Article VI Section 1"})
+        state.add_entry(
+            day,
+            "event",
+            f"{actor} certifies the election result and the President-elect. The constitutional transition period begins.",
+            "Article III Section 13.1",
+        )
+        state.add_obligation(
+            "president_cooperate_transition",
+            "President",
+            "cooperate fully with the President-elect's transition including security briefings, agency access, and office space",
+            "Article III Section 13.1",
+            day,
+            day + 81,
+            severity="high",
+        )
+
+    elif event_type == "president_refuses_transition_cooperation":
+        message = "Outgoing President refuses to cooperate with the constitutionally required transition, denying the President-elect access to security briefings and agency records."
+        state.add_violation(
+            "transition_obstruction",
+            "executive_defiance",
+            "President",
+            message,
+            "Article III Section 13.5 and Article VI Section 1",
+            day,
+            severity="high",
+        )
+        state.fail_obligation(
+            "president_cooperate_transition",
+            day,
+            "President refused to cooperate with the constitutionally required transition under Article III Section 13.1.",
+        )
+
+    elif event_type == "acc_opens_electoral_subversion_investigation":
+        state.provisions.add("Article VI Section 1")
+        state.add_entry(
+            day,
+            "event",
+            f"{actor} opens an electoral subversion investigation into the outgoing President's transition obstruction.",
+            "Article VI Section 1 and Article III Section 15.7",
+        )
+        state.add_obligation(
+            "acc_pursue_subversion_case",
+            "Accountability Commission",
+            "pursue the electoral subversion case through investigation and prosecution",
+            "Article VI Section 1",
+            day,
+            None,
+            severity="high",
+        )
+
+    elif event_type == "transition_proceeds_under_constitutional_mandate":
+        state.resolve_obligation(
+            "acc_pursue_subversion_case",
+            day,
+            "continued pursuing the electoral subversion case while the transition proceeded under constitutional mandate",
+        )
+        state.add_entry(
+            day,
+            "outcome",
+            "The constitutional transfer of power proceeds. Presidential obstruction does not prevent the transition — it only creates additional criminal exposure for the outgoing President.",
+            "Article III Section 13 and Article VI Section 1",
+        )
+
+    # --- Category G: Federalism ---
+
+    elif event_type == "congress_enacts_commandeering_statute":
+        state.provisions.add("Article VII Section 1.2")
+        message = "Congress enacts a statute requiring state executive officials to implement and enforce a federal regulatory program, in violation of the anti-commandeering provision of Article VII Section 1.2."
+        state.add_violation(
+            "federal_commandeering",
+            "federalism_breach",
+            "Congress",
+            message,
+            "Article VII Section 1.2",
+            day,
+            severity="high",
+        )
+        state.add_obligation(
+            "court_review_commandeering",
+            "Federal courts",
+            "review and void the commandeering statute",
+            "Article VII Section 1.2",
+            day,
+            day + 60,
+            severity="medium",
+        )
+
+    elif event_type == "state_refuses_commandeering":
+        state.add_entry(
+            day,
+            "event",
+            f"{actor} refuses to implement the federal program, exercising its constitutional protection against commandeering under Article VII Section 1.2.",
+            "Article VII Section 1.2",
+        )
+
+    elif event_type == "court_voids_commandeering_statute":
+        state.resolve_obligation(
+            "court_review_commandeering",
+            day,
+            "voided the commandeering statute; the federal government may not conscript state executive officials to implement federal programs",
+        )
+
+    # --- Category H: Presidential Accountability ---
+
+    elif event_type == "acc_opens_former_president_investigation":
+        state.provisions.update({"Article III Section 15.6", "Article III Section 15.7"})
+        state.add_entry(
+            day,
+            "event",
+            f"{actor} opens a criminal investigation of a former President for conduct during their term in office.",
+            "Article III Section 15.6 and Section 15.7",
+        )
+
+    elif event_type == "former_president_asserts_residual_immunity":
+        state.provisions.add("Article III Section 15.6")
+        state.add_entry(
+            day,
+            "event",
+            f"{actor} asserts residual post-presidential immunity and moves to dismiss the investigation.",
+            "Article III Section 15.6",
+        )
+        state.add_entry(
+            day,
+            "outcome",
+            "Post-presidential immunity is explicitly abolished by Article III Section 15.6. The immunity claim has no constitutional basis under this Constitution. A court ruling is required to formally reject it.",
+            "Article III Section 15.6",
+        )
+        state.add_obligation(
+            "court_rule_on_immunity_claim",
+            "Federal courts",
+            "rule on the former President's immunity claim",
+            "Article III Section 15.6",
+            day,
+            day + 14,
+            severity="medium",
+        )
+
+    elif event_type == "court_rejects_immunity_claim":
+        state.resolve_obligation(
+            "court_rule_on_immunity_claim",
+            day,
+            "rejected the post-presidential immunity claim; Article III Section 15.6 provides no such immunity and prosecution proceeds",
+        )
+
+    # --- Category J: Presidential Succession ---
+
+    elif event_type == "president_incapacitated":
+        state.provisions.update({"Article III Section 11", "Article III Section 12"})
+        state.add_entry(
+            day,
+            "event",
+            "President becomes incapacitated and unable to discharge presidential duties.",
+            "Article III Section 11 and Section 12",
+        )
+        state.add_obligation(
+            "vp_assume_presidential_duties",
+            "Vice President",
+            "assume the powers and duties of the President as Acting President",
+            "Article III Section 11.2 and Section 12.1",
+            day,
+            day + 1,
+            severity="high",
+        )
+
+    elif event_type == "vp_also_incapacitated":
+        obligation = state.obligations.get("vp_assume_presidential_duties")
+        if obligation and obligation.status == "open":
+            obligation.status = "satisfied"
+            obligation.closed_day = day
+            obligation.outcome = "VP is also incapacitated and cannot assume duties; succession advances to Speaker of the House under Article III Section 12.2"
+        state.add_entry(
+            day,
+            "event",
+            "Vice President is also incapacitated and unable to assume presidential duties. Succession advances to the Speaker of the House under Article III Section 12.2.",
+            "Article III Section 12.2",
+        )
+        state.add_obligation(
+            "speaker_assume_presidential_duties",
+            "Speaker of the House",
+            "assume the office of Acting President with the limited powers of Article III Section 12.4",
+            "Article III Section 12.2",
+            day,
+            day + 1,
+            severity="high",
+        )
+
+    elif event_type == "speaker_assumes_acting_presidency":
+        state.resolve_obligation(
+            "speaker_assume_presidential_duties",
+            day,
+            "assumed the office of Acting President; Article III Section 12.4 limitations apply — no pardon power, no treaty withdrawal, no emergency declaration, no removal of confirmed officials without cause, no recess appointments without majority approval of both chambers",
+        )
+
+    elif event_type == "vp_and_cabinet_declare_presidential_incapacity":
+        state.provisions.update({"Article III Section 11.2", "Article III Section 11.3"})
+        state.add_entry(
+            day,
+            "event",
+            f"{actor} transmit a written declaration of presidential incapacity under Article III Section 11.2. The Vice President becomes Acting President.",
+            "Article III Section 11.2",
+        )
+        state.add_entry(
+            day,
+            "outcome",
+            "The President may contest this determination within 4 days. If contested, Congress has 21 days from the contest to resolve the question by 2/3 vote. If Congress does not sustain the determination within 21 days, the President resumes the powers of office.",
+            "Article III Section 11.3",
+        )
+
+    elif event_type == "president_contests_incapacity":
+        state.add_entry(
+            day,
+            "event",
+            f"{actor} transmits a written contest of the incapacity determination within the 4-day window. The 21-day congressional resolution period begins.",
+            "Article III Section 11.3",
+        )
+        state.add_obligation(
+            "congress_resolve_incapacity_contest",
+            "Congress",
+            "resolve the contested incapacity determination by 2/3 vote of both chambers",
+            "Article III Section 11.3",
+            day,
+            day + 21,
+            severity="high",
+        )
+
+    elif event_type == "congress_fails_incapacity_determination":
+        state.fail_obligation(
+            "congress_resolve_incapacity_contest",
+            day,
+            "Congress failed to sustain the incapacity determination within the 21-day period required by Article III Section 11.3.",
+        )
+        state.add_entry(
+            day,
+            "outcome",
+            "Under Article III Section 11.3, when Congress does not sustain the incapacity determination within 21 days, the President automatically resumes the powers of office. No further action by any branch is required.",
+            "Article III Section 11.3",
+        )
+
+    # --- Category K: Rights ---
+
+    elif event_type == "warrantless_surveillance_conducted":
+        state.provisions.update({"Article III Section 5.3", "Article II Section 12A.5"})
+        message = "Intelligence agency conducts warrantless surveillance targeting a domestic political organization, without judicial warrant and in violation of Article III Section 5.3(d) and the prohibition on using classified appropriations for domestic political surveillance under Article II Section 12A.5(a)."
+        state.add_violation(
+            "warrantless_domestic_surveillance",
+            "rights_suppression",
+            "Intelligence agency",
+            message,
+            "Article III Section 5.3(d) and Article II Section 12A.5(a)",
+            day,
+            severity="high",
+        )
+        state.add_obligation(
+            "court_order_surveillance_halt",
+            "Federal courts",
+            "order an immediate halt to the warrantless domestic surveillance operation",
+            "Article III Section 5.3(d)",
+            day,
+            day + 5,
+            severity="high",
+        )
+
+    elif event_type == "court_orders_surveillance_halt":
+        state.resolve_obligation(
+            "court_order_surveillance_halt",
+            day,
+            "ordered an immediate halt to the warrantless domestic surveillance and referred the matter to the Accountability Commission",
+        )
+        state.add_obligation(
+            "agency_halt_surveillance",
+            "Intelligence agency",
+            "cease the warrantless domestic surveillance operation in compliance with the court order",
+            "Article III Section 5.3(d)",
+            day,
+            day + 2,
+            severity="high",
+        )
+
+    elif event_type == "agency_complies_with_surveillance_halt":
+        state.resolve_obligation(
+            "agency_halt_surveillance",
+            day,
+            "ceased the warrantless domestic surveillance operation in compliance with the court order",
+        )
+
+    # --- Category A continued: Executive Order Overreach ---
+
+    elif event_type == "president_issues_overreaching_executive_order":
+        state.provisions.update({"Article III Section 6.2", "Article III Section 6.4"})
+        message = (
+            f"{actor} issues an executive order imposing new regulatory obligations on private businesses "
+            "without any statutory authorization, in violation of Article III Section 6.2(a)."
+        )
+        state.add_violation(
+            "executive_order_overreach",
+            "executive_defiance",
+            actor,
+            message,
+            "Article III Section 6.2(a)",
+            day,
+            severity="high",
+        )
+        state.add_entry(
+            day,
+            "outcome",
+            "The order is presumptively void. Under Article III Section 6.2(a), executive orders may not create legal "
+            "obligations on private citizens or entities without prior statutory authorization. Congress may formally "
+            "void it by resolution of disapproval within 60 days under Article III Section 6.4.",
+            "Article III Section 6.2(a) and Section 6.4",
+        )
+        state.add_obligation(
+            "congress_disapprove_eo",
+            "Congress",
+            "pass a resolution of disapproval within 60 days to formally void the overreaching executive order",
+            "Article III Section 6.4",
+            day,
+            day + 60,
+            severity="medium",
+        )
+
+    elif event_type == "congress_disapproves_executive_order":
+        state.resolve_obligation(
+            "congress_disapprove_eo",
+            day,
+            "passed a resolution of disapproval; the executive order is void and may not be reissued in substantially the same form without statutory authorization",
+        )
+
+    # --- Category B continued: Single-Subject Challenge ---
+
+    elif event_type == "omnibus_bill_passes_both_chambers":
+        state.provisions.update({"Article II Section 10.7", "Article II Section 10.7A"})
+        message = (
+            "Congress passes an omnibus bill bundling unrelated subjects — defense appropriations, immigration rules, "
+            "and drug pricing — in a single bill, in violation of the single-subject rule of Article II Section 10.7."
+        )
+        state.add_violation(
+            "single_subject_violation",
+            "legislative_deadline_failure",
+            "Congress",
+            message,
+            "Article II Section 10.7",
+            day,
+            severity="medium",
+        )
+        state.add_entry(
+            day,
+            "outcome",
+            "The bill is subject to pre-enactment single-subject challenge under Article II Section 10.7A. "
+            "The 15-day presidential action clock is tolled pending any such ruling.",
+            "Article II Section 10.7A",
+        )
+
+    elif event_type == "single_subject_challenge_filed":
+        state.provisions.add("Article II Section 10.7A")
+        state.add_entry(
+            day,
+            "event",
+            f"{actor} invokes the pre-enactment single-subject challenge mechanism under Article II Section 10.7A.",
+            "Article II Section 10.7A",
+        )
+        state.add_obligation(
+            "supreme_court_rule_single_subject",
+            "Supreme Court",
+            "rule on the single-subject challenge within 15 days",
+            "Article II Section 10.7A",
+            day,
+            day + 15,
+            severity="high",
+        )
+
+    elif event_type == "supreme_court_voids_omnibus_bill":
+        state.resolve_obligation(
+            "supreme_court_rule_single_subject",
+            day,
+            "ruled within the 15-day window, found a single-subject violation, and returned the bill to the originating chamber for severance or redrafting",
+        )
+        state.add_entry(
+            day,
+            "outcome",
+            "The omnibus bill is voided. The originating chamber must sever the bill into single-subject measures "
+            "or redraft before further action. The presidential action clock remains tolled until a valid bill is presented.",
+            "Article II Section 10.7A",
+        )
+
+    # --- Category B continued: Perjury Before Congress ---
+
+    elif event_type == "official_commits_perjury_before_congress":
+        state.provisions.update({"Article II Section 16.4", "Article II Section 16.4(b)"})
+        message = (
+            f"{actor} gives testimony before a congressional committee containing knowing false statements "
+            "of material fact, constituting perjury before Congress under Article II Section 16.4."
+        )
+        state.add_violation(
+            "perjury_before_congress",
+            "executive_defiance",
+            actor,
+            message,
+            "Article II Section 16.4",
+            day,
+            severity="high",
+        )
+        state.add_entry(
+            day,
+            "outcome",
+            "Congressional perjury is prosecuted exclusively by the Accountability Commission. "
+            "The Department of Justice has no jurisdiction over this offense under Article II Section 16.4. "
+            "Upon conviction: automatic removal from office, permanent disqualification from federal office, "
+            "and no possibility of pardon under Section 16.4(b).",
+            "Article II Section 16.4",
+        )
+        state.add_obligation(
+            "committee_refer_perjury",
+            "Senate Foreign Relations Committee",
+            "refer the perjury matter to the Accountability Commission",
+            "Article II Section 16.4",
+            day,
+            day + 30,
+            severity="medium",
+        )
+
+    elif event_type == "committee_refers_perjury_to_acc":
+        state.resolve_obligation(
+            "committee_refer_perjury",
+            day,
+            "referred the congressional perjury matter to the Accountability Commission for exclusive prosecution",
+        )
+        state.add_obligation(
+            "acc_indict_perjury",
+            "Accountability Commission",
+            "indict on the congressional perjury charge within the required indictment window",
+            "Article II Section 16.4",
+            day,
+            day + 90,
+            severity="high",
+        )
+
+    elif event_type == "acc_indicts_for_congressional_perjury":
+        state.resolve_obligation(
+            "acc_indict_perjury",
+            day,
+            "indicted the official for congressional perjury within the required window; upon conviction the official faces automatic removal, permanent disqualification, and no possibility of pardon",
+        )
+
+    # --- Category D continued: Covert Operation Against Citizen ---
+
+    elif event_type == "covert_operation_ordered_against_us_citizen":
+        state.provisions.update({"Article XI Section 5.2", "Article IV"})
+        state.add_entry(
+            day,
+            "event",
+            f"{actor} orders a covert lethal operation targeting a United States citizen abroad. "
+            "Under Article XI Section 5.2, a judicial warrant issued upon probable cause is required before any such operation may proceed.",
+            "Article XI Section 5.2",
+        )
+        state.add_obligation(
+            "court_issue_citizen_warrant",
+            "Federal courts",
+            "adjudicate the warrant application, finding probable cause of imminent specific threat and that capture is not feasible",
+            "Article XI Section 5.2",
+            day,
+            day + 3,
+            severity="high",
+        )
+
+    elif event_type == "court_denies_warrant_capture_feasible":
+        state.resolve_obligation(
+            "court_issue_citizen_warrant",
+            day,
+            "denied the warrant application, finding that capture remains feasible; the operation is constitutionally blocked pending a valid warrant",
+        )
+        state.add_entry(
+            day,
+            "outcome",
+            "Without a judicial warrant under Article XI Section 5.2, no lethal covert operation against a US citizen may lawfully proceed.",
+            "Article XI Section 5.2",
+        )
+
+    elif event_type == "operation_proceeds_despite_warrant_denial":
+        state.provisions.add("Article XI Section 5.2")
+        message = (
+            f"{actor} proceeds with a covert lethal operation against a US citizen after a court denied the required "
+            "warrant, in direct violation of Article XI Section 5.2."
+        )
+        state.add_violation(
+            "unlawful_covert_operation_us_citizen",
+            "executive_defiance",
+            actor,
+            message,
+            "Article XI Section 5.2",
+            day,
+            severity="high",
+        )
+        state.add_obligation(
+            "acc_prosecute_covert_operation",
+            "Accountability Commission",
+            "open prosecution of responsible officers for the unlawful covert lethal operation against a US citizen",
+            "Article XI Section 5.2 and Article III Section 15.7",
+            day,
+            day + 30,
+            severity="high",
+        )
+
+    elif event_type == "acc_opens_prosecution_for_unlawful_operation":
+        state.resolve_obligation(
+            "acc_prosecute_covert_operation",
+            day,
+            "opened prosecution of the responsible officers for conducting a covert lethal operation against a US citizen in violation of the judicial warrant requirement",
+        )
+
+    # --- Category D continued: PMC Substitution ---
+
+    elif event_type == "congress_denies_force_authorization":
+        state.provisions.update({"Article XI Section 1", "Article XI Section 4.4"})
+        state.add_entry(
+            day,
+            "event",
+            f"{actor} explicitly denies an Authorization for Use of Military Force. No armed operations may proceed under the denied authorization.",
+            "Article XI Section 1 and Section 4.4",
+        )
+
+    elif event_type == "president_deploys_pmcs_as_aumf_substitute":
+        state.provisions.add("Article XI Section 4.4")
+        message = (
+            f"{actor} deploys private military contractors in a combat role to conduct the operation Congress denied, "
+            "in direct violation of Article XI Section 4.4, which prohibits using PMCs to avoid authorization "
+            "requirements or to conceal the scale of US military engagement."
+        )
+        state.add_violation(
+            "pmc_substitution_for_aumf",
+            "executive_defiance",
+            actor,
+            message,
+            "Article XI Section 4.4",
+            day,
+            severity="high",
+        )
+        state.add_entry(
+            day,
+            "outcome",
+            "The PMC deployment triggers the expedited impeachment timetable of Article III Section 10.2A. "
+            "The House must hold a recorded impeachment vote within 21 days.",
+            "Article III Section 10.2A",
+        )
+        state.add_obligation(
+            "house_vote_impeachment_pmc",
+            "House of Representatives",
+            "hold a recorded impeachment vote on the unlawful PMC deployment used to circumvent the denied AUMF",
+            "Article III Section 10.2A and Article XI Section 4.4",
+            day,
+            day + 21,
+            severity="high",
+        )
+
+    elif event_type == "house_misses_pmc_impeachment_vote":
+        state.fail_obligation(
+            "house_vote_impeachment_pmc",
+            day,
+            "House of Representatives failed to hold the required impeachment vote on the PMC substitution violation by the required deadline under Article III Section 10.2A.",
+        )
+
+    elif event_type == "regional_assembly_begins_pmc_trial":
+        state.resolve_obligation(
+            "regional_assembly_trial_pmc",
+            day,
+            "began impeachment trial on the automatically transmitted PMC substitution articles",
         )
 
     else:

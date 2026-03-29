@@ -1,0 +1,22 @@
+{
+  "id": "post-presidential-prosecution",
+  "title": "Post-Presidential Prosecution — Immunity Claim Rejected",
+  "description": "After leaving office, a former President is investigated by the Accountability Commission for conduct during their term. The former President asserts residual post-presidential immunity. Article III Section 15.6 explicitly provides that no person who has served as President retains any immunity from criminal prosecution after leaving office. The court rejects the immunity claim and the prosecution proceeds. This scenario is expected to resolve cleanly — it tests that the constitutional bar on post-presidential immunity holds without requiring additional institutional intervention.",
+  "events": [
+    {
+      "day": 0,
+      "type": "acc_opens_former_president_investigation",
+      "actor": "Accountability Commission"
+    },
+    {
+      "day": 5,
+      "type": "former_president_asserts_residual_immunity",
+      "actor": "Former President"
+    },
+    {
+      "day": 15,
+      "type": "court_rejects_immunity_claim",
+      "actor": "Federal courts"
+    }
+  ]
+}

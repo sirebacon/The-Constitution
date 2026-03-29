@@ -1,0 +1,25 @@
+{
+  "id": "court-order-defied",
+  "title": "Executive Branch Defies Federal Court Order",
+  "description": "A federal court issues a compliance order against an executive agency under Article II Section 16.2. The agency refuses to comply after the 15-day window. The scenario tests whether the Marshals Service can enforce the order without Department of Justice involvement and whether the contempt mechanism produces timely resolution.",
+  "events": [
+    {
+      "day": 0,
+      "type": "court_issues_compliance_order",
+      "actor": "Federal courts",
+      "details": {
+        "respondent": "Executive agency"
+      }
+    },
+    {
+      "day": 16,
+      "type": "executive_defies_court_order",
+      "actor": "Executive agency"
+    },
+    {
+      "day": 17,
+      "type": "marshals_enforce_court_order",
+      "actor": "U.S. Marshals Service"
+    }
+  ]
+}

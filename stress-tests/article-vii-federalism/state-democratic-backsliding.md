@@ -22,7 +22,7 @@ A state government cancels local elections in opposition-controlled cities, remo
 
 - The state is violating the democratic floor.
 - The United States or another state's legislature or executive may petition.
-- The sequence is Supreme Court finding, congressional remedy, then possible representation suspension if noncompliance persists.
+- The sequence is Supreme Court finding, congressional remedy, automatic interim federal administration of federal elections if Congress misses the remedy deadline, then a mandatory suspension vote, followed by automatic suspension if noncompliance still persists.
 - Residents retain constitutional rights even if representation is suspended.
 - The state cannot be expelled from the Union.
 
@@ -38,6 +38,7 @@ Pass if:
 
 - The enforcement sequence is easy to follow.
 - The text clearly punishes the state government without stripping resident rights.
+- A missed congressional remedy does not leave federal elections in the violating state unprotected.
 
 Fail if:
 

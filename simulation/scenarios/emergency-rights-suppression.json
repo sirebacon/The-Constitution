@@ -1,0 +1,33 @@
+{
+  "id": "emergency-rights-suppression",
+  "title": "Emergency Declaration Used to Suppress Protected Speech",
+  "description": "The President declares a national emergency and uses it to restrict protected expression, in violation of Article III Section 5.3(f), which bars any emergency declaration from overriding Article V rights. The Regional Assembly approves the emergency on time; the approval does not cure the rights violation. Courts void the speech restriction. This scenario tests whether the emergency powers framework correctly prevents rights suppression even under a validly approved emergency.",
+  "events": [
+    {
+      "day": 0,
+      "type": "national_emergency_declared",
+      "actor": "President",
+      "details": {}
+    },
+    {
+      "day": 1,
+      "type": "emergency_submitted_to_regional_assembly",
+      "actor": "President"
+    },
+    {
+      "day": 2,
+      "type": "emergency_used_to_restrict_protected_speech",
+      "actor": "Executive branch"
+    },
+    {
+      "day": 5,
+      "type": "court_voids_emergency_rights_restriction",
+      "actor": "Federal courts"
+    },
+    {
+      "day": 10,
+      "type": "regional_assembly_approves_emergency",
+      "actor": "Regional Assembly"
+    }
+  ]
+}

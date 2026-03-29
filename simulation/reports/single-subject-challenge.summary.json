@@ -1,0 +1,49 @@
+{
+  "scenario_id": "single-subject-challenge",
+  "title": "Omnibus Bill \u2014 Pre-Enactment Single-Subject Challenge",
+  "source_file": "simulation/scenarios/single-subject-challenge.json",
+  "status": "stress_point_found",
+  "triggered_provisions": [
+    "Article II Section 10.7",
+    "Article II Section 10.7A"
+  ],
+  "metrics": {
+    "satisfied_obligations": 1,
+    "failed_obligations": 0,
+    "unresolved_obligations": 0,
+    "violations": 1,
+    "bottlenecks": 0,
+    "timeline_entries": 7
+  },
+  "violations": [
+    {
+      "id": "single_subject_violation",
+      "category": "legislative_deadline_failure",
+      "actor": "Congress",
+      "source": "Article II Section 10.7",
+      "severity": "medium",
+      "day": 0,
+      "summary": "Congress passes an omnibus bill bundling unrelated subjects \u2014 defense appropriations, immigration rules, and drug pricing \u2014 in a single bill, in violation of the single-subject rule of Article II Section 10.7."
+    }
+  ],
+  "bottlenecks": [],
+  "open_duties": [],
+  "satisfied_duties": [
+    {
+      "actor": "Supreme Court",
+      "duty": "rule on the single-subject challenge within 15 days",
+      "closed_day": 12,
+      "outcome": "ruled within the 15-day window, found a single-subject violation, and returned the bill to the originating chamber for severance or redrafting",
+      "source": "Article II Section 10.7A"
+    }
+  ],
+  "failed_duties": [],
+  "notes": [],
+  "ai_summary": {
+    "primary_violation": "Congress passes an omnibus bill bundling unrelated subjects \u2014 defense appropriations, immigration rules, and drug pricing \u2014 in a single bill, in violation of the single-subject rule of Article II Section 10.7.",
+    "primary_bottleneck": null,
+    "primary_open_duty": null,
+    "system_risk": "legislative_delay",
+    "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+  }
+}

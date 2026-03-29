@@ -24,6 +24,8 @@ The President declares a national emergency after coordinated civil unrest in th
 - Any suspension of rights must satisfy the separate constitutional process for temporary suspension.
 - Absolute rights and the emergency-protected rights floor remain intact.
 - A missed renewal or review step causes the suspension to lapse.
+- Upon lapse for nonapproval, a public judicial certificate should issue, but the lapse occurs automatically even if notice is delayed.
+- Continued enforcement after lapse is void unless independently authorized by ordinary law.
 - A geographically limited emergency cannot justify unlimited nationwide restrictions without the required finding.
 
 ## Stress Focus
@@ -37,7 +39,7 @@ The President declares a national emergency after coordinated civil unrest in th
 Pass if:
 
 - The text clearly distinguishes emergency declaration from rights suspension.
-- The review institution and expiration rule are easy to identify.
+- The review institution, automatic lapse rule, and post-lapse notice/consequence are easy to identify.
 
 Fail if:
 

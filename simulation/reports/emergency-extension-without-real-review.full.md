@@ -9,6 +9,7 @@ Scenario: emergency-extension-without-real-review.json
 - Day 1: RESOLUTION - President submitted the emergency declaration to the Regional Assembly. [Article III Section 5.4]
 - Day 31: BOTTLENECK - Regional Assembly failed to approve or reject the emergency declaration by day 30 under Article III Section 5.4. [Article III Section 5.4]
 - Day 31: OUTCOME - Emergency declaration lapses unless independently authorized ordinary law remains in effect. [Article III Section 5.4]
+- Day 31: OUTCOME - The Chief Justice issues a public certificate of lapse, and any continued enforcement of emergency-dependent measures is constitutionally void unless separately authorized by ordinary law. [Article III Section 5.4]
 - Day 90: OUTCOME - Emergency restrictions lapse absent the required constitutional renewal and cannot rest on internal executive memoranda alone. [Article III Section 5.4 and Article V Section 1.3]
 - Day 90: VIOLATION - President attempts to continue emergency restrictions without the constitutionally required outside review. [Article III Section 5.4 and Article V Section 1.3]
 

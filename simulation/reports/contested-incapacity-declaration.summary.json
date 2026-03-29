@@ -1,0 +1,52 @@
+{
+  "scenario_id": "contested-incapacity-declaration",
+  "title": "Contested Presidential Incapacity \u2014 Congress Misses Resolution Deadline",
+  "source_file": "simulation/scenarios/contested-incapacity-declaration.json",
+  "status": "stress_point_found",
+  "triggered_provisions": [
+    "Article III Section 11.2",
+    "Article III Section 11.3"
+  ],
+  "metrics": {
+    "satisfied_obligations": 0,
+    "failed_obligations": 1,
+    "unresolved_obligations": 0,
+    "violations": 0,
+    "bottlenecks": 1,
+    "timeline_entries": 7
+  },
+  "violations": [],
+  "bottlenecks": [
+    {
+      "id": "congress_resolve_incapacity_contest",
+      "category": "legislative_deadline_failure",
+      "actor": "Congress",
+      "source": "Article III Section 11.3",
+      "severity": "high",
+      "day": 25,
+      "deadline_day": 23,
+      "summary": "Congress failed to resolve the contested incapacity determination by 2/3 vote of both chambers by day 23 under Article III Section 11.3."
+    }
+  ],
+  "open_duties": [],
+  "satisfied_duties": [],
+  "failed_duties": [
+    {
+      "actor": "Congress",
+      "duty": "resolve the contested incapacity determination by 2/3 vote of both chambers",
+      "deadline_day": 23,
+      "closed_day": 25,
+      "outcome": "Congress failed to resolve the contested incapacity determination by 2/3 vote of both chambers by day 23 under Article III Section 11.3.",
+      "source": "Article III Section 11.3",
+      "severity": "high"
+    }
+  ],
+  "notes": [],
+  "ai_summary": {
+    "primary_violation": null,
+    "primary_bottleneck": "Congress failed to resolve the contested incapacity determination by 2/3 vote of both chambers by day 23 under Article III Section 11.3.",
+    "primary_open_duty": null,
+    "system_risk": "legislative_delay",
+    "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+  }
+}

@@ -12,6 +12,7 @@ Scenario: emergency-near-election.json
 - Day 4: RESOLUTION - Federal courts blocked the election restriction on strict-scrutiny review. [Article I Section 3.4]
 - Day 31: BOTTLENECK - Regional Assembly failed to approve or reject the emergency declaration by day 30 under Article III Section 5.4. [Article III Section 5.4]
 - Day 31: OUTCOME - Emergency declaration lapses unless independently authorized ordinary law remains in effect. [Article III Section 5.4]
+- Day 31: OUTCOME - The Chief Justice issues a public certificate of lapse, and any continued enforcement of emergency-dependent measures is constitutionally void unless separately authorized by ordinary law. [Article III Section 5.4]
 
 ## Triggered Provisions
 - Article I Section 3
