@@ -81,83 +81,9 @@ This principle preserves the strengths of the current order while tightening the
 
 ---
 
-## Recommended Optimized Order
-
-### Option A — Conservative Reorder
-
-This is the best balance between better logic and limited disruption.
-
-1. Preamble
-2. Article I — The Electoral System
-3. Article II — The Legislature
-4. Article III — The Executive
-5. Article IV — The Judiciary
-6. Article V — Rights and Freedoms
-7. Article VI — Democratic Integrity
-8. Article VII — Federalism and the States
-9. Article VIII — Amendments
-10. Article IX — Constitutional Organs
-11. Article X — Federal Agencies and the Administrative State
-12. Article XI — War Powers and National Security
-13. Article XIV — Foreign Policy and National Security
-14. Article XII — Campaign Finance and Political Money
-15. Article XIII — Social, Economic, and Affirmative Rights
-16. Article XV — Government Ethics
-
-### Why Option A is better than the current order
-
-- Articles XI and XIV become a clean security and external-affairs pair.
-- Campaign finance moves closer to democracy-protection and anti-corruption themes, even if it remains late in the document.
-- Article XIII remains after the state-structure and anti-abuse articles, which helps preserve the sense that positive-rights commitments are built on a functioning constitutional order.
-- Article XV remains last as a constitutional backstop on officeholding, corruption, and public integrity.
-
-### Weakness of Option A
-
-- Campaign finance still sits later than its substance might justify.
-- Ethics still reads somewhat like a concluding code of office rather than a core structural article.
-
----
-
-## Stronger Alternative
-
-### Option B — Thematic Reorder
-
-This option is cleaner conceptually but creates more disruption.
-
-1. Preamble
-2. Article I — The Electoral System
-3. Article II — The Legislature
-4. Article III — The Executive
-5. Article IV — The Judiciary
-6. Article V — Rights and Freedoms
-7. Article VI — Democratic Integrity
-8. Article XII — Campaign Finance and Political Money
-9. Article XV — Government Ethics
-10. Article VII — Federalism and the States
-11. Article VIII — Amendments
-12. Article IX — Constitutional Organs
-13. Article X — Federal Agencies and the Administrative State
-14. Article XI — War Powers and National Security
-15. Article XIV — Foreign Policy and National Security
-16. Article XIII — Social, Economic, and Affirmative Rights
-
-### Why Option B is attractive
-
-- Democratic structure, anti-subversion, campaign finance, and ethics form one coherent democracy-and-integrity block.
-- The security articles remain paired.
-- Social and economic rights appear after the machinery of state and before no remaining structural surprises.
-
-### Why Option B is risky
-
-- It would require broader renumbering and cross-reference cleanup.
-- It changes the reader’s expectation more substantially.
-- Article XIII at the end may make affirmative-rights commitments feel more appendixed than intended.
-
----
-
 ## Updated Recommendation
 
-If the draft is going to be reordered only once, Option B is the better end-state.
+If the draft is going to be reordered only once, the expanded thematic reorder below is the better end-state.
 
 Why:
 
@@ -168,8 +94,8 @@ Why:
 
 What changes relative to the earlier recommendation:
 
-- Option A is still the lower-risk reorder.
-- Option B is now preferred because this project is trying to converge toward a near-final architecture rather than optimize incrementally.
+- A conservative reorder would still be lower-risk.
+- The expanded thematic reorder is preferred because this project is trying to converge toward a near-final architecture rather than optimize incrementally.
 - If the renumbering cost will be paid only once, it is better to pay it for the strongest long-term structure.
 
 What remains true:
@@ -183,9 +109,9 @@ What remains true:
 
 Only reorder once all of the following are true:
 
-- Article IX simplification pass is complete
-- Article XIII tightening pass is complete
-- Article XI adversarial simulation work is complete
+- Constitutional Organs simplification pass is complete
+- Social and Economic Rights tightening pass is complete
+- War Powers adversarial simulation work is complete
 - campaign-finance compression is settled
 - final cross-reference audit is ready to run
 
@@ -193,7 +119,7 @@ Without those conditions, reordering would create extra churn while the draft is
 
 ---
 
-## Plan B Execution Plan
+## Implementation-Ready Plan
 
 This is the recommended one-time reordering plan.
 
@@ -208,10 +134,10 @@ This is the recommended one-time reordering plan.
 7. Article VI — Democratic Integrity
 8. Article VII — Campaign Finance and Political Money
 9. Article VIII — Government Ethics
-10. Article IX — Federalism and the States
-11. Article X — Amendments
-12. Article XI — Constitutional Organs
-13. Article XII — Federal Agencies and the Administrative State
+10. Article IX — Citizenship and National Membership
+11. Article X — Federalism and the States
+12. Article XI — Amendments
+13. Article XII — Constitutional Organs
 14. Article XIII — Federal Agencies and the Administrative State
 15. Article XIV — Taxation and Public Revenue
 16. Article XV — Budget, Public Credit, and Appropriations
@@ -224,7 +150,7 @@ This is the recommended one-time reordering plan.
 
 - Articles I through VI establish democratic legitimacy, institutions, rights, and democratic self-defense.
 - Campaign finance and ethics then complete the democracy-and-integrity architecture before the draft moves into territorial and amendment structure.
-- Federalism and amendments come before the oversight and administrative-state articles they help frame.
+- Citizenship, federalism, and amendments then define membership, territorial structure, and rules of constitutional change.
 - Constitutional Organs and Federal Agencies then describe the operating machinery of the state.
 - Taxation and budget architecture follow as the state's general fiscal framework.
 - War powers and foreign policy are then paired as the national-security block.
@@ -233,21 +159,7 @@ This is the recommended one-time reordering plan.
 
 ### Renumber Mapping
 
-If Plan B is adopted without the proposed new articles, the current operative articles map as follows:
-
-- current VII becomes IX
-- current VIII becomes X
-- current IX becomes XI
-- current X becomes XII
-- current XI becomes XIII
-- current XII becomes VII
-- current XIII becomes XV
-- current XV becomes VIII
-- current XIV remains XIV
-
-Articles I through VI remain unchanged.
-
-If the proposed new articles are adopted as well, the resulting architecture should be treated as a fresh end-state rather than a simple renumber of the current draft. In that case:
+If the proposed new articles are adopted, the current operative articles map as follows:
 
 - current VII becomes X
 - current VIII becomes XI
@@ -263,28 +175,33 @@ If the proposed new articles are adopted as well, the resulting architecture sho
 - proposed budget article becomes XV
 - proposed ratification article becomes XIX
 
+Articles I through VI remain unchanged.
+
 ### Execution Sequence
 
 1. Freeze substantive article drafting for one dedicated restructuring pass.
-2. Rename article files to their new Roman numerals and titles.
-3. Update the master table in [CONSTITUTION.md](/Users/chris/Documents/GitHub/The-Constitution/CONSTITUTION.md).
-4. Update every internal article-number and section-reference citation in the article files.
-5. Update design-note references in:
+2. Create a parallel working tree, preferably `articles-next/`, rather than editing the live [articles](/Users/chris/Documents/GitHub/The-Constitution/articles) directory in place.
+3. Populate `articles-next/` with the reordered article files and their new Roman numerals and titles.
+4. Update the master table in [CONSTITUTION.md](/Users/chris/Documents/GitHub/The-Constitution/CONSTITUTION.md) against the new tree only after the reordered files are internally stable.
+5. Update every internal article-number and section-reference citation in the files under `articles-next/`.
+6. Update design-note references in:
    - [design-notes/scorecard.md](/Users/chris/Documents/GitHub/The-Constitution/design-notes/scorecard.md)
    - [design-notes/improvement-queue.md](/Users/chris/Documents/GitHub/The-Constitution/design-notes/improvement-queue.md)
    - [design-notes/rationale.md](/Users/chris/Documents/GitHub/The-Constitution/design-notes/rationale.md)
    - [design-notes/comparison.md](/Users/chris/Documents/GitHub/The-Constitution/design-notes/comparison.md)
    - [design-notes/simulation-findings.md](/Users/chris/Documents/GitHub/The-Constitution/design-notes/simulation-findings.md)
-6. Update stress-test references and the crosswalk:
+7. Update stress-test references and the crosswalk:
    - [stress-tests/README.md](/Users/chris/Documents/GitHub/The-Constitution/stress-tests/README.md)
    - [stress-tests/CROSSWALK.md](/Users/chris/Documents/GitHub/The-Constitution/stress-tests/CROSSWALK.md)
    - scenario prose files that mention article numbers
-7. Update simulation scenario descriptions and any hardcoded article references in:
+8. Update simulation scenario descriptions and any hardcoded article references in:
    - [simulation/run.py](/Users/chris/Documents/GitHub/The-Constitution/simulation/run.py)
    - [simulation/scenarios](/Users/chris/Documents/GitHub/The-Constitution/simulation/scenarios)
-8. Regenerate simulation outputs and reports.
-9. Run a full cross-reference audit.
-10. Recheck scorecard language and improvement priorities against the new architecture.
+9. Regenerate simulation outputs and reports.
+10. Run a full cross-reference audit against the proposed new tree.
+11. Recheck scorecard language and improvement priorities against the new architecture.
+12. Only after all checks pass, rename the current [articles](/Users/chris/Documents/GitHub/The-Constitution/articles) directory to a backup name, rename `articles-next/` to `articles/`, and run one final verification pass.
+13. Delete the backup directory only after the post-swap verification is clean.
 
 ### Validation Checklist
 
@@ -295,18 +212,22 @@ Before accepting Plan B, verify all of the following:
 - simulation outputs cite the new article numbers correctly
 - stress tests still map cleanly to the right articles
 - the reader can understand the draft’s logic faster than under the old order
+- the `articles-next/` tree is internally consistent before it replaces the live `articles/` tree
+- the post-swap `articles/` tree still passes the same reference and simulation checks
 
 ### Risks
 
 - The renumber mapping is large enough to create silent reference drift if done partially.
 - Article XV moving to VIII will create the most reader surprise because ethics will become an early constitutional article.
 - Article XIII moving to XV is logical under Plan B, but some readers may expect social and economic rights to appear earlier.
+- In-place renaming would make it too easy to leave the repo in a half-migrated state.
 
 ### Risk Mitigation
 
+- Build the reordered structure in `articles-next/` and keep the current `articles/` directory untouched until verification is complete.
 - Do the reorder in one branch and one commit series, not gradually.
 - Treat the renumber as a pure architecture pass before any new substantive edits.
-- Run all text-audit and simulation-regeneration steps before merging the reorder.
+- Run all text-audit and simulation-regeneration steps before swapping directories and again immediately after the swap.
 
 ---
 
