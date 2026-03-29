@@ -292,6 +292,10 @@ The following actions require supermajority votes as specified:
 
   (d) Any person with a direct legal interest in the outcome of a constitutionally required vote that has not been scheduled by the applicable deadline may seek a writ of mandamus in the United States District Court for the District of Columbia compelling the scheduling. Jurisdiction is exclusive to that court to prevent conflicting orders from multiple tribunals. The court shall rule within 5 days. Enforcement of the writ shall proceed through the court's ordinary contempt and enforcement powers.
 
+  (e) A constitutionally required vote may not be defeated, delayed, or rendered impossible by adjournment, recess, failure to adopt a rule, refusal to recognize a motion, or suspension of ordinary legislative business. No internal rule, calendar practice, or leadership decision may extend the constitutional deadline.
+
+  (f) Each chamber shall maintain by rule procedures sufficient to reconvene promptly, establish a public quorum, and hold any constitutionally required vote while in recess or during disruption of ordinary business. If those procedures are absent, suspended, or unavailable when a constitutional deadline approaches, the chamber shall meet under its last valid rules insofar as necessary to hold the required vote and record it publicly.
+
 **15A.2** This Section applies to all constitutionally required votes including but not limited to: emergency declaration approval under Article III Section 5.4; state representation suspension votes under Article VII Section 1.6(c); war powers authorization under Article XI Section 1.5(b); and impeachment votes under Article III Section 10.2A. It does not apply to ordinary legislation, appropriations, or other discretionary legislative business.
 
 **15A.3** This Section does not predetermine the outcome of any required vote. It requires only that the vote be held.

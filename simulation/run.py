@@ -626,6 +626,34 @@ def handle_event(state: SimulationState, event: dict[str, Any]) -> None:
             "Article II Section 15A.1(b)",
         )
 
+    elif event_type == "regional_assembly_enters_recess_to_avoid_vote":
+        state.provisions.update({"Article II Section 15A", "Article III Section 5.4"})
+        message = (
+            "Regional Assembly leadership attempts to run out the emergency-approval deadline by entering recess "
+            "instead of holding the constitutionally required vote."
+        )
+        state.add_violation(
+            "ra_recess_evasion",
+            "legislative_deadline_failure",
+            "Regional Assembly leadership",
+            message,
+            "Article II Section 15A.1(e)-(f) and Article III Section 5.4",
+            day,
+            severity="high",
+        )
+        state.add_entry(
+            day,
+            "outcome",
+            "Recess does not suspend the day-30 emergency deadline. The Regional Assembly remains constitutionally obligated to reconvene under Article II Section 15A.1(f) and hold the vote.",
+            "Article II Section 15A.1(e)-(f) and Article III Section 5.4",
+        )
+        state.add_entry(
+            day,
+            "outcome",
+            "Any member of the Regional Assembly may file a mandatory scheduling motion, and any affected party may seek mandamus in the U.S. District Court for the District of Columbia if recess is used to block the vote.",
+            "Article II Section 15A.1(b) and (d)",
+        )
+
     elif event_type == "section_15a_scheduling_motion_filed":
         state.provisions.add("Article II Section 15A")
         state.add_entry(

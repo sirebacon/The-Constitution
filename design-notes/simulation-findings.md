@@ -388,3 +388,152 @@ The Constitution now appears more resilient to officer unavailability than to ch
    War-powers enforcement looks structurally stronger and may not need further revision unless new scenarios expose Regional Assembly noncompliance.
 4. [articles/IV-judiciary.md](/Users/chris/Documents/GitHub/The-Constitution/articles/IV-judiciary.md)
    Judicial continuity now looks sufficient as a general fallback rule unless new simulations reveal a more specific judicial hierarchy problem.
+
+## 2026-03-28 Expanded 28-Scenario Review
+
+### Inputs Reviewed
+
+- [aggregate.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/aggregate.json)
+- the full 28-scenario report set under [simulation/reports](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports)
+
+### Aggregate Read
+
+- `28` scenarios were run.
+- `26` scenarios were marked `stress_point_found`.
+- Aggregate totals were `25` violations, `13` bottlenecks, and `0` unresolved obligations.
+- The dominant risk pattern was `executive_defiance` (`16` scenarios).
+- The dominant bottleneck category was `legislative_deadline_failure` (`7` scenarios), followed by `missed_deadline` (`5` scenarios).
+
+### Main Results
+
+#### 1. The draft is now much stronger on closure than on compliance
+
+Source: [aggregate.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/aggregate.json)
+
+- The system is no longer failing because duties are left open-ended.
+- The remaining failures are now overwhelmingly concrete violations and missed deadlines.
+
+Assessment:
+This is a materially better constitutional posture than earlier reviews. The draft now usually specifies what should happen; the stress comes from actors refusing to comply or chambers missing deadlines.
+
+#### 2. Executive defiance is the dominant recurring abuse pattern
+
+Sources:
+- [simulation/reports/unauthorized-military-action.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/unauthorized-military-action.summary.json)
+- [simulation/reports/president-obstructs-investigation.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/president-obstructs-investigation.summary.json)
+- [simulation/reports/court-order-defied.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/court-order-defied.summary.json)
+- [simulation/reports/congressional-subpoena-defiance.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/congressional-subpoena-defiance.summary.json)
+
+- The Constitution repeatedly identifies executive abuse clearly.
+- The remaining difficulty is timely institutional follow-through after abuse occurs.
+
+Assessment:
+The expanded suite reinforces that the draft is increasingly good at naming unlawful conduct, but still depends on other institutions acting quickly enough after that conduct is identified.
+
+#### 3. Emergency review remains the clearest recurring legislative bottleneck
+
+Sources:
+- [simulation/reports/emergency-near-election.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/emergency-near-election.summary.json)
+- [simulation/reports/emergency-extension-without-real-review.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/emergency-extension-without-real-review.summary.json)
+- [simulation/reports/ra-blocks-emergency-vote.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/ra-blocks-emergency-vote.summary.json)
+
+- The emergency lapse and notice rules now read clearly.
+- The Regional Assembly review deadline still appears as a repeated failure point.
+- The new emergency-vote-blocking scenario confirms that leadership obstruction of emergency review is now explicitly visible in the system.
+
+Assessment:
+Article III emergency review remains the single clearest place where legislative nonperformance still dominates the simulation results.
+
+#### 4. War-powers and presidential-obstruction flows are much stronger than before
+
+Sources:
+- [simulation/reports/unauthorized-military-action.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/unauthorized-military-action.summary.json)
+- [simulation/reports/president-obstructs-investigation.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/president-obstructs-investigation.summary.json)
+- [simulation/reports/pmc-substitution.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/pmc-substitution.summary.json)
+
+- The House can still miss mandatory votes.
+- But the fallback now routes certified charges onward to the Regional Assembly instead of stopping there.
+- The draft now resists circumvention through PMCs and similar workarounds more clearly than before.
+
+Assessment:
+These remain stressful scenarios, but the constitutional structure now fails later and more narrowly, which is an improvement.
+
+#### 5. Article VII is materially improved
+
+Source: [simulation/reports/state-democratic-backsliding.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/state-democratic-backsliding.summary.json)
+
+- Congress still misses the initial remedy deadline.
+- But federal election administration now snaps in immediately and the suspension sequence follows.
+
+Assessment:
+The state-democratic-backsliding pathway still records a bottleneck, but it is much less dangerous than it was in the earlier drafts because the practical election-protection fallback is now immediate.
+
+#### 6. Several scenarios now function mainly as confirmation tests, not design-failure tests
+
+Sources:
+- [simulation/reports/domestic-deployment-against-protest.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/domestic-deployment-against-protest.summary.json)
+- [simulation/reports/foreign-cyber-election-crisis.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/foreign-cyber-election-crisis.summary.json)
+- [simulation/reports/post-presidential-prosecution.full.md](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/post-presidential-prosecution.full.md)
+- [simulation/reports/presidential-succession-gap.full.md](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/presidential-succession-gap.full.md)
+
+- Some of the expanded scenarios primarily show that the Constitution identifies abuse or resolves the issue cleanly.
+- Two scenarios in the aggregate currently register `risk: none`, which is a useful sign that parts of the system are now behaving as intended under stress.
+
+Assessment:
+This is evidence that the simulator is no longer merely finding missing machinery everywhere; it is also confirming where the draft is already solid.
+
+### Structural Pattern
+
+The 28-scenario run suggests the draft has entered a more mature phase:
+
+- constitutional answers are usually present
+- fallback rules now exist in most of the previously weak areas
+- the remaining problems are concentrated in compliance and timing rather than missing structure
+
+The Constitution appears increasingly robust against ambiguity and increasingly exposed to political nonperformance.
+
+### Top Three Revision Targets
+
+1. [articles/III-executive.md](/Users/chris/Documents/GitHub/The-Constitution/articles/III-executive.md)
+   Emergency review is still the clearest recurring legislative bottleneck.
+2. [articles/II-legislature.md](/Users/chris/Documents/GitHub/The-Constitution/articles/II-legislature.md)
+   The expanded scenario set makes a stronger case for a more general treatment of mandatory-session and deadline-vote continuity.
+3. [articles/XI-war-powers-national-security.md](/Users/chris/Documents/GitHub/The-Constitution/articles/XI-war-powers-national-security.md)
+   War-powers is much stronger than before but remains the hardest executive-defiance stress case in the suite.
+
+## 2026-03-28 Legislative Continuity Patch
+
+### Text Changes Made
+
+- [articles/II-legislature.md](/Users/chris/Documents/GitHub/The-Constitution/articles/II-legislature.md)
+- [articles/III-executive.md](/Users/chris/Documents/GitHub/The-Constitution/articles/III-executive.md)
+
+### Purpose
+
+- Prevent constitutionally required votes from being evaded through recess, adjournment, suspended chamber rules, or collapse of ordinary floor business.
+- Make Article III emergency review depend on the same general continuity rule rather than a narrower recess-only instruction.
+
+### Amendments
+
+#### 1. Article II now supplies a general continuity floor for deadline votes
+
+Source: [articles/II-legislature.md](/Users/chris/Documents/GitHub/The-Constitution/articles/II-legislature.md)
+
+- Constitutionally required votes may not be delayed or defeated by adjournment, recess, failure to adopt rules, refusal to recognize motions, or suspension of ordinary legislative business.
+- Internal chamber practice cannot extend a constitutional deadline.
+- Each chamber must keep procedures sufficient to reconvene promptly, form a public quorum, and hold the required vote.
+- If those procedures fail, the chamber must fall back to its last valid rules insofar as needed to hold and record the vote.
+
+Assessment:
+This addresses the simulation pattern at the institutional level without constitutionalizing a full internal rulebook.
+
+#### 2. Article III emergency review now expressly incorporates the continuity rule
+
+Source: [articles/III-executive.md](/Users/chris/Documents/GitHub/The-Constitution/articles/III-executive.md)
+
+- The Regional Assembly emergency-approval vote now invokes both the mandatory scheduling and continuity rules of Article II Section 15A.
+- Recess, adjournment, or internal procedural failure cannot suspend the 30-day deadline.
+- Failure to issue the lapse certificate does not preserve the emergency.
+
+Assessment:
+This makes the emergency lapse mechanism more operational and reduces the chance that institutional nonperformance is mistaken for continued emergency authority.

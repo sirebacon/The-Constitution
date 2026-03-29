@@ -1,0 +1,48 @@
+{
+  "id": "ra-recess-evasion",
+  "title": "Regional Assembly Recess Evasion Fails Under Section 15A Continuity",
+  "description": "The President declares a national emergency and submits it to the Regional Assembly on time. Rather than hold the constitutionally required approval vote, Regional Assembly leadership adjourns into recess on day 10 in an effort to run out the 30-day clock. A member files a Section 15A mandatory scheduling motion; the presiding officer still fails to bring it forward while the chamber is in recess. An affected party then files for mandamus in the U.S. District Court for the District of Columbia. The court orders the Regional Assembly to reconvene and hold the emergency vote, and the chamber approves the declaration before day 30. This scenario tests whether Article II Section 15A.1(e)-(f) and Article III Section 5.4 defeat recess-based deadline evasion.",
+  "events": [
+    {
+      "day": 0,
+      "type": "national_emergency_declared",
+      "actor": "President",
+      "details": {}
+    },
+    {
+      "day": 1,
+      "type": "emergency_submitted_to_regional_assembly",
+      "actor": "President"
+    },
+    {
+      "day": 10,
+      "type": "regional_assembly_enters_recess_to_avoid_vote",
+      "actor": "Regional Assembly leadership"
+    },
+    {
+      "day": 11,
+      "type": "section_15a_scheduling_motion_filed",
+      "actor": "Regional Assembly member"
+    },
+    {
+      "day": 14,
+      "type": "presiding_officer_fails_15a_motion",
+      "actor": "Regional Assembly presiding officer"
+    },
+    {
+      "day": 15,
+      "type": "mandamus_filed_dc_district_court",
+      "actor": "Affected party"
+    },
+    {
+      "day": 19,
+      "type": "court_orders_emergency_scheduling",
+      "actor": "U.S. District Court for D.C."
+    },
+    {
+      "day": 23,
+      "type": "regional_assembly_approves_emergency",
+      "actor": "Regional Assembly"
+    }
+  ]
+}
