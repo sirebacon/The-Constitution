@@ -36,11 +36,13 @@ Establishes the constitutional principles governing borrowing, appropriations, f
 
 **3.1** No money shall be drawn from the Treasury except pursuant to appropriations made by law.
 
-**3.2** Congress shall provide for timely appropriations. If it fails to do so, this Constitution or laws enacted under it may provide an automatic continuing funding rule sufficient to prevent government shutdown and default.
+**3.2** Congress shall pass appropriations legislation for the coming fiscal year by September 30. If appropriations legislation has not been enacted by October 1, an automatic continuing resolution at 98 percent of the prior year's enacted funding levels takes effect and remains in force until appropriations legislation is enacted. The government may not shut down for lack of appropriations.
 
-**3.3** No officer may alter appropriated funding ratios, withhold lawfully appropriated funds, or selectively implement appropriations for partisan, personal, or unlawful reasons.
+**3.3** The automatic continuing resolution is self-executing. It requires no further legislative or executive action to take effect, may not be reinterpreted or altered by executive action, and may not fund new programs, expand existing programs, or begin capital projects not already underway.
 
-**3.4** Revenue and appropriations measures must originate in the House of Representatives as provided in Article II, but the fiscal principles and continuity guarantees of this Article bind both chambers and every officer of the United States.
+**3.4** No officer may alter appropriated funding ratios, withhold lawfully appropriated funds, or selectively implement appropriations for partisan, personal, or unlawful reasons. Any such action is subject to immediate judicial review on an expedited basis, with standing held by any member of Congress and by any person or entity directly affected.
+
+**3.5** Revenue and appropriations measures must originate in the House of Representatives as provided in Article II, but the fiscal principles and continuity guarantees of this Article bind both chambers and every officer of the United States.
 
 ---
 
@@ -50,9 +52,13 @@ Establishes the constitutional principles governing borrowing, appropriations, f
 
 **4.2** Off-budget devices, concealed liabilities, and functionally equivalent evasions are prohibited.
 
-**4.3** Congress may by law require long-term fiscal projections, performance reporting, and independent fiscal analysis sufficient to support informed budgeting.
+**4.3** Congress may not appropriate funds in excess of projected revenues plus authorized borrowing except by a 3/5 vote of both chambers declaring a fiscal emergency. Such a declaration must state the specific reason, scale, and expected duration of the exceptional financing.
 
-**4.4** No classification label, emergency designation, or accounting device may be used to evade the disclosure, audit, or law-governed spending requirements of this Constitution.
+**4.4** No appropriations bill may receive a final vote before the independent fiscal analysis body established by this Article has published its fiscal analysis, except in a constitutionally sufficient fiscal emergency defined by law. Any emergency exception must be publicly certified under standards established by law and may not be used to evade ordinary review for convenience or partisan advantage.
+
+**4.5** Congress may by law require long-term fiscal projections and program-performance reporting sufficient to support informed budgeting and democratic accountability.
+
+**4.6** No classification label, emergency designation, or accounting device may be used to evade the disclosure, audit, or law-governed spending requirements of this Constitution.
 
 ---
 
@@ -72,19 +78,27 @@ Establishes the constitutional principles governing borrowing, appropriations, f
 
 **6.1** Classified spending is an exception to ordinary transparency, not a separate fiscal order exempt from constitutional accountability.
 
-**6.2** No classified spending program may be concealed from lawful congressional oversight.
+**6.2** No classified spending program may be concealed from the congressional committees and oversight structures designated by law to supervise it. A program whose existence or budget cannot be disclosed to the constitutionally authorized oversight process may not be funded.
 
-**6.3** Congress may by law require independent audit, sunset, public aggregate disclosure, and declassification review of classified spending consistent with national security and democratic accountability.
+**6.3** The Accountability Commission shall maintain an appropriately cleared audit function to review classified spending for legality, authorized purpose, and material waste or fraud, and shall report its findings to Congress in classified form and to the public in unclassified summary form to the maximum extent consistent with national security.
 
-**6.4** Classified appropriations may not be used for domestic political manipulation, unlawful surveillance, or evasion of ordinary constitutional limits.
+**6.4** The total dollar amount appropriated for classified programs in each fiscal year shall be publicly disclosed, even if individual program line items remain classified.
 
-**6.5** Any officer who knowingly conceals classified spending from the constitutionally authorized oversight process, or who spends classified funds for an unlawful domestic political purpose, is subject to removal, disqualification, and prosecution as provided elsewhere in this Constitution.
+**6.5** Classified appropriations may not be used for domestic political manipulation, unlawful surveillance, influence operations targeting domestic political actors on the basis of protected political activity, or evasion of ordinary constitutional limits.
+
+**6.6** No classified spending program may operate for more than five years without explicit reauthorization by Congress following review of necessity, legality, and compliance with its authorized scope. A program not reauthorized within that period lapses automatically.
+
+**6.7** Classified programs shall undergo periodic declassification review under standards established by law. Continued classification must be justified anew at each review; prior classification alone is insufficient.
+
+**6.8** No person shall be prosecuted, penalized, or retaliated against for disclosing through lawful secure channels to Congress, the Accountability Commission, or a federal court evidence that a classified program is operating illegally, unconstitutionally, or in violation of this Article. Congress shall establish secure channels for such disclosures by law.
+
+**6.9** Any officer who knowingly conceals classified spending from the constitutionally authorized oversight process, or who spends classified funds for an unlawful domestic political purpose, is subject to removal, disqualification, and prosecution as provided elsewhere in this Constitution.
 
 ---
 
 ## Section 7 — Long-Term Responsibility and Emergency Finance
 
-**7.1** Congress may authorize deficit spending and emergency finance where necessary, but must do so under public law and with procedures sufficient to identify the reason, scale, and expected duration of such measures.
+**7.1** Congress may authorize deficit spending and emergency finance where necessary, but only under public law and with procedures sufficient to identify the reason, scale, and expected duration of such measures.
 
 **7.2** The Constitution does not require balanced budgets in all circumstances, but it does require that borrowing and spending remain law-governed, transparent, and reviewable.
 

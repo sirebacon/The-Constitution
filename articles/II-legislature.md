@@ -195,48 +195,17 @@ Both chambers, acting together, shall have the power to:
 
 **12.1** The President shall submit a proposed federal budget to Congress no later than the first Monday of February each year.
 
-**12.2** Congress shall pass appropriations legislation for the coming fiscal year by September 30. If appropriations legislation has not been enacted by October 1, a continuing resolution at the prior year's funding levels automatically takes effect and remains in force until appropriations legislation is enacted. The government may not shut down for lack of appropriations. The automatic continuing resolution is self-executing upon the conditions of this Section being met and requires no further legislative or executive action to take effect; it may not be re-interpreted, modified in application, or altered in its funding ratios by executive order, agency guidance, or any other executive action. Any attempt by the executive branch to alter funding ratios, withhold appropriated funds, or selectively apply funding levels under an automatic continuing resolution is subject to immediate judicial review on an expedited basis, with standing held by any member of Congress and by any person or entity whose funding is affected.
+**12.2** Congress shall consider and enact revenue, appropriations, and budget legislation on a timetable sufficient to preserve continuity of lawful government and democratic control of public finance.
 
-**12.3** The automatic continuing resolution in Section 12.2 shall fund all government operations at 98% of the prior year's enacted levels. It shall not fund new programs, expand existing programs, or carry out capital projects not already underway.
-
-**12.4** Congress may not appropriate funds in excess of projected revenues plus authorized debt, except by a 3/5 vote of both chambers declaring a fiscal emergency. Such a declaration must state the specific reason and expected duration of the deficit spending.
-
-**12.5** An independent Congressional Budget Office shall provide non-partisan analysis of all legislation with significant fiscal impact. No appropriations bill may be voted upon before the CBO has published its fiscal analysis, except in a declared fiscal emergency. For purposes of this Section, a "fiscal emergency" permitting bypass of CBO analysis is limited to: (i) an imminent default on an obligation of the United States government; (ii) a natural disaster requiring an immediate appropriation to protect life and property; or (iii) a declared war requiring immediate defense appropriations. A fiscal emergency under this Section must be certified in writing by the CBO Director before any bill is brought to a vote under the emergency exception; if the CBO Director declines to certify, the emergency exception is unavailable and normal CBO analysis procedures apply.
-
-**12.6 — Abolition of the debt ceiling.** There shall be no separate legislative limit on the total debt of the United States. Congressional authorization of spending constitutes implicit authorization of whatever borrowing is necessary to fund that spending. The practice of requiring a separate vote to authorize borrowing already committed to by prior appropriation is abolished. Fiscal discipline shall be exercised through the appropriations process, not through threats of default on obligations already incurred.
-
-**12.7 — Prohibition on off-budget spending.** All federal expenditures, obligations, and liabilities shall appear in the official federal budget regardless of how they are characterized. No spending may be designated as "emergency," "supplemental," "off-budget," or by any other label that would exclude it from the official budget totals or from the CBO analysis required by Section 12.5. All spending is on-budget spending.
-
-**12.8 — Mandatory public publication.** The full federal budget, as submitted by the President and as enacted by Congress, shall be published in complete, line-item detail within five days of submission or enactment respectively. Publication shall be in a publicly accessible, machine-readable, and searchable format. No portion of the unclassified budget may be withheld from public publication. A summary written in plain language shall be published simultaneously.
-
-**12.9 — Long-term fiscal projections.** The President's annual budget submission shall include ten-year and thirty-year fiscal projections prepared by the CBO. These projections shall model the fiscal impact of current policy trajectories and shall identify any projected unsustainable debt paths. Congress shall not be required to act on these projections but may not suppress or alter them before publication.
-
-**12.10 — Performance reporting.** Every federal program receiving appropriations above a threshold set by Congress shall publish an annual performance report within 90 days of the close of the fiscal year. Performance reports shall state the program's stated objectives, the metrics used to measure progress, the results achieved, and the cost per unit of outcome where measurable. Performance reports shall be published publicly alongside the subsequent year's budget request. Congress shall not appropriate funds to a program that has failed to file a required performance report.
+**12.3** Article XIV governs the constitutional principles of taxation and public revenue. Article XV governs borrowing, appropriations, debt, budget continuity, budget integrity, fiscal transparency, and classified spending. This Article allocates the legislative role in those processes.
 
 ---
 
 ## Section 12A — Classified Spending
 
-**12A.1 — Default of transparency.** Transparency in government spending is the constitutional default. Classified spending is a narrow, justified exception to that default — not a separate parallel system of finance beyond democratic oversight.
+**12A.1** Congressional control of classified appropriations remains subject to Article XV. No secrecy designation may displace the House origination rule, lawful appropriations, or the oversight powers of Congress.
 
-**12A.2 — Congressional oversight is absolute.** No classified spending program shall be withheld from the relevant oversight committees of Congress. The executive branch may not create, fund, or operate any program whose existence, budget, or activities are concealed from the congressional committees designated by law to oversee them. A program whose budget cannot be disclosed to Congress may not be funded. Concealment of a classified spending program from authorized congressional oversight committees is grounds for impeachment of the responsible official. The Inspector General of the relevant agency shall report any known concealment, or credible allegation of concealment, to the Accountability Commission within 30 days of becoming aware of it; failure to report is itself a violation of this Section.
-
-**12A.3 — Independent audit.** The Accountability Commission (Article XII) shall maintain a division of auditors holding appropriate security clearances. This division shall conduct annual audits of all classified spending programs and shall certify to Congress and the public that classified funds were spent lawfully, within authorized purposes, and without material waste or fraud. The audit findings shall be published in classified form to the relevant congressional committees and in unclassified summary form to the public.
-
-**12A.4 — Public aggregate disclosure.** The total dollar amount appropriated for classified programs in each fiscal year shall be publicly disclosed, even if individual program line items remain classified. Citizens have the right to know the total scale of classified spending as a share of the federal budget. No mechanism may be used to conceal the aggregate classified total from public knowledge.
-
-**12A.5 — Prohibition on domestic political use.** No classified appropriation may be used to:
-  (a) Conduct surveillance, influence operations, or intelligence activities targeting domestic political organizations, candidates, elected officials, journalists, or citizens on the basis of their political views or associations
-  (b) Fund activities designed to influence domestic elections or public opinion on domestic political matters
-  (c) Circumvent the requirements of any law applicable to unclassified government activities
-
-Any classified program found to be operating in violation of this Section shall be immediately terminated, and its responsible officers shall be referred to the Accountability Commission for prosecution.
-
-**12A.6 — Sunset and reauthorization.** No classified spending program may operate for more than five years without explicit reauthorization by Congress. Reauthorization requires a formal review by the relevant oversight committees and a finding that the program remains necessary, lawful, and operating within its authorized scope. A program that has not been reauthorized within five years of its last authorization lapses automatically.
-
-**12A.7 — Declassification review.** Every classified program shall undergo a mandatory declassification review every five years. The review shall be conducted by the Accountability Commission in consultation with the relevant agency. At the conclusion of each review, the maximum amount of information that can be declassified without genuine harm to national security shall be released publicly. Continued classification must be justified anew at each review — prior classification does not automatically justify continued classification.
-
-**12A.8 — Whistleblower protection.** No person shall be prosecuted, penalized, or retaliated against for disclosing to the Accountability Commission, to a congressional oversight committee, or to a federal court evidence that a classified program is operating illegally, unconstitutionally, or in violation of Section 12A.5. Protection under this Section applies to the disclosure of illegal activity within classified programs, not to the disclosure of lawfully classified operational details. Congress shall establish by law a secure channel through which such disclosures may be made.
+**12A.2** Congress shall maintain oversight structures, secure reporting channels, and review procedures sufficient to carry out the classified-spending safeguards established in Article XV.
 
 ---
 
@@ -252,7 +221,6 @@ The following actions require supermajority votes as specified:
 | Ratify a treaty | 2/3 of Regional Assembly |
 | Declare war against a non-aggressor | 2/3 of both chambers |
 | Propose a constitutional amendment | 2/3 of both chambers |
-| Authorize deficit spending | 3/5 of both chambers |
 | Override an Electoral Commission ruling | Not permitted |
 | Remove a Constitutional Organ commissioner | 2/3 of both chambers plus judicial finding of cause |
 

@@ -32,6 +32,8 @@ Establishes the constitutional principles governing taxation and public revenue.
 
 **2.5** No tax may be imposed or structured as a bill of attainder, a disguised punishment directed at named persons, or a retaliatory instrument against protected speech, lawful political opposition, journalism, or disfavored minorities.
 
+**2.6** Public revenue measures must be read together with Article XV, which governs borrowing, appropriations, budget continuity, and expenditure. No revenue rule may be construed to authorize concealed finance, off-budget evasion, or expenditure outside the law-governed fiscal system established by that Article.
+
 ---
 
 ## Section 3 — Revenue Integrity
@@ -57,6 +59,8 @@ Establishes the constitutional principles governing taxation and public revenue.
 **4.4** Revenue laws may distinguish among persons, entities, transactions, and forms of property only on grounds publicly stated in law and consistent with equal protection, legitimate public purpose, and fair administration.
 
 **4.5** Congress may authorize emergency revenue measures only by law, for publicly stated purposes, and for limited duration. No emergency revenue measure may be continued indefinitely by executive action alone.
+
+**4.6** Revenue administration must remain sufficiently transparent that the public can understand the effective structure of taxation, including major tax expenditures and comparable revenue preferences, subject to narrow privacy protections consistent with this Constitution.
 
 ---
 
