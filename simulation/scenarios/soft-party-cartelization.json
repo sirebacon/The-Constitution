@@ -1,0 +1,23 @@
+{
+  "id": "soft-party-cartelization",
+  "title": "Dominant Parties Coordinate Soft Cartelization Without Formal Ballot Exclusion",
+  "description": "Dominant parties and affiliated intermediaries coordinate to deny qualified new entrants access to debates, data feeds, and routine election-information channels while preserving formal ballot access. The scenario tests whether the current Constitution has a clear direct remedy for soft cartelization short of explicit ballot denial.",
+  "articles_tested": ["Article I", "Article V", "Article VII"],
+  "provisions_tested": ["Article I Section 9.4", "Article V Section 2.5", "Article VII"],
+  "events": [
+    {
+      "day": 1,
+      "type": "dominant_parties_collude_to_exclude_debates_and_infrastructure",
+      "actor": "Dominant parties and affiliated intermediaries",
+      "details": {
+        "exclusion": "debates, data feeds, and routine election-information channels"
+      }
+    },
+    {
+      "day": 18,
+      "type": "electoral_commission_finds_no_clear_remedy_for_soft_party_cartelization",
+      "actor": "Electoral Commission",
+      "details": {}
+    }
+  ]
+}

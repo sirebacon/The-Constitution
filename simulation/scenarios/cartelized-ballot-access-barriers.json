@@ -1,0 +1,23 @@
+{
+  "id": "cartelized-ballot-access-barriers",
+  "title": "Dominant Parties Impose Cartelized Ballot-Access Barriers",
+  "description": "State election authorities, under pressure from dominant parties, impose extraordinary signature and filing barriers targeted at new parties and independent entrants. The scenario tests whether Article I's party-qualification rules and anti-cartel protections give courts a direct basis to void the barriers.",
+  "articles_tested": ["Article I", "Article V"],
+  "provisions_tested": ["Article I Section 9.1", "Article I Section 9.4", "Article V Section 2.5"],
+  "events": [
+    {
+      "day": 1,
+      "type": "cartelized_ballot_access_barriers_imposed",
+      "actor": "State election authorities and dominant parties",
+      "details": {
+        "barrier": "extraordinary signature and filing barriers targeted at new parties and independent entrants"
+      }
+    },
+    {
+      "day": 16,
+      "type": "court_voids_cartelized_ballot_access_barriers",
+      "actor": "Federal courts",
+      "details": {}
+    }
+  ]
+}

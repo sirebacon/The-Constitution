@@ -1,0 +1,50 @@
+{
+  "scenario_id": "soft-party-cartelization",
+  "title": "Dominant Parties Coordinate Soft Cartelization Without Formal Ballot Exclusion",
+  "source_file": "simulation/scenarios/soft-party-cartelization.json",
+  "status": "stress_point_found",
+  "triggered_provisions": [
+    "Article I Section 9.4",
+    "Article V Section 2.5",
+    "Article VII"
+  ],
+  "metrics": {
+    "satisfied_obligations": 1,
+    "failed_obligations": 0,
+    "unresolved_obligations": 0,
+    "violations": 1,
+    "bottlenecks": 0,
+    "timeline_entries": 5
+  },
+  "violations": [
+    {
+      "id": "party_cartel_soft_exclusion",
+      "category": "structural_gap",
+      "actor": "Dominant parties and affiliated intermediaries",
+      "source": "Article I Section 9.4; Article V Section 2.5; Article VII",
+      "severity": "high",
+      "day": 1,
+      "summary": "Dominant parties and affiliated intermediaries coordinate to deny qualified new entrants access to debates, data feeds, and routine election-information channels while preserving formal ballot access. The current Constitution clearly protects party formation and ballot qualification, but it is less explicit about cartelized exclusion from the softer infrastructure of meaningful contestation once ballot access itself is achieved."
+    }
+  ],
+  "bottlenecks": [],
+  "open_duties": [],
+  "satisfied_duties": [
+    {
+      "actor": "Electoral Commission",
+      "duty": "determine whether existing constitutional and statutory authority is sufficient to remedy coordinated exclusion of qualified entrants from core campaign infrastructure short of ballot denial",
+      "closed_day": 18,
+      "outcome": "found no clear direct constitutional remedy because the exclusion preserved formal ballot access and operated through party-controlled or quasi-private infrastructure rather than through explicit state ballot denial",
+      "source": "Article I Section 9.4; Article V Section 2.5; Article VII"
+    }
+  ],
+  "failed_duties": [],
+  "notes": [],
+  "ai_summary": {
+    "primary_violation": "Dominant parties and affiliated intermediaries coordinate to deny qualified new entrants access to debates, data feeds, and routine election-information channels while preserving formal ballot access. The current Constitution clearly protects party formation and ballot qualification, but it is less explicit about cartelized exclusion from the softer infrastructure of meaningful contestation once ballot access itself is achieved.",
+    "primary_bottleneck": null,
+    "primary_open_duty": null,
+    "system_risk": "institutional_stress",
+    "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+  }
+}

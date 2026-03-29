@@ -26,6 +26,7 @@ Use this order when deciding what to work on:
 | 4 | ~~Article IX citizenship scenarios~~ **PARTIAL** | §5.2 loss-of-citizenship rule tightened with explicit procedural floor; overseas assignment and naturalized-candidate scenarios already exist | Sensitive-office restriction and proof-dispute scenarios still unbuilt | Clear outcomes in remaining hostile membership and eligibility cases |
 | 5 | ~~Article II draft-discipline cleanup~~ **DONE** | §16 compressed: drafting note deleted, auto-referral machinery removed, investigation-clock mechanics removed, §16.8 stated as principle; discipline 7.8 → 8.2 | §15A.4 remains dense but simulation-validated | No further action needed unless a later pass surfaces more compressible detail |
 | 6 | Private platform and infrastructure chokepoint power | First-pass coverage is now built | State-coerced private suppression is reachable, but purely private coordinated cutoff of lawful political actors still lacks a clear direct constitutional remedy | Decide whether this should remain a statutory problem, a constitutional gap, or a flagged residual risk with further scenario pressure |
+| 7 | Party-system degradation without formal dictatorship | First-pass coverage is now built | Overt ballot-access cartelization is reachable, but soft cartelization through debates, data feeds, and routine campaign infrastructure still lacks a clear direct remedy | Decide whether soft cartelization should be addressed constitutionally, statutorily, or treated as a flagged residual risk requiring more scenario pressure |
 
 See also: [presidential-system-hardening.md](presidential-system-hardening.md)
 
@@ -50,7 +51,10 @@ These are the main weaknesses of the draft in its current state. They are narrow
 5. Private chokepoint exclusion is now a confirmed under-tested gap.
    The first new scenarios show that coercive government pressure on platforms is constitutionally reachable, but synchronized private cutoff by dominant civic intermediaries still lacks a clear direct remedy absent state action or foreign control.
 
-6. A final cross-article edge-case pass is still needed.
+6. Soft party-system cartelization is now a confirmed under-tested gap.
+   The Constitution is stronger against formal ballot-access exclusion than against dominant parties preserving legal competition in form while degrading it in practice through softer infrastructure exclusion.
+
+7. A final cross-article edge-case pass is still needed.
    The remaining risk is less contradiction than boundary drift: emergency overlap, ethics/agency overlap, continuity overlap, and enforcement-path complexity.
 
 ---

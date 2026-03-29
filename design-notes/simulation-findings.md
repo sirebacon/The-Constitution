@@ -67,6 +67,44 @@ Source:
 Assessment:
 This is a narrower but real second-order gap. The Constitution already has transparency hooks here, but not yet a clean urgent remedy once manipulative visibility decisions are underway.
 
+## 2026-03-29 Party-System Degradation Coverage Pass
+
+### Inputs Reviewed
+
+- [aggregate.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/aggregate.json)
+- [cartelized-ballot-access-barriers.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/cartelized-ballot-access-barriers.summary.json)
+- [soft-party-cartelization.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/soft-party-cartelization.summary.json)
+
+### Aggregate Read
+
+- Scenario count rises from `57` to `59`.
+- `unresolved_obligations` remains `0`.
+- The new party-system coverage follows the same pattern as the private-chokepoint work: overt exclusion is better covered than softer contestation distortion.
+
+### Main Results
+
+#### 1. Overt ballot-access cartelization is already reachable
+
+Source:
+- [cartelized-ballot-access-barriers.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/cartelized-ballot-access-barriers.summary.json)
+
+- State election authorities, under pressure from dominant parties, impose extraordinary barriers targeted at new entrants.
+- Federal courts can void the barriers under Article I Section 9.1 and Section 9.4, together with associational protection.
+
+Assessment:
+The draft already has a meaningful constitutional foothold against overt ballot-access cartelization by dominant parties and cooperating state authorities.
+
+#### 2. Soft cartelization remains under-addressed
+
+Source:
+- [soft-party-cartelization.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/soft-party-cartelization.summary.json)
+
+- Dominant parties preserve formal ballot access but coordinate exclusion from debates, data feeds, and routine campaign-information infrastructure.
+- The Electoral Commission finds no clear direct constitutional remedy because the exclusion operates through softer institutional and quasi-private channels rather than explicit ballot denial.
+
+Assessment:
+This is now a confirmed under-tested gap rather than a speculative concern. The Constitution is stronger against formal exclusion than against coordinated soft cartelization that preserves legal competition in form while degrading it in practice.
+
 ## 2026-03-29 Oligarchic-Resilience Coverage Pass
 
 ### Inputs Reviewed

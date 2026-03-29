@@ -1,15 +1,15 @@
 {
-  "scenario_count": 57,
-  "stress_point_scenarios": 55,
+  "scenario_count": 59,
+  "stress_point_scenarios": 57,
   "totals": {
-    "violations": 48,
+    "violations": 50,
     "bottlenecks": 30,
     "unresolved_obligations": 0
   },
   "risk_pattern_counts": [
     {
       "risk": "institutional_stress",
-      "count": 28
+      "count": 30
     },
     {
       "risk": "executive_defiance",
@@ -73,7 +73,7 @@
     },
     {
       "category": "structural_gap",
-      "count": 2
+      "count": 3
     },
     {
       "category": "anti_subversion",
@@ -110,6 +110,10 @@
     {
       "category": "membership_exclusion",
       "count": 1
+    },
+    {
+      "category": "party_cartelization",
+      "count": 1
     }
   ],
   "top_triggered_provisions": [
@@ -142,6 +146,10 @@
       "count": 3
     },
     {
+      "provision": "Article I Section 9.4",
+      "count": 2
+    },
+    {
       "provision": "Article I election administration provisions",
       "count": 2
     },
@@ -166,11 +174,19 @@
       "count": 2
     },
     {
+      "provision": "Article V Section 2.5",
+      "count": 2
+    },
+    {
       "provision": "Article V Section 5.3",
       "count": 2
     },
     {
       "provision": "Article VI Section 7.5",
+      "count": 2
+    },
+    {
+      "provision": "Article VII",
       "count": 2
     },
     {
@@ -203,6 +219,10 @@
     },
     {
       "provision": "Article I",
+      "count": 1
+    },
+    {
+      "provision": "Article I Section 9.1",
       "count": 1
     },
     {
@@ -402,10 +422,6 @@
       "count": 1
     },
     {
-      "provision": "Article VII",
-      "count": 1
-    },
-    {
       "provision": "Article VIII Section 1.13",
       "count": 1
     },
@@ -599,6 +615,56 @@
         "primary_bottleneck": null,
         "primary_open_duty": null,
         "system_risk": "executive_defiance",
+        "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+      }
+    },
+    {
+      "scenario_id": "cartelized-ballot-access-barriers",
+      "title": "Dominant Parties Impose Cartelized Ballot-Access Barriers",
+      "source_file": "simulation/scenarios/cartelized-ballot-access-barriers.json",
+      "status": "stress_point_found",
+      "triggered_provisions": [
+        "Article I Section 9.1",
+        "Article I Section 9.4",
+        "Article V Section 2.5"
+      ],
+      "metrics": {
+        "satisfied_obligations": 1,
+        "failed_obligations": 0,
+        "unresolved_obligations": 0,
+        "violations": 1,
+        "bottlenecks": 0,
+        "timeline_entries": 5
+      },
+      "violations": [
+        {
+          "id": "cartelized_ballot_access_barriers",
+          "category": "party_cartelization",
+          "actor": "State election authorities and dominant parties",
+          "source": "Article I Section 9.1 and Section 9.4; Article V Section 2.5",
+          "severity": "high",
+          "day": 1,
+          "summary": "State election authorities, under pressure from the dominant parties, impose extraordinary signature and filing barriers targeted at new parties and independent entrants in a manner designed to keep new parties and independent entrants off the ballot. Article I Section 9.1 creates a constitutional qualification floor for party ballot access, and Section 9.4 bars prohibiting party formation or operation on ideological or political grounds."
+        }
+      ],
+      "bottlenecks": [],
+      "open_duties": [],
+      "satisfied_duties": [
+        {
+          "actor": "Federal courts",
+          "duty": "void ballot-access barriers that functionally defeat the constitutional party-qualification rules or discriminate against new entrants for partisan advantage",
+          "closed_day": 16,
+          "outcome": "voided the cartelized ballot-access barriers and ordered ballot qualification under the constitutional party-qualification rules",
+          "source": "Article I Section 9.1 and Section 9.4; Article V Section 2.5"
+        }
+      ],
+      "failed_duties": [],
+      "notes": [],
+      "ai_summary": {
+        "primary_violation": "State election authorities, under pressure from the dominant parties, impose extraordinary signature and filing barriers targeted at new parties and independent entrants in a manner designed to keep new parties and independent entrants off the ballot. Article I Section 9.1 creates a constitutional qualification floor for party ballot access, and Section 9.4 bars prohibiting party formation or operation on ideological or political grounds.",
+        "primary_bottleneck": null,
+        "primary_open_duty": null,
+        "system_risk": "institutional_stress",
         "recommended_focus": "review bottlenecks, violations, and unresolved duties"
       }
     },
@@ -3683,6 +3749,56 @@
         "primary_bottleneck": null,
         "primary_open_duty": null,
         "system_risk": "legislative_delay",
+        "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+      }
+    },
+    {
+      "scenario_id": "soft-party-cartelization",
+      "title": "Dominant Parties Coordinate Soft Cartelization Without Formal Ballot Exclusion",
+      "source_file": "simulation/scenarios/soft-party-cartelization.json",
+      "status": "stress_point_found",
+      "triggered_provisions": [
+        "Article I Section 9.4",
+        "Article V Section 2.5",
+        "Article VII"
+      ],
+      "metrics": {
+        "satisfied_obligations": 1,
+        "failed_obligations": 0,
+        "unresolved_obligations": 0,
+        "violations": 1,
+        "bottlenecks": 0,
+        "timeline_entries": 5
+      },
+      "violations": [
+        {
+          "id": "party_cartel_soft_exclusion",
+          "category": "structural_gap",
+          "actor": "Dominant parties and affiliated intermediaries",
+          "source": "Article I Section 9.4; Article V Section 2.5; Article VII",
+          "severity": "high",
+          "day": 1,
+          "summary": "Dominant parties and affiliated intermediaries coordinate to deny qualified new entrants access to debates, data feeds, and routine election-information channels while preserving formal ballot access. The current Constitution clearly protects party formation and ballot qualification, but it is less explicit about cartelized exclusion from the softer infrastructure of meaningful contestation once ballot access itself is achieved."
+        }
+      ],
+      "bottlenecks": [],
+      "open_duties": [],
+      "satisfied_duties": [
+        {
+          "actor": "Electoral Commission",
+          "duty": "determine whether existing constitutional and statutory authority is sufficient to remedy coordinated exclusion of qualified entrants from core campaign infrastructure short of ballot denial",
+          "closed_day": 18,
+          "outcome": "found no clear direct constitutional remedy because the exclusion preserved formal ballot access and operated through party-controlled or quasi-private infrastructure rather than through explicit state ballot denial",
+          "source": "Article I Section 9.4; Article V Section 2.5; Article VII"
+        }
+      ],
+      "failed_duties": [],
+      "notes": [],
+      "ai_summary": {
+        "primary_violation": "Dominant parties and affiliated intermediaries coordinate to deny qualified new entrants access to debates, data feeds, and routine election-information channels while preserving formal ballot access. The current Constitution clearly protects party formation and ballot qualification, but it is less explicit about cartelized exclusion from the softer infrastructure of meaningful contestation once ballot access itself is achieved.",
+        "primary_bottleneck": null,
+        "primary_open_duty": null,
+        "system_risk": "institutional_stress",
         "recommended_focus": "review bottlenecks, violations, and unresolved duties"
       }
     },

@@ -1,0 +1,50 @@
+{
+  "scenario_id": "cartelized-ballot-access-barriers",
+  "title": "Dominant Parties Impose Cartelized Ballot-Access Barriers",
+  "source_file": "simulation/scenarios/cartelized-ballot-access-barriers.json",
+  "status": "stress_point_found",
+  "triggered_provisions": [
+    "Article I Section 9.1",
+    "Article I Section 9.4",
+    "Article V Section 2.5"
+  ],
+  "metrics": {
+    "satisfied_obligations": 1,
+    "failed_obligations": 0,
+    "unresolved_obligations": 0,
+    "violations": 1,
+    "bottlenecks": 0,
+    "timeline_entries": 5
+  },
+  "violations": [
+    {
+      "id": "cartelized_ballot_access_barriers",
+      "category": "party_cartelization",
+      "actor": "State election authorities and dominant parties",
+      "source": "Article I Section 9.1 and Section 9.4; Article V Section 2.5",
+      "severity": "high",
+      "day": 1,
+      "summary": "State election authorities, under pressure from the dominant parties, impose extraordinary signature and filing barriers targeted at new parties and independent entrants in a manner designed to keep new parties and independent entrants off the ballot. Article I Section 9.1 creates a constitutional qualification floor for party ballot access, and Section 9.4 bars prohibiting party formation or operation on ideological or political grounds."
+    }
+  ],
+  "bottlenecks": [],
+  "open_duties": [],
+  "satisfied_duties": [
+    {
+      "actor": "Federal courts",
+      "duty": "void ballot-access barriers that functionally defeat the constitutional party-qualification rules or discriminate against new entrants for partisan advantage",
+      "closed_day": 16,
+      "outcome": "voided the cartelized ballot-access barriers and ordered ballot qualification under the constitutional party-qualification rules",
+      "source": "Article I Section 9.1 and Section 9.4; Article V Section 2.5"
+    }
+  ],
+  "failed_duties": [],
+  "notes": [],
+  "ai_summary": {
+    "primary_violation": "State election authorities, under pressure from the dominant parties, impose extraordinary signature and filing barriers targeted at new parties and independent entrants in a manner designed to keep new parties and independent entrants off the ballot. Article I Section 9.1 creates a constitutional qualification floor for party ballot access, and Section 9.4 bars prohibiting party formation or operation on ideological or political grounds.",
+    "primary_bottleneck": null,
+    "primary_open_duty": null,
+    "system_risk": "institutional_stress",
+    "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+  }
+}
