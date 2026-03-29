@@ -77,11 +77,11 @@ In short, the draft is comparatively stronger at declaring a breach than at forc
 
 ### Best Revision Targets
 
-1. [articles/XI-war-powers-national-security.md](/Users/chris/Documents/GitHub/The-Constitution/articles/XI-war-powers-national-security.md)
+1. [XVI-war-powers-national-security.md](/Users/chris/Documents/GitHub/The-Constitution/articles/XVI-war-powers-national-security.md)
    Tighten the post-withdrawal enforcement sequence after presidential defiance.
 2. [articles/III-executive.md](/Users/chris/Documents/GitHub/The-Constitution/articles/III-executive.md)
    Make the consequence of legislative nonapproval of an emergency explicit and automatic if that is the intended rule.
-3. [articles/VII-federalism.md](/Users/chris/Documents/GitHub/The-Constitution/articles/VII-federalism.md)
+3. [X-federalism.md](/Users/chris/Documents/GitHub/The-Constitution/articles/X-federalism.md)
    Shorten the path from missed congressional remedy to representation consequences.
 4. [articles/III-executive.md](/Users/chris/Documents/GitHub/The-Constitution/articles/III-executive.md)
    Consider whether presidential obstruction should trigger a firmer constitutional timetable beyond a House duty to consider impeachment.
@@ -189,11 +189,11 @@ The system is therefore maturing in diagnostic clarity, but its strongest remain
 
 ### Best Revision Targets
 
-1. [articles/XI-war-powers-national-security.md](/Users/chris/Documents/GitHub/The-Constitution/articles/XI-war-powers-national-security.md)
+1. [XVI-war-powers-national-security.md](/Users/chris/Documents/GitHub/The-Constitution/articles/XVI-war-powers-national-security.md)
    Tighten the post-withdrawal enforcement sequence after presidential defiance.
 2. [articles/III-executive.md](/Users/chris/Documents/GitHub/The-Constitution/articles/III-executive.md)
    Make emergency nonapproval consequences even more automatic and operational if the draft intends immediate lapse.
-3. [articles/VII-federalism.md](/Users/chris/Documents/GitHub/The-Constitution/articles/VII-federalism.md)
+3. [X-federalism.md](/Users/chris/Documents/GitHub/The-Constitution/articles/X-federalism.md)
    Shorten the path from missed congressional remedy to representation consequences.
 4. [articles/III-executive.md](/Users/chris/Documents/GitHub/The-Constitution/articles/III-executive.md)
    Consider whether presidential obstruction should trigger something firmer than a House duty to consider impeachment.
@@ -297,9 +297,9 @@ This is a better failure mode than the earlier one because it is narrower and ea
    The House fallback now works better; further changes should be cautious and avoid overcorrecting into automatic removal.
 2. [articles/III-executive.md](/Users/chris/Documents/GitHub/The-Constitution/articles/III-executive.md)
    Emergency review remains the clearest unresolved legislative bottleneck.
-3. [articles/XI-war-powers-national-security.md](/Users/chris/Documents/GitHub/The-Constitution/articles/XI-war-powers-national-security.md)
+3. [XVI-war-powers-national-security.md](/Users/chris/Documents/GitHub/The-Constitution/articles/XVI-war-powers-national-security.md)
    War-powers closure is materially improved and may now be good enough for a holding position pending more scenarios.
-4. [articles/VII-federalism.md](/Users/chris/Documents/GitHub/The-Constitution/articles/VII-federalism.md)
+4. [X-federalism.md](/Users/chris/Documents/GitHub/The-Constitution/articles/X-federalism.md)
    The Article VII revision is working better; remaining work is now more about remedy speed than structural collapse.
 
 ## 2026-03-28 Judicial Continuity Review
@@ -384,7 +384,7 @@ The Constitution now appears more resilient to officer unavailability than to ch
    Emergency review remains the clearest recurring legislative bottleneck.
 2. [articles/II-legislature.md](/Users/chris/Documents/GitHub/The-Constitution/articles/II-legislature.md)
    Consider whether any general continuity or mandatory-session rules should be added for constitutionally required deadline votes.
-3. [articles/XI-war-powers-national-security.md](/Users/chris/Documents/GitHub/The-Constitution/articles/XI-war-powers-national-security.md)
+3. [XVI-war-powers-national-security.md](/Users/chris/Documents/GitHub/The-Constitution/articles/XVI-war-powers-national-security.md)
    War-powers enforcement looks structurally stronger and may not need further revision unless new scenarios expose Regional Assembly noncompliance.
 4. [articles/IV-judiciary.md](/Users/chris/Documents/GitHub/The-Constitution/articles/IV-judiciary.md)
    Judicial continuity now looks sufficient as a general fallback rule unless new simulations reveal a more specific judicial hierarchy problem.
@@ -498,15 +498,15 @@ The Constitution appears increasingly robust against ambiguity and increasingly 
    Emergency review is still the clearest recurring legislative bottleneck.
 2. [articles/II-legislature.md](/Users/chris/Documents/GitHub/The-Constitution/articles/II-legislature.md)
    The expanded scenario set makes a stronger case for a more general treatment of mandatory-session and deadline-vote continuity.
-3. [articles/XI-war-powers-national-security.md](/Users/chris/Documents/GitHub/The-Constitution/articles/XI-war-powers-national-security.md)
+3. [XVI-war-powers-national-security.md](/Users/chris/Documents/GitHub/The-Constitution/articles/XVI-war-powers-national-security.md)
    War-powers is much stronger than before but remains the hardest executive-defiance stress case in the suite.
 
 ## 2026-03-28 Legislative Continuity Patch
 
 ### Text Changes Made
 
-- [articles/II-legislature.md](/Users/chris/Documents/GitHub/The-Constitution/articles/II-legislature.md)
-- [articles/III-executive.md](/Users/chris/Documents/GitHub/The-Constitution/articles/III-executive.md)
+- [II-legislature.md](/Users/chris/Documents/GitHub/The-Constitution/articles/II-legislature.md)
+- [III-executive.md](/Users/chris/Documents/GitHub/The-Constitution/articles/III-executive.md)
 
 ### Purpose
 
@@ -517,7 +517,7 @@ The Constitution appears increasingly robust against ambiguity and increasingly 
 
 #### 1. Article II now supplies a general continuity floor for deadline votes
 
-Source: [articles/II-legislature.md](/Users/chris/Documents/GitHub/The-Constitution/articles/II-legislature.md)
+Source: [II-legislature.md](/Users/chris/Documents/GitHub/The-Constitution/articles/II-legislature.md)
 
 - Constitutionally required votes may not be delayed or defeated by adjournment, recess, failure to adopt rules, refusal to recognize motions, or suspension of ordinary legislative business.
 - Internal chamber practice cannot extend a constitutional deadline.

@@ -56,7 +56,7 @@ Establishes the structure, composition, powers, and procedures of the federal le
 
 ## Section 4 — Geographic Regions
 
-The states of the United States are organized into the following eight geographic regions for purposes of Regional Assembly apportionment. Regional boundaries may be altered only by constitutional amendment under Article XI, Track 1.
+The states of the United States are organized into the following eight geographic regions for purposes of Regional Assembly apportionment. Regional boundaries may be altered only by constitutional amendment under Article VIII, Track 1.
 
 | Region | States |
 |--------|--------|
@@ -107,7 +107,7 @@ The states of the United States are organized into the following eight geographi
 
 **6.1** Members of Congress shall receive compensation set by law. No law increasing congressional compensation shall take effect until after an election of the House of Representatives has intervened.
 
-**6.2** Members of Congress shall file complete financial disclosures as required by Article VIII and by the Accountability Commission (Article XII).
+**6.2** Members of Congress shall file complete financial disclosures as required by Article XV and by the Accountability Commission (Article IX).
 
 **6.3** No member of Congress may hold a financial interest in any matter before their chamber, vote on any legislation from which they stand to derive direct personal financial benefit, or accept gifts, payments, or compensation from any person or entity seeking to influence legislation, beyond the compensation established by law.
 
@@ -131,7 +131,7 @@ The Regional Assembly alone shall have the power to:
 
 **(a) Try impeachments.** When the House has approved articles of impeachment, the Regional Assembly shall conduct the trial. Conviction requires a 2/3 vote. Upon conviction, the officer is removed from office and may be disqualified from future office by a subsequent majority vote. Criminal prosecution may follow separately.
 
-**(b) Confirm appointments.** The Regional Assembly shall confirm or reject presidential nominations for: Supreme Court justices, federal appellate judges, Cabinet members, ambassadors, the heads of independent agencies, and members of the Constitutional Organs (Article XII). Confirmation requires a majority vote. A nomination not acted upon within 90 days of submission is deemed confirmed.
+**(b) Confirm appointments.** The Regional Assembly shall confirm or reject presidential nominations for: Supreme Court justices, federal appellate judges, Cabinet members, ambassadors, the heads of independent agencies, and members of the Constitutional Organs (Article IX). Confirmation requires a majority vote. A nomination not acted upon within 90 days of submission is deemed confirmed.
 
 **(c) Ratify treaties.** The Regional Assembly shall ratify treaties negotiated by the President. Ratification requires a 2/3 vote. An executive agreement that would, if enacted as law, require legislation must be submitted as a treaty.
 
@@ -147,7 +147,7 @@ Both chambers, acting together, shall have the power to:
 
 **(b) Override a presidential veto.** A bill returned by the President with objections may be enacted over the veto by a 2/3 vote of both chambers.
 
-**(c) Propose constitutional amendments.** As provided in Article XI.
+**(c) Propose constitutional amendments.** As provided in Article VIII.
 
 **(d) Authorize all other federal powers** enumerated in this Constitution, including taxation, borrowing, regulation of commerce, establishment of federal courts below the Supreme Court, and all laws necessary and proper to carry out these powers.
 
@@ -221,7 +221,7 @@ Both chambers, acting together, shall have the power to:
 
 **12A.2 — Congressional oversight is absolute.** No classified spending program shall be withheld from the relevant oversight committees of Congress. The executive branch may not create, fund, or operate any program whose existence, budget, or activities are concealed from the congressional committees designated by law to oversee them. A program whose budget cannot be disclosed to Congress may not be funded. Concealment of a classified spending program from authorized congressional oversight committees is grounds for impeachment of the responsible official. The Inspector General of the relevant agency shall report any known concealment, or credible allegation of concealment, to the Accountability Commission within 30 days of becoming aware of it; failure to report is itself a violation of this Section.
 
-**12A.3 — Independent audit.** The Accountability Commission (Article XII) shall maintain a division of auditors holding appropriate security clearances. This division shall conduct annual audits of all classified spending programs and shall certify to Congress and the public that classified funds were spent lawfully, within authorized purposes, and without material waste or fraud. The audit findings shall be published in classified form to the relevant congressional committees and in unclassified summary form to the public.
+**12A.3 — Independent audit.** The Accountability Commission (Article IX) shall maintain a division of auditors holding appropriate security clearances. This division shall conduct annual audits of all classified spending programs and shall certify to Congress and the public that classified funds were spent lawfully, within authorized purposes, and without material waste or fraud. The audit findings shall be published in classified form to the relevant congressional committees and in unclassified summary form to the public.
 
 **12A.4 — Public aggregate disclosure.** The total dollar amount appropriated for classified programs in each fiscal year shall be publicly disclosed, even if individual program line items remain classified. Citizens have the right to know the total scale of classified spending as a share of the federal budget. No mechanism may be used to conceal the aggregate classified total from public knowledge.
 
@@ -262,7 +262,7 @@ The following actions require supermajority votes as specified:
 
 **14.1** Each chamber shall maintain an Ethics Committee responsible for investigating alleged violations of ethics rules by members of that chamber.
 
-**14.2** The Accountability Commission (Article XII) shall have independent jurisdiction to investigate federal officials, including members of Congress, for corruption, bribery, and abuse of office. The Accountability Commission's investigations supersede the jurisdiction of the relevant chamber's Ethics Committee in cases involving criminal conduct.
+**14.2** The Accountability Commission (Article IX) shall have independent jurisdiction to investigate federal officials, including members of Congress, for corruption, bribery, and abuse of office. The Accountability Commission's investigations supersede the jurisdiction of the relevant chamber's Ethics Committee in cases involving criminal conduct.
 
 **14.3** Members of Congress shall be subject to the financial disclosure, blind trust, and revolving door provisions of Article VI.
 
@@ -296,7 +296,7 @@ The following actions require supermajority votes as specified:
 
   (f) Each chamber shall maintain by rule procedures sufficient to reconvene promptly, establish a public quorum, and hold any constitutionally required vote while in recess or during disruption of ordinary business. If those procedures are absent, suspended, or unavailable when a constitutional deadline approaches, the chamber shall meet under its last valid rules insofar as necessary to hold the required vote and record it publicly.
 
-**15A.2** This Section applies to all constitutionally required votes including but not limited to: emergency declaration approval under Article III Section 5.4; state representation suspension votes under Article X Section 1.6(c); war powers authorization under Article XVI Section 1.5(b); and impeachment votes under Article III Section 10.2A. It does not apply to ordinary legislation, appropriations, or other discretionary legislative business.
+**15A.2** This Section applies to all constitutionally required votes including but not limited to: emergency declaration approval under Article III Section 5.4; state representation suspension votes under Article VII Section 1.6(c); war powers authorization under Article XI Section 1.5(b); and impeachment votes under Article III Section 10.2A. It does not apply to ordinary legislation, appropriations, or other discretionary legislative business.
 
 **15A.3** This Section does not predetermine the outcome of any required vote. It requires only that the vote be held.
 
@@ -321,7 +321,7 @@ A subpoena issued under this Section is enforceable by federal courts. The follo
   (c) A person who fails to comply with a court enforcement order within 15 days is in contempt of court and subject to civil detention and daily fines until compliance
   (d) Civil detention under this Section is enforced by the United States Marshals Service and does not require action by the Department of Justice
 
-The expedited enforcement process of this Section may not be delayed, stayed, or extended by interlocutory appeal except upon a showing to the appellate court that the subpoena is facially unconstitutional. A claim of executive privilege does not automatically stay enforcement — it must be adjudicated under Section 16.6 on the same expedited timeline. Enforcement orders issued under subsection (b) are self-executing upon issuance; the United States Marshals Service shall enforce them without awaiting further direction from the Department of Justice or any other executive agency. A Marshal who refuses or fails to enforce a valid subpoena enforcement order without lawful justification is subject to removal from office. If the Department of Justice refuses to support enforcement, the Accountability Commission (Article XII) is independently empowered to enforce congressional subpoenas through the same process, including by direct application to any United States District Court.
+The expedited enforcement process of this Section may not be delayed, stayed, or extended by interlocutory appeal except upon a showing to the appellate court that the subpoena is facially unconstitutional. A claim of executive privilege does not automatically stay enforcement — it must be adjudicated under Section 16.6 on the same expedited timeline. Enforcement orders issued under subsection (b) are self-executing upon issuance; the United States Marshals Service shall enforce them without awaiting further direction from the Department of Justice or any other executive agency. A Marshal who refuses or fails to enforce a valid subpoena enforcement order without lawful justification is subject to removal from office. If the Department of Justice refuses to support enforcement, the Accountability Commission (Article IX) is independently empowered to enforce congressional subpoenas through the same process, including by direct application to any United States District Court.
 
 ### 16.3 — Affirmative Duty to Testify
 
@@ -340,7 +340,7 @@ A violation of the duty to testify shall be referred by the relevant committee t
 
 No person appearing before either chamber of Congress, before any committee or subcommittee, or in any deposition conducted pursuant to a congressional subpoena, may knowingly make a false statement of material fact, knowingly deny material information, or knowingly present false documents.
 
-**16.4(a) — Jurisdiction.** Perjury before Congress and knowing false statements in congressional proceedings shall be prosecuted exclusively by the Accountability Commission (Article XII). The Department of Justice has no jurisdiction over these offenses. This allocation exists because the executive branch controls the Department of Justice and has a structural conflict of interest in prosecuting those who lie to Congress about executive branch conduct.
+**16.4(a) — Jurisdiction.** Perjury before Congress and knowing false statements in congressional proceedings shall be prosecuted exclusively by the Accountability Commission (Article IX). The Department of Justice has no jurisdiction over these offenses. This allocation exists because the executive branch controls the Department of Justice and has a structural conflict of interest in prosecuting those who lie to Congress about executive branch conduct.
 
 **16.4(b) — Penalties.** A person convicted of perjury or making a knowing false statement before Congress shall be subject to:
   (i) Criminal penalties established by law

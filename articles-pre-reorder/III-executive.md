@@ -155,9 +155,9 @@ The Electoral Commission shall publish all disclosures publicly within 5 days of
 
 ## Section 8 — Commander in Chief and War Powers
 
-*This section has been moved to **[Article XVI — War Powers and National Security](XVI-war-powers-national-security.md)**. See Article XVI for all war powers provisions, including: Commander in Chief authority, congressional authorization requirements, the definition of military force, cyber warfare, nuclear weapons, private military contractors, covert operations, treaty-based defense obligations, domestic deployment restrictions, and unlawful orders. The complementary foreign policy and national security framework (economic security, foreign influence operations, critical infrastructure, foreign intelligence collection, gray zone response, alliance reliability, and technology security) is in **[Article XVII — Foreign Policy and National Security](XVII-foreign-policy-national-security.md)**.*
+*This section has been moved to **[Article XI — War Powers and National Security](XI-war-powers-national-security.md)**. See Article XI for all war powers provisions, including: Commander in Chief authority, congressional authorization requirements, the definition of military force, cyber warfare, nuclear weapons, private military contractors, covert operations, treaty-based defense obligations, domestic deployment restrictions, and unlawful orders. The complementary foreign policy and national security framework (economic security, foreign influence operations, critical infrastructure, foreign intelligence collection, gray zone response, alliance reliability, and technology security) is in **[Article XIV — Foreign Policy and National Security](XIV-foreign-policy-national-security.md)**.*
 
-*For cross-reference purposes: the former Section 8 subsections (8.1–8.14) correspond to Article XVI Sections 1–8. Section 15.9 of this Article cross-references Article XVI.*
+*For cross-reference purposes: the former Section 8 subsections (8.1–8.14) correspond to Article XI Sections 1–8. Section 15.9 of this Article cross-references Article XI.*
 
 ---
 
@@ -180,7 +180,7 @@ The Electoral Commission shall publish all disclosures publicly within 5 days of
 **10.2 Process.** Impeachment proceedings originate in the House of Representatives. The House Judiciary Committee shall conduct an investigation and hold public hearings before articles of impeachment are put to a floor vote. A majority of the full House membership must approve articles of impeachment.
 
 **10.2A Expedited impeachment timetable for specified presidential violations.** Where the President is alleged to have:
-  (a) Ordered or maintained military operations in violation of a withdrawal order under Article XVI Section 1.5(c),
+  (a) Ordered or maintained military operations in violation of a withdrawal order under Article XI Section 1.5(c),
   (b) Interfered with an Accountability Commission investigation into the President's own conduct under Section 15.8 of this Article, or
   (c) Committed electoral subversion within the meaning of Article VI Section 1,
 
@@ -326,9 +326,9 @@ No person who has served as President retains any immunity from criminal prosecu
 
 ### 15.7 — Accountability Commission Jurisdiction
 
-The Accountability Commission (Article XII) has exclusive jurisdiction to investigate and prosecute criminal conduct by sitting and former Presidents and Vice Presidents. The Department of Justice has no jurisdiction over such matters. This allocation exists because the President controls the Department of Justice and must not be in a position to direct, limit, or terminate investigations into their own conduct.
+The Accountability Commission (Article IX) has exclusive jurisdiction to investigate and prosecute criminal conduct by sitting and former Presidents and Vice Presidents. The Department of Justice has no jurisdiction over such matters. This allocation exists because the President controls the Department of Justice and must not be in a position to direct, limit, or terminate investigations into their own conduct.
 
-The Accountability Commission's jurisdiction under this Section is in addition to its jurisdiction under Article VI Section 1 and Article VIII Section 1. All presidential misconduct, whether characterized as official or unofficial, falls within the Accountability Commission's mandate.
+The Accountability Commission's jurisdiction under this Section is in addition to its jurisdiction under Article VI Section 1 and Article XV Section 1. All presidential misconduct, whether characterized as official or unofficial, falls within the Accountability Commission's mandate.
 
 ### 15.8 — No Interference with Investigation
 
@@ -343,9 +343,9 @@ The following related provisions are established elsewhere in this Constitution:
   - **No self-pardon**: Article III Section 7.2(a)
   - **No pardon of co-conspirators**: Article III Section 7.2(b)
   - **No pardon for anti-subversion conduct**: Article III Section 7.2(c) and Article VI Section 1.4(c)
-  - **Accountability Commission independence**: Article XII Section 3
+  - **Accountability Commission independence**: Article IX Section 3
   - **Congressional oversight of executive conduct**: Article II Section 16
   - **Perjury before Congress**: Article II Section 16.4
-  - **War powers and Commander in Chief authority**: Article XVI
+  - **War powers and Commander in Chief authority**: Article XI
 
 ---

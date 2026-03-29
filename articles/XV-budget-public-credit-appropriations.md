@@ -1,4 +1,4 @@
-# Proposed Article XIX — Budget, Public Credit, and Appropriations
+# Article XV — Budget, Public Credit, and Appropriations
 
 **Status:** `[ PROPOSAL ]`
 
@@ -6,7 +6,7 @@
 
 ## Purpose
 
-This proposed article consolidates borrowing, appropriations discipline, budget integrity, public reporting, classified spending oversight, and fiscal continuity now concentrated in [articles/II-legislature.md](/Users/chris/Documents/GitHub/The-Constitution/articles/II-legislature.md).
+This proposed article consolidates borrowing, appropriations discipline, budget integrity, public reporting, classified spending oversight, and fiscal continuity now concentrated in [articles/II-legislature.md](II-legislature.md).
 
 It should not be integrated into the operative draft until overlapping budget and appropriations provisions are migrated from Article II.
 

@@ -6,7 +6,7 @@
 
 ## Purpose
 
-This proposed article consolidates ratification, carryover, supersession, institutional transition, and first-cycle implementation rules that are currently distributed across [articles/VIII-amendments.md](/Users/chris/Documents/GitHub/The-Constitution/articles/VIII-amendments.md), [articles/III-executive.md](/Users/chris/Documents/GitHub/The-Constitution/articles/III-executive.md), [articles/IV-judiciary.md](/Users/chris/Documents/GitHub/The-Constitution/articles/IV-judiciary.md), and [articles/XII-campaign-finance.md](/Users/chris/Documents/GitHub/The-Constitution/articles/XII-campaign-finance.md).
+This proposed article consolidates ratification, carryover, supersession, institutional transition, and first-cycle implementation rules that are currently distributed across [Article XI — Amendments](/Users/chris/Documents/GitHub/The-Constitution/articles/XI-amendments.md), [Article III — The Executive](/Users/chris/Documents/GitHub/The-Constitution/articles/III-executive.md), [Article IV — The Judiciary](/Users/chris/Documents/GitHub/The-Constitution/articles/IV-judiciary.md), and [Article VII — Campaign Finance and Political Money](/Users/chris/Documents/GitHub/The-Constitution/articles/VII-campaign-finance.md).
 
 It should not be integrated into the operative draft until overlapping sections are migrated and cross-references are rewritten.
 

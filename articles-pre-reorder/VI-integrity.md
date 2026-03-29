@@ -6,9 +6,9 @@
 
 ## Scope
 
-Protects the democratic system itself from subversion, foreign interference, and capture of the information environment. This Article has no equivalent in the prior Constitution — it treats bad-faith actors as a design constraint rather than an anomaly. It establishes the rules governing electoral subversion, foreign meddling in elections and politics, and media plurality. Enforcement is primarily through the Constitutional Organs established in Article XII.
+Protects the democratic system itself from subversion, foreign interference, and capture of the information environment. This Article has no equivalent in the prior Constitution — it treats bad-faith actors as a design constraint rather than an anomaly. It establishes the rules governing electoral subversion, foreign meddling in elections and politics, and media plurality. Enforcement is primarily through the Constitutional Organs established in Article IX.
 
-Government ethics — corruption, financial conflicts of interest, civil service protection, lobbying, and financial market integrity — is in **[Article VIII — Government Ethics](VIII-government-ethics.md)**. Campaign finance is in **[Article VII — Campaign Finance](VII-campaign-finance.md)**.
+Government ethics — corruption, financial conflicts of interest, civil service protection, lobbying, and financial market integrity — is in **[Article XV — Government Ethics](XV-government-ethics.md)**. Campaign finance is in **[Article XII — Campaign Finance](XII-campaign-finance.md)**.
 
 ---
 
@@ -71,31 +71,31 @@ This Section applies to:
 
 ### 1.6 — Adjudication
 
-Charges under this Section shall be prosecuted by the Accountability Commission (Article XII). The Accountability Commission's authority to prosecute under this Section cannot be overridden, transferred, or terminated by the President, Congress, or any other official.
+Charges under this Section shall be prosecuted by the Accountability Commission (Article IX). The Accountability Commission's authority to prosecute under this Section cannot be overridden, transferred, or terminated by the President, Congress, or any other official.
 
 ---
 
 ## Section 2 — Campaign Finance and Political Money
 
-*This section has been moved to **[Article VII — Campaign Finance](VII-campaign-finance.md)**. See Article VII for the complete campaign finance framework, including: constitutional authority to regulate, mandatory disclosure and tracing, anonymous contribution prohibition, real-time disclosure, coordination rules, foreign money prohibition, public financing, spending limits, acting-in-concert rules, geographic concentration limits, government contractors, cryptocurrency restrictions, transition funding, inaugural committees, and enforcement.*
+*This section has been moved to **[Article XII — Campaign Finance](XII-campaign-finance.md)**. See Article XII for the complete campaign finance framework, including: constitutional authority to regulate, mandatory disclosure and tracing, anonymous contribution prohibition, real-time disclosure, coordination rules, foreign money prohibition, public financing, spending limits, acting-in-concert rules, geographic concentration limits, government contractors, cryptocurrency restrictions, transition funding, inaugural committees, and enforcement.*
 
 ---
 
 ## Section 3 — Corruption, Conflicts of Interest, and Self-Dealing
 
-*This section has been moved to **[Article VIII — Government Ethics](VIII-government-ethics.md)** (Article VIII Section 1).*
+*This section has been moved to **[Article XV — Government Ethics](XV-government-ethics.md)** (Article XV Section 1).*
 
 ---
 
 ## Section 3A — Financial Market Integrity
 
-*This section has been moved to **[Article VIII — Government Ethics](VIII-government-ethics.md)** (Article VIII Section 2).*
+*This section has been moved to **[Article XV — Government Ethics](XV-government-ethics.md)** (Article XV Section 2).*
 
 ---
 
 ## Section 4 — The Civil Service
 
-*This section has been moved to **[Article VIII — Government Ethics](VIII-government-ethics.md)** (Article VIII Section 3).*
+*This section has been moved to **[Article XV — Government Ethics](XV-government-ethics.md)** (Article XV Section 3).*
 
 ---
 
@@ -125,7 +125,7 @@ No candidate or campaign official who receives an offer of foreign assistance in
 
 ## Section 6 — Lobbying and Access
 
-*This section has been moved to **[Article VIII — Government Ethics](VIII-government-ethics.md)** (Article VIII Section 4).*
+*This section has been moved to **[Article XV — Government Ethics](XV-government-ethics.md)** (Article XV Section 4).*
 
 ---
 
@@ -156,7 +156,7 @@ Major digital platforms that use algorithmic systems to determine the distributi
 
 ### 7.6 — Enforcement
 
-Congress shall establish an independent regulatory body with authority to enforce media ownership limits. This body shall be structured as an independent agency under Article XIII, removable only for cause.
+Congress shall establish an independent regulatory body with authority to enforce media ownership limits. This body shall be structured as an independent agency under Article X, removable only for cause.
 
 ---
 
@@ -165,12 +165,12 @@ Congress shall establish an independent regulatory body with authority to enforc
 **8.1** The independent media regulator established under Section 7.6 shall be structured so that its commissioners are removable only for cause. "Cause" for removal means criminal conviction, a serious ethics violation, or incapacity to perform the duties of office. A commissioner may not be removed on the basis of the content of their regulatory decisions. The regulator shall be funded by fees assessed on entities it regulates and shall not depend on annual congressional appropriation.
 
 The provisions of this Article are enforced by:
-  - The **Accountability Commission** (Article XII) for anti-subversion and foreign interference provisions
-  - The **Electoral Commission** (Article XII) for campaign finance and election integrity provisions (see Article VII)
+  - The **Accountability Commission** (Article IX) for anti-subversion and foreign interference provisions
+  - The **Electoral Commission** (Article IX) for campaign finance and election integrity provisions (see Article XII)
   - The **independent media regulator** (Section 7.6) for media ownership provisions
-  - See **Article VIII** for enforcement of government ethics, civil service, and lobbying provisions
+  - See **Article XV** for enforcement of government ethics, civil service, and lobbying provisions
 
-**8.2** Neither the President, Congress, nor any court may direct either Constitutional Organ in the handling of individual cases under this Article. The Accountability Commission's prosecutorial independence under this Article is part of the unamendable core of Article XI.
+**8.2** Neither the President, Congress, nor any court may direct either Constitutional Organ in the handling of individual cases under this Article. The Accountability Commission's prosecutorial independence under this Article is part of the unamendable core of Article VIII.
 
 **8.3** Any person — including a sitting President, member of Congress, or federal judge — is subject to investigation and prosecution under this Article. No office confers immunity from the provisions of this Article. A sitting President under investigation retains the ability to perform official duties but may not direct or obstruct the investigation.
 

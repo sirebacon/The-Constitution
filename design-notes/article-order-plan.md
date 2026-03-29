@@ -119,6 +119,25 @@ Without those conditions, reordering would create extra churn while the draft is
 
 ---
 
+## Implementation Decision Gate
+
+Begin implementation only if all of the following are true:
+
+- the expanded article architecture is accepted as the intended end-state, including the proposed Citizenship, Taxation, Budget, and Ratification articles
+- the project is willing to freeze broad substantive movement for one dedicated architecture pass
+- the reorder will be executed in a parallel tree rather than by in-place renumbering
+- the team is prepared to complete the full reference, simulation, and audit sequence before treating the reorder as finished
+
+Do not begin implementation if:
+
+- any of the proposed new articles are still likely to be abandoned or substantially reconceived
+- major revisions to Constitutional Organs, War Powers, or Social and Economic Rights are still expected before the architecture settles
+- the project is not ready to absorb a large one-time cross-reference cleanup
+
+This gate exists to prevent paying the renumbering cost twice.
+
+---
+
 ## Implementation-Ready Plan
 
 This is the recommended one-time reordering plan.
@@ -180,34 +199,36 @@ Articles I through VI remain unchanged.
 ### Execution Sequence
 
 1. Freeze substantive article drafting for one dedicated restructuring pass.
-2. Create a parallel working tree, preferably `articles-next/`, rather than editing the live [articles](/Users/chris/Documents/GitHub/The-Constitution/articles) directory in place.
-3. Populate `articles-next/` with the reordered article files and their new Roman numerals and titles.
-4. Update the master table in [CONSTITUTION.md](/Users/chris/Documents/GitHub/The-Constitution/CONSTITUTION.md) against the new tree only after the reordered files are internally stable.
-5. Update every internal article-number and section-reference citation in the files under `articles-next/`.
-6. Update design-note references in:
+2. Use [tools/reorder_articles.py](/Users/chris/Documents/GitHub/The-Constitution/tools/reorder_articles.py) with [design-notes/article-order-map.json](/Users/chris/Documents/GitHub/The-Constitution/design-notes/article-order-map.json) to generate the parallel working tree in `articles-next/`, rather than editing the live [articles](/Users/chris/Documents/GitHub/The-Constitution/articles) directory in place.
+3. Run the helper first in dry-run mode and review [design-notes/article-reorder-audit.md](/Users/chris/Documents/GitHub/The-Constitution/design-notes/article-reorder-audit.md), then run it in apply mode only after the dry-run audit is acceptable.
+4. Treat the generated `articles-next/` tree as the working migration scaffold and make any required manual editorial fixes there.
+5. Update the master table in [CONSTITUTION.md](/Users/chris/Documents/GitHub/The-Constitution/CONSTITUTION.md) against the new tree only after the reordered files are internally stable.
+6. Update every internal article-number and section-reference citation not already handled by the helper in the files under `articles-next/`.
+7. Update design-note references in:
    - [design-notes/scorecard.md](/Users/chris/Documents/GitHub/The-Constitution/design-notes/scorecard.md)
    - [design-notes/improvement-queue.md](/Users/chris/Documents/GitHub/The-Constitution/design-notes/improvement-queue.md)
    - [design-notes/rationale.md](/Users/chris/Documents/GitHub/The-Constitution/design-notes/rationale.md)
    - [design-notes/comparison.md](/Users/chris/Documents/GitHub/The-Constitution/design-notes/comparison.md)
    - [design-notes/simulation-findings.md](/Users/chris/Documents/GitHub/The-Constitution/design-notes/simulation-findings.md)
-7. Update stress-test references and the crosswalk:
+8. Update stress-test references and the crosswalk:
    - [stress-tests/README.md](/Users/chris/Documents/GitHub/The-Constitution/stress-tests/README.md)
    - [stress-tests/CROSSWALK.md](/Users/chris/Documents/GitHub/The-Constitution/stress-tests/CROSSWALK.md)
    - scenario prose files that mention article numbers
-8. Update simulation scenario descriptions and any hardcoded article references in:
+9. Update simulation scenario descriptions and any hardcoded article references in:
    - [simulation/run.py](/Users/chris/Documents/GitHub/The-Constitution/simulation/run.py)
    - [simulation/scenarios](/Users/chris/Documents/GitHub/The-Constitution/simulation/scenarios)
-9. Regenerate simulation outputs and reports.
-10. Run a full cross-reference audit against the proposed new tree.
-11. Recheck scorecard language and improvement priorities against the new architecture.
-12. Only after all checks pass, rename the current [articles](/Users/chris/Documents/GitHub/The-Constitution/articles) directory to a backup name, rename `articles-next/` to `articles/`, and run one final verification pass.
-13. Delete the backup directory only after the post-swap verification is clean.
+10. Regenerate simulation outputs and reports.
+11. Rerun the helper and review [design-notes/article-reorder-audit.md](/Users/chris/Documents/GitHub/The-Constitution/design-notes/article-reorder-audit.md) as the baseline article-tree audit before swap.
+12. Recheck scorecard language and improvement priorities against the new architecture.
+13. Only after all checks pass, rename the current [articles](/Users/chris/Documents/GitHub/The-Constitution/articles) directory to a backup name, rename `articles-next/` to `articles/`, and run one final verification pass.
+14. Delete the backup directory only after the post-swap verification is clean.
 
 ### Validation Checklist
 
 Before accepting Plan B, verify all of the following:
 
 - no stale article-number references remain
+- the dry-run and pre-swap runs of [tools/reorder_articles.py](/Users/chris/Documents/GitHub/The-Constitution/tools/reorder_articles.py) produce an acceptable [design-notes/article-reorder-audit.md](/Users/chris/Documents/GitHub/The-Constitution/design-notes/article-reorder-audit.md)
 - no design note describes the old order as current
 - simulation outputs cite the new article numbers correctly
 - stress tests still map cleanly to the right articles

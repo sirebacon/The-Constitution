@@ -21,13 +21,13 @@ Establishes the structure, composition, independence, and jurisdiction of the fe
 
 **1.3** Congress may establish specialized federal courts — such as courts for tax, bankruptcy, or military matters — within the framework of this Article.
 
-**1.4** Judicial review of legislation and executive action for conformity with this Constitution is a power of the federal courts and is explicitly recognized and constitutionalized by this Article. No act of Congress, executive order, or action of any government official is above constitutional review. The power of judicial review established in this Article is itself part of the unamendable core of Article XI.
+**1.4** Judicial review of legislation and executive action for conformity with this Constitution is a power of the federal courts and is explicitly recognized and constitutionalized by this Article. No act of Congress, executive order, or action of any government official is above constitutional review. The power of judicial review established in this Article is itself part of the unamendable core of Article VIII.
 
 ---
 
 ## Section 2 — The Supreme Court
 
-**2.1 Composition.** The Supreme Court shall consist of fifteen justices, one of whom shall serve as Chief Justice. The number of justices may not be changed except by constitutional amendment under Article XI, Track 1. Congress may not alter the size of the Supreme Court by statute.
+**2.1 Composition.** The Supreme Court shall consist of fifteen justices, one of whom shall serve as Chief Justice. The number of justices may not be changed except by constitutional amendment under Article VIII, Track 1. Congress may not alter the size of the Supreme Court by statute.
 
 **2.2 Terms.** Each justice shall serve a single non-renewable active term of fifteen years. Upon completion of their active term, a justice shall transition to Senior Justice status. Senior Justices may sit on Circuit Courts of Appeals at their election and shall be available to serve on the Supreme Court temporarily to fill vacancies pending new appointments.
 
@@ -87,7 +87,7 @@ The Commission may not assess candidates' political views, ideological positions
 
 **4.8 Judicial review of rejection.** A candidate rejected from the certified pool may challenge the rejection in the United States Court of Appeals for the District of Columbia Circuit within 30 days. The court shall review only whether the Commission correctly applied the objective criteria of Section 4.5. The court may order reconsideration under the correct standard, but may not add a candidate to the pool directly.
 
-**4.9 Accountability Commission oversight.** The Accountability Commission (Article XII) shall conduct an annual audit of the Judicial Nominations Commission covering:
+**4.9 Accountability Commission oversight.** The Accountability Commission (Article IX) shall conduct an annual audit of the Judicial Nominations Commission covering:
   (a) Procedural compliance with this Article
   (b) Conflicts of interest among Commission members in specific certification decisions
   (c) Consistency of the criteria applied across all candidates reviewed in the audit period
@@ -124,7 +124,7 @@ Audit findings shall be published publicly and submitted to both chambers of Con
   (b) Threaten or attempt to influence a judicial decision through any means other than lawful appearance before the court
   (c) Retaliate against a judge for any decision made in the exercise of their judicial duties
 
-Violations of this Section are federal crimes and subject to prosecution by the Accountability Commission (Article XII).
+Violations of this Section are federal crimes and subject to prosecution by the Accountability Commission (Article IX).
 
 **6.4** The budget of the federal judiciary shall be proposed by the Chief Justice and submitted directly to Congress. Congress may not materially impair the functioning of the judiciary through targeted defunding. Any reduction of more than 5% from the judiciary's inflation-adjusted prior-year appropriation requires a 2/3 vote of both chambers.
 
@@ -136,7 +136,7 @@ Violations of this Section are federal crimes and subject to prosecution by the 
 
 **7.1** All federal judges shall be subject to a mandatory Code of Judicial Conduct, established in the first instance by Congress and thereafter maintained and updated by the Judicial Conduct Board established under this Section.
 
-**7.2 Judicial Conduct Board.** A permanent Judicial Conduct Board shall be established within the Accountability Commission (Article XII). The Board shall:
+**7.2 Judicial Conduct Board.** A permanent Judicial Conduct Board shall be established within the Accountability Commission (Article IX). The Board shall:
   (a) Receive and investigate complaints against federal judges at all levels
   (b) Issue findings of ethical violations
   (c) Impose sanctions including public censure, required recusal, mandatory training, and referral for removal proceedings
@@ -179,7 +179,7 @@ The Judicial Conduct Board shall have its own independent budget line within the
   (a) Between two or more states
   (b) Involving ambassadors or foreign ministers
   (c) Brought by a state against the federal government
-  (d) Involving pre-clearance of constitutional amendments under Article XI
+  (d) Involving pre-clearance of constitutional amendments under Article VIII
 
 **9.2 Appellate jurisdiction.** The Supreme Court shall have appellate jurisdiction over all final decisions of the Circuit Courts of Appeals. Congress may not strip the Supreme Court of appellate jurisdiction over constitutional questions. Congress may regulate the procedures by which cases reach the Supreme Court but may not deprive the Court of jurisdiction over a class of cases solely to achieve a preferred legal outcome. Congress may not impose procedural requirements on Supreme Court certiorari that have the practical effect of making constitutional review unavailable; any procedural rule that requires more than a simple majority of justices to grant certiorari on a constitutional question is void.
 
@@ -189,7 +189,7 @@ The Judicial Conduct Board shall have its own independent budget line within the
 
   (b) **Cases involving federal officials.** Cases in which the President, Vice President, a member of Congress, or a federal judge is a named party in their official capacity, and which present a substantial constitutional question, shall be accepted within one term of final circuit court decision.
 
-  (c) **Pre-clearance of constitutional amendments.** As required by Article XI.
+  (c) **Pre-clearance of constitutional amendments.** As required by Article VIII.
 
 The Court may consolidate cases within a mandatory category. Mandatory jurisdiction does not prevent the Court from dismissing a case for lack of standing or mootness after accepting it.
 

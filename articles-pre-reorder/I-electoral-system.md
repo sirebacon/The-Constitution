@@ -6,7 +6,7 @@
 
 ## Scope
 
-Establishes the right to vote, the mechanics of all federal elections, the rules for political party participation, and the citizens' initiative process. Election administration is delegated to the Electoral Commission under Article XII.
+Establishes the right to vote, the mechanics of all federal elections, the rules for political party participation, and the citizens' initiative process. Election administration is delegated to the Electoral Commission under Article IX.
 
 ---
 
@@ -30,7 +30,7 @@ Establishes the right to vote, the mechanics of all federal elections, the rules
 
 **2.3** A citizen's registration may be removed only upon their death, upon their written request, or upon a judicial finding of ineligibility. Removal on any other basis is unlawful.
 
-**2.4** The Electoral Commission (Article XII) shall maintain the national voter registration system and publish the full register, redacted for personal security information, as a public record.
+**2.4** The Electoral Commission (Article IX) shall maintain the national voter registration system and publish the full register, redacted for personal security information, as a public record.
 
 ---
 
@@ -108,7 +108,7 @@ A vacancy in the Regional Assembly shall be filled by special election held with
 
 ## Section 8 — Independent Redistricting
 
-**8.1** Congressional district boundaries for House elections shall be drawn by the Independent Redistricting Commission, an independent body within the Electoral Commission (Article XII).
+**8.1** Congressional district boundaries for House elections shall be drawn by the Independent Redistricting Commission, an independent body within the Electoral Commission (Article IX).
 
 **8.2** Districts shall be drawn according to the following criteria, in order of priority:
   (a) Equal population, within a deviation of no more than 1%
@@ -150,7 +150,7 @@ A vacancy in the Regional Assembly shall be filled by special election held with
 
 ## Section 10 — Election Administration
 
-**10.1** All federal elections shall be administered by the Electoral Commission established under Article XII. No federal or state official subject to election may direct, supervise, or exercise authority over the administration of any election in which they are a candidate.
+**10.1** All federal elections shall be administered by the Electoral Commission established under Article IX. No federal or state official subject to election may direct, supervise, or exercise authority over the administration of any election in which they are a candidate.
 
 **10.2** The Electoral Commission shall establish uniform minimum standards for federal elections, including ballot design, voting equipment, accessibility for voters with disabilities, and procedures for counting and certifying results. States may exceed but not fall below these standards.
 
@@ -176,7 +176,7 @@ A vacancy in the Regional Assembly shall be filled by special election held with
   (a) Reduce, restrict, or repeal any right enumerated in Article V
   (b) Target any specific individual, group, or minority for differential treatment
   (c) Override a judicial ruling on constitutional grounds
-  (d) Amend this Constitution (which is governed by Article XI)
+  (d) Amend this Constitution (which is governed by Article VIII)
 
 **11.6** The Supreme Court shall have jurisdiction to review any proposed referendum for compliance with Section 11.5 before it is put to a vote.
 

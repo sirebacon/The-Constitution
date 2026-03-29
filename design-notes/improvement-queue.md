@@ -20,9 +20,9 @@ Use this order when deciding what to work on:
 
 | Priority | Area | Why It Matters | Main Issue | Target Outcome |
 |----------|------|----------------|------------|----------------|
-| 1 | Article XII — Campaign Finance | Strong substance still reads too much like compliance code | Too many implementation mechanics remain in constitutional text | A shorter principles-first campaign-finance article |
-| 2 | Article XI — War Powers | The architecture is strong, but it remains the hardest executive-defiance stress case | Enforcement still needs realism-testing under command pressure | A war-powers article that stays tough without depending on implausible execution assumptions |
-| 3 | Article IV and Article IX — Institutional Simplification | Both articles are materially better but still denser than the rest of the draft | Court and commission governance rules remain more procedural than ideal | Simpler near-final institutional articles |
+| 1 | Article VII — Campaign Finance and Political Money | Strong substance still reads too much like compliance code | Too many implementation mechanics remain in constitutional text | A shorter principles-first campaign-finance article |
+| 2 | Article XVI — War Powers and National Security | The architecture is strong, but it remains the hardest executive-defiance stress case | Enforcement still needs realism-testing under command pressure | A war-powers article that stays tough without depending on implausible execution assumptions |
+| 3 | Article IV and Article XII — Institutional Simplification | Both articles are materially better but still denser than the rest of the draft | Court and commission governance rules remain more procedural than ideal | Simpler near-final institutional articles |
 | 4 | Stress Tests and Simulation Coverage | The remaining weaknesses are mostly in edge cases, not missing structure | New continuity and enforcement rules need broader scenario coverage | A scenario-tested, internally stable final draft |
 | 5 | Final Consistency and Polish | The draft is close enough that cleanup now matters | Historical notes, residual drafting artifacts, and minor wording drift remain | A clean final-review candidate draft |
 
@@ -74,62 +74,62 @@ Use this order when deciding what to work on:
 | Stress-test media-pluralism enforcement | Medium | Good principle, but implementation can be hard | Enforcement architecture is clean and speech-safe |
 | Re-check anti-subversion boundary lines | Medium | Must punish coups without chilling lawful contestation | Protected challenge and prohibited subversion are sharply distinguished |
 
-### Article VII — Federalism and the States
+### Article X — Federalism and the States
 
 | Task | Priority | Reason | Done When |
 |------|----------|--------|-----------|
 | Review preemption rules for administrability | Medium | Clear preemption is good, but edge cases matter | Courts could apply the rules without making new doctrine by guesswork |
 | Stress-test the revised democratic-floor fallback | Medium | The election-administration snap-in is stronger, but still needs more scenario pressure | The Article VII pathway remains clear under sabotage, delay, and partial compliance scenarios |
 
-### Article VIII — Amendments
+### Article XI — Amendments
 
 | Task | Priority | Reason | Done When |
 |------|----------|--------|-----------|
 | Reassess judicial pre-clearance scope | High | Too much pre-clearance can over-judicialize amendment politics | Review is narrow, legitimate, and not dominant over ratification |
 | Re-test the unamendable core | High | Must protect democracy without freezing too much | The core feels principled and limited rather than expansive |
 
-### Article IX — Constitutional Organs
+### Article XII — Constitutional Organs
 
 | Task | Priority | Reason | Done When |
 |------|----------|--------|-----------|
 | Reduce cross-reference dependence | High | This article is central and should stand on its own | Core powers are understandable without constant external lookup |
 | Simplify commission detail | High | Dense institutional design can still create fragility | Organ design stays narrow but reads more clearly |
 
-### Article X — Federal Agencies
+### Article XIII — Federal Agencies
 
 | Task | Priority | Reason | Done When |
 |------|----------|--------|-----------|
 | Separate constitutional rules from administrative-code detail | High | This article most often drifts into statutory granularity | Only truly constitutional constraints remain in-text |
 | Review revolving-door framework for generality | Medium | The principle is strong, but some specifics may be too narrow | The article sets a durable constitutional floor |
 
-### Article XI — War Powers
+### Article XVI — War Powers and National Security
 
 | Task | Priority | Reason | Done When |
 |------|----------|--------|-----------|
 | Stress-test enforcement against real command conditions | High | Crisis rules must work under actual pressure | Enforcement is tough but still operationally plausible |
 | Re-check automatic withdrawal and compliance mechanics | Medium | Strong safeguards can become unworkable if too rigid | The remedy is both credible and administrable |
 
-### Article XII — Campaign Finance
+### Article VII — Campaign Finance and Political Money
 
 | Task | Priority | Reason | Done When |
 |------|----------|--------|-----------|
 | Compress detailed compliance mechanics | High | This article is strong but very code-like | Constitutional principles remain while implementation is pushed downward |
 | Review state-floor interaction | Medium | Federal and state campaign-finance interaction can get complex | Floor rules and state discretion are cleanly separated |
 
-### Article XIII — Social, Economic, and Affirmative Rights
+### Article XVIII — Social, Economic, and Affirmative Rights
 
 | Task | Priority | Reason | Done When |
 |------|----------|--------|-----------|
 | Simplify positive-rights language | High | Some provisions risk sounding programmatic rather than constitutional | Core guarantees read as durable constitutional commitments |
 
-### Article XIV — Foreign Policy and National Security
+### Article XVII — Foreign Policy and National Security
 
 | Task | Priority | Reason | Done When |
 |------|----------|--------|-----------|
 | Keep boundary with Article XI sharp | High | Overlap between war and non-war powers creates confusion | A reader can tell immediately which article governs which action |
 | Review gray-zone response authority | Medium | It is useful but susceptible to executive stretch | The authority is narrow, attributable, and reviewable |
 
-### Article XV — Government Ethics
+### Article VIII — Government Ethics
 
 | Task | Priority | Reason | Done When |
 |------|----------|--------|-----------|
@@ -149,9 +149,9 @@ Use this order when deciding what to work on:
 
 Recommended next drafting sprint:
 
-1. Compress Article XII
-2. Stress-test Article XI against harder executive-defiance scenarios
-3. Simplify Articles IV and IX
+1. Compress Article VII
+2. Stress-test Article XVI against harder executive-defiance scenarios
+3. Simplify Articles IV and XII
 4. Expand simulator coverage for remaining live edge cases
 
 ---

@@ -8,7 +8,7 @@
 
 Enumerates and protects the civil and political rights of all persons within the United States. This Article replaces and expands the Bill of Rights and all rights-bearing amendments of the prior Constitution. Rights enumerated here are a floor — states may expand but may not reduce them. The enumeration of specific rights shall not be construed to deny or disparage others retained by the people.
 
-Social, economic, environmental, and affirmative rights — including environmental rights, healthcare, education, housing, economic rights, and children's rights — are established in **[Article XVIII — Social, Economic, and Affirmative Rights](XVIII-social-economic-rights.md)**. The general principles of Section 1 of this Article apply to all rights in both articles.
+Social, economic, environmental, and affirmative rights — including environmental rights, healthcare, education, housing, economic rights, and children's rights — are established in **[Article XIII — Social, Economic, and Affirmative Rights](XIII-social-economic-rights.md)**. The general principles of Section 1 of this Article apply to all rights in both articles.
 
 ---
 
@@ -242,19 +242,19 @@ Human review must be real and not a rubber stamp.
 
 ## Section 11 — Environmental Rights
 
-*This section has been moved to **[Article XVIII — Social, Economic, and Affirmative Rights](XVIII-social-economic-rights.md)** (Article XVIII Section 1).*
+*This section has been moved to **[Article XIII — Social, Economic, and Affirmative Rights](XIII-social-economic-rights.md)** (Article XIII Section 1).*
 
 ---
 
 ## Section 12 — Affirmative Rights
 
-*This section has been moved to **[Article XVIII — Social, Economic, and Affirmative Rights](XVIII-social-economic-rights.md)** (Article XVIII Section 2).*
+*This section has been moved to **[Article XIII — Social, Economic, and Affirmative Rights](XIII-social-economic-rights.md)** (Article XIII Section 2).*
 
 ---
 
 ## Section 13 — Economic Rights
 
-*This section has been moved to **[Article XVIII — Social, Economic, and Affirmative Rights](XVIII-social-economic-rights.md)** (Article XVIII Section 3).*
+*This section has been moved to **[Article XIII — Social, Economic, and Affirmative Rights](XIII-social-economic-rights.md)** (Article XIII Section 3).*
 
 ---
 
@@ -275,7 +275,7 @@ Human review must be real and not a rubber stamp.
 
 ## Section 15 — Rights of Children
 
-*This section has been moved to **[Article XVIII — Social, Economic, and Affirmative Rights](XVIII-social-economic-rights.md)** (Article XVIII Section 4).*
+*This section has been moved to **[Article XIII — Social, Economic, and Affirmative Rights](XIII-social-economic-rights.md)** (Article XIII Section 4).*
 
 ---
 

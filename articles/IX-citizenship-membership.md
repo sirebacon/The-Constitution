@@ -1,4 +1,4 @@
-# Proposed Article XVII — Citizenship and National Membership
+# Article IX — Citizenship and National Membership
 
 **Status:** `[ PROPOSAL ]`
 
@@ -6,7 +6,7 @@
 
 ## Purpose
 
-This proposed article consolidates citizenship, equal national membership, overseas citizenship, domicile rules, and officeholding status questions that are currently distributed mainly across [articles/I-electoral-system.md](/Users/chris/Documents/GitHub/The-Constitution/articles/I-electoral-system.md) and [articles/III-executive.md](/Users/chris/Documents/GitHub/The-Constitution/articles/III-executive.md).
+This proposed article consolidates citizenship, equal national membership, overseas citizenship, domicile rules, and officeholding status questions that are currently distributed mainly across [articles/I-electoral-system.md](I-electoral-system.md) and [articles/III-executive.md](III-executive.md).
 
 It should not be integrated into the operative draft until overlapping sections are migrated and eligibility cross-references are rewritten.
 

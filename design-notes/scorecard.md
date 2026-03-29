@@ -53,17 +53,17 @@ These are the current working scores for the draft after the latest simplificati
 | Article IV — Judiciary | 8.0 | Strong | Court design is more legible and durable than before | Some institutional detail is still heavier than it needs to be | Continue trimming procedural density |
 | Article V — Civil and Political Rights | 8.5 | Strong | Broad, modern rights coverage with clearer principle-level drafting | A few sensitive carve-outs still need stress-testing | Review speech, religion, and digital-rights edge cases |
 | Article VI — Democratic Integrity | 9.0 | Strong | Excellent anti-subversion framing and election-defense focus | Some media and enforcement provisions may need narrowing | Stress-test enforceability and speech boundaries |
-| Article VII — Federalism and the States | 8.5 | Strong | Modernized federalism with cleaner democratic-floor enforcement | Some preemption and local-control edge cases still need testing | Review administrability of preemption and local override rules |
-| Article VIII — Amendments | 8.5 | Strong | Thoughtful two-track design with anti-backsliding protection | Unamendability and review mechanics need careful calibration | Test for legitimacy and over-judicialization risk |
-| Article IX — Constitutional Organs | 8.0 | Strong | Narrow oversight bodies are a good design choice | Most cross-reference-dependent article in the draft; two High-priority simplification tasks remain open | Reduce cross-reference dependence and compress commission detail |
-| Article X — Federal Agencies | 8.5 | Strong | Strong anti-capture architecture with cleaner constitutional abstraction | A few agency-governance rules could still be compressed | Continue pruning operational detail |
-| Article XI — War Powers | 8.5 | Strong | Strong anti-abuse architecture with a much clearer war-powers framework | Enforcement under real command-chain pressure has not been validated by simulation; hardest defiance scenario in the suite | Stress-test PMC, fiscal-hold, and withdrawal-order enforcement under adversarial conditions |
-| Article XII — Campaign Finance | 8.5 | Strong | One of the clearest and most purposeful reform sections | Still reads like compliance code in places; draft discipline is 7.0 and High-priority compression is open — inconsistent with a 9.0 | Compress into higher-level constitutional principles and push implementation detail to statute |
-| Article XIII — Social, Economic, and Affirmative Rights | 8.0 | Strong | Clearer adequacy-review model and stronger judicial limits | Positive-rights language still needs some tightening | Continue simplifying guarantees without weakening floors |
-| Article XIV — Foreign Policy and National Security | 8.5 | Strong | Non-war national-security framework is clearer and better bounded | Gray-zone and intelligence provisions still need edge-case testing | Stress-test executive stretch scenarios |
-| Article XV — Government Ethics | 9.0 | Near-final | Strong anti-corruption architecture now stated at a more constitutional level | Some market-integrity provisions may still be slightly detailed | Final polish for abstraction and readability |
+| Article VII — Campaign Finance and Political Money | 8.5 | Strong | One of the clearest and most purposeful reform sections | Still reads like compliance code in places; draft discipline is 7.0 and High-priority compression is open — inconsistent with a 9.0 | Compress into higher-level constitutional principles and push implementation detail to statute |
+| Article VIII — Government Ethics | 9.0 | Near-final | Strong anti-corruption architecture now stated at a more constitutional level | Some market-integrity provisions may still be slightly detailed | Final polish for abstraction and readability |
+| Article X — Federalism and the States | 8.5 | Strong | Modernized federalism with cleaner democratic-floor enforcement | Some preemption and local-control edge cases still need testing | Review administrability of preemption and local override rules |
+| Article XI — Amendments | 8.5 | Strong | Thoughtful two-track design with anti-backsliding protection | Unamendability and review mechanics need careful calibration | Test for legitimacy and over-judicialization risk |
+| Article XII — Constitutional Organs | 8.0 | Strong | Narrow oversight bodies are a good design choice | Most cross-reference-dependent article in the draft; two High-priority simplification tasks remain open | Reduce cross-reference dependence and compress commission detail |
+| Article XIII — Federal Agencies | 8.5 | Strong | Strong anti-capture architecture with cleaner constitutional abstraction | A few agency-governance rules could still be compressed | Continue pruning operational detail |
+| Article XVI — War Powers and National Security | 8.5 | Strong | Strong anti-abuse architecture with a much clearer war-powers framework | Enforcement under real command-chain pressure has not been validated by simulation; hardest defiance scenario in the suite | Stress-test PMC, fiscal-hold, and withdrawal-order enforcement under adversarial conditions |
+| Article XVII — Foreign Policy and National Security | 8.5 | Strong | Non-war national-security framework is clearer and better bounded | Gray-zone and intelligence provisions still need edge-case testing | Stress-test executive stretch scenarios |
+| Article XVIII — Social, Economic, and Affirmative Rights | 8.0 | Strong | Clearer adequacy-review model and stronger judicial limits | Positive-rights language still needs some tightening | Continue simplifying guarantees without weakening floors |
 | Cross-References and Draft Integration | 9.0 | Strong | The draft now coordinates legislative continuity, emergency lapse, judicial fallback, and simulation coverage cleanly — recess-evasion scenario verifies the cross-article §15A/§5.4 enforcement chain | Historical notes and residual drafting artifacts still deserve one final cleanup pass; Art XI adversarial chain still needs deeper testing | Run Article XI against fiscal-hold and multi-refusal adversarial conditions; final whole-draft consistency pass |
-| Overall Draft | 8.5 | Strong | 29 scenarios, 0 unresolved obligations; Articles I, II, III, VI, XV verified at 9.0 | Articles IV, IX, XII, XIII remain below 9.0 due to text density and drafting discipline, not missing machinery | Focus remaining work on drafting passes for IX, XII, XIII and adversarial simulation for XI |
+| Overall Draft | 8.5 | Strong | 29 scenarios, 0 unresolved obligations; Articles I, II, III, VI, and VIII verified at 9.0 | Articles IV, XII, XVI, and XVIII remain below 9.0 due to text density, simulation depth, and drafting discipline, not missing machinery | Focus remaining work on drafting passes for XII and XVIII and adversarial simulation for XVI |
 
 ### Criterion Breakdown
 
@@ -76,15 +76,15 @@ These are the current working scores for the draft after the latest simplificati
 | Article IV — Judiciary | 7.8 | 8.0 | 8.0 | 8.5 | 8.5 | 7.2 | 8.0 |
 | Article V — Civil and Political Rights | 8.5 | 8.5 | 8.0 | 8.8 | 8.8 | 8.2 | 8.5 |
 | Article VI — Democratic Integrity | 8.5 | 8.5 | 9.0 | 9.0 | 9.5 | 8.0 | 9.0 |
-| Article VII — Federalism and the States | 8.5 | 8.8 | 8.0 | 8.8 | 8.3 | 8.2 | 8.5 |
-| Article VIII — Amendments | 8.0 | 8.5 | 8.5 | 8.5 | 9.0 | 7.5 | 8.5 |
-| Article IX — Constitutional Organs | 8.0 | 8.5 | 8.5 | 8.5 | 9.0 | 7.0 | 8.0 |
-| Article X — Federal Agencies | 8.2 | 8.5 | 8.5 | 8.3 | 8.8 | 8.5 | 8.5 |
-| Article XI — War Powers | 8.8 | 9.0 | 8.0 | 8.8 | 9.5 | 8.5 | 8.5 |
-| Article XII — Campaign Finance | 8.5 | 9.0 | 9.0 | 9.0 | 9.5 | 7.0 | 8.5 |
-| Article XIII — Social, Economic, and Affirmative Rights | 8.0 | 8.0 | 7.8 | 8.8 | 8.3 | 7.3 | 8.0 |
-| Article XIV — Foreign Policy and National Security | 8.3 | 8.5 | 8.5 | 8.3 | 8.8 | 8.5 | 8.5 |
-| Article XV — Government Ethics | 8.8 | 9.0 | 9.0 | 8.8 | 9.5 | 8.8 | 9.0 |
+| Article VII — Campaign Finance and Political Money | 8.5 | 9.0 | 9.0 | 9.0 | 9.5 | 7.0 | 8.5 |
+| Article VIII — Government Ethics | 8.8 | 9.0 | 9.0 | 8.8 | 9.5 | 8.8 | 9.0 |
+| Article X — Federalism and the States | 8.5 | 8.8 | 8.0 | 8.8 | 8.3 | 8.2 | 8.5 |
+| Article XI — Amendments | 8.0 | 8.5 | 8.5 | 8.5 | 9.0 | 7.5 | 8.5 |
+| Article XII — Constitutional Organs | 8.0 | 8.5 | 8.5 | 8.5 | 9.0 | 7.0 | 8.0 |
+| Article XIII — Federal Agencies | 8.2 | 8.5 | 8.5 | 8.3 | 8.8 | 8.5 | 8.5 |
+| Article XVI — War Powers and National Security | 8.8 | 9.0 | 8.0 | 8.8 | 9.5 | 8.5 | 8.5 |
+| Article XVII — Foreign Policy and National Security | 8.3 | 8.5 | 8.5 | 8.3 | 8.8 | 8.5 | 8.5 |
+| Article XVIII — Social, Economic, and Affirmative Rights | 8.0 | 8.0 | 7.8 | 8.8 | 8.3 | 7.3 | 8.0 |
 | Cross-References and Draft Integration | 8.8 | 9.0 | 9.0 | 8.3 | 9.0 | 8.8 | 9.0 |
 | Overall Draft | 8.7 | 8.9 | 8.8 | 8.9 | 9.1 | 8.2 | 8.5 |
 
@@ -119,15 +119,15 @@ Use this table for future review rounds.
 | Article IV — Judiciary |  |  |  |  |  |  |  |  |
 | Article V — Civil and Political Rights |  |  |  |  |  |  |  |  |
 | Article VI — Democratic Integrity |  |  |  |  |  |  |  |  |
-| Article VII — Federalism and the States |  |  |  |  |  |  |  |  |
-| Article VIII — Amendments |  |  |  |  |  |  |  |  |
-| Article IX — Constitutional Organs |  |  |  |  |  |  |  |  |
-| Article X — Federal Agencies |  |  |  |  |  |  |  |  |
-| Article XI — War Powers |  |  |  |  |  |  |  |  |
-| Article XII — Campaign Finance |  |  |  |  |  |  |  |  |
-| Article XIII — Social, Economic, and Affirmative Rights |  |  |  |  |  |  |  |  |
-| Article XIV — Foreign Policy and National Security |  |  |  |  |  |  |  |  |
-| Article XV — Government Ethics |  |  |  |  |  |  |  |  |
+| Article VII — Campaign Finance and Political Money |  |  |  |  |  |  |  |  |
+| Article VIII — Government Ethics |  |  |  |  |  |  |  |  |
+| Article X — Federalism and the States |  |  |  |  |  |  |  |  |
+| Article XI — Amendments |  |  |  |  |  |  |  |  |
+| Article XII — Constitutional Organs |  |  |  |  |  |  |  |  |
+| Article XIII — Federal Agencies |  |  |  |  |  |  |  |  |
+| Article XVI — War Powers and National Security |  |  |  |  |  |  |  |  |
+| Article XVII — Foreign Policy and National Security |  |  |  |  |  |  |  |  |
+| Article XVIII — Social, Economic, and Affirmative Rights |  |  |  |  |  |  |  |  |
 | Cross-References and Draft Integration |  |  |  |  |  |  |  |  |
 | Overall Draft |  |  |  |  |  |  |  |  |
 
@@ -186,8 +186,8 @@ Before raising a score, ask:
 
 Recommended focus order:
 
-1. Article XI — War Powers adversarial stress-testing — fiscal-hold/Treasury-firing chain and nuclear multi-refusal depth test are the two highest-leverage remaining simulation gaps
-2. Article XII — Campaign Finance compression pass — draft discipline (7.0) is the main drag on an otherwise strong article
-3. Article IX — Constitutional Organs simplification — reduce cross-reference dependence and compress commission detail
-4. Article XIII — Social/Economic Rights language tightening — positive-rights framing still reads programmatic in places
+1. Article XVI — War Powers adversarial stress-testing — fiscal-hold/Treasury-firing chain and nuclear multi-refusal depth test are the two highest-leverage remaining simulation gaps
+2. Article VII — Campaign Finance compression pass — draft discipline (7.0) is the main drag on an otherwise strong article
+3. Article XII — Constitutional Organs simplification — reduce cross-reference dependence and compress commission detail
+4. Article XVIII — Social/Economic Rights language tightening — positive-rights framing still reads programmatic in places
 5. Final whole-draft consistency and polish pass

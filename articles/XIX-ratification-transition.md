@@ -1,4 +1,4 @@
-# Proposed Article XVI — Ratification and Transition
+# Article XIX — Ratification and Transition
 
 **Status:** `[ PROPOSAL ]`
 
@@ -6,7 +6,7 @@
 
 ## Purpose
 
-This proposed article consolidates ratification, carryover, supersession, institutional transition, and first-cycle implementation rules that are currently distributed across [articles/VIII-amendments.md](/Users/chris/Documents/GitHub/The-Constitution/articles/VIII-amendments.md), [articles/III-executive.md](/Users/chris/Documents/GitHub/The-Constitution/articles/III-executive.md), [articles/IV-judiciary.md](/Users/chris/Documents/GitHub/The-Constitution/articles/IV-judiciary.md), and [articles/XII-campaign-finance.md](/Users/chris/Documents/GitHub/The-Constitution/articles/XII-campaign-finance.md).
+This proposed article consolidates ratification, carryover, supersession, institutional transition, and first-cycle implementation rules that are currently distributed across [Article XI — Amendments](/Users/chris/Documents/GitHub/The-Constitution/articles/XI-amendments.md), [Article III — The Executive](III-executive.md), [Article IV — The Judiciary](IV-judiciary.md), and [Article VII — Campaign Finance and Political Money](/Users/chris/Documents/GitHub/The-Constitution/articles/VII-campaign-finance.md).
 
 It should not be integrated into the operative draft until overlapping sections are migrated and cross-references are rewritten.
 
@@ -36,7 +36,7 @@ It should not be integrated into the operative draft until overlapping sections 
 
 **3.1** Rights protections from the prior Constitution that are consistent with this Constitution are carried forward only to the extent incorporated into Article V or otherwise restated here.
 
-**3.2** All prior constitutional provisions governing the structure, powers, composition, selection, terms, succession, or procedures of the federal branches are superseded by Articles I through IV and Articles VII through XV of this Constitution.
+**3.2** All prior constitutional provisions governing the structure, powers, composition, selection, terms, succession, or procedures of the federal branches are superseded by Articles I through IV and Articles VII through XVIII of this Constitution.
 
 **3.3** All prior constitutional provisions inconsistent with direct national election of the President, the abolition of the Electoral College, the Regional Assembly, fixed Supreme Court terms, the Constitutional Organs, or the amendment framework of this Constitution are superseded.
 
@@ -60,7 +60,7 @@ It should not be integrated into the operative draft until overlapping sections 
 
 **5.1** Congress shall by law provide for the transition from the prior federal judiciary to the judicial structure established by Article IV, including the sequencing of terms, temporary service, and the establishment of lower-court terms consistent with that Article.
 
-**5.2** The Constitutional Organs established by Article IX shall be constituted as soon as practicable after ratification and shall assume their constitutional functions on the timeline provided by law, but no later than one year after ratification unless impossible due to conditions identified publicly by the Supreme Court.
+**5.2** The Constitutional Organs established by Article VII shall be constituted as soon as practicable after ratification and shall assume their constitutional functions on the timeline provided by law, but no later than one year after ratification unless impossible due to conditions identified publicly by the Supreme Court.
 
 **5.3** Existing agencies and officers whose functions are reassigned under this Constitution shall continue only until those functions are lawfully transferred, replaced, or terminated consistent with this Constitution.
 
@@ -88,7 +88,7 @@ It should not be integrated into the operative draft until overlapping sections 
 
 **8.1** Any structural amendment cooling-off period, transition limitation, or first-cycle rule established elsewhere in this Constitution shall be read in harmony with this Article.
 
-**8.2** Rights expansions remain permitted on the timetable established by Article VIII.
+**8.2** Rights expansions remain permitted on the timetable established by Article XVI.
 
 ---
 

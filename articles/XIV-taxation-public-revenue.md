@@ -1,4 +1,4 @@
-# Proposed Article XVIII — Taxation and Public Revenue
+# Article XIV — Taxation and Public Revenue
 
 **Status:** `[ PROPOSAL ]`
 
@@ -8,7 +8,7 @@
 
 This proposed article separates taxation and revenue authority from the broader budget and appropriations framework. It is meant to state the constitutional principles governing how public money is raised, without folding those principles into shutdown, debt, or appropriations mechanics.
 
-It should not be integrated into the operative draft until overlapping revenue provisions are migrated from [articles/II-legislature.md](/Users/chris/Documents/GitHub/The-Constitution/articles/II-legislature.md).
+It should not be integrated into the operative draft until overlapping revenue provisions are migrated from [articles/II-legislature.md](II-legislature.md).
 
 ---
 
