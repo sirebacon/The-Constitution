@@ -137,6 +137,17 @@ Status markers: `[x]` implemented — `[ ]` planned.
 
 ---
 
+## Category N — Social, Economic, and Affirmative Rights
+
+| # | Scenario | File | Provision | Stress Path | Expected Outcome |
+|---|----------|------|-----------|-------------|-----------------|
+| N1 | [ ] Climate Backsliding Without Replacement | `climate-backsliding-without-replacement.json` | Art. XVIII §1.2, §1.4 | Government dismantles major climate protections without constitutionally sufficient replacement | Court declares violation and requires a remedial plan without prescribing policy instruments |
+| N2 | [ ] Education Floor Inequality | `education-floor-inequality.json` | Art. XVIII §2.2 | State leaves one region or class of students with substantially inferior education | Court requires a lawful remedy sufficient to restore the constitutional floor |
+| N3 | [ ] Arbitrary Homelessness / Shelter Floor Failure | `housing-floor-failure.json` | Art. XVIII §2.3, §2.4 | Government withdraws shelter protections and leaves a class of people destitute without replacement | Court preserves against backsliding and requires a constitutionally sufficient remedy |
+| N4 | [ ] Child Welfare Proceeding Without Independent Representation | `child-welfare-no-independent-representation.json` | Art. XVIII §4.5, §4.6 | Child custody or placement is adjudicated without independent representation or stated reasons for overriding a mature child's view | Court vacates or remands for constitutionally sufficient process |
+
+---
+
 ## Implementation Notes
 
 When adding a new scenario:
