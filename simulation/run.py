@@ -21,9 +21,9 @@ class Obligation:
     source: str
     created_day: int
     due_day: int | None = None
-    resolved: bool = False
-    resolved_day: int | None = None
-    resolution: str | None = None
+    status: str = "open"
+    closed_day: int | None = None
+    outcome: str | None = None
     severity: str = "medium"
 
 
@@ -36,13 +36,25 @@ class TimelineEntry:
 
 
 @dataclass
+class Issue:
+    id: str
+    category: str
+    actor: str
+    summary: str
+    source: str
+    severity: str
+    day: int
+    deadline_day: int | None = None
+
+
+@dataclass
 class SimulationState:
     title: str
     provisions: set[str] = field(default_factory=set)
     obligations: dict[str, Obligation] = field(default_factory=dict)
     timeline: list[TimelineEntry] = field(default_factory=list)
-    bottlenecks: list[str] = field(default_factory=list)
-    violations: list[str] = field(default_factory=list)
+    bottlenecks: list[Issue] = field(default_factory=list)
+    violations: list[Issue] = field(default_factory=list)
     notes: list[str] = field(default_factory=list)
 
     def add_entry(self, day: int, kind: str, message: str, source: str | None = None) -> None:
@@ -70,27 +82,93 @@ class SimulationState:
         due_text = f" by day {due_day}" if due_day is not None else ""
         self.add_entry(created_day, "obligation", f"{actor} must {duty}{due_text}.", source)
 
-    def resolve_obligation(self, key: str, day: int, resolution: str) -> None:
+    def resolve_obligation(self, key: str, day: int, resolution: str, success: bool = True) -> None:
         obligation = self.obligations.get(key)
-        if not obligation or obligation.resolved:
+        if not obligation or obligation.status in {"satisfied", "failed"}:
             return
-        obligation.resolved = True
-        obligation.resolved_day = day
-        obligation.resolution = resolution
-        self.add_entry(day, "resolution", f"{obligation.actor} {resolution}.", obligation.source)
+        obligation.status = "satisfied" if success else "failed"
+        obligation.closed_day = day
+        obligation.outcome = resolution
+        kind = "resolution" if success else "failure"
+        self.add_entry(day, kind, f"{obligation.actor} {resolution}.", obligation.source)
+
+    def fail_obligation(self, key: str, day: int, summary: str) -> None:
+        obligation = self.obligations.get(key)
+        if not obligation or obligation.status == "failed":
+            return
+        obligation.status = "failed"
+        obligation.closed_day = day
+        obligation.outcome = summary
+        self.bottlenecks.append(
+            Issue(
+                id=key,
+                category=categorize_failed_obligation(obligation) if obligation.due_day is not None else "unperformed_duty",
+                actor=obligation.actor,
+                summary=summary,
+                source=obligation.source,
+                severity=obligation.severity,
+                day=day,
+                deadline_day=obligation.due_day,
+            )
+        )
+        self.add_entry(day, "bottleneck", summary, obligation.source)
+
+    def add_violation(
+        self,
+        issue_id: str,
+        category: str,
+        actor: str,
+        summary: str,
+        source: str,
+        day: int,
+        severity: str = "high",
+    ) -> None:
+        self.violations.append(
+            Issue(
+                id=issue_id,
+                category=category,
+                actor=actor,
+                summary=summary,
+                source=source,
+                severity=severity,
+                day=day,
+            )
+        )
+        self.add_entry(day, "violation", summary, source)
 
     def check_due_obligations(self, current_day: int) -> None:
         for obligation in self.obligations.values():
-            if obligation.resolved or obligation.due_day is None:
+            if obligation.status != "open" or obligation.due_day is None:
                 continue
             if current_day > obligation.due_day:
                 overdue_message = (
                     f"{obligation.actor} failed to {obligation.duty} by day {obligation.due_day} "
                     f"under {obligation.source}."
                 )
-                if overdue_message not in self.bottlenecks:
-                    self.bottlenecks.append(overdue_message)
-                    self.add_entry(current_day, "bottleneck", overdue_message, obligation.source)
+                self.fail_obligation(obligation.key, current_day, overdue_message)
+
+
+def derive_system_risk(summary_data: dict[str, Any]) -> str:
+    categories = {issue["category"] for issue in summary_data["violations"] + summary_data["bottlenecks"]}
+    if "executive_defiance" in categories:
+        return "executive_defiance"
+    if "state_backsliding" in categories:
+        return "democratic_backsliding"
+    if "legislative_deadline_failure" in categories:
+        return "legislative_delay"
+    if "election_restriction" in categories:
+        return "election_stress"
+    return "institutional_stress" if categories else "none"
+
+
+def categorize_failed_obligation(obligation: Obligation) -> str:
+    if obligation.source.startswith("Article VII Section 1.6"):
+        return "state_backsliding"
+    if obligation.actor in {"Congress", "House of Representatives", "Regional Assembly"}:
+        return "legislative_deadline_failure"
+    if obligation.actor in {"Federal courts", "Chief Justice", "Supreme Court"}:
+        return "judicial_delay"
+    return "missed_deadline"
 
 
 def scenario_paths() -> list[Path]:
@@ -137,14 +215,20 @@ def handle_event(state: SimulationState, event: dict[str, Any]) -> None:
         state.resolve_obligation("emergency_submit_ra", day, "submitted the emergency declaration to the Regional Assembly")
 
     elif event_type == "regional_assembly_rejects_or_fails_emergency":
-        state.resolve_obligation("emergency_approve_ra", day, "failed to approve the emergency declaration, causing it to lapse")
+        state.resolve_obligation("emergency_approve_ra", day, "failed to approve the emergency declaration, causing it to lapse", success=False)
         state.add_entry(day, "outcome", "Emergency declaration lapses unless independently authorized ordinary law remains in effect.", "Article III Section 5.4")
 
     elif event_type == "election_access_restricted_by_emergency":
         state.provisions.add("Article I Section 3.4")
         message = "Emergency measures restrict access to polling places, early voting, or certification."
-        state.violations.append(message)
-        state.add_entry(day, "violation", message, "Article I Section 3.4")
+        state.add_violation(
+            "emergency_election_restriction",
+            "election_restriction",
+            "Executive branch",
+            message,
+            "Article I Section 3.4",
+            day,
+        )
         state.add_obligation(
             "court_review_emergency_election",
             "Federal courts",
@@ -165,8 +249,14 @@ def handle_event(state: SimulationState, event: dict[str, Any]) -> None:
     elif event_type == "president_interferes_with_investigation":
         state.provisions.add("Article III Section 15.8")
         message = "President interferes with an investigation into their own conduct."
-        state.violations.append(message)
-        state.add_entry(day, "violation", message, "Article III Section 15.8")
+        state.add_violation(
+            "president_interferes_with_investigation",
+            "executive_defiance",
+            "President",
+            message,
+            "Article III Section 15.8",
+            day,
+        )
         state.add_obligation(
             "acc_prosecute_obstruction",
             "Accountability Commission",
@@ -204,6 +294,11 @@ def handle_event(state: SimulationState, event: dict[str, Any]) -> None:
 
     elif event_type == "congress_fails_state_remedy":
         state.add_entry(day, "event", "Congress fails to enact a timely remedy for the state democratic-floor violation.", "Article VII Section 1.6(b)")
+        state.fail_obligation(
+            "congress_state_remedy",
+            day,
+            "Congress failed to enact a remedial measure for the violating state by day 180 under Article VII Section 1.6(b).",
+        )
 
     elif event_type == "state_violation_persists_two_years":
         state.add_obligation(
@@ -235,6 +330,11 @@ def handle_event(state: SimulationState, event: dict[str, Any]) -> None:
 
     elif event_type == "congress_fails_aumf":
         state.add_entry(day, "event", "Congress does not provide timely authorization for the military action.", "Article XI Section 1")
+        state.fail_obligation(
+            "congress_authorize_force",
+            day,
+            "Congress failed to grant authorization for continued military force or refuse it by day 30 under Article XI Section 1.",
+        )
         state.add_obligation(
             "chief_justice_withdrawal_order",
             "Chief Justice",
@@ -250,8 +350,14 @@ def handle_event(state: SimulationState, event: dict[str, Any]) -> None:
 
     elif event_type == "president_ignores_withdrawal_order":
         message = "President continues military operations in violation of a withdrawal order."
-        state.violations.append(message)
-        state.add_entry(day, "violation", message, "Article XI Section 8(e)")
+        state.add_violation(
+            "president_ignores_withdrawal_order",
+            "executive_defiance",
+            "President",
+            message,
+            "Article XI Section 8(e)",
+            day,
+        )
         state.add_obligation(
             "house_consider_impeachment_war",
             "House of Representatives",
@@ -302,7 +408,7 @@ def print_report(path: Path, state: SimulationState) -> None:
             print(f"- {provision}")
         print()
 
-    open_obligations = [o for o in state.obligations.values() if not o.resolved]
+    open_obligations = [o for o in state.obligations.values() if o.status == "open"]
     if open_obligations:
         print("## Unresolved Obligations")
         for obligation in sorted(open_obligations, key=lambda item: (item.due_day is None, item.due_day or 10**9, item.actor)):
@@ -313,13 +419,13 @@ def print_report(path: Path, state: SimulationState) -> None:
     if state.violations:
         print("## Violations")
         for violation in state.violations:
-            print(f"- {violation}")
+            print(f"- {violation.summary}")
         print()
 
     if state.bottlenecks:
         print("## Bottlenecks")
         for bottleneck in state.bottlenecks:
-            print(f"- {bottleneck}")
+            print(f"- {bottleneck.summary}")
         print()
 
     if state.notes:
@@ -338,15 +444,17 @@ def print_report(path: Path, state: SimulationState) -> None:
 
 
 def print_summary(path: Path, state: SimulationState) -> None:
-    open_obligations = [o for o in state.obligations.values() if not o.resolved]
-    resolved_count = sum(1 for o in state.obligations.values() if o.resolved)
+    open_obligations = [o for o in state.obligations.values() if o.status == "open"]
+    resolved_count = sum(1 for o in state.obligations.values() if o.status == "satisfied")
+    failed_count = sum(1 for o in state.obligations.values() if o.status == "failed")
 
     print(f"# {state.title}")
     print(f"Scenario: {path.name}")
     print()
     print("## Condensed View")
     print(f"- Triggered provisions: {len(state.provisions)}")
-    print(f"- Resolved obligations: {resolved_count}")
+    print(f"- Satisfied obligations: {resolved_count}")
+    print(f"- Failed obligations: {failed_count}")
     print(f"- Unresolved obligations: {len(open_obligations)}")
     print(f"- Violations: {len(state.violations)}")
     print(f"- Bottlenecks: {len(state.bottlenecks)}")
@@ -355,13 +463,13 @@ def print_summary(path: Path, state: SimulationState) -> None:
     if state.violations:
         print("## Key Violations")
         for violation in state.violations:
-            print(f"- {violation}")
+            print(f"- {violation.summary}")
         print()
 
     if state.bottlenecks:
         print("## Key Bottlenecks")
         for bottleneck in state.bottlenecks:
-            print(f"- {bottleneck}")
+            print(f"- {bottleneck.summary}")
         print()
 
     if open_obligations:
@@ -400,26 +508,22 @@ def scenario_slug(path: Path, state: SimulationState) -> str:
 
 
 def build_summary_json(path: Path, state: SimulationState) -> dict[str, Any]:
-    open_obligations = [o for o in state.obligations.values() if not o.resolved]
-    resolved_obligations = [o for o in state.obligations.values() if o.resolved]
+    open_obligations = [o for o in state.obligations.values() if o.status == "open"]
+    satisfied_obligations = [o for o in state.obligations.values() if o.status == "satisfied"]
+    failed_obligations = [o for o in state.obligations.values() if o.status == "failed"]
     status = "clean"
     if state.violations or state.bottlenecks or open_obligations:
         status = "stress_point_found"
 
-    top_risk = None
-    if state.violations:
-        top_risk = state.violations[0]
-    elif state.bottlenecks:
-        top_risk = state.bottlenecks[0]
-
-    return {
+    summary_data = {
         "scenario_id": scenario_slug(path, state),
         "title": state.title,
-        "source_file": str(path),
+        "source_file": str(path.relative_to(ROOT.parent)),
         "status": status,
         "triggered_provisions": sorted(state.provisions),
         "metrics": {
-            "resolved_obligations": len(resolved_obligations),
+            "satisfied_obligations": len(satisfied_obligations),
+            "failed_obligations": len(failed_obligations),
             "unresolved_obligations": len(open_obligations),
             "violations": len(state.violations),
             "bottlenecks": len(state.bottlenecks),
@@ -427,15 +531,26 @@ def build_summary_json(path: Path, state: SimulationState) -> dict[str, Any]:
         },
         "violations": [
             {
-                "id": f"violation_{index + 1}",
-                "summary": violation,
+                "id": violation.id or f"violation_{index + 1}",
+                "category": violation.category,
+                "actor": violation.actor,
+                "source": violation.source,
+                "severity": violation.severity,
+                "day": violation.day,
+                "summary": violation.summary,
             }
             for index, violation in enumerate(state.violations)
         ],
         "bottlenecks": [
             {
-                "id": f"bottleneck_{index + 1}",
-                "summary": bottleneck,
+                "id": bottleneck.id or f"bottleneck_{index + 1}",
+                "category": bottleneck.category,
+                "actor": bottleneck.actor,
+                "source": bottleneck.source,
+                "severity": bottleneck.severity,
+                "day": bottleneck.day,
+                "deadline_day": bottleneck.deadline_day,
+                "summary": bottleneck.summary,
             }
             for index, bottleneck in enumerate(state.bottlenecks)
         ],
@@ -452,20 +567,37 @@ def build_summary_json(path: Path, state: SimulationState) -> dict[str, Any]:
                 key=lambda item: (item.due_day is None, item.due_day or 10**9, item.actor),
             )
         ],
-        "resolved_duties": [
+        "satisfied_duties": [
             {
                 "actor": obligation.actor,
                 "duty": obligation.duty,
-                "resolved_day": obligation.resolved_day,
-                "resolution": obligation.resolution,
+                "closed_day": obligation.closed_day,
+                "outcome": obligation.outcome,
                 "source": obligation.source,
             }
-            for obligation in sorted(resolved_obligations, key=lambda item: (item.resolved_day or 10**9, item.actor))
+            for obligation in sorted(satisfied_obligations, key=lambda item: (item.closed_day or 10**9, item.actor))
+        ],
+        "failed_duties": [
+            {
+                "actor": obligation.actor,
+                "duty": obligation.duty,
+                "deadline_day": obligation.due_day,
+                "closed_day": obligation.closed_day,
+                "outcome": obligation.outcome,
+                "source": obligation.source,
+                "severity": obligation.severity,
+            }
+            for obligation in sorted(
+                failed_obligations,
+                key=lambda item: (item.deadline_day if hasattr(item, "deadline_day") else item.due_day or 10**9, item.actor),
+            )
         ],
         "notes": list(state.notes),
         "ai_summary": {
-            "core_failure": top_risk,
-            "system_risk": "none" if status == "clean" else "institutional_stress",
+            "primary_violation": state.violations[0].summary if state.violations else None,
+            "primary_bottleneck": state.bottlenecks[0].summary if state.bottlenecks else None,
+            "primary_open_duty": open_obligations[0].duty if open_obligations else None,
+            "system_risk": "none",
             "recommended_focus": (
                 "review bottlenecks, violations, and unresolved duties"
                 if status != "clean"
@@ -473,12 +605,17 @@ def build_summary_json(path: Path, state: SimulationState) -> dict[str, Any]:
             ),
         },
     }
+    summary_data["ai_summary"]["system_risk"] = derive_system_risk(summary_data)
+    return summary_data
 
 
 def build_aggregate_json(results: list[tuple[Path, SimulationState]]) -> dict[str, Any]:
     scenario_summaries = [build_summary_json(path, state) for path, state in results]
     provision_counts: dict[str, int] = {}
     unresolved_by_actor: dict[str, int] = {}
+    risk_counts: dict[str, int] = {}
+    bottleneck_categories: dict[str, int] = {}
+    violation_categories: dict[str, int] = {}
 
     for summary in scenario_summaries:
         for provision in summary["triggered_provisions"]:
@@ -486,6 +623,14 @@ def build_aggregate_json(results: list[tuple[Path, SimulationState]]) -> dict[st
         for duty in summary["open_duties"]:
             actor = duty["actor"]
             unresolved_by_actor[actor] = unresolved_by_actor.get(actor, 0) + 1
+        risk = summary["ai_summary"]["system_risk"]
+        risk_counts[risk] = risk_counts.get(risk, 0) + 1
+        for issue in summary["bottlenecks"]:
+            category = issue["category"]
+            bottleneck_categories[category] = bottleneck_categories.get(category, 0) + 1
+        for issue in summary["violations"]:
+            category = issue["category"]
+            violation_categories[category] = violation_categories.get(category, 0) + 1
 
     return {
         "scenario_count": len(scenario_summaries),
@@ -495,6 +640,18 @@ def build_aggregate_json(results: list[tuple[Path, SimulationState]]) -> dict[st
             "bottlenecks": sum(summary["metrics"]["bottlenecks"] for summary in scenario_summaries),
             "unresolved_obligations": sum(summary["metrics"]["unresolved_obligations"] for summary in scenario_summaries),
         },
+        "risk_pattern_counts": [
+            {"risk": risk, "count": count}
+            for risk, count in sorted(risk_counts.items(), key=lambda item: (-item[1], item[0]))
+        ],
+        "bottleneck_categories": [
+            {"category": category, "count": count}
+            for category, count in sorted(bottleneck_categories.items(), key=lambda item: (-item[1], item[0]))
+        ],
+        "violation_categories": [
+            {"category": category, "count": count}
+            for category, count in sorted(violation_categories.items(), key=lambda item: (-item[1], item[0]))
+        ],
         "top_triggered_provisions": [
             {"provision": provision, "count": count}
             for provision, count in sorted(provision_counts.items(), key=lambda item: (-item[1], item[0]))

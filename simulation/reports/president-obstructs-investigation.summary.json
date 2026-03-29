@@ -1,7 +1,7 @@
 {
   "scenario_id": "president-obstructs-investigation",
   "title": "President Interferes With Own Investigation",
-  "source_file": "/Users/chris/Documents/GitHub/The-Constitution/simulation/scenarios/president-obstructs-investigation.json",
+  "source_file": "simulation/scenarios/president-obstructs-investigation.json",
   "status": "stress_point_found",
   "triggered_provisions": [
     "Article III Section 15",
@@ -9,7 +9,8 @@
     "Article IX Section 3"
   ],
   "metrics": {
-    "resolved_obligations": 1,
+    "satisfied_obligations": 1,
+    "failed_obligations": 0,
     "unresolved_obligations": 1,
     "violations": 1,
     "bottlenecks": 0,
@@ -17,7 +18,12 @@
   },
   "violations": [
     {
-      "id": "violation_1",
+      "id": "president_interferes_with_investigation",
+      "category": "executive_defiance",
+      "actor": "President",
+      "source": "Article III Section 15.8",
+      "severity": "high",
+      "day": 5,
       "summary": "President interferes with an investigation into their own conduct."
     }
   ],
@@ -31,19 +37,22 @@
       "severity": "medium"
     }
   ],
-  "resolved_duties": [
+  "satisfied_duties": [
     {
       "actor": "Accountability Commission",
       "duty": "pursue obstruction-related enforcement",
-      "resolved_day": 20,
-      "resolution": "acted on the obstruction matter",
+      "closed_day": 20,
+      "outcome": "acted on the obstruction matter",
       "source": "Article III Section 15.8"
     }
   ],
+  "failed_duties": [],
   "notes": [],
   "ai_summary": {
-    "core_failure": "President interferes with an investigation into their own conduct.",
-    "system_risk": "institutional_stress",
+    "primary_violation": "President interferes with an investigation into their own conduct.",
+    "primary_bottleneck": null,
+    "primary_open_duty": "consider impeachment for interference with investigation",
+    "system_risk": "executive_defiance",
     "recommended_focus": "review bottlenecks, violations, and unresolved duties"
   }
 }

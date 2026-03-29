@@ -1,39 +1,44 @@
 {
   "scenario_id": "unauthorized-military-action",
   "title": "Unauthorized Sustained Military Action",
-  "source_file": "/Users/chris/Documents/GitHub/The-Constitution/simulation/scenarios/unauthorized-military-action.json",
+  "source_file": "simulation/scenarios/unauthorized-military-action.json",
   "status": "stress_point_found",
   "triggered_provisions": [
     "Article III Section 10",
     "Article XI Section 1"
   ],
   "metrics": {
-    "resolved_obligations": 1,
-    "unresolved_obligations": 2,
+    "satisfied_obligations": 1,
+    "failed_obligations": 1,
+    "unresolved_obligations": 1,
     "violations": 1,
     "bottlenecks": 1,
     "timeline_entries": 9
   },
   "violations": [
     {
-      "id": "violation_1",
+      "id": "president_ignores_withdrawal_order",
+      "category": "executive_defiance",
+      "actor": "President",
+      "source": "Article XI Section 8(e)",
+      "severity": "high",
+      "day": 40,
       "summary": "President continues military operations in violation of a withdrawal order."
     }
   ],
   "bottlenecks": [
     {
-      "id": "bottleneck_1",
+      "id": "congress_authorize_force",
+      "category": "legislative_deadline_failure",
+      "actor": "Congress",
+      "source": "Article XI Section 1",
+      "severity": "high",
+      "day": 31,
+      "deadline_day": 30,
       "summary": "Congress failed to grant authorization for continued military force or refuse it by day 30 under Article XI Section 1."
     }
   ],
   "open_duties": [
-    {
-      "actor": "Congress",
-      "duty": "grant authorization for continued military force or refuse it",
-      "deadline_day": 30,
-      "source": "Article XI Section 1",
-      "severity": "high"
-    },
     {
       "actor": "House of Representatives",
       "duty": "consider impeachment for unlawful continued military operations",
@@ -42,19 +47,32 @@
       "severity": "high"
     }
   ],
-  "resolved_duties": [
+  "satisfied_duties": [
     {
       "actor": "Chief Justice",
       "duty": "issue the required withdrawal order for unauthorized continued operations",
-      "resolved_day": 34,
-      "resolution": "issued a withdrawal order",
+      "closed_day": 34,
+      "outcome": "issued a withdrawal order",
       "source": "Article XI Section 1.5(c)"
+    }
+  ],
+  "failed_duties": [
+    {
+      "actor": "Congress",
+      "duty": "grant authorization for continued military force or refuse it",
+      "deadline_day": 30,
+      "closed_day": 31,
+      "outcome": "Congress failed to grant authorization for continued military force or refuse it by day 30 under Article XI Section 1.",
+      "source": "Article XI Section 1",
+      "severity": "high"
     }
   ],
   "notes": [],
   "ai_summary": {
-    "core_failure": "President continues military operations in violation of a withdrawal order.",
-    "system_risk": "institutional_stress",
+    "primary_violation": "President continues military operations in violation of a withdrawal order.",
+    "primary_bottleneck": "Congress failed to grant authorization for continued military force or refuse it by day 30 under Article XI Section 1.",
+    "primary_open_duty": "consider impeachment for unlawful continued military operations",
+    "system_risk": "executive_defiance",
     "recommended_focus": "review bottlenecks, violations, and unresolved duties"
   }
 }

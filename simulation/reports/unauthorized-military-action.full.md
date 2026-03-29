@@ -17,7 +17,6 @@ Scenario: unauthorized-military-action.json
 - Article XI Section 1
 
 ## Unresolved Obligations
-- Congress: grant authorization for continued military force or refuse it (day 30; Article XI Section 1)
 - House of Representatives: consider impeachment for unlawful continued military operations (no fixed constitutional deadline; Article XI Section 8(e) and Article III Section 10)
 
 ## Violations

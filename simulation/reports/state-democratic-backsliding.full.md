@@ -15,9 +15,6 @@ Scenario: state-democratic-backsliding.json
 - Article VII Section 1.5
 - Article VII Section 1.6
 
-## Unresolved Obligations
-- Congress: enact a remedial measure for the violating state (day 180; Article VII Section 1.6(b))
-
 ## Bottlenecks
 - Congress failed to enact a remedial measure for the violating state by day 180 under Article VII Section 1.6(b).
 

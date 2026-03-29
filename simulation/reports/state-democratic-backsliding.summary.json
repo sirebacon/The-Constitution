@@ -1,15 +1,16 @@
 {
   "scenario_id": "state-democratic-backsliding",
   "title": "State Democratic Backsliding",
-  "source_file": "/Users/chris/Documents/GitHub/The-Constitution/simulation/scenarios/state-democratic-backsliding.json",
+  "source_file": "simulation/scenarios/state-democratic-backsliding.json",
   "status": "stress_point_found",
   "triggered_provisions": [
     "Article VII Section 1.5",
     "Article VII Section 1.6"
   ],
   "metrics": {
-    "resolved_obligations": 1,
-    "unresolved_obligations": 1,
+    "satisfied_obligations": 1,
+    "failed_obligations": 1,
+    "unresolved_obligations": 0,
     "violations": 0,
     "bottlenecks": 1,
     "timeline_entries": 8
@@ -17,32 +18,43 @@
   "violations": [],
   "bottlenecks": [
     {
-      "id": "bottleneck_1",
+      "id": "congress_state_remedy",
+      "category": "state_backsliding",
+      "actor": "Congress",
+      "source": "Article VII Section 1.6(b)",
+      "severity": "high",
+      "day": 220,
+      "deadline_day": 180,
       "summary": "Congress failed to enact a remedial measure for the violating state by day 180 under Article VII Section 1.6(b)."
     }
   ],
-  "open_duties": [
+  "open_duties": [],
+  "satisfied_duties": [
+    {
+      "actor": "Congress",
+      "duty": "decide whether to suspend the state's representation until compliance is restored",
+      "closed_day": 760,
+      "outcome": "suspended the state's representation pending Supreme Court certification of compliance",
+      "source": "Article VII Section 1.6(c)"
+    }
+  ],
+  "failed_duties": [
     {
       "actor": "Congress",
       "duty": "enact a remedial measure for the violating state",
       "deadline_day": 180,
+      "closed_day": 220,
+      "outcome": "Congress failed to enact a remedial measure for the violating state by day 180 under Article VII Section 1.6(b).",
       "source": "Article VII Section 1.6(b)",
       "severity": "high"
     }
   ],
-  "resolved_duties": [
-    {
-      "actor": "Congress",
-      "duty": "decide whether to suspend the state's representation until compliance is restored",
-      "resolved_day": 760,
-      "resolution": "suspended the state's representation pending Supreme Court certification of compliance",
-      "source": "Article VII Section 1.6(c)"
-    }
-  ],
   "notes": [],
   "ai_summary": {
-    "core_failure": "Congress failed to enact a remedial measure for the violating state by day 180 under Article VII Section 1.6(b).",
-    "system_risk": "institutional_stress",
+    "primary_violation": null,
+    "primary_bottleneck": "Congress failed to enact a remedial measure for the violating state by day 180 under Article VII Section 1.6(b).",
+    "primary_open_duty": null,
+    "system_risk": "democratic_backsliding",
     "recommended_focus": "review bottlenecks, violations, and unresolved duties"
   }
 }
