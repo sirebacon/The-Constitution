@@ -20,6 +20,7 @@ PAGE_SOURCES = [
     ("rationale", "Design Rationale", ROOT / "design-notes" / "rationale.md", "Overview", "Why the major structural choices were made"),
     ("scorecard", "Scorecard", ROOT / "design-notes" / "scorecard.md", "Overview", "Current quality assessment and next targets"),
     ("findings", "Simulation Findings", ROOT / "design-notes" / "simulation-findings.md", "Research", "What the simulator is currently showing"),
+    ("finalization-plan", "Finalization Plan", ROOT / "design-notes" / "finalization-plan.md", "Research", "Current remaining work and near-finalization sequence"),
 ]
 
 SCORECARD_KEYS = {
@@ -128,6 +129,16 @@ def extract_headings(markdown: str) -> list[dict[str, str | int]]:
     return headings
 
 
+def plain_text(markdown: str) -> str:
+    text = markdown
+    text = re.sub(r"```.*?```", " ", text, flags=re.S)
+    text = re.sub(r"`([^`]*)`", r"\1", text)
+    text = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", text)
+    text = re.sub(r"[*_>#-]", " ", text)
+    text = re.sub(r"\s+", " ", text)
+    return text.strip()
+
+
 def copy_source(source: Path) -> str:
     relative = source.relative_to(ROOT)
     target = CONTENT_DIR / relative
@@ -182,6 +193,7 @@ def build_manifest() -> dict[str, object]:
             "status": extract_status(preamble_md),
             "summary": extract_summary(preamble_md),
             "headings": extract_headings(preamble_md),
+            "search_text": plain_text(preamble_md),
             "score": preamble_score.get("score"),
             "score_status": preamble_score.get("status"),
         }
@@ -203,6 +215,7 @@ def build_manifest() -> dict[str, object]:
                 "status": extract_status(markdown),
                 "summary": extract_summary(markdown),
                 "headings": extract_headings(markdown),
+                "search_text": plain_text(markdown),
                 "score": score.get("score"),
                 "score_status": score.get("status"),
             }
@@ -222,6 +235,7 @@ def build_manifest() -> dict[str, object]:
                 "status": extract_status(markdown),
                 "summary": extract_summary(markdown) or fallback_summary,
                 "headings": extract_headings(markdown),
+                "search_text": plain_text(markdown),
                 "score": score.get("score"),
                 "score_status": score.get("status"),
             }
@@ -242,7 +256,7 @@ def build_manifest() -> dict[str, object]:
     navigation = [
         {"group": "Start Here", "items": ["overview", "index", "comparison", "scorecard"]},
         {"group": "Read the Constitution", "items": ["preamble"] + [slugify(filename.replace(".md", "")) for filename in ARTICLE_ORDER]},
-        {"group": "Background", "items": ["rationale", "findings", "overview-zh"]},
+        {"group": "Background", "items": ["rationale", "findings", "finalization-plan", "overview-zh"]},
     ]
 
     return {

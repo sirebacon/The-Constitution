@@ -13,6 +13,10 @@ const menuButton = document.getElementById("menuButton");
 let siteData;
 let currentFilter = "";
 
+function searchCorpus(doc) {
+  return `${doc.title} ${doc.summary} ${doc.search_text ?? ""}`.toLowerCase();
+}
+
 function slugify(text) {
   return text
     .toLowerCase()
@@ -70,7 +74,7 @@ function renderNavigation() {
         .filter(Boolean)
         .filter((doc) => {
           if (!filter) return true;
-          return `${doc.title} ${doc.summary}`.toLowerCase().includes(filter);
+          return searchCorpus(doc).includes(filter);
         });
       if (!items.length) return "";
       return `
@@ -92,6 +96,20 @@ function renderNavigation() {
       `;
     })
     .join("");
+}
+
+function matchingDocs() {
+  const filter = currentFilter.trim().toLowerCase();
+  if (!filter) return [];
+  return siteData.docs
+    .filter((doc) => searchCorpus(doc).includes(filter))
+    .sort((a, b) => {
+      const aTitle = a.title.toLowerCase().includes(filter) ? 2 : 0;
+      const bTitle = b.title.toLowerCase().includes(filter) ? 2 : 0;
+      const aSummary = a.summary.toLowerCase().includes(filter) ? 1 : 0;
+      const bSummary = b.summary.toLowerCase().includes(filter) ? 1 : 0;
+      return bTitle + bSummary - (aTitle + aSummary);
+    });
 }
 
 function makeArticleCards(docs) {
@@ -147,7 +165,22 @@ function renderHome() {
     </div>
   `;
 
+  const results = matchingDocs();
+  const searchSection = currentFilter.trim()
+    ? `
+    <section>
+      <h2 class="section-title">Search Results</h2>
+      ${
+        results.length
+          ? `<div class="card-grid">${makeArticleCards(results.slice(0, 12))}</div>`
+          : `<div class="empty-message">No documents match “${currentFilter}”.</div>`
+      }
+    </section>
+  `
+    : "";
+
   contentPanel.innerHTML = `
+    ${searchSection}
     <section>
       <h2 class="section-title">Start Here</h2>
       <div class="card-grid">${makeArticleCards(overviewDocs)}</div>
