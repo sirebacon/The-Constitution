@@ -283,6 +283,7 @@ input:focus-visible {
 }
 
 .locale-switcher__select {
+  min-width: 9.5rem;
   padding: 0.62rem 0.95rem;
   color: var(--ink);
   cursor: pointer;
