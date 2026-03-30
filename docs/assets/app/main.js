@@ -39,15 +39,15 @@ async function loadSiteData(locale) {
 }
 
 function populateLocaleSwitcher() {
-  if (!refs.localeButtons || !state.siteData?.locales) return;
+  if (!refs.localeSelect || !state.siteData?.locales) return;
   const localesByCode = new Map(DEFAULT_LOCALES.map((locale) => [locale.code, locale]));
   for (const locale of state.siteData.locales) {
     localesByCode.set(locale.code, locale);
   }
-  refs.localeButtons.innerHTML = Array.from(localesByCode.values())
+  refs.localeSelect.innerHTML = Array.from(localesByCode.values())
     .map(
       (locale) =>
-        `<button type="button" class="locale-button ${locale.code === state.locale ? "is-active" : ""}" data-locale="${locale.code}" aria-pressed="${locale.code === state.locale ? "true" : "false"}">${locale.label}</button>`
+        `<option value="${locale.code}" ${locale.code === state.locale ? "selected" : ""}>${locale.label}</option>`
     )
     .join("");
 }
@@ -155,10 +155,8 @@ async function init() {
     setMenuExpanded(!isExpanded);
   });
 
-  refs.localeButtons?.addEventListener("click", async (event) => {
-    const button = event.target.closest("[data-locale]");
-    if (!button) return;
-    state.locale = button.dataset.locale;
+  refs.localeSelect?.addEventListener("change", async () => {
+    state.locale = refs.localeSelect.value;
     state.siteData = await loadSiteData(state.locale);
     state.locale = state.siteData.locale ?? state.locale;
     document.documentElement.lang = state.locale;

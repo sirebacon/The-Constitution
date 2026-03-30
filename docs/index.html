@@ -61,14 +61,14 @@
           <div class="topbar__meta">
             <span class="topbar__eyebrow" id="topbarEyebrow">GitHub Pages-ready constitutional reader</span>
           </div>
-          <div class="locale-switcher" aria-labelledby="localeLabel">
+          <label class="locale-switcher" for="localeSelect">
             <span class="locale-switcher__label" id="localeLabel">Language</span>
-            <div class="locale-switcher__buttons" id="localeButtons" role="group" aria-label="Language">
-              <button type="button" class="locale-button is-active" data-locale="en">English</button>
-              <button type="button" class="locale-button" data-locale="es">Español</button>
-              <button type="button" class="locale-button" data-locale="zh-Hans">中文（简体）</button>
-            </div>
-          </div>
+            <select id="localeSelect" class="locale-switcher__select" aria-label="Language">
+              <option value="en">English</option>
+              <option value="es">Español</option>
+              <option value="zh-Hans">中文（简体）</option>
+            </select>
+          </label>
           <a class="topbar__repo" id="repoLink" href="https://github.com/sirebacon/The-Constitution" target="_blank" rel="noreferrer">View Repo</a>
         </header>
 
