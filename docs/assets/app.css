@@ -131,6 +131,21 @@ input:focus-visible {
   margin: 0.8rem 0 0;
   color: var(--muted);
   line-height: 1.45;
+  max-width: 18rem;
+}
+
+.brand-badge {
+  display: inline-flex;
+  align-items: center;
+  margin-top: 0.9rem;
+  padding: 0.38rem 0.72rem;
+  border-radius: 999px;
+  background: rgba(29, 90, 115, 0.12);
+  border: 1px solid rgba(29, 90, 115, 0.18);
+  color: var(--accent-2);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
 }
 
 .search-box {
@@ -228,9 +243,11 @@ input:focus-visible {
 
 .topbar__menu,
 .topbar__repo,
-.hero-action {
+.hero-action,
+.locale-switcher__select,
+.brand-badge {
   border: 1px solid var(--line);
-  background: rgba(255, 255, 255, 0.74);
+  background: rgba(255, 255, 255, 0.82);
   border-radius: 999px;
   padding: 0.72rem 1rem;
   transition: 160ms ease;
@@ -238,9 +255,37 @@ input:focus-visible {
 
 .topbar__menu:hover,
 .topbar__repo:hover,
-.hero-action:hover {
+.hero-action:hover,
+.locale-switcher__select:hover,
+.brand-badge:hover {
   transform: translateY(-1px);
   background: white;
+}
+
+.topbar__repo,
+.hero-action,
+.card-link,
+.source-link,
+.brand-badge {
+  font-weight: 700;
+}
+
+.locale-switcher {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.locale-switcher__label {
+  font-size: 0.83rem;
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.locale-switcher__select {
+  padding: 0.62rem 0.95rem;
+  color: var(--ink);
+  cursor: pointer;
 }
 
 .topbar__menu {
@@ -372,9 +417,14 @@ input:focus-visible {
 
 .card-link {
   display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
   margin-top: 1rem;
+  padding: 0.58rem 0.85rem;
+  border-radius: 999px;
+  background: rgba(29, 90, 115, 0.12);
+  border: 1px solid rgba(29, 90, 115, 0.18);
   color: var(--accent-2);
-  font-weight: 600;
 }
 
 .content-panel {
@@ -426,8 +476,8 @@ input:focus-visible {
   gap: 0.4rem;
   padding: 0.42rem 0.75rem;
   border-radius: 999px;
-  border: 1px solid var(--line);
-  background: white;
+  border: 1px solid rgba(24, 33, 44, 0.08);
+  background: rgba(255, 255, 255, 0.68);
   color: var(--muted);
   font-size: 0.86rem;
 }
