@@ -67,7 +67,10 @@
         "clause-war-powers-backstop",
         "clause-political-speech-floor",
         "clause-peaceful-transfer",
-        "clause-campaign-finance-equality"
+        "clause-campaign-finance-equality",
+        "clause-federalism-floor",
+        "clause-citizenship-revocation",
+        "clause-anti-corruption"
       ]
     },
     {
@@ -3493,6 +3496,98 @@
       "search_text": "Clause Note: Campaign Finance And Political Equality Why Money In Politics Is A Constitutional Problem If large concentrations of wealth can dominate political communication, candidate viability, and access to representation, then formal political equality becomes increasingly fictional. That is why this draft treats campaign finance as part of the democratic order rather than a peripheral regulatory field. Why The Draft Does Not Freeze One Policy Model The Constitution should not try to encode every reporting threshold, public financing ratio, or disclosure form. What it can do is establish that political equality, transparency, and anti corruption are constitutional values strong enough to justify meaningful regulation of political money. Why This Matters For Democracy The point is not to abolish political disagreement or political advocacy. It is to keep representative government from drifting into a system where access to office and influence over public power depend too heavily on private wealth.",
       "related_slugs": [
         "vii-campaign-finance"
+      ]
+    },
+    {
+      "slug": "clause-federalism-floor",
+      "title": "Clause Note: Federalism And The Democratic Floor",
+      "group": "Clause Notes",
+      "kind": "commentary",
+      "source": "commentary/clauses/federalism-floor.md",
+      "status": null,
+      "summary": "Federalism can protect pluralism, experimentation, and local self-government.",
+      "headings": [
+        {
+          "level": 2,
+          "text": "Why Federalism Is Not Treated As Absolute",
+          "anchor": "why-federalism-is-not-treated-as-absolute"
+        },
+        {
+          "level": 2,
+          "text": "Why This Draft Uses A Democratic Floor",
+          "anchor": "why-this-draft-uses-a-democratic-floor"
+        },
+        {
+          "level": 2,
+          "text": "Why Local Democracy Also Matters",
+          "anchor": "why-local-democracy-also-matters"
+        }
+      ],
+      "search_text": "Clause Note: Federalism And The Democratic Floor Why Federalism Is Not Treated As Absolute Federalism can protect pluralism, experimentation, and local self government. But it can also become a shelter for democratic erosion, unequal citizenship, and rights denial if state autonomy is treated as a free standing constitutional end. Why This Draft Uses A Democratic Floor This draft preserves states as important constitutional actors, but only within a system that protects: republican and democratic government equal citizenship federal constitutional supremacy basic rights and lawful national standards The point is to preserve federalism without allowing it to become a license for anti democratic enclaves. Why Local Democracy Also Matters The article does not only constrain the national government. It also recognizes that states can overreach downward by using preemption or administrative power to block local democratic choices without a sufficient public interest. Federalism here is not romanticized as only a state rights issue. It is treated as a layered constitutional order.",
+      "related_slugs": [
+        "x-federalism"
+      ]
+    },
+    {
+      "slug": "clause-citizenship-revocation",
+      "title": "Clause Note: Citizenship Revocation And Due Process",
+      "group": "Clause Notes",
+      "kind": "commentary",
+      "source": "commentary/clauses/citizenship-revocation.md",
+      "status": null,
+      "summary": "Citizenship loss is one of the most severe forms of public power over a person\u2019s legal and political status.",
+      "headings": [
+        {
+          "level": 2,
+          "text": "Why This Clause Exists",
+          "anchor": "why-this-clause-exists"
+        },
+        {
+          "level": 2,
+          "text": "Why The Draft Uses An Explicit Process Floor",
+          "anchor": "why-the-draft-uses-an-explicit-process-floor"
+        },
+        {
+          "level": 2,
+          "text": "Why This Matters Beyond Individual Cases",
+          "anchor": "why-this-matters-beyond-individual-cases"
+        }
+      ],
+      "search_text": "Clause Note: Citizenship Revocation And Due Process Why This Clause Exists Citizenship loss is one of the most severe forms of public power over a person\u2019s legal and political status. If government can revoke citizenship through thin procedure or delayed review, equal membership becomes contingent and insecure. Why The Draft Uses An Explicit Process Floor This draft requires constitutional minimums before revocation can take effect, including: notice an independent tribunal the right to counsel judicial review That is not procedural excess. It is a recognition that citizenship is too foundational to leave wholly to future statutory discretion. Why This Matters Beyond Individual Cases Without strong process, citizenship rules can become tools for exclusionary politics or selective intimidation. The clause exists to make clear that loss of membership in the constitutional community cannot happen casually or politically.",
+      "related_slugs": [
+        "ix-citizenship-membership"
+      ]
+    },
+    {
+      "slug": "clause-anti-corruption",
+      "title": "Clause Note: Anti-Corruption And Anti-Capture",
+      "group": "Clause Notes",
+      "kind": "commentary",
+      "source": "commentary/clauses/anti-corruption.md",
+      "status": null,
+      "summary": "Corruption is not just bad administration.",
+      "headings": [
+        {
+          "level": 2,
+          "text": "Why Corruption Is Treated As Constitutional",
+          "anchor": "why-corruption-is-treated-as-constitutional"
+        },
+        {
+          "level": 2,
+          "text": "What This Clause Is Aimed At",
+          "anchor": "what-this-clause-is-aimed-at"
+        },
+        {
+          "level": 2,
+          "text": "Why This Sits Across Multiple Articles",
+          "anchor": "why-this-sits-across-multiple-articles"
+        }
+      ],
+      "search_text": "Clause Note: Anti Corruption And Anti Capture Why Corruption Is Treated As Constitutional Corruption is not just bad administration. It changes how power is allocated, who public institutions serve, and whether citizens can trust that law is being applied for public rather than private ends. At scale, corruption and capture become constitutional threats. What This Clause Is Aimed At The draft is designed against: self dealing hidden financial dependence contractor capture regulatory capture office used for private enrichment informal immunity for powerful financial or political actors Why This Sits Across Multiple Articles No single clause can solve corruption. That is why the draft uses a layered structure: Article VI for democratic integrity and anti subversion Article VIII for substantive ethics and anti capture duties Article XIII for structural administrative integrity The purpose is to make corruption harder to normalize as merely bad behavior inside otherwise healthy institutions.",
+      "related_slugs": [
+        "viii-government-ethics",
+        "xiii-federal-agencies",
+        "vi-integrity"
       ]
     },
     {

@@ -117,6 +117,30 @@ CLAUSE_COMMENTARY_SOURCES = [
         "Why constitutional democracy permits strong limits on political money without freezing one permanent regulatory model",
         ["vii-campaign-finance"],
     ),
+    (
+        "clause-federalism-floor",
+        "Clause Note: Federalism And The Democratic Floor",
+        ROOT / "commentary" / "clauses" / "federalism-floor.md",
+        "Clause Notes",
+        "Why state autonomy is preserved within a democratic floor rather than treated as absolute",
+        ["x-federalism"],
+    ),
+    (
+        "clause-citizenship-revocation",
+        "Clause Note: Citizenship Revocation And Due Process",
+        ROOT / "commentary" / "clauses" / "citizenship-revocation.md",
+        "Clause Notes",
+        "Why loss of citizenship requires an explicit constitutional process floor before it can take effect",
+        ["ix-citizenship-membership"],
+    ),
+    (
+        "clause-anti-corruption",
+        "Clause Note: Anti-Corruption And Anti-Capture",
+        ROOT / "commentary" / "clauses" / "anti-corruption.md",
+        "Clause Notes",
+        "Why corruption and institutional capture are treated as constitutional threats rather than ordinary policy failures",
+        ["viii-government-ethics", "xiii-federal-agencies", "vi-integrity"],
+    ),
 ]
 
 SCORECARD_KEYS = {
@@ -437,6 +461,9 @@ def build_manifest() -> dict[str, object]:
                 "clause-political-speech-floor",
                 "clause-peaceful-transfer",
                 "clause-campaign-finance-equality",
+                "clause-federalism-floor",
+                "clause-citizenship-revocation",
+                "clause-anti-corruption",
             ],
         },
         {"group": "Background", "items": ["rationale", "findings", "finalization-plan", "overview-zh"]},
