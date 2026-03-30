@@ -50,7 +50,8 @@
         "key": "visual_guides",
         "title": "Gu\u00edas visuales",
         "items": [
-          "rights-at-a-glance"
+          "rights-at-a-glance",
+          "emergency-powers-lifecycle"
         ]
       },
       {
@@ -134,7 +135,8 @@
     {
       "group": "Gu\u00edas visuales",
       "items": [
-        "rights-at-a-glance"
+        "rights-at-a-glance",
+        "emergency-powers-lifecycle"
       ]
     },
     {
@@ -3258,6 +3260,34 @@
         }
       ],
       "search_text": "Rights At A Glance This visual guide groups the constitution's major rights into a few readable categories so first time readers can understand the system without starting from article by article legal text. How To Read This Guide Each card represents a major rights cluster. The short description explains the plain language function of the right, and the article reference shows where the binding text lives. Use the category buttons to focus on one slice of the rights structure at a time, or view all categories together. What This Guide Covers political rights civil liberties due process equality digital rights social and economic rights non derogable rights What This Guide Does Not Do This guide is an orientation layer, not the constitutional text itself. For exact wording and legal detail, read: Article V Article IX Article XVIII"
+    },
+    {
+      "slug": "emergency-powers-lifecycle",
+      "title": "Ciclo de los poderes de emergencia",
+      "group": "Gu\u00edas visuales",
+      "kind": "note",
+      "content_type": "visual_guide",
+      "source": "visual-guides/emergency-powers-lifecycle.md",
+      "status": null,
+      "summary": "Gu\u00eda visual de c\u00f3mo las declaraciones de emergencia comienzan, se limitan, caducan y terminan",
+      "headings": [
+        {
+          "level": 2,
+          "text": "How To Read This Guide",
+          "anchor": "how-to-read-this-guide"
+        },
+        {
+          "level": 2,
+          "text": "What This Guide Covers",
+          "anchor": "what-this-guide-covers"
+        },
+        {
+          "level": 2,
+          "text": "What This Guide Does Not Do",
+          "anchor": "what-this-guide-does-not-do"
+        }
+      ],
+      "search_text": "Emergency Powers Lifecycle This visual guide shows how a national emergency begins, how it is constrained, how it lapses, and how the constitutional system responds if the executive tries to stretch or evade those limits. How To Read This Guide The guide has three paths: ordinary constitutional path lapse path when approval is not granted abuse path when emergency power is stretched beyond lawful limits Use the path buttons to focus on one branch of the emergency system at a time. What This Guide Covers presidential declaration 48 hour submission to the Regional Assembly 30 day approval deadline automatic lapse if approval is not granted 30 day renewals 180 day maximum without a 2/3 vote of both chambers judicial and accountability backstops What This Guide Does Not Do This guide is an orientation layer, not the constitutional text itself. For exact wording and legal detail, read: Article III Article IV Article V"
     },
     {
       "slug": "commentary-overview",

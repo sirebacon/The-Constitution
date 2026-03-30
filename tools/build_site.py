@@ -146,6 +146,11 @@ PAGE_METADATA = {
         "es": ("Derechos de un vistazo", "Guía visual de las principales categorías de derechos y protecciones de la constitución"),
         "zh-Hans": ("权利一览", "对本宪法主要权利类别与保障的可视化导览"),
     },
+    "emergency-powers-lifecycle": {
+        "en": ("Emergency Powers Lifecycle", "A visual guide to how emergency declarations begin, narrow, lapse, and terminate"),
+        "es": ("Ciclo de los poderes de emergencia", "Guía visual de cómo las declaraciones de emergencia comienzan, se limitan, caducan y terminan"),
+        "zh-Hans": ("紧急权力生命周期", "对应急状态如何启动、收窄、失效与终止的可视化导览"),
+    },
 }
 
 COMMENTARY_OVERVIEW_METADATA = {
@@ -260,6 +265,13 @@ VISUAL_GUIDE_SOURCES = [
         ROOT / "visual-guides" / "rights-at-a-glance.md",
         "Visual Guides",
         "A visual guide to the constitution's major rights categories and protections",
+    ),
+    (
+        "emergency-powers-lifecycle",
+        "Emergency Powers Lifecycle",
+        ROOT / "visual-guides" / "emergency-powers-lifecycle.md",
+        "Visual Guides",
+        "A visual guide to how emergency declarations begin, narrow, lapse, and terminate",
     ),
 ]
 
@@ -452,7 +464,7 @@ def homepage_section_items() -> dict[str, list[str]]:
     return {
         "start_here": ["overview", "index", "comparison", "scorecard"],
         "guides": ["how-testing-works", "how-to-write-simulation-tests"],
-        "visual_guides": ["rights-at-a-glance"],
+        "visual_guides": ["rights-at-a-glance", "emergency-powers-lifecycle"],
         "constitution": ["preamble"] + [slugify(filename.replace(".md", "")) for filename in ARTICLE_ORDER],
         "commentary": ["commentary-overview", "commentary-choices", "commentary-peaceful-use"],
         "key_clauses": [

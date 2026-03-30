@@ -232,8 +232,156 @@ const RIGHTS_GUIDE = {
   },
 };
 
+const EMERGENCY_GUIDE = {
+  en: {
+    all: "All paths",
+    ordinary: "Ordinary path",
+    lapse: "Lapse path",
+    abuse: "Abuse path",
+    filterLabel: "Filter emergency lifecycle paths",
+    note: "Follow the ordinary approval path, the automatic-lapse path, or the abuse path where emergency power is stretched beyond lawful limits.",
+    sections: [
+      {
+        key: "ordinary",
+        label: "Ordinary constitutional path",
+        summary: "Emergency power exists only inside a timed and reviewable constitutional chain.",
+        steps: [
+          { title: "Declaration", meta: "Day 0 · Article III §5.1", text: "The President may declare a national emergency only in response to an imminent threat requiring action faster than the ordinary legislative process permits." },
+          { title: "Immediate but limited powers", meta: "Day 0 · Article III §5.2–§5.3", text: "The declaration activates only the narrow emergency powers the Constitution and ordinary law allow. It cannot suspend rights except as separately authorized." },
+          { title: "Submission to the Regional Assembly", meta: "Within 48 hours · Article III §5.4", text: "The declaration must be submitted to the Regional Assembly within 48 hours for approval or rejection." },
+          { title: "Approval window", meta: "By Day 30 · Article III §5.4", text: "The Regional Assembly must approve or reject the declaration within 30 days. This vote is constitutionally mandatory." },
+          { title: "Renewal path", meta: "Successive 30-day periods · Article III §5.5", text: "If approved, the declaration may be renewed in successive 30-day periods. It cannot continue past 180 days without a 2/3 vote of both chambers." },
+          { title: "Termination", meta: "Any time · Article III §5.6", text: "The emergency ends when its period expires, when either chamber votes to terminate it, or when the President declares it over." },
+        ],
+      },
+      {
+        key: "lapse",
+        label: "Automatic lapse path",
+        summary: "The system is designed so a missed approval deadline kills the declaration automatically.",
+        steps: [
+          { title: "No approval", meta: "Day 30 · Article III §5.4", text: "If the Regional Assembly does not approve the declaration within 30 days, the emergency lapses automatically at the end of the thirtieth day." },
+          { title: "Dependent measures become void", meta: "Immediate · Article III §5.4", text: "All powers, directives, suspensions, deployments, or restrictions that depend on the declaration become void unless separately authorized by ordinary law." },
+          { title: "Judicial certificate", meta: "Immediate · Article III §5.4 / Article IV §2.7", text: "The Chief Justice or designated judicial officer must issue a public certificate stating that the declaration has expired. Failure to issue that certificate does not preserve the emergency." },
+          { title: "Immediate standing", meta: "Immediate · Article III §5.4", text: "Any person still subject to enforcement after lapse has immediate standing to seek relief in federal court." },
+          { title: "No shell-game redeclaration", meta: "60-day lockout · Article III §5.4", text: "A substantially similar emergency cannot simply be re-declared for 60 days unless materially new circumstances are certified and survive expedited judicial review." },
+        ],
+      },
+      {
+        key: "abuse",
+        label: "Abuse and review path",
+        summary: "If emergency power is stretched, constitutional review, rights limits, and accountability mechanisms continue operating.",
+        steps: [
+          { title: "Rights floor remains", meta: "Article III §5.3 / Article V §14", text: "An emergency declaration does not itself suspend rights. Non-derogable rights remain protected even under emergency conditions." },
+          { title: "Courts remain open", meta: "Article IV §9.7 / §10 / Article V §1.3", text: "Emergency orders remain subject to judicial review, transparency requirements, and expedited treatment where the Constitution requires it." },
+          { title: "High-impact directives can be fast-tracked", meta: "Article IV §9.6A", text: "If the executive uses emergency or unilateral authority in a sweeping way, affected parties can seek direct accelerated review." },
+          { title: "Either chamber may terminate", meta: "Article III §5.6", text: "Emergency power is not locked in once approved. A majority of either chamber can terminate the declaration." },
+          { title: "Defiance remains punishable", meta: "Article III §15 / Article XII", text: "Executive defiance, unlawful continuation, or rights violations still trigger accountability and may support removal or prosecution." },
+        ],
+      },
+    ],
+  },
+  es: {
+    all: "Todas las rutas",
+    ordinary: "Ruta ordinaria",
+    lapse: "Ruta de caducidad",
+    abuse: "Ruta de abuso",
+    filterLabel: "Filtrar rutas del ciclo de emergencia",
+    note: "Sigue la ruta ordinaria de aprobación, la ruta de caducidad automática o la ruta de abuso cuando el poder de emergencia se estira más allá de sus límites legales.",
+    sections: [
+      {
+        key: "ordinary",
+        label: "Ruta constitucional ordinaria",
+        summary: "El poder de emergencia solo existe dentro de una cadena constitucional temporizada y revisable.",
+        steps: [
+          { title: "Declaración", meta: "Día 0 · Artículo III §5.1", text: "El Presidente solo puede declarar una emergencia nacional en respuesta a una amenaza inminente que requiera actuar más rápido de lo que permite el proceso legislativo ordinario." },
+          { title: "Poderes inmediatos pero limitados", meta: "Día 0 · Artículo III §5.2–§5.3", text: "La declaración activa solo los poderes de emergencia limitados que permiten la Constitución y la ley ordinaria. No puede suspender derechos salvo autorización separada." },
+          { title: "Remisión a la Asamblea Regional", meta: "Dentro de 48 horas · Artículo III §5.4", text: "La declaración debe remitirse a la Asamblea Regional dentro de 48 horas para su aprobación o rechazo." },
+          { title: "Ventana de aprobación", meta: "Antes del día 30 · Artículo III §5.4", text: "La Asamblea Regional debe aprobar o rechazar la declaración en 30 días. Esa votación es constitucionalmente obligatoria." },
+          { title: "Ruta de renovación", meta: "Períodos sucesivos de 30 días · Artículo III §5.5", text: "Si se aprueba, la declaración puede renovarse por períodos sucesivos de 30 días. No puede continuar más allá de 180 días sin un voto de 2/3 de ambas cámaras." },
+          { title: "Terminación", meta: "En cualquier momento · Artículo III §5.6", text: "La emergencia termina cuando expira su período, cuando cualquiera de las cámaras vota por terminarla o cuando el Presidente declara que ha terminado." },
+        ],
+      },
+      {
+        key: "lapse",
+        label: "Ruta de caducidad automática",
+        summary: "El sistema está diseñado para que la falta de aprobación extinga automáticamente la declaración.",
+        steps: [
+          { title: "Sin aprobación", meta: "Día 30 · Artículo III §5.4", text: "Si la Asamblea Regional no aprueba la declaración dentro de 30 días, la emergencia caduca automáticamente al final del trigésimo día." },
+          { title: "Las medidas dependientes quedan sin efecto", meta: "Inmediato · Artículo III §5.4", text: "Todos los poderes, directivas, suspensiones, despliegues o restricciones que dependan de la declaración quedan sin efecto, salvo autorización independiente de la ley ordinaria." },
+          { title: "Certificación judicial", meta: "Inmediato · Artículo III §5.4 / Artículo IV §2.7", text: "El Presidente del Tribunal Supremo o la autoridad judicial designada debe emitir una certificación pública de que la declaración ha expirado. La falta de certificado no preserva la emergencia." },
+          { title: "Legitimación inmediata", meta: "Inmediato · Artículo III §5.4", text: "Toda persona que siga sometida a medidas tras la caducidad tiene legitimación inmediata para acudir a los tribunales federales." },
+          { title: "No re-declaración de cobertura", meta: "Bloqueo de 60 días · Artículo III §5.4", text: "No puede redeclararse una emergencia sustancialmente igual durante 60 días salvo que existan circunstancias materialmente nuevas y superen revisión judicial acelerada." },
+        ],
+      },
+      {
+        key: "abuse",
+        label: "Ruta de abuso y revisión",
+        summary: "Si el poder de emergencia se estira, siguen operando la revisión constitucional, los límites de derechos y los mecanismos de rendición de cuentas.",
+        steps: [
+          { title: "El piso de derechos permanece", meta: "Artículo III §5.3 / Artículo V §14", text: "La declaración de emergencia no suspende por sí sola los derechos. Los derechos no derogables permanecen protegidos incluso en emergencia." },
+          { title: "Los tribunales siguen abiertos", meta: "Artículo IV §9.7 / §10 / Artículo V §1.3", text: "Las órdenes de emergencia siguen sujetas a revisión judicial, requisitos de transparencia y tramitación acelerada cuando la Constitución lo exige." },
+          { title: "Las directivas de alto impacto pueden ir por vía rápida", meta: "Artículo IV §9.6A", text: "Si el ejecutivo usa autoridad de emergencia o unilateral de forma amplia, las personas afectadas pueden solicitar revisión acelerada directa." },
+          { title: "Cualquiera de las cámaras puede terminarla", meta: "Artículo III §5.6", text: "El poder de emergencia no queda blindado una vez aprobado. Una mayoría de cualquiera de las cámaras puede terminar la declaración." },
+          { title: "La desobediencia sigue siendo punible", meta: "Artículo III §15 / Artículo XII", text: "La desobediencia ejecutiva, la continuación ilícita o las violaciones de derechos siguen activando responsabilidad y pueden fundamentar destitución o enjuiciamiento." },
+        ],
+      },
+    ],
+  },
+  "zh-Hans": {
+    all: "全部路径",
+    ordinary: "通常路径",
+    lapse: "失效路径",
+    abuse: "滥用路径",
+    filterLabel: "筛选紧急权力路径",
+    note: "你可以查看通常批准路径、自动失效路径，或当紧急权力被拉伸到法定边界之外时的滥用路径。",
+    sections: [
+      {
+        key: "ordinary",
+        label: "通常宪法路径",
+        summary: "紧急权力只能存在于一条有时限且可审查的宪法链条之内。",
+        steps: [
+          { title: "宣布紧急状态", meta: "第 0 天 · 第三条 §5.1", text: "总统只有在面临迫在眉睫、且必须快于普通立法程序作出回应的威胁时，才能宣布国家紧急状态。" },
+          { title: "即时但受限的权力", meta: "第 0 天 · 第三条 §5.2–§5.3", text: "宣布仅激活宪法和普通法律允许的有限紧急权力。除非有单独授权，否则不得暂停权利。" },
+          { title: "提交地区议会", meta: "48 小时内 · 第三条 §5.4", text: "该声明必须在 48 小时内提交地区议会批准或否决。" },
+          { title: "批准窗口", meta: "第 30 天前 · 第三条 §5.4", text: "地区议会必须在 30 天内批准或否决该声明。这一表决是宪法强制要求的。" },
+          { title: "续期路径", meta: "连续 30 天期间 · 第三条 §5.5", text: "一旦获批，紧急状态可按连续 30 天期间续期。未经两院各 2/3 同意，不得超过 180 天。" },
+          { title: "终止", meta: "任何时候 · 第三条 §5.6", text: "紧急状态会在授权期届满、任一议院投票终止、或总统书面宣布结束时终止。" },
+        ],
+      },
+      {
+        key: "lapse",
+        label: "自动失效路径",
+        summary: "制度被设计为：一旦未获批准，声明会自动失效。",
+        steps: [
+          { title: "未获批准", meta: "第 30 天 · 第三条 §5.4", text: "如果地区议会未在 30 天内批准该声明，紧急状态将在第 30 天结束时自动失效。" },
+          { title: "依附措施失效", meta: "立即 · 第三条 §5.4", text: "所有依赖该声明的权力、指令、暂停、部署或限制都会失效，除非它们另有普通法律依据。" },
+          { title: "司法证明", meta: "立即 · 第三条 §5.4 / 第四条 §2.7", text: "首席大法官或指定司法官必须发布公开证明，说明该声明已经届满。未发布证明并不会维持紧急状态。" },
+          { title: "立即诉权", meta: "立即 · 第三条 §5.4", text: "任何人在紧急状态失效后若仍被继续执行相关措施，都立即有资格向联邦法院寻求救济。" },
+          { title: "不得用同一事实重新宣布", meta: "60 天锁定期 · 第三条 §5.4", text: "在 60 天内，不得基于大体相同的事实重新宣布紧急状态，除非出现实质性新情况，并通过加速司法审查。" },
+        ],
+      },
+      {
+        key: "abuse",
+        label: "滥用与审查路径",
+        summary: "如果紧急权力被拉伸使用，宪法审查、权利限制和问责机制仍然继续运作。",
+        steps: [
+          { title: "权利底线仍然存在", meta: "第三条 §5.3 / 第五条 §14", text: "紧急状态声明本身不会自动暂停权利。不可减损权利在紧急状态下仍受保护。" },
+          { title: "法院仍然开放", meta: "第四条 §9.7 / §10 / 第五条 §1.3", text: "紧急命令仍然受司法审查、透明度要求，以及宪法规定的加速程序约束。" },
+          { title: "高影响指令可走快速通道", meta: "第四条 §9.6A", text: "如果行政部门以紧急或单边权力作出广泛影响的指令，受影响者可以请求直接加速审查。" },
+          { title: "任一议院都可以终止", meta: "第三条 §5.6", text: "一旦获批并不意味着紧急权力不可撤销。任一议院的多数都可以终止该声明。" },
+          { title: "抗命仍会被追责", meta: "第三条 §15 / 第十二条", text: "行政抗命、违法延续或权利侵害仍会触发问责，并可能支持罢免或起诉。" },
+        ],
+      },
+    ],
+  },
+};
+
 function dataForLocale(locale) {
   return RIGHTS_GUIDE[locale] || RIGHTS_GUIDE.en;
+}
+
+function emergencyDataForLocale(locale) {
+  return EMERGENCY_GUIDE[locale] || EMERGENCY_GUIDE.en;
 }
 
 function rightsCards(categories) {
@@ -268,29 +416,80 @@ function rightsCards(categories) {
 }
 
 export function renderVisualGuide(doc, siteData) {
-  if (doc.slug !== "rights-at-a-glance") return "";
-  const data = dataForLocale(siteData.locale);
-  return `
-    <section class="visual-guide visual-guide--rights" aria-labelledby="visual-guide-title">
-      <div class="visual-guide__toolbar" role="group" aria-label="${data.filterLabel}">
-        <button class="filter-chip is-active" type="button" data-guide-filter="all">${data.all}</button>
-        ${data.categories
-          .map(
-            (category) =>
-              `<button class="filter-chip" type="button" data-guide-filter="${category.key}">${category.label}</button>`
-          )
-          .join("")}
-      </div>
-      <p class="visual-guide__note">${data.note}</p>
-      <div class="visual-guide__body">
-        ${rightsCards(data.categories)}
-      </div>
-    </section>
-  `;
+  if (doc.slug === "rights-at-a-glance") {
+    const data = dataForLocale(siteData.locale);
+    return `
+      <section class="visual-guide visual-guide--rights" aria-labelledby="visual-guide-title">
+        <div class="visual-guide__toolbar" role="group" aria-label="${data.filterLabel}">
+          <button class="filter-chip is-active" type="button" data-guide-filter="all">${data.all}</button>
+          ${data.categories
+            .map(
+              (category) =>
+                `<button class="filter-chip" type="button" data-guide-filter="${category.key}">${category.label}</button>`
+            )
+            .join("")}
+        </div>
+        <p class="visual-guide__note">${data.note}</p>
+        <div class="visual-guide__body">
+          ${rightsCards(data.categories)}
+        </div>
+      </section>
+    `;
+  }
+
+  if (doc.slug === "emergency-powers-lifecycle") {
+    const data = emergencyDataForLocale(siteData.locale);
+    return `
+      <section class="visual-guide visual-guide--emergency" aria-labelledby="visual-guide-title">
+        <div class="visual-guide__toolbar" role="group" aria-label="${data.filterLabel}">
+          <button class="filter-chip is-active" type="button" data-guide-filter="all">${data.all}</button>
+          <button class="filter-chip" type="button" data-guide-filter="ordinary">${data.ordinary}</button>
+          <button class="filter-chip" type="button" data-guide-filter="lapse">${data.lapse}</button>
+          <button class="filter-chip" type="button" data-guide-filter="abuse">${data.abuse}</button>
+        </div>
+        <p class="visual-guide__note">${data.note}</p>
+        <div class="visual-guide__body">
+          ${data.sections
+            .map(
+              (section) => `
+                <section class="rights-category emergency-flow" data-rights-category="${section.key}">
+                  <header class="rights-category__header">
+                    <div>
+                      <div class="eyebrow">${section.label}</div>
+                      <h2 class="rights-category__title">${section.label}</h2>
+                    </div>
+                    <p class="rights-category__summary">${section.summary}</p>
+                  </header>
+                  <ol class="emergency-steps">
+                    ${section.steps
+                      .map(
+                        (step, index) => `
+                          <li class="emergency-step">
+                            <div class="emergency-step__index">${index + 1}</div>
+                            <div class="emergency-step__body">
+                              <h3>${step.title}</h3>
+                              <div class="rights-card__meta">${step.meta}</div>
+                              <p>${step.text}</p>
+                            </div>
+                          </li>
+                        `
+                      )
+                      .join("")}
+                  </ol>
+                </section>
+              `
+            )
+            .join("")}
+        </div>
+      </section>
+    `;
+  }
+
+  return "";
 }
 
 export function activateVisualGuide(doc, container) {
-  if (doc.slug !== "rights-at-a-glance" || !container) return;
+  if (!["rights-at-a-glance", "emergency-powers-lifecycle"].includes(doc.slug) || !container) return;
   const buttons = [...container.querySelectorAll("[data-guide-filter]")];
   const categories = [...container.querySelectorAll("[data-rights-category]")];
   if (!buttons.length || !categories.length) return;
