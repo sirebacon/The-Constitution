@@ -4,6 +4,18 @@ Este documento describe el proyecto revisado en términos generales: qué tipo d
 
 ---
 
+## Uso Cívico Pacífico
+
+Este proyecto es un proyecto público de redacción constitucional para el debate cívico pacífico, la crítica, la traducción, la educación, la simulación y la defensa democrática.
+
+Está pensado para que otras personas puedan estudiarlo, revisarlo, bifurcarlo, traducirlo, enseñar a partir de él u organizar campañas lícitas basadas en él si les resulta útil.
+
+No es una milicia, una organización operativa ni una plataforma para amenazas, violencia, sabotaje o acción ilícita.
+
+Para la nota completa sobre el uso del proyecto, véase la página complementaria sobre uso cívico pacífico.
+
+---
+
 ## En Términos Generales
 
 Este proyecto es una constitución democrático-republicana para un gran Estado federal presidencial, pero no es una simple actualización de la actual Constitución de los Estados Unidos. Es un orden constitucional más explícito, moderno y antitotalitario.

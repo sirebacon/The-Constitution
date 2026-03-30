@@ -18,6 +18,15 @@ const STRINGS = {
       "Not a militia, operational group, or platform for threats, violence, sabotage, or unlawful action.",
     ],
     readProjectUse: "Read the peaceful-use note",
+    testingHeading: "How This Draft Is Tested",
+    testingIntro:
+      "This project uses a scenario-based simulator to stress-test constitutional responses to abuse, delay, sabotage, and institutional failure.",
+    testingBullets: [
+      "75 scenarios run so far.",
+      "0 unresolved obligations in the current aggregate.",
+      "Testing tracks violations, bottlenecks, and whether constitutional consequence chains actually close.",
+    ],
+    readTesting: "Read how testing works",
     readConstitution: "Read the Constitution",
     understandChoices: "Understand the Choices",
     keyClauses: "Key Clauses",
@@ -73,6 +82,15 @@ const STRINGS = {
       "No es una milicia, un grupo operativo ni una plataforma para amenazas, violencia, sabotaje o acción ilícita.",
     ],
     readProjectUse: "Leer la nota de uso pacífico",
+    testingHeading: "Cómo se valida este borrador",
+    testingIntro:
+      "Este proyecto utiliza un simulador basado en escenarios para someter a prueba las respuestas constitucionales frente al abuso, la demora, el sabotaje y la falla institucional.",
+    testingBullets: [
+      "75 escenarios ejecutados hasta ahora.",
+      "0 obligaciones no resueltas en el agregado actual.",
+      "La validación registra violaciones, cuellos de botella y si las cadenas de consecuencias constitucionales realmente se cierran.",
+    ],
+    readTesting: "Leer cómo funciona la validación",
     readConstitution: "Leer la Constitución",
     understandChoices: "Entender las decisiones",
     keyClauses: "Cláusulas clave",
@@ -128,6 +146,15 @@ const STRINGS = {
       "它不是民兵、行动组织，也不是威胁、暴力、破坏或违法行为的平台。",
     ],
     readProjectUse: "阅读和平使用说明",
+    testingHeading: "这份草案如何测试",
+    testingIntro:
+      "本项目使用基于情景的模拟器，对宪法在面对滥权、拖延、破坏和制度失灵时的反应进行压力测试。",
+    testingBullets: [
+      "目前已运行 75 个情景。",
+      "当前汇总中的未解决义务为 0。",
+      "测试会跟踪违规、瓶颈，以及宪法后果链条是否真正闭合。",
+    ],
+    readTesting: "阅读测试如何运作",
     readConstitution: "阅读宪法",
     understandChoices: "理解这些选择",
     keyClauses: "关键条款",

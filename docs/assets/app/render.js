@@ -136,9 +136,10 @@ export function renderNavigation({ siteData, currentFilter, strings }) {
 
 export function renderHome({ siteData, currentFilter, strings }) {
   const constitutionDocs = siteData.docs.filter((doc) => doc.group === "Constitution");
-  const overviewDocs = ["overview", "comparison", "scorecard", "finalization-plan"].map((slug) => bySlug(siteData, slug)).filter(Boolean);
+  const overviewDocs = ["overview", "comparison", "scorecard", "how-testing-works", "finalization-plan"].map((slug) => bySlug(siteData, slug)).filter(Boolean);
   const commentaryDocs = ["commentary-overview", "commentary-choices", "commentary-peaceful-use"].map((slug) => bySlug(siteData, slug)).filter(Boolean);
   const projectUseDoc = bySlug(siteData, "commentary-peaceful-use");
+  const testingDoc = bySlug(siteData, "how-testing-works");
   const clauseDocs = [
     "clause-unamendable-core",
     "clause-naturalized-president",
@@ -210,6 +211,19 @@ export function renderHome({ siteData, currentFilter, strings }) {
       ${
         projectUseDoc
           ? `<a class="card-link" href="#doc/${projectUseDoc.slug}">${strings.readProjectUse}</a>`
+          : ""
+      }
+    </section>
+    <section class="project-use-card project-use-card--testing" aria-labelledby="testing-summary-title">
+      <div class="eyebrow">${strings.testingHeading}</div>
+      <h2 class="section-title project-use-card__title" id="testing-summary-title">${strings.testingHeading}</h2>
+      <p class="project-use-card__intro">${strings.testingIntro}</p>
+      <ul class="project-use-card__list">
+        ${strings.testingBullets.map((item) => `<li>${item}</li>`).join("")}
+      </ul>
+      ${
+        testingDoc
+          ? `<a class="card-link" href="#doc/${testingDoc.slug}">${strings.readTesting}</a>`
           : ""
       }
     </section>

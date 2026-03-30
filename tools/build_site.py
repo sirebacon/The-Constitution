@@ -119,6 +119,11 @@ PAGE_METADATA = {
         "es": ("Plan de finalización", "Trabajo restante y secuencia para cerrar el borrador"),
         "zh-Hans": ("定稿计划", "当前剩余工作与接近定稿的顺序"),
     },
+    "how-testing-works": {
+        "en": ("How Testing Works", "How the simulator stress-tests the draft and what its results mean"),
+        "es": ("Cómo funciona la validación", "Cómo el simulador somete el borrador a pruebas de esfuerzo y qué significan sus resultados"),
+        "zh-Hans": ("测试如何运作", "模拟器如何对草案进行压力测试，以及这些结果意味着什么"),
+    },
 }
 
 COMMENTARY_OVERVIEW_METADATA = {
@@ -220,6 +225,7 @@ PAGE_SOURCES = [
     ("comparison", "Comparison", ROOT / "design-notes" / "comparison.md", "Overview", "Comparison with the current U.S. Constitution"),
     ("rationale", "Design Rationale", ROOT / "design-notes" / "rationale.md", "Overview", "Why the major structural choices were made"),
     ("scorecard", "Scorecard", ROOT / "design-notes" / "scorecard.md", "Overview", "Current quality assessment and next targets"),
+    ("how-testing-works", "How Testing Works", ROOT / "design-notes" / "how-testing-works.md", "Overview", "How the simulator stress-tests the draft and what its results mean"),
     ("findings", "Simulation Findings", ROOT / "design-notes" / "simulation-findings.md", "Research", "What the simulator is currently showing"),
     ("finalization-plan", "Finalization Plan", ROOT / "design-notes" / "finalization-plan.md", "Research", "Current remaining work and near-finalization sequence"),
 ]
@@ -722,7 +728,7 @@ def build_manifest(locale: str, locales: list[str]) -> dict[str, object]:
     background_items = ["rationale", "findings", "finalization-plan"]
 
     navigation = [
-        {"group": labels["start_here"], "items": ["overview", "index", "comparison", "scorecard"]},
+        {"group": labels["start_here"], "items": ["overview", "index", "comparison", "scorecard", "how-testing-works"]},
         {"group": labels["constitution"], "items": ["preamble"] + [slugify(filename.replace(".md", "")) for filename in ARTICLE_ORDER]},
         {"group": labels["commentary"], "items": ["commentary-overview", "commentary-choices", "commentary-peaceful-use"]},
         {

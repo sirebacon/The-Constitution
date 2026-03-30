@@ -473,6 +473,13 @@ input:focus-visible {
   box-shadow: var(--shadow);
 }
 
+.project-use-card--testing {
+  border-color: rgba(29, 90, 115, 0.2);
+  background:
+    linear-gradient(180deg, rgba(29, 90, 115, 0.08), rgba(255, 250, 242, 0.92)),
+    rgba(255, 250, 242, 0.96);
+}
+
 .project-use-card__title {
   margin-top: 0.4rem;
 }
