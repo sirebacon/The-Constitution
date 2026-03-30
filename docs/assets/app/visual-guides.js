@@ -542,6 +542,271 @@ function rightsCards(categories) {
     .join("");
 }
 
+const CONGRESS_COMPARISON = {
+  en: {
+    all: "All",
+    filterLabel: "Filter comparison categories",
+    note: "Each row compares one feature of the current U.S. Congress with the same feature in this draft. Use the category buttons to focus on one area.",
+    categories: [
+      {
+        key: "composition",
+        label: "Composition",
+        rows: [
+          {
+            feature: "Lower chamber",
+            current: "House of Representatives — 435 members",
+            draft: "House of Representatives — 500 members",
+            note: "Larger House improves district size and proportionality.",
+          },
+          {
+            feature: "Upper chamber",
+            current: "Senate — 100 members, 2 per state regardless of population",
+            draft: "Regional Assembly — ~100 members, proportional within 8 geographic regions, minimum 1 seat per state",
+            note: "Replaces equal-per-state allocation with regional proportional representation while keeping geographic balance.",
+          },
+          {
+            feature: "Total members",
+            current: "535",
+            draft: "~600",
+            note: "",
+          },
+        ],
+      },
+      {
+        key: "terms",
+        label: "Terms and elections",
+        rows: [
+          {
+            feature: "House term length",
+            current: "2 years — entire chamber elected every 2 years",
+            draft: "4 years — chamber staggered into two groups, half elected every 2 years",
+            note: "Longer terms reduce permanent campaign pressure. Staggering preserves continuity.",
+          },
+          {
+            feature: "Upper chamber term length",
+            current: "Senate — 6 years, staggered thirds",
+            draft: "Regional Assembly — 6 years, staggered thirds",
+            note: "Same structure retained.",
+          },
+          {
+            feature: "Recall",
+            current: "None — members cannot be recalled by voters",
+            draft: "Both chambers subject to constituent-initiated recall (Article I §13)",
+            note: "Recall is a new accountability mechanism not present in the current system.",
+          },
+          {
+            feature: "House age requirement",
+            current: "25 years old, 7-year citizen",
+            draft: "21 years old, 5-year citizen",
+            note: "Lower threshold to broaden eligibility.",
+          },
+          {
+            feature: "Upper chamber age requirement",
+            current: "Senate — 30 years old, 9-year citizen",
+            draft: "Regional Assembly — 25 years old, 7-year citizen",
+            note: "Lower threshold to broaden eligibility.",
+          },
+        ],
+      },
+      {
+        key: "powers",
+        label: "Exclusive powers",
+        rows: [
+          {
+            feature: "Originate revenue bills",
+            current: "House only",
+            draft: "House only",
+            note: "Unchanged.",
+          },
+          {
+            feature: "Impeach officers",
+            current: "House only (simple majority)",
+            draft: "House only (simple majority)",
+            note: "Unchanged.",
+          },
+          {
+            feature: "Try impeachments",
+            current: "Senate (2/3 to convict)",
+            draft: "Regional Assembly (2/3 to convict)",
+            note: "Same structure, different chamber.",
+          },
+          {
+            feature: "Confirm presidential nominees",
+            current: "Senate (simple majority; no time limit)",
+            draft: "Regional Assembly (simple majority; auto-confirmed after 90 days of inaction)",
+            note: "90-day default confirmation eliminates indefinite blockades of nominees.",
+          },
+          {
+            feature: "Ratify treaties",
+            current: "Senate (2/3)",
+            draft: "Regional Assembly (2/3)",
+            note: "Same threshold, different chamber.",
+          },
+          {
+            feature: "Approve emergency declarations",
+            current: "No constitutional requirement",
+            draft: "Regional Assembly must approve within 30 days or declaration lapses automatically",
+            note: "New structural constraint on emergency power.",
+          },
+        ],
+      },
+      {
+        key: "procedure",
+        label: "Procedural rules",
+        rows: [
+          {
+            feature: "Filibuster",
+            current: "Senate — unlimited debate unless 60 senators vote for cloture",
+            draft: "None — no filibuster mechanism; legislation decided by simple majority",
+            note: "The filibuster is a Senate rule, not a constitutional requirement. This draft removes it structurally.",
+          },
+          {
+            feature: "Veto override",
+            current: "2/3 of both chambers",
+            draft: "2/3 of both chambers",
+            note: "Unchanged.",
+          },
+          {
+            feature: "Deadlock resolution",
+            current: "None — bills can die indefinitely in the other chamber",
+            draft: "House may request floor vote if Regional Assembly has not acted; original House version goes to final Regional Assembly vote after 60-day conference failure",
+            note: "New mechanism prevents indefinite legislative paralysis.",
+          },
+          {
+            feature: "Suspension of member",
+            current: "No automatic suspension under indictment",
+            draft: "Member under felony indictment for official-duty offenses suspended from voting pending outcome",
+            note: "New accountability rule.",
+          },
+          {
+            feature: "Automatic removal",
+            current: "Conviction of a felony does not automatically remove a member",
+            draft: "Category 1 offenses (corruption, bribery, electoral subversion) trigger automatic removal on final conviction",
+            note: "New bright-line rule for the most serious misconduct.",
+          },
+        ],
+      },
+    ],
+  },
+  es: {
+    all: "Todo",
+    filterLabel: "Filtrar categorías de comparación",
+    note: "Cada fila compara una característica del Congreso actual de EE. UU. con la misma en este borrador.",
+    categories: [
+      {
+        key: "composition",
+        label: "Composición",
+        rows: [
+          { feature: "Cámara baja", current: "Cámara de Representantes — 435 miembros", draft: "Cámara de Representantes — 500 miembros", note: "Una cámara más grande mejora el tamaño de los distritos y la proporcionalidad." },
+          { feature: "Cámara alta", current: "Senado — 100 miembros, 2 por estado sin importar la población", draft: "Asamblea Regional — ~100 miembros, proporcional dentro de 8 regiones geográficas, mínimo 1 escaño por estado", note: "Reemplaza la asignación igualitaria por estado con representación regional proporcional manteniendo el equilibrio geográfico." },
+          { feature: "Total de miembros", current: "535", draft: "~600", note: "" },
+        ],
+      },
+      {
+        key: "terms",
+        label: "Mandatos y elecciones",
+        rows: [
+          { feature: "Duración del mandato en la cámara baja", current: "2 años — toda la cámara elegida cada 2 años", draft: "4 años — cámara escalonada en dos grupos, la mitad elegida cada 2 años", note: "Mandatos más largos reducen la presión de la campaña permanente." },
+          { feature: "Duración del mandato en la cámara alta", current: "Senado — 6 años, tercios escalonados", draft: "Asamblea Regional — 6 años, tercios escalonados", note: "Misma estructura mantenida." },
+          { feature: "Revocación", current: "Ninguna — los miembros no pueden ser revocados por los votantes", draft: "Ambas cámaras sujetas a revocación iniciada por electores (Artículo I §13)", note: "La revocación es un nuevo mecanismo de rendición de cuentas." },
+          { feature: "Requisito de edad para la cámara baja", current: "25 años, ciudadano por 7 años", draft: "21 años, ciudadano por 5 años", note: "Umbral más bajo para ampliar la elegibilidad." },
+          { feature: "Requisito de edad para la cámara alta", current: "Senado — 30 años, ciudadano por 9 años", draft: "Asamblea Regional — 25 años, ciudadano por 7 años", note: "Umbral más bajo para ampliar la elegibilidad." },
+        ],
+      },
+      {
+        key: "powers",
+        label: "Poderes exclusivos",
+        rows: [
+          { feature: "Originar proyectos de ingresos", current: "Solo la Cámara", draft: "Solo la Cámara", note: "Sin cambios." },
+          { feature: "Someter a juicio político", current: "Solo la Cámara (mayoría simple)", draft: "Solo la Cámara (mayoría simple)", note: "Sin cambios." },
+          { feature: "Juzgar el juicio político", current: "Senado (2/3 para condenar)", draft: "Asamblea Regional (2/3 para condenar)", note: "Misma estructura, diferente cámara." },
+          { feature: "Confirmar nominados presidenciales", current: "Senado (mayoría simple; sin límite de tiempo)", draft: "Asamblea Regional (mayoría simple; confirmación automática tras 90 días de inacción)", note: "La confirmación automática elimina bloqueos indefinidos de nominados." },
+          { feature: "Ratificar tratados", current: "Senado (2/3)", draft: "Asamblea Regional (2/3)", note: "Mismo umbral, diferente cámara." },
+          { feature: "Aprobar declaraciones de emergencia", current: "Sin requisito constitucional", draft: "La Asamblea Regional debe aprobar en 30 días o la declaración caduca automáticamente", note: "Nueva restricción estructural sobre el poder de emergencia." },
+        ],
+      },
+      {
+        key: "procedure",
+        label: "Reglas de procedimiento",
+        rows: [
+          { feature: "Obstruccionismo parlamentario", current: "Senado — debate ilimitado salvo que 60 senadores voten para cerrar el debate", draft: "Ninguno — no hay mecanismo de obstruccionismo; la legislación se decide por mayoría simple", note: "El obstruccionismo es una regla del Senado, no un requisito constitucional. Este borrador lo elimina estructuralmente." },
+          { feature: "Anular el veto", current: "2/3 de ambas cámaras", draft: "2/3 de ambas cámaras", note: "Sin cambios." },
+          { feature: "Resolución de bloqueos", current: "Ninguna — los proyectos pueden morir indefinidamente en la otra cámara", draft: "La Cámara puede solicitar una votación en plenario si la Asamblea Regional no ha actuado; la versión original de la Cámara se somete a votación final tras 60 días de fracaso en conferencia", note: "Nuevo mecanismo para prevenir la parálisis legislativa indefinida." },
+          { feature: "Remoción automática", current: "La condena por un delito grave no remueve automáticamente a un miembro", draft: "Los delitos de categoría 1 (corrupción, soborno, subversión electoral) desencadenan remoción automática con la condena final", note: "Nueva regla clara para las conductas más graves." },
+        ],
+      },
+    ],
+  },
+  "zh-Hans": {
+    all: "全部",
+    filterLabel: "筛选对比类别",
+    note: "每行对比当前美国国会与本草案在同一特征上的差异。",
+    categories: [
+      {
+        key: "composition",
+        label: "构成",
+        rows: [
+          { feature: "下议院", current: "众议院 — 435名成员", draft: "众议院 — 500名成员", note: "更大的众议院提升选区规模与比例代表性。" },
+          { feature: "上议院", current: "参议院 — 100名成员，每州2名，不论人口多少", draft: "地区议会 — 约100名成员，在8个地理区域内按人口比例分配，每州至少1席", note: "以区域比例代表制取代各州等额分配，同时保持地理平衡。" },
+          { feature: "成员总数", current: "535", draft: "约600", note: "" },
+        ],
+      },
+      {
+        key: "terms",
+        label: "任期与选举",
+        rows: [
+          { feature: "下议院任期", current: "2年 — 整个议院每2年全部改选", draft: "4年 — 议院分为两组交错选举，每2年改选一半", note: "较长任期减少持续竞选压力；交错制保持连续性。" },
+          { feature: "上议院任期", current: "参议院 — 6年，三分之一交错改选", draft: "地区议会 — 6年，三分之一交错改选", note: "结构不变。" },
+          { feature: "罢免", current: "无 — 选民无法罢免成员", draft: "两院均适用选民发起的罢免制度（第一条第13节）", note: "罢免是现行制度中没有的新问责机制。" },
+          { feature: "下议院年龄要求", current: "25岁，公民资格满7年", draft: "21岁，公民资格满5年", note: "降低门槛以扩大资格范围。" },
+          { feature: "上议院年龄要求", current: "参议院 — 30岁，公民资格满9年", draft: "地区议会 — 25岁，公民资格满7年", note: "降低门槛以扩大资格范围。" },
+        ],
+      },
+      {
+        key: "powers",
+        label: "专属权力",
+        rows: [
+          { feature: "发起税收法案", current: "仅众议院", draft: "仅众议院", note: "未变。" },
+          { feature: "提出弹劾", current: "仅众议院（简单多数）", draft: "仅众议院（简单多数）", note: "未变。" },
+          { feature: "审判弹劾", current: "参议院（2/3多数定罪）", draft: "地区议会（2/3多数定罪）", note: "结构相同，换了议院。" },
+          { feature: "确认总统提名", current: "参议院（简单多数；无时间限制）", draft: "地区议会（简单多数；90天不作为则自动确认）", note: "90天默认确认规则消除了对提名人的无限期阻挠。" },
+          { feature: "批准条约", current: "参议院（2/3多数）", draft: "地区议会（2/3多数）", note: "门槛不变，换了议院。" },
+          { feature: "批准紧急状态宣言", current: "无宪法要求", draft: "地区议会须在30天内批准，否则宣言自动失效", note: "对紧急权力的新结构性约束。" },
+        ],
+      },
+      {
+        key: "procedure",
+        label: "程序规则",
+        rows: [
+          { feature: "冗长辩论阻挠", current: "参议院 — 无限辩论，除非60名参议员投票结束辩论", draft: "无 — 没有阻挠机制；立法由简单多数决定", note: "冗长辩论是参议院规则，非宪法要求。本草案从结构上予以取消。" },
+          { feature: "推翻总统否决", current: "两院各2/3多数", draft: "两院各2/3多数", note: "未变。" },
+          { feature: "僵局解决", current: "无 — 法案可无限期搁置于另一议院", draft: "若地区议会未采取行动，众议院可要求全体投票；60天协商委员会失败后，众议院原版本提交地区议会最终表决", note: "新机制防止立法陷入无限期瘫痪。" },
+          { feature: "自动罢免", current: "定罪重罪不自动罢免成员", draft: "第一类罪行（腐败、贿赂、选举颠覆）在最终定罪后触发自动罢免", note: "对最严重不当行为设立新的明确规则。" },
+        ],
+      },
+    ],
+  },
+};
+
+function congressDataForLocale(locale) {
+  return CONGRESS_COMPARISON[locale] || CONGRESS_COMPARISON.en;
+}
+
+function congressRows(rows) {
+  return rows
+    .map(
+      (row) => `
+        <tr>
+          <th scope="row">${row.feature}</th>
+          <td class="congress-cell congress-cell--current">${row.current}</td>
+          <td class="congress-cell congress-cell--draft">${row.draft}</td>
+          ${row.note ? `<td class="congress-cell congress-cell--note">${row.note}</td>` : "<td></td>"}
+        </tr>
+      `
+    )
+    .join("");
+}
+
 export function renderVisualGuide(doc, siteData) {
   if (doc.slug === "rights-at-a-glance") {
     const data = dataForLocale(siteData.locale);
@@ -663,11 +928,59 @@ export function renderVisualGuide(doc, siteData) {
     `;
   }
 
+  if (doc.slug === "congress-comparison") {
+    const data = congressDataForLocale(siteData.locale);
+    const currentLabel = siteData.locale === "zh-Hans" ? "现行制度" : siteData.locale === "es" ? "Actual" : "Current";
+    const draftLabel = siteData.locale === "zh-Hans" ? "本草案" : siteData.locale === "es" ? "Este borrador" : "This draft";
+    const whyLabel = siteData.locale === "zh-Hans" ? "说明" : siteData.locale === "es" ? "Por qué" : "Why";
+    const featureLabel = siteData.locale === "zh-Hans" ? "特征" : siteData.locale === "es" ? "Característica" : "Feature";
+    return `
+      <section class="visual-guide visual-guide--congress" aria-labelledby="visual-guide-title">
+        <div class="visual-guide__toolbar" role="group" aria-label="${data.filterLabel}">
+          <button class="filter-chip is-active" type="button" data-guide-filter="all">${data.all}</button>
+          ${data.categories
+            .map(
+              (cat) =>
+                `<button class="filter-chip" type="button" data-guide-filter="${cat.key}">${cat.label}</button>`
+            )
+            .join("")}
+        </div>
+        <p class="visual-guide__note">${data.note}</p>
+        <div class="visual-guide__body">
+          ${data.categories
+            .map(
+              (cat) => `
+                <section class="rights-category congress-section" data-rights-category="${cat.key}">
+                  <header class="rights-category__header">
+                    <h2 class="rights-category__title">${cat.label}</h2>
+                  </header>
+                  <div class="congress-table-wrapper">
+                    <table class="congress-table">
+                      <thead>
+                        <tr>
+                          <th scope="col">${featureLabel}</th>
+                          <th scope="col" class="congress-cell--current">${currentLabel}</th>
+                          <th scope="col" class="congress-cell--draft">${draftLabel}</th>
+                          <th scope="col" class="congress-cell--note">${whyLabel}</th>
+                        </tr>
+                      </thead>
+                      <tbody>${congressRows(cat.rows)}</tbody>
+                    </table>
+                  </div>
+                </section>
+              `
+            )
+            .join("")}
+        </div>
+      </section>
+    `;
+  }
+
   return "";
 }
 
 export function activateVisualGuide(doc, container) {
-  if (!["rights-at-a-glance", "emergency-powers-lifecycle", "power-distribution"].includes(doc.slug) || !container) return;
+  if (!["rights-at-a-glance", "emergency-powers-lifecycle", "power-distribution", "congress-comparison"].includes(doc.slug) || !container) return;
   const buttons = [...container.querySelectorAll("[data-guide-filter]")];
   const categories = [...container.querySelectorAll("[data-rights-category]")];
   if (!buttons.length || !categories.length) return;

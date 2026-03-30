@@ -403,12 +403,93 @@ This project is strongest when it is:
 
 High-value messaging tasks:
 
-1. Make sure the homepage hero and subtitle match the core positioning line.
-2. Add a `Visual Guides` section once the first visual explainer exists.
-3. Create a `What This Protects That The U.S. Constitution Does Not` page or summary block.
-4. Keep clause notes short and reusable.
-5. Maintain one stable short description for use on GitHub, posts, and group shares.
-6. Keep new content additions modular by default, so each new explainer or visual can stand alone and be shared independently.
+1. Create a `What This Protects That The U.S. Constitution Does Not` page or summary block — this is the highest-conversion entry point for a general audience and should come before other additions.
+2. Make sure the homepage hero and subtitle match the core positioning line.
+3. Add a `Visual Guides` section once the first visual explainer exists.
+4. Add a `What Does Forkable Mean?` section to the overview or README — see below.
+5. Keep clause notes short and reusable.
+6. Maintain one stable short description for use on GitHub, posts, and group shares.
+7. Keep new content additions modular by default, so each new explainer or visual can stand alone and be shared independently.
+
+---
+
+## Why Now
+
+The plan avoids urgency theater, but it should acknowledge the context without exploiting it.
+
+This project exists because questions about constitutional resilience are no longer theoretical. Emergency powers, peaceful transfer of power, institutional capture, and democratic backsliding have become live political discussions in the United States in a way they were not a decade ago. That is the environment in which this project lands.
+
+That context should be stated once, plainly, near the top of the overview — not as alarm, but as explanation for why the work was done now. Something like:
+
+`This project began because existing constitutional structures leave too many questions about executive power, institutional independence, and democratic continuity to norm and convention rather than enforceable rule. The goal is to show what a more resilient design looks like.`
+
+Say it once. Do not repeat it as a rhetorical device.
+
+---
+
+## What "Forkable" Means (And Why It Needs Explanation)
+
+The tagline `readable, tested, and forkable` uses a term that civic audiences may not recognize.
+
+A short explanation is needed — either in the README, the overview, or as a tooltip on the word itself when it appears on the site.
+
+Suggested plain-language explanation:
+
+`Forkable means that anyone can copy this draft and modify it — for a different country, a different political context, a state constitution, a model used in a classroom, or a reform proposal. Because it is open source, no permission is required. The full text, commentary, and simulation tests are available to copy, adapt, and build on.`
+
+Who actually might fork it:
+
+- a democracy reform organization building a model state constitution
+- a law school constitutional design seminar
+- an international civic group adapting the design for a different legal system
+- a researcher running variations of the amendment rules or removal mechanisms
+
+The concept is real and the audience exists. It just needs to be explained in plain terms before the word appears as a tagline.
+
+---
+
+## Distribution Starting Points
+
+The plan identifies what to say but not where to say it first. A project like this does not benefit from mass broadcasting before the content is strong. The right model is targeted seeding in communities where the work will be evaluated seriously.
+
+### First-wave communities
+
+**Civic technology:**
+- Civic Hall, Code for America, Knight Foundation communities
+- GitHub Explore and open-source civic tech channels
+- Developer communities interested in open governance tools
+
+**Constitutional and legal:**
+- Law school constitutional law and comparative constitutional design courses
+- Legal academic networks interested in constitutional design (ICON-S, comparative constitutional scholars)
+- Organizations that publish constitutional reform commentary (Brennan Center, Protect Democracy, Issue One)
+
+**Democracy reform:**
+- Reform organizations focused on structural democratic fixes (FairVote, RepresentUs)
+- Political science faculty working on democratic backsliding and constitutional resilience
+
+**International:**
+- Constitutional design networks (International IDEA, Venice Commission adjacent communities)
+- Comparative politics researchers
+
+### What to share first
+
+Do not share the full document first. Share a module:
+
+- the comparison page ("what this protects that the current U.S. Constitution does not")
+- one shareable visual once the first visual explainer is done
+- the simulation methodology explanation for technical readers
+- the clause note on emergency powers for policy audiences
+
+Each introduction should close with the neutral framing:
+
+`This is an open-source draft for critique, revision, and reuse. Sharing in case it is useful for discussion.`
+
+### What not to do yet
+
+- Do not submit to press or journalists before there is a stable public URL and a readable site
+- Do not post to large general-audience platforms before the site has a clear entry path for non-legal readers
+- Do not lead with the full constitution text — lead with one module that earns enough interest to go deeper
 
 ---
 

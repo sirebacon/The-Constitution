@@ -786,6 +786,78 @@ input:focus-visible {
   line-height: 1.55;
 }
 
+.congress-table-wrapper {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--line);
+}
+
+.congress-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.93rem;
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.congress-table thead tr {
+  background: rgba(29, 90, 115, 0.07);
+}
+
+.congress-table th {
+  padding: 0.7rem 0.9rem;
+  text-align: left;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--accent-2);
+  border-bottom: 1px solid var(--line);
+  white-space: nowrap;
+}
+
+.congress-table td {
+  padding: 0.75rem 0.9rem;
+  vertical-align: top;
+  border-bottom: 1px solid rgba(29, 90, 115, 0.07);
+  line-height: 1.5;
+}
+
+.congress-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.congress-table tbody tr:hover td {
+  background: rgba(29, 90, 115, 0.03);
+}
+
+.congress-table th:first-child,
+.congress-table td:first-child {
+  font-weight: 600;
+  color: var(--text);
+  white-space: nowrap;
+  min-width: 10rem;
+}
+
+.congress-cell--current {
+  color: var(--muted);
+}
+
+.congress-cell--draft {
+  color: var(--text);
+  font-weight: 500;
+}
+
+.congress-cell--note {
+  color: var(--muted);
+  font-style: italic;
+  font-size: 0.88rem;
+}
+
+.congress-section[hidden] {
+  display: none;
+}
+
 .markdown-body {
   max-width: 52rem;
   margin: 0 auto;

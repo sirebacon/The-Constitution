@@ -96,12 +96,14 @@ def changed_articles(config: dict) -> list[Path]:
         return []
 
 
-def all_articles(config: dict) -> list[Path]:
-    return sorted((REPO_ROOT / config["source_dir"]).glob("*.md"))
+def all_articles(config: dict, source_dir: str | None = None) -> list[Path]:
+    d = source_dir or config["source_dir"]
+    return sorted((REPO_ROOT / d).glob("*.md"))
 
 
-def output_path(article_path: Path, lang: str, config: dict) -> Path:
-    out_dir = REPO_ROOT / config["output_dir"] / lang / "articles"
+def output_path(article_path: Path, lang: str, config: dict, out_subdir: str | None = None) -> Path:
+    sub = out_subdir or "articles"
+    out_dir = REPO_ROOT / config["output_dir"] / lang / sub
     out_dir.mkdir(parents=True, exist_ok=True)
     return out_dir / article_path.name
 
@@ -128,6 +130,8 @@ def main():
     parser.add_argument("--all", action="store_true", help="Translate all articles, not just changed ones")
     parser.add_argument("--lang", help="Comma-separated language codes (default: all configured)")
     parser.add_argument("--article", help="Path to a single article file")
+    parser.add_argument("--source-dir", help="Override source directory (relative to repo root), e.g. commentary/articles")
+    parser.add_argument("--out-subdir", help="Output subdirectory under translations/{lang}/, e.g. commentary/articles")
     parser.add_argument("--model", help="Override model from config.yaml")
     parser.add_argument("--dry-run", action="store_true", help="Print what would be translated without calling API")
     args = parser.parse_args()
@@ -149,7 +153,7 @@ def main():
     if args.article:
         articles = [Path(args.article).resolve()]
     elif args.all:
-        articles = all_articles(config)
+        articles = all_articles(config, args.source_dir)
     else:
         articles = changed_articles(config)
         if not articles:
@@ -178,7 +182,7 @@ def main():
                 print(f"  SKIP {article_path.name} (not found)")
                 continue
 
-            out = output_path(article_path, lang, config)
+            out = output_path(article_path, lang, config, args.out_subdir)
             print(f"  {article_path.name} → {out.relative_to(REPO_ROOT)} ...", end=" ", flush=True)
 
             try:
