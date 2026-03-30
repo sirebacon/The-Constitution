@@ -508,6 +508,12 @@ input:focus-visible {
   gap: 1rem;
 }
 
+.reader-shell--guide .reader-header {
+  background:
+    linear-gradient(135deg, rgba(29, 90, 115, 0.08), transparent 55%),
+    rgba(255, 250, 242, 0.96);
+}
+
 .reader-header,
 .reader-body {
   border-radius: var(--radius-lg);
@@ -607,6 +613,106 @@ input:focus-visible {
 
 .related-notes .doc-card {
   background: rgba(255, 255, 255, 0.86);
+}
+
+.visual-guide {
+  margin-top: 1.5rem;
+  padding: 1.35rem 1.45rem 1.55rem;
+  border: 1px solid rgba(29, 90, 115, 0.18);
+  border-radius: var(--radius-lg);
+  background:
+    linear-gradient(180deg, rgba(29, 90, 115, 0.08), rgba(255, 250, 242, 0.92)),
+    rgba(255, 250, 242, 0.96);
+  box-shadow: var(--shadow);
+}
+
+.visual-guide__toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.filter-chip {
+  border: 1px solid rgba(29, 90, 115, 0.18);
+  background: rgba(255, 255, 255, 0.88);
+  color: var(--accent-2);
+  padding: 0.55rem 0.9rem;
+  border-radius: 999px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.filter-chip.is-active {
+  background: var(--accent-2);
+  color: #fff;
+  border-color: var(--accent-2);
+}
+
+.visual-guide__note {
+  margin: 0.9rem 0 0;
+  color: var(--muted);
+}
+
+.visual-guide__body {
+  display: grid;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.rights-category {
+  display: grid;
+  gap: 0.9rem;
+}
+
+.rights-category__header {
+  display: grid;
+  gap: 0.35rem;
+}
+
+.rights-category__title {
+  margin: 0;
+  font-family: "Fraunces", serif;
+  font-size: 1.35rem;
+}
+
+.rights-category__summary {
+  margin: 0;
+  color: var(--muted);
+  max-width: 52rem;
+}
+
+.rights-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+  gap: 0.9rem;
+}
+
+.rights-card {
+  padding: 1rem;
+  border-radius: var(--radius-md);
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid var(--line);
+  box-shadow: 0 10px 24px rgba(15, 24, 34, 0.05);
+}
+
+.rights-card h3 {
+  margin: 0 0 0.45rem;
+  font-size: 1rem;
+}
+
+.rights-card p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.5;
+}
+
+.rights-card__meta {
+  margin-top: 0.8rem;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.78rem;
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
 }
 
 .markdown-body {
@@ -838,7 +944,8 @@ input:focus-visible {
   .content-card,
   .stat-card,
   .related-notes,
-  .project-use-card {
+  .project-use-card,
+  .visual-guide {
     padding-left: 1rem;
     padding-right: 1rem;
   }

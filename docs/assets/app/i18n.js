@@ -30,6 +30,8 @@ const STRINGS = {
     readConstitution: "Read the Constitution",
     understandChoices: "Understand the Choices",
     keyClauses: "Key Clauses",
+    guidesLabel: "Guides",
+    visualGuidesLabel: "Visual Guides",
     searchResults: "Search Results",
     noSearchResults: (term) => `No documents match “${term}”.`,
     searchStatusResults: (count, term) =>
@@ -94,6 +96,8 @@ const STRINGS = {
     readConstitution: "Leer la Constitución",
     understandChoices: "Entender las decisiones",
     keyClauses: "Cláusulas clave",
+    guidesLabel: "Guías",
+    visualGuidesLabel: "Guías visuales",
     searchResults: "Resultados de búsqueda",
     noSearchResults: (term) => `Ningún documento coincide con “${term}”.`,
     searchStatusResults: (count, term) =>
@@ -158,6 +162,8 @@ const STRINGS = {
     readConstitution: "阅读宪法",
     understandChoices: "理解这些选择",
     keyClauses: "关键条款",
+    guidesLabel: "指南",
+    visualGuidesLabel: "可视化指南",
     searchResults: "搜索结果",
     noSearchResults: (term) => `没有与“${term}”匹配的文档。`,
     searchStatusResults: (count, term) =>

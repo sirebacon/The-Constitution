@@ -1,6 +1,7 @@
 import { refs } from "./dom.js";
 import { parseMarkdown } from "./markdown.js";
 import { docMatchesFilter, matchingDocs } from "./search.js";
+import { activateVisualGuide, renderVisualGuide } from "./visual-guides.js";
 
 function bySlug(siteData, slug) {
   return siteData.docs.find((doc) => doc.slug === slug);
@@ -26,7 +27,9 @@ function cardKicker(doc, strings) {
     case "policy":
       return doc.group;
     case "guide":
-      return strings.startHere;
+      return strings.guidesLabel ?? strings.startHere;
+    case "visual_guide":
+      return strings.visualGuidesLabel ?? doc.group;
     default:
       return doc.group;
   }
@@ -42,6 +45,10 @@ function metaPills(doc, strings) {
     );
   } else if (String(doc.content_type || "").startsWith("commentary") || doc.content_type === "policy") {
     pills.push(`<span class="pill"><strong>${strings.commentaryLabel}</strong> ${strings.explanatoryNotes}</span>`);
+  } else if (doc.content_type === "guide") {
+    pills.push(`<span class="pill"><strong>${strings.documentLabel}</strong> ${strings.guidesLabel ?? doc.group}</span>`);
+  } else if (doc.content_type === "visual_guide") {
+    pills.push(`<span class="pill"><strong>${strings.documentLabel}</strong> ${strings.visualGuidesLabel ?? doc.group}</span>`);
   } else {
     pills.push(`<span class="pill"><strong>${strings.documentLabel}</strong> ${doc.group}</span>`);
   }
@@ -212,6 +219,10 @@ export function renderHome({ siteData, currentFilter, strings }) {
         return strings.startHere;
       case "constitution":
         return strings.readConstitution;
+      case "guides":
+        return strings.guidesLabel ?? fallback;
+      case "visual_guides":
+        return strings.visualGuidesLabel ?? fallback;
       case "commentary":
         return strings.understandChoices;
       case "key_clauses":
@@ -282,10 +293,12 @@ export async function renderDoc({ siteData, slug, strings }) {
 
   const markdown = await fetch(sourceUrl(doc)).then((response) => response.text());
   const rendered = parseMarkdown(markdown);
+  const visualGuide = doc.content_type === "visual_guide" ? renderVisualGuide(doc, siteData) : "";
+  const readerClass = doc.content_type === "guide" ? "reader-shell reader-shell--guide" : "reader-shell";
 
   refs.heroPanel.innerHTML = "";
   refs.contentPanel.innerHTML = `
-    <section class="reader-shell">
+    <section class="${readerClass}">
       <header class="reader-header">
         <div class="eyebrow">${doc.group}</div>
         <h1>${doc.title}</h1>
@@ -299,11 +312,15 @@ export async function renderDoc({ siteData, slug, strings }) {
       </header>
       <article class="reader-body">
         <div class="markdown-body" id="markdownBody">${rendered}</div>
+        ${visualGuide}
       </article>
       ${relatedClauseNotes(doc, siteData, strings)}
     </section>
   `;
 
+  if (doc.content_type === "visual_guide") {
+    activateVisualGuide(doc, refs.contentPanel.querySelector(".visual-guide"));
+  }
   renderToc(doc, strings);
 }
 

@@ -28,6 +28,8 @@ NAV_GROUP_LABELS = {
     "en": {
         "start_here": "Start Here",
         "constitution": "Read the Constitution",
+        "guides": "Guides",
+        "visual_guides": "Visual Guides",
         "commentary": "Commentary",
         "key_clauses": "Key Clauses",
         "background": "Background",
@@ -35,6 +37,8 @@ NAV_GROUP_LABELS = {
     "es": {
         "start_here": "Empieza aquí",
         "constitution": "Leer la Constitución",
+        "guides": "Guías",
+        "visual_guides": "Guías visuales",
         "commentary": "Comentario",
         "key_clauses": "Cláusulas clave",
         "background": "Contexto",
@@ -42,6 +46,8 @@ NAV_GROUP_LABELS = {
     "zh-Hans": {
         "start_here": "从这里开始",
         "constitution": "阅读宪法",
+        "guides": "指南",
+        "visual_guides": "可视化指南",
         "commentary": "评注",
         "key_clauses": "关键条款",
         "background": "背景",
@@ -57,6 +63,8 @@ OVERVIEW_SUBTITLES = {
 GROUP_LABELS = {
     "en": {
         "overview": "Overview",
+        "guides": "Guides",
+        "visual_guides": "Visual Guides",
         "research": "Research",
         "commentary": "Commentary",
         "clause_notes": "Clause Notes",
@@ -64,6 +72,8 @@ GROUP_LABELS = {
     },
     "es": {
         "overview": "Resumen",
+        "guides": "Guías",
+        "visual_guides": "Guías visuales",
         "research": "Investigación",
         "commentary": "Comentario",
         "clause_notes": "Notas de cláusulas",
@@ -71,6 +81,8 @@ GROUP_LABELS = {
     },
     "zh-Hans": {
         "overview": "概览",
+        "guides": "指南",
+        "visual_guides": "可视化指南",
         "research": "研究",
         "commentary": "评注",
         "clause_notes": "条款注释",
@@ -128,6 +140,11 @@ PAGE_METADATA = {
         "en": ("How To Write Simulation Tests", "A contributor guide for creating new scenario tests, handlers, and follow-up report updates"),
         "es": ("Cómo escribir pruebas de simulación", "Guía para contribuir nuevos escenarios, controladores y actualizaciones posteriores"),
         "zh-Hans": ("如何编写模拟测试", "用于创建新情景测试、处理器和后续报告更新的贡献者指南"),
+    },
+    "rights-at-a-glance": {
+        "en": ("Rights At A Glance", "A visual guide to the constitution's major rights categories and protections"),
+        "es": ("Derechos de un vistazo", "Guía visual de las principales categorías de derechos y protecciones de la constitución"),
+        "zh-Hans": ("权利一览", "对本宪法主要权利类别与保障的可视化导览"),
     },
 }
 
@@ -234,6 +251,16 @@ PAGE_SOURCES = [
     ("how-to-write-simulation-tests", "How To Write Simulation Tests", ROOT / "design-notes" / "how-to-write-simulation-tests.md", "Overview", "A contributor guide for creating new scenario tests, handlers, and follow-up report updates"),
     ("findings", "Simulation Findings", ROOT / "design-notes" / "simulation-findings.md", "Research", "What the simulator is currently showing"),
     ("finalization-plan", "Finalization Plan", ROOT / "design-notes" / "finalization-plan.md", "Research", "Current remaining work and near-finalization sequence"),
+]
+
+VISUAL_GUIDE_SOURCES = [
+    (
+        "rights-at-a-glance",
+        "Rights At A Glance",
+        ROOT / "visual-guides" / "rights-at-a-glance.md",
+        "Visual Guides",
+        "A visual guide to the constitution's major rights categories and protections",
+    ),
 ]
 
 GUIDE_SLUGS = {"how-testing-works", "how-to-write-simulation-tests"}
@@ -423,7 +450,9 @@ def slugify(text: str) -> str:
 
 def homepage_section_items() -> dict[str, list[str]]:
     return {
-        "start_here": ["overview", "index", "comparison", "scorecard", "how-testing-works", "how-to-write-simulation-tests"],
+        "start_here": ["overview", "index", "comparison", "scorecard"],
+        "guides": ["how-testing-works", "how-to-write-simulation-tests"],
+        "visual_guides": ["rights-at-a-glance"],
         "constitution": ["preamble"] + [slugify(filename.replace(".md", "")) for filename in ARTICLE_ORDER],
         "commentary": ["commentary-overview", "commentary-choices", "commentary-peaceful-use"],
         "key_clauses": [
@@ -677,6 +706,26 @@ def build_manifest(locale: str, locales: list[str]) -> dict[str, object]:
             }
         )
 
+    for slug, title, source, group, fallback_summary in VISUAL_GUIDE_SOURCES:
+        source = localized_source(source, locale)
+        markdown = source.read_text()
+        relative = copy_source(source)
+        localized_title, localized_summary = localized_pair(PAGE_METADATA, slug, locale, title, fallback_summary)
+        docs.append(
+            {
+                "slug": slug,
+                "title": localized_title,
+                "group": group_label("visual_guides", locale),
+                "kind": "note",
+                "content_type": "visual_guide",
+                "source": relative,
+                "status": extract_status(markdown),
+                "summary": localized_summary if locale != "en" else extract_summary(markdown) or fallback_summary,
+                "headings": extract_headings(markdown),
+                "search_text": plain_text(markdown),
+            }
+        )
+
     for slug, title, source, group, fallback_summary in COMMENTARY_OVERVIEW_SOURCES:
         source = localized_source(source, locale)
         markdown = source.read_text()
@@ -785,6 +834,8 @@ def build_manifest(locale: str, locales: list[str]) -> dict[str, object]:
 
     navigation = [
         {"group": labels["start_here"], "items": section_items["start_here"]},
+        {"group": labels["guides"], "items": section_items["guides"]},
+        {"group": labels["visual_guides"], "items": section_items["visual_guides"]},
         {"group": labels["constitution"], "items": section_items["constitution"]},
         {"group": labels["commentary"], "items": section_items["commentary"]},
         {"group": labels["key_clauses"], "items": section_items["key_clauses"]},
