@@ -3171,32 +3171,32 @@
       "title": "Uso c\u00edvico pac\u00edfico",
       "group": "Comentario",
       "kind": "commentary",
-      "source": "commentary/overview/peaceful-civic-use.md",
+      "source": "translation/translations/es/commentary/overview/peaceful-civic-use.md",
       "status": null,
       "summary": "C\u00f3mo el proyecto define su prop\u00f3sito c\u00edvico pac\u00edfico y los l\u00edmites de contribuci\u00f3n",
       "headings": [
         {
           "level": 2,
-          "text": "Project Purpose",
-          "anchor": "project-purpose"
+          "text": "Prop\u00f3sito del Proyecto",
+          "anchor": "prop\u00f3sito-del-proyecto"
         },
         {
           "level": 2,
-          "text": "What The Project Does Not Endorse",
-          "anchor": "what-the-project-does-not-endorse"
+          "text": "Lo Que el Proyecto No Respalda",
+          "anchor": "lo-que-el-proyecto-no-respalda"
         },
         {
           "level": 2,
-          "text": "How To Use The Project",
-          "anchor": "how-to-use-the-project"
+          "text": "C\u00f3mo Utilizar el Proyecto",
+          "anchor": "c\u00f3mo-utilizar-el-proyecto"
         },
         {
           "level": 2,
-          "text": "Maintainer Position",
-          "anchor": "maintainer-position"
+          "text": "Posici\u00f3n de las Personas Mantenedoras",
+          "anchor": "posici\u00f3n-de-las-personas-mantenedoras"
         }
       ],
-      "search_text": "Peaceful Civic Use Project Purpose This project exists for peaceful civic discussion, constitutional drafting, education, translation, critique, simulation, and democratic advocacy. It is a public constitutional reference project. It is not a militia, an operational organization, or a vehicle for coercion or force. What The Project Does Not Endorse This project does not endorse: violence threats sabotage operational planning for coercion or force unlawful action or encouragement of imminent unlawful action Material submitted for those purposes is outside the project and may be removed. How To Use The Project People are free to: read and criticize the draft revise or fork it translate it teach from it organize lawful discussion around it campaign on parts of it if they find them persuasive The project is meant to be usable by others without requiring a single public leader to stand in front of it. Maintainer Position Maintainers may remove content or close discussions that try to turn the project into advocacy of force, unlawful action, or operational coordination. The purpose of the repository and website is constitutional discussion and public drafting, not coercion."
+      "search_text": "Uso C\u00edvico Pac\u00edfico Prop\u00f3sito del Proyecto Este proyecto existe para la discusi\u00f3n c\u00edvica pac\u00edfica, la redacci\u00f3n constitucional, la educaci\u00f3n, la traducci\u00f3n, la cr\u00edtica, la simulaci\u00f3n y la defensa democr\u00e1tica. Es un proyecto p\u00fablico de referencia constitucional. No es una milicia, una organizaci\u00f3n operativa ni un veh\u00edculo para la coacci\u00f3n o la fuerza. Lo Que el Proyecto No Respalda Este proyecto no respalda: la violencia las amenazas el sabotaje la planificaci\u00f3n operativa para la coacci\u00f3n o la fuerza la acci\u00f3n il\u00edcita ni la incitaci\u00f3n a una acci\u00f3n il\u00edcita inminente El material enviado con esos fines queda fuera del proyecto y puede ser eliminado. C\u00f3mo Utilizar el Proyecto Las personas son libres de: leer y criticar el borrador revisarlo o bifurcarlo traducirlo ense\u00f1arlo organizar debates l\u00edcitos en torno a \u00e9l hacer campa\u00f1a a favor de partes de \u00e9l si les resultan persuasivas El proyecto est\u00e1 pensado para que otros puedan utilizarlo sin necesidad de que una sola figura p\u00fablica se ponga al frente. Posici\u00f3n de las Personas Mantenedoras Las personas mantenedoras pueden eliminar contenido o cerrar debates que intenten convertir el proyecto en una defensa de la fuerza, de la acci\u00f3n il\u00edcita o de la coordinaci\u00f3n operativa. El prop\u00f3sito del repositorio y del sitio web es la discusi\u00f3n constitucional y la redacci\u00f3n p\u00fablica, no la coacci\u00f3n."
     },
     {
       "slug": "clause-unamendable-core",
