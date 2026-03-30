@@ -261,6 +261,7 @@ def build_manifest() -> dict[str, object]:
 
     return {
         "generated_at": aggregate.get("generated_at", ""),
+        "locale": "en",
         "overview": overview,
         "navigation": navigation,
         "docs": docs,
