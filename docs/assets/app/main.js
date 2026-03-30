@@ -55,6 +55,8 @@ function populateLocaleSwitcher() {
 function setMenuExpanded(isExpanded) {
   refs.menuButton.setAttribute("aria-expanded", String(isExpanded));
   refs.sidebar.classList.toggle("is-open", isExpanded);
+  refs.navScrim?.classList.toggle("is-visible", isExpanded);
+  document.body.classList.toggle("nav-open", isExpanded);
 }
 
 function closeMenu() {
@@ -153,6 +155,10 @@ async function init() {
   refs.menuButton.addEventListener("click", () => {
     const isExpanded = refs.menuButton.getAttribute("aria-expanded") === "true";
     setMenuExpanded(!isExpanded);
+  });
+
+  refs.navScrim?.addEventListener("click", () => {
+    closeMenu();
   });
 
   refs.localeSelect?.addEventListener("change", async () => {

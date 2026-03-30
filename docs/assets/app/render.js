@@ -81,6 +81,27 @@ function relatedClauseNotes(doc, siteData, strings) {
   `;
 }
 
+function inlineToc(doc, strings) {
+  if (!doc.headings?.length) return "";
+  return `
+    <section class="mobile-toc" aria-labelledby="mobile-toc-title">
+      <div class="eyebrow">${strings.onThisPageLabel}</div>
+      <h2 class="mobile-toc__title" id="mobile-toc-title">${strings.onThisPageLabel}</h2>
+      <nav class="mobile-toc__links" aria-label="${strings.onThisPageLabel}">
+        ${doc.headings
+          .map(
+            (heading) => `
+              <a class="toc-link level-${heading.level}" href="#doc/${doc.slug}/${heading.anchor}">
+                ${heading.text}
+              </a>
+            `
+          )
+          .join("")}
+      </nav>
+    </section>
+  `;
+}
+
 export function renderNavigation({ siteData, currentFilter, strings }) {
   const filter = currentFilter.trim().toLowerCase();
   refs.navGroups.innerHTML = siteData.navigation
@@ -226,6 +247,7 @@ export async function renderDoc({ siteData, slug, strings }) {
           <a class="hero-action source-link" href="${sourceUrl(doc)}" target="_blank" rel="noreferrer">${strings.openSourceMarkdown}</a>
           ${companionAction(doc, siteData, strings)}
         </div>
+        ${inlineToc(doc, strings)}
       </header>
       <article class="reader-body">
         <div class="markdown-body" id="markdownBody">${rendered}</div>

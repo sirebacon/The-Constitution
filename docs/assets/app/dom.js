@@ -8,6 +8,7 @@ export const refs = {
   searchLabel: document.getElementById("searchLabel"),
   searchHelp: document.getElementById("searchHelp"),
   sidebar: document.getElementById("sidebar"),
+  navScrim: document.getElementById("navScrim"),
   menuButton: document.getElementById("menuButton"),
   mainContent: document.getElementById("mainContent"),
   localeSelect: document.getElementById("localeSelect"),
