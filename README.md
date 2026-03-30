@@ -2,6 +2,18 @@
 
 An open-source constitutional drafting project for a modern replacement constitution of the United States.
 
+This project is intended as public constitutional work, not a personality-centered movement or campaign.
+
+It exists so other people can:
+
+- read and critique the draft
+- revise or fork it
+- translate it
+- use it for teaching, discussion, or organizing
+- campaign on parts of it if they find it persuasive
+
+The goal is to make a serious constitutional draft available for public use, not to require a single leader, party, or organization to own it.
+
 This repository includes:
 
 - constitutional text in [articles](/Users/chris/Documents/GitHub/The-Constitution/articles)

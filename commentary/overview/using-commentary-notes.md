@@ -6,6 +6,10 @@ This site keeps the constitutional text and the explanatory material separate on
 
 The Constitution is the operative text. Commentary notes explain why certain provisions exist, what problem they are solving, and what tradeoffs shaped the drafting choice.
 
+This project is also meant to be public, forkable constitutional work rather than a personality-centered movement.
+
+It is available so other people can study it, criticize it, translate it, revise it, organize around it, or campaign on parts of it if they choose.
+
 ## How To Read Them
 
 Use the constitutional text when you want the rule itself.
@@ -28,3 +32,5 @@ It is not part of the Constitution, and it is not meant to override or silently 
 A constitution should remain readable as law.
 
 If the reasons, historical examples, and drafting debates are inserted directly into the article text, the document gets harder to cite, harder to maintain, and less constitution-like. A separate commentary layer keeps the law clean while still making the choices legible.
+
+The same principle applies to ownership of the project itself: the draft should be usable by other people without requiring a single public leader to stand in front of it.
