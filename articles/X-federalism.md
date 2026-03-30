@@ -22,6 +22,20 @@ Establishes the division of authority between the federal government and the sta
 
 **1.5 Democratic floor.** Every state shall maintain a republican form of government including free and fair elections, an independent judiciary, and separation of executive and legislative power. The federal government shall guarantee this form of government to every state and shall protect each state against invasion and, upon application of the state legislature or executive, against domestic violence.
 
+**1.5A — State judicial independence standards.** The requirement of an independent judiciary in Section 1.5 includes the following minimum standards, which every state must satisfy. States may exceed but not fall below these floors.
+
+  **(a) Terms.** Judges serving on courts of general jurisdiction shall serve terms of not less than six years. A state may provide for longer terms or life tenure but may not provide for shorter initial terms or at-will judicial service.
+
+  **(b) Salary protection.** The compensation of a state judge shall not be reduced during the judge's term of service. The legislature may increase but not decrease judicial compensation as a mechanism of influencing judicial decisions.
+
+  **(c) Removal.** A state judge may be removed from office only: (i) by a process requiring a legislative supermajority equivalent to impeachment; (ii) upon reaching a mandatory retirement age established in advance by state law; (iii) upon a finding of misconduct by a judicial conduct commission as provided in subsection (d); or (iv) by recall election, only where the state uses elections for that judicial office and the same recall standards apply as for other elected officials. A judge may not be removed by simple legislative vote, executive order, or failure of reappointment taken in retaliation for judicial decisions.
+
+  **(d) Judicial conduct commission.** Each state shall maintain an independent judicial conduct commission authorized to receive complaints, investigate misconduct, and impose discipline including censure, suspension, mandatory training, and referral for removal proceedings. No more than a minority of commission members may be sitting elected officials. Commission findings shall be made public.
+
+  **(e) Funding protection.** State judicial branch funding shall not be reduced below the level necessary for courts to fulfill their constitutional functions. A legislature may not reduce judicial funding as a mechanism of pressure on judicial decisions.
+
+  **(f) No retaliation for decisions.** No judicial officer shall be subjected to adverse action — including reassignment, pay reduction, or removal — based on the legal conclusions expressed in any decision, dissent, or opinion. The remedy for a disagreeable judicial decision is appeal; it is not discipline.
+
 **1.6 — Enforcement of the democratic floor.** Where a state persistently and materially violates the democratic floor of Section 1.5, the following enforcement mechanism applies:
 
   (a) **Finding.** The Supreme Court, on petition by the United States or by the legislature or executive of any other state, may find that a state is in persistent and material violation of Section 1.5. The finding must identify the constitutional violations and explain why ordinary judicial relief has proved insufficient.
@@ -52,7 +66,27 @@ Establishes the division of authority between the federal government and the sta
 
   **(h) Enforcement.** A state that persistently and materially fails to maintain the standards of this Section is in violation of the democratic floor of Section 1.5 and subject to the enforcement mechanism of Section 1.6. The Accountability Commission may refer evidence of systematic violations to the Supreme Court.
 
+**1.7A — Voting access floor for state elections.** The right to vote is meaningless without meaningful access to the ballot. Every state shall maintain the following minimum access standards for all elections conducted within its borders, including state and local elections. These standards are conditions of the democratic floor of Section 1.5 and are enforceable through the mechanism of Section 1.6.
+
+  **(a) Right to vote in state elections.** Every citizen eligible to vote in federal elections under Article I has the right to vote in state and local elections in the state of their residence. This right is subject to the same non-discrimination requirements that govern federal elections.
+
+  **(b) Automatic registration.** Each state shall automatically register eligible citizens to vote in state and local elections through the same administrative processes used for federal election registration under Article I. A citizen registered for federal elections in a state is automatically registered for that state's elections on the same roll.
+
+  **(c) Early voting.** Each state shall provide at least ten days of early in-person voting before any statewide election, including at least one weekend day. States may provide greater access.
+
+  **(d) No-excuse absentee voting.** Every eligible voter shall be permitted to vote by mail or absentee ballot without stating a reason. States may require a request in advance but may not limit mail voting to defined categories of excuse.
+
+  **(e) Identification requirements.** A state may require voters to verify their identity. Any such requirement must: (i) accept a broad range of documents, including those obtainable without a fee; (ii) provide a free government-issued credential to any voter who possesses no qualifying document; and (iii) not be implemented in a manner with a racially or otherwise discriminatorily disparate effect. An identification requirement shown to have such an effect is subject to strict scrutiny.
+
+  **(f) Restoration of voting rights.** No state may deny the right to vote to any citizen who has completed their sentence of incarceration, including any period of parole or supervised release. No state may impose a waiting period, application fee, or discretionary approval process as a condition of restoring the franchise upon completion of sentence.
+
+  **(g) Enforcement.** A state that persistently and materially fails to maintain the standards of this Section is in violation of the democratic floor of Section 1.5 and subject to the enforcement mechanism of Section 1.6.
+
 **1.8 — Federal incentive for full electoral integrity compliance.** A state that voluntarily adopts campaign finance standards equivalent to or stricter than the full framework of Article VII — including outside spending caps, per-actor aggregate limits, and the geographic concentration limit — shall be eligible to participate in the federal public financing matching infrastructure administered by the Electoral Commission. Participation allows state candidates to access federal matching fund infrastructure for qualifying small-dollar contributions in state races, at the state's option and cost. This creates a positive incentive for states to go beyond the floor without requiring them to do so.
+
+**1.9 — Redistricting floor for state legislatures.** The democratic floor of Section 1.5 includes neutral and reviewable districting for state legislative elections. Every state that elects members of its legislature from districts shall draw those districts under criteria that prohibit partisan or incumbent entrenchment, guarantee substantially equal population, protect racial and language-minority voting rights, and require contiguity, compactness, and respect for political subdivisions except where deviation is necessary to satisfy superior constitutional requirements. Law shall provide public transparency, an opportunity for public comment, and expedited judicial review of state legislative maps before they take effect. Persistent and material violation of this Section is a violation of the democratic floor of Section 1.5.
+
+**1.10 — State emergency powers floor.** No state governor or other state officer may use a state emergency declaration to suspend rights below the federal floor of Article V, to postpone a regularly scheduled state election except by order of the highest court of the state upon a written finding that a free and fair election on the scheduled date is impossible, or to continue emergency powers beyond 30 days without approval of the state legislature. No state emergency may remain in effect for more than 180 days in total without approval by 2/3 of the full membership of the state legislature. State law may impose stricter limits but not weaker ones.
 
 ---
 
@@ -88,7 +122,9 @@ Congress shall have the power to:
 
 **(n) Postal and communications.** Establish postal services and regulate interstate communications networks.
 
-**(o) Necessary and proper.** Make all laws necessary and proper for carrying into execution the foregoing powers and all other powers vested in the federal government by this Constitution. This power authorizes means reasonably adapted to enumerated ends; it does not create independent powers beyond those enumerated. The Necessary and Proper Clause may not be invoked to regulate activity that is (i) purely intrastate, (ii) not economic in nature, and (iii) has no substantial effect on interstate commerce; all three conditions must be present for this limitation to apply. Where invocation of the Clause would expand an enumerated power beyond its historical scope, courts shall apply heightened scrutiny, requiring the government to demonstrate a close and direct relationship between the means chosen and an enumerated end.
+**(o) State insolvency.** Establish a uniform framework for restructuring the debts of insolvent states. Any such framework shall preserve republican government in the affected state, regular elections, judicial independence, and the rights guaranteed by this Constitution, and may not displace elected state government except to the minimum extent strictly necessary to restore lawful fiscal administration and continuity of essential public functions.
+
+**(p) Necessary and proper.** Make all laws necessary and proper for carrying into execution the foregoing powers and all other powers vested in the federal government by this Constitution. This power authorizes means reasonably adapted to enumerated ends; it does not create independent powers beyond those enumerated. The Necessary and Proper Clause may not be invoked to regulate activity that is (i) purely intrastate, (ii) not economic in nature, and (iii) has no substantial effect on interstate commerce; all three conditions must be present for this limitation to apply. Where invocation of the Clause would expand an enumerated power beyond its historical scope, courts shall apply heightened scrutiny, requiring the government to demonstrate a close and direct relationship between the means chosen and an enumerated end.
 
 ---
 
@@ -127,6 +163,8 @@ Congress shall have the power to:
 
 **4.5 Anti-circumvention.** Congress may not use conditional grants, regulatory mandates, or other indirect means to effectively commandeer state governments to implement federal programs when direct federal action would be constitutionally impermissible.
 
+**4.6 Unfunded federal administrative mandates.** Congress may not require a state or its political subdivisions to create, administer, or finance a federal regulatory or administrative program at state expense without either the state's consent or federal funding reasonably sufficient to carry the imposed obligation. This Section does not prohibit generally applicable laws that regulate states and private parties on the same terms, legislation enforcing constitutional rights, or conditions attached to a voluntary federal grant program accepted by the state.
+
 ---
 
 ## Section 5 — Interstate Relations
@@ -143,7 +181,7 @@ Congress shall have the power to:
 
 **5.3 Interstate compacts.** Two or more states may enter into compacts with each other on any matter within their reserved powers. Compacts that affect the powers of the federal government or the rights of states not party to the compact require the consent of Congress.
 
-**5.4 Prohibition on interstate trade barriers.** No state shall impose tariffs, taxes, or discriminatory regulations on goods, services, or persons moving in interstate commerce. States may regulate commerce within their borders for legitimate health, safety, and welfare purposes, provided such regulations do not discriminate against out-of-state commerce and do not impose an undue burden on interstate trade.
+**5.4 Prohibition on interstate trade barriers.** No state shall impose tariffs, taxes, or discriminatory regulations on goods, services, or persons moving in interstate commerce. States may regulate commerce within their borders for legitimate health, safety, and welfare purposes, provided such regulations do not discriminate against out-of-state commerce and do not impose an undue burden on interstate trade. This Section supplies the governing constitutional rule for state burdens on interstate commerce and supersedes prior dormant-commerce doctrine to the extent inconsistent with its text.
 
 **5.5 Cross-border reach of state law.** No state may enforce its laws against conduct that occurred entirely within another state, or against a person for actions taken in another state where those actions were lawful. A state's criminal and civil law applies to conduct within its borders; it does not apply to lawful conduct by its residents in other states. For purposes of digital activity, conduct is deemed to occur where the actor is physically located at the time of the conduct, not where the effects of that conduct are felt. A state may not assert jurisdiction over digital conduct that originates outside its borders solely on the basis of the conduct's audience reach within the state or its downstream effects on persons located within the state; additional nexus to the state beyond mere audience or effect is required to support jurisdiction.
 
@@ -192,3 +230,23 @@ Congress shall have the power to:
 **9.2** Federal supremacy applies only to federal actions taken within the scope of powers granted by this Constitution. An unconstitutional federal act does not override state law by virtue of the Supremacy Clause — federal supremacy flows from constitutional authority, not from the mere fact of federal action.
 
 **9.3** No state or local official is required to enforce federal law. The federal government may enforce its own laws through its own officers and courts. A state's refusal to assist federal enforcement does not nullify federal law within that state but does not expose the state to penalty solely on account of that refusal.
+
+---
+
+## Section 10 — Tribal Nations and Indigenous Peoples
+
+**10.1 Recognition of tribal sovereignty.** The indigenous nations of the United States are sovereign peoples whose governmental authority predates this Constitution. This Constitution does not extinguish or diminish tribal sovereignty but operates alongside it. The federal government recognizes the right of each tribal nation to govern its internal affairs, its members, and its territory according to its own laws and traditions.
+
+**10.2 Federal trust responsibility.** The United States has a special trust relationship with tribal nations arising from treaty, agreement, executive order, and the historical record of federal dealings with indigenous peoples. This trust responsibility is a constitutional obligation of the federal government. Congress and the Executive shall discharge it in good faith, including by: (a) honoring existing treaties and agreements to the extent they remain applicable; (b) consulting meaningfully with tribal nations before enacting legislation or taking executive action that substantially affects tribal interests; and (c) providing adequate resources for tribal self-governance, health, education, and welfare.
+
+**10.3 Tribal self-governance.** Each tribal nation has the right to: (a) govern its own internal affairs and membership; (b) maintain and develop its governmental institutions, laws, and justice systems; (c) protect and develop its cultural heritage, languages, and traditions; and (d) enter into compacts and agreements with the federal government and with states. Congress may regulate matters of substantial national interest affecting tribal nations but shall not abrogate tribal self-governance rights except by a law that demonstrates a compelling federal interest, consults meaningfully with the affected nations, and seeks tribal consent where practicable.
+
+**10.4 Tribal courts.** Tribal courts and other tribal justice systems are recognized as courts of competent jurisdiction within their proper domains. Federal courts shall give comity to the judgments of tribal courts in matters within their jurisdiction. Congress shall establish by law the framework for coordination between tribal, state, and federal courts, consistent with the principles of this Section.
+
+**10.5 State jurisdiction.** No state may extend its civil or criminal jurisdiction to tribal members on tribal lands without the consent of the tribal nation or without express authorization by Congress. States may enter into agreements with tribal nations regarding concurrent jurisdiction where both parties consent.
+
+**10.6 Land and treaty rights.** Tribal lands held in trust by the United States and treaty rights recognized under prior federal law are protected under this Constitution. No federal action that diminishes tribal trust land or abrogates a recognized treaty right is valid unless Congress acts expressly, with specific reference to the affected nation and the affected right, following meaningful consultation with that nation and, where practicable, its consent.
+
+**10.7 Rights of tribal members.** Citizens who are members of tribal nations retain all rights guaranteed by this Constitution. Tribal self-governance authority shall not be construed to abrogate rights guaranteed by Article V. Disputes between tribal members and tribal governments regarding fundamental rights shall be adjudicated by tribal courts in the first instance, subject to federal habeas corpus review for violations of rights guaranteed by Article V.
+
+**10.8 No termination.** Congress may not terminate the recognized status of any tribal nation, dissolve any tribal government, or strip any tribe of its land base or treaty rights without the free, prior, and informed consent of that nation expressed through its own governing institutions.

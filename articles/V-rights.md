@@ -145,6 +145,14 @@ A warrant authorizing a digital search must describe with particularity the data
 
 **6.7 Jury trial — civil.** In civil cases where the amount in controversy exceeds ten thousand dollars, adjusted periodically for inflation by act of Congress, either party may demand trial by jury.
 
+**6.7A — Jury service.**
+
+**(a) Civic obligation.** Jury service is a civic obligation of all eligible citizens. The obligation to serve when summoned is enforceable by law and is not abridged by the prohibition on involuntary servitude in Section 7.4.
+
+**(b) Non-discrimination.** No eligible citizen shall be excluded, excused, or struck from a jury on the basis of race, color, sex, gender identity, sexual orientation, national origin, religion, disability, or any other characteristic enumerated in Section 7.2. Challenges to jury composition on any of these grounds are subject to strict scrutiny.
+
+**(c) Minimum protections.** Congress shall by law establish: (i) minimum compensation for jurors that reflects the actual burden of service; (ii) protection of jurors' employment against demotion, discharge, or other adverse action on account of jury service; and (iii) reasonable accommodation for jurors with disabilities. The legislatures of the several states shall provide equivalent protections for service in state courts.
+
 **6.8 Right to counsel.** In any proceeding in which a person's liberty is at stake, the accused shall have the right to counsel. Where the accused cannot afford counsel, the government shall provide it. In civil matters where a person faces loss of housing, custody of children, or immigration status, the government shall provide or fund counsel where the opposing party is represented by counsel.
 
 **6.9 Speedy trial.** A person accused of a crime shall be brought to trial within a reasonable time. No person shall be held in pretrial detention for more than 180 days without trial, except upon a judicial finding of exceptional circumstances.

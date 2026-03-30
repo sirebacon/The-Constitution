@@ -68,7 +68,7 @@ Constitutional Organs have:
   (a) investigate and prosecute corruption, bribery, self-dealing, obstruction, abuse of office, anti-subversion offenses, and other public-integrity violations assigned to it by this Constitution or by law consistent with it;
   (b) audit federal expenditures, agencies, and programs, including classified activity where this Constitution assigns that oversight role to the Commission;
   (c) enforce federal ethics, disclosure, conflict-of-interest, merit-system, and anti-retaliation rules to the extent assigned by this Constitution or by law consistent with it;
-  (d) receive criminal or willful-misconduct referrals from the Electoral Commission and other bodies authorized by this Constitution;
+  (d) receive criminal or willful-misconduct referrals from the Electoral Commission, from state attorneys general where the alleged conduct concerns federal crimes, misuse of federal funds, interstate corruption, or coordinated state-federal misconduct, and from other bodies authorized by this Constitution;
   (e) publish findings, require written agency responses to audit findings, and seek judicial enforcement or other constitutional remedies where its lawful orders or constitutional functions are obstructed.
 
 **3.3 Independence and limits.** The Accountability Commission operates independently of the Department of Justice and may not be directed, limited, or terminated in a specific matter by the President or by any other official. It may not:
@@ -113,7 +113,7 @@ While the Commission's decision to decline a petition is not subject to judicial
 
 **5.3 Whistleblower protection.** Any person who reports a credible violation to either Constitutional Organ is protected from retaliation by any federal official or agency. Retaliation is itself a prosecutable offense.
 
-**5.4 Coordination.** The two Commissions may share information and coordinate investigations where mandates overlap. They may not merge, consolidate, or delegate core functions to each other or to any other body.
+**5.4 Coordination.** The two Commissions may share information and coordinate investigations where mandates overlap. The Accountability Commission may also receive referrals from, and share information with, state attorneys general and equivalent state integrity bodies where matters cross federal and state jurisdiction, involve misuse of federal funds, or concern coordinated public corruption spanning more than one sovereign authority. Law shall provide referral, deconfliction, and confidentiality rules sufficient to preserve both federal independence and effective joint enforcement. The Commissions may not merge, consolidate, or delegate core functions to each other or to any other body.
 
 **5.5 Internal anti-sabotage rule.** No Commissioner may refuse quorum, certification, record publication, or other constitutionally required institutional action for the purpose of disabling the Organ's constitutional functions. Law may provide internal emergency procedures, temporary acting officers, and expedited judicial relief sufficient to preserve required institutional action when a Constitutional Organ is threatened by internal boycott or comparable bad-faith paralysis.
 
