@@ -15,15 +15,32 @@ function scorePill(doc) {
   return `<span class="pill"><strong>${doc.score}</strong> ${doc.score_status ?? ""}</span>`;
 }
 
+function cardKicker(doc, strings) {
+  switch (doc.content_type) {
+    case "constitution_text":
+      return doc.kind === "article" ? strings.articleLabel : strings.preambleLabel;
+    case "commentary_article":
+    case "commentary_clause":
+    case "commentary_overview":
+      return strings.commentaryLabel;
+    case "policy":
+      return doc.group;
+    case "guide":
+      return strings.startHere;
+    default:
+      return doc.group;
+  }
+}
+
 function metaPills(doc, strings) {
   const pills = [];
-  if (doc.kind === "article" || doc.kind === "preamble") {
+  if (doc.content_type === "constitution_text") {
     pills.push(
       `<span class="pill"><strong>${doc.kind === "article" ? strings.articleLabel : strings.textLabel}</strong> ${
         doc.kind === "article" ? strings.constitutionLabel : strings.preambleLabel
       }</span>`
     );
-  } else if (doc.kind === "commentary") {
+  } else if (String(doc.content_type || "").startsWith("commentary") || doc.content_type === "policy") {
     pills.push(`<span class="pill"><strong>${strings.commentaryLabel}</strong> ${strings.explanatoryNotes}</span>`);
   } else {
     pills.push(`<span class="pill"><strong>${strings.documentLabel}</strong> ${doc.group}</span>`);
@@ -42,7 +59,7 @@ function makeDocCards(docs, strings) {
     .map(
       (doc) => `
         <article class="doc-card">
-          <div class="card-kicker">${doc.kind === "article" ? strings.articleLabel : doc.kind === "commentary" ? strings.commentaryLabel : doc.group}</div>
+          <div class="card-kicker">${cardKicker(doc, strings)}</div>
           <h3>${doc.title}</h3>
           <p>${doc.summary}</p>
           <div class="reader-meta">${doc.score ? scorePill(doc) : ""}${doc.status ? `<span class="pill"><strong>${strings.statusLabel}</strong> ${doc.status}</span>` : ""}</div>
@@ -102,6 +119,10 @@ function inlineToc(doc, strings) {
   `;
 }
 
+function docsForSection(siteData, section) {
+  return (section.items || []).map((slug) => bySlug(siteData, slug)).filter(Boolean);
+}
+
 export function renderNavigation({ siteData, currentFilter, strings }) {
   const filter = currentFilter.trim().toLowerCase();
   refs.navGroups.innerHTML = siteData.navigation
@@ -135,23 +156,9 @@ export function renderNavigation({ siteData, currentFilter, strings }) {
 }
 
 export function renderHome({ siteData, currentFilter, strings }) {
-  const constitutionDocs = siteData.docs.filter((doc) => doc.group === "Constitution");
-  const overviewDocs = ["overview", "comparison", "scorecard", "how-testing-works", "finalization-plan"].map((slug) => bySlug(siteData, slug)).filter(Boolean);
-  const commentaryDocs = ["commentary-overview", "commentary-choices", "commentary-peaceful-use"].map((slug) => bySlug(siteData, slug)).filter(Boolean);
-  const projectUseDoc = bySlug(siteData, "commentary-peaceful-use");
-  const testingDoc = bySlug(siteData, "how-testing-works");
-  const clauseDocs = [
-    "clause-unamendable-core",
-    "clause-naturalized-president",
-    "clause-high-impact-directives",
-    "clause-supreme-court-delay",
-    "clause-term-limits",
-    "clause-constitutional-organs",
-    "clause-healthcare-floor",
-    "clause-war-powers-backstop",
-  ]
-    .map((slug) => bySlug(siteData, slug))
-    .filter(Boolean);
+  const homepage = siteData.homepage || { sections: [], featured: {} };
+  const projectUseDoc = bySlug(siteData, homepage.featured?.project_use || "commentary-peaceful-use");
+  const testingDoc = bySlug(siteData, homepage.featured?.testing || "how-testing-works");
   const stats = siteData.overview;
   const results = matchingDocs(siteData.docs, currentFilter.trim().toLowerCase());
   const searchSection = currentFilter.trim()
@@ -199,6 +206,34 @@ export function renderHome({ siteData, currentFilter, strings }) {
     </div>
   `;
 
+  const sectionTitle = (key, fallback) => {
+    switch (key) {
+      case "start_here":
+        return strings.startHere;
+      case "constitution":
+        return strings.readConstitution;
+      case "commentary":
+        return strings.understandChoices;
+      case "key_clauses":
+        return strings.keyClauses;
+      default:
+        return fallback;
+    }
+  };
+
+  const renderedSections = (homepage.sections || [])
+    .map((section) => {
+      const docs = docsForSection(siteData, section);
+      if (!docs.length) return "";
+      return `
+        <section aria-labelledby="${section.key}-title">
+          <h2 class="section-title" id="${section.key}-title">${sectionTitle(section.key, section.title)}</h2>
+          <div class="card-grid">${makeDocCards(docs, strings)}</div>
+        </section>
+      `;
+    })
+    .join("");
+
   refs.contentPanel.innerHTML = `
     ${searchSection}
     <section class="project-use-card" aria-labelledby="project-use-title">
@@ -227,22 +262,7 @@ export function renderHome({ siteData, currentFilter, strings }) {
           : ""
       }
     </section>
-    <section aria-labelledby="start-here-title">
-      <h2 class="section-title" id="start-here-title">${strings.startHere}</h2>
-      <div class="card-grid">${makeDocCards(overviewDocs, strings)}</div>
-    </section>
-    <section aria-labelledby="constitution-title">
-      <h2 class="section-title" id="constitution-title">${strings.readConstitution}</h2>
-      <div class="card-grid">${makeDocCards(constitutionDocs, strings)}</div>
-    </section>
-    <section aria-labelledby="commentary-title">
-      <h2 class="section-title" id="commentary-title">${strings.understandChoices}</h2>
-      <div class="card-grid">${makeDocCards(commentaryDocs, strings)}</div>
-    </section>
-    <section aria-labelledby="key-clauses-title">
-      <h2 class="section-title" id="key-clauses-title">${strings.keyClauses}</h2>
-      <div class="card-grid">${makeDocCards(clauseDocs, strings)}</div>
-    </section>
+    ${renderedSections}
   `;
 
   refs.tocContent.innerHTML = `

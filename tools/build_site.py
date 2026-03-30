@@ -236,6 +236,15 @@ PAGE_SOURCES = [
     ("finalization-plan", "Finalization Plan", ROOT / "design-notes" / "finalization-plan.md", "Research", "Current remaining work and near-finalization sequence"),
 ]
 
+GUIDE_SLUGS = {"how-testing-works", "how-to-write-simulation-tests"}
+OVERVIEW_SLUGS = {"index", "overview", "overview-zh", "comparison", "scorecard"}
+RESEARCH_SLUGS = {"rationale", "findings", "finalization-plan"}
+POLICY_SLUGS = {"commentary-peaceful-use"}
+HOMEPAGE_FEATURED = {
+    "project_use": "commentary-peaceful-use",
+    "testing": "how-testing-works",
+}
+
 COMMENTARY_OVERVIEW_SOURCES = [
     ("commentary-overview", "Using Commentary Notes", ROOT / "commentary" / "overview" / "using-commentary-notes.md", "Commentary", "How the website separates constitutional text from explanatory notes"),
     ("commentary-choices", "Why Keep Commentary Separate?", ROOT / "commentary" / "overview" / "why-commentary-is-separate.md", "Commentary", "Why the constitutional text stays clean while design notes stay public"),
@@ -412,6 +421,30 @@ def slugify(text: str) -> str:
     return text.strip("-")
 
 
+def homepage_section_items() -> dict[str, list[str]]:
+    return {
+        "start_here": ["overview", "index", "comparison", "scorecard", "how-testing-works", "how-to-write-simulation-tests"],
+        "constitution": ["preamble"] + [slugify(filename.replace(".md", "")) for filename in ARTICLE_ORDER],
+        "commentary": ["commentary-overview", "commentary-choices", "commentary-peaceful-use"],
+        "key_clauses": [
+            "clause-unamendable-core",
+            "clause-naturalized-president",
+            "clause-high-impact-directives",
+            "clause-supreme-court-delay",
+            "clause-term-limits",
+            "clause-constitutional-organs",
+            "clause-healthcare-floor",
+            "clause-war-powers-backstop",
+            "clause-political-speech-floor",
+            "clause-peaceful-transfer",
+            "clause-campaign-finance-equality",
+            "clause-federalism-floor",
+            "clause-citizenship-revocation",
+            "clause-anti-corruption",
+        ],
+    }
+
+
 def extract_title(markdown: str, fallback: str) -> str:
     for line in markdown.splitlines():
         if line.startswith("# "):
@@ -578,6 +611,7 @@ def build_manifest(locale: str, locales: list[str]) -> dict[str, object]:
             "title": {"en": "Preamble", "es": "Preámbulo", "zh-Hans": "序言"}.get(locale, "Preamble"),
             "group": group_label("constitution", locale),
             "kind": "preamble",
+            "content_type": "constitution_text",
             "source": preamble_rel,
             "status": extract_status(preamble_md),
             "summary": extract_summary(preamble_md),
@@ -600,6 +634,7 @@ def build_manifest(locale: str, locales: list[str]) -> dict[str, object]:
                 "title": title,
                 "group": group_label("constitution", locale),
                 "kind": "article",
+                "content_type": "constitution_text",
                 "source": relative,
                 "status": extract_status(markdown),
                 "summary": extract_summary(markdown),
@@ -625,6 +660,13 @@ def build_manifest(locale: str, locales: list[str]) -> dict[str, object]:
                 "title": localized_title,
                 "group": group_label("overview" if group == "Overview" else "research", locale),
                 "kind": "note",
+                "content_type": (
+                    "guide"
+                    if slug in GUIDE_SLUGS
+                    else "research"
+                    if slug in RESEARCH_SLUGS
+                    else "overview"
+                ),
                 "source": relative,
                 "status": extract_status(markdown),
                 "summary": localized_summary if locale != "en" else extract_summary(markdown) or fallback_summary,
@@ -648,6 +690,7 @@ def build_manifest(locale: str, locales: list[str]) -> dict[str, object]:
                 "title": localized_title,
                 "group": group_label("commentary", locale),
                 "kind": "commentary",
+                "content_type": "policy" if slug in POLICY_SLUGS else "commentary_overview",
                 "source": relative,
                 "status": extract_status(markdown),
                 "summary": localized_summary if locale != "en" else extract_summary(markdown) or fallback_summary,
@@ -667,6 +710,7 @@ def build_manifest(locale: str, locales: list[str]) -> dict[str, object]:
                 "title": localized_title,
                 "group": group_label("clause_notes", locale),
                 "kind": "commentary",
+                "content_type": "commentary_clause",
                 "source": relative,
                 "status": extract_status(markdown),
                 "summary": localized_summary if locale != "en" else extract_summary(markdown) or fallback_summary,
@@ -698,6 +742,7 @@ def build_manifest(locale: str, locales: list[str]) -> dict[str, object]:
                 "title": f"{article_title} {notes_suffix}",
                 "group": group_label("commentary", locale),
                 "kind": "commentary",
+                "content_type": "commentary_article",
                 "source": relative,
                 "status": extract_status(markdown),
                 "summary": summary_fallback if locale != "en" else extract_summary(markdown) or summary_fallback,
@@ -731,31 +776,18 @@ def build_manifest(locale: str, locales: list[str]) -> dict[str, object]:
     }
 
     labels = nav_labels(locale)
+    section_items = homepage_section_items()
     background_items = ["rationale", "findings", "finalization-plan"]
+    homepage_sections = [
+        {"key": key, "title": labels[key], "items": items}
+        for key, items in section_items.items()
+    ]
 
     navigation = [
-        {"group": labels["start_here"], "items": ["overview", "index", "comparison", "scorecard", "how-testing-works", "how-to-write-simulation-tests"]},
-        {"group": labels["constitution"], "items": ["preamble"] + [slugify(filename.replace(".md", "")) for filename in ARTICLE_ORDER]},
-        {"group": labels["commentary"], "items": ["commentary-overview", "commentary-choices", "commentary-peaceful-use"]},
-        {
-            "group": labels["key_clauses"],
-            "items": [
-                "clause-unamendable-core",
-                "clause-naturalized-president",
-                "clause-high-impact-directives",
-                "clause-supreme-court-delay",
-                "clause-term-limits",
-                "clause-constitutional-organs",
-                "clause-healthcare-floor",
-                "clause-war-powers-backstop",
-                "clause-political-speech-floor",
-                "clause-peaceful-transfer",
-                "clause-campaign-finance-equality",
-                "clause-federalism-floor",
-                "clause-citizenship-revocation",
-                "clause-anti-corruption",
-            ],
-        },
+        {"group": labels["start_here"], "items": section_items["start_here"]},
+        {"group": labels["constitution"], "items": section_items["constitution"]},
+        {"group": labels["commentary"], "items": section_items["commentary"]},
+        {"group": labels["key_clauses"], "items": section_items["key_clauses"]},
         {"group": labels["background"], "items": background_items},
     ]
 
@@ -764,6 +796,10 @@ def build_manifest(locale: str, locales: list[str]) -> dict[str, object]:
         "locale": locale,
         "locales": locale_meta(locales),
         "overview": overview,
+        "homepage": {
+            "sections": homepage_sections,
+            "featured": HOMEPAGE_FEATURED,
+        },
         "navigation": navigation,
         "docs": docs,
     }
