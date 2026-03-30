@@ -231,3 +231,7 @@ export const RIGHTS_GUIDE = {
     ],
   },
 };
+
+export function rightsDataForLocale(locale) {
+  return RIGHTS_GUIDE[locale] || RIGHTS_GUIDE.en;
+}

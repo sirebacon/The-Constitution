@@ -142,6 +142,10 @@ export const EMERGENCY_GUIDE = {
   },
 };
 
+export function emergencyDataForLocale(locale) {
+  return EMERGENCY_GUIDE[locale] || EMERGENCY_GUIDE.en;
+}
+
 export const POWER_GUIDE = {
   en: {
     all: "All links",
@@ -264,14 +268,6 @@ export const POWER_GUIDE = {
     ],
   },
 };
-
-export function rightsDataForLocale(locale) {
-  return RIGHTS_GUIDE[locale] || RIGHTS_GUIDE.en;
-}
-
-export function emergencyDataForLocale(locale) {
-  return EMERGENCY_GUIDE[locale] || EMERGENCY_GUIDE.en;
-}
 
 export function powerDataForLocale(locale) {
   return POWER_GUIDE[locale] || POWER_GUIDE.en;
