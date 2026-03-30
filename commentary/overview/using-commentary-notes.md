@@ -10,6 +10,8 @@ This project is also meant to be public, forkable constitutional work rather tha
 
 It is available so other people can study it, criticize it, translate it, revise it, organize around it, or campaign on parts of it if they choose.
 
+It is also a peaceful civic project. It does not endorse violence, threats, sabotage, unlawful action, or the use of force against any person or institution.
+
 ## How To Read Them
 
 Use the constitutional text when you want the rule itself.
@@ -34,3 +36,5 @@ A constitution should remain readable as law.
 If the reasons, historical examples, and drafting debates are inserted directly into the article text, the document gets harder to cite, harder to maintain, and less constitution-like. A separate commentary layer keeps the law clean while still making the choices legible.
 
 The same principle applies to ownership of the project itself: the draft should be usable by other people without requiring a single public leader to stand in front of it.
+
+The project’s public availability should not be read as approval of violent or unlawful conduct. Its purpose is constitutional discussion and democratic advocacy, not operational planning or coercion.

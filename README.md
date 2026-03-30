@@ -24,6 +24,14 @@ This repository includes:
 
 The public site is generated from the markdown source so the constitutional text remains the source of truth while presentation, commentary, and translations remain separate layers.
 
+## Peaceful Civic Purpose
+
+This project exists for peaceful civic discussion, constitutional drafting, education, translation, critique, simulation, and democratic advocacy.
+
+It does not endorse violence, threats, sabotage, unlawful action, or the use of force against any person, institution, or government.
+
+Contributions or uses of this project for such purposes are outside the project and rejected by it.
+
 ## Open Source
 
 This repository is released under the MIT License. See [LICENSE](/Users/chris/Documents/GitHub/The-Constitution/LICENSE).
