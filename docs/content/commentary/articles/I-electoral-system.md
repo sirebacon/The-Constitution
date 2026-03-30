@@ -27,6 +27,22 @@ Democracy can be distorted without formally abolishing elections.
 
 That is why this article reaches not only direct ballot exclusion, but also exclusion from core public or publicly regulated election infrastructure. The aim is to stop procedural gatekeeping from becoming a substitute for open democratic competition.
 
+## Why The Census Counts All Persons
+
+This draft counts all persons residing in the United States for apportionment, regardless of citizenship status.
+
+The reason is straightforward:
+
+- voting belongs to citizens
+- representation concerns all persons who live under the laws, institutions, and public burdens of the republic
+
+Schools, hospitals, housing demand, transportation systems, and local governance pressures track actual resident population, not just eligible voters. A citizen-only or immigration-status-filtered census would understate real communities and turn representation into a recurring fight over status verification rather than a count of the population actually governed.
+
+The article therefore takes the broader population principle:
+
+- citizens hold the franchise
+- all residents count for representation
+
 ## Why This Is Still Limited
 
 The Constitution should not supervise every private debate host, civic association, or media platform.

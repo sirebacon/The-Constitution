@@ -27,6 +27,22 @@ La democracia puede distorsionarse sin abolir formalmente las elecciones.
 
 Por eso este artículo abarca no solo la exclusión directa del sufragio, sino también la exclusión de la infraestructura crítica electoral de carácter público o regulada públicamente. El objetivo es impedir que el control procedimental de acceso se convierta en sustituto de la competencia democrática abierta.
 
+## Por Qué El Censo Cuenta A Todas Las Personas
+
+Este borrador cuenta para el reparto de escaños a todas las personas que residen en Estados Unidos, con independencia de su ciudadanía o estatus migratorio.
+
+La razón es sencilla:
+
+- el voto corresponde a los ciudadanos
+- la representación concierne a todas las personas que viven bajo las leyes, las instituciones y las cargas públicas de la república
+
+Las escuelas, los hospitales, la demanda de vivienda, los sistemas de transporte y las presiones del gobierno local siguen a la población residente real, no solo a los votantes habilitados. Un censo limitado a ciudadanos o filtrado por estatus migratorio subestimaría a las comunidades reales y convertiría la representación en una disputa permanente sobre verificación de estatus, en vez de en un recuento de la población efectivamente gobernada.
+
+Por eso el artículo adopta el principio poblacional más amplio:
+
+- los ciudadanos tienen el sufragio
+- todos los residentes cuentan para la representación
+
 ## Por Qué Este Artículo Sigue Siendo Limitado
 
 La Constitución no debe supervisar a cada organizador privado de debates, asociación cívica o plataforma mediática.
