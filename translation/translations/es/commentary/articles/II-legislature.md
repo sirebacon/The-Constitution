@@ -28,6 +28,20 @@ En un sistema diseñado contra el bloqueo institucional de mala fe, algunos proc
 
 El artículo constitucionaliza por tanto algunos mecanismos subsidiarios no porque el procedimiento sea intrínsecamente constitucional, sino porque ciertos procedimientos se vuelven críticos para la democracia cuando la práctica ordinaria se quiebra.
 
+## Por Qué Las Edades Para El Cargo Son Más Bajas
+
+Este borrador reduce la edad mínima para el Congreso porque los umbrales de edad solo deberían cumplir la función limitada que sea realmente necesaria.
+
+El argumento no es que la edad nunca importe. El argumento es que las barreras constitucionales elevadas excluyen a ciudadanos por lo demás calificados sobre la base de supuestos generales que los votantes pueden evaluar por sí mismos. Si una persona tiene edad suficiente para votar, trabajar, pagar impuestos, servir como jurado y participar plenamente en la vida pública, existe un sólido argumento democrático para permitir una elegibilidad más temprana para el cargo legislativo.
+
+Por eso la Cámara de Representantes y la Asamblea Regional utilizan umbrales de edad más bajos que la Constitución actual de los Estados Unidos:
+
+- los adultos jóvenes viven bajo las leyes y no deberían quedar excluidos categóricamente de hacerlas
+- las elecciones ya son un filtro importante contra candidatos inmaduros o poco convincentes
+- las legislaturas modernas funcionan mediante partidos, comités, equipos técnicos y escrutinio público, y no mediante el juicio solitario de una sola persona
+
+La intención no es eliminar toda edad mínima. Es mantener los requisitos de edad como algo moderado y no excluyente.
+
 ## Por Qué La Concisión Sigue Importando Aquí
 
 Este es uno de los artículos centrales más densos del borrador.

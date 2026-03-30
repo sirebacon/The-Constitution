@@ -28,6 +28,20 @@ In a system designed against bad-faith institutional blockage, some procedures n
 
 The article therefore constitutionalizes some fallback mechanisms not because procedure is inherently constitutional, but because some procedures become democracy-critical when ordinary practice breaks down.
 
+## Why The Office Ages Are Lower
+
+This draft lowers the age floor for Congress because age thresholds should do only the limited work that is genuinely necessary.
+
+The argument is not that age never matters. The argument is that high constitutional barriers exclude otherwise qualified citizens based on broad assumptions that voters are capable of judging for themselves. If a person is old enough to vote, work, pay taxes, serve on juries, and participate fully in public life, there is a strong democratic case for allowing earlier eligibility for legislative office.
+
+That is why the House and the Regional Assembly use lower age floors than the current U.S. Constitution:
+
+- younger adults live under the laws and should not be categorically shut out of making them
+- elections are already a major filter against immature or unpersuasive candidates
+- modern legislatures operate through parties, committees, staffs, and public scrutiny rather than solitary judgment
+
+The point is not to remove every age floor. It is to keep age requirements modest rather than exclusionary.
+
 ## Why Compression Still Matters Here
 
 This is one of the densest core articles in the draft.

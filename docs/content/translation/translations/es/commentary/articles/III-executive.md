@@ -23,6 +23,20 @@ Por eso este artículo procura:
 - favorecer una revisión más ágil de las directivas de alto impacto
 - hacer que las normas sobre sucesión e incapacidad sean aplicables en crisis reales
 
+## ¿Por Qué La Presidencia Conserva Una Edad Mínima?
+
+El borrador reduce en general las barreras de edad para ejercer cargos públicos, pero no las elimina por completo en el caso de la presidencia.
+
+La razón es que los requisitos constitucionales de edad deben ser moderados y justificarse, no heredarse sin examen. La presidencia conlleva responsabilidades singulares en materia militar, diplomática y de emergencia, de modo que el borrador mantiene un umbral de madurez para ese cargo al tiempo que rechaza la lógica mucho más amplia y excluyente que suele gobernar las reglas de edad en otros ámbitos.
+
+La idea básica es:
+
+- los votantes deben hacer la mayor parte del filtrado
+- las barreras constitucionales de edad deben usarse con moderación
+- la presidencia aún puede justificar un umbral más alto que el cargo legislativo porque concentra un poder nacional único
+
+Así, la posición del borrador no es que la edad nunca importe. Es que los umbrales de edad deben limitarse a lo que sea realmente necesario y no inflarse más allá de eso.
+
 ## Lo Que Este Artículo Deliberadamente No Hace
 
 No intenta constitucionalizar cada detalle de la administración.
