@@ -145,6 +145,14 @@ La orden judicial que autorice un registro digital deberá describir con particu
 
 **6.7 Juicio por jurado — civil.** En los asuntos civiles en que el importe en disputa supere los diez mil dólares, ajustados periódicamente en función de la inflación mediante ley del Congreso, cualquiera de las partes podrá solicitar un juicio ante jurado.
 
+**6.7A — Servicio de jurado.**
+
+**(a) Obligación cívica.** El servicio de jurado es una obligación cívica de todos los ciudadanos elegibles. La obligación de servir cuando se es convocado es exigible por ley y no queda restringida por la prohibición de servidumbre involuntaria establecida en la Sección 7.4.
+
+**(b) No discriminación.** Ningún ciudadano elegible será excluido, dispensado o recusado de un jurado por razón de raza, color, sexo, identidad de género, orientación sexual, origen nacional, religión, discapacidad o cualquier otra característica enumerada en la Sección 7.2. Las impugnaciones a la composición del jurado basadas en cualquiera de estos motivos estarán sujetas a escrutinio estricto.
+
+**(c) Protecciones mínimas.** El Congreso establecerá por ley: (i) una compensación mínima para los jurados que refleje la carga real del servicio; (ii) protección del empleo de los jurados contra degradación, despido u otra acción adversa por causa del servicio de jurado; y (iii) ajustes razonables para los jurados con discapacidad. Las legislaturas de los diversos estados proporcionarán protecciones equivalentes para el servicio en los tribunales estatales.
+
 **6.8 Derecho a la asistencia letrada.** En todo proceso en el que la libertad de una persona esté en juego, el acusado tendrá el derecho a la asistencia de letrado. Cuando el acusado no pueda costear dicha asistencia, el gobierno la proveerá. En asuntos civiles en los que una persona enfrente la pérdida de su vivienda, la custodia de sus hijos o su estatus migratorio, el gobierno proveerá o financiará la asistencia letrada cuando la parte contraria esté representada por letrado.
 
 **6.9 Juicio sin dilaciones.** La persona acusada de un delito será llevada a juicio dentro de un plazo razonable. Nadie podrá ser mantenido en detención preventiva por más de 180 días sin juicio, salvo mediante resolución judicial que determine la existencia de circunstancias excepcionales.
