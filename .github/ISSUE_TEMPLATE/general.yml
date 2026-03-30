@@ -1,0 +1,35 @@
+name: General feedback
+description: Share feedback, criticism, or ideas about the draft, commentary, simulations, translations, or site.
+title: "[Feedback]: "
+labels:
+  - feedback
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This project is for peaceful civic discussion, constitutional drafting, translation, simulation, and democratic advocacy.
+
+        Do not use issues for threats, advocacy of violence, sabotage, or unlawful action.
+  - type: checkboxes
+    id: civic_scope
+    attributes:
+      label: Project scope
+      options:
+        - label: I understand this repository is for peaceful civic and constitutional work only.
+          required: true
+        - label: My issue does not advocate violence, threats, sabotage, or unlawful action.
+          required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: Briefly describe the feedback or proposal.
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: Add supporting detail, reasoning, or examples.
+    validations:
+      required: false

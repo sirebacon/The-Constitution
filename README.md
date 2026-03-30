@@ -32,6 +32,11 @@ It does not endorse violence, threats, sabotage, unlawful action, or the use of 
 
 Contributions or uses of this project for such purposes are outside the project and rejected by it.
 
+See also:
+
+- [CONTRIBUTING.md](/Users/chris/Documents/GitHub/The-Constitution/CONTRIBUTING.md)
+- [CODE_OF_CONDUCT.md](/Users/chris/Documents/GitHub/The-Constitution/CODE_OF_CONDUCT.md)
+
 ## Open Source
 
 This repository is released under the MIT License. See [LICENSE](/Users/chris/Documents/GitHub/The-Constitution/LICENSE).
