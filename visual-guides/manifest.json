@@ -11,7 +11,9 @@
     "presidential-powers-comparison",
     "how-a-bill-becomes-law",
     "election-to-transfer-of-power",
-    "how-rights-are-enforced"
+    "how-rights-are-enforced",
+    "federalism-and-the-democratic-floor",
+    "what-happens-in-a-constitutional-crisis"
   ],
   "guides": [
     {
@@ -180,6 +182,34 @@
         "en": "How constitutional rights claims move through courts, expedited review, and emergency backstops",
         "es": "Cómo las reclamaciones de derechos constitucionales avanzan por los tribunales, la revisión acelerada y las salvaguardas de emergencia",
         "zh-Hans": "宪法权利主张如何经过法院、加速审查与紧急状态后备机制"
+      }
+    },
+    {
+      "slug": "federalism-and-the-democratic-floor",
+      "source": "visual-guides/federalism-and-the-democratic-floor.md",
+      "title": {
+        "en": "Federalism And The Democratic Floor",
+        "es": "Federalismo y piso democrático",
+        "zh-Hans": "联邦制与民主底线"
+      },
+      "summary": {
+        "en": "What states still control, what the democratic floor forbids, and what federal backstops respond when states cross the constitutional line",
+        "es": "Qué siguen controlando los estados, qué prohíbe el piso democrático y qué salvaguardas federales responden cuando los estados cruzan la línea constitucional",
+        "zh-Hans": "州仍控制什么、民主底线禁止什么，以及当州越过宪法界线时哪些联邦后备机制会启动"
+      }
+    },
+    {
+      "slug": "what-happens-in-a-constitutional-crisis",
+      "source": "visual-guides/what-happens-in-a-constitutional-crisis.md",
+      "title": {
+        "en": "What Happens In A Constitutional Crisis",
+        "es": "Qué ocurre en una crisis constitucional",
+        "zh-Hans": "宪法危机会发生什么"
+      },
+      "summary": {
+        "en": "How the draft routes election chaos, emergency abuse, and institutional defiance back into deadlines, review, continuity, and anti-subversion law",
+        "es": "Cómo el borrador devuelve el caos electoral, el abuso de emergencia y la desobediencia institucional al cauce de plazos, revisión, continuidad y derecho antisubversivo",
+        "zh-Hans": "草案如何把选举混乱、紧急权力滥用和制度抗命重新拉回期限、审查、连续性与反颠覆法的轨道"
       }
     }
   ]

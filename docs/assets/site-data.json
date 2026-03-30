@@ -51,7 +51,9 @@
           "presidential-powers-comparison",
           "how-a-bill-becomes-law",
           "election-to-transfer-of-power",
-          "how-rights-are-enforced"
+          "how-rights-are-enforced",
+          "federalism-and-the-democratic-floor",
+          "what-happens-in-a-constitutional-crisis"
         ]
       },
       {
@@ -156,7 +158,9 @@
         "presidential-powers-comparison",
         "how-a-bill-becomes-law",
         "election-to-transfer-of-power",
-        "how-rights-are-enforced"
+        "how-rights-are-enforced",
+        "federalism-and-the-democratic-floor",
+        "what-happens-in-a-constitutional-crisis"
       ]
     },
     {
@@ -3767,6 +3771,62 @@
         }
       ],
       "search_text": "How Rights Are Enforced This visual guide explains how rights claims move through the constitutional system: who can challenge unlawful action, when courts must move quickly, and what rights remain protected even in emergencies. How To Read This Guide The guide has three paths: ordinary enforcement expedited review emergency rights protection Use the path buttons to focus on one enforcement route at a time. What This Guide Covers concrete injury rights challenges in federal court judicial review of laws and executive action fast track review for time sensitive constitutional disputes anti delay backstops when higher courts stall non derogable rights in emergencies 72 hour challenge rule for rights suspensions What This Guide Does Not Do This guide is an orientation layer, not the constitutional text itself. For exact wording and legal detail, read: Article IV Article V Article III"
+    },
+    {
+      "slug": "federalism-and-the-democratic-floor",
+      "title": "Federalism And The Democratic Floor",
+      "group": "Visual Guides",
+      "kind": "note",
+      "content_type": "visual_guide",
+      "source": "visual-guides/federalism-and-the-democratic-floor.md",
+      "status": null,
+      "summary": "This visual guide explains the constitutional line between preserved state autonomy and the national democratic floor that states cannot lawfully violate.",
+      "headings": [
+        {
+          "level": 2,
+          "text": "How To Read This Guide",
+          "anchor": "how-to-read-this-guide"
+        },
+        {
+          "level": 2,
+          "text": "What This Guide Covers",
+          "anchor": "what-this-guide-covers"
+        },
+        {
+          "level": 2,
+          "text": "What This Guide Does Not Do",
+          "anchor": "what-this-guide-does-not-do"
+        }
+      ],
+      "search_text": "Federalism And The Democratic Floor This visual guide explains the constitutional line between preserved state autonomy and the national democratic floor that states cannot lawfully violate. How To Read This Guide The guide has four sections: what states still control what states may not do federal and judicial backstops local democracy and preemption Use the category buttons to focus on one part of the federalism structure at a time. What This Guide Covers preserved state authority equal citizenship and rights floors anti backsliding limits on state autonomy federal judicial relief against unconstitutional state action local democracy and state preemption boundaries What This Guide Does Not Do This guide is an orientation layer, not the constitutional text itself. For exact wording and legal detail, read: Article X Article V Article IX Article XVIII"
+    },
+    {
+      "slug": "what-happens-in-a-constitutional-crisis",
+      "title": "What Happens In A Constitutional Crisis",
+      "group": "Visual Guides",
+      "kind": "note",
+      "content_type": "visual_guide",
+      "source": "visual-guides/what-happens-in-a-constitutional-crisis.md",
+      "status": null,
+      "summary": "This visual guide shows how the constitutional system is supposed to react when a crisis stops being ordinary politics and turns into a fight over lawful authority itself.",
+      "headings": [
+        {
+          "level": 2,
+          "text": "How To Read This Guide",
+          "anchor": "how-to-read-this-guide"
+        },
+        {
+          "level": 2,
+          "text": "What This Guide Covers",
+          "anchor": "what-this-guide-covers"
+        },
+        {
+          "level": 2,
+          "text": "What This Guide Does Not Do",
+          "anchor": "what-this-guide-does-not-do"
+        }
+      ],
+      "search_text": "What Happens In A Constitutional Crisis This visual guide shows how the constitutional system is supposed to react when a crisis stops being ordinary politics and turns into a fight over lawful authority itself. How To Read This Guide The guide has three paths: election and certification crisis emergency abuse crisis institutional defiance crisis Use the path buttons to focus on one crisis chain at a time. What This Guide Covers election certification deadlines transition and continuity duties emergency approval and automatic lapse rules judicial review and anti delay backstops anti subversion consequences for obstruction and defiance What This Guide Does Not Do This guide is an orientation layer, not the constitutional text itself. For exact wording and legal detail, read: Article I Article III Article IV Article VI Article XI Article XII Article XIX"
     },
     {
       "slug": "commentary-overview",

@@ -17,4 +17,6 @@ export {
   presidentialPowersDataForLocale,
   ELECTION_TRANSFER_GUIDE,
   electionTransferDataForLocale,
+  FEDERALISM_FLOOR_GUIDE,
+  federalismFloorDataForLocale,
 } from "./data-governance/institutions.js";

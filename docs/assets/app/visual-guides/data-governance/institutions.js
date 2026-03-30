@@ -447,6 +447,154 @@ export function presidentialPowersDataForLocale(locale) {
   return PRESIDENTIAL_POWERS_GUIDE[locale] || PRESIDENTIAL_POWERS_GUIDE.en;
 }
 
+export const FEDERALISM_FLOOR_GUIDE = {
+  en: {
+    all: "All",
+    filterLabel: "Filter federalism categories",
+    note: "This guide separates what states still control from the democratic floor they cannot lawfully violate, and the federal backstops that activate when they do.",
+    categories: [
+      {
+        key: "state-space",
+        label: "What states still control",
+        summary: "Federalism is preserved. States remain major governing units rather than mere administrative districts.",
+        items: [
+          { title: "Ordinary state lawmaking", article: "Art. X", text: "States retain broad authority over ordinary civil, criminal, administrative, and local-government matters unless the Constitution or valid federal law overrides them." },
+          { title: "State institutions and local design", article: "Art. X", text: "States may structure their own institutions and local governments so long as they stay within the national democratic floor." },
+          { title: "Policy variation remains lawful", article: "Arts. X, XVIII", text: "States may pursue different policy models on housing, education, health, infrastructure, and public administration if the constitutional minimum is still met." },
+        ],
+      },
+      {
+        key: "democratic-floor",
+        label: "What states may not do",
+        summary: "State autonomy ends where democratic backsliding, unequal citizenship, or rights destruction begins.",
+        items: [
+          { title: "No second-class citizenship", article: "Arts. V, IX, X", text: "States cannot deny equal citizenship, political participation, or protected status-based equality inside their own jurisdictions." },
+          { title: "No state democratic erosion", article: "Arts. I, VI, X, XI", text: "States may not cancel meaningful elections, entrench one-party domination, or hollow out the democratic floor protected by the Constitution." },
+          { title: "No rights nullification by local law", article: "Arts. IV, V, X", text: "State or local law cannot override constitutional rights. Federal courts remain able to block state action that violates the national charter." },
+        ],
+      },
+      {
+        key: "federal-backstops",
+        label: "Federal and judicial backstops",
+        summary: "When a state crosses the constitutional line, the national system is designed to respond through law rather than improvisation.",
+        items: [
+          { title: "Judicial relief against state violations", article: "Arts. IV, V, X", text: "Federal courts can enjoin state action, preserve operative lower-court relief, and prevent strategic delay in expedited constitutional disputes." },
+          { title: "Election and integrity intervention", article: "Arts. I, VI, XII", text: "The Electoral Commission and other constitutional organs can act where state election administration or integrity collapses below constitutional requirements." },
+          { title: "No implied-field overreach by default", article: "Art. X", text: "Federal supremacy is real, but the Constitution rejects casual implied preemption that would erase state authority without a valid national constitutional basis." },
+        ],
+      },
+      {
+        key: "local-floor",
+        label: "Local democracy and preemption",
+        summary: "Federalism is not just state against federal power. The draft also treats local democratic destruction as a constitutional problem.",
+        items: [
+          { title: "States cannot preempt without constitutional basis", article: "Art. X", text: "A state may not strip local authority in ways that are arbitrary, anti-democratic, or inconsistent with constitutionally protected interests." },
+          { title: "Local governments remain subordinate but not disposable", article: "Art. X", text: "States keep ultimate authority over local government, but they cannot weaponize that authority to evade constitutional floors." },
+          { title: "Housing and other baseline interests matter", article: "Arts. X, XVIII", text: "When state action destroys local capacity to meet constitutional floors such as housing access, federal constitutional review can still apply." },
+        ],
+      },
+    ],
+  },
+  es: {
+    all: "Todo",
+    filterLabel: "Filtrar categorías de federalismo",
+    note: "Esta guía separa lo que los estados aún controlan del piso democrático que no pueden violar legalmente, y las salvaguardas federales que se activan cuando lo hacen.",
+    categories: [
+      {
+        key: "state-space",
+        label: "Lo que los estados aún controlan",
+        summary: "El federalismo se preserva. Los estados siguen siendo unidades centrales de gobierno y no simples distritos administrativos.",
+        items: [
+          { title: "Legislación estatal ordinaria", article: "Art. X", text: "Los estados conservan amplia autoridad sobre materias civiles, penales, administrativas y locales, salvo que la Constitución o una ley federal válida dispongan lo contrario." },
+          { title: "Instituciones estatales y diseño local", article: "Art. X", text: "Los estados pueden estructurar sus propias instituciones y gobiernos locales siempre que respeten el piso democrático nacional." },
+          { title: "La variación de políticas sigue siendo lícita", article: "Arts. X, XVIII", text: "Los estados pueden adoptar distintos modelos de vivienda, educación, salud, infraestructura y administración pública si todavía cumplen el mínimo constitucional." },
+        ],
+      },
+      {
+        key: "democratic-floor",
+        label: "Lo que los estados no pueden hacer",
+        summary: "La autonomía estatal termina donde empiezan el retroceso democrático, la ciudadanía desigual o la destrucción de derechos.",
+        items: [
+          { title: "No a la ciudadanía de segunda clase", article: "Arts. V, IX, X", text: "Los estados no pueden negar ciudadanía igualitaria, participación política ni igualdad protegida por estatus dentro de sus jurisdicciones." },
+          { title: "No al deterioro democrático estatal", article: "Arts. I, VI, X, XI", text: "Los estados no pueden vaciar elecciones significativas, afianzar el dominio de un solo partido ni desmantelar el piso democrático protegido por la Constitución." },
+          { title: "No a la anulación local de derechos", article: "Arts. IV, V, X", text: "La ley estatal o local no puede dejar sin efecto derechos constitucionales. Los tribunales federales siguen pudiendo bloquear esas medidas." },
+        ],
+      },
+      {
+        key: "federal-backstops",
+        label: "Salvaguardas federales y judiciales",
+        summary: "Cuando un estado cruza la línea constitucional, el sistema nacional está diseñado para responder mediante el derecho y no mediante improvisación.",
+        items: [
+          { title: "Remedios judiciales frente a violaciones estatales", article: "Arts. IV, V, X", text: "Los tribunales federales pueden suspender la acción estatal, preservar la tutela vigente de tribunales inferiores y evitar la demora estratégica en disputas constitucionales aceleradas." },
+          { title: "Intervención en elecciones e integridad", article: "Arts. I, VI, XII", text: "La Comisión Electoral y otros órganos constitucionales pueden actuar cuando la administración electoral o la integridad estatal caen por debajo de los requisitos constitucionales." },
+          { title: "No a la extralimitación por preeminencia implícita", article: "Art. X", text: "La supremacía federal es real, pero la Constitución rechaza la preeminencia implícita casual que borraría la autoridad estatal sin una base constitucional nacional válida." },
+        ],
+      },
+      {
+        key: "local-floor",
+        label: "Democracia local y preeminencia",
+        summary: "El federalismo no es solo estado contra poder federal. El borrador también trata la destrucción de la democracia local como un problema constitucional.",
+        items: [
+          { title: "Los estados no pueden preemptar sin base constitucional", article: "Art. X", text: "Un estado no puede retirar autoridad local de forma arbitraria, antidemocrática o incompatible con intereses protegidos constitucionalmente." },
+          { title: "Los gobiernos locales siguen subordinados pero no son desechables", article: "Art. X", text: "Los estados mantienen la autoridad última sobre lo local, pero no pueden usarla para eludir los pisos constitucionales." },
+          { title: "Vivienda y otros intereses de base importan", article: "Arts. X, XVIII", text: "Cuando la acción estatal destruye la capacidad local de cumplir pisos constitucionales como el acceso a la vivienda, la revisión constitucional federal sigue pudiendo aplicarse." },
+        ],
+      },
+    ],
+  },
+  "zh-Hans": {
+    all: "全部",
+    filterLabel: "筛选联邦制类别",
+    note: "本指南区分州仍然控制的事项、州不得合法突破的民主底线，以及一旦州越线时会启动的联邦后备机制。",
+    categories: [
+      {
+        key: "state-space",
+        label: "州仍然控制什么",
+        summary: "联邦制被保留下来。州仍是主要治理单元，而不是普通行政区。",
+        items: [
+          { title: "普通州立法权", article: "第十条", text: "除非宪法或有效联邦法律另有规定，州在普通民事、刑事、行政与地方治理事务上仍保有广泛权力。" },
+          { title: "州机构与地方设计", article: "第十条", text: "州可以设计自己的制度与地方政府结构，只要不低于国家民主底线。" },
+          { title: "政策差异仍然合法", article: "第十条、第十八条", text: "州可以在住房、教育、医疗、基础设施和公共管理上采取不同政策模式，只要仍满足宪法最低标准。" },
+        ],
+      },
+      {
+        key: "democratic-floor",
+        label: "州不能做什么",
+        summary: "州自治在民主倒退、不平等公民资格或权利毁损开始之处终止。",
+        items: [
+          { title: "不得制造二等公民", article: "第五条、第九条、第十条", text: "州不得在其辖区内否认平等公民资格、政治参与或受保护的身份平等。" },
+          { title: "不得侵蚀州内民主", article: "第一条、第六条、第十条、第十一条", text: "州不得取消有意义的选举、巩固一党支配，或掏空宪法所保护的民主底线。" },
+          { title: "不得以地方法废除权利", article: "第四条、第五条、第十条", text: "州法或地方法不能凌驾于宪法权利之上。联邦法院仍可阻止违反国家宪章的州行为。" },
+        ],
+      },
+      {
+        key: "federal-backstops",
+        label: "联邦与司法后备机制",
+        summary: "当州越过宪法边界时，国家制度被设计为通过法律而非临时 improvisation 进行回应。",
+        items: [
+          { title: "针对州违宪行为的司法救济", article: "第四条、第五条、第十条", text: "联邦法院可以禁止州行为、维持下级法院已生效的救济，并防止加速宪法争议中的战略性拖延。" },
+          { title: "选举与诚信干预", article: "第一条、第六条、第十二条", text: "当州选举管理或制度诚信跌破宪法要求时，选举委员会和其他宪法机关可以介入。" },
+          { title: "默认不承认随意的默示排除", article: "第十条", text: "联邦至上原则是真实存在的，但宪法拒绝在缺乏有效国家宪法依据时，以随意的默示排除来抹去州权。" },
+        ],
+      },
+      {
+        key: "local-floor",
+        label: "地方民主与州先占",
+        summary: "联邦制不只是州对联邦权力。草案同样把地方民主被摧毁视为宪法问题。",
+        items: [
+          { title: "州不得无宪法依据地先占地方权力", article: "第十条", text: "州不得以武断、反民主或与受宪法保护利益不相容的方式剥夺地方权力。" },
+          { title: "地方政府仍从属于州，但不是可随意处置的对象", article: "第十条", text: "州对地方政府保有最终权力，但不能用这种权力来规避宪法底线。" },
+          { title: "住房等基础利益具有宪法意义", article: "第十条、第十八条", text: "当州行为摧毁地方满足住房等宪法底线的能力时，联邦宪法审查仍然可以启动。" },
+        ],
+      },
+    ],
+  },
+};
+
+export function federalismFloorDataForLocale(locale) {
+  return FEDERALISM_FLOOR_GUIDE[locale] || FEDERALISM_FLOOR_GUIDE.en;
+}
+
 export const ELECTION_TRANSFER_GUIDE = {
   en: {
     all: "All phases",

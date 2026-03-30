@@ -51,7 +51,9 @@
           "presidential-powers-comparison",
           "how-a-bill-becomes-law",
           "election-to-transfer-of-power",
-          "how-rights-are-enforced"
+          "how-rights-are-enforced",
+          "federalism-and-the-democratic-floor",
+          "what-happens-in-a-constitutional-crisis"
         ]
       },
       {
@@ -156,7 +158,9 @@
         "presidential-powers-comparison",
         "how-a-bill-becomes-law",
         "election-to-transfer-of-power",
-        "how-rights-are-enforced"
+        "how-rights-are-enforced",
+        "federalism-and-the-democratic-floor",
+        "what-happens-in-a-constitutional-crisis"
       ]
     },
     {
@@ -3597,6 +3601,62 @@
         }
       ],
       "search_text": "C\u00f3mo Se Hacen Exigibles Los Derechos Esta gu\u00eda visual explica c\u00f3mo las reclamaciones de derechos avanzan en el sistema constitucional: qui\u00e9n puede impugnar una acci\u00f3n il\u00edcita, cu\u00e1ndo los tribunales deben actuar con rapidez y qu\u00e9 derechos siguen protegidos incluso en emergencia. C\u00f3mo Leer Esta Gu\u00eda La gu\u00eda tiene tres rutas: exigibilidad ordinaria revisi\u00f3n acelerada protecci\u00f3n de derechos en emergencia Usa los botones de ruta para centrarte en una v\u00eda de exigibilidad a la vez. Qu\u00e9 Cubre Esta Gu\u00eda impugnaciones de derechos por perjuicio concreto en tribunales federales control judicial de leyes y actos del ejecutivo revisi\u00f3n acelerada para controversias constitucionales sensibles al tiempo salvaguardas contra la demora de tribunales superiores derechos no derogables en emergencia regla de 72 horas para impugnar suspensiones de derechos Qu\u00e9 No Hace Esta Gu\u00eda Esta gu\u00eda es una capa de orientaci\u00f3n, no el texto constitucional en s\u00ed. Para la redacci\u00f3n exacta y el detalle jur\u00eddico, lee: Art\u00edculo IV Art\u00edculo V Art\u00edculo III"
+    },
+    {
+      "slug": "federalism-and-the-democratic-floor",
+      "title": "Federalismo y piso democr\u00e1tico",
+      "group": "Gu\u00edas visuales",
+      "kind": "note",
+      "content_type": "visual_guide",
+      "source": "translation/translations/es/visual-guides/federalism-and-the-democratic-floor.md",
+      "status": null,
+      "summary": "Qu\u00e9 siguen controlando los estados, qu\u00e9 proh\u00edbe el piso democr\u00e1tico y qu\u00e9 salvaguardas federales responden cuando los estados cruzan la l\u00ednea constitucional",
+      "headings": [
+        {
+          "level": 2,
+          "text": "C\u00f3mo Leer Esta Gu\u00eda",
+          "anchor": "c\u00f3mo-leer-esta-gu\u00eda"
+        },
+        {
+          "level": 2,
+          "text": "Qu\u00e9 Cubre Esta Gu\u00eda",
+          "anchor": "qu\u00e9-cubre-esta-gu\u00eda"
+        },
+        {
+          "level": 2,
+          "text": "Qu\u00e9 No Hace Esta Gu\u00eda",
+          "anchor": "qu\u00e9-no-hace-esta-gu\u00eda"
+        }
+      ],
+      "search_text": "Federalismo Y Piso Democr\u00e1tico Esta gu\u00eda visual explica la l\u00ednea constitucional entre la autonom\u00eda estatal preservada y el piso democr\u00e1tico nacional que los estados no pueden violar legalmente. C\u00f3mo Leer Esta Gu\u00eda La gu\u00eda tiene cuatro secciones: lo que los estados a\u00fan controlan lo que los estados no pueden hacer salvaguardas federales y judiciales democracia local y preeminencia Usa los botones de categor\u00eda para centrarte en una parte de la estructura federal a la vez. Qu\u00e9 Cubre Esta Gu\u00eda autoridad estatal preservada pisos de ciudadan\u00eda igualitaria y derechos l\u00edmites anti retroceso sobre la autonom\u00eda estatal remedios judiciales federales frente a la acci\u00f3n estatal inconstitucional l\u00edmites entre democracia local y preeminencia estatal Qu\u00e9 No Hace Esta Gu\u00eda Esta gu\u00eda es una capa de orientaci\u00f3n, no el texto constitucional en s\u00ed. Para la redacci\u00f3n exacta y el detalle jur\u00eddico, lee: Art\u00edculo X Art\u00edculo V Art\u00edculo IX Art\u00edculo XVIII"
+    },
+    {
+      "slug": "what-happens-in-a-constitutional-crisis",
+      "title": "Qu\u00e9 ocurre en una crisis constitucional",
+      "group": "Gu\u00edas visuales",
+      "kind": "note",
+      "content_type": "visual_guide",
+      "source": "translation/translations/es/visual-guides/what-happens-in-a-constitutional-crisis.md",
+      "status": null,
+      "summary": "C\u00f3mo el borrador devuelve el caos electoral, el abuso de emergencia y la desobediencia institucional al cauce de plazos, revisi\u00f3n, continuidad y derecho antisubversivo",
+      "headings": [
+        {
+          "level": 2,
+          "text": "C\u00f3mo Leer Esta Gu\u00eda",
+          "anchor": "c\u00f3mo-leer-esta-gu\u00eda"
+        },
+        {
+          "level": 2,
+          "text": "Qu\u00e9 Cubre Esta Gu\u00eda",
+          "anchor": "qu\u00e9-cubre-esta-gu\u00eda"
+        },
+        {
+          "level": 2,
+          "text": "Qu\u00e9 No Hace Esta Gu\u00eda",
+          "anchor": "qu\u00e9-no-hace-esta-gu\u00eda"
+        }
+      ],
+      "search_text": "Qu\u00e9 Ocurre En Una Crisis Constitucional Esta gu\u00eda visual muestra c\u00f3mo se supone que debe reaccionar el sistema constitucional cuando una crisis deja de ser pol\u00edtica ordinaria y se convierte en una disputa sobre la autoridad legal misma. C\u00f3mo Leer Esta Gu\u00eda La gu\u00eda tiene tres rutas: crisis electoral y de certificaci\u00f3n crisis por abuso de emergencia crisis por desobediencia institucional Usa los botones de ruta para centrarte en una cadena de crisis a la vez. Qu\u00e9 Cubre Esta Gu\u00eda plazos de certificaci\u00f3n electoral deberes de transici\u00f3n y continuidad aprobaci\u00f3n de emergencias y reglas de caducidad autom\u00e1tica revisi\u00f3n judicial y salvaguardas contra la demora consecuencias antisubversivas por obstrucci\u00f3n y desobediencia Qu\u00e9 No Hace Esta Gu\u00eda Esta gu\u00eda es una capa de orientaci\u00f3n, no el texto constitucional en s\u00ed. Para la redacci\u00f3n exacta y el detalle jur\u00eddico, lee: Art\u00edculo I Art\u00edculo III Art\u00edculo IV Art\u00edculo VI Art\u00edculo XI Art\u00edculo XII Art\u00edculo XIX"
     },
     {
       "slug": "commentary-overview",

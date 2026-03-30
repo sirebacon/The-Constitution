@@ -6,4 +6,6 @@ export {
   powerDataForLocale,
   RIGHTS_ENFORCEMENT_GUIDE,
   rightsEnforcementDataForLocale,
+  CONSTITUTIONAL_CRISIS_GUIDE,
+  constitutionalCrisisDataForLocale,
 } from "./data-core/system.js";

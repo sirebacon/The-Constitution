@@ -3,6 +3,7 @@ import {
   emergencyDataForLocale,
   powerDataForLocale,
   rightsEnforcementDataForLocale,
+  constitutionalCrisisDataForLocale,
 } from "./data-core.js";
 import {
   rightsCards,
@@ -43,6 +44,15 @@ export const CORE_GUIDE_RENDERERS = {
         { key: "emergency", label: data.emergency },
       ]);
     })(),
+  "what-happens-in-a-constitutional-crisis": (doc, siteData) =>
+    (() => {
+      const data = constitutionalCrisisDataForLocale(siteData.locale);
+      return renderFlowGuide(doc, data, [
+        { key: "election", label: data.election },
+        { key: "emergency", label: data.emergency },
+        { key: "defiance", label: data.defiance },
+      ]);
+    })(),
 };
 
 export const CORE_GUIDE_FILTERS = {
@@ -50,4 +60,5 @@ export const CORE_GUIDE_FILTERS = {
   "emergency-powers-lifecycle": "basic",
   "power-distribution": "power",
   "how-rights-are-enforced": "basic",
+  "what-happens-in-a-constitutional-crisis": "basic",
 };

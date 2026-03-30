@@ -7,6 +7,7 @@ import {
   presidentialPowersDataForLocale,
   billToLawDataForLocale,
   electionTransferDataForLocale,
+  federalismFloorDataForLocale,
 } from "./data-governance.js";
 import {
   renderCardGuide,
@@ -65,6 +66,8 @@ export const GOVERNANCE_GUIDE_RENDERERS = {
         { key: "transfer", label: data.transfer },
       ]);
     })(),
+  "federalism-and-the-democratic-floor": (doc, siteData) =>
+    renderCardGuide(doc, federalismFloorDataForLocale(siteData.locale)),
 };
 
 export const GOVERNANCE_GUIDE_FILTERS = {
@@ -76,4 +79,5 @@ export const GOVERNANCE_GUIDE_FILTERS = {
   "presidential-powers-comparison": "basic",
   "how-a-bill-becomes-law": "basic",
   "election-to-transfer-of-power": "basic",
+  "federalism-and-the-democratic-floor": "basic",
 };

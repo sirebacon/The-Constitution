@@ -402,3 +402,148 @@ export const RIGHTS_ENFORCEMENT_GUIDE = {
 export function rightsEnforcementDataForLocale(locale) {
   return RIGHTS_ENFORCEMENT_GUIDE[locale] || RIGHTS_ENFORCEMENT_GUIDE.en;
 }
+
+export const CONSTITUTIONAL_CRISIS_GUIDE = {
+  en: {
+    all: "All paths",
+    election: "Election crisis",
+    emergency: "Emergency abuse",
+    defiance: "Institutional defiance",
+    filterLabel: "Filter constitutional crisis paths",
+    note: "This guide shows how the draft tries to force a constitutional crisis back into law: through certification deadlines, judicial review, continuity duties, and anti-subversion consequences.",
+    sections: [
+      {
+        key: "election",
+        label: "Election and certification crisis",
+        summary: "The Constitution tries to stop post-election chaos from becoming a vacuum of authority.",
+        steps: [
+          { title: "Election is administered by an independent constitutional organ", meta: "Arts. I, XII", text: "The Electoral Commission, not partisan officeholders, administers and certifies federal elections." },
+          { title: "Certification has a fixed deadline", meta: "Art. I §6.3 / §10.4", text: "Presidential certification must occur within 30 days unless an actual federal court order in a genuine dispute says otherwise." },
+          { title: "Delay tactics remain judicially reviewable", meta: "Arts. I, IV", text: "Frivolous certification litigation can be sanctioned, and constitutional courts remain available to block strategic delay." },
+          { title: "Lawful transfer duties activate after certification", meta: "Art. III §13 / Art. XIX §6", text: "Once the result is certified, transition cooperation, records preservation, security access, and continuity obligations become mandatory." },
+          { title: "Obstruction becomes anti-subversion conduct", meta: "Arts. VI, XIX", text: "Refusing lawful transfer, destroying records, or sabotaging the incoming order can trigger removal, disqualification, and prosecution." },
+        ],
+      },
+      {
+        key: "emergency",
+        label: "Emergency abuse crisis",
+        summary: "The draft assumes crises are dangerous precisely when the executive claims extra power, so it builds in timed review and automatic failure points.",
+        steps: [
+          { title: "Emergency declaration starts on a narrow constitutional trigger", meta: "Art. III §5.1", text: "A national emergency must respond to an imminent threat that truly requires faster action than the ordinary legislative process allows." },
+          { title: "Regional Assembly approval is mandatory", meta: "Art. III §5.4", text: "If the Regional Assembly does not approve within 30 days, the emergency lapses automatically." },
+          { title: "Rights do not disappear automatically", meta: "Arts. III, V", text: "Emergency declarations do not themselves suspend rights, and non-derogable protections remain binding." },
+          { title: "Courts can accelerate review", meta: "Art. IV §9.6A / §10.1", text: "High-impact directives, emergency abuse, and rights suspensions can be forced onto accelerated judicial tracks." },
+          { title: "Either chamber can terminate the emergency", meta: "Art. III §5.6", text: "Emergency power is not constitutionally locked in after approval. A majority in either chamber can end it." },
+        ],
+      },
+      {
+        key: "defiance",
+        label: "Institutional defiance crisis",
+        summary: "The draft assumes some actors will refuse to comply. The answer is overlapping institutions, continuity backstops, and automatic legal consequences where possible.",
+        steps: [
+          { title: "Courts remain open and reviewable", meta: "Art. IV", text: "No branch or constitutional organ is outside judicial review, and lower-court relief can remain operative if higher courts strategically stall." },
+          { title: "Constitutional Organs keep core systems running", meta: "Art. XII / Art. XIX", text: "Election administration, accountability, and bridge-startup rules exist so core constitutional functions do not depend entirely on ordinary partisan cooperation." },
+          { title: "Missed deadlines trigger automatic effects where possible", meta: "Arts. I, III, IV, XII", text: "Several chains use automatic lapse, default confirmation, or preserved lower-court relief so sabotage by inaction does not always freeze the system." },
+          { title: "Officials can still be removed or prosecuted", meta: "Arts. II, III, VIII, XII", text: "Impeachment, recall, ACC prosecution, and other removal pathways remain available during constitutional stress." },
+          { title: "The unamendable core blocks legal self-destruction", meta: "Art. XI", text: "Even during crisis, the system cannot lawfully abolish equal citizenship, regular elections, judicial review, or the democratic core through ordinary amendment." },
+        ],
+      },
+    ],
+  },
+  es: {
+    all: "Todas las rutas",
+    election: "Crisis electoral",
+    emergency: "Abuso de emergencia",
+    defiance: "Desobediencia institucional",
+    filterLabel: "Filtrar rutas de crisis constitucional",
+    note: "Esta guía muestra cómo el borrador intenta devolver una crisis constitucional al terreno del derecho: mediante plazos de certificación, revisión judicial, deberes de continuidad y consecuencias antisubversivas.",
+    sections: [
+      {
+        key: "election",
+        label: "Crisis electoral y de certificación",
+        summary: "La Constitución intenta impedir que el caos postelectoral se convierta en un vacío de autoridad.",
+        steps: [
+          { title: "La elección es administrada por un órgano constitucional independiente", meta: "Arts. I, XII", text: "La Comisión Electoral, y no los cargos partidistas, administra y certifica las elecciones federales." },
+          { title: "La certificación tiene un plazo fijo", meta: "Art. I §6.3 / §10.4", text: "La certificación presidencial debe producirse en 30 días salvo orden real de un tribunal federal en una controversia genuina." },
+          { title: "Las tácticas dilatorias siguen sujetas a revisión judicial", meta: "Arts. I, IV", text: "La litigación frívola para retrasar la certificación puede ser sancionada, y los tribunales constitucionales siguen pudiendo bloquear la demora estratégica." },
+          { title: "Los deberes de transferencia legal se activan tras la certificación", meta: "Art. III §13 / Art. XIX §6", text: "Una vez certificado el resultado, la cooperación de transición, la preservación de registros, el acceso de seguridad y las obligaciones de continuidad pasan a ser obligatorias." },
+          { title: "La obstrucción se convierte en conducta antisubversiva", meta: "Arts. VI, XIX", text: "Negarse a una transferencia legal, destruir registros o sabotear el orden entrante puede activar remoción, inhabilitación y procesamiento." },
+        ],
+      },
+      {
+        key: "emergency",
+        label: "Crisis por abuso de emergencia",
+        summary: "El borrador parte de que las crisis son más peligrosas cuando el ejecutivo reclama poder extra, por lo que incorpora revisión temporizada y puntos automáticos de fallo.",
+        steps: [
+          { title: "La declaración de emergencia comienza con un disparador constitucional estrecho", meta: "Art. III §5.1", text: "Una emergencia nacional debe responder a una amenaza inminente que realmente requiera actuar más rápido que el procedimiento legislativo ordinario." },
+          { title: "La aprobación de la Asamblea Regional es obligatoria", meta: "Art. III §5.4", text: "Si la Asamblea Regional no aprueba dentro de 30 días, la emergencia caduca automáticamente." },
+          { title: "Los derechos no desaparecen automáticamente", meta: "Arts. III, V", text: "Las declaraciones de emergencia no suspenden por sí solas derechos, y las protecciones no derogables siguen vigentes." },
+          { title: "Los tribunales pueden acelerar la revisión", meta: "Art. IV §9.6A / §10.1", text: "Las directivas de alto impacto, el abuso de emergencia y las suspensiones de derechos pueden forzarse a vías judiciales aceleradas." },
+          { title: "Cualquiera de las cámaras puede terminar la emergencia", meta: "Art. III §5.6", text: "El poder de emergencia no queda constitucionalmente blindado tras la aprobación. Una mayoría en cualquiera de las cámaras puede terminarlo." },
+        ],
+      },
+      {
+        key: "defiance",
+        label: "Crisis por desobediencia institucional",
+        summary: "El borrador asume que algunos actores se negarán a cumplir. La respuesta son instituciones superpuestas, salvaguardas de continuidad y consecuencias legales automáticas cuando es posible.",
+        steps: [
+          { title: "Los tribunales siguen abiertos y revisables", meta: "Art. IV", text: "Ningún poder ni órgano constitucional queda fuera del control judicial, y la tutela de tribunales inferiores puede seguir vigente si las instancias superiores retrasan estratégicamente." },
+          { title: "Los Órganos Constitucionales mantienen en marcha los sistemas centrales", meta: "Art. XII / Art. XIX", text: "La administración electoral, la rendición de cuentas y las reglas de arranque puente existen para que las funciones constitucionales básicas no dependan totalmente de la cooperación partidista ordinaria." },
+          { title: "Los plazos incumplidos activan efectos automáticos cuando es posible", meta: "Arts. I, III, IV, XII", text: "Varias cadenas usan caducidad automática, confirmación por defecto o mantenimiento de la tutela inferior para que el sabotaje por inacción no congele siempre el sistema." },
+          { title: "Los funcionarios todavía pueden ser removidos o procesados", meta: "Arts. II, III, VIII, XII", text: "Juicio político, revocación, procesamiento por la CRC y otras vías de remoción siguen disponibles durante la tensión constitucional." },
+          { title: "El núcleo irreformable bloquea la autodestrucción legal", meta: "Art. XI", text: "Incluso en crisis, el sistema no puede abolir legalmente la ciudadanía igual, las elecciones periódicas, el control judicial ni el núcleo democrático mediante enmienda ordinaria." },
+        ],
+      },
+    ],
+  },
+  "zh-Hans": {
+    all: "全部路径",
+    election: "选举危机",
+    emergency: "紧急权力滥用",
+    defiance: "制度抗命",
+    filterLabel: "筛选宪法危机路径",
+    note: "本指南展示草案如何试图把宪法危机重新拉回法律轨道：通过认证期限、司法审查、连续性义务和反颠覆后果。",
+    sections: [
+      {
+        key: "election",
+        label: "选举与认证危机",
+        summary: "宪法试图阻止选后混乱演变成权力真空。",
+        steps: [
+          { title: "选举由独立宪法机关管理", meta: "第一条、第十二条", text: "联邦选举由选举委员会而不是党派官员进行管理和认证。" },
+          { title: "认证有固定期限", meta: "第一条 §6.3 / §10.4", text: "总统选举认证必须在30天内完成，除非联邦法院就真实争议作出真正的命令。" },
+          { title: "拖延战术仍受司法审查", meta: "第一条、第四条", text: "为拖延认证而提出的轻率诉讼可被制裁，宪法法院仍可阻止战略性拖延。" },
+          { title: "合法移交义务在认证后启动", meta: "第三条 §13 / 第十九条 §6", text: "结果一经认证，交接合作、记录保存、安全接入和连续性义务即成为强制要求。" },
+          { title: "阻挠会转化为反颠覆行为", meta: "第六条、第十九条", text: "拒绝合法移交、销毁记录或破坏即将到来的宪法秩序，都会触发免职、资格取消和起诉。" },
+        ],
+      },
+      {
+        key: "emergency",
+        label: "紧急权力滥用危机",
+        summary: "草案假定危机在行政部门主张额外权力时最危险，因此内置了限时审查和自动失效点。",
+        steps: [
+          { title: "紧急状态声明必须基于狭窄的宪法触发条件", meta: "第三条 §5.1", text: "国家紧急状态必须回应真正迫在眉睫、且确实需要快于普通立法程序的威胁。" },
+          { title: "地区议会批准是强制性的", meta: "第三条 §5.4", text: "如果地区议会未在30天内批准，紧急状态自动失效。" },
+          { title: "权利不会自动消失", meta: "第三条、第五条", text: "紧急状态声明本身并不暂停权利，不可减损保护依然有效。" },
+          { title: "法院可以加速审查", meta: "第四条 §9.6A / §10.1", text: "高影响指令、紧急权力滥用和权利暂停都可以被推入加速司法轨道。" },
+          { title: "任一议院都可以终止紧急状态", meta: "第三条 §5.6", text: "紧急权力在获批后并不会被宪法锁定。任一议院多数都可终止它。" },
+        ],
+      },
+      {
+        key: "defiance",
+        label: "制度抗命危机",
+        summary: "草案假定某些行为者会拒绝遵守。应对方式是重叠机构、连续性后备机制，以及在可能时自动触发的法律后果。",
+        steps: [
+          { title: "法院仍然开放并可审查", meta: "第四条", text: "没有任何分支或宪法机关可以脱离司法审查；若上级法院战略性拖延，下级法院救济仍可继续生效。" },
+          { title: "宪法机关维持核心系统运转", meta: "第十二条 / 第十九条", text: "选举管理、问责以及桥接启动规则的存在，是为了让核心宪法功能不完全依赖普通党派合作。" },
+          { title: "在可能时，错过期限会自动产生后果", meta: "第一条、第三条、第四条、第十二条", text: "多条制度链条使用自动失效、默认确认或维持下级法院有效救济，以减少以不作为进行破坏所造成的冻结。" },
+          { title: "官员仍可被免职或起诉", meta: "第二条、第三条、第八条、第十二条", text: "弹劾、罢免、问责委员会起诉和其他免职路径在宪法压力下仍然有效。" },
+          { title: "不可修宪核心阻止合法自我毁灭", meta: "第十一条", text: "即使在危机中，制度也不能通过普通修宪合法废除平等公民资格、定期选举、司法审查或民主核心。" },
+        ],
+      },
+    ],
+  },
+};
+
+export function constitutionalCrisisDataForLocale(locale) {
+  return CONSTITUTIONAL_CRISIS_GUIDE[locale] || CONSTITUTIONAL_CRISIS_GUIDE.en;
+}
