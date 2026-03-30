@@ -11,6 +11,7 @@ DOCS_DIR = ROOT / "docs"
 CONTENT_DIR = DOCS_DIR / "content"
 ASSETS_DIR = DOCS_DIR / "assets"
 TRANSLATIONS_DIR = ROOT / "translation" / "translations"
+VISUAL_GUIDE_MANIFEST_PATH = ROOT / "visual-guides" / "manifest.json"
 
 LOCALE_LABELS = {
     "en": "English",
@@ -141,66 +142,6 @@ PAGE_METADATA = {
         "es": ("Cómo escribir pruebas de simulación", "Guía para contribuir nuevos escenarios, controladores y actualizaciones posteriores"),
         "zh-Hans": ("如何编写模拟测试", "用于创建新情景测试、处理器和后续报告更新的贡献者指南"),
     },
-    "rights-at-a-glance": {
-        "en": ("Rights At A Glance", "A visual guide to the constitution's major rights categories and protections"),
-        "es": ("Derechos de un vistazo", "Guía visual de las principales categorías de derechos y protecciones de la constitución"),
-        "zh-Hans": ("权利一览", "对本宪法主要权利类别与保障的可视化导览"),
-    },
-    "emergency-powers-lifecycle": {
-        "en": ("Emergency Powers Lifecycle", "A visual guide to how emergency declarations begin, narrow, lapse, and terminate"),
-        "es": ("Ciclo de los poderes de emergencia", "Guía visual de cómo las declaraciones de emergencia comienzan, se limitan, caducan y terminan"),
-        "zh-Hans": ("紧急权力生命周期", "对应急状态如何启动、收窄、失效与终止的可视化导览"),
-    },
-    "power-distribution": {
-        "en": ("How Power Is Distributed", "A visual guide to the main institutions, democratic inputs, and accountability links in the constitutional system"),
-        "es": ("Cómo se distribuye el poder", "Guía visual de las principales instituciones, entradas democráticas y vínculos de rendición de cuentas del sistema constitucional"),
-        "zh-Hans": ("权力如何分配", "对本宪法体系中主要机构、民主输入与问责联系的可视化导览"),
-    },
-    "congress-comparison": {
-        "en": ("Congress: Then vs. Now", "A side-by-side comparison of the current U.S. Congress and the legislature in this draft — what changed, what stayed, and why"),
-        "es": ("El Congreso: antes y ahora", "Comparación del Congreso de EE. UU. actual y la legislatura en este borrador — qué cambió, qué se mantuvo y por qué"),
-        "zh-Hans": ("国会：今昔对比", "对比当前美国国会与本草案立法机构——有何变化、有何保留及其原因"),
-    },
-    "removal-pathways": {
-        "en": ("How Officials Are Removed", "Every path for removing a federal official — who triggers it, who decides, the vote threshold, and what happens after"),
-        "es": ("Cómo se destituye a los funcionarios", "Cada camino para destituir a un funcionario federal: quién lo activa, quién decide, el umbral de votación y qué sucede después"),
-        "zh-Hans": ("如何罢免官员", "罢免联邦官员的每条路径——谁触发、谁决定、投票门槛以及后续结果"),
-    },
-    "how-elections-work": {
-        "en": ("How Elections Work", "What is different about federal elections under this constitution — voting methods, registration, integrity protections, and recall"),
-        "es": ("Cómo funcionan las elecciones", "Qué tiene de diferente las elecciones federales bajo esta constitución: métodos de votación, registro, protecciones de integridad y revocación"),
-        "zh-Hans": ("选举如何运作", "本宪法下联邦选举有何不同——投票方式、选民登记、诚信保护与罢免机制"),
-    },
-    "amendment-process": {
-        "en": ("The Amendment Process", "How this constitution can be changed — Track 1 vs Track 2, the pre-clearance gate, and what eleven provisions cannot be amended under any process"),
-        "es": ("El proceso de enmienda", "Cómo puede modificarse esta constitución — Vía 1 vs Vía 2, el control previo y las once disposiciones que no pueden enmendarse bajo ningún proceso"),
-        "zh-Hans": ("修宪程序", "本宪法如何修改——路径一与路径二对比、预审批关卡，以及十一项在任何程序下均不可修改的条款"),
-    },
-    "accountability-commission": {
-        "en": ("The Accountability Commission", "What the ACC is, what it can do, what it cannot do, and how it is protected from capture, defunding, or shutdown"),
-        "es": ("La Comisión de Rendición de Cuentas", "Qué es la CRC, qué puede hacer, qué no puede hacer y cómo está protegida frente a la captura, la desfinanciación o el cierre"),
-        "zh-Hans": ("问责委员会", "问责委员会是什么、能做什么、不能做什么，以及如何防止其被控制、断资或关闭"),
-    },
-    "presidential-powers-comparison": {
-        "en": ("Presidential Powers: Then vs. Now", "A side-by-side comparison of the current U.S. presidency and the presidency in this draft — what remains strong, what narrows, and what new checks apply"),
-        "es": ("Poderes presidenciales: antes y ahora", "Comparación de la presidencia actual de EE. UU. y la presidencia en este borrador — qué sigue siendo fuerte, qué se estrecha y qué nuevos controles se aplican"),
-        "zh-Hans": ("总统权力：今昔对比", "对比当前美国总统职位与本草案中的总统职位——哪些权力仍然强、哪些被收窄，以及新增了哪些制衡"),
-    },
-    "how-a-bill-becomes-law": {
-        "en": ("How A Bill Becomes Law", "The legislative path from bicameral passage to signature, veto override, or deadlock resolution"),
-        "es": ("Cómo un proyecto se convierte en ley", "La ruta legislativa desde la aprobación bicameral hasta la firma, la anulación del veto o la resolución del bloqueo"),
-        "zh-Hans": ("法案如何成为法律", "从两院通过到签署、否决推翻或僵局解决的立法路径"),
-    },
-    "election-to-transfer-of-power": {
-        "en": ("From Election To Transfer Of Power", "How the system moves from voting to certification to a lawful transfer of power"),
-        "es": ("De la elección a la transferencia del poder", "Cómo el sistema pasa de la votación a la certificación y a una transferencia legal del poder"),
-        "zh-Hans": ("从选举到权力交接", "制度如何从投票走向认证，再到合法的权力交接"),
-    },
-    "how-rights-are-enforced": {
-        "en": ("How Rights Are Enforced", "How constitutional rights claims move through courts, expedited review, and emergency backstops"),
-        "es": ("Cómo se hacen exigibles los derechos", "Cómo las reclamaciones de derechos constitucionales avanzan por los tribunales, la revisión acelerada y las salvaguardas de emergencia"),
-        "zh-Hans": ("权利如何得到执行", "宪法权利主张如何经过法院、加速审查与紧急状态后备机制"),
-    },
 }
 
 COMMENTARY_OVERVIEW_METADATA = {
@@ -306,93 +247,6 @@ PAGE_SOURCES = [
     ("how-to-write-simulation-tests", "How To Write Simulation Tests", ROOT / "design-notes" / "how-to-write-simulation-tests.md", "Overview", "A contributor guide for creating new scenario tests, handlers, and follow-up report updates"),
     ("findings", "Simulation Findings", ROOT / "design-notes" / "simulation-findings.md", "Research", "What the simulator is currently showing"),
     ("finalization-plan", "Finalization Plan", ROOT / "design-notes" / "finalization-plan.md", "Research", "Current remaining work and near-finalization sequence"),
-]
-
-VISUAL_GUIDE_SOURCES = [
-    (
-        "rights-at-a-glance",
-        "Rights At A Glance",
-        ROOT / "visual-guides" / "rights-at-a-glance.md",
-        "Visual Guides",
-        "A visual guide to the constitution's major rights categories and protections",
-    ),
-    (
-        "emergency-powers-lifecycle",
-        "Emergency Powers Lifecycle",
-        ROOT / "visual-guides" / "emergency-powers-lifecycle.md",
-        "Visual Guides",
-        "A visual guide to how emergency declarations begin, narrow, lapse, and terminate",
-    ),
-    (
-        "power-distribution",
-        "How Power Is Distributed",
-        ROOT / "visual-guides" / "power-distribution.md",
-        "Visual Guides",
-        "A visual guide to the main institutions, democratic inputs, and accountability links in the constitutional system",
-    ),
-    (
-        "congress-comparison",
-        "Congress: Then vs. Now",
-        ROOT / "visual-guides" / "congress-comparison.md",
-        "Visual Guides",
-        "A side-by-side comparison of the current U.S. Congress and the legislature in this draft",
-    ),
-    (
-        "removal-pathways",
-        "How Officials Are Removed",
-        ROOT / "visual-guides" / "removal-pathways.md",
-        "Visual Guides",
-        "Every path for removing a federal official — who triggers it, who decides, the vote threshold, and what happens after",
-    ),
-    (
-        "how-elections-work",
-        "How Elections Work",
-        ROOT / "visual-guides" / "how-elections-work.md",
-        "Visual Guides",
-        "What is different about federal elections under this constitution — voting methods, registration, integrity protections, and recall",
-    ),
-    (
-        "amendment-process",
-        "The Amendment Process",
-        ROOT / "visual-guides" / "amendment-process.md",
-        "Visual Guides",
-        "How this constitution can be changed — Track 1 vs Track 2, pre-clearance, and what cannot be amended under any process",
-    ),
-    (
-        "accountability-commission",
-        "The Accountability Commission",
-        ROOT / "visual-guides" / "accountability-commission.md",
-        "Visual Guides",
-        "What the ACC is, what it can do, what it cannot do, and how it is protected from capture, defunding, or shutdown",
-    ),
-    (
-        "presidential-powers-comparison",
-        "Presidential Powers: Then vs. Now",
-        ROOT / "visual-guides" / "presidential-powers-comparison.md",
-        "Visual Guides",
-        "A side-by-side comparison of the current U.S. presidency and the presidency in this draft",
-    ),
-    (
-        "how-a-bill-becomes-law",
-        "How A Bill Becomes Law",
-        ROOT / "visual-guides" / "how-a-bill-becomes-law.md",
-        "Visual Guides",
-        "The legislative path from bicameral passage to signature, veto override, or deadlock resolution",
-    ),
-    (
-        "election-to-transfer-of-power",
-        "From Election To Transfer Of Power",
-        ROOT / "visual-guides" / "election-to-transfer-of-power.md",
-        "Visual Guides",
-        "How the system moves from voting to certification to a lawful transfer of power",
-    ),
-    (
-        "how-rights-are-enforced",
-        "How Rights Are Enforced",
-        ROOT / "visual-guides" / "how-rights-are-enforced.md",
-        "Visual Guides",
-        "How rights claims move through courts, accelerated review, and emergency backstops",
-    ),
 ]
 
 GUIDE_SLUGS = {"how-testing-works", "how-to-write-simulation-tests"}
@@ -580,10 +434,34 @@ def slugify(text: str) -> str:
     return text.strip("-")
 
 
+def load_visual_guide_manifest() -> dict[str, object]:
+    return json.loads(VISUAL_GUIDE_MANIFEST_PATH.read_text())
+
+
+VISUAL_GUIDE_MANIFEST = load_visual_guide_manifest()
+VISUAL_GUIDE_METADATA = {
+    entry["slug"]: {
+        locale: (entry["title"][locale], entry["summary"][locale])
+        for locale in entry["title"]
+    }
+    for entry in VISUAL_GUIDE_MANIFEST["guides"]
+}
+VISUAL_GUIDE_SOURCES = [
+    (
+        entry["slug"],
+        entry["title"]["en"],
+        ROOT / entry["source"],
+        "Visual Guides",
+        entry["summary"]["en"],
+    )
+    for entry in VISUAL_GUIDE_MANIFEST["guides"]
+]
+
+
 def homepage_section_items() -> dict[str, list[str]]:
     return {
         "start_here": ["overview", "comparison"],
-        "visual_guides": ["rights-at-a-glance", "emergency-powers-lifecycle", "power-distribution", "congress-comparison", "removal-pathways", "how-elections-work", "amendment-process", "accountability-commission", "presidential-powers-comparison", "how-a-bill-becomes-law", "election-to-transfer-of-power", "how-rights-are-enforced"],
+        "visual_guides": VISUAL_GUIDE_MANIFEST["homepage_order"],
         "constitution": ["index", "preamble"] + [slugify(filename.replace(".md", "")) for filename in ARTICLE_ORDER],
         "clause_notes": [
             "clause-unamendable-core",
@@ -843,7 +721,7 @@ def build_manifest(locale: str, locales: list[str]) -> dict[str, object]:
         source = localized_source(source, locale)
         markdown = source.read_text()
         relative = copy_source(source)
-        localized_title, localized_summary = localized_pair(PAGE_METADATA, slug, locale, title, fallback_summary)
+        localized_title, localized_summary = localized_pair(VISUAL_GUIDE_METADATA, slug, locale, title, fallback_summary)
         docs.append(
             {
                 "slug": slug,
