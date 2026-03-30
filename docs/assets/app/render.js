@@ -3,6 +3,8 @@ import { parseMarkdown } from "./markdown.js";
 import { docMatchesFilter, matchingDocs } from "./search.js";
 import { activateVisualGuide, renderVisualGuide } from "./visual-guides.js";
 
+const navGroupState = new Map();
+
 function bySlug(siteData, slug) {
   return siteData.docs.find((doc) => doc.slug === slug);
 }
@@ -132,17 +134,34 @@ function docsForSection(siteData, section) {
 
 export function renderNavigation({ siteData, currentFilter, strings }) {
   const filter = currentFilter.trim().toLowerCase();
+  const activeHash = location.hash.match(/^#doc\/([^/]+)/)?.[0] ?? "";
   refs.navGroups.innerHTML = siteData.navigation
-    .map((group) => {
+    .map((group, index) => {
       const items = group.items
         .map((slug) => bySlug(siteData, slug))
         .filter(Boolean)
         .filter((doc) => docMatchesFilter(doc, filter));
       if (!items.length) return "";
+      const groupKey = group.group;
+      const hasActiveDoc = items.some((doc) => `#doc/${doc.slug}` === activeHash);
+      const isOpen = filter
+        ? true
+        : navGroupState.has(groupKey)
+        ? navGroupState.get(groupKey)
+        : hasActiveDoc || index < 2;
       return `
-        <section class="nav-group">
-          <h2 class="nav-group__title">${group.group}</h2>
-          <div class="nav-list">
+        <section class="nav-group ${isOpen ? "is-open" : ""}" data-nav-group="${groupKey}">
+          <button
+            class="nav-group__toggle"
+            type="button"
+            aria-expanded="${isOpen ? "true" : "false"}"
+            aria-controls="nav-group-panel-${index}"
+            data-nav-group-toggle="${groupKey}"
+          >
+            <span class="nav-group__title">${group.group}</span>
+            <span class="nav-group__chevron" aria-hidden="true">▾</span>
+          </button>
+          <div class="nav-list" id="nav-group-panel-${index}" ${isOpen ? "" : "hidden"}>
             ${items
               .map(
                 (doc) => `
@@ -160,6 +179,19 @@ export function renderNavigation({ siteData, currentFilter, strings }) {
       `;
     })
     .join("");
+
+  refs.navGroups.querySelectorAll("[data-nav-group-toggle]").forEach((button) => {
+    button.addEventListener("click", () => {
+      const groupKey = button.dataset.navGroupToggle;
+      const panel = button.nextElementSibling;
+      const isExpanded = button.getAttribute("aria-expanded") === "true";
+      const next = !isExpanded;
+      button.setAttribute("aria-expanded", String(next));
+      button.closest(".nav-group")?.classList.toggle("is-open", next);
+      if (panel) panel.hidden = !next;
+      navGroupState.set(groupKey, next);
+    });
+  });
 }
 
 export function renderHome({ siteData, currentFilter, strings }) {

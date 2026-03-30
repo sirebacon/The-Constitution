@@ -203,17 +203,51 @@ input:focus-visible {
   gap: 1rem;
 }
 
-.nav-group__title {
-  margin: 0 0 0.5rem;
+.nav-group {
+  display: grid;
+  gap: 0.45rem;
+}
+
+.nav-group__toggle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0.25rem 0.15rem;
+  border: 0;
+  background: transparent;
   color: var(--muted);
+  cursor: pointer;
+  text-align: left;
+}
+
+.nav-group__title {
+  margin: 0;
   font-size: 0.82rem;
   text-transform: uppercase;
   letter-spacing: 0.08em;
 }
 
+.nav-group__chevron {
+  font-size: 0.9rem;
+  transition: transform 160ms ease;
+}
+
+.nav-group.is-open .nav-group__chevron {
+  transform: rotate(0deg);
+}
+
+.nav-group:not(.is-open) .nav-group__chevron {
+  transform: rotate(-90deg);
+}
+
 .nav-list {
   display: grid;
   gap: 0.3rem;
+}
+
+.nav-list[hidden] {
+  display: none;
 }
 
 .nav-link {
