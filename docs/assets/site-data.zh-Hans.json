@@ -148,23 +148,48 @@
       ]
     },
     {
-      "group": "\u53ef\u89c6\u5316\u6307\u5357",
+      "group": "\u53ef\u89c6\u5316\u6307\u5357\u2014\u2014\u57fa\u7840",
       "items": [
         "power-distribution",
         "rights-at-a-glance",
-        "how-rights-are-enforced",
+        "how-rights-are-enforced"
+      ]
+    },
+    {
+      "group": "\u53ef\u89c6\u5316\u6307\u5357\u2014\u2014\u9009\u4e3e\u4e0e\u8fc7\u6e21",
+      "items": [
         "how-elections-work",
         "election-to-transfer-of-power",
-        "election-to-inauguration",
+        "election-to-inauguration"
+      ]
+    },
+    {
+      "group": "\u53ef\u89c6\u5316\u6307\u5357\u2014\u2014\u7acb\u6cd5\u4e0e\u5206\u652f",
+      "items": [
         "how-a-bill-becomes-law",
         "congress-comparison",
-        "presidential-powers-comparison",
+        "presidential-powers-comparison"
+      ]
+    },
+    {
+      "group": "\u53ef\u89c6\u5316\u6307\u5357\u2014\u2014\u7d27\u6025\u6743\u529b\u4e0e\u95ee\u8d23",
+      "items": [
         "emergency-powers-lifecycle",
         "removal-pathways",
         "accountability-commission",
-        "how-organs-work-together",
+        "how-organs-work-together"
+      ]
+    },
+    {
+      "group": "\u53ef\u89c6\u5316\u6307\u5357\u2014\u2014\u8054\u90a6\u5236\u4e0e\u5371\u673a",
+      "items": [
         "federalism-and-the-democratic-floor",
-        "what-happens-in-a-constitutional-crisis",
+        "what-happens-in-a-constitutional-crisis"
+      ]
+    },
+    {
+      "group": "\u53ef\u89c6\u5316\u6307\u5357\u2014\u2014\u4fee\u5baa\u9650\u5236",
+      "items": [
         "amendment-process",
         "what-cannot-be-changed"
       ]

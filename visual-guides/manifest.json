@@ -18,6 +18,85 @@
     "amendment-process",
     "what-cannot-be-changed"
   ],
+  "navigation_groups": [
+    {
+      "key": "visual-foundations",
+      "title": {
+        "en": "Visual Guides — Foundations",
+        "es": "Guías visuales — Fundamentos",
+        "zh-Hans": "可视化指南——基础"
+      },
+      "items": [
+        "power-distribution",
+        "rights-at-a-glance",
+        "how-rights-are-enforced"
+      ]
+    },
+    {
+      "key": "visual-elections",
+      "title": {
+        "en": "Visual Guides — Elections And Transition",
+        "es": "Guías visuales — Elecciones y transición",
+        "zh-Hans": "可视化指南——选举与过渡"
+      },
+      "items": [
+        "how-elections-work",
+        "election-to-transfer-of-power",
+        "election-to-inauguration"
+      ]
+    },
+    {
+      "key": "visual-branches",
+      "title": {
+        "en": "Visual Guides — Lawmaking And Branches",
+        "es": "Guías visuales — Legislación y ramas",
+        "zh-Hans": "可视化指南——立法与分支"
+      },
+      "items": [
+        "how-a-bill-becomes-law",
+        "congress-comparison",
+        "presidential-powers-comparison"
+      ]
+    },
+    {
+      "key": "visual-accountability",
+      "title": {
+        "en": "Visual Guides — Emergency And Accountability",
+        "es": "Guías visuales — Emergencia y rendición de cuentas",
+        "zh-Hans": "可视化指南——紧急权力与问责"
+      },
+      "items": [
+        "emergency-powers-lifecycle",
+        "removal-pathways",
+        "accountability-commission",
+        "how-organs-work-together"
+      ]
+    },
+    {
+      "key": "visual-federalism",
+      "title": {
+        "en": "Visual Guides — Federalism And Crisis",
+        "es": "Guías visuales — Federalismo y crisis",
+        "zh-Hans": "可视化指南——联邦制与危机"
+      },
+      "items": [
+        "federalism-and-the-democratic-floor",
+        "what-happens-in-a-constitutional-crisis"
+      ]
+    },
+    {
+      "key": "visual-amendment",
+      "title": {
+        "en": "Visual Guides — Amendment Limits",
+        "es": "Guías visuales — Límites de enmienda",
+        "zh-Hans": "可视化指南——修宪限制"
+      },
+      "items": [
+        "amendment-process",
+        "what-cannot-be-changed"
+      ]
+    }
+  ],
   "guides": [
     {
       "slug": "rights-at-a-glance",

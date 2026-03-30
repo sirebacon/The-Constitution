@@ -148,23 +148,48 @@
       ]
     },
     {
-      "group": "Gu\u00edas visuales",
+      "group": "Gu\u00edas visuales \u2014 Fundamentos",
       "items": [
         "power-distribution",
         "rights-at-a-glance",
-        "how-rights-are-enforced",
+        "how-rights-are-enforced"
+      ]
+    },
+    {
+      "group": "Gu\u00edas visuales \u2014 Elecciones y transici\u00f3n",
+      "items": [
         "how-elections-work",
         "election-to-transfer-of-power",
-        "election-to-inauguration",
+        "election-to-inauguration"
+      ]
+    },
+    {
+      "group": "Gu\u00edas visuales \u2014 Legislaci\u00f3n y ramas",
+      "items": [
         "how-a-bill-becomes-law",
         "congress-comparison",
-        "presidential-powers-comparison",
+        "presidential-powers-comparison"
+      ]
+    },
+    {
+      "group": "Gu\u00edas visuales \u2014 Emergencia y rendici\u00f3n de cuentas",
+      "items": [
         "emergency-powers-lifecycle",
         "removal-pathways",
         "accountability-commission",
-        "how-organs-work-together",
+        "how-organs-work-together"
+      ]
+    },
+    {
+      "group": "Gu\u00edas visuales \u2014 Federalismo y crisis",
+      "items": [
         "federalism-and-the-democratic-floor",
-        "what-happens-in-a-constitutional-crisis",
+        "what-happens-in-a-constitutional-crisis"
+      ]
+    },
+    {
+      "group": "Gu\u00edas visuales \u2014 L\u00edmites de enmienda",
+      "items": [
         "amendment-process",
         "what-cannot-be-changed"
       ]

@@ -148,23 +148,48 @@
       ]
     },
     {
-      "group": "Visual Guides",
+      "group": "Visual Guides \u2014 Foundations",
       "items": [
         "power-distribution",
         "rights-at-a-glance",
-        "how-rights-are-enforced",
+        "how-rights-are-enforced"
+      ]
+    },
+    {
+      "group": "Visual Guides \u2014 Elections And Transition",
+      "items": [
         "how-elections-work",
         "election-to-transfer-of-power",
-        "election-to-inauguration",
+        "election-to-inauguration"
+      ]
+    },
+    {
+      "group": "Visual Guides \u2014 Lawmaking And Branches",
+      "items": [
         "how-a-bill-becomes-law",
         "congress-comparison",
-        "presidential-powers-comparison",
+        "presidential-powers-comparison"
+      ]
+    },
+    {
+      "group": "Visual Guides \u2014 Emergency And Accountability",
+      "items": [
         "emergency-powers-lifecycle",
         "removal-pathways",
         "accountability-commission",
-        "how-organs-work-together",
+        "how-organs-work-together"
+      ]
+    },
+    {
+      "group": "Visual Guides \u2014 Federalism And Crisis",
+      "items": [
         "federalism-and-the-democratic-floor",
-        "what-happens-in-a-constitutional-crisis",
+        "what-happens-in-a-constitutional-crisis"
+      ]
+    },
+    {
+      "group": "Visual Guides \u2014 Amendment Limits",
+      "items": [
         "amendment-process",
         "what-cannot-be-changed"
       ]

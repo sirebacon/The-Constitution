@@ -446,6 +446,7 @@ VISUAL_GUIDE_METADATA = {
     }
     for entry in VISUAL_GUIDE_MANIFEST["guides"]
 }
+VISUAL_GUIDE_NAV_GROUPS = VISUAL_GUIDE_MANIFEST.get("navigation_groups", [])
 VISUAL_GUIDE_SOURCES = [
     (
         entry["slug"],
@@ -483,6 +484,15 @@ def homepage_section_items() -> dict[str, list[str]]:
         "research": ["scorecard", "rationale", "findings", "finalization-plan"],
         "contributing": ["how-testing-works", "how-to-write-simulation-tests"],
     }
+
+
+def visual_guide_navigation(locale: str) -> list[dict[str, object]]:
+    entries: list[dict[str, object]] = []
+    for group in VISUAL_GUIDE_NAV_GROUPS:
+        titles = group.get("title", {})
+        title = titles.get(locale) or titles.get("en") or group.get("key", "Visual Guides")
+        entries.append({"group": title, "items": group.get("items", [])})
+    return entries
 
 
 def extract_title(markdown: str, fallback: str) -> str:
@@ -842,15 +852,17 @@ def build_manifest(locale: str, locales: list[str]) -> dict[str, object]:
         for key, items in section_items.items()
     ]
 
-    navigation = [
-        {"group": labels["start_here"], "items": section_items["start_here"]},
-        {"group": labels["visual_guides"], "items": section_items["visual_guides"]},
-        {"group": labels["constitution"], "items": section_items["constitution"]},
-        {"group": labels["clause_notes"], "items": section_items["clause_notes"]},
-        {"group": labels["commentary"], "items": section_items["commentary"]},
-        {"group": labels["research"], "items": section_items["research"]},
-        {"group": labels["contributing"], "items": section_items["contributing"]},
-    ]
+    navigation = [{"group": labels["start_here"], "items": section_items["start_here"]}]
+    navigation.extend(visual_guide_navigation(locale) or [{"group": labels["visual_guides"], "items": section_items["visual_guides"]}])
+    navigation.extend(
+        [
+            {"group": labels["constitution"], "items": section_items["constitution"]},
+            {"group": labels["clause_notes"], "items": section_items["clause_notes"]},
+            {"group": labels["commentary"], "items": section_items["commentary"]},
+            {"group": labels["research"], "items": section_items["research"]},
+            {"group": labels["contributing"], "items": section_items["contributing"]},
+        ]
+    )
 
     return {
         "generated_at": aggregate.get("generated_at", ""),
