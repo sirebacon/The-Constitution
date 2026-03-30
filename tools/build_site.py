@@ -500,19 +500,20 @@ def localized_pair(
 
 
 def localized_article_source(filename: str, locale: str) -> Path:
+    return localized_source(ROOT / "articles" / filename, locale)
+
+
+def localized_source(source: Path, locale: str) -> Path:
     if locale == "en":
-        return ROOT / "articles" / filename
-    translated = TRANSLATIONS_DIR / locale / "articles" / filename
+        return source
+    relative = source.relative_to(ROOT)
+    translated = TRANSLATIONS_DIR / locale / relative
     if translated.exists():
         return translated
-    return ROOT / "articles" / filename
-
-
-def localized_page_source(slug: str, source: Path, locale: str) -> Path:
-    if slug == "overview" and locale == "zh-Hans":
-        zh_source = ROOT / "design-notes" / "constitutional-overview.zh.md"
-        if zh_source.exists():
-            return zh_source
+    if relative == Path("design-notes/constitutional-overview.md") and locale == "zh-Hans":
+        legacy_zh = ROOT / "design-notes" / "constitutional-overview.zh.md"
+        if legacy_zh.exists():
+            return legacy_zh
     return source
 
 
@@ -549,8 +550,9 @@ def build_manifest(locale: str, locales: list[str]) -> dict[str, object]:
     docs: list[dict[str, object]] = []
 
     preamble_path = ROOT / "preamble.md"
-    preamble_md = preamble_path.read_text()
-    preamble_rel = copy_source(preamble_path)
+    localized_preamble_path = localized_source(preamble_path, locale)
+    preamble_md = localized_preamble_path.read_text()
+    preamble_rel = copy_source(localized_preamble_path)
     preamble_score = scorecard.get(SCORECARD_KEYS["preamble"], {})
     docs.append(
         {
@@ -594,7 +596,7 @@ def build_manifest(locale: str, locales: list[str]) -> dict[str, object]:
     for slug, title, source, group, fallback_summary in PAGE_SOURCES:
         if slug == "overview-zh" and locale == "zh-Hans":
             continue
-        source = localized_page_source(slug, source, locale)
+        source = localized_source(source, locale)
         markdown = source.read_text()
         relative = copy_source(source)
         score = scorecard.get(title, {})
@@ -616,6 +618,7 @@ def build_manifest(locale: str, locales: list[str]) -> dict[str, object]:
         )
 
     for slug, title, source, group, fallback_summary in COMMENTARY_OVERVIEW_SOURCES:
+        source = localized_source(source, locale)
         markdown = source.read_text()
         relative = copy_source(source)
         localized_title, localized_summary = localized_pair(
@@ -636,6 +639,7 @@ def build_manifest(locale: str, locales: list[str]) -> dict[str, object]:
         )
 
     for slug, title, source, group, fallback_summary, related_slugs in CLAUSE_COMMENTARY_SOURCES:
+        source = localized_source(source, locale)
         markdown = source.read_text()
         relative = copy_source(source)
         localized_title, localized_summary = localized_pair(CLAUSE_METADATA, slug, locale, title, fallback_summary)
@@ -655,7 +659,7 @@ def build_manifest(locale: str, locales: list[str]) -> dict[str, object]:
         )
 
     for filename in ARTICLE_ORDER:
-        source = ROOT / "commentary" / "articles" / filename
+        source = localized_source(ROOT / "commentary" / "articles" / filename, locale)
         if not source.exists():
             continue
         markdown = source.read_text()
