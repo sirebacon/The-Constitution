@@ -13,7 +13,8 @@
     "election-to-transfer-of-power",
     "how-rights-are-enforced",
     "federalism-and-the-democratic-floor",
-    "what-happens-in-a-constitutional-crisis"
+    "what-happens-in-a-constitutional-crisis",
+    "what-cannot-be-changed"
   ],
   "guides": [
     {
@@ -210,6 +211,20 @@
         "en": "How the draft routes election chaos, emergency abuse, and institutional defiance back into deadlines, review, continuity, and anti-subversion law",
         "es": "Cómo el borrador devuelve el caos electoral, el abuso de emergencia y la desobediencia institucional al cauce de plazos, revisión, continuidad y derecho antisubversivo",
         "zh-Hans": "草案如何把选举混乱、紧急权力滥用和制度抗命重新拉回期限、审查、连续性与反颠覆法的轨道"
+      }
+    },
+    {
+      "slug": "what-cannot-be-changed",
+      "source": "visual-guides/what-cannot-be-changed.md",
+      "title": {
+        "en": "What Cannot Be Changed",
+        "es": "Qué no puede cambiarse",
+        "zh-Hans": "什么不能被改变"
+      },
+      "summary": {
+        "en": "The democratic core that no amendment path may repeal, suspend, or legally unlock",
+        "es": "El núcleo democrático que ninguna vía de enmienda puede derogar, suspender o desbloquear legalmente",
+        "zh-Hans": "任何修宪路径都不得废除、暂停或合法解锁的民主核心"
       }
     }
   ]

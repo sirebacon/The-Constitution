@@ -7,6 +7,8 @@ export {
   electionsDataForLocale,
   BILL_TO_LAW_GUIDE,
   billToLawDataForLocale,
+  UNAMENDABLE_CORE_GUIDE,
+  unamendableCoreDataForLocale,
 } from "./data-governance/legislative.js";
 export {
   ACCOUNTABILITY_GUIDE,

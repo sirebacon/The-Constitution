@@ -8,6 +8,7 @@ import {
   billToLawDataForLocale,
   electionTransferDataForLocale,
   federalismFloorDataForLocale,
+  unamendableCoreDataForLocale,
 } from "./data-governance.js";
 import {
   renderCardGuide,
@@ -68,6 +69,8 @@ export const GOVERNANCE_GUIDE_RENDERERS = {
     })(),
   "federalism-and-the-democratic-floor": (doc, siteData) =>
     renderCardGuide(doc, federalismFloorDataForLocale(siteData.locale)),
+  "what-cannot-be-changed": (doc, siteData) =>
+    renderCardGuide(doc, unamendableCoreDataForLocale(siteData.locale)),
 };
 
 export const GOVERNANCE_GUIDE_FILTERS = {
@@ -80,4 +83,5 @@ export const GOVERNANCE_GUIDE_FILTERS = {
   "how-a-bill-becomes-law": "basic",
   "election-to-transfer-of-power": "basic",
   "federalism-and-the-democratic-floor": "basic",
+  "what-cannot-be-changed": "basic",
 };

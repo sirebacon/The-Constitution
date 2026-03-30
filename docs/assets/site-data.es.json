@@ -53,7 +53,8 @@
           "election-to-transfer-of-power",
           "how-rights-are-enforced",
           "federalism-and-the-democratic-floor",
-          "what-happens-in-a-constitutional-crisis"
+          "what-happens-in-a-constitutional-crisis",
+          "what-cannot-be-changed"
         ]
       },
       {
@@ -160,7 +161,8 @@
         "election-to-transfer-of-power",
         "how-rights-are-enforced",
         "federalism-and-the-democratic-floor",
-        "what-happens-in-a-constitutional-crisis"
+        "what-happens-in-a-constitutional-crisis",
+        "what-cannot-be-changed"
       ]
     },
     {
@@ -3657,6 +3659,34 @@
         }
       ],
       "search_text": "Qu\u00e9 Ocurre En Una Crisis Constitucional Esta gu\u00eda visual muestra c\u00f3mo se supone que debe reaccionar el sistema constitucional cuando una crisis deja de ser pol\u00edtica ordinaria y se convierte en una disputa sobre la autoridad legal misma. C\u00f3mo Leer Esta Gu\u00eda La gu\u00eda tiene tres rutas: crisis electoral y de certificaci\u00f3n crisis por abuso de emergencia crisis por desobediencia institucional Usa los botones de ruta para centrarte en una cadena de crisis a la vez. Qu\u00e9 Cubre Esta Gu\u00eda plazos de certificaci\u00f3n electoral deberes de transici\u00f3n y continuidad aprobaci\u00f3n de emergencias y reglas de caducidad autom\u00e1tica revisi\u00f3n judicial y salvaguardas contra la demora consecuencias antisubversivas por obstrucci\u00f3n y desobediencia Qu\u00e9 No Hace Esta Gu\u00eda Esta gu\u00eda es una capa de orientaci\u00f3n, no el texto constitucional en s\u00ed. Para la redacci\u00f3n exacta y el detalle jur\u00eddico, lee: Art\u00edculo I Art\u00edculo III Art\u00edculo IV Art\u00edculo VI Art\u00edculo XI Art\u00edculo XII Art\u00edculo XIX"
+    },
+    {
+      "slug": "what-cannot-be-changed",
+      "title": "Qu\u00e9 no puede cambiarse",
+      "group": "Gu\u00edas visuales",
+      "kind": "note",
+      "content_type": "visual_guide",
+      "source": "translation/translations/es/visual-guides/what-cannot-be-changed.md",
+      "status": null,
+      "summary": "El n\u00facleo democr\u00e1tico que ninguna v\u00eda de enmienda puede derogar, suspender o desbloquear legalmente",
+      "headings": [
+        {
+          "level": 2,
+          "text": "C\u00f3mo Leer Esta Gu\u00eda",
+          "anchor": "c\u00f3mo-leer-esta-gu\u00eda"
+        },
+        {
+          "level": 2,
+          "text": "Qu\u00e9 Cubre Esta Gu\u00eda",
+          "anchor": "qu\u00e9-cubre-esta-gu\u00eda"
+        },
+        {
+          "level": 2,
+          "text": "Qu\u00e9 No Hace Esta Gu\u00eda",
+          "anchor": "qu\u00e9-no-hace-esta-gu\u00eda"
+        }
+      ],
+      "search_text": "Qu\u00e9 No Puede Cambiarse Esta gu\u00eda visual a\u00edsla el n\u00facleo irreformable de la Constituci\u00f3n: los compromisos que no pueden derogarse, suspenderse ni vaciarse mediante ninguna v\u00eda de enmienda. C\u00f3mo Leer Esta Gu\u00eda La gu\u00eda tiene cuatro secciones: estructura democr\u00e1tica ciudadan\u00eda igualitaria y piso de derechos instituciones de resguardo orden constitucional y control civil Usa los botones de categor\u00eda para centrarte en una parte del n\u00facleo democr\u00e1tico bloqueado a la vez. Qu\u00e9 Cubre Esta Gu\u00eda el m\u00ednimo democr\u00e1tico protegido de forma permanente por qu\u00e9 la ciudadan\u00eda igualitaria est\u00e1 blindada por qu\u00e9 se protegen el control judicial y los \u00d3rganos Constitucionales por qu\u00e9 el control civil y la transferencia pac\u00edfica quedan fuera de la reforma por qu\u00e9 el poder de reforma no puede desbloquearse a s\u00ed mismo legalmente Qu\u00e9 No Hace Esta Gu\u00eda Esta gu\u00eda es una capa de orientaci\u00f3n, no el texto constitucional en s\u00ed. Para la redacci\u00f3n exacta y el detalle jur\u00eddico, lee: Art\u00edculo XI Nota de cl\u00e1usula: el n\u00facleo irreformable"
     },
     {
       "slug": "commentary-overview",

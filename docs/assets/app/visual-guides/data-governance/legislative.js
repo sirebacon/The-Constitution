@@ -720,3 +720,151 @@ export const BILL_TO_LAW_GUIDE = {
 export function billToLawDataForLocale(locale) {
   return BILL_TO_LAW_GUIDE[locale] || BILL_TO_LAW_GUIDE.en;
 }
+
+export const UNAMENDABLE_CORE_GUIDE = {
+  en: {
+    all: "All",
+    filterLabel: "Filter unamendable core categories",
+    note: "This guide separates the permanently protected democratic core into functional groups so readers can see what the Constitution puts beyond amendment, repeal, or suspension.",
+    categories: [
+      {
+        key: "democracy",
+        label: "Democratic structure",
+        summary: "The Constitution permanently protects the basic machinery of lawful democratic rule.",
+        items: [
+          { title: "Universal equal suffrage in federal elections", article: "Art. XI §3.1(1)", text: "No amendment may repeal or hollow out the equal right of adult citizens to vote in federal elections." },
+          { title: "Integrity of election administration and certification", article: "Art. XI §3.1(2)", text: "No amendment may destroy the constitutional requirements that elections be lawfully administered, counted, and certified." },
+          { title: "Regular democratic renewal", article: "Art. XI §3.1(3)", text: "Periodic elections, fixed constitutional turnover, and a continuing democratic chain cannot be abolished by amendment." },
+        ],
+      },
+      {
+        key: "membership",
+        label: "Equal citizenship and rights floor",
+        summary: "The draft forbids amendments that would turn the polity into a hierarchy of belonging or erase the basic rights floor.",
+        items: [
+          { title: "Equal citizenship", article: "Art. XI §3.1(4)", text: "No amendment may create castes of political membership or authorize second-class citizenship." },
+          { title: "Core rights floor", article: "Art. XI §3.1(8)", text: "The basic rights structure cannot be repealed or suspended as a way to keep formal institutions while destroying meaningful liberty." },
+          { title: "Substance-over-label protection", article: "Art. XI §3.1", text: "An amendment cannot evade these locks by renaming terms while narrowing the real substance of the protected right." },
+        ],
+      },
+      {
+        key: "institutions",
+        label: "Guardrail institutions",
+        summary: "Some institutions are protected because without them the democratic order could be dismantled from inside.",
+        items: [
+          { title: "Judicial review", article: "Art. XI §3.1(7)", text: "No amendment may abolish the constitutional power of courts to review and block unconstitutional action." },
+          { title: "Electoral Commission independence", article: "Art. XI §3.1(5)", text: "The independence and protected mandate of the Electoral Commission cannot be amended away." },
+          { title: "Accountability Commission independence", article: "Art. XI §3.1(6)", text: "The Accountability Commission cannot be stripped of its independent role as a constitutional anti-capture safeguard." },
+        ],
+      },
+      {
+        key: "order",
+        label: "Constitutional order and civilian rule",
+        summary: "The draft locks the principles that keep armed force, emergency politics, and constitutional change itself inside a lawful democratic order.",
+        items: [
+          { title: "Civilian control of the military", article: "Art. XI §3.1(9)", text: "No amendment may legalize military rule or place the armed forces above elected constitutional authority." },
+          { title: "Peaceful transfer of power", article: "Art. XI §3.1(10)", text: "No amendment may abolish the constitutional obligation to carry out lawful transfer after elections and constitutional succession." },
+          { title: "The amendment power stays limited", article: "Art. XI §3.1(11)", text: "The democratic core itself cannot be made amendable by ordinary amendment. The lock protects itself." },
+        ],
+      },
+    ],
+  },
+  es: {
+    all: "Todo",
+    filterLabel: "Filtrar categorías del núcleo irreformable",
+    note: "Esta guía separa el núcleo democrático protegido permanentemente en grupos funcionales para que el lector vea qué coloca la Constitución más allá de la reforma, derogación o suspensión.",
+    categories: [
+      {
+        key: "democracy",
+        label: "Estructura democrática",
+        summary: "La Constitución protege de forma permanente la maquinaria básica del gobierno democrático legítimo.",
+        items: [
+          { title: "Sufragio universal e igual en elecciones federales", article: "Art. XI §3.1(1)", text: "Ninguna enmienda puede derogar o vaciar el derecho igual de los ciudadanos adultos a votar en elecciones federales." },
+          { title: "Integridad de la administración y certificación electoral", article: "Art. XI §3.1(2)", text: "Ninguna enmienda puede destruir los requisitos constitucionales de administración, conteo y certificación legal de las elecciones." },
+          { title: "Renovación democrática periódica", article: "Art. XI §3.1(3)", text: "Las elecciones periódicas, la alternancia constitucional fija y la continuidad democrática no pueden abolirse por enmienda." },
+        ],
+      },
+      {
+        key: "membership",
+        label: "Ciudadanía igualitaria y piso de derechos",
+        summary: "El borrador prohíbe enmiendas que conviertan la comunidad política en una jerarquía de pertenencia o borren el piso básico de derechos.",
+        items: [
+          { title: "Ciudadanía igualitaria", article: "Art. XI §3.1(4)", text: "Ninguna enmienda puede crear castas de pertenencia política ni autorizar ciudadanía de segunda clase." },
+          { title: "Piso básico de derechos", article: "Art. XI §3.1(8)", text: "La estructura básica de derechos no puede derogarse o suspenderse como forma de conservar instituciones formales mientras se destruye la libertad real." },
+          { title: "Protección de sustancia sobre etiqueta", article: "Art. XI §3.1", text: "Una enmienda no puede eludir estos bloqueos simplemente renombrando conceptos mientras reduce la sustancia real del derecho protegido." },
+        ],
+      },
+      {
+        key: "institutions",
+        label: "Instituciones de resguardo",
+        summary: "Algunas instituciones se protegen porque sin ellas el orden democrático podría ser desmantelado desde dentro.",
+        items: [
+          { title: "Control judicial de constitucionalidad", article: "Art. XI §3.1(7)", text: "Ninguna enmienda puede abolir el poder constitucional de los tribunales para revisar y bloquear actos inconstitucionales." },
+          { title: "Independencia de la Comisión Electoral", article: "Art. XI §3.1(5)", text: "La independencia y el mandato protegido de la Comisión Electoral no pueden eliminarse mediante enmienda." },
+          { title: "Independencia de la Comisión de Rendición de Cuentas", article: "Art. XI §3.1(6)", text: "La Comisión de Rendición de Cuentas no puede ser despojada de su papel independiente como salvaguarda constitucional contra la captura." },
+        ],
+      },
+      {
+        key: "order",
+        label: "Orden constitucional y control civil",
+        summary: "El borrador blinda los principios que mantienen la fuerza armada, la política de emergencia y el propio cambio constitucional dentro de un orden democrático legal.",
+        items: [
+          { title: "Control civil de las fuerzas armadas", article: "Art. XI §3.1(9)", text: "Ninguna enmienda puede legalizar el gobierno militar ni situar a las fuerzas armadas por encima de la autoridad constitucional electa." },
+          { title: "Transferencia pacífica del poder", article: "Art. XI §3.1(10)", text: "Ninguna enmienda puede abolir la obligación constitucional de realizar una transferencia legal del poder tras elecciones o sucesión constitucional." },
+          { title: "El poder de reforma sigue limitado", article: "Art. XI §3.1(11)", text: "El propio núcleo democrático no puede volverse reformable por enmienda ordinaria. El bloqueo se protege a sí mismo." },
+        ],
+      },
+    ],
+  },
+  "zh-Hans": {
+    all: "全部",
+    filterLabel: "筛选不可修宪核心类别",
+    note: "本指南将受到永久保护的民主核心分成功能类别，帮助读者看清哪些内容被宪法置于修宪、废除或暂停之外。",
+    categories: [
+      {
+        key: "democracy",
+        label: "民主结构",
+        summary: "宪法永久保护合法民主统治的基本运作机制。",
+        items: [
+          { title: "联邦选举中的普遍平等选举权", article: "第十一条 §3.1(1)", text: "任何修宪都不得废除或掏空成年公民在联邦选举中的平等投票权。" },
+          { title: "选举管理与认证的完整性", article: "第十一条 §3.1(2)", text: "任何修宪都不得摧毁有关选举必须依法管理、计票并认证的宪法要求。" },
+          { title: "定期的民主更新", article: "第十一条 §3.1(3)", text: "定期选举、固定的宪法更替以及持续的民主链条，不能通过修宪废除。" },
+        ],
+      },
+      {
+        key: "membership",
+        label: "平等公民资格与权利底线",
+        summary: "本草案禁止把共同体变成等级化归属结构，或抹去基本权利底线的修宪。",
+        items: [
+          { title: "平等公民资格", article: "第十一条 §3.1(4)", text: "任何修宪都不得制造政治成员资格等级或授权二等公民地位。" },
+          { title: "核心权利底线", article: "第十一条 §3.1(8)", text: "不得通过保留形式机构而毁掉实质自由的方式，废除或暂停基本权利结构。" },
+          { title: "重实质不重标签的保护", article: "第十一条 §3.1", text: "修宪不能靠更改名称来规避这些锁定，同时实质性缩减受保护权利。" },
+        ],
+      },
+      {
+        key: "institutions",
+        label: "护栏机构",
+        summary: "某些机构之所以被锁定，是因为没有它们，民主秩序可能被从内部拆毁。",
+        items: [
+          { title: "司法审查", article: "第十一条 §3.1(7)", text: "任何修宪都不得废除法院审查并阻止违宪行为的宪法权力。" },
+          { title: "选举委员会独立性", article: "第十一条 §3.1(5)", text: "选举委员会的独立性和受保护职责不能被修宪消除。" },
+          { title: "问责委员会独立性", article: "第十一条 §3.1(6)", text: "问责委员会作为防俘获宪法保障的独立角色，不能被修宪剥夺。" },
+        ],
+      },
+      {
+        key: "order",
+        label: "宪法秩序与文官统治",
+        summary: "本草案锁定那些使武装力量、紧急政治和宪法变更本身都留在合法民主秩序中的原则。",
+        items: [
+          { title: "军队的文官控制", article: "第十一条 §3.1(9)", text: "任何修宪都不得使军事统治合法化，或让武装力量凌驾于民选宪法权威之上。" },
+          { title: "和平移交权力", article: "第十一条 §3.1(10)", text: "任何修宪都不得废除在选举和宪法继任后进行合法权力移交的宪法义务。" },
+          { title: "修宪权本身仍受限制", article: "第十一条 §3.1(11)", text: "民主核心本身不能通过普通修宪变得可修。锁定机制保护其自身。" },
+        ],
+      },
+    ],
+  },
+};
+
+export function unamendableCoreDataForLocale(locale) {
+  return UNAMENDABLE_CORE_GUIDE[locale] || UNAMENDABLE_CORE_GUIDE.en;
+}

@@ -53,7 +53,8 @@
           "election-to-transfer-of-power",
           "how-rights-are-enforced",
           "federalism-and-the-democratic-floor",
-          "what-happens-in-a-constitutional-crisis"
+          "what-happens-in-a-constitutional-crisis",
+          "what-cannot-be-changed"
         ]
       },
       {
@@ -160,7 +161,8 @@
         "election-to-transfer-of-power",
         "how-rights-are-enforced",
         "federalism-and-the-democratic-floor",
-        "what-happens-in-a-constitutional-crisis"
+        "what-happens-in-a-constitutional-crisis",
+        "what-cannot-be-changed"
       ]
     },
     {
@@ -3827,6 +3829,34 @@
         }
       ],
       "search_text": "What Happens In A Constitutional Crisis This visual guide shows how the constitutional system is supposed to react when a crisis stops being ordinary politics and turns into a fight over lawful authority itself. How To Read This Guide The guide has three paths: election and certification crisis emergency abuse crisis institutional defiance crisis Use the path buttons to focus on one crisis chain at a time. What This Guide Covers election certification deadlines transition and continuity duties emergency approval and automatic lapse rules judicial review and anti delay backstops anti subversion consequences for obstruction and defiance What This Guide Does Not Do This guide is an orientation layer, not the constitutional text itself. For exact wording and legal detail, read: Article I Article III Article IV Article VI Article XI Article XII Article XIX"
+    },
+    {
+      "slug": "what-cannot-be-changed",
+      "title": "What Cannot Be Changed",
+      "group": "Visual Guides",
+      "kind": "note",
+      "content_type": "visual_guide",
+      "source": "visual-guides/what-cannot-be-changed.md",
+      "status": null,
+      "summary": "This visual guide isolates the Constitution's unamendable core: the commitments that cannot be repealed, suspended, or emptied out by any amendment path.",
+      "headings": [
+        {
+          "level": 2,
+          "text": "How To Read This Guide",
+          "anchor": "how-to-read-this-guide"
+        },
+        {
+          "level": 2,
+          "text": "What This Guide Covers",
+          "anchor": "what-this-guide-covers"
+        },
+        {
+          "level": 2,
+          "text": "What This Guide Does Not Do",
+          "anchor": "what-this-guide-does-not-do"
+        }
+      ],
+      "search_text": "What Cannot Be Changed This visual guide isolates the Constitution's unamendable core: the commitments that cannot be repealed, suspended, or emptied out by any amendment path. How To Read This Guide The guide has four sections: democratic structure equal citizenship and rights floor guardrail institutions constitutional order and civilian rule Use the category buttons to focus on one part of the locked democratic core at a time. What This Guide Covers the permanently protected democratic minimum why equal citizenship is locked why judicial review and Constitutional Organs are protected why civilian control and peaceful transfer are beyond amendment why the amendment power cannot legally unlock itself What This Guide Does Not Do This guide is an orientation layer, not the constitutional text itself. For exact wording and legal detail, read: Article XI Clause Note: The Unamendable Core"
     },
     {
       "slug": "commentary-overview",
