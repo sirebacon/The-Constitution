@@ -2321,57 +2321,57 @@
       "title": "C\u00f3mo funciona la validaci\u00f3n",
       "group": "Resumen",
       "kind": "note",
-      "source": "design-notes/how-testing-works.md",
+      "source": "translation/translations/es/design-notes/how-testing-works.md",
       "status": null,
       "summary": "C\u00f3mo el simulador somete el borrador a pruebas de esfuerzo y qu\u00e9 significan sus resultados",
       "headings": [
         {
           "level": 2,
-          "text": "What The Simulator Does",
-          "anchor": "what-the-simulator-does"
+          "text": "Qu\u00e9 Hace el Simulador",
+          "anchor": "qu\u00e9-hace-el-simulador"
         },
         {
           "level": 2,
-          "text": "What A Scenario Tests",
-          "anchor": "what-a-scenario-tests"
+          "text": "Qu\u00e9 Eval\u00faa un Escenario",
+          "anchor": "qu\u00e9-eval\u00faa-un-escenario"
         },
         {
           "level": 2,
-          "text": "What The Main Results Mean",
-          "anchor": "what-the-main-results-mean"
+          "text": "Qu\u00e9 Significan los Resultados Principales",
+          "anchor": "qu\u00e9-significan-los-resultados-principales"
         },
         {
           "level": 3,
-          "text": "Violations",
-          "anchor": "violations"
+          "text": "Infracciones",
+          "anchor": "infracciones"
         },
         {
           "level": 3,
-          "text": "Bottlenecks",
-          "anchor": "bottlenecks"
+          "text": "Cuellos de Botella",
+          "anchor": "cuellos-de-botella"
         },
         {
           "level": 3,
-          "text": "Unresolved Obligations",
-          "anchor": "unresolved-obligations"
+          "text": "Obligaciones No Resueltas",
+          "anchor": "obligaciones-no-resueltas"
         },
         {
           "level": 2,
-          "text": "What Testing Can And Cannot Prove",
-          "anchor": "what-testing-can-and-cannot-prove"
+          "text": "Lo Que la Simulaci\u00f3n Puede y No Puede Probar",
+          "anchor": "lo-que-la-simulaci\u00f3n-puede-y-no-puede-probar"
         },
         {
           "level": 2,
-          "text": "Why This Matters",
-          "anchor": "why-this-matters"
+          "text": "Por Qu\u00e9 Esto Importa",
+          "anchor": "por-qu\u00e9-esto-importa"
         },
         {
           "level": 2,
-          "text": "How To Contribute New Tests",
-          "anchor": "how-to-contribute-new-tests"
+          "text": "C\u00f3mo Contribuir con Nuevas Pruebas",
+          "anchor": "c\u00f3mo-contribuir-con-nuevas-pruebas"
         }
       ],
-      "search_text": "How Testing Works This project does not rely only on constitutional theory or article by article drafting judgment. It also uses a scenario based simulator to stress test the draft against recurring patterns of abuse, delay, sabotage, and institutional failure. What The Simulator Does The simulator runs structured constitutional scenarios. Each scenario describes: a political or legal stress event the institutions involved the constitutional provisions expected to apply the outcomes that should follow if the draft is working as intended Examples include: election sabotage judicial delay executive defiance rights suppression federalism overreach emergency abuse corruption and institutional capture continuity failures during transition What A Scenario Tests A scenario is not a prediction. It is a stress test. The point is to ask: does the Constitution assign authority clearly? does it create an enforceable duty? does it provide a fallback if an institution refuses to act? does it prevent the system from drifting into paralysis or personal rule? What The Main Results Mean The simulator tracks several kinds of outputs. Violations These are constitutional breaches or attempted breaches within the scenario. They do not mean the draft failed. Many scenarios are deliberately built around bad conduct so the question is whether the system can identify and contain the violation. Bottlenecks These are stress points where the system still depends on an institution acting on time or in good faith. Some bottlenecks are acceptable political risk residuals. Others can reveal genuine design weaknesses. Unresolved Obligations These are the most serious failures. An unresolved obligation means the Constitution created a duty or expected consequence that the scenario could not complete through the available constitutional machinery. The goal is to keep this number at zero. What Testing Can And Cannot Prove Testing improves confidence, but it does not prove perfection. It can show that: known stress paths have been considered constitutional consequence chains actually close some provisions are enforced in practice rather than merely stated in theory It cannot guarantee that: institutions will always behave courageously judges will always decide correctly political culture will always support the constitutional order The simulator is a disciplined stress testing tool, not a mathematical proof of constitutional success. Why This Matters Many constitutional projects stop at drafting. This one also asks whether the design can survive bad faith actors, missed deadlines, coercive pressure, and institutional reluctance. That makes the draft more than a list of ideals. It makes it a constitutional system that has been repeatedly tested against concrete failure modes. How To Contribute New Tests If you want to add new scenarios yourself, use the contributor guide: How To Write Simulation Tests",
+      "search_text": "C\u00f3mo Funciona la Simulaci\u00f3n Este proyecto no depende \u00fanicamente de la teor\u00eda constitucional ni del juicio de redacci\u00f3n art\u00edculo por art\u00edculo. Tambi\u00e9n utiliza un simulador basado en escenarios para someter el borrador a pruebas de estr\u00e9s frente a patrones recurrentes de abuso, demora, sabotaje y fracaso institucional. Qu\u00e9 Hace el Simulador El simulador ejecuta escenarios constitucionales estructurados. Cada escenario describe: un evento de tensi\u00f3n pol\u00edtica o jur\u00eddica las instituciones involucradas las disposiciones constitucionales que se espera que se apliquen los resultados que deber\u00edan seguirse si el borrador funciona seg\u00fan lo previsto Entre los ejemplos se incluyen: sabotaje electoral demora judicial desaf\u00edo del poder ejecutivo supresi\u00f3n de derechos extralimitaci\u00f3n federalista abuso de poderes de emergencia corrupci\u00f3n y captura institucional fallos de continuidad durante la transici\u00f3n Qu\u00e9 Eval\u00faa un Escenario Un escenario no es una predicci\u00f3n. Es una prueba de estr\u00e9s. La finalidad es preguntar: \u00bfla Constituci\u00f3n asigna la autoridad con claridad? \u00bfcrea un deber exigible? \u00bfproporciona una v\u00eda de respaldo si una instituci\u00f3n se niega a actuar? \u00bfevita que el sistema derive hacia la par\u00e1lisis o el poder personal? Qu\u00e9 Significan los Resultados Principales El simulador registra varios tipos de resultados. Infracciones Son violaciones constitucionales o intentos de violaci\u00f3n dentro del escenario. No significan que el borrador haya fracasado. Muchos escenarios se construyen deliberadamente en torno a conductas indebidas, de modo que la cuesti\u00f3n es si el sistema puede identificar y contener la infracci\u00f3n. Cuellos de Botella Son puntos de tensi\u00f3n en los que el sistema todav\u00eda depende de que una instituci\u00f3n act\u00fae a tiempo o de buena fe. Algunos cuellos de botella son riesgos pol\u00edticos residuales aceptables. Otros pueden revelar debilidades reales de dise\u00f1o. Obligaciones No Resueltas Son los fallos m\u00e1s graves. Una obligaci\u00f3n no resuelta significa que la Constituci\u00f3n cre\u00f3 un deber o una consecuencia esperada que el escenario no pudo completar mediante la maquinaria constitucional disponible. El objetivo es mantener este n\u00famero en cero. Lo Que la Simulaci\u00f3n Puede y No Puede Probar La simulaci\u00f3n aumenta la confianza, pero no demuestra perfecci\u00f3n. Puede mostrar que: se han considerado rutas de tensi\u00f3n conocidas las cadenas de consecuencias constitucionales realmente se cierran algunas disposiciones se aplican en la pr\u00e1ctica y no solo en teor\u00eda No puede garantizar que: las instituciones siempre actuar\u00e1n con valent\u00eda los jueces siempre decidir\u00e1n correctamente la cultura pol\u00edtica siempre respaldar\u00e1 el orden constitucional El simulador es una herramienta disciplinada de pruebas de estr\u00e9s, no una demostraci\u00f3n matem\u00e1tica del \u00e9xito constitucional. Por Qu\u00e9 Esto Importa Muchos proyectos constitucionales se detienen en la redacci\u00f3n. Este tambi\u00e9n pregunta si el dise\u00f1o puede sobrevivir a actores de mala fe, plazos incumplidos, presiones coercitivas y reticencia institucional. Eso hace que el borrador sea m\u00e1s que una lista de ideales. Lo convierte en un sistema constitucional que ha sido probado repetidamente frente a modos concretos de fracaso. C\u00f3mo Contribuir con Nuevas Pruebas Si desea a\u00f1adir nuevos escenarios por su cuenta, utilice la gu\u00eda para colaboradores: C\u00f3mo escribir pruebas de simulaci\u00f3n",
       "score": null,
       "score_status": null
     },
@@ -2380,72 +2380,72 @@
       "title": "C\u00f3mo escribir pruebas de simulaci\u00f3n",
       "group": "Resumen",
       "kind": "note",
-      "source": "design-notes/how-to-write-simulation-tests.md",
+      "source": "translation/translations/es/design-notes/how-to-write-simulation-tests.md",
       "status": null,
       "summary": "Gu\u00eda para contribuir nuevos escenarios, controladores y actualizaciones posteriores",
       "headings": [
         {
           "level": 2,
-          "text": "1. Start With A Real Constitutional Stress Path",
-          "anchor": "1-start-with-a-real-constitutional-stress-path"
+          "text": "1. Empiece con una Ruta Real de Tensi\u00f3n Constitucional",
+          "anchor": "1-empiece-con-una-ruta-real-de-tensi\u00f3n-constitucional"
         },
         {
           "level": 2,
-          "text": "2. Decide Whether This Is A New Scenario Or A New Scenario Family",
-          "anchor": "2-decide-whether-this-is-a-new-scenario-or-a-new-scenario-family"
+          "text": "2. Decida si se Trata de un Escenario Nuevo o de una Nueva Familia de Escenarios",
+          "anchor": "2-decida-si-se-trata-de-un-escenario-nuevo-o-de-una-nueva-familia-de-escenarios"
         },
         {
           "level": 2,
-          "text": "3. Create The Scenario JSON",
-          "anchor": "3-create-the-scenario-json"
+          "text": "3. Cree el JSON del Escenario",
+          "anchor": "3-cree-el-json-del-escenario"
         },
         {
           "level": 2,
-          "text": "4. Choose Good Event Types",
-          "anchor": "4-choose-good-event-types"
+          "text": "4. Elija Buenos Tipos de Evento",
+          "anchor": "4-elija-buenos-tipos-de-evento"
         },
         {
           "level": 2,
-          "text": "5. Implement Or Extend The Handler Logic",
-          "anchor": "5-implement-or-extend-the-handler-logic"
+          "text": "5. Implemente o Ampl\u00ede la L\u00f3gica del Controlador",
+          "anchor": "5-implemente-o-ampl\u00ede-la-l\u00f3gica-del-controlador"
         },
         {
           "level": 2,
-          "text": "6. Run The Scenario",
-          "anchor": "6-run-the-scenario"
+          "text": "6. Ejecute el Escenario",
+          "anchor": "6-ejecute-el-escenario"
         },
         {
           "level": 2,
-          "text": "7. Read The Result Correctly",
-          "anchor": "7-read-the-result-correctly"
+          "text": "7. Interprete Correctamente el Resultado",
+          "anchor": "7-interprete-correctamente-el-resultado"
         },
         {
           "level": 2,
-          "text": "8. Update The Scenario Catalog",
-          "anchor": "8-update-the-scenario-catalog"
+          "text": "8. Actualice el Cat\u00e1logo de Escenarios",
+          "anchor": "8-actualice-el-cat\u00e1logo-de-escenarios"
         },
         {
           "level": 2,
-          "text": "9. Update Findings If The Scenario Teaches You Something",
-          "anchor": "9-update-findings-if-the-scenario-teaches-you-something"
+          "text": "9. Actualice los Hallazgos si el Escenario Aporta Algo",
+          "anchor": "9-actualice-los-hallazgos-si-el-escenario-aporta-algo"
         },
         {
           "level": 2,
-          "text": "10. What Makes A Good Scenario",
-          "anchor": "10-what-makes-a-good-scenario"
+          "text": "10. Qu\u00e9 Hace Bueno a un Escenario",
+          "anchor": "10-qu\u00e9-hace-bueno-a-un-escenario"
         },
         {
           "level": 2,
-          "text": "11. Recommended Workflow",
-          "anchor": "11-recommended-workflow"
+          "text": "11. Flujo de Trabajo Recomendado",
+          "anchor": "11-flujo-de-trabajo-recomendado"
         },
         {
           "level": 2,
-          "text": "12. Quick Contributor Checklist",
-          "anchor": "12-quick-contributor-checklist"
+          "text": "12. Lista R\u00e1pida para Personas Colaboradoras",
+          "anchor": "12-lista-r\u00e1pida-para-personas-colaboradoras"
         }
       ],
-      "search_text": "How To Write Simulation Tests This guide explains how to add new simulation tests to the constitutional flow simulator so other contributors can create scenarios consistently. The simulator is not a fuzzy AI reasoning system. It is a deterministic scenario runner. Each test usually has four parts: 1. a scenario JSON file 2. one or more event handlers 3. generated report outputs 4. follow up documentation updates 1. Start With A Real Constitutional Stress Path Do not start by inventing a random event type. Start with a concrete question such as: What happens if a president continues an expired emergency tariff by decree? What happens if a state denies parental recognition to a same sex family? What happens if a constitutional organ misses a startup deadline? What happens if a dominant platform cuts off a lawful political actor during an election? Then define: the constitutional provisions being tested the institution expected to act the expected constitutional consequence whether any bottleneck should remain The best scenarios test a known failure mode, not just a bad outcome in the abstract. 2. Decide Whether This Is A New Scenario Or A New Scenario Family If the scenario fits an existing area, extend the existing handler module. Common handler areas are: executive.py legislative.py judiciary.py rights.py federalism.py integrity.py transition.py social rights.py fiscal.py If the scenario introduces a genuinely new domain, add a new handler module and register it in dispatcher.py. 3. Create The Scenario JSON Scenario files live in simulation/scenarios. Use an existing file as the model. Good reference examples: emergency revenue measure unilateral extension.json family status discrimination parental recognition.json constitutional organ bridge startup.json A scenario file should include: id title description articles tested provisions tested events Typical structure: Guidelines: keep event order chronological keep titles short and readable keep descriptions explicit about what constitutional question is being tested list the real provisions that should control the scenario 4. Choose Good Event Types Event types should describe meaningful constitutional actions or failures, not vague moods. Good: president orders emergency revenue measure continued court voids unilateral emergency revenue extension state denies parental recognition Bad: government does bad thing court acts problem happens If a new event type is too broad, future scenarios become hard to reason about and the handler logic gets muddy. 5. Implement Or Extend The Handler Logic The simulator processes events through handler registries. The dispatcher registry is in dispatcher.py. Each handler module exports a HANDLERS map keyed by event type. Typical pattern: Inside a handler, the code usually does some combination of: add a timeline entry trigger a constitutional provision create an obligation with a deadline resolve or violate an obligation record a bottleneck record a violation category or risk pattern When adding handler logic: keep it deterministic name triggered provisions explicitly keep the result tied to the actual constitutional design do not silently smuggle in policy assumptions not grounded in the draft If you need a new module: 1. add the file under simulation/handlers 2. export a HANDLERS mapping 3. register that mapping in dispatcher.py 6. Run The Scenario List scenarios: Run one scenario: Run all scenarios and save outputs: Useful outputs: .full.md for human review .summary.json for structured results aggregate.json for the full suite baseline The runner is in run.py. 7. Read The Result Correctly A scenario should tell you: which provisions triggered what obligations were created which obligations were satisfied whether any violations occurred whether any bottlenecks remain whether any obligations stayed unresolved Important distinction: a violation often means the scenario successfully modeled bad conduct an unresolved obligation is a more serious design problem because the Constitution failed to complete a required consequence path The design goal is not zero violations across scenarios. Many scenarios intentionally begin with unlawful behavior. The real goal is: clear constitutional routing enforceable duties clean closure of the consequence chain 0 unresolved obligations 8. Update The Scenario Catalog After adding a test, update test scenarios.md. Add: category scenario name file name provision stress path expected outcome The catalog is the public inventory of what has and has not been tested. 9. Update Findings If The Scenario Teaches You Something If the new scenario: validates a previously uncertain provision exposes a real gap changes how an article should be scored clarifies that a bottleneck is acceptable or unacceptable then update: simulation findings.md and sometimes scorecard.md Do not update the scorecard mechanically just because a new test exists. Update it when the test materially changes confidence in the article. 10. What Makes A Good Scenario A strong scenario: tests one constitutional system clearly uses a realistic stress path names the actual controlling provisions produces a readable expected outcome isolates whether the problem is: violation bottleneck structural gap acceptable political risk residual A weak scenario: tries to test too many systems at once uses vague event names assumes outcomes without handler support treats all bad facts as constitutional failure 11. Recommended Workflow The safest workflow is: 1. pick a real constitutional question 2. find the closest existing scenario 3. create the new scenario JSON 4. extend or add the handler logic 5. run the single scenario first 6. inspect the summary and full report 7. run the full suite 8. update catalog and findings This keeps the scenario understandable and reduces the chance of adding a test that looks good but is not actually wired into the system. 12. Quick Contributor Checklist Did I define a real constitutional stress path? Did I name the actual provisions being tested? Did I use clear event types? Did I add or update handler logic? Did the scenario run without unresolved obligations unless it is intentionally exposing a gap? Did I update test scenarios.md? Did I update findings or scorecard if the result changed project confidence? If the answer is yes to those, the scenario is probably ready.",
+      "search_text": "C\u00f3mo Escribir Pruebas de Simulaci\u00f3n Esta gu\u00eda explica c\u00f3mo a\u00f1adir nuevas pruebas de simulaci\u00f3n al simulador constitucional de flujo para que otras personas colaboradoras puedan crear escenarios de forma consistente. El simulador no es un sistema difuso de razonamiento con IA. Es un ejecutor determinista de escenarios. Cada prueba suele tener cuatro partes: 1. un archivo JSON de escenario 2. uno o m\u00e1s controladores de eventos 3. salidas de informe generadas 4. actualizaciones posteriores de la documentaci\u00f3n 1. Empiece con una Ruta Real de Tensi\u00f3n Constitucional No empiece inventando un tipo de evento aleatorio. Empiece con una pregunta concreta, por ejemplo: \u00bfQu\u00e9 ocurre si un presidente prolonga por decreto un arancel de emergencia ya vencido? \u00bfQu\u00e9 ocurre si un estado niega el reconocimiento parental a una familia del mismo sexo? \u00bfQu\u00e9 ocurre si un \u00f3rgano constitucional incumple un plazo de puesta en marcha? \u00bfQu\u00e9 ocurre si una plataforma dominante corta el acceso de un actor pol\u00edtico l\u00edcito durante una elecci\u00f3n? Luego defina: las disposiciones constitucionales que se est\u00e1n poniendo a prueba la instituci\u00f3n de la que se espera que act\u00fae la consecuencia constitucional esperada si debe subsistir alg\u00fan cuello de botella Los mejores escenarios prueban un modo de fallo conocido, no solo un mal resultado en abstracto. 2. Decida si se Trata de un Escenario Nuevo o de una Nueva Familia de Escenarios Si el escenario encaja en un \u00e1rea ya existente, ampl\u00ede el m\u00f3dulo de controladores correspondiente. Las \u00e1reas comunes de controladores son: executive.py legislative.py judiciary.py rights.py federalism.py integrity.py transition.py social rights.py fiscal.py Si el escenario introduce un dominio realmente nuevo, a\u00f1ada un nuevo m\u00f3dulo de controladores y reg\u00edstrelo en dispatcher.py. 3. Cree el JSON del Escenario Los archivos de escenario se encuentran en simulation/scenarios. Utilice un archivo existente como modelo. Buenos ejemplos de referencia: emergency revenue measure unilateral extension.json family status discrimination parental recognition.json constitutional organ bridge startup.json Un archivo de escenario debe incluir: id title description articles tested provisions tested events Estructura t\u00edpica: Pautas: mantenga el orden cronol\u00f3gico de los eventos mantenga los t\u00edtulos breves y legibles haga que las descripciones expliquen expl\u00edcitamente qu\u00e9 cuesti\u00f3n constitucional se est\u00e1 poniendo a prueba enumere las disposiciones reales que deber\u00edan controlar el escenario 4. Elija Buenos Tipos de Evento Los tipos de evento deben describir acciones o fallos constitucionales significativos, no estados de \u00e1nimo vagos. Buenos: president orders emergency revenue measure continued court voids unilateral emergency revenue extension state denies parental recognition Malos: government does bad thing court acts problem happens Si un nuevo tipo de evento es demasiado amplio, los escenarios futuros resultan dif\u00edciles de razonar y la l\u00f3gica del controlador se vuelve confusa. 5. Implemente o Ampl\u00ede la L\u00f3gica del Controlador El simulador procesa los eventos mediante registros de controladores. El registro despachador se encuentra en dispatcher.py. Cada m\u00f3dulo de controladores exporta un mapa HANDLERS indexado por tipo de evento. Patr\u00f3n t\u00edpico: Dentro de un controlador, el c\u00f3digo suele hacer alguna combinaci\u00f3n de lo siguiente: a\u00f1adir una entrada a la cronolog\u00eda activar una disposici\u00f3n constitucional crear una obligaci\u00f3n con un plazo resolver o incumplir una obligaci\u00f3n registrar un cuello de botella registrar una categor\u00eda de infracci\u00f3n o patr\u00f3n de riesgo Al a\u00f1adir l\u00f3gica de controladores: mant\u00e9ngala determinista nombre expl\u00edcitamente las disposiciones activadas mantenga el resultado ligado al dise\u00f1o constitucional real no introduzca silenciosamente supuestos de pol\u00edtica p\u00fablica que no est\u00e9n fundados en el borrador Si necesita un m\u00f3dulo nuevo: 1. a\u00f1ada el archivo en simulation/handlers 2. exporte un mapeo HANDLERS 3. registre ese mapeo en dispatcher.py 6. Ejecute el Escenario Listar escenarios: Ejecutar un escenario: Ejecutar todos los escenarios y guardar salidas: Salidas \u00fatiles: .full.md para revisi\u00f3n humana .summary.json para resultados estructurados aggregate.json para la l\u00ednea base del conjunto completo El ejecutor est\u00e1 en run.py. 7. Interprete Correctamente el Resultado Un escenario debe indicarle: qu\u00e9 disposiciones se activaron qu\u00e9 obligaciones se crearon qu\u00e9 obligaciones se cumplieron si se produjeron infracciones si permanecen cuellos de botella si alguna obligaci\u00f3n qued\u00f3 sin resolver Distinci\u00f3n importante: una violation suele significar que el escenario model\u00f3 con \u00e9xito una conducta indebida una unresolved obligation es un problema de dise\u00f1o m\u00e1s serio porque la Constituci\u00f3n no logr\u00f3 completar una cadena de consecuencias requerida La meta del dise\u00f1o no es tener cero infracciones en todos los escenarios. Muchos escenarios comienzan intencionalmente con conductas il\u00edcitas. La verdadera meta es: enrutamiento constitucional claro deberes exigibles cierre limpio de la cadena de consecuencias 0 obligaciones no resueltas 8. Actualice el Cat\u00e1logo de Escenarios Despu\u00e9s de a\u00f1adir una prueba, actualice test scenarios.md. A\u00f1ada: categor\u00eda nombre del escenario nombre del archivo disposici\u00f3n ruta de tensi\u00f3n resultado esperado El cat\u00e1logo es el inventario p\u00fablico de lo que se ha probado y de lo que todav\u00eda no. 9. Actualice los Hallazgos si el Escenario Aporta Algo Si el nuevo escenario: valida una disposici\u00f3n antes incierta expone una brecha real cambia la forma en que debe puntuarse un art\u00edculo aclara que un cuello de botella es aceptable o inaceptable entonces actualice: simulation findings.md y en ocasiones scorecard.md No actualice la hoja de puntuaci\u00f3n de manera mec\u00e1nica solo porque exista una prueba nueva. Actual\u00edcela cuando la prueba cambie materialmente la confianza en el art\u00edculo. 10. Qu\u00e9 Hace Bueno a un Escenario Un escenario s\u00f3lido: prueba con claridad un sistema constitucional utiliza una ruta de tensi\u00f3n realista nombra las disposiciones realmente controladoras produce un resultado esperado legible a\u00edsla si el problema es: una infracci\u00f3n un cuello de botella una brecha estructural un riesgo pol\u00edtico residual aceptable Un escenario d\u00e9bil: intenta probar demasiados sistemas a la vez usa nombres de eventos vagos asume resultados sin respaldo del controlador trata todos los hechos negativos como fracaso constitucional 11. Flujo de Trabajo Recomendado El flujo de trabajo m\u00e1s seguro es: 1. elegir una pregunta constitucional real 2. encontrar el escenario existente m\u00e1s cercano 3. crear el nuevo JSON del escenario 4. ampliar o a\u00f1adir la l\u00f3gica del controlador 5. ejecutar primero ese escenario individual 6. inspeccionar el resumen y el informe completo 7. ejecutar el conjunto completo 8. actualizar el cat\u00e1logo y los hallazgos Esto mantiene el escenario comprensible y reduce la probabilidad de a\u00f1adir una prueba que parezca buena pero que en realidad no est\u00e9 conectada al sistema. 12. Lista R\u00e1pida para Personas Colaboradoras \u00bfDefin\u00ed una ruta real de tensi\u00f3n constitucional? \u00bfNombr\u00e9 las disposiciones reales que se est\u00e1n poniendo a prueba? \u00bfUs\u00e9 tipos de evento claros? \u00bfA\u00f1ad\u00ed o actualic\u00e9 la l\u00f3gica del controlador? \u00bfEl escenario se ejecut\u00f3 sin obligaciones no resueltas, salvo que est\u00e9 exponiendo deliberadamente una brecha? \u00bfActualic\u00e9 test scenarios.md? \u00bfActualic\u00e9 los hallazgos o la hoja de puntuaci\u00f3n si el resultado cambi\u00f3 la confianza del proyecto? Si la respuesta es s\u00ed a todo eso, el escenario probablemente est\u00e9 listo.",
       "score": null,
       "score_status": null
     },
