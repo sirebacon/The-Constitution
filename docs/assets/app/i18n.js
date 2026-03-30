@@ -11,6 +11,7 @@ const STRINGS = {
     startHere: "Start Here",
     readConstitution: "Read the Constitution",
     understandChoices: "Understand the Choices",
+    keyClauses: "Key Clauses",
     searchResults: "Search Results",
     noSearchResults: (term) => `No documents match “${term}”.`,
     searchStatusResults: (count, term) =>

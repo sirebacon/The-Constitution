@@ -28,6 +28,44 @@ COMMENTARY_OVERVIEW_SOURCES = [
     ("commentary-choices", "Why Keep Commentary Separate?", ROOT / "commentary" / "overview" / "why-commentary-is-separate.md", "Commentary", "Why the constitutional text stays clean while design notes stay public"),
 ]
 
+CLAUSE_COMMENTARY_SOURCES = [
+    (
+        "clause-unamendable-core",
+        "Clause Note: The Unamendable Core",
+        ROOT / "commentary" / "clauses" / "unamendable-core.md",
+        "Clause Notes",
+        "Why some democratic foundations are intentionally placed beyond amendment",
+    ),
+    (
+        "clause-naturalized-president",
+        "Clause Note: Naturalized Citizens And The Presidency",
+        ROOT / "commentary" / "clauses" / "naturalized-president.md",
+        "Clause Notes",
+        "Why the draft rejects a natural-born-only presidency",
+    ),
+    (
+        "clause-high-impact-directives",
+        "Clause Note: Fast-Track Review For High-Impact Directives",
+        ROOT / "commentary" / "clauses" / "high-impact-directives.md",
+        "Clause Notes",
+        "Why major presidential directives receive a narrow fast-track path",
+    ),
+    (
+        "clause-supreme-court-delay",
+        "Clause Note: Supreme Court Delay Backstop",
+        ROOT / "commentary" / "clauses" / "supreme-court-delay-backstop.md",
+        "Clause Notes",
+        "Why expedited constitutional cases cannot be frozen indefinitely by nondecision",
+    ),
+    (
+        "clause-term-limits",
+        "Clause Note: Presidential Term Limits",
+        ROOT / "commentary" / "clauses" / "presidential-term-limits.md",
+        "Clause Notes",
+        "Why presidential term limits remain part of this safer presidential design",
+    ),
+]
+
 SCORECARD_KEYS = {
     "preamble": "Preamble",
     "I-electoral-system.md": "Article I — Electoral System",
@@ -263,6 +301,23 @@ def build_manifest() -> dict[str, object]:
             }
         )
 
+    for slug, title, source, group, fallback_summary in CLAUSE_COMMENTARY_SOURCES:
+        markdown = source.read_text()
+        relative = copy_source(source)
+        docs.append(
+            {
+                "slug": slug,
+                "title": title,
+                "group": group,
+                "kind": "commentary",
+                "source": relative,
+                "status": extract_status(markdown),
+                "summary": extract_summary(markdown) or fallback_summary,
+                "headings": extract_headings(markdown),
+                "search_text": plain_text(markdown),
+            }
+        )
+
     for filename in ARTICLE_ORDER:
         source = ROOT / "commentary" / "articles" / filename
         if not source.exists():
@@ -314,6 +369,16 @@ def build_manifest() -> dict[str, object]:
         {"group": "Start Here", "items": ["overview", "index", "comparison", "scorecard"]},
         {"group": "Read the Constitution", "items": ["preamble"] + [slugify(filename.replace(".md", "")) for filename in ARTICLE_ORDER]},
         {"group": "Commentary", "items": ["commentary-overview", "commentary-choices"]},
+        {
+            "group": "Key Clauses",
+            "items": [
+                "clause-unamendable-core",
+                "clause-naturalized-president",
+                "clause-high-impact-directives",
+                "clause-supreme-court-delay",
+                "clause-term-limits",
+            ],
+        },
         {"group": "Background", "items": ["rationale", "findings", "finalization-plan", "overview-zh"]},
     ]
 

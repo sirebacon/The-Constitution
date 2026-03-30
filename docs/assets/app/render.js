@@ -97,6 +97,15 @@ export function renderHome({ siteData, currentFilter, strings }) {
   const constitutionDocs = siteData.docs.filter((doc) => doc.group === "Constitution");
   const overviewDocs = ["overview", "comparison", "scorecard", "finalization-plan"].map((slug) => bySlug(siteData, slug)).filter(Boolean);
   const commentaryDocs = ["commentary-overview", "commentary-choices"].map((slug) => bySlug(siteData, slug)).filter(Boolean);
+  const clauseDocs = [
+    "clause-unamendable-core",
+    "clause-naturalized-president",
+    "clause-high-impact-directives",
+    "clause-supreme-court-delay",
+    "clause-term-limits",
+  ]
+    .map((slug) => bySlug(siteData, slug))
+    .filter(Boolean);
   const stats = siteData.overview;
   const results = matchingDocs(siteData.docs, currentFilter.trim().toLowerCase());
   const searchSection = currentFilter.trim()
@@ -157,6 +166,10 @@ export function renderHome({ siteData, currentFilter, strings }) {
     <section aria-labelledby="commentary-title">
       <h2 class="section-title" id="commentary-title">${strings.understandChoices}</h2>
       <div class="card-grid">${makeDocCards(commentaryDocs, strings)}</div>
+    </section>
+    <section aria-labelledby="key-clauses-title">
+      <h2 class="section-title" id="key-clauses-title">${strings.keyClauses}</h2>
+      <div class="card-grid">${makeDocCards(clauseDocs, strings)}</div>
     </section>
   `;
 

@@ -55,6 +55,16 @@
       ]
     },
     {
+      "group": "Key Clauses",
+      "items": [
+        "clause-unamendable-core",
+        "clause-naturalized-president",
+        "clause-high-impact-directives",
+        "clause-supreme-court-delay",
+        "clause-term-limits"
+      ]
+    },
+    {
       "group": "Background",
       "items": [
         "rationale",
@@ -3143,6 +3153,141 @@
         }
       ],
       "search_text": "Why Commentary Is Separate The Basic Choice This project uses two layers: constitutional text for binding rules commentary for explanation and justification That split is deliberate. Why Not Put Justification In The Constitution? Because constitutional text should do only a few things well: allocate authority impose duties set limits define remedies and backstops Once drafting commentary is blended into the article text, the document starts reading like a hybrid of constitution, law review article, and implementation manual. What Separation Protects Keeping commentary separate protects: citation stability readability translation clarity future maintenance a clear distinction between law and explanation What Commentary Still Adds Separate commentary still lets the project explain controversial or unfamiliar choices, including: the unamendable core constitutional organs narrow emergency powers the decision to retain a safer presidential system instead of switching to parliamentarism anti delay and anti subversion backstops That is the right balance for a public facing constitutional project: clean law, visible reasoning."
+    },
+    {
+      "slug": "clause-unamendable-core",
+      "title": "Clause Note: The Unamendable Core",
+      "group": "Clause Notes",
+      "kind": "commentary",
+      "source": "commentary/clauses/unamendable-core.md",
+      "status": null,
+      "summary": "A democratic constitution should be open to revision, but it should not be legally open to self-destruction.",
+      "headings": [
+        {
+          "level": 2,
+          "text": "Why Put Anything Beyond Amendment?",
+          "anchor": "why-put-anything-beyond-amendment"
+        },
+        {
+          "level": 2,
+          "text": "Why This Draft Uses A Narrow Core",
+          "anchor": "why-this-draft-uses-a-narrow-core"
+        },
+        {
+          "level": 2,
+          "text": "Why The Clause Also Blocks Evasion",
+          "anchor": "why-the-clause-also-blocks-evasion"
+        }
+      ],
+      "search_text": "Clause Note: The Unamendable Core Why Put Anything Beyond Amendment? A democratic constitution should be open to revision, but it should not be legally open to self destruction. That is the basic reason for the unamendable core. Some provisions are protected not because they are every good value the draft contains, but because they are the minimum conditions that make democratic amendment itself legitimate. Why This Draft Uses A Narrow Core The core is intentionally not a complete ideological program. It protects things like: universal suffrage free and regular elections binding election results peaceful transfer of power equal citizenship judicial independence separation of powers Those are not simply preferred policies. They are the conditions without which constitutional politics stops being genuinely democratic. Why The Clause Also Blocks Evasion Modern anti democratic projects do not always repeal democracy openly. They often preserve language while destroying substance. That is why the draft blocks not only literal repeal of the protected core, but also amendments that functionally destroy democratic alternation in power or concentrate unchecked authority."
+    },
+    {
+      "slug": "clause-naturalized-president",
+      "title": "Clause Note: Naturalized Citizens And The Presidency",
+      "group": "Clause Notes",
+      "kind": "commentary",
+      "source": "commentary/clauses/naturalized-president.md",
+      "status": null,
+      "summary": "The natural-born-citizen rule in the current U.S. Constitution creates a caste distinction inside citizenship.",
+      "headings": [
+        {
+          "level": 2,
+          "text": "Why Reject The Natural-Born Requirement?",
+          "anchor": "why-reject-the-natural-born-requirement"
+        },
+        {
+          "level": 2,
+          "text": "Why This Is Democracy-Protective",
+          "anchor": "why-this-is-democracy-protective"
+        },
+        {
+          "level": 2,
+          "text": "Why This Does Not Ignore Security Concerns",
+          "anchor": "why-this-does-not-ignore-security-concerns"
+        }
+      ],
+      "search_text": "Clause Note: Naturalized Citizens And The Presidency Why Reject The Natural Born Requirement? The natural born citizen rule in the current U.S. Constitution creates a caste distinction inside citizenship. This draft rejects that distinction because equal citizenship should mean that citizenship, not ancestry or birthplace, defines full political membership. Why This Is Democracy Protective Excluding naturalized citizens from the presidency sends the signal that some citizens permanently belong on a lower constitutional tier. That is hard to reconcile with a constitution built around equal membership, equal dignity, and universal political belonging. Why This Does Not Ignore Security Concerns The draft does not deny that some positions can involve legitimate security screening. It handles that concern through narrowly reviewable sensitive office rules and general law, not through a blanket hereditary style exclusion from the highest office."
+    },
+    {
+      "slug": "clause-high-impact-directives",
+      "title": "Clause Note: Fast-Track Review For High-Impact Directives",
+      "group": "Clause Notes",
+      "kind": "commentary",
+      "source": "commentary/clauses/high-impact-directives.md",
+      "status": null,
+      "summary": "Presidents can change the practical legal landscape very quickly through orders or directives that take effect before normal litigation can catch up.",
+      "headings": [
+        {
+          "level": 2,
+          "text": "Why This Clause Exists",
+          "anchor": "why-this-clause-exists"
+        },
+        {
+          "level": 2,
+          "text": "Why The Fast-Track Is Narrow",
+          "anchor": "why-the-fast-track-is-narrow"
+        },
+        {
+          "level": 2,
+          "text": "Why Ordinary Review Was Not Enough",
+          "anchor": "why-ordinary-review-was-not-enough"
+        }
+      ],
+      "search_text": "Clause Note: Fast Track Review For High Impact Directives Why This Clause Exists Presidents can change the practical legal landscape very quickly through orders or directives that take effect before normal litigation can catch up. That creates a familiar problem: even if the directive is later struck down, the damage may already be done. Why The Fast Track Is Narrow The draft does not create accelerated review for every executive order. It is limited to directives that are unusually consequential because they: claim emergency, inherent, or unilateral authority materially alter rights or duties on a nationwide basis or affect especially sensitive domains like elections, civil liberties, immigration status, tariffs, or military force The point is to prevent timing from becoming a source of unconstitutional power without turning the judiciary into a daily supervisor of executive housekeeping. Why Ordinary Review Was Not Enough In constitutional crises, delay can function like permission. This clause exists because some presidential actions are so sweeping that a slow path to review is not a neutral baseline."
+    },
+    {
+      "slug": "clause-supreme-court-delay",
+      "title": "Clause Note: Supreme Court Delay Backstop",
+      "group": "Clause Notes",
+      "kind": "commentary",
+      "source": "commentary/clauses/supreme-court-delay-backstop.md",
+      "status": null,
+      "summary": "In expedited constitutional disputes, the Supreme Court can shape outcomes not only by deciding, but by waiting.",
+      "headings": [
+        {
+          "level": 2,
+          "text": "What Problem This Solves",
+          "anchor": "what-problem-this-solves"
+        },
+        {
+          "level": 2,
+          "text": "Why The Draft Uses Continuity And Finality",
+          "anchor": "why-the-draft-uses-continuity-and-finality"
+        },
+        {
+          "level": 2,
+          "text": "Why This Is Limited To Expedited Constitutional Cases",
+          "anchor": "why-this-is-limited-to-expedited-constitutional-cases"
+        }
+      ],
+      "search_text": "Clause Note: Supreme Court Delay Backstop What Problem This Solves In expedited constitutional disputes, the Supreme Court can shape outcomes not only by deciding, but by waiting. If the Court can freeze a case indefinitely, then nondecision becomes a hidden form of constitutional power. Why The Draft Uses Continuity And Finality The solution here is not to micromanage every case on the Court's docket. The draft instead uses a narrow anti delay architecture for expedited constitutional matters: missed deadline notice duties conduct review continuity of the lower court judgment a later finality backstop for the parties if the Court still does not decide Why This Is Limited To Expedited Constitutional Cases The purpose is to protect elections, emergency disputes, and similar time sensitive constitutional questions. A general deadline regime for all Supreme Court cases would be too rigid. This clause is justified because some constitutional disputes lose meaning if the system allows strategic silence."
+    },
+    {
+      "slug": "clause-term-limits",
+      "title": "Clause Note: Presidential Term Limits",
+      "group": "Clause Notes",
+      "kind": "commentary",
+      "source": "commentary/clauses/presidential-term-limits.md",
+      "status": null,
+      "summary": "In a presidential system, term limits are a structural guard against personal rule.",
+      "headings": [
+        {
+          "level": 2,
+          "text": "Why Keep Term Limits?",
+          "anchor": "why-keep-term-limits"
+        },
+        {
+          "level": 2,
+          "text": "Why This Matters More In Presidentialism",
+          "anchor": "why-this-matters-more-in-presidentialism"
+        },
+        {
+          "level": 2,
+          "text": "Why The Draft Also Includes An Anti-Evasion Rule",
+          "anchor": "why-the-draft-also-includes-an-anti-evasion-rule"
+        }
+      ],
+      "search_text": "Clause Note: Presidential Term Limits Why Keep Term Limits? In a presidential system, term limits are a structural guard against personal rule. They reduce the risk that the office will harden into leader centered politics where the constitutional order becomes identified with one person. Why This Matters More In Presidentialism Parliamentary systems usually have more ordinary political ways to replace failed leaders. Presidential systems have fixed terms, stronger personal mandates, and higher symbolic concentration in one office. That makes term limits more defensible as a constitutional safeguard. Why The Draft Also Includes An Anti Evasion Rule Without an anti evasion rule, term limits can be undermined through succession games or vice presidential rotation. The draft therefore does not treat term limits as only a slogan. It tries to make them real enough to stop obvious workaround strategies."
     },
     {
       "slug": "notes-i-electoral-system",
