@@ -51,7 +51,8 @@
         "title": "Visual Guides",
         "items": [
           "rights-at-a-glance",
-          "emergency-powers-lifecycle"
+          "emergency-powers-lifecycle",
+          "power-distribution"
         ]
       },
       {
@@ -136,7 +137,8 @@
       "group": "Visual Guides",
       "items": [
         "rights-at-a-glance",
-        "emergency-powers-lifecycle"
+        "emergency-powers-lifecycle",
+        "power-distribution"
       ]
     },
     {
@@ -3458,6 +3460,34 @@
         }
       ],
       "search_text": "Emergency Powers Lifecycle This visual guide shows how a national emergency begins, how it is constrained, how it lapses, and how the constitutional system responds if the executive tries to stretch or evade those limits. How To Read This Guide The guide has three paths: ordinary constitutional path lapse path when approval is not granted abuse path when emergency power is stretched beyond lawful limits Use the path buttons to focus on one branch of the emergency system at a time. What This Guide Covers presidential declaration 48 hour submission to the Regional Assembly 30 day approval deadline automatic lapse if approval is not granted 30 day renewals 180 day maximum without a 2/3 vote of both chambers judicial and accountability backstops What This Guide Does Not Do This guide is an orientation layer, not the constitutional text itself. For exact wording and legal detail, read: Article III Article IV Article V"
+    },
+    {
+      "slug": "power-distribution",
+      "title": "How Power Is Distributed",
+      "group": "Visual Guides",
+      "kind": "note",
+      "content_type": "visual_guide",
+      "source": "visual-guides/power-distribution.md",
+      "status": null,
+      "summary": "This visual guide shows the main institutions in the constitutional system, where democratic authority enters, and how accountability runs back through the structure.",
+      "headings": [
+        {
+          "level": 2,
+          "text": "How To Read This Guide",
+          "anchor": "how-to-read-this-guide"
+        },
+        {
+          "level": 2,
+          "text": "What This Guide Covers",
+          "anchor": "what-this-guide-covers"
+        },
+        {
+          "level": 2,
+          "text": "What This Guide Does Not Do",
+          "anchor": "what-this-guide-does-not-do"
+        }
+      ],
+      "search_text": "How Power Is Distributed This visual guide shows the main institutions in the constitutional system, where democratic authority enters, and how accountability runs back through the structure. How To Read This Guide The guide is organized around three layers: democratic input governing institutions accountability and review Use the filter buttons to focus on electoral authority, institutional checks, or accountability links. What This Guide Covers the People as the democratic source of authority House of Representatives Regional Assembly President Courts Electoral Commission Accountability Commission What This Guide Does Not Do This guide simplifies the system so readers can understand the main architecture quickly. For exact wording and legal detail, read: Article I Article II Article III Article IV Article XII"
     },
     {
       "slug": "commentary-overview",

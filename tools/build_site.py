@@ -151,6 +151,16 @@ PAGE_METADATA = {
         "es": ("Ciclo de los poderes de emergencia", "Guía visual de cómo las declaraciones de emergencia comienzan, se limitan, caducan y terminan"),
         "zh-Hans": ("紧急权力生命周期", "对应急状态如何启动、收窄、失效与终止的可视化导览"),
     },
+    "power-distribution": {
+        "en": ("How Power Is Distributed", "A visual guide to the main institutions, democratic inputs, and accountability links in the constitutional system"),
+        "es": ("Cómo se distribuye el poder", "Guía visual de las principales instituciones, entradas democráticas y vínculos de rendición de cuentas del sistema constitucional"),
+        "zh-Hans": ("权力如何分配", "对本宪法体系中主要机构、民主输入与问责联系的可视化导览"),
+    },
+    "congress-comparison": {
+        "en": ("Congress: Then vs. Now", "A side-by-side comparison of the current U.S. Congress and the legislature in this draft — what changed, what stayed, and why"),
+        "es": ("El Congreso: antes y ahora", "Comparación del Congreso de EE. UU. actual y la legislatura en este borrador — qué cambió, qué se mantuvo y por qué"),
+        "zh-Hans": ("国会：今昔对比", "对比当前美国国会与本草案立法机构——有何变化、有何保留及其原因"),
+    },
 }
 
 COMMENTARY_OVERVIEW_METADATA = {
@@ -272,6 +282,20 @@ VISUAL_GUIDE_SOURCES = [
         ROOT / "visual-guides" / "emergency-powers-lifecycle.md",
         "Visual Guides",
         "A visual guide to how emergency declarations begin, narrow, lapse, and terminate",
+    ),
+    (
+        "power-distribution",
+        "How Power Is Distributed",
+        ROOT / "visual-guides" / "power-distribution.md",
+        "Visual Guides",
+        "A visual guide to the main institutions, democratic inputs, and accountability links in the constitutional system",
+    ),
+    (
+        "congress-comparison",
+        "Congress: Then vs. Now",
+        ROOT / "visual-guides" / "congress-comparison.md",
+        "Visual Guides",
+        "A side-by-side comparison of the current U.S. Congress and the legislature in this draft",
     ),
 ]
 
@@ -464,7 +488,7 @@ def homepage_section_items() -> dict[str, list[str]]:
     return {
         "start_here": ["overview", "index", "comparison", "scorecard"],
         "guides": ["how-testing-works", "how-to-write-simulation-tests"],
-        "visual_guides": ["rights-at-a-glance", "emergency-powers-lifecycle"],
+        "visual_guides": ["rights-at-a-glance", "emergency-powers-lifecycle", "power-distribution", "congress-comparison"],
         "constitution": ["preamble"] + [slugify(filename.replace(".md", "")) for filename in ARTICLE_ORDER],
         "commentary": ["commentary-overview", "commentary-choices", "commentary-peaceful-use"],
         "key_clauses": [

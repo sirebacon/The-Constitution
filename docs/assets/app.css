@@ -691,6 +691,10 @@ input:focus-visible {
   gap: 0.9rem;
 }
 
+.rights-grid--links {
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+}
+
 .rights-card {
   padding: 1rem;
   border-radius: var(--radius-md);
@@ -717,6 +721,26 @@ input:focus-visible {
   color: var(--accent);
   text-transform: uppercase;
   letter-spacing: 0.06em;
+}
+
+.power-map__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+  gap: 0.9rem;
+}
+
+.power-node {
+  padding: 1rem;
+  border-radius: var(--radius-md);
+  border: 1px solid rgba(29, 90, 115, 0.18);
+  background:
+    linear-gradient(180deg, rgba(29, 90, 115, 0.08), rgba(255, 255, 255, 0.9)),
+    rgba(255, 255, 255, 0.94);
+  box-shadow: 0 10px 24px rgba(15, 24, 34, 0.05);
+}
+
+.power-link {
+  border-color: rgba(157, 63, 31, 0.12);
 }
 
 .emergency-steps {

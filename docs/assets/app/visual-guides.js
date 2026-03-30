@@ -376,12 +376,139 @@ const EMERGENCY_GUIDE = {
   },
 };
 
+const POWER_GUIDE = {
+  en: {
+    all: "All links",
+    electoral: "Democratic input",
+    checks: "Institutional checks",
+    accountability: "Accountability",
+    filterLabel: "Filter power distribution links",
+    note: "This map shows where democratic authority enters the system and how each institution is constrained by another part of the constitutional order.",
+    nodes: [
+      { key: "people", label: "The People", summary: "Democratic source of election, recall, ratification, and political legitimacy." },
+      { key: "house", label: "House of Representatives", summary: "Popular chamber for legislation, impeachment initiation, and public democratic accountability." },
+      { key: "assembly", label: "Regional Assembly", summary: "Second chamber for confirmations, emergency approval, impeachment trial, and treaty functions." },
+      { key: "president", label: "President", summary: "Executes law, directs the executive branch, and operates under timed and reviewable constitutional limits." },
+      { key: "courts", label: "Courts", summary: "Exercise constitutional review, adjudication, and judicial enforcement of the constitutional order." },
+      { key: "ec", label: "Electoral Commission", summary: "Protects election administration, ballot integrity, and campaign-finance enforcement." },
+      { key: "acc", label: "Accountability Commission", summary: "Investigates, prosecutes, and protects the constitutional order against corruption and anti-subversion conduct." },
+    ],
+    links: [
+      { category: "electoral", from: "people", to: "house", label: "elect", meta: "Article I" },
+      { category: "electoral", from: "people", to: "president", label: "elect", meta: "Articles I, III" },
+      { category: "electoral", from: "people", to: "president", label: "recall", meta: "Article III §14" },
+      { category: "electoral", from: "people", to: "house", label: "petition and initiative", meta: "Article I" },
+      { category: "checks", from: "house", to: "president", label: "impeach", meta: "Articles II, III" },
+      { category: "checks", from: "assembly", to: "president", label: "try and remove", meta: "Articles II, III" },
+      { category: "checks", from: "assembly", to: "president", label: "approve emergencies", meta: "Article III §5.4" },
+      { category: "checks", from: "president", to: "courts", label: "nominate", meta: "Articles III, IV" },
+      { category: "checks", from: "assembly", to: "courts", label: "confirm nominations", meta: "Article IV" },
+      { category: "checks", from: "courts", to: "president", label: "review directives", meta: "Article IV §9" },
+      { category: "checks", from: "courts", to: "house", label: "review laws", meta: "Article IV §9" },
+      { category: "checks", from: "house", to: "courts", label: "impeach judges", meta: "Articles II, IV" },
+      { category: "checks", from: "assembly", to: "courts", label: "remove on conviction", meta: "Articles II, IV" },
+      { category: "accountability", from: "ec", to: "house", label: "certify and administer elections", meta: "Articles I, XII" },
+      { category: "accountability", from: "ec", to: "president", label: "certify election process", meta: "Articles I, XII" },
+      { category: "accountability", from: "ec", to: "house", label: "enforce campaign finance", meta: "Articles VII, XII" },
+      { category: "accountability", from: "acc", to: "president", label: "investigate and prosecute", meta: "Articles VIII, XII" },
+      { category: "accountability", from: "acc", to: "house", label: "investigate members", meta: "Articles VIII, XII" },
+      { category: "accountability", from: "acc", to: "courts", label: "investigate judicial misconduct", meta: "Articles IV, XII" },
+      { category: "accountability", from: "courts", to: "ec", label: "review commission action", meta: "Articles I, IV, XII" },
+      { category: "accountability", from: "courts", to: "acc", label: "review constitutional action", meta: "Articles IV, XII" },
+    ],
+  },
+  es: {
+    all: "Todos los vínculos",
+    electoral: "Entrada democrática",
+    checks: "Controles institucionales",
+    accountability: "Rendición de cuentas",
+    filterLabel: "Filtrar vínculos de distribución del poder",
+    note: "Este mapa muestra por dónde entra la autoridad democrática en el sistema y cómo cada institución queda limitada por otra parte del orden constitucional.",
+    nodes: [
+      { key: "people", label: "El Pueblo", summary: "Fuente democrática de elección, revocación, ratificación y legitimidad política." },
+      { key: "house", label: "Cámara de Representantes", summary: "Cámara popular para legislar, iniciar destituciones y sostener la responsabilidad democrática pública." },
+      { key: "assembly", label: "Asamblea Regional", summary: "Segunda cámara para confirmaciones, aprobación de emergencias, juicios políticos y funciones en tratados." },
+      { key: "president", label: "Presidente", summary: "Ejecuta la ley, dirige el poder ejecutivo y opera bajo límites constitucionales temporizados y revisables." },
+      { key: "courts", label: "Tribunales", summary: "Ejercen control constitucional, adjudicación y ejecución judicial del orden constitucional." },
+      { key: "ec", label: "Comisión Electoral", summary: "Protege la administración electoral, la integridad de la papeleta y la aplicación del financiamiento de campañas." },
+      { key: "acc", label: "Comisión de Rendición de Cuentas", summary: "Investiga, procesa y protege el orden constitucional frente a corrupción y conducta antisubversiva." },
+    ],
+    links: [
+      { category: "electoral", from: "people", to: "house", label: "elige", meta: "Artículo I" },
+      { category: "electoral", from: "people", to: "president", label: "elige", meta: "Artículos I, III" },
+      { category: "electoral", from: "people", to: "president", label: "revoca", meta: "Artículo III §14" },
+      { category: "electoral", from: "people", to: "house", label: "petición e iniciativa", meta: "Artículo I" },
+      { category: "checks", from: "house", to: "president", label: "acusa", meta: "Artículos II, III" },
+      { category: "checks", from: "assembly", to: "president", label: "juzga y remueve", meta: "Artículos II, III" },
+      { category: "checks", from: "assembly", to: "president", label: "aprueba emergencias", meta: "Artículo III §5.4" },
+      { category: "checks", from: "president", to: "courts", label: "nomina", meta: "Artículos III, IV" },
+      { category: "checks", from: "assembly", to: "courts", label: "confirma nominaciones", meta: "Artículo IV" },
+      { category: "checks", from: "courts", to: "president", label: "revisa directivas", meta: "Artículo IV §9" },
+      { category: "checks", from: "courts", to: "house", label: "revisa leyes", meta: "Artículo IV §9" },
+      { category: "checks", from: "house", to: "courts", label: "acusa a jueces", meta: "Artículos II, IV" },
+      { category: "checks", from: "assembly", to: "courts", label: "remueve tras condena", meta: "Artículos II, IV" },
+      { category: "accountability", from: "ec", to: "house", label: "certifica y administra elecciones", meta: "Artículos I, XII" },
+      { category: "accountability", from: "ec", to: "president", label: "certifica el proceso electoral", meta: "Artículos I, XII" },
+      { category: "accountability", from: "ec", to: "house", label: "aplica financiamiento de campañas", meta: "Artículos VII, XII" },
+      { category: "accountability", from: "acc", to: "president", label: "investiga y procesa", meta: "Artículos VIII, XII" },
+      { category: "accountability", from: "acc", to: "house", label: "investiga a miembros", meta: "Artículos VIII, XII" },
+      { category: "accountability", from: "acc", to: "courts", label: "investiga conducta judicial", meta: "Artículos IV, XII" },
+      { category: "accountability", from: "courts", to: "ec", label: "revisa la acción de la comisión", meta: "Artículos I, IV, XII" },
+      { category: "accountability", from: "courts", to: "acc", label: "revisa la acción constitucional", meta: "Artículos IV, XII" },
+    ],
+  },
+  "zh-Hans": {
+    all: "全部联系",
+    electoral: "民主输入",
+    checks: "制度制衡",
+    accountability: "问责",
+    filterLabel: "筛选权力分配联系",
+    note: "这张图展示民主权威从何进入制度，以及每个机构如何受到宪法秩序中其他部分的约束。",
+    nodes: [
+      { key: "people", label: "人民", summary: "选举、罢免、批准与政治正当性的民主来源。" },
+      { key: "house", label: "众议院", summary: "承担立法、启动弹劾与公共民主问责的民选议院。" },
+      { key: "assembly", label: "地区议会", summary: "负责确认、紧急状态批准、弹劾审判与条约职能的第二议院。" },
+      { key: "president", label: "总统", summary: "执行法律、领导行政部门，并受有时限且可审查的宪法限制。" },
+      { key: "courts", label: "法院", summary: "行使违宪审查、裁判以及对宪法秩序的司法执行。" },
+      { key: "ec", label: "选举委员会", summary: "保护选举管理、选票完整性与竞选资金执法。" },
+      { key: "acc", label: "问责委员会", summary: "调查、起诉并保护宪法秩序免受腐败与反颠覆行为侵害。" },
+    ],
+    links: [
+      { category: "electoral", from: "people", to: "house", label: "选举", meta: "第一条" },
+      { category: "electoral", from: "people", to: "president", label: "选举", meta: "第一条、第三条" },
+      { category: "electoral", from: "people", to: "president", label: "罢免", meta: "第三条 §14" },
+      { category: "electoral", from: "people", to: "house", label: "请愿与倡议", meta: "第一条" },
+      { category: "checks", from: "house", to: "president", label: "提出弹劾", meta: "第二条、第三条" },
+      { category: "checks", from: "assembly", to: "president", label: "审判并罢免", meta: "第二条、第三条" },
+      { category: "checks", from: "assembly", to: "president", label: "批准紧急状态", meta: "第三条 §5.4" },
+      { category: "checks", from: "president", to: "courts", label: "提名", meta: "第三条、第四条" },
+      { category: "checks", from: "assembly", to: "courts", label: "确认提名", meta: "第四条" },
+      { category: "checks", from: "courts", to: "president", label: "审查行政指令", meta: "第四条 §9" },
+      { category: "checks", from: "courts", to: "house", label: "审查法律", meta: "第四条 §9" },
+      { category: "checks", from: "house", to: "courts", label: "弹劾法官", meta: "第二条、第四条" },
+      { category: "checks", from: "assembly", to: "courts", label: "定罪后罢免", meta: "第二条、第四条" },
+      { category: "accountability", from: "ec", to: "house", label: "认证并管理选举", meta: "第一条、第十二条" },
+      { category: "accountability", from: "ec", to: "president", label: "认证选举程序", meta: "第一条、第十二条" },
+      { category: "accountability", from: "ec", to: "house", label: "执行竞选资金规则", meta: "第七条、第十二条" },
+      { category: "accountability", from: "acc", to: "president", label: "调查并起诉", meta: "第八条、第十二条" },
+      { category: "accountability", from: "acc", to: "house", label: "调查议员", meta: "第八条、第十二条" },
+      { category: "accountability", from: "acc", to: "courts", label: "调查司法失当", meta: "第四条、第十二条" },
+      { category: "accountability", from: "courts", to: "ec", label: "审查委员会行为", meta: "第一条、第四条、第十二条" },
+      { category: "accountability", from: "courts", to: "acc", label: "审查宪法行为", meta: "第四条、第十二条" },
+    ],
+  },
+};
+
 function dataForLocale(locale) {
   return RIGHTS_GUIDE[locale] || RIGHTS_GUIDE.en;
 }
 
 function emergencyDataForLocale(locale) {
   return EMERGENCY_GUIDE[locale] || EMERGENCY_GUIDE.en;
+}
+
+function powerDataForLocale(locale) {
+  return POWER_GUIDE[locale] || POWER_GUIDE.en;
 }
 
 function rightsCards(categories) {
@@ -485,11 +612,62 @@ export function renderVisualGuide(doc, siteData) {
     `;
   }
 
+  if (doc.slug === "power-distribution") {
+    const data = powerDataForLocale(siteData.locale);
+    return `
+      <section class="visual-guide visual-guide--power" aria-labelledby="visual-guide-title">
+        <div class="visual-guide__toolbar" role="group" aria-label="${data.filterLabel}">
+          <button class="filter-chip is-active" type="button" data-guide-filter="all">${data.all}</button>
+          <button class="filter-chip" type="button" data-guide-filter="electoral">${data.electoral}</button>
+          <button class="filter-chip" type="button" data-guide-filter="checks">${data.checks}</button>
+          <button class="filter-chip" type="button" data-guide-filter="accountability">${data.accountability}</button>
+        </div>
+        <p class="visual-guide__note">${data.note}</p>
+        <div class="visual-guide__body">
+          <section class="power-map">
+            <div class="power-map__grid">
+              ${data.nodes
+                .map(
+                  (node) => `
+                    <article class="power-node" data-power-node="${node.key}">
+                      <div class="eyebrow">${node.label}</div>
+                      <h2 class="rights-category__title">${node.label}</h2>
+                      <p class="rights-category__summary">${node.summary}</p>
+                    </article>
+                  `
+                )
+                .join("")}
+            </div>
+          </section>
+          <section class="rights-category">
+            <header class="rights-category__header">
+              <div class="eyebrow">${data.all}</div>
+              <h2 class="rights-category__title">${data.all}</h2>
+            </header>
+            <div class="rights-grid rights-grid--links">
+              ${data.links
+                .map(
+                  (link) => `
+                    <article class="rights-card power-link" data-rights-category="${link.category}">
+                      <h3>${link.label}</h3>
+                      <p>${data.nodes.find((node) => node.key === link.from).label} → ${data.nodes.find((node) => node.key === link.to).label}</p>
+                      <div class="rights-card__meta">${link.meta}</div>
+                    </article>
+                  `
+                )
+                .join("")}
+            </div>
+          </section>
+        </div>
+      </section>
+    `;
+  }
+
   return "";
 }
 
 export function activateVisualGuide(doc, container) {
-  if (!["rights-at-a-glance", "emergency-powers-lifecycle"].includes(doc.slug) || !container) return;
+  if (!["rights-at-a-glance", "emergency-powers-lifecycle", "power-distribution"].includes(doc.slug) || !container) return;
   const buttons = [...container.querySelectorAll("[data-guide-filter]")];
   const categories = [...container.querySelectorAll("[data-rights-category]")];
   if (!buttons.length || !categories.length) return;
