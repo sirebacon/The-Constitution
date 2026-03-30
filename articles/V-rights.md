@@ -165,7 +165,15 @@ A warrant authorizing a digital search must describe with particularity the data
 
 **7.1** Women and men have equal rights throughout the United States. No law or government action shall abridge or deny equal rights on account of sex or gender.
 
-**7.2** All persons are equal before the law regardless of race, color, national origin, ethnicity, religion, sex, gender identity, sexual orientation, disability, or age. Laws that classify persons on any of these bases are presumptively unconstitutional and must satisfy strict scrutiny.
+**7.2** All persons are equal before the law regardless of race, color, national origin, ethnicity, religion, sex, gender identity, sexual orientation, or disability. Laws that classify persons on any of these bases are presumptively unconstitutional and must satisfy strict scrutiny.
+
+**7.2A — Age discrimination.** No person shall be subjected to discrimination on the basis of age, whether for being too young or too old. Age-based discrimination in employment, housing, public accommodations, education, healthcare, and the provision of government services is prohibited. Laws and government actions that classify persons by age must be substantially related to an important government interest.
+
+**(a) Scope — both directions.** The prohibition on age discrimination runs in both directions. No minimum-age threshold analogous to current federal employment law applies; discriminating against a person because they are considered too young for a position is prohibited on the same basis as discriminating against a person because they are considered too old.
+
+**(b) Legitimate age-based classifications.** Not every age-based distinction violates this Section. The following categories of age-based law do not require intermediate scrutiny justification and are presumptively valid: (i) minimum-age safety regulations, including minimum ages for voting, driving, purchasing alcohol or firearms, military service, and similar licensing or eligibility requirements; (ii) laws protecting minors from exploitation, harm, or exposure to adult content; (iii) mandatory retirement ages for positions where age-related capacity is directly relevant to public safety, established by law with individualized review available; (iv) age-specific benefit programs designed to address the particular economic or health conditions of youth or older adults, including Social Security, Medicare, and equivalent programs. These carve-outs are narrow; laws using age as a proxy for general productivity, cost, or social worth do not qualify.
+
+**(c) Enforcement.** Congress and the states shall provide effective remedies for age discrimination in employment and in the provision of goods, services, and public benefits. The absence of a private right of action under prior law does not limit the obligation imposed by this Section.
 
 **7.3** No person shall be subjected to discrimination by any entity receiving substantial federal funding or exercising a public function on the basis of any characteristic listed in Section 7.2. Congress may define the threshold for substantial funding by law.
 
