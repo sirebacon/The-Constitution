@@ -9,6 +9,12 @@ const state = {
   locale: "en",
 };
 
+const DEFAULT_LOCALES = [
+  { code: "en", label: "English" },
+  { code: "es", label: "Español" },
+  { code: "zh-Hans", label: "中文（简体）" },
+];
+
 function requestedLocale() {
   const params = new URLSearchParams(window.location.search);
   return params.get("lang") || "en";
@@ -34,7 +40,11 @@ async function loadSiteData(locale) {
 
 function populateLocaleSwitcher() {
   if (!refs.localeButtons || !state.siteData?.locales) return;
-  refs.localeButtons.innerHTML = state.siteData.locales
+  const localesByCode = new Map(DEFAULT_LOCALES.map((locale) => [locale.code, locale]));
+  for (const locale of state.siteData.locales) {
+    localesByCode.set(locale.code, locale);
+  }
+  refs.localeButtons.innerHTML = Array.from(localesByCode.values())
     .map(
       (locale) =>
         `<button type="button" class="locale-button ${locale.code === state.locale ? "is-active" : ""}" data-locale="${locale.code}" aria-pressed="${locale.code === state.locale ? "true" : "false"}">${locale.label}</button>`
