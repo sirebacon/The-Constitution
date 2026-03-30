@@ -1,0 +1,24 @@
+{
+  "id": "state-tribal-jurisdiction-overreach",
+  "title": "State Asserts Jurisdiction on Tribal Lands Without Consent",
+  "description": "A state attorney general attempts to prosecute a tribal member in state court for conduct occurring on tribal land, without tribal consent and without express congressional authorization. The scenario tests whether Article X's new tribal-sovereignty framework gives courts a direct basis to block state jurisdictional overreach and recognize the tribal court as the proper first-instance forum.",
+  "articles_tested": ["Article X"],
+  "provisions_tested": ["Article X Section 10.1", "Article X Section 10.4", "Article X Section 10.5", "Article X Section 10.7"],
+  "events": [
+    {
+      "day": 1,
+      "type": "state_asserts_jurisdiction_over_tribal_lands",
+      "actor": "State attorney general",
+      "details": {
+        "tribe": "a recognized tribal nation",
+        "conduct": "a state criminal prosecution against a tribal member for conduct occurring wholly on tribal trust land"
+      }
+    },
+    {
+      "day": 15,
+      "type": "court_blocks_state_tribal_jurisdiction_overreach",
+      "actor": "Federal court",
+      "details": {}
+    }
+  ]
+}

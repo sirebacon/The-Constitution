@@ -1,0 +1,23 @@
+{
+  "id": "state-election-access-floor-breach",
+  "title": "State Election Access Is Cut Below the Democratic Floor",
+  "description": "A state narrows access to state and local elections by ending automatic registration, eliminating early voting, and restricting absentee voting to narrow excuse categories. The scenario tests whether Article X's state-election voting-access floor now operates as a real constitutional backstop rather than leaving state election access largely outside the draft's enforceable protections.",
+  "articles_tested": ["Article X"],
+  "provisions_tested": ["Article X Section 1.5", "Article X Section 1.7A"],
+  "events": [
+    {
+      "day": 1,
+      "type": "state_restricts_voting_access_below_floor",
+      "actor": "State government",
+      "details": {
+        "measures": "ending automatic registration for state elections, eliminating early voting, and restricting absentee voting to a narrow list of statutory excuses"
+      }
+    },
+    {
+      "day": 18,
+      "type": "court_restores_state_voting_access_floor",
+      "actor": "Federal court",
+      "details": {}
+    }
+  ]
+}

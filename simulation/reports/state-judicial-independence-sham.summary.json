@@ -1,0 +1,49 @@
+{
+  "scenario_id": "state-judicial-independence-sham",
+  "title": "State Preserves a Nominal Judiciary While Dismantling Judicial Independence",
+  "source_file": "simulation/scenarios/state-judicial-independence-sham.json",
+  "status": "stress_point_found",
+  "triggered_provisions": [
+    "Article X Section 1.5",
+    "Article X Section 1.5A"
+  ],
+  "metrics": {
+    "satisfied_obligations": 1,
+    "failed_obligations": 0,
+    "unresolved_obligations": 0,
+    "violations": 1,
+    "bottlenecks": 0,
+    "timeline_entries": 5
+  },
+  "violations": [
+    {
+      "id": "state_judicial_independence_breach",
+      "category": "constitutional_floor_breach",
+      "actor": "State government",
+      "source": "Article X Section 1.5 and Section 1.5A",
+      "severity": "high",
+      "day": 1,
+      "summary": "State officials restructure the judiciary through imposing two-year terms on state trial judges, reducing their salaries mid-term, and abolishing the independent judicial conduct commission in favor of direct legislative discipline, undermining the minimum judicial-independence standards that Article X makes part of the democratic floor."
+    }
+  ],
+  "bottlenecks": [],
+  "open_duties": [],
+  "satisfied_duties": [
+    {
+      "actor": "Federal courts",
+      "duty": "hold that the state's judicial restructuring violates the democratic floor and enjoin the noncompliant measures",
+      "closed_day": 24,
+      "outcome": "held that the state judicial changes violated the democratic-floor minimum standards for terms, compensation, removal protections, and judicial discipline",
+      "source": "Article X Section 1.5 and Section 1.5A"
+    }
+  ],
+  "failed_duties": [],
+  "notes": [],
+  "ai_summary": {
+    "primary_violation": "State officials restructure the judiciary through imposing two-year terms on state trial judges, reducing their salaries mid-term, and abolishing the independent judicial conduct commission in favor of direct legislative discipline, undermining the minimum judicial-independence standards that Article X makes part of the democratic floor.",
+    "primary_bottleneck": null,
+    "primary_open_duty": null,
+    "system_risk": "institutional_stress",
+    "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+  }
+}

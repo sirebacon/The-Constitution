@@ -2,6 +2,60 @@
 
 This document records conclusions drawn from the constitutional flow simulator and its generated reports. Each entry should cite the relevant scenario outputs so recurring bottlenecks can be tracked over time.
 
+## 2026-03-30 Article X State-Floor Validation Pass
+
+### Inputs Reviewed
+
+- [aggregate.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/aggregate.json)
+- [state-tribal-jurisdiction-overreach.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/state-tribal-jurisdiction-overreach.summary.json)
+- [state-judicial-independence-sham.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/state-judicial-independence-sham.summary.json)
+- [state-election-access-floor-breach.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/state-election-access-floor-breach.summary.json)
+
+### Aggregate Read
+
+- Scenario count rises from `75` to `78`.
+- `stress_point_scenarios` rises from `73` to `76`.
+- `violations` rise from `65` to `68`.
+- `bottlenecks` remain `32`.
+- `unresolved_obligations` remains `0`.
+- This pass closes the main remaining question about whether Article X's newer state-floor additions are merely textual or actually enforceable.
+
+### Main Results
+
+#### 1. Tribal sovereignty is now directly enforceable against state jurisdictional overreach
+
+Source:
+- [state-tribal-jurisdiction-overreach.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/state-tribal-jurisdiction-overreach.summary.json)
+
+- A state attorney general attempts to prosecute a tribal member in state court for conduct occurring on tribal trust land.
+- No tribal consent or express congressional authorization exists.
+- Federal courts block the assertion of state jurisdiction and require deference to the tribal court within its proper domain.
+
+Assessment:
+This confirms that Article X no longer treats tribal nations as a commerce-clause afterthought. The article now supplies a real sovereignty framework with court recognition, jurisdictional limits on states, and direct judicial remedies.
+
+#### 2. State judicial independence is no longer left to implication alone
+
+Source:
+- [state-judicial-independence-sham.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/state-judicial-independence-sham.summary.json)
+
+- A state retains courts in form but imposes two-year judicial terms, cuts judges' salaries during service, and abolishes an independent conduct body.
+- Federal courts treat the arrangement as a breach of the democratic floor rather than a permissible state-judiciary variation.
+
+Assessment:
+This validates that Article X's state-court-independence language is now concrete. Terms, compensation, removal protections, and judicial-discipline independence are enforceable constitutional minimums, not aspirational background principles.
+
+#### 3. Article X now reaches voter suppression in state elections directly
+
+Source:
+- [state-election-access-floor-breach.summary.json](/Users/chris/Documents/GitHub/The-Constitution/simulation/reports/state-election-access-floor-breach.summary.json)
+
+- A state ends automatic registration, eliminates early voting, and narrows absentee access for state elections.
+- Federal courts restore the access floor directly under Article X rather than relying on federal-election provisions by analogy.
+
+Assessment:
+This closes one of the last meaningful state-democracy validation gaps. Article X now has direct scenario coverage not only for federalism structure and preemption, but also for the core accessibility floor of state elections.
+
 ## 2026-03-29 Article V and Article X Edge-Case Validation Pass
 
 ### Inputs Reviewed

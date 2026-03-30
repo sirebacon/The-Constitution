@@ -1,0 +1,23 @@
+{
+  "id": "state-judicial-independence-sham",
+  "title": "State Preserves a Nominal Judiciary While Dismantling Judicial Independence",
+  "description": "A state retains courts in name but restructures them into two-year terms, cuts sitting judges' salaries, and replaces independent discipline with a legislature-controlled removal body. The scenario tests whether Article X's state-judicial-independence floor is concrete enough to treat the arrangement as a democratic-floor violation rather than a formally acceptable judiciary.",
+  "articles_tested": ["Article X"],
+  "provisions_tested": ["Article X Section 1.5", "Article X Section 1.5A"],
+  "events": [
+    {
+      "day": 1,
+      "type": "state_dismantles_judicial_independence",
+      "actor": "State government",
+      "details": {
+        "changes": "imposing two-year terms on state trial judges, reducing their salaries mid-term, and abolishing the independent judicial conduct commission in favor of direct legislative discipline"
+      }
+    },
+    {
+      "day": 24,
+      "type": "court_blocks_state_judicial_independence_breach",
+      "actor": "Federal court",
+      "details": {}
+    }
+  ]
+}

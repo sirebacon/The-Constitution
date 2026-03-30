@@ -1,15 +1,15 @@
 {
-  "scenario_count": 75,
-  "stress_point_scenarios": 73,
+  "scenario_count": 78,
+  "stress_point_scenarios": 76,
   "totals": {
-    "violations": 65,
+    "violations": 68,
     "bottlenecks": 32,
     "unresolved_obligations": 0
   },
   "risk_pattern_counts": [
     {
       "risk": "institutional_stress",
-      "count": 43
+      "count": 45
     },
     {
       "risk": "executive_defiance",
@@ -25,6 +25,10 @@
     },
     {
       "risk": "democratic_backsliding",
+      "count": 1
+    },
+    {
+      "risk": "election_stress",
       "count": 1
     }
   ],
@@ -65,11 +69,11 @@
     },
     {
       "category": "constitutional_floor_breach",
-      "count": 4
+      "count": 5
     },
     {
       "category": "federalism_breach",
-      "count": 4
+      "count": 5
     },
     {
       "category": "legislative_deadline_failure",
@@ -78,6 +82,10 @@
     {
       "category": "membership_exclusion",
       "count": 3
+    },
+    {
+      "category": "election_restriction",
+      "count": 2
     },
     {
       "category": "party_cartelization",
@@ -101,10 +109,6 @@
     },
     {
       "category": "election_fairness_breach",
-      "count": 1
-    },
-    {
-      "category": "election_restriction",
       "count": 1
     },
     {
@@ -155,6 +159,10 @@
     },
     {
       "provision": "Article V Section 2.5",
+      "count": 3
+    },
+    {
+      "provision": "Article X Section 1.5",
       "count": 3
     },
     {
@@ -550,11 +558,31 @@
       "count": 1
     },
     {
-      "provision": "Article X Section 1.5",
+      "provision": "Article X Section 1.5A",
       "count": 1
     },
     {
       "provision": "Article X Section 1.6",
+      "count": 1
+    },
+    {
+      "provision": "Article X Section 1.7A",
+      "count": 1
+    },
+    {
+      "provision": "Article X Section 10.1",
+      "count": 1
+    },
+    {
+      "provision": "Article X Section 10.4",
+      "count": 1
+    },
+    {
+      "provision": "Article X Section 10.5",
+      "count": 1
+    },
+    {
+      "provision": "Article X Section 10.7",
       "count": 1
     },
     {
@@ -4745,6 +4773,55 @@
       }
     },
     {
+      "scenario_id": "state-election-access-floor-breach",
+      "title": "State Election Access Is Cut Below the Democratic Floor",
+      "source_file": "simulation/scenarios/state-election-access-floor-breach.json",
+      "status": "stress_point_found",
+      "triggered_provisions": [
+        "Article X Section 1.5",
+        "Article X Section 1.7A"
+      ],
+      "metrics": {
+        "satisfied_obligations": 1,
+        "failed_obligations": 0,
+        "unresolved_obligations": 0,
+        "violations": 1,
+        "bottlenecks": 0,
+        "timeline_entries": 5
+      },
+      "violations": [
+        {
+          "id": "state_voting_access_floor_breach",
+          "category": "election_restriction",
+          "actor": "State government",
+          "source": "Article X Section 1.5 and Section 1.7A",
+          "severity": "high",
+          "day": 1,
+          "summary": "State officials attempt to run state elections under rules that reduce access below the constitutional floor by ending automatic registration for state elections, eliminating early voting, and restricting absentee voting to a narrow list of statutory excuses."
+        }
+      ],
+      "bottlenecks": [],
+      "open_duties": [],
+      "satisfied_duties": [
+        {
+          "actor": "Federal courts",
+          "duty": "block the restrictive state-election rules and restore the voting-access floor required by Article X",
+          "closed_day": 18,
+          "outcome": "blocked the restrictive state-election rules and ordered restoration of automatic registration, early voting, and no-excuse absentee access consistent with the constitutional floor",
+          "source": "Article X Section 1.5 and Section 1.7A"
+        }
+      ],
+      "failed_duties": [],
+      "notes": [],
+      "ai_summary": {
+        "primary_violation": "State officials attempt to run state elections under rules that reduce access below the constitutional floor by ending automatic registration for state elections, eliminating early voting, and restricting absentee voting to a narrow list of statutory excuses.",
+        "primary_bottleneck": null,
+        "primary_open_duty": null,
+        "system_risk": "election_stress",
+        "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+      }
+    },
+    {
       "scenario_id": "state-equal-protection-violation",
       "title": "State Enacts Discriminatory Classification",
       "source_file": "simulation/scenarios/state-equal-protection-violation.json",
@@ -4787,6 +4864,55 @@
       "notes": [],
       "ai_summary": {
         "primary_violation": "State enacts a law that classifies persons on the basis of sexual orientation. Such classifications are presumptively unconstitutional under Article V Section 7.2 and must satisfy strict scrutiny.",
+        "primary_bottleneck": null,
+        "primary_open_duty": null,
+        "system_risk": "institutional_stress",
+        "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+      }
+    },
+    {
+      "scenario_id": "state-judicial-independence-sham",
+      "title": "State Preserves a Nominal Judiciary While Dismantling Judicial Independence",
+      "source_file": "simulation/scenarios/state-judicial-independence-sham.json",
+      "status": "stress_point_found",
+      "triggered_provisions": [
+        "Article X Section 1.5",
+        "Article X Section 1.5A"
+      ],
+      "metrics": {
+        "satisfied_obligations": 1,
+        "failed_obligations": 0,
+        "unresolved_obligations": 0,
+        "violations": 1,
+        "bottlenecks": 0,
+        "timeline_entries": 5
+      },
+      "violations": [
+        {
+          "id": "state_judicial_independence_breach",
+          "category": "constitutional_floor_breach",
+          "actor": "State government",
+          "source": "Article X Section 1.5 and Section 1.5A",
+          "severity": "high",
+          "day": 1,
+          "summary": "State officials restructure the judiciary through imposing two-year terms on state trial judges, reducing their salaries mid-term, and abolishing the independent judicial conduct commission in favor of direct legislative discipline, undermining the minimum judicial-independence standards that Article X makes part of the democratic floor."
+        }
+      ],
+      "bottlenecks": [],
+      "open_duties": [],
+      "satisfied_duties": [
+        {
+          "actor": "Federal courts",
+          "duty": "hold that the state's judicial restructuring violates the democratic floor and enjoin the noncompliant measures",
+          "closed_day": 24,
+          "outcome": "held that the state judicial changes violated the democratic-floor minimum standards for terms, compensation, removal protections, and judicial discipline",
+          "source": "Article X Section 1.5 and Section 1.5A"
+        }
+      ],
+      "failed_duties": [],
+      "notes": [],
+      "ai_summary": {
+        "primary_violation": "State officials restructure the judiciary through imposing two-year terms on state trial judges, reducing their salaries mid-term, and abolishing the independent judicial conduct commission in favor of direct legislative discipline, undermining the minimum judicial-independence standards that Article X makes part of the democratic floor.",
         "primary_bottleneck": null,
         "primary_open_duty": null,
         "system_risk": "institutional_stress",
@@ -4887,6 +5013,57 @@
       "notes": [],
       "ai_summary": {
         "primary_violation": "Public school officials organize or lead prayer in an official capacity and pressure students to participate, violating the no-establishment, neutrality, and school-specific religion rules of Article V.",
+        "primary_bottleneck": null,
+        "primary_open_duty": null,
+        "system_risk": "institutional_stress",
+        "recommended_focus": "review bottlenecks, violations, and unresolved duties"
+      }
+    },
+    {
+      "scenario_id": "state-tribal-jurisdiction-overreach",
+      "title": "State Asserts Jurisdiction on Tribal Lands Without Consent",
+      "source_file": "simulation/scenarios/state-tribal-jurisdiction-overreach.json",
+      "status": "stress_point_found",
+      "triggered_provisions": [
+        "Article X Section 10.1",
+        "Article X Section 10.4",
+        "Article X Section 10.5",
+        "Article X Section 10.7"
+      ],
+      "metrics": {
+        "satisfied_obligations": 1,
+        "failed_obligations": 0,
+        "unresolved_obligations": 0,
+        "violations": 1,
+        "bottlenecks": 0,
+        "timeline_entries": 5
+      },
+      "violations": [
+        {
+          "id": "state_tribal_jurisdiction_overreach",
+          "category": "federalism_breach",
+          "actor": "State government",
+          "source": "Article X Section 10.1, Section 10.4, Section 10.5, and Section 10.7",
+          "severity": "high",
+          "day": 1,
+          "summary": "State officials attempt to exercise civil or criminal jurisdiction over a recognized tribal nation through a state criminal prosecution against a tribal member for conduct occurring wholly on tribal trust land without tribal consent or express congressional authorization, despite Article X's tribal-sovereignty protections and recognition of tribal courts."
+        }
+      ],
+      "bottlenecks": [],
+      "open_duties": [],
+      "satisfied_duties": [
+        {
+          "actor": "Federal courts",
+          "duty": "block the state's assertion of jurisdiction and recognize the tribal court as the competent first-instance forum within its proper domain",
+          "closed_day": 15,
+          "outcome": "blocked the state's assertion of jurisdiction and required deference to the tribal court within its proper domain",
+          "source": "Article X Section 10.4, Section 10.5, and Section 10.7"
+        }
+      ],
+      "failed_duties": [],
+      "notes": [],
+      "ai_summary": {
+        "primary_violation": "State officials attempt to exercise civil or criminal jurisdiction over a recognized tribal nation through a state criminal prosecution against a tribal member for conduct occurring wholly on tribal trust land without tribal consent or express congressional authorization, despite Article X's tribal-sovereignty protections and recognition of tribal courts.",
         "primary_bottleneck": null,
         "primary_open_duty": null,
         "system_risk": "institutional_stress",
