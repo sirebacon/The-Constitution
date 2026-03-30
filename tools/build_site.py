@@ -10,6 +10,35 @@ ROOT = Path(__file__).resolve().parent.parent
 DOCS_DIR = ROOT / "docs"
 CONTENT_DIR = DOCS_DIR / "content"
 ASSETS_DIR = DOCS_DIR / "assets"
+TRANSLATIONS_DIR = ROOT / "translation" / "translations"
+
+LOCALE_LABELS = {
+    "en": "English",
+    "es": "Español",
+    "zh-Hans": "中文（简体）",
+}
+
+NAV_GROUP_LABELS = {
+    "en": {
+        "start_here": "Start Here",
+        "constitution": "Read the Constitution",
+        "commentary": "Commentary",
+        "key_clauses": "Key Clauses",
+        "background": "Background",
+    },
+    "es": {
+        "start_here": "Empieza aquí",
+        "constitution": "Leer la Constitución",
+        "commentary": "Comentario",
+        "key_clauses": "Cláusulas clave",
+        "background": "Contexto",
+    },
+}
+
+OVERVIEW_SUBTITLES = {
+    "en": "A modern replacement draft built around democratic legitimacy, anti-authoritarian safeguards, and readable constitutional architecture.",
+    "es": "Un borrador moderno de reemplazo construido en torno a la legitimidad democrática, las salvaguardas anti-autoritarias y una arquitectura constitucional legible.",
+}
 
 
 PAGE_SOURCES = [
@@ -267,6 +296,40 @@ def copy_source(source: Path) -> str:
     return relative.as_posix()
 
 
+def available_locales() -> list[str]:
+    locales = ["en"]
+    if TRANSLATIONS_DIR.exists():
+        locales.extend(
+            sorted(
+                path.name
+                for path in TRANSLATIONS_DIR.iterdir()
+                if path.is_dir() and any((path / "articles").glob("*.md"))
+            )
+        )
+    seen: list[str] = []
+    for locale in locales:
+        if locale not in seen:
+            seen.append(locale)
+    return seen
+
+
+def locale_meta(locales: list[str]) -> list[dict[str, str]]:
+    return [{"code": locale, "label": LOCALE_LABELS.get(locale, locale)} for locale in locales]
+
+
+def nav_labels(locale: str) -> dict[str, str]:
+    return NAV_GROUP_LABELS.get(locale, NAV_GROUP_LABELS["en"])
+
+
+def localized_article_source(filename: str, locale: str) -> Path:
+    if locale == "en":
+        return ROOT / "articles" / filename
+    translated = TRANSLATIONS_DIR / locale / "articles" / filename
+    if translated.exists():
+        return translated
+    return ROOT / "articles" / filename
+
+
 def parse_scorecard_rows(markdown: str) -> dict[str, dict[str, str]]:
     lines = markdown.splitlines()
     in_summary = False
@@ -292,7 +355,7 @@ def parse_scorecard_rows(markdown: str) -> dict[str, dict[str, str]]:
     return rows
 
 
-def build_manifest() -> dict[str, object]:
+def build_manifest(locale: str, locales: list[str]) -> dict[str, object]:
     scorecard_md = (ROOT / "design-notes" / "scorecard.md").read_text()
     scorecard = parse_scorecard_rows(scorecard_md)
     aggregate = json.loads((ROOT / "simulation" / "reports" / "aggregate.json").read_text())
@@ -320,7 +383,7 @@ def build_manifest() -> dict[str, object]:
     )
 
     for filename in ARTICLE_ORDER:
-        source = ROOT / "articles" / filename
+        source = localized_article_source(filename, locale)
         markdown = source.read_text()
         relative = copy_source(source)
         title = extract_title(markdown, filename)
@@ -338,6 +401,7 @@ def build_manifest() -> dict[str, object]:
                 "search_text": plain_text(markdown),
                 "score": score.get("score"),
                 "score_status": score.get("status"),
+                "source_locale": locale if source != ROOT / "articles" / filename else "en",
             }
         )
 
@@ -433,7 +497,7 @@ def build_manifest() -> dict[str, object]:
 
     overview = {
         "title": "Constitution of the United States of America",
-        "subtitle": "A modern replacement draft built around democratic legitimacy, anti-authoritarian safeguards, and readable constitutional architecture.",
+        "subtitle": OVERVIEW_SUBTITLES.get(locale, OVERVIEW_SUBTITLES["en"]),
         "article_count": len(ARTICLE_ORDER),
         "scenario_count": aggregate["scenario_count"],
         "overall_score": scorecard.get("Overall Draft", {}).get("score"),
@@ -443,12 +507,13 @@ def build_manifest() -> dict[str, object]:
         "top_weakness": scorecard.get("Overall Draft", {}).get("weakness"),
     }
 
+    labels = nav_labels(locale)
     navigation = [
-        {"group": "Start Here", "items": ["overview", "index", "comparison", "scorecard"]},
-        {"group": "Read the Constitution", "items": ["preamble"] + [slugify(filename.replace(".md", "")) for filename in ARTICLE_ORDER]},
-        {"group": "Commentary", "items": ["commentary-overview", "commentary-choices"]},
+        {"group": labels["start_here"], "items": ["overview", "index", "comparison", "scorecard"]},
+        {"group": labels["constitution"], "items": ["preamble"] + [slugify(filename.replace(".md", "")) for filename in ARTICLE_ORDER]},
+        {"group": labels["commentary"], "items": ["commentary-overview", "commentary-choices"]},
         {
-            "group": "Key Clauses",
+            "group": labels["key_clauses"],
             "items": [
                 "clause-unamendable-core",
                 "clause-naturalized-president",
@@ -466,21 +531,23 @@ def build_manifest() -> dict[str, object]:
                 "clause-anti-corruption",
             ],
         },
-        {"group": "Background", "items": ["rationale", "findings", "finalization-plan", "overview-zh"]},
+        {"group": labels["background"], "items": ["rationale", "findings", "finalization-plan", "overview-zh"]},
     ]
 
     return {
         "generated_at": aggregate.get("generated_at", ""),
-        "locale": "en",
+        "locale": locale,
+        "locales": locale_meta(locales),
         "overview": overview,
         "navigation": navigation,
         "docs": docs,
     }
 
 
-def write_manifest(manifest: dict[str, object]) -> None:
+def write_manifest(manifest: dict[str, object], locale: str) -> None:
     ASSETS_DIR.mkdir(parents=True, exist_ok=True)
-    (ASSETS_DIR / "site-data.json").write_text(json.dumps(manifest, indent=2))
+    filename = "site-data.json" if locale == "en" else f"site-data.{locale}.json"
+    (ASSETS_DIR / filename).write_text(json.dumps(manifest, indent=2))
 
 
 def main() -> None:
@@ -491,8 +558,10 @@ def main() -> None:
                 shutil.rmtree(child)
             else:
                 child.unlink()
-    manifest = build_manifest()
-    write_manifest(manifest)
+    locales = available_locales()
+    for locale in locales:
+        manifest = build_manifest(locale, locales)
+        write_manifest(manifest, locale)
 
 
 if __name__ == "__main__":

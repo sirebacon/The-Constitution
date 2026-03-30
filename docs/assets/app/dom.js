@@ -5,7 +5,13 @@ export const refs = {
   navGroups: document.getElementById("navGroups"),
   searchInput: document.getElementById("searchInput"),
   searchStatus: document.getElementById("searchStatus"),
+  searchLabel: document.getElementById("searchLabel"),
+  searchHelp: document.getElementById("searchHelp"),
   sidebar: document.getElementById("sidebar"),
   menuButton: document.getElementById("menuButton"),
   mainContent: document.getElementById("mainContent"),
+  localeSelect: document.getElementById("localeSelect"),
+  localeLabel: document.getElementById("localeLabel"),
+  repoLink: document.getElementById("repoLink"),
+  topbarEyebrow: document.getElementById("topbarEyebrow"),
 };
