@@ -93,6 +93,30 @@ CLAUSE_COMMENTARY_SOURCES = [
         "Why unauthorized force triggers concrete constitutional consequences instead of open-ended drift",
         ["xvi-war-powers-national-security"],
     ),
+    (
+        "clause-political-speech-floor",
+        "Clause Note: Political Speech And Democratic Dissent",
+        ROOT / "commentary" / "clauses" / "political-speech-floor.md",
+        "Clause Notes",
+        "Why political expression receives especially strong protection in a democracy-defending constitution",
+        ["v-rights", "vi-integrity"],
+    ),
+    (
+        "clause-peaceful-transfer",
+        "Clause Note: Peaceful Transfer Of Power",
+        ROOT / "commentary" / "clauses" / "peaceful-transfer.md",
+        "Clause Notes",
+        "Why lawful transfer of power is protected as a constitutional core commitment rather than a political norm",
+        ["vi-integrity", "xix-ratification-transition"],
+    ),
+    (
+        "clause-campaign-finance-equality",
+        "Clause Note: Campaign Finance And Political Equality",
+        ROOT / "commentary" / "clauses" / "campaign-finance-equality.md",
+        "Clause Notes",
+        "Why constitutional democracy permits strong limits on political money without freezing one permanent regulatory model",
+        ["vii-campaign-finance"],
+    ),
 ]
 
 SCORECARD_KEYS = {
@@ -410,6 +434,9 @@ def build_manifest() -> dict[str, object]:
                 "clause-constitutional-organs",
                 "clause-healthcare-floor",
                 "clause-war-powers-backstop",
+                "clause-political-speech-floor",
+                "clause-peaceful-transfer",
+                "clause-campaign-finance-equality",
             ],
         },
         {"group": "Background", "items": ["rationale", "findings", "finalization-plan", "overview-zh"]},

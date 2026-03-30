@@ -64,7 +64,10 @@
         "clause-term-limits",
         "clause-constitutional-organs",
         "clause-healthcare-floor",
-        "clause-war-powers-backstop"
+        "clause-war-powers-backstop",
+        "clause-political-speech-floor",
+        "clause-peaceful-transfer",
+        "clause-campaign-finance-equality"
       ]
     },
     {
@@ -3398,6 +3401,98 @@
       "search_text": "Clause Note: War Powers Backstops Why Not Rely On Ordinary Political Pressure? Because unauthorized military action often survives through drift, ambiguity, and institutional hesitation. If the constitutional system does nothing more than register disapproval, the executive can often continue the operation while the rest of government argues about it. Why The Draft Uses Concrete Consequences This draft links failed authorization to downstream consequences like: withdrawal duty funding consequences impeachment triggering pathways The goal is to stop unauthorized war from becoming self justifying merely because troops are already deployed. Why This Matters For Democracy War is one of the clearest areas where timing can defeat accountability. The backstop architecture exists to make democratic authorization real instead of ceremonial.",
       "related_slugs": [
         "xvi-war-powers-national-security"
+      ]
+    },
+    {
+      "slug": "clause-political-speech-floor",
+      "title": "Clause Note: Political Speech And Democratic Dissent",
+      "group": "Clause Notes",
+      "kind": "commentary",
+      "source": "commentary/clauses/political-speech-floor.md",
+      "status": null,
+      "summary": "In a constitutional democracy, political speech is not just one liberty among many.",
+      "headings": [
+        {
+          "level": 2,
+          "text": "Why Political Speech Gets Special Weight",
+          "anchor": "why-political-speech-gets-special-weight"
+        },
+        {
+          "level": 2,
+          "text": "Why The Protection Extends To Dissent And Opposition",
+          "anchor": "why-the-protection-extends-to-dissent-and-opposition"
+        },
+        {
+          "level": 2,
+          "text": "Why This Still Leaves Room For Law",
+          "anchor": "why-this-still-leaves-room-for-law"
+        }
+      ],
+      "search_text": "Clause Note: Political Speech And Democratic Dissent Why Political Speech Gets Special Weight In a constitutional democracy, political speech is not just one liberty among many. It is one of the main ways people criticize power, organize opposition, expose abuse, and replace those who govern them. That is why this draft treats political expression as part of the democratic core, not only as an ordinary civil liberty. Why The Protection Extends To Dissent And Opposition Authoritarian systems often claim to preserve speech in the abstract while treating criticism of the government, the ruling coalition, or security policy as an exceptional threat. This clause pushes the other way. A system that cannot protect organized dissent under stress is not securely democratic. Why This Still Leaves Room For Law Strong protection for political speech does not eliminate every rule about threats, coercion, defamation, or campaign procedure. It does mean those rules cannot become disguised tools for silencing effective opposition or disabling political challenge.",
+      "related_slugs": [
+        "v-rights",
+        "vi-integrity"
+      ]
+    },
+    {
+      "slug": "clause-peaceful-transfer",
+      "title": "Clause Note: Peaceful Transfer Of Power",
+      "group": "Clause Notes",
+      "kind": "commentary",
+      "source": "commentary/clauses/peaceful-transfer.md",
+      "status": null,
+      "summary": "Because a democratic system is not secured merely by holding elections.",
+      "headings": [
+        {
+          "level": 2,
+          "text": "Why Put Peaceful Transfer In Constitutional Text?",
+          "anchor": "why-put-peaceful-transfer-in-constitutional-text"
+        },
+        {
+          "level": 2,
+          "text": "Why This Draft Treats It As A Core Commitment",
+          "anchor": "why-this-draft-treats-it-as-a-core-commitment"
+        },
+        {
+          "level": 2,
+          "text": "Why This Is More Than Ceremony",
+          "anchor": "why-this-is-more-than-ceremony"
+        }
+      ],
+      "search_text": "Clause Note: Peaceful Transfer Of Power Why Put Peaceful Transfer In Constitutional Text? Because a democratic system is not secured merely by holding elections. It is secured when those who lose can be lawfully removed from power and those who win can actually take office. If transfer depends only on restraint, custom, or goodwill, then the constitutional order is more fragile than it appears. Why This Draft Treats It As A Core Commitment The peaceful transfer of power is one of the clearest dividing lines between constitutional government and disguised regime capture. That is why the draft protects it through: anti subversion rules election and certification safeguards transition protections an unamendable democratic core Why This Is More Than Ceremony Transfer of power is not a symbolic rite. It is the moment when the state proves whether law outranks the incumbent. This clause exists so that refusal to yield power is not treated as only bad behavior. It is treated as a constitutional attack on democracy itself.",
+      "related_slugs": [
+        "vi-integrity",
+        "xix-ratification-transition"
+      ]
+    },
+    {
+      "slug": "clause-campaign-finance-equality",
+      "title": "Clause Note: Campaign Finance And Political Equality",
+      "group": "Clause Notes",
+      "kind": "commentary",
+      "source": "commentary/clauses/campaign-finance-equality.md",
+      "status": null,
+      "summary": "If large concentrations of wealth can dominate political communication, candidate viability, and access to representation, then formal political equality becomes increasingly fictional.",
+      "headings": [
+        {
+          "level": 2,
+          "text": "Why Money In Politics Is A Constitutional Problem",
+          "anchor": "why-money-in-politics-is-a-constitutional-problem"
+        },
+        {
+          "level": 2,
+          "text": "Why The Draft Does Not Freeze One Policy Model",
+          "anchor": "why-the-draft-does-not-freeze-one-policy-model"
+        },
+        {
+          "level": 2,
+          "text": "Why This Matters For Democracy",
+          "anchor": "why-this-matters-for-democracy"
+        }
+      ],
+      "search_text": "Clause Note: Campaign Finance And Political Equality Why Money In Politics Is A Constitutional Problem If large concentrations of wealth can dominate political communication, candidate viability, and access to representation, then formal political equality becomes increasingly fictional. That is why this draft treats campaign finance as part of the democratic order rather than a peripheral regulatory field. Why The Draft Does Not Freeze One Policy Model The Constitution should not try to encode every reporting threshold, public financing ratio, or disclosure form. What it can do is establish that political equality, transparency, and anti corruption are constitutional values strong enough to justify meaningful regulation of political money. Why This Matters For Democracy The point is not to abolish political disagreement or political advocacy. It is to keep representative government from drifting into a system where access to office and influence over public power depend too heavily on private wealth.",
+      "related_slugs": [
+        "vii-campaign-finance"
       ]
     },
     {
