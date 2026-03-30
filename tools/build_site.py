@@ -508,6 +508,14 @@ def localized_article_source(filename: str, locale: str) -> Path:
     return ROOT / "articles" / filename
 
 
+def localized_page_source(slug: str, source: Path, locale: str) -> Path:
+    if slug == "overview" and locale == "zh-Hans":
+        zh_source = ROOT / "design-notes" / "constitutional-overview.zh.md"
+        if zh_source.exists():
+            return zh_source
+    return source
+
+
 def parse_scorecard_rows(markdown: str) -> dict[str, dict[str, str]]:
     lines = markdown.splitlines()
     in_summary = False
@@ -584,6 +592,9 @@ def build_manifest(locale: str, locales: list[str]) -> dict[str, object]:
         )
 
     for slug, title, source, group, fallback_summary in PAGE_SOURCES:
+        if slug == "overview-zh" and locale == "zh-Hans":
+            continue
+        source = localized_page_source(slug, source, locale)
         markdown = source.read_text()
         relative = copy_source(source)
         score = scorecard.get(title, {})
@@ -698,6 +709,10 @@ def build_manifest(locale: str, locales: list[str]) -> dict[str, object]:
     }
 
     labels = nav_labels(locale)
+    background_items = ["rationale", "findings", "finalization-plan"]
+    if locale != "zh-Hans":
+        background_items.append("overview-zh")
+
     navigation = [
         {"group": labels["start_here"], "items": ["overview", "index", "comparison", "scorecard"]},
         {"group": labels["constitution"], "items": ["preamble"] + [slugify(filename.replace(".md", "")) for filename in ARTICLE_ORDER]},
@@ -721,7 +736,7 @@ def build_manifest(locale: str, locales: list[str]) -> dict[str, object]:
                 "clause-anti-corruption",
             ],
         },
-        {"group": labels["background"], "items": ["rationale", "findings", "finalization-plan", "overview-zh"]},
+        {"group": labels["background"], "items": background_items},
     ]
 
     return {
