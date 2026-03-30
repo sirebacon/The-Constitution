@@ -664,6 +664,10 @@ input:focus-visible {
   gap: 0.9rem;
 }
 
+.rights-category[hidden] {
+  display: none;
+}
+
 .rights-category__header {
   display: grid;
   gap: 0.35rem;
