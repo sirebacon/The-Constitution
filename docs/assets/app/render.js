@@ -217,16 +217,18 @@ export function renderHome({ siteData, currentFilter, strings }) {
     switch (key) {
       case "start_here":
         return strings.startHere;
-      case "constitution":
-        return strings.readConstitution;
-      case "guides":
-        return strings.guidesLabel ?? fallback;
       case "visual_guides":
         return strings.visualGuidesLabel ?? fallback;
+      case "constitution":
+        return strings.readConstitution;
+      case "clause_notes":
+        return strings.clauseNotesLabel ?? fallback;
       case "commentary":
         return strings.understandChoices;
-      case "key_clauses":
-        return strings.keyClauses;
+      case "research":
+        return strings.researchLabel ?? fallback;
+      case "contributing":
+        return strings.contributingLabel ?? fallback;
       default:
         return fallback;
     }

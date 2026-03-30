@@ -33,17 +33,7 @@
         "title": "Empieza aqu\u00ed",
         "items": [
           "overview",
-          "index",
-          "comparison",
-          "scorecard"
-        ]
-      },
-      {
-        "key": "guides",
-        "title": "Gu\u00edas",
-        "items": [
-          "how-testing-works",
-          "how-to-write-simulation-tests"
+          "comparison"
         ]
       },
       {
@@ -53,13 +43,16 @@
           "rights-at-a-glance",
           "emergency-powers-lifecycle",
           "power-distribution",
-          "congress-comparison"
+          "congress-comparison",
+          "removal-pathways",
+          "how-elections-work"
         ]
       },
       {
         "key": "constitution",
-        "title": "Leer la Constituci\u00f3n",
+        "title": "La Constituci\u00f3n",
         "items": [
+          "index",
           "preamble",
           "i-electoral-system",
           "ii-legislature",
@@ -83,17 +76,8 @@
         ]
       },
       {
-        "key": "commentary",
-        "title": "Comentario",
-        "items": [
-          "commentary-overview",
-          "commentary-choices",
-          "commentary-peaceful-use"
-        ]
-      },
-      {
-        "key": "key_clauses",
-        "title": "Cl\u00e1usulas clave",
+        "key": "clause_notes",
+        "title": "Notas de cl\u00e1usulas",
         "items": [
           "clause-unamendable-core",
           "clause-naturalized-president",
@@ -110,6 +94,33 @@
           "clause-citizenship-revocation",
           "clause-anti-corruption"
         ]
+      },
+      {
+        "key": "commentary",
+        "title": "Comentario",
+        "items": [
+          "commentary-overview",
+          "commentary-choices",
+          "commentary-peaceful-use"
+        ]
+      },
+      {
+        "key": "research",
+        "title": "Investigaci\u00f3n",
+        "items": [
+          "scorecard",
+          "rationale",
+          "findings",
+          "finalization-plan"
+        ]
+      },
+      {
+        "key": "contributing",
+        "title": "Contribuir",
+        "items": [
+          "how-testing-works",
+          "how-to-write-simulation-tests"
+        ]
       }
     ],
     "featured": {
@@ -122,16 +133,7 @@
       "group": "Empieza aqu\u00ed",
       "items": [
         "overview",
-        "index",
-        "comparison",
-        "scorecard"
-      ]
-    },
-    {
-      "group": "Gu\u00edas",
-      "items": [
-        "how-testing-works",
-        "how-to-write-simulation-tests"
+        "comparison"
       ]
     },
     {
@@ -140,12 +142,15 @@
         "rights-at-a-glance",
         "emergency-powers-lifecycle",
         "power-distribution",
-        "congress-comparison"
+        "congress-comparison",
+        "removal-pathways",
+        "how-elections-work"
       ]
     },
     {
-      "group": "Leer la Constituci\u00f3n",
+      "group": "La Constituci\u00f3n",
       "items": [
+        "index",
         "preamble",
         "i-electoral-system",
         "ii-legislature",
@@ -169,15 +174,7 @@
       ]
     },
     {
-      "group": "Comentario",
-      "items": [
-        "commentary-overview",
-        "commentary-choices",
-        "commentary-peaceful-use"
-      ]
-    },
-    {
-      "group": "Cl\u00e1usulas clave",
+      "group": "Notas de cl\u00e1usulas",
       "items": [
         "clause-unamendable-core",
         "clause-naturalized-president",
@@ -196,11 +193,27 @@
       ]
     },
     {
-      "group": "Contexto",
+      "group": "Comentario",
       "items": [
+        "commentary-overview",
+        "commentary-choices",
+        "commentary-peaceful-use"
+      ]
+    },
+    {
+      "group": "Investigaci\u00f3n",
+      "items": [
+        "scorecard",
         "rationale",
         "findings",
         "finalization-plan"
+      ]
+    },
+    {
+      "group": "Contribuir",
+      "items": [
+        "how-testing-works",
+        "how-to-write-simulation-tests"
       ]
     }
   ],
@@ -3348,6 +3361,62 @@
         }
       ],
       "search_text": "Congress: Then vs. Now This visual guide shows how the legislature in this draft compares to the current U.S. Congress \u2014 what changed, what stayed the same, and why. How To Read This Guide Each row compares one structural feature. Use the category buttons to focus on composition, powers, accountability, or process differences. What This Guide Covers chamber composition and representation term lengths and election cycles exclusive powers of each chamber accountability and removal rules procedural rules including the filibuster confirmation and treaty powers What This Guide Does Not Do This guide is an orientation layer, not the constitutional text itself. For exact wording and legal detail, read: Article I Article II"
+    },
+    {
+      "slug": "removal-pathways",
+      "title": "C\u00f3mo se destituye a los funcionarios",
+      "group": "Gu\u00edas visuales",
+      "kind": "note",
+      "content_type": "visual_guide",
+      "source": "visual-guides/removal-pathways.md",
+      "status": null,
+      "summary": "Cada camino para destituir a un funcionario federal: qui\u00e9n lo activa, qui\u00e9n decide, el umbral de votaci\u00f3n y qu\u00e9 sucede despu\u00e9s",
+      "headings": [
+        {
+          "level": 2,
+          "text": "How To Read This Guide",
+          "anchor": "how-to-read-this-guide"
+        },
+        {
+          "level": 2,
+          "text": "What This Guide Covers",
+          "anchor": "what-this-guide-covers"
+        },
+        {
+          "level": 2,
+          "text": "What This Guide Does Not Do",
+          "anchor": "what-this-guide-does-not-do"
+        }
+      ],
+      "search_text": "How Officials Are Removed This visual guide shows every path for removing a federal official under this constitution \u2014 who triggers it, who decides, what threshold applies, and what happens after. How To Read This Guide Each table covers one officer type. Use the category buttons to focus on the President, Congress, judges, or constitutional organs. Each row is one distinct removal path. What This Guide Covers three paths for removing the President: impeachment, ACC prosecution, and recall expulsion and recall for members of Congress impeachment and discipline for federal judges removal of Electoral Commission and Accountability Commission members What This Guide Does Not Do This guide is an orientation layer, not the constitutional text itself. For exact wording and legal detail, read: Article I \u2014 recall for Congress Article II \u2014 congressional expulsion Article III \u2014 presidential removal Article IV \u2014 judicial removal Article XII \u2014 constitutional organ removal"
+    },
+    {
+      "slug": "how-elections-work",
+      "title": "C\u00f3mo funcionan las elecciones",
+      "group": "Gu\u00edas visuales",
+      "kind": "note",
+      "content_type": "visual_guide",
+      "source": "visual-guides/how-elections-work.md",
+      "status": null,
+      "summary": "Qu\u00e9 tiene de diferente las elecciones federales bajo esta constituci\u00f3n: m\u00e9todos de votaci\u00f3n, registro, protecciones de integridad y revocaci\u00f3n",
+      "headings": [
+        {
+          "level": 2,
+          "text": "How To Read This Guide",
+          "anchor": "how-to-read-this-guide"
+        },
+        {
+          "level": 2,
+          "text": "What This Guide Covers",
+          "anchor": "what-this-guide-covers"
+        },
+        {
+          "level": 2,
+          "text": "What This Guide Does Not Do",
+          "anchor": "what-this-guide-does-not-do"
+        }
+      ],
+      "search_text": "How Elections Work This visual guide explains what is different about federal elections under this constitution \u2014 the voting method, how registration works, what protections prevent manipulation, and how voters can recall officials. How To Read This Guide Each card covers one feature of the electoral system. Use the category buttons to focus on voting methods, access and registration, integrity protections, or the recall mechanism. What This Guide Covers ranked choice voting and multi member districts for the House instant runoff voting for the Regional Assembly automatic voter registration election date protections against emergency manipulation independent redistricting with anti gerrymandering rules voter recall of House and Regional Assembly members What This Guide Does Not Do This guide is an orientation layer, not the constitutional text itself. For exact wording and legal detail, read: Article I Article XII"
     },
     {
       "slug": "commentary-overview",

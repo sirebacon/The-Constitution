@@ -27,30 +27,30 @@ SITE_TITLES = {
 NAV_GROUP_LABELS = {
     "en": {
         "start_here": "Start Here",
-        "constitution": "Read the Constitution",
-        "guides": "Guides",
         "visual_guides": "Visual Guides",
+        "constitution": "The Constitution",
+        "clause_notes": "Clause Notes",
         "commentary": "Commentary",
-        "key_clauses": "Key Clauses",
-        "background": "Background",
+        "research": "Research",
+        "contributing": "Contributing",
     },
     "es": {
         "start_here": "Empieza aquí",
-        "constitution": "Leer la Constitución",
-        "guides": "Guías",
         "visual_guides": "Guías visuales",
+        "constitution": "La Constitución",
+        "clause_notes": "Notas de cláusulas",
         "commentary": "Comentario",
-        "key_clauses": "Cláusulas clave",
-        "background": "Contexto",
+        "research": "Investigación",
+        "contributing": "Contribuir",
     },
     "zh-Hans": {
         "start_here": "从这里开始",
-        "constitution": "阅读宪法",
-        "guides": "指南",
         "visual_guides": "可视化指南",
+        "constitution": "宪法",
+        "clause_notes": "条款注释",
         "commentary": "评注",
-        "key_clauses": "关键条款",
-        "background": "背景",
+        "research": "研究",
+        "contributing": "贡献指南",
     },
 }
 
@@ -160,6 +160,16 @@ PAGE_METADATA = {
         "en": ("Congress: Then vs. Now", "A side-by-side comparison of the current U.S. Congress and the legislature in this draft — what changed, what stayed, and why"),
         "es": ("El Congreso: antes y ahora", "Comparación del Congreso de EE. UU. actual y la legislatura en este borrador — qué cambió, qué se mantuvo y por qué"),
         "zh-Hans": ("国会：今昔对比", "对比当前美国国会与本草案立法机构——有何变化、有何保留及其原因"),
+    },
+    "removal-pathways": {
+        "en": ("How Officials Are Removed", "Every path for removing a federal official — who triggers it, who decides, the vote threshold, and what happens after"),
+        "es": ("Cómo se destituye a los funcionarios", "Cada camino para destituir a un funcionario federal: quién lo activa, quién decide, el umbral de votación y qué sucede después"),
+        "zh-Hans": ("如何罢免官员", "罢免联邦官员的每条路径——谁触发、谁决定、投票门槛以及后续结果"),
+    },
+    "how-elections-work": {
+        "en": ("How Elections Work", "What is different about federal elections under this constitution — voting methods, registration, integrity protections, and recall"),
+        "es": ("Cómo funcionan las elecciones", "Qué tiene de diferente las elecciones federales bajo esta constitución: métodos de votación, registro, protecciones de integridad y revocación"),
+        "zh-Hans": ("选举如何运作", "本宪法下联邦选举有何不同——投票方式、选民登记、诚信保护与罢免机制"),
     },
 }
 
@@ -296,6 +306,20 @@ VISUAL_GUIDE_SOURCES = [
         ROOT / "visual-guides" / "congress-comparison.md",
         "Visual Guides",
         "A side-by-side comparison of the current U.S. Congress and the legislature in this draft",
+    ),
+    (
+        "removal-pathways",
+        "How Officials Are Removed",
+        ROOT / "visual-guides" / "removal-pathways.md",
+        "Visual Guides",
+        "Every path for removing a federal official — who triggers it, who decides, the vote threshold, and what happens after",
+    ),
+    (
+        "how-elections-work",
+        "How Elections Work",
+        ROOT / "visual-guides" / "how-elections-work.md",
+        "Visual Guides",
+        "What is different about federal elections under this constitution — voting methods, registration, integrity protections, and recall",
     ),
 ]
 
@@ -486,12 +510,10 @@ def slugify(text: str) -> str:
 
 def homepage_section_items() -> dict[str, list[str]]:
     return {
-        "start_here": ["overview", "index", "comparison", "scorecard"],
-        "guides": ["how-testing-works", "how-to-write-simulation-tests"],
-        "visual_guides": ["rights-at-a-glance", "emergency-powers-lifecycle", "power-distribution", "congress-comparison"],
-        "constitution": ["preamble"] + [slugify(filename.replace(".md", "")) for filename in ARTICLE_ORDER],
-        "commentary": ["commentary-overview", "commentary-choices", "commentary-peaceful-use"],
-        "key_clauses": [
+        "start_here": ["overview", "comparison"],
+        "visual_guides": ["rights-at-a-glance", "emergency-powers-lifecycle", "power-distribution", "congress-comparison", "removal-pathways", "how-elections-work"],
+        "constitution": ["index", "preamble"] + [slugify(filename.replace(".md", "")) for filename in ARTICLE_ORDER],
+        "clause_notes": [
             "clause-unamendable-core",
             "clause-naturalized-president",
             "clause-high-impact-directives",
@@ -507,6 +529,9 @@ def homepage_section_items() -> dict[str, list[str]]:
             "clause-citizenship-revocation",
             "clause-anti-corruption",
         ],
+        "commentary": ["commentary-overview", "commentary-choices", "commentary-peaceful-use"],
+        "research": ["scorecard", "rationale", "findings", "finalization-plan"],
+        "contributing": ["how-testing-works", "how-to-write-simulation-tests"],
     }
 
 
@@ -862,7 +887,6 @@ def build_manifest(locale: str, locales: list[str]) -> dict[str, object]:
 
     labels = nav_labels(locale)
     section_items = homepage_section_items()
-    background_items = ["rationale", "findings", "finalization-plan"]
     homepage_sections = [
         {"key": key, "title": labels[key], "items": items}
         for key, items in section_items.items()
@@ -870,12 +894,12 @@ def build_manifest(locale: str, locales: list[str]) -> dict[str, object]:
 
     navigation = [
         {"group": labels["start_here"], "items": section_items["start_here"]},
-        {"group": labels["guides"], "items": section_items["guides"]},
         {"group": labels["visual_guides"], "items": section_items["visual_guides"]},
         {"group": labels["constitution"], "items": section_items["constitution"]},
+        {"group": labels["clause_notes"], "items": section_items["clause_notes"]},
         {"group": labels["commentary"], "items": section_items["commentary"]},
-        {"group": labels["key_clauses"], "items": section_items["key_clauses"]},
-        {"group": labels["background"], "items": background_items},
+        {"group": labels["research"], "items": section_items["research"]},
+        {"group": labels["contributing"], "items": section_items["contributing"]},
     ]
 
     return {

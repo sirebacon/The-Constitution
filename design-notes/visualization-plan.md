@@ -37,129 +37,124 @@ So the right model is:
 
 ---
 
-## What To Build First
+## Built
 
-Phase 1 should prioritize visualizations that help general readers understand the system quickly and do not require complex graph logic.
+These are complete and live on the site.
 
-### 1. Rights At A Glance
-Question:
-`What rights does this constitution protect?`
+### 1. Rights At A Glance — DONE
+Question: `What rights does this constitution protect?`
 
-Why first:
+Card grid, filterable by category: political rights, civil liberties, due process, equality, digital rights, social and economic rights, non-derogable rights. English, Spanish, and Chinese.
 
-- it is immediately useful to ordinary readers
-- it can be built with a card grid plus simple filtering
-- it translates cleanly
-- it does not depend on difficult layout logic
+### 2. Emergency Powers Lifecycle — DONE
+Question: `What happens when an emergency is declared?`
 
-Format:
+Step-by-step flow with three paths: ordinary, lapse, and abuse. Filterable by path. English, Spanish, and Chinese.
 
-- visual guide page inside the current site
-- HTML/CSS card grid with lightweight filtering
-- each card links back to the relevant article or clause note
+### 3. How Power Is Distributed — DONE
+Question: `Who can do what, and who checks whom?`
 
-Categories:
+Card grid showing all seven constitutional actors and their power links, filterable by type: electoral, checks, accountability.
 
-- political rights
-- civil liberties
-- due process
-- equality
-- digital rights
-- social and economic rights
-- non-derogable rights
+### 4. Congress: Then vs. Now — DONE
+Question: `How is the legislature different from the current U.S. Congress?`
 
-### 2. Emergency Powers Lifecycle
-Question:
-`What happens when an emergency is declared?`
-
-Why second:
-
-- it explains one of the most important design choices
-- it is more legible as a guided flow than as article text
-- it helps readers compare this draft to the current U.S. system
-
-Format:
-
-- static or lightly interactive SVG flow diagram
-- optional step toggles for:
-  - ordinary path
-  - rejection path
-  - lapse path
-  - abuse path
-
-Important note:
-
-Before implementation, the constitutional references in the diagram must be checked against the current articles. The visual must track the actual final article locations, not older drafting references.
-
-### 3. How Power Is Distributed
-Question:
-`Who can do what, and who checks whom?`
-
-Why third:
-
-- readers need a structural mental model
-- a curated diagram is clearer than a force-directed network
-- this can explain the role of the House, Regional Assembly, President, Courts, Electoral Commission, and Accountability Commission
-
-Format:
-
-- structured SVG system map
-- boxes for institutions
-- labeled arrows for major powers and checks
-- click or tap reveals linked article references
-
-This should replace the proposed force-directed graph as the first institutional visualization.
+Comparison table, filterable by category: composition, terms and elections, exclusive powers, procedural rules.
 
 ---
 
-## What To Build Second
+## What To Build Next
 
-These visuals answer deeper process questions once the top-level orientation layer exists.
+These four are the highest-value remaining guides for general readers.
 
-### 4. Amendment Process
-Question:
-`How hard is it to change this constitution?`
+### 5. How Officials Are Removed
+Question: `What happens when someone abuses power?`
 
-Format:
+Why next:
 
-- two-column infographic
-- Track 1 and Track 2 side by side
-- locked unamendable core panel below
-- optional comparison callout to current U.S. Article V
-
-Why this belongs early:
-
-- it explains one of the project’s most distinctive features
-- it is easy to read visually
-- it pairs well with existing commentary on the unamendable core
-
-### 5. Removal Pathways
-Question:
-`How do you remove an official who has gone wrong?`
+- most topical for current readers
+- covers five distinct removal paths that many readers will not know exist
+- the three paths for the President alone (impeachment, ACC prosecution, recall) are a key design distinction
 
 Format:
 
-- swimlane diagram
-- separate lanes for President, judges, commission members, and legislators where relevant
+- comparison table, same pattern as congress-comparison
+- filterable by officer type: President, judges, ACC and EC members, Congress members
+- columns: trigger → who decides → threshold → outcome
 
-Why second-tier:
+### 6. How Elections Work
+Question: `What is different about voting here?`
 
-- very useful, but more complex than the first three
-- more likely to drift out of date if article text changes
+Why:
 
-### 6. Legislative Path
-Question:
-`How does a bill become law here?`
+- ranked-choice STV is unfamiliar and confusing to most readers
+- automatic voter registration, independent redistricting, and election-date protections are significant changes
+- the recall mechanism needs explaining in context
 
 Format:
 
-- sequence diagram
-- ordinary path, veto path, and special budget path
+- card grid, same pattern as rights-at-a-glance
+- filterable by category: voting method, access and registration, integrity protections, recall
 
-Why second-tier:
+### 7. The Amendment Process
+Question: `How hard is it to change this constitution?`
 
-- important, but less attention-grabbing than rights and emergency powers
-- needs careful treatment of exceptions
+Why:
+
+- the unamendable core is the most distinctive structural design choice in the draft
+- Track 1 vs Track 2 paths are easy to show side by side
+- comparison to current Article V makes the distinction concrete
+
+Format:
+
+- two-column table: Track 1 (structural) vs Track 2 (rights expansion)
+- locked panel below for the unamendable core listing
+- optional third column comparing to current U.S. Article V
+
+### 8. What The Accountability Commission Does
+Question: `What is this new institution and who controls it?`
+
+Why:
+
+- the ACC is completely unfamiliar — no equivalent exists in current U.S. law
+- readers will ask who watches the watchers
+- the independence design (multi-party, staggered terms, no presidential removal) is worth explaining
+
+Format:
+
+- card grid
+- filterable by aspect: what it is, what it can do, what it cannot do, what happens if someone tries to capture it
+
+---
+
+## What To Build Later
+
+These are good ideas but depend on having the core explainer layer stable first.
+
+### 9. Presidential Powers: Then vs. Now
+Question: `What can the President actually do — and what can’t they?`
+
+Format: comparison table, same pattern as congress-comparison. Covers veto, appointments, emergency declarations, pardons, military command, executive orders, firing agency heads.
+
+### 10. How A Bill Becomes Law
+Question: `What is the legislative path?`
+
+Format: step-by-step flow filterable by path: ordinary, vetoed, deadlocked. Covers the no-filibuster default and the 60-day deadlock resolution mechanism.
+
+### 11. Scenario Explorer
+Question: `What happens when something goes wrong?`
+
+Best built from simulator outputs once a clean generation format exists. Group-level overview pages first, individual scenario drilldown later.
+
+### 12. Article Structure Map
+Question: `How do the articles connect to each other?`
+
+Most useful to advanced readers. Requires cross-reference parsing. Network or matrix view, article click highlights local neighborhood.
+
+### 13. Comparative Matrix
+Question: `How does this compare to other constitutions?`
+
+Hand-curated table comparing key features against current U.S., Germany, Canada, and South Africa. Requires careful source discipline to avoid going stale.
 
 ---
 
@@ -359,66 +354,39 @@ Only add separate data-build scripts when a guide genuinely needs generated data
 
 ## Implementation Order
 
-### Phase 1 — Site-Integrated First Wave
+### Phase 1 — DONE
+
+Built: Rights At A Glance, Emergency Powers Lifecycle, How Power Is Distributed, Congress: Then vs. Now.
+
+The site has a Visual Guides nav group, four published guides, mobile-safe inline visuals, and English/Spanish/Chinese locale support.
+
+### Phase 2 — Next
+
+Build in order:
+
+1. `How Officials Are Removed` — most topical, same format as congress-comparison
+2. `How Elections Work` — most unfamiliar content, high public interest
+3. `The Amendment Process` — most distinctive design feature, unamendable core
+4. `What The Accountability Commission Does` — fills largest knowledge gap
+
+Milestone: the site can explain all of the constitution’s major structural innovations without requiring article-by-article reading.
+
+### Phase 3 — Process Depth
 
 Build:
 
-1. `Rights At A Glance`
-2. `Emergency Powers Lifecycle`
-3. `How Power Is Distributed`
+1. `Presidential Powers: Then vs. Now`
+2. `How A Bill Becomes Law`
 
-Deliverables:
-
-- new `Visual Guides` nav group
-- three published visual guide pages
-- mobile-safe inline visuals
-- English first, locale-ready structure
-
-Milestone:
-
-The site has a real visual explainer layer that helps first-time readers understand the system quickly.
-
-### Phase 2 — Process Explainers
+### Phase 4 — Generated Advanced Views
 
 Build:
 
-1. `Amendment Process`
-2. `Removal Pathways`
-3. `Legislative Path`
+1. scenario explorer (from simulation JSON)
+2. article structure map (from cross-reference parsing)
 
-Milestone:
-
-The site can explain the constitution’s main process architecture without requiring article-by-article reading.
-
-### Phase 3 — Generated Advanced Views
+### Phase 5 — Comparative Layer
 
 Build:
 
-1. scenario explorer
-2. article structure map
-
-Milestone:
-
-Advanced readers can inspect simulation and structural relationships visually.
-
-### Phase 4 — Comparative Layer
-
-Build:
-
-1. comparative matrix
-
-Milestone:
-
-The site can position this draft against current and foreign constitutional models in a disciplined way.
-
----
-
-## Immediate Next Step
-
-The best first implementation target is:
-
-1. add a `Visual Guides` section to the existing site
-2. build `Rights At A Glance`
-3. use that page to establish the rendering pattern for all later visualizations
-
-That is the highest-value, lowest-risk way to start.
+1. comparative matrix vs. current U.S., Germany, Canada, South Africa
