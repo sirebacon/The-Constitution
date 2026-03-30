@@ -710,8 +710,6 @@ def build_manifest(locale: str, locales: list[str]) -> dict[str, object]:
 
     labels = nav_labels(locale)
     background_items = ["rationale", "findings", "finalization-plan"]
-    if locale != "zh-Hans":
-        background_items.append("overview-zh")
 
     navigation = [
         {"group": labels["start_here"], "items": ["overview", "index", "comparison", "scorecard"]},
