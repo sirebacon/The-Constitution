@@ -4,6 +4,18 @@ This document describes the revised draft in broad terms: what kind of constitut
 
 ---
 
+## Peaceful Civic Use
+
+This project is a public constitutional drafting project for peaceful civic discussion, critique, translation, education, simulation, and democratic advocacy.
+
+It is meant to be studied, revised, forked, translated, taught from, or campaigned on lawfully by other people if they find it useful.
+
+It is not a militia, an operational organization, or a platform for threats, violence, sabotage, or unlawful action.
+
+For the fuller project-use note, see the companion page on peaceful civic use.
+
+---
+
 ## In Broad Terms
 
 This draft is a democratic-republican constitution for a large federal presidential state, but it is not a simple update of the current U.S. Constitution. It is a more explicit, modern, and anti-authoritarian constitutional order.
