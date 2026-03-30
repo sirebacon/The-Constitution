@@ -18,6 +18,12 @@ That is why the draft protects:
 
 without constitutionalizing a full healthcare code.
 
+## Why This Does Not Imply Privatization
+
+The clause is flexible about delivery, not indifferent about public duty.
+
+It now makes explicit that the government's constitutional obligation can be carried out through public provision, public insurance, regulated private participation, or a mixed system, but that private participation never displaces the state's responsibility to secure the right.
+
 ## Why This Design Is Stronger
 
 It lets the constitutional system require real coverage while still leaving room for democratic argument over how the program is structured.

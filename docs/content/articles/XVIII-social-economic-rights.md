@@ -24,7 +24,7 @@ Establishes social, economic, environmental, and affirmative rights of all perso
 
 ## Section 2 — Affirmative Rights
 
-**2.1 Healthcare.** Every person has the right to access basic healthcare and emergency medical treatment. No person shall be denied emergency medical treatment due to inability to pay. Congress shall establish and maintain a system under which inability to pay does not bar access to medically necessary care.
+**2.1 Healthcare.** Every person has the right to access basic healthcare and emergency medical treatment. No person shall be denied emergency medical treatment due to inability to pay. Congress shall establish and maintain a system that guarantees universal access to medically necessary care and under which inability to pay does not bar such access. This duty may be fulfilled through public provision, public insurance, regulated private participation, or a mixed system, but private participation does not diminish the government's constitutional obligation to secure the right.
 
 **2.2 Education.** Every person has the right to free public education through the completion of secondary school. Public education shall be of sufficient quality to enable meaningful participation in civic and economic life. No state may provide substantially inferior education to any group of students on the basis of race, income, disability, immigration status, or geographic location.
 

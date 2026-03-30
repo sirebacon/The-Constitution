@@ -21,7 +21,7 @@ The draft therefore states enforceable floors, anti-backsliding principles, and 
 
 The constitutional role here is to say what government must secure, not to dictate every institutional model.
 
-That is why the article protects access to healthcare, education, housing, labor dignity, child welfare, and related goods without constitutionalizing a complete welfare-state statute.
+That is why the article protects access to healthcare, education, housing, labor dignity, child welfare, and related goods without constitutionalizing a complete welfare-state statute. In the healthcare clause specifically, the draft now makes clear that implementation flexibility does not imply a privatization preference: if private actors participate, they do so within a public constitutional duty that government remains responsible for fulfilling.
 
 ## Why Courts Get A Limited Role
 
