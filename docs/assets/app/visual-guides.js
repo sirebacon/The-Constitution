@@ -792,6 +792,328 @@ function congressDataForLocale(locale) {
   return CONGRESS_COMPARISON[locale] || CONGRESS_COMPARISON.en;
 }
 
+const AMENDMENT_GUIDE = {
+  en: {
+    all: "All",
+    filterLabel: "Filter amendment process categories",
+    note: "Track 1 covers structural amendments. Track 2 covers rights-expanding amendments. The unamendable core sits outside both paths.",
+    featureLabel: "Feature",
+    track1Label: "Track 1",
+    track2Label: "Track 2",
+    whyLabel: "Why it matters",
+    categories: [
+      {
+        key: "tracks",
+        label: "Two amendment tracks",
+        rows: [
+          {
+            feature: "Purpose",
+            current: "Structural or institutional amendment",
+            draft: "Rights-expanding amendment only",
+            note: "The draft separates ordinary redesign from rights expansion so the easier path cannot be used to narrow the democratic floor.",
+          },
+          {
+            feature: "Congressional trigger",
+            current: "2/3 of both chambers",
+            draft: "3/5 of both chambers",
+            note: "Track 2 is easier to initiate because it can only expand rights rather than weaken them.",
+          },
+          {
+            feature: "Judicial pre-clearance",
+            current: "Required before ratification",
+            draft: "Required before ratification",
+            note: "The Supreme Court must certify that the proposal fits the correct track and does not violate the unamendable core.",
+          },
+          {
+            feature: "Ratification by states",
+            current: "3/4 of the states",
+            draft: "2/3 of the states",
+            note: "Track 2 still needs broad federal buy-in, but not the higher threshold used for structural redesign.",
+          },
+          {
+            feature: "National referendum",
+            current: "Not required",
+            draft: "Required",
+            note: "Track 2 adds direct democratic approval before rights expansion becomes law.",
+          },
+        ],
+      },
+      {
+        key: "preclearance",
+        label: "Pre-clearance and gatekeeping",
+        rows: [
+          {
+            feature: "Wrong-track proposal",
+            current: "Rejected before ratification",
+            draft: "Rejected before ratification",
+            note: "A proposal cannot use Track 2 if it really narrows rights or restructures power.",
+          },
+          {
+            feature: "Unamendable-core conflict",
+            current: "Rejected before ratification",
+            draft: "Rejected before ratification",
+            note: "No amendment may repeal, suspend, or evade the democratic core listed in Article XI.",
+          },
+          {
+            feature: "Effect of denial",
+            current: "Proposal stops",
+            draft: "Proposal stops",
+            note: "Denied proposals never reach ratification, preventing a political campaign around an unconstitutional amendment path.",
+          },
+        ],
+      },
+      {
+        key: "core",
+        label: "Unamendable core",
+        rows: [
+          {
+            feature: "What is locked",
+            current: "Republican form of government only, indirectly",
+            draft: "Democracy, equal citizenship, regular elections, judicial review, rights floor, civilian control, and more",
+            note: "The draft makes the permanently protected core express rather than leaving it mostly implicit.",
+          },
+          {
+            feature: "How many provisions",
+            current: "No explicit locked list beyond equal suffrage in the Senate without state consent",
+            draft: "Eleven permanently locked commitments",
+            note: "The point is to prevent legal self-destruction by temporary majorities.",
+          },
+        ],
+      },
+    ],
+  },
+  es: {
+    all: "Todo",
+    filterLabel: "Filtrar categorías del proceso de enmienda",
+    note: "La Vía 1 cubre enmiendas estructurales. La Vía 2 cubre enmiendas que amplían derechos. El núcleo no enmendable queda fuera de ambas rutas.",
+    featureLabel: "Elemento",
+    track1Label: "Vía 1",
+    track2Label: "Vía 2",
+    whyLabel: "Por qué importa",
+    categories: [
+      {
+        key: "tracks",
+        label: "Dos vías de enmienda",
+        rows: [
+          { feature: "Propósito", current: "Enmienda estructural o institucional", draft: "Solo enmienda que amplía derechos", note: "El borrador separa el rediseño ordinario de la expansión de derechos para que la vía más fácil no pueda usarse para debilitar el piso democrático." },
+          { feature: "Activación en el Congreso", current: "2/3 de ambas cámaras", draft: "3/5 de ambas cámaras", note: "La Vía 2 es más fácil de iniciar porque solo puede ampliar derechos y no reducirlos." },
+          { feature: "Preautorización judicial", current: "Requerida antes de la ratificación", draft: "Requerida antes de la ratificación", note: "El Tribunal Supremo debe certificar que la propuesta encaja en la vía correcta y no viola el núcleo no enmendable." },
+          { feature: "Ratificación por los estados", current: "3/4 de los estados", draft: "2/3 de los estados", note: "La Vía 2 sigue requiriendo amplio respaldo federal, pero no el umbral más alto usado para rediseños estructurales." },
+          { feature: "Referéndum nacional", current: "No requerido", draft: "Requerido", note: "La Vía 2 añade aprobación democrática directa antes de que la expansión de derechos entre en vigor." },
+        ],
+      },
+      {
+        key: "preclearance",
+        label: "Preautorización y control de entrada",
+        rows: [
+          { feature: "Propuesta en vía incorrecta", current: "Rechazada antes de la ratificación", draft: "Rechazada antes de la ratificación", note: "Una propuesta no puede usar la Vía 2 si en realidad reduce derechos o reestructura el poder." },
+          { feature: "Conflicto con el núcleo no enmendable", current: "Rechazada antes de la ratificación", draft: "Rechazada antes de la ratificación", note: "Ninguna enmienda puede derogar, suspender o eludir el núcleo democrático enumerado en el Artículo XI." },
+          { feature: "Efecto de la denegación", current: "La propuesta se detiene", draft: "La propuesta se detiene", note: "Las propuestas denegadas nunca llegan a la ratificación, lo que evita campañas políticas sobre una vía inconstitucional." },
+        ],
+      },
+      {
+        key: "core",
+        label: "Núcleo no enmendable",
+        rows: [
+          { feature: "Qué queda bloqueado", current: "Solo la forma republicana de gobierno, indirectamente", draft: "Democracia, ciudadanía igualitaria, elecciones periódicas, control judicial, piso de derechos, control civil y más", note: "El borrador hace expreso el núcleo permanentemente protegido en lugar de dejarlo mayormente implícito." },
+          { feature: "Cuántas disposiciones", current: "No hay lista explícita bloqueada salvo la igualdad de sufragio en el Senado sin consentimiento estatal", draft: "Once compromisos permanentemente bloqueados", note: "El objetivo es impedir la autodestrucción legal por mayorías temporales." },
+        ],
+      },
+    ],
+  },
+  "zh-Hans": {
+    all: "全部",
+    filterLabel: "筛选修宪流程类别",
+    note: "路径一用于结构性修宪。路径二仅用于扩大权利。不可修宪核心位于两条路径之外。",
+    featureLabel: "项目",
+    track1Label: "路径一",
+    track2Label: "路径二",
+    whyLabel: "意义",
+    categories: [
+      {
+        key: "tracks",
+        label: "两条修宪路径",
+        rows: [
+          { feature: "用途", current: "结构性或制度性修宪", draft: "仅限扩大权利的修宪", note: "草案将普通制度重构与权利扩张分开，防止较容易的路径被用来削弱民主底线。" },
+          { feature: "国会启动门槛", current: "两院各2/3", draft: "两院各3/5", note: "路径二更容易启动，因为它只能扩大权利，不能缩减权利。" },
+          { feature: "司法预审", current: "批准前必须完成", draft: "批准前必须完成", note: "最高法院必须确认提案适用正确路径，且不违反不可修宪核心。" },
+          { feature: "州批准门槛", current: "3/4州同意", draft: "2/3州同意", note: "路径二仍需要广泛联邦支持，但门槛低于结构性重构所适用的标准。" },
+          { feature: "全国公投", current: "不要求", draft: "要求", note: "路径二在权利扩张生效前增加全国直接民主批准。" },
+        ],
+      },
+      {
+        key: "preclearance",
+        label: "预审与入口控制",
+        rows: [
+          { feature: "使用错误路径的提案", current: "在批准前被否决", draft: "在批准前被否决", note: "如果提案实际上缩减权利或重构权力，就不能使用路径二。" },
+          { feature: "与不可修宪核心冲突", current: "在批准前被否决", draft: "在批准前被否决", note: "任何修宪都不得废除、暂停或规避第十一条列出的民主核心。" },
+          { feature: "否决后的效果", current: "提案终止", draft: "提案终止", note: "被否决的提案不会进入批准阶段，从而避免围绕违宪修宪路径发动政治运动。" },
+        ],
+      },
+      {
+        key: "core",
+        label: "不可修宪核心",
+        rows: [
+          { feature: "锁定内容", current: "仅间接保护共和政体", draft: "民主、平等公民资格、定期选举、司法审查、权利底线、文官控制等", note: "草案将永久受保护的核心明确写出，而不是主要依赖隐含原则。" },
+          { feature: "条目数量", current: "除未经州同意不得剥夺参议院平等席位外，没有明确锁定清单", draft: "十一项永久锁定承诺", note: "目的是防止短暂多数通过法律形式自我毁灭。" },
+        ],
+      },
+    ],
+  },
+};
+
+function amendmentDataForLocale(locale) {
+  return AMENDMENT_GUIDE[locale] || AMENDMENT_GUIDE.en;
+}
+
+const ACCOUNTABILITY_GUIDE = {
+  en: {
+    all: "All",
+    filterLabel: "Filter Accountability Commission categories",
+    note: "This guide separates the Commission's composition, powers, limits, and anti-capture protections so readers can see both what it can do and what it cannot become.",
+    categories: [
+      {
+        key: "composition",
+        label: "Composition and appointment",
+        summary: "How the Commission is staffed and insulated from one-person control.",
+        items: [
+          { title: "Multi-member body", article: "Art. XII", text: "The Commission is not a single prosecutor. It is a constitutional organ with fixed terms, multi-member structure, and appointment rules that prevent personal control." },
+          { title: "Split appointment path", article: "Art. XII", text: "Its membership is selected through a shared institutional path rather than by unilateral presidential choice." },
+          { title: "Protected tenure", article: "Art. XII", text: "Members cannot simply be fired for political inconvenience. Removal follows constitutional procedures." },
+        ],
+      },
+      {
+        key: "powers",
+        label: "Powers",
+        summary: "What the Commission can investigate, prosecute, and enforce.",
+        items: [
+          { title: "Corruption and abuse investigations", article: "Arts. VIII, XII", text: "The Commission can investigate bribery, corruption, anti-subversion conduct, and other public-integrity offenses." },
+          { title: "Independent prosecution", article: "Arts. III, VIII, XII", text: "It can bring cases without waiting for ordinary executive political approval." },
+          { title: "Constitutional-order protection", article: "Arts. VI, XII", text: "Its mandate includes defending the constitutional order against electoral sabotage, foreign influence, and anti-subversion conduct." },
+        ],
+      },
+      {
+        key: "limits",
+        label: "Limits",
+        summary: "What the Commission is not allowed to become.",
+        items: [
+          { title: "No free-floating police power", article: "Art. XII", text: "The Commission is not a general domestic-security agency. Its authority is tied to defined constitutional offenses and public-integrity functions." },
+          { title: "Still subject to courts", article: "Arts. IV, XII", text: "Its actions remain reviewable in court. Constitutional process does not disappear because the target is politically powerful." },
+          { title: "Cannot rewrite policy by prosecution", article: "Arts. VIII, XII", text: "The Commission enforces the constitutional order; it does not become a substitute legislature." },
+        ],
+      },
+      {
+        key: "protections",
+        label: "Anti-capture protections",
+        summary: "What happens if someone tries to paralyze, defund, or capture it.",
+        items: [
+          { title: "Continuity protections", article: "Arts. XII, XIX", text: "The constitutional design includes startup and continuity backstops so the Commission cannot be quietly switched off during transition or sabotage." },
+          { title: "Removal limits", article: "Art. XII", text: "Commission members cannot be removed by ordinary executive displeasure. Constitutional removal procedures still apply." },
+          { title: "Institutional sabotage is itself unconstitutional", article: "Arts. VI, XII, XIX", text: "Attempts to destroy records, disable operations, or block lawful functioning can themselves trigger constitutional consequences." },
+        ],
+      },
+    ],
+  },
+  es: {
+    all: "Todo",
+    filterLabel: "Filtrar categorías de la Comisión de Rendición de Cuentas",
+    note: "Esta guía separa la composición, poderes, límites y protecciones contra captura de la Comisión para que el lector vea tanto lo que puede hacer como lo que no puede llegar a ser.",
+    categories: [
+      {
+        key: "composition",
+        label: "Composición y nombramiento",
+        summary: "Cómo se integra la Comisión y cómo se la protege del control de una sola persona.",
+        items: [
+          { title: "Órgano colegiado", article: "Art. XII", text: "La Comisión no es un fiscal único. Es un órgano constitucional con mandatos fijos, estructura colegiada y reglas de nombramiento que impiden el control personal." },
+          { title: "Vía de nombramiento compartida", article: "Art. XII", text: "Sus integrantes se seleccionan mediante una vía institucional compartida y no por decisión presidencial unilateral." },
+          { title: "Mandato protegido", article: "Art. XII", text: "Sus miembros no pueden ser destituidos simplemente por conveniencia política. La remoción sigue procedimientos constitucionales." },
+        ],
+      },
+      {
+        key: "powers",
+        label: "Poderes",
+        summary: "Qué puede investigar, procesar y hacer cumplir la Comisión.",
+        items: [
+          { title: "Investigaciones de corrupción y abuso", article: "Arts. VIII, XII", text: "La Comisión puede investigar soborno, corrupción, conducta antisubversiva y otros delitos de integridad pública." },
+          { title: "Procesamiento independiente", article: "Arts. III, VIII, XII", text: "Puede presentar casos sin esperar aprobación política ordinaria del ejecutivo." },
+          { title: "Protección del orden constitucional", article: "Arts. VI, XII", text: "Su mandato incluye defender el orden constitucional frente a sabotaje electoral, influencia extranjera y conducta antisubversiva." },
+        ],
+      },
+      {
+        key: "limits",
+        label: "Límites",
+        summary: "En qué no puede convertirse la Comisión.",
+        items: [
+          { title: "Sin poder policial general", article: "Art. XII", text: "La Comisión no es una agencia general de seguridad interior. Su autoridad está ligada a delitos constitucionales definidos y funciones de integridad pública." },
+          { title: "Sigue sujeta a los tribunales", article: "Arts. IV, XII", text: "Sus actos siguen siendo revisables judicialmente. El proceso constitucional no desaparece porque el objetivo sea políticamente poderoso." },
+          { title: "No puede reescribir políticas mediante procesos", article: "Arts. VIII, XII", text: "La Comisión hace cumplir el orden constitucional; no se convierte en una legislatura sustituta." },
+        ],
+      },
+      {
+        key: "protections",
+        label: "Protecciones contra la captura",
+        summary: "Qué pasa si alguien intenta paralizarla, desfinanciarla o capturarla.",
+        items: [
+          { title: "Protecciones de continuidad", article: "Arts. XII, XIX", text: "El diseño constitucional incluye salvaguardas de arranque y continuidad para que la Comisión no pueda apagarse silenciosamente durante una transición o sabotaje." },
+          { title: "Límites a la remoción", article: "Art. XII", text: "Los miembros de la Comisión no pueden ser removidos por simple disgusto del ejecutivo. Siguen aplicando los procedimientos constitucionales de remoción." },
+          { title: "El sabotaje institucional es inconstitucional", article: "Arts. VI, XII, XIX", text: "Los intentos de destruir registros, desactivar operaciones o bloquear el funcionamiento legal pueden generar por sí mismos consecuencias constitucionales." },
+        ],
+      },
+    ],
+  },
+  "zh-Hans": {
+    all: "全部",
+    filterLabel: "筛选问责委员会类别",
+    note: "本指南将委员会的构成、权力、限制与防俘获保护分开展示，让读者同时看到它能做什么，以及它不能变成什么。",
+    categories: [
+      {
+        key: "composition",
+        label: "构成与任命",
+        summary: "委员会如何组建，以及如何避免被单一人物控制。",
+        items: [
+          { title: "多成员机构", article: "第十二条", text: "委员会不是单一检察官，而是一个具有固定任期、多成员结构和防个人控制任命规则的宪法机关。" },
+          { title: "共享任命路径", article: "第十二条", text: "其成员通过共享的制度程序产生，而不是由总统单方面决定。" },
+          { title: "受保护任期", article: "第十二条", text: "成员不能因为政治不便就被简单解职。罢免仍须遵循宪法程序。" },
+        ],
+      },
+      {
+        key: "powers",
+        label: "权力",
+        summary: "委员会可以调查、起诉和执行什么。",
+        items: [
+          { title: "腐败与滥权调查", article: "第八条、第十二条", text: "委员会可以调查贿赂、腐败、反颠覆行为以及其他公共廉政犯罪。" },
+          { title: "独立起诉", article: "第三条、第八条、第十二条", text: "它可以在不等待行政部门普通政治批准的情况下提起案件。" },
+          { title: "保护宪法秩序", article: "第六条、第十二条", text: "其职责包括防止选举破坏、外国影响和反颠覆行为侵害宪法秩序。" },
+        ],
+      },
+      {
+        key: "limits",
+        label: "限制",
+        summary: "委员会不能变成什么。",
+        items: [
+          { title: "不是一般性警察权机关", article: "第十二条", text: "委员会不是一般性的国内安全机构。它的权力受限于明确的宪法犯罪和公共廉政职能。" },
+          { title: "仍受法院约束", article: "第四条、第十二条", text: "其行为仍可由法院审查。目标即使政治上强大，宪法程序也不会消失。" },
+          { title: "不能靠起诉改写政策", article: "第八条、第十二条", text: "委员会执行宪法秩序，但不能取代立法机关自行制定政策。" },
+        ],
+      },
+      {
+        key: "protections",
+        label: "防俘获保护",
+        summary: "如果有人试图使其瘫痪、断供或俘获，会发生什么。",
+        items: [
+          { title: "连续性保护", article: "第十二条、第十九条", text: "宪法设计包含启动与连续性后备机制，因此委员会不能在交接或破坏中被悄悄关闭。" },
+          { title: "罢免限制", article: "第十二条", text: "委员会成员不能因行政部门不满而被普通方式解职。仍须适用宪法罢免程序。" },
+          { title: "制度性破坏本身违宪", article: "第六条、第十二条、第十九条", text: "试图销毁记录、瘫痪运作或阻断合法功能，本身就可能触发宪法后果。" },
+        ],
+      },
+    ],
+  },
+};
+
+function accountabilityDataForLocale(locale) {
+  return ACCOUNTABILITY_GUIDE[locale] || ACCOUNTABILITY_GUIDE.en;
+}
+
 const REMOVAL_GUIDE = {
   en: {
     all: "All",
@@ -1370,11 +1692,100 @@ export function renderVisualGuide(doc, siteData) {
     `;
   }
 
+  if (doc.slug === "amendment-process") {
+    const data = amendmentDataForLocale(siteData.locale);
+    return `
+      <section class="visual-guide visual-guide--amendment" aria-labelledby="visual-guide-title">
+        <div class="visual-guide__toolbar" role="group" aria-label="${data.filterLabel}">
+          <button class="filter-chip is-active" type="button" data-guide-filter="all">${data.all}</button>
+          ${data.categories
+            .map(
+              (cat) =>
+                `<button class="filter-chip" type="button" data-guide-filter="${cat.key}">${cat.label}</button>`
+            )
+            .join("")}
+        </div>
+        <p class="visual-guide__note">${data.note}</p>
+        <div class="visual-guide__body">
+          ${data.categories
+            .map(
+              (cat) => `
+                <section class="rights-category congress-section" data-rights-category="${cat.key}">
+                  <header class="rights-category__header">
+                    <h2 class="rights-category__title">${cat.label}</h2>
+                  </header>
+                  <div class="congress-table-wrapper">
+                    <table class="congress-table">
+                      <thead>
+                        <tr>
+                          <th scope="col">${data.featureLabel}</th>
+                          <th scope="col" class="congress-cell--current">${data.track1Label}</th>
+                          <th scope="col" class="congress-cell--draft">${data.track2Label}</th>
+                          <th scope="col" class="congress-cell--note">${data.whyLabel}</th>
+                        </tr>
+                      </thead>
+                      <tbody>${congressRows(cat.rows)}</tbody>
+                    </table>
+                  </div>
+                </section>
+              `
+            )
+            .join("")}
+        </div>
+      </section>
+    `;
+  }
+
+  if (doc.slug === "accountability-commission") {
+    const data = accountabilityDataForLocale(siteData.locale);
+    return `
+      <section class="visual-guide visual-guide--accountability" aria-labelledby="visual-guide-title">
+        <div class="visual-guide__toolbar" role="group" aria-label="${data.filterLabel}">
+          <button class="filter-chip is-active" type="button" data-guide-filter="all">${data.all}</button>
+          ${data.categories
+            .map(
+              (cat) =>
+                `<button class="filter-chip" type="button" data-guide-filter="${cat.key}">${cat.label}</button>`
+            )
+            .join("")}
+        </div>
+        <p class="visual-guide__note">${data.note}</p>
+        <div class="visual-guide__body">
+          ${data.categories
+            .map(
+              (cat) => `
+                <section class="rights-category" data-rights-category="${cat.key}">
+                  <header class="rights-category__header">
+                    <h2 class="rights-category__title">${cat.label}</h2>
+                    <p class="rights-category__summary">${cat.summary}</p>
+                  </header>
+                  <div class="rights-grid">
+                    ${cat.items
+                      .map(
+                        (item) => `
+                          <article class="rights-card">
+                            <h3>${item.title}</h3>
+                            <p>${item.text}</p>
+                            <div class="rights-card__meta">${item.article}</div>
+                          </article>
+                        `
+                      )
+                      .join("")}
+                  </div>
+                </section>
+              `
+            )
+            .join("")}
+        </div>
+      </section>
+    `;
+  }
+
   return "";
 }
 
 export function activateVisualGuide(doc, container) {
-  if (!["rights-at-a-glance", "emergency-powers-lifecycle", "power-distribution", "congress-comparison", "removal-pathways", "how-elections-work"].includes(doc.slug) || !container) return;
+  if (!["rights-at-a-glance", "emergency-powers-lifecycle", "power-distribution", "congress-comparison", "removal-pathways", "how-elections-work", "amendment-process", "accountability-commission"].includes(doc.slug) || !container) return;
   const buttons = [...container.querySelectorAll("[data-guide-filter]")];
   const categories = [...container.querySelectorAll("[data-rights-category]")];
   const powerNodes = [...container.querySelectorAll("[data-power-node]")];

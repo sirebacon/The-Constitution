@@ -45,7 +45,9 @@
           "power-distribution",
           "congress-comparison",
           "removal-pathways",
-          "how-elections-work"
+          "how-elections-work",
+          "amendment-process",
+          "accountability-commission"
         ]
       },
       {
@@ -144,7 +146,9 @@
         "power-distribution",
         "congress-comparison",
         "removal-pathways",
-        "how-elections-work"
+        "how-elections-work",
+        "amendment-process",
+        "accountability-commission"
       ]
     },
     {
@@ -3327,6 +3331,62 @@
         }
       ],
       "search_text": "How Elections Work This visual guide explains what is different about federal elections under this constitution \u2014 the voting method, how registration works, what protections prevent manipulation, and how voters can recall officials. How To Read This Guide Each card covers one feature of the electoral system. Use the category buttons to focus on voting methods, access and registration, integrity protections, or the recall mechanism. What This Guide Covers ranked choice voting and multi member districts for the House instant runoff voting for the Regional Assembly automatic voter registration election date protections against emergency manipulation independent redistricting with anti gerrymandering rules voter recall of House and Regional Assembly members What This Guide Does Not Do This guide is an orientation layer, not the constitutional text itself. For exact wording and legal detail, read: Article I Article XII"
+    },
+    {
+      "slug": "amendment-process",
+      "title": "\u4fee\u5baa\u7a0b\u5e8f",
+      "group": "\u53ef\u89c6\u5316\u6307\u5357",
+      "kind": "note",
+      "content_type": "visual_guide",
+      "source": "visual-guides/amendment-process.md",
+      "status": null,
+      "summary": "\u672c\u5baa\u6cd5\u5982\u4f55\u4fee\u6539\u2014\u2014\u8def\u5f84\u4e00\u4e0e\u8def\u5f84\u4e8c\u5bf9\u6bd4\u3001\u9884\u5ba1\u6279\u5173\u5361\uff0c\u4ee5\u53ca\u5341\u4e00\u9879\u5728\u4efb\u4f55\u7a0b\u5e8f\u4e0b\u5747\u4e0d\u53ef\u4fee\u6539\u7684\u6761\u6b3e",
+      "headings": [
+        {
+          "level": 2,
+          "text": "How To Read This Guide",
+          "anchor": "how-to-read-this-guide"
+        },
+        {
+          "level": 2,
+          "text": "What This Guide Covers",
+          "anchor": "what-this-guide-covers"
+        },
+        {
+          "level": 2,
+          "text": "What This Guide Does Not Do",
+          "anchor": "what-this-guide-does-not-do"
+        }
+      ],
+      "search_text": "The Amendment Process This visual guide explains how this constitution can be changed, how the two amendment tracks differ, and what cannot be changed under any process. How To Read This Guide The comparison table shows Track 1 and Track 2 side by side. The unamendable core section lists every provision that cannot be amended, repealed, or suspended by any majority at any time. What This Guide Covers Track 1 (structural amendments): Congress vote, pre clearance, state ratification Track 2 (rights expansion): Congress vote, state ratification, national referendum The unamendable core: eleven provisions that are permanently locked What happens if pre clearance is denied Comparison to the current U.S. Article V amendment process What This Guide Does Not Do This guide is an orientation layer, not the constitutional text itself. For exact wording and legal detail, read: Article XI"
+    },
+    {
+      "slug": "accountability-commission",
+      "title": "\u95ee\u8d23\u59d4\u5458\u4f1a",
+      "group": "\u53ef\u89c6\u5316\u6307\u5357",
+      "kind": "note",
+      "content_type": "visual_guide",
+      "source": "visual-guides/accountability-commission.md",
+      "status": null,
+      "summary": "\u95ee\u8d23\u59d4\u5458\u4f1a\u662f\u4ec0\u4e48\u3001\u80fd\u505a\u4ec0\u4e48\u3001\u4e0d\u80fd\u505a\u4ec0\u4e48\uff0c\u4ee5\u53ca\u5982\u4f55\u9632\u6b62\u5176\u88ab\u63a7\u5236\u3001\u65ad\u8d44\u6216\u5173\u95ed",
+      "headings": [
+        {
+          "level": 2,
+          "text": "How To Read This Guide",
+          "anchor": "how-to-read-this-guide"
+        },
+        {
+          "level": 2,
+          "text": "What This Guide Covers",
+          "anchor": "what-this-guide-covers"
+        },
+        {
+          "level": 2,
+          "text": "What This Guide Does Not Do",
+          "anchor": "what-this-guide-does-not-do"
+        }
+      ],
+      "search_text": "The Accountability Commission This visual guide explains what the Accountability Commission is, what it can and cannot do, and what protections prevent it from being captured, defunded, or shut down. How To Read This Guide Each card covers one aspect of the Commission. Use the category buttons to focus on composition, powers, limits, or the structural protections that keep it independent. What This Guide Covers how the Commission is composed and appointed independence protections that no president or Congress can override the full list of what it can investigate, prosecute, and enforce what it is explicitly prohibited from doing what happens automatically if someone tries to capture, defund, or paralyze it What This Guide Does Not Do This guide is an orientation layer, not the constitutional text itself. For exact wording and legal detail, read: Article XII Article III"
     },
     {
       "slug": "commentary-overview",

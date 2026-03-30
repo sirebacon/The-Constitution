@@ -171,6 +171,16 @@ PAGE_METADATA = {
         "es": ("Cómo funcionan las elecciones", "Qué tiene de diferente las elecciones federales bajo esta constitución: métodos de votación, registro, protecciones de integridad y revocación"),
         "zh-Hans": ("选举如何运作", "本宪法下联邦选举有何不同——投票方式、选民登记、诚信保护与罢免机制"),
     },
+    "amendment-process": {
+        "en": ("The Amendment Process", "How this constitution can be changed — Track 1 vs Track 2, the pre-clearance gate, and what eleven provisions cannot be amended under any process"),
+        "es": ("El proceso de enmienda", "Cómo puede modificarse esta constitución — Vía 1 vs Vía 2, el control previo y las once disposiciones que no pueden enmendarse bajo ningún proceso"),
+        "zh-Hans": ("修宪程序", "本宪法如何修改——路径一与路径二对比、预审批关卡，以及十一项在任何程序下均不可修改的条款"),
+    },
+    "accountability-commission": {
+        "en": ("The Accountability Commission", "What the ACC is, what it can do, what it cannot do, and how it is protected from capture, defunding, or shutdown"),
+        "es": ("La Comisión de Rendición de Cuentas", "Qué es la CRC, qué puede hacer, qué no puede hacer y cómo está protegida frente a la captura, la desfinanciación o el cierre"),
+        "zh-Hans": ("问责委员会", "问责委员会是什么、能做什么、不能做什么，以及如何防止其被控制、断资或关闭"),
+    },
 }
 
 COMMENTARY_OVERVIEW_METADATA = {
@@ -320,6 +330,20 @@ VISUAL_GUIDE_SOURCES = [
         ROOT / "visual-guides" / "how-elections-work.md",
         "Visual Guides",
         "What is different about federal elections under this constitution — voting methods, registration, integrity protections, and recall",
+    ),
+    (
+        "amendment-process",
+        "The Amendment Process",
+        ROOT / "visual-guides" / "amendment-process.md",
+        "Visual Guides",
+        "How this constitution can be changed — Track 1 vs Track 2, pre-clearance, and what cannot be amended under any process",
+    ),
+    (
+        "accountability-commission",
+        "The Accountability Commission",
+        ROOT / "visual-guides" / "accountability-commission.md",
+        "Visual Guides",
+        "What the ACC is, what it can do, what it cannot do, and how it is protected from capture, defunding, or shutdown",
     ),
 ]
 
@@ -511,7 +535,7 @@ def slugify(text: str) -> str:
 def homepage_section_items() -> dict[str, list[str]]:
     return {
         "start_here": ["overview", "comparison"],
-        "visual_guides": ["rights-at-a-glance", "emergency-powers-lifecycle", "power-distribution", "congress-comparison", "removal-pathways", "how-elections-work"],
+        "visual_guides": ["rights-at-a-glance", "emergency-powers-lifecycle", "power-distribution", "congress-comparison", "removal-pathways", "how-elections-work", "amendment-process", "accountability-commission"],
         "constitution": ["index", "preamble"] + [slugify(filename.replace(".md", "")) for filename in ARTICLE_ORDER],
         "clause_notes": [
             "clause-unamendable-core",
