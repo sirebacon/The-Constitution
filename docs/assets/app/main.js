@@ -33,11 +33,11 @@ async function loadSiteData(locale) {
 }
 
 function populateLocaleSwitcher() {
-  if (!refs.localeSelect || !state.siteData?.locales) return;
-  refs.localeSelect.innerHTML = state.siteData.locales
+  if (!refs.localeButtons || !state.siteData?.locales) return;
+  refs.localeButtons.innerHTML = state.siteData.locales
     .map(
       (locale) =>
-        `<option value="${locale.code}" ${locale.code === state.locale ? "selected" : ""}>${locale.label}</option>`
+        `<button type="button" class="locale-button ${locale.code === state.locale ? "is-active" : ""}" data-locale="${locale.code}" aria-pressed="${locale.code === state.locale ? "true" : "false"}">${locale.label}</button>`
     )
     .join("");
 }
@@ -145,8 +145,10 @@ async function init() {
     setMenuExpanded(!isExpanded);
   });
 
-  refs.localeSelect?.addEventListener("change", async () => {
-    state.locale = refs.localeSelect.value;
+  refs.localeButtons?.addEventListener("click", async (event) => {
+    const button = event.target.closest("[data-locale]");
+    if (!button) return;
+    state.locale = button.dataset.locale;
     state.siteData = await loadSiteData(state.locale);
     state.locale = state.siteData.locale ?? state.locale;
     document.documentElement.lang = state.locale;

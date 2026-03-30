@@ -10,7 +10,7 @@ export const refs = {
   sidebar: document.getElementById("sidebar"),
   menuButton: document.getElementById("menuButton"),
   mainContent: document.getElementById("mainContent"),
-  localeSelect: document.getElementById("localeSelect"),
+  localeButtons: document.getElementById("localeButtons"),
   localeLabel: document.getElementById("localeLabel"),
   repoLink: document.getElementById("repoLink"),
   topbarEyebrow: document.getElementById("topbarEyebrow"),
