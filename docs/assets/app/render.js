@@ -61,6 +61,24 @@ function companionAction(doc, siteData, strings) {
   return `<a class="hero-action" href="#doc/${companion.slug}">${label}</a>`;
 }
 
+function relatedClauseNotes(doc, siteData, strings) {
+  if (!["article", "preamble", "commentary"].includes(doc.kind)) return "";
+  const related = siteData.docs.filter(
+    (candidate) =>
+      candidate.kind === "commentary" &&
+      candidate.group === "Clause Notes" &&
+      Array.isArray(candidate.related_slugs) &&
+      candidate.related_slugs.includes(doc.slug)
+  );
+  if (!related.length) return "";
+  return `
+    <section aria-labelledby="related-clause-notes-title">
+      <h2 class="section-title" id="related-clause-notes-title">${strings.relatedClauseNotes}</h2>
+      <div class="card-grid">${makeDocCards(related, strings)}</div>
+    </section>
+  `;
+}
+
 export function renderNavigation({ siteData, currentFilter, strings }) {
   const filter = currentFilter.trim().toLowerCase();
   refs.navGroups.innerHTML = siteData.navigation
@@ -103,6 +121,9 @@ export function renderHome({ siteData, currentFilter, strings }) {
     "clause-high-impact-directives",
     "clause-supreme-court-delay",
     "clause-term-limits",
+    "clause-constitutional-organs",
+    "clause-healthcare-floor",
+    "clause-war-powers-backstop",
   ]
     .map((slug) => bySlug(siteData, slug))
     .filter(Boolean);
@@ -207,6 +228,7 @@ export async function renderDoc({ siteData, slug, strings }) {
       <article class="reader-body">
         <div class="markdown-body" id="markdownBody">${rendered}</div>
       </article>
+      ${relatedClauseNotes(doc, siteData, strings)}
     </section>
   `;
 

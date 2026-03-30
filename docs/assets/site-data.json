@@ -61,7 +61,10 @@
         "clause-naturalized-president",
         "clause-high-impact-directives",
         "clause-supreme-court-delay",
-        "clause-term-limits"
+        "clause-term-limits",
+        "clause-constitutional-organs",
+        "clause-healthcare-floor",
+        "clause-war-powers-backstop"
       ]
     },
     {
@@ -3179,7 +3182,10 @@
           "anchor": "why-the-clause-also-blocks-evasion"
         }
       ],
-      "search_text": "Clause Note: The Unamendable Core Why Put Anything Beyond Amendment? A democratic constitution should be open to revision, but it should not be legally open to self destruction. That is the basic reason for the unamendable core. Some provisions are protected not because they are every good value the draft contains, but because they are the minimum conditions that make democratic amendment itself legitimate. Why This Draft Uses A Narrow Core The core is intentionally not a complete ideological program. It protects things like: universal suffrage free and regular elections binding election results peaceful transfer of power equal citizenship judicial independence separation of powers Those are not simply preferred policies. They are the conditions without which constitutional politics stops being genuinely democratic. Why The Clause Also Blocks Evasion Modern anti democratic projects do not always repeal democracy openly. They often preserve language while destroying substance. That is why the draft blocks not only literal repeal of the protected core, but also amendments that functionally destroy democratic alternation in power or concentrate unchecked authority."
+      "search_text": "Clause Note: The Unamendable Core Why Put Anything Beyond Amendment? A democratic constitution should be open to revision, but it should not be legally open to self destruction. That is the basic reason for the unamendable core. Some provisions are protected not because they are every good value the draft contains, but because they are the minimum conditions that make democratic amendment itself legitimate. Why This Draft Uses A Narrow Core The core is intentionally not a complete ideological program. It protects things like: universal suffrage free and regular elections binding election results peaceful transfer of power equal citizenship judicial independence separation of powers Those are not simply preferred policies. They are the conditions without which constitutional politics stops being genuinely democratic. Why The Clause Also Blocks Evasion Modern anti democratic projects do not always repeal democracy openly. They often preserve language while destroying substance. That is why the draft blocks not only literal repeal of the protected core, but also amendments that functionally destroy democratic alternation in power or concentrate unchecked authority.",
+      "related_slugs": [
+        "xi-amendments"
+      ]
     },
     {
       "slug": "clause-naturalized-president",
@@ -3206,7 +3212,11 @@
           "anchor": "why-this-does-not-ignore-security-concerns"
         }
       ],
-      "search_text": "Clause Note: Naturalized Citizens And The Presidency Why Reject The Natural Born Requirement? The natural born citizen rule in the current U.S. Constitution creates a caste distinction inside citizenship. This draft rejects that distinction because equal citizenship should mean that citizenship, not ancestry or birthplace, defines full political membership. Why This Is Democracy Protective Excluding naturalized citizens from the presidency sends the signal that some citizens permanently belong on a lower constitutional tier. That is hard to reconcile with a constitution built around equal membership, equal dignity, and universal political belonging. Why This Does Not Ignore Security Concerns The draft does not deny that some positions can involve legitimate security screening. It handles that concern through narrowly reviewable sensitive office rules and general law, not through a blanket hereditary style exclusion from the highest office."
+      "search_text": "Clause Note: Naturalized Citizens And The Presidency Why Reject The Natural Born Requirement? The natural born citizen rule in the current U.S. Constitution creates a caste distinction inside citizenship. This draft rejects that distinction because equal citizenship should mean that citizenship, not ancestry or birthplace, defines full political membership. Why This Is Democracy Protective Excluding naturalized citizens from the presidency sends the signal that some citizens permanently belong on a lower constitutional tier. That is hard to reconcile with a constitution built around equal membership, equal dignity, and universal political belonging. Why This Does Not Ignore Security Concerns The draft does not deny that some positions can involve legitimate security screening. It handles that concern through narrowly reviewable sensitive office rules and general law, not through a blanket hereditary style exclusion from the highest office.",
+      "related_slugs": [
+        "iii-executive",
+        "ix-citizenship-membership"
+      ]
     },
     {
       "slug": "clause-high-impact-directives",
@@ -3233,7 +3243,11 @@
           "anchor": "why-ordinary-review-was-not-enough"
         }
       ],
-      "search_text": "Clause Note: Fast Track Review For High Impact Directives Why This Clause Exists Presidents can change the practical legal landscape very quickly through orders or directives that take effect before normal litigation can catch up. That creates a familiar problem: even if the directive is later struck down, the damage may already be done. Why The Fast Track Is Narrow The draft does not create accelerated review for every executive order. It is limited to directives that are unusually consequential because they: claim emergency, inherent, or unilateral authority materially alter rights or duties on a nationwide basis or affect especially sensitive domains like elections, civil liberties, immigration status, tariffs, or military force The point is to prevent timing from becoming a source of unconstitutional power without turning the judiciary into a daily supervisor of executive housekeeping. Why Ordinary Review Was Not Enough In constitutional crises, delay can function like permission. This clause exists because some presidential actions are so sweeping that a slow path to review is not a neutral baseline."
+      "search_text": "Clause Note: Fast Track Review For High Impact Directives Why This Clause Exists Presidents can change the practical legal landscape very quickly through orders or directives that take effect before normal litigation can catch up. That creates a familiar problem: even if the directive is later struck down, the damage may already be done. Why The Fast Track Is Narrow The draft does not create accelerated review for every executive order. It is limited to directives that are unusually consequential because they: claim emergency, inherent, or unilateral authority materially alter rights or duties on a nationwide basis or affect especially sensitive domains like elections, civil liberties, immigration status, tariffs, or military force The point is to prevent timing from becoming a source of unconstitutional power without turning the judiciary into a daily supervisor of executive housekeeping. Why Ordinary Review Was Not Enough In constitutional crises, delay can function like permission. This clause exists because some presidential actions are so sweeping that a slow path to review is not a neutral baseline.",
+      "related_slugs": [
+        "iii-executive",
+        "iv-judiciary"
+      ]
     },
     {
       "slug": "clause-supreme-court-delay",
@@ -3260,7 +3274,10 @@
           "anchor": "why-this-is-limited-to-expedited-constitutional-cases"
         }
       ],
-      "search_text": "Clause Note: Supreme Court Delay Backstop What Problem This Solves In expedited constitutional disputes, the Supreme Court can shape outcomes not only by deciding, but by waiting. If the Court can freeze a case indefinitely, then nondecision becomes a hidden form of constitutional power. Why The Draft Uses Continuity And Finality The solution here is not to micromanage every case on the Court's docket. The draft instead uses a narrow anti delay architecture for expedited constitutional matters: missed deadline notice duties conduct review continuity of the lower court judgment a later finality backstop for the parties if the Court still does not decide Why This Is Limited To Expedited Constitutional Cases The purpose is to protect elections, emergency disputes, and similar time sensitive constitutional questions. A general deadline regime for all Supreme Court cases would be too rigid. This clause is justified because some constitutional disputes lose meaning if the system allows strategic silence."
+      "search_text": "Clause Note: Supreme Court Delay Backstop What Problem This Solves In expedited constitutional disputes, the Supreme Court can shape outcomes not only by deciding, but by waiting. If the Court can freeze a case indefinitely, then nondecision becomes a hidden form of constitutional power. Why The Draft Uses Continuity And Finality The solution here is not to micromanage every case on the Court's docket. The draft instead uses a narrow anti delay architecture for expedited constitutional matters: missed deadline notice duties conduct review continuity of the lower court judgment a later finality backstop for the parties if the Court still does not decide Why This Is Limited To Expedited Constitutional Cases The purpose is to protect elections, emergency disputes, and similar time sensitive constitutional questions. A general deadline regime for all Supreme Court cases would be too rigid. This clause is justified because some constitutional disputes lose meaning if the system allows strategic silence.",
+      "related_slugs": [
+        "iv-judiciary"
+      ]
     },
     {
       "slug": "clause-term-limits",
@@ -3287,7 +3304,101 @@
           "anchor": "why-the-draft-also-includes-an-anti-evasion-rule"
         }
       ],
-      "search_text": "Clause Note: Presidential Term Limits Why Keep Term Limits? In a presidential system, term limits are a structural guard against personal rule. They reduce the risk that the office will harden into leader centered politics where the constitutional order becomes identified with one person. Why This Matters More In Presidentialism Parliamentary systems usually have more ordinary political ways to replace failed leaders. Presidential systems have fixed terms, stronger personal mandates, and higher symbolic concentration in one office. That makes term limits more defensible as a constitutional safeguard. Why The Draft Also Includes An Anti Evasion Rule Without an anti evasion rule, term limits can be undermined through succession games or vice presidential rotation. The draft therefore does not treat term limits as only a slogan. It tries to make them real enough to stop obvious workaround strategies."
+      "search_text": "Clause Note: Presidential Term Limits Why Keep Term Limits? In a presidential system, term limits are a structural guard against personal rule. They reduce the risk that the office will harden into leader centered politics where the constitutional order becomes identified with one person. Why This Matters More In Presidentialism Parliamentary systems usually have more ordinary political ways to replace failed leaders. Presidential systems have fixed terms, stronger personal mandates, and higher symbolic concentration in one office. That makes term limits more defensible as a constitutional safeguard. Why The Draft Also Includes An Anti Evasion Rule Without an anti evasion rule, term limits can be undermined through succession games or vice presidential rotation. The draft therefore does not treat term limits as only a slogan. It tries to make them real enough to stop obvious workaround strategies.",
+      "related_slugs": [
+        "iii-executive"
+      ]
+    },
+    {
+      "slug": "clause-constitutional-organs",
+      "title": "Clause Note: Why Constitutional Organs Exist",
+      "group": "Clause Notes",
+      "kind": "commentary",
+      "source": "commentary/clauses/constitutional-organs.md",
+      "status": null,
+      "summary": "Some state functions are too central to democratic legitimacy to be left entirely inside the ordinary partisan chain of command.",
+      "headings": [
+        {
+          "level": 2,
+          "text": "Why Not Leave These Functions To Ordinary Agencies?",
+          "anchor": "why-not-leave-these-functions-to-ordinary-agencies"
+        },
+        {
+          "level": 2,
+          "text": "Why This Draft Uses Constitutional Organs",
+          "anchor": "why-this-draft-uses-constitutional-organs"
+        },
+        {
+          "level": 2,
+          "text": "Why This Is Still Kept Narrow",
+          "anchor": "why-this-is-still-kept-narrow"
+        }
+      ],
+      "search_text": "Clause Note: Why Constitutional Organs Exist Why Not Leave These Functions To Ordinary Agencies? Some state functions are too central to democratic legitimacy to be left entirely inside the ordinary partisan chain of command. This is especially true for election administration, accountability enforcement, and a few continuity protecting functions that can decide whether the constitutional system remains credible under stress. Why This Draft Uses Constitutional Organs The point is not to create an all purpose fourth branch. The point is to place a small set of democracy preserving tasks in institutions that are: structurally independent continuity protected harder to disable through ordinary partisan obstruction Why This Is Still Kept Narrow If too many functions are moved into insulated bodies, democratic government becomes opaque and technocratic. That is why the draft limits this model to a narrow set of system preserving duties rather than using Constitutional Organs as a general answer to distrust in politics.",
+      "related_slugs": [
+        "xii-constitutional-organs",
+        "xix-ratification-transition"
+      ]
+    },
+    {
+      "slug": "clause-healthcare-floor",
+      "title": "Clause Note: The Healthcare Floor",
+      "group": "Clause Notes",
+      "kind": "commentary",
+      "source": "commentary/clauses/healthcare-floor.md",
+      "status": null,
+      "summary": "Because formal liberty means less when access to basic and emergency care can be denied simply because a person cannot pay.",
+      "headings": [
+        {
+          "level": 2,
+          "text": "Why Put Healthcare In The Constitution At All?",
+          "anchor": "why-put-healthcare-in-the-constitution-at-all"
+        },
+        {
+          "level": 2,
+          "text": "Why The Draft Uses A Floor Instead Of One Fixed Model",
+          "anchor": "why-the-draft-uses-a-floor-instead-of-one-fixed-model"
+        },
+        {
+          "level": 2,
+          "text": "Why This Design Is Stronger",
+          "anchor": "why-this-design-is-stronger"
+        }
+      ],
+      "search_text": "Clause Note: The Healthcare Floor Why Put Healthcare In The Constitution At All? Because formal liberty means less when access to basic and emergency care can be denied simply because a person cannot pay. This clause treats healthcare access as part of the minimum material conditions of equal citizenship and human dignity. Why The Draft Uses A Floor Instead Of One Fixed Model The Constitution should define what government must secure, not lock the country into one permanent administrative scheme. That is why the draft protects: access to basic healthcare emergency treatment protection against inability to pay becoming a barrier to medically necessary care without constitutionalizing a full healthcare code. Why This Design Is Stronger It lets the constitutional system require real coverage while still leaving room for democratic argument over how the program is structured.",
+      "related_slugs": [
+        "xviii-social-economic-rights"
+      ]
+    },
+    {
+      "slug": "clause-war-powers-backstop",
+      "title": "Clause Note: War Powers Backstops",
+      "group": "Clause Notes",
+      "kind": "commentary",
+      "source": "commentary/clauses/war-powers-backstop.md",
+      "status": null,
+      "summary": "Because unauthorized military action often survives through drift, ambiguity, and institutional hesitation.",
+      "headings": [
+        {
+          "level": 2,
+          "text": "Why Not Rely On Ordinary Political Pressure?",
+          "anchor": "why-not-rely-on-ordinary-political-pressure"
+        },
+        {
+          "level": 2,
+          "text": "Why The Draft Uses Concrete Consequences",
+          "anchor": "why-the-draft-uses-concrete-consequences"
+        },
+        {
+          "level": 2,
+          "text": "Why This Matters For Democracy",
+          "anchor": "why-this-matters-for-democracy"
+        }
+      ],
+      "search_text": "Clause Note: War Powers Backstops Why Not Rely On Ordinary Political Pressure? Because unauthorized military action often survives through drift, ambiguity, and institutional hesitation. If the constitutional system does nothing more than register disapproval, the executive can often continue the operation while the rest of government argues about it. Why The Draft Uses Concrete Consequences This draft links failed authorization to downstream consequences like: withdrawal duty funding consequences impeachment triggering pathways The goal is to stop unauthorized war from becoming self justifying merely because troops are already deployed. Why This Matters For Democracy War is one of the clearest areas where timing can defeat accountability. The backstop architecture exists to make democratic authorization real instead of ceremonial.",
+      "related_slugs": [
+        "xvi-war-powers-national-security"
+      ]
     },
     {
       "slug": "notes-i-electoral-system",

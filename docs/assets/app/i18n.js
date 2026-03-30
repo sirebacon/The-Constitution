@@ -35,6 +35,7 @@ const STRINGS = {
     viewNotes: "View notes",
     readConstitutionText: "Read constitutional text",
     explanatoryNotes: "Explanatory notes",
+    relatedClauseNotes: "Related clause notes",
   },
 };
 

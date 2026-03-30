@@ -35,6 +35,7 @@ CLAUSE_COMMENTARY_SOURCES = [
         ROOT / "commentary" / "clauses" / "unamendable-core.md",
         "Clause Notes",
         "Why some democratic foundations are intentionally placed beyond amendment",
+        ["xi-amendments"],
     ),
     (
         "clause-naturalized-president",
@@ -42,6 +43,7 @@ CLAUSE_COMMENTARY_SOURCES = [
         ROOT / "commentary" / "clauses" / "naturalized-president.md",
         "Clause Notes",
         "Why the draft rejects a natural-born-only presidency",
+        ["iii-executive", "ix-citizenship-membership"],
     ),
     (
         "clause-high-impact-directives",
@@ -49,6 +51,7 @@ CLAUSE_COMMENTARY_SOURCES = [
         ROOT / "commentary" / "clauses" / "high-impact-directives.md",
         "Clause Notes",
         "Why major presidential directives receive a narrow fast-track path",
+        ["iii-executive", "iv-judiciary"],
     ),
     (
         "clause-supreme-court-delay",
@@ -56,6 +59,7 @@ CLAUSE_COMMENTARY_SOURCES = [
         ROOT / "commentary" / "clauses" / "supreme-court-delay-backstop.md",
         "Clause Notes",
         "Why expedited constitutional cases cannot be frozen indefinitely by nondecision",
+        ["iv-judiciary"],
     ),
     (
         "clause-term-limits",
@@ -63,6 +67,31 @@ CLAUSE_COMMENTARY_SOURCES = [
         ROOT / "commentary" / "clauses" / "presidential-term-limits.md",
         "Clause Notes",
         "Why presidential term limits remain part of this safer presidential design",
+        ["iii-executive"],
+    ),
+    (
+        "clause-constitutional-organs",
+        "Clause Note: Why Constitutional Organs Exist",
+        ROOT / "commentary" / "clauses" / "constitutional-organs.md",
+        "Clause Notes",
+        "Why some democratic functions are kept outside ordinary partisan control",
+        ["xii-constitutional-organs", "xix-ratification-transition"],
+    ),
+    (
+        "clause-healthcare-floor",
+        "Clause Note: The Healthcare Floor",
+        ROOT / "commentary" / "clauses" / "healthcare-floor.md",
+        "Clause Notes",
+        "Why the Constitution protects access to basic and emergency healthcare without fixing one program model",
+        ["xviii-social-economic-rights"],
+    ),
+    (
+        "clause-war-powers-backstop",
+        "Clause Note: War Powers Backstops",
+        ROOT / "commentary" / "clauses" / "war-powers-backstop.md",
+        "Clause Notes",
+        "Why unauthorized force triggers concrete constitutional consequences instead of open-ended drift",
+        ["xvi-war-powers-national-security"],
     ),
 ]
 
@@ -301,7 +330,7 @@ def build_manifest() -> dict[str, object]:
             }
         )
 
-    for slug, title, source, group, fallback_summary in CLAUSE_COMMENTARY_SOURCES:
+    for slug, title, source, group, fallback_summary, related_slugs in CLAUSE_COMMENTARY_SOURCES:
         markdown = source.read_text()
         relative = copy_source(source)
         docs.append(
@@ -315,6 +344,7 @@ def build_manifest() -> dict[str, object]:
                 "summary": extract_summary(markdown) or fallback_summary,
                 "headings": extract_headings(markdown),
                 "search_text": plain_text(markdown),
+                "related_slugs": related_slugs,
             }
         )
 
@@ -377,6 +407,9 @@ def build_manifest() -> dict[str, object]:
                 "clause-high-impact-directives",
                 "clause-supreme-court-delay",
                 "clause-term-limits",
+                "clause-constitutional-organs",
+                "clause-healthcare-floor",
+                "clause-war-powers-backstop",
             ],
         },
         {"group": "Background", "items": ["rationale", "findings", "finalization-plan", "overview-zh"]},
