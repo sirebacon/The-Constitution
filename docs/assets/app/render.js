@@ -72,8 +72,10 @@ function relatedClauseNotes(doc, siteData, strings) {
   );
   if (!related.length) return "";
   return `
-    <section aria-labelledby="related-clause-notes-title">
-      <h2 class="section-title" id="related-clause-notes-title">${strings.relatedClauseNotes}</h2>
+    <section class="related-notes" aria-labelledby="related-clause-notes-title">
+      <div class="eyebrow">${strings.whyThisClause}</div>
+      <h2 class="section-title related-notes__title" id="related-clause-notes-title">${strings.relatedClauseNotes}</h2>
+      <p class="related-notes__intro">${strings.relatedClauseNotesIntro}</p>
       <div class="card-grid">${makeDocCards(related, strings)}</div>
     </section>
   `;

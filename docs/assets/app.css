@@ -440,6 +440,35 @@ input:focus-visible {
   padding: 2rem 2.2rem;
 }
 
+.related-notes {
+  padding: 1.35rem 1.45rem 1.55rem;
+  border: 1px solid rgba(29, 90, 115, 0.18);
+  border-radius: var(--radius-lg);
+  background:
+    linear-gradient(180deg, rgba(29, 90, 115, 0.08), rgba(255, 250, 242, 0.92)),
+    rgba(255, 250, 242, 0.96);
+  box-shadow: var(--shadow);
+}
+
+.related-notes__title {
+  margin-top: 0.4rem;
+}
+
+.related-notes__intro {
+  max-width: 44rem;
+  margin: 0.45rem 0 0;
+  color: var(--muted);
+  line-height: 1.55;
+}
+
+.related-notes .card-grid {
+  margin-top: 1.15rem;
+}
+
+.related-notes .doc-card {
+  background: rgba(255, 255, 255, 0.86);
+}
+
 .markdown-body {
   max-width: 52rem;
   margin: 0 auto;

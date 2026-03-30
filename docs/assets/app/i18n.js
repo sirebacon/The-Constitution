@@ -36,6 +36,8 @@ const STRINGS = {
     readConstitutionText: "Read constitutional text",
     explanatoryNotes: "Explanatory notes",
     relatedClauseNotes: "Related clause notes",
+    whyThisClause: "Why this clause?",
+    relatedClauseNotesIntro: "Short explanations for the most contested or non-obvious design choices tied to this article.",
   },
 };
 
