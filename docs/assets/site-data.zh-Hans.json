@@ -65,7 +65,8 @@
       "group": "\u8bc4\u6ce8",
       "items": [
         "commentary-overview",
-        "commentary-choices"
+        "commentary-choices",
+        "commentary-peaceful-use"
       ]
     },
     {
@@ -2935,6 +2936,38 @@
         }
       ],
       "search_text": "\u4e3a\u4f55\u6ce8\u91ca\u72ec\u7acb\u6210\u518c \u57fa\u672c\u9009\u62e9 \u672c\u9879\u76ee\u91c7\u7528\u53cc\u5c42\u7ed3\u6784\uff1a \u5baa\u6cd5\u6587\u672c\u7528\u4e8e\u89c4\u5b9a\u5177\u6709\u7ea6\u675f\u529b\u7684\u89c4\u5219 \u6ce8\u91ca\u7528\u4e8e\u8bf4\u660e\u4e0e\u8bba\u8bc1 \u8fd9\u4e00\u533a\u5206\u51fa\u4e8e\u6df1\u601d\u719f\u8651\u3002 \u4e3a\u4f55\u4e0d\u5c06\u8bba\u8bc1\u7eb3\u5165\u5baa\u6cd5\u6b63\u6587\uff1f \u56e0\u4e3a\u5baa\u6cd5\u6587\u672c\u5e94\u4e13\u6ce8\u4e8e\u4ee5\u4e0b\u51e0\u9879\u6838\u5fc3\u529f\u80fd\uff1a \u5206\u914d\u6743\u529b \u8bbe\u5b9a\u4e49\u52a1 \u786e\u7acb\u9650\u5236 \u89c4\u5b9a\u6551\u6d4e\u4e0e\u515c\u5e95\u673a\u5236 \u4e00\u65e6\u5c06\u8d77\u8349\u6ce8\u91ca\u4e0e\u6761\u6587\u6b63\u6587\u76f8\u6df7\u5408\uff0c\u8be5\u6587\u4ef6\u4fbf\u4f1a\u5448\u73b0\u4e3a\u5baa\u6cd5\u3001\u6cd5\u5f8b\u8bc4\u8bba\u6587\u7ae0\u4e0e\u5b9e\u65bd\u624b\u518c\u7684\u6742\u7cc5\u4f53\u3002 \u5206\u79bb\u6240\u4fdd\u62a4\u7684\u4ef7\u503c \u5c06\u6ce8\u91ca\u72ec\u7acb\u6210\u518c\uff0c\u6709\u52a9\u4e8e\u4fdd\u62a4\uff1a \u5f15\u7528\u7a33\u5b9a\u6027 \u53ef\u8bfb\u6027 \u7ffb\u8bd1\u6e05\u6670\u5ea6 \u65e5\u540e\u7ef4\u62a4\u4fbf\u5229 \u6cd5\u5f8b\u4e0e\u8bf4\u660e\u4e4b\u95f4\u7684\u660e\u786e\u754c\u5206 \u6ce8\u91ca\u4ecd\u80fd\u53d1\u6325\u7684\u4f5c\u7528 \u72ec\u7acb\u7684\u6ce8\u91ca\u4ecd\u53ef\u4f7f\u672c\u9879\u76ee\u5c31\u5bcc\u6709\u4e89\u8bae\u6216\u8f83\u4e3a\u964c\u751f\u7684\u9009\u62e9\u4f5c\u51fa\u8bf4\u660e\uff0c\u5305\u62ec\uff1a \u4e0d\u53ef\u4fee\u6539\u6838\u5fc3 \u5baa\u6cd5\u673a\u5173 \u53d7\u9650\u7d27\u6025\u6743\u529b \u4fdd\u7559\u66f4\u4e3a\u5b89\u5168\u7684\u603b\u7edf\u5236\u800c\u975e\u8f6c\u5411\u8bae\u4f1a\u5236\u7684\u51b3\u5b9a \u53cd\u62d6\u5ef6\u4e0e\u53cd\u98a0\u8986\u7684\u515c\u5e95\u673a\u5236 \u5bf9\u4e8e\u4e00\u9879\u9762\u5411\u516c\u4f17\u7684\u5baa\u6cd5\u9879\u76ee\u800c\u8a00\uff0c\u8fd9\u662f\u6070\u5f53\u7684\u5e73\u8861\uff1a\u6cd5\u5f8b\u6587\u672c\u7b80\u6d01\u6e05\u6670\uff0c\u63a8\u7406\u4f9d\u636e\u516c\u5f00\u53ef\u89c1\u3002"
+    },
+    {
+      "slug": "commentary-peaceful-use",
+      "title": "\u548c\u5e73\u516c\u6c11\u7528\u9014",
+      "group": "\u8bc4\u6ce8",
+      "kind": "commentary",
+      "source": "commentary/overview/peaceful-civic-use.md",
+      "status": null,
+      "summary": "\u9879\u76ee\u5982\u4f55\u754c\u5b9a\u5176\u548c\u5e73\u516c\u6c11\u76ee\u7684\u4e0e\u8d21\u732e\u8fb9\u754c",
+      "headings": [
+        {
+          "level": 2,
+          "text": "Project Purpose",
+          "anchor": "project-purpose"
+        },
+        {
+          "level": 2,
+          "text": "What The Project Does Not Endorse",
+          "anchor": "what-the-project-does-not-endorse"
+        },
+        {
+          "level": 2,
+          "text": "How To Use The Project",
+          "anchor": "how-to-use-the-project"
+        },
+        {
+          "level": 2,
+          "text": "Maintainer Position",
+          "anchor": "maintainer-position"
+        }
+      ],
+      "search_text": "Peaceful Civic Use Project Purpose This project exists for peaceful civic discussion, constitutional drafting, education, translation, critique, simulation, and democratic advocacy. It is a public constitutional reference project. It is not a militia, an operational organization, or a vehicle for coercion or force. What The Project Does Not Endorse This project does not endorse: violence threats sabotage operational planning for coercion or force unlawful action or encouragement of imminent unlawful action Material submitted for those purposes is outside the project and may be removed. How To Use The Project People are free to: read and criticize the draft revise or fork it translate it teach from it organize lawful discussion around it campaign on parts of it if they find them persuasive The project is meant to be usable by others without requiring a single public leader to stand in front of it. Maintainer Position Maintainers may remove content or close discussions that try to turn the project into advocacy of force, unlawful action, or operational coordination. The purpose of the repository and website is constitutional discussion and public drafting, not coercion."
     },
     {
       "slug": "clause-unamendable-core",

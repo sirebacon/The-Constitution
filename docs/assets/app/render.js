@@ -137,7 +137,7 @@ export function renderNavigation({ siteData, currentFilter, strings }) {
 export function renderHome({ siteData, currentFilter, strings }) {
   const constitutionDocs = siteData.docs.filter((doc) => doc.group === "Constitution");
   const overviewDocs = ["overview", "comparison", "scorecard", "finalization-plan"].map((slug) => bySlug(siteData, slug)).filter(Boolean);
-  const commentaryDocs = ["commentary-overview", "commentary-choices"].map((slug) => bySlug(siteData, slug)).filter(Boolean);
+  const commentaryDocs = ["commentary-overview", "commentary-choices", "commentary-peaceful-use"].map((slug) => bySlug(siteData, slug)).filter(Boolean);
   const clauseDocs = [
     "clause-unamendable-core",
     "clause-naturalized-president",

@@ -65,7 +65,8 @@
       "group": "Comentario",
       "items": [
         "commentary-overview",
-        "commentary-choices"
+        "commentary-choices",
+        "commentary-peaceful-use"
       ]
     },
     {
@@ -3024,6 +3025,38 @@
         }
       ],
       "search_text": "Por Qu\u00e9 el Comentario Es Independiente La Elecci\u00f3n Fundamental Este proyecto utiliza dos capas: el texto constitucional para las normas vinculantes el comentario para la explicaci\u00f3n y la justificaci\u00f3n Esa distinci\u00f3n es deliberada. \u00bfPor Qu\u00e9 No Incluir la Justificaci\u00f3n en la Constituci\u00f3n? Porque el texto constitucional debe cumplir \u00fanicamente algunas funciones con precisi\u00f3n: distribuir la autoridad imponer deberes establecer l\u00edmites definir remedios y mecanismos de salvaguarda Una vez que la redacci\u00f3n del comentario se mezcla con el texto del art\u00edculo, el documento comienza a leerse como un h\u00edbrido de constituci\u00f3n, art\u00edculo de revista jur\u00eddica y manual de implementaci\u00f3n. Lo Que Protege la Separaci\u00f3n Mantener el comentario de forma independiente protege: la estabilidad de las citas la legibilidad la claridad en la traducci\u00f3n el mantenimiento futuro una distinci\u00f3n clara entre el derecho y la explicaci\u00f3n Lo Que el Comentario Aporta de Todos Modos El comentario independiente permite igualmente que el proyecto explique decisiones controvertidas o poco familiares, entre ellas: el n\u00facleo inalterable los \u00f3rganos constitucionales los poderes de emergencia de alcance restringido la decisi\u00f3n de mantener un sistema presidencial m\u00e1s seguro en lugar de adoptar el parlamentarismo los mecanismos de antidemora y antisubversi\u00f3n Ese es el equilibrio adecuado para un proyecto constitucional de car\u00e1cter p\u00fablico: derecho claro, razonamiento visible."
+    },
+    {
+      "slug": "commentary-peaceful-use",
+      "title": "Uso c\u00edvico pac\u00edfico",
+      "group": "Comentario",
+      "kind": "commentary",
+      "source": "commentary/overview/peaceful-civic-use.md",
+      "status": null,
+      "summary": "C\u00f3mo el proyecto define su prop\u00f3sito c\u00edvico pac\u00edfico y los l\u00edmites de contribuci\u00f3n",
+      "headings": [
+        {
+          "level": 2,
+          "text": "Project Purpose",
+          "anchor": "project-purpose"
+        },
+        {
+          "level": 2,
+          "text": "What The Project Does Not Endorse",
+          "anchor": "what-the-project-does-not-endorse"
+        },
+        {
+          "level": 2,
+          "text": "How To Use The Project",
+          "anchor": "how-to-use-the-project"
+        },
+        {
+          "level": 2,
+          "text": "Maintainer Position",
+          "anchor": "maintainer-position"
+        }
+      ],
+      "search_text": "Peaceful Civic Use Project Purpose This project exists for peaceful civic discussion, constitutional drafting, education, translation, critique, simulation, and democratic advocacy. It is a public constitutional reference project. It is not a militia, an operational organization, or a vehicle for coercion or force. What The Project Does Not Endorse This project does not endorse: violence threats sabotage operational planning for coercion or force unlawful action or encouragement of imminent unlawful action Material submitted for those purposes is outside the project and may be removed. How To Use The Project People are free to: read and criticize the draft revise or fork it translate it teach from it organize lawful discussion around it campaign on parts of it if they find them persuasive The project is meant to be usable by others without requiring a single public leader to stand in front of it. Maintainer Position Maintainers may remove content or close discussions that try to turn the project into advocacy of force, unlawful action, or operational coordination. The purpose of the repository and website is constitutional discussion and public drafting, not coercion."
     },
     {
       "slug": "clause-unamendable-core",

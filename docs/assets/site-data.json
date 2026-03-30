@@ -65,7 +65,8 @@
       "group": "Commentary",
       "items": [
         "commentary-overview",
-        "commentary-choices"
+        "commentary-choices",
+        "commentary-peaceful-use"
       ]
     },
     {
@@ -3194,6 +3195,38 @@
         }
       ],
       "search_text": "Why Commentary Is Separate The Basic Choice This project uses two layers: constitutional text for binding rules commentary for explanation and justification That split is deliberate. Why Not Put Justification In The Constitution? Because constitutional text should do only a few things well: allocate authority impose duties set limits define remedies and backstops Once drafting commentary is blended into the article text, the document starts reading like a hybrid of constitution, law review article, and implementation manual. What Separation Protects Keeping commentary separate protects: citation stability readability translation clarity future maintenance a clear distinction between law and explanation What Commentary Still Adds Separate commentary still lets the project explain controversial or unfamiliar choices, including: the unamendable core constitutional organs narrow emergency powers the decision to retain a safer presidential system instead of switching to parliamentarism anti delay and anti subversion backstops That is the right balance for a public facing constitutional project: clean law, visible reasoning."
+    },
+    {
+      "slug": "commentary-peaceful-use",
+      "title": "Peaceful Civic Use",
+      "group": "Commentary",
+      "kind": "commentary",
+      "source": "commentary/overview/peaceful-civic-use.md",
+      "status": null,
+      "summary": "This project exists for peaceful civic discussion, constitutional drafting, education, translation, critique, simulation, and democratic advocacy.",
+      "headings": [
+        {
+          "level": 2,
+          "text": "Project Purpose",
+          "anchor": "project-purpose"
+        },
+        {
+          "level": 2,
+          "text": "What The Project Does Not Endorse",
+          "anchor": "what-the-project-does-not-endorse"
+        },
+        {
+          "level": 2,
+          "text": "How To Use The Project",
+          "anchor": "how-to-use-the-project"
+        },
+        {
+          "level": 2,
+          "text": "Maintainer Position",
+          "anchor": "maintainer-position"
+        }
+      ],
+      "search_text": "Peaceful Civic Use Project Purpose This project exists for peaceful civic discussion, constitutional drafting, education, translation, critique, simulation, and democratic advocacy. It is a public constitutional reference project. It is not a militia, an operational organization, or a vehicle for coercion or force. What The Project Does Not Endorse This project does not endorse: violence threats sabotage operational planning for coercion or force unlawful action or encouragement of imminent unlawful action Material submitted for those purposes is outside the project and may be removed. How To Use The Project People are free to: read and criticize the draft revise or fork it translate it teach from it organize lawful discussion around it campaign on parts of it if they find them persuasive The project is meant to be usable by others without requiring a single public leader to stand in front of it. Maintainer Position Maintainers may remove content or close discussions that try to turn the project into advocacy of force, unlawful action, or operational coordination. The purpose of the repository and website is constitutional discussion and public drafting, not coercion."
     },
     {
       "slug": "clause-unamendable-core",

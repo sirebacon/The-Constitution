@@ -132,6 +132,11 @@ COMMENTARY_OVERVIEW_METADATA = {
         "es": ("¿Por qué mantener separado el comentario?", "Por qué el texto constitucional se mantiene limpio mientras las notas de diseño siguen siendo públicas"),
         "zh-Hans": ("为什么要将评注分开？", "为何保持宪法正文简洁，同时公开设计说明"),
     },
+    "commentary-peaceful-use": {
+        "en": ("Peaceful Civic Use", "How the project defines its peaceful civic purpose and contribution boundaries"),
+        "es": ("Uso cívico pacífico", "Cómo el proyecto define su propósito cívico pacífico y los límites de contribución"),
+        "zh-Hans": ("和平公民用途", "项目如何界定其和平公民目的与贡献边界"),
+    },
 }
 
 CLAUSE_METADATA = {
@@ -222,6 +227,7 @@ PAGE_SOURCES = [
 COMMENTARY_OVERVIEW_SOURCES = [
     ("commentary-overview", "Using Commentary Notes", ROOT / "commentary" / "overview" / "using-commentary-notes.md", "Commentary", "How the website separates constitutional text from explanatory notes"),
     ("commentary-choices", "Why Keep Commentary Separate?", ROOT / "commentary" / "overview" / "why-commentary-is-separate.md", "Commentary", "Why the constitutional text stays clean while design notes stay public"),
+    ("commentary-peaceful-use", "Peaceful Civic Use", ROOT / "commentary" / "overview" / "peaceful-civic-use.md", "Commentary", "How the project defines its peaceful civic purpose and contribution boundaries"),
 ]
 
 CLAUSE_COMMENTARY_SOURCES = [
@@ -718,7 +724,7 @@ def build_manifest(locale: str, locales: list[str]) -> dict[str, object]:
     navigation = [
         {"group": labels["start_here"], "items": ["overview", "index", "comparison", "scorecard"]},
         {"group": labels["constitution"], "items": ["preamble"] + [slugify(filename.replace(".md", "")) for filename in ARTICLE_ORDER]},
-        {"group": labels["commentary"], "items": ["commentary-overview", "commentary-choices"]},
+        {"group": labels["commentary"], "items": ["commentary-overview", "commentary-choices", "commentary-peaceful-use"]},
         {
             "group": labels["key_clauses"],
             "items": [
