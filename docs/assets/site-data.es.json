@@ -51,8 +51,10 @@
           "presidential-powers-comparison",
           "how-a-bill-becomes-law",
           "election-to-transfer-of-power",
+          "election-to-inauguration",
           "how-rights-are-enforced",
           "federalism-and-the-democratic-floor",
+          "how-organs-work-together",
           "what-happens-in-a-constitutional-crisis",
           "what-cannot-be-changed"
         ]
@@ -159,8 +161,10 @@
         "presidential-powers-comparison",
         "how-a-bill-becomes-law",
         "election-to-transfer-of-power",
+        "election-to-inauguration",
         "how-rights-are-enforced",
         "federalism-and-the-democratic-floor",
+        "how-organs-work-together",
         "what-happens-in-a-constitutional-crisis",
         "what-cannot-be-changed"
       ]
@@ -3577,6 +3581,34 @@
       "search_text": "De La Elecci\u00f3n A La Transferencia Del Poder Esta gu\u00eda visual muestra c\u00f3mo el sistema constitucional pasa de la votaci\u00f3n a la certificaci\u00f3n y a la transferencia legal del poder, y qu\u00e9 protecciones impiden la demora, el sabotaje o la negativa a entregar la autoridad. C\u00f3mo Leer Esta Gu\u00eda La gu\u00eda tiene tres fases: votaci\u00f3n y conteo certificaci\u00f3n y controversias transici\u00f3n y transferencia Usa los botones de fase para centrarte en una parte de la cadena a la vez. Qu\u00e9 Cubre Esta Gu\u00eda votaci\u00f3n durante varios d\u00edas y votaci\u00f3n anticipada administraci\u00f3n y certificaci\u00f3n por la Comisi\u00f3n Electoral l\u00edmites judiciales a las t\u00e1cticas dilatorias deberes de transici\u00f3n del gobierno saliente obligaciones sobre registros, apoyo y continuidad consecuencias antisubversivas por obstruir la transferencia Qu\u00e9 No Hace Esta Gu\u00eda Esta gu\u00eda es una capa de orientaci\u00f3n, no el texto constitucional en s\u00ed. Para la redacci\u00f3n exacta y el detalle jur\u00eddico, lee: Art\u00edculo I Art\u00edculo III Art\u00edculo XII Art\u00edculo XIX"
     },
     {
+      "slug": "election-to-inauguration",
+      "title": "De la elecci\u00f3n a la investidura",
+      "group": "Gu\u00edas visuales",
+      "kind": "note",
+      "content_type": "visual_guide",
+      "source": "translation/translations/es/visual-guides/election-to-inauguration.md",
+      "status": null,
+      "summary": "Una cronolog\u00eda m\u00e1s completa desde la nominaci\u00f3n hasta la investidura, mostrando d\u00f3nde se sit\u00faan las salvaguardas constitucionales en cada fase",
+      "headings": [
+        {
+          "level": 2,
+          "text": "C\u00f3mo Leer Esta Gu\u00eda",
+          "anchor": "c\u00f3mo-leer-esta-gu\u00eda"
+        },
+        {
+          "level": 2,
+          "text": "Qu\u00e9 Cubre Esta Gu\u00eda",
+          "anchor": "qu\u00e9-cubre-esta-gu\u00eda"
+        },
+        {
+          "level": 2,
+          "text": "Qu\u00e9 No Hace Esta Gu\u00eda",
+          "anchor": "qu\u00e9-no-hace-esta-gu\u00eda"
+        }
+      ],
+      "search_text": "De la Elecci\u00f3n a la Investidura Esta gu\u00eda visual ofrece una cronolog\u00eda m\u00e1s completa desde las primarias y la nominaci\u00f3n hasta el d\u00eda de la investidura, mostrando d\u00f3nde est\u00e1n las salvaguardas constitucionales en cada fase y qu\u00e9 ocurre cuando alguien intenta romper la cadena. C\u00f3mo Leer Esta Gu\u00eda Cada fase es una secci\u00f3n independiente. Usa los botones de fase para centrarte en la nominaci\u00f3n, el d\u00eda electoral, la certificaci\u00f3n o la investidura. Cada paso incluye la disposici\u00f3n constitucional relevante. Qu\u00e9 Cubre Esta Gu\u00eda Nominaci\u00f3n: c\u00f3mo las reglas de la Comisi\u00f3n Electoral estructuran primarias, acceso a la boleta y financiaci\u00f3n p\u00fablica D\u00eda electoral: votaci\u00f3n en varios d\u00edas, voto por orden de preferencia y l\u00edmites a la manipulaci\u00f3n mediante emergencias Certificaci\u00f3n: plazos obligatorios, revisi\u00f3n de la Comisi\u00f3n Electoral, investigaciones por fraude y el papel ministerial del Congreso Investidura: deberes de cooperaci\u00f3n en la transici\u00f3n, juramento y reglas antisubversivas que siguen vigentes hasta el traspaso final Qu\u00e9 No Hace Esta Gu\u00eda Esta gu\u00eda es una capa de orientaci\u00f3n, no el texto constitucional en s\u00ed. Para la redacci\u00f3n exacta y el detalle jur\u00eddico, lee: Art\u00edculo I Art\u00edculo III Art\u00edculo XII Art\u00edculo XIX"
+    },
+    {
       "slug": "how-rights-are-enforced",
       "title": "C\u00f3mo se hacen exigibles los derechos",
       "group": "Gu\u00edas visuales",
@@ -3631,6 +3663,34 @@
         }
       ],
       "search_text": "Federalismo Y Piso Democr\u00e1tico Esta gu\u00eda visual explica la l\u00ednea constitucional entre la autonom\u00eda estatal preservada y el piso democr\u00e1tico nacional que los estados no pueden violar legalmente. C\u00f3mo Leer Esta Gu\u00eda La gu\u00eda tiene cuatro secciones: lo que los estados a\u00fan controlan lo que los estados no pueden hacer salvaguardas federales y judiciales democracia local y preeminencia Usa los botones de categor\u00eda para centrarte en una parte de la estructura federal a la vez. Qu\u00e9 Cubre Esta Gu\u00eda autoridad estatal preservada pisos de ciudadan\u00eda igualitaria y derechos l\u00edmites anti retroceso sobre la autonom\u00eda estatal remedios judiciales federales frente a la acci\u00f3n estatal inconstitucional l\u00edmites entre democracia local y preeminencia estatal Qu\u00e9 No Hace Esta Gu\u00eda Esta gu\u00eda es una capa de orientaci\u00f3n, no el texto constitucional en s\u00ed. Para la redacci\u00f3n exacta y el detalle jur\u00eddico, lee: Art\u00edculo X Art\u00edculo V Art\u00edculo IX Art\u00edculo XVIII"
+    },
+    {
+      "slug": "how-organs-work-together",
+      "title": "C\u00f3mo trabajan juntos los \u00f3rganos constitucionales",
+      "group": "Gu\u00edas visuales",
+      "kind": "note",
+      "content_type": "visual_guide",
+      "source": "translation/translations/es/visual-guides/how-organs-work-together.md",
+      "status": null,
+      "summary": "Qu\u00e9 hace cada \u00f3rgano constitucional, d\u00f3nde terminan sus poderes y c\u00f3mo se controlan mutuamente",
+      "headings": [
+        {
+          "level": 2,
+          "text": "C\u00f3mo Leer Esta Gu\u00eda",
+          "anchor": "c\u00f3mo-leer-esta-gu\u00eda"
+        },
+        {
+          "level": 2,
+          "text": "Qu\u00e9 Cubre Esta Gu\u00eda",
+          "anchor": "qu\u00e9-cubre-esta-gu\u00eda"
+        },
+        {
+          "level": 2,
+          "text": "Qu\u00e9 No Hace Esta Gu\u00eda",
+          "anchor": "qu\u00e9-no-hace-esta-gu\u00eda"
+        }
+      ],
+      "search_text": "C\u00f3mo Trabajan Juntos los \u00d3rganos Constitucionales Esta gu\u00eda visual explica qu\u00e9 hace cada \u00f3rgano constitucional, c\u00f3mo se relacionan entre s\u00ed y c\u00f3mo el dise\u00f1o evita que un solo \u00f3rgano, o un solo funcionario, se vuelva dominante. C\u00f3mo Leer Esta Gu\u00eda Cada tarjeta cubre un \u00f3rgano o una categor\u00eda de relaciones entre \u00f3rganos. Usa los botones de categor\u00eda para centrarte en la Comisi\u00f3n Electoral, la Comisi\u00f3n de Rendici\u00f3n de Cuentas, los tribunales y la Junta de Conducta Judicial, o en los controles cruzados que mantienen unido el sistema. Qu\u00e9 Cubre Esta Gu\u00eda Comisi\u00f3n Electoral: qu\u00e9 administra, ante qui\u00e9n responde y c\u00f3mo est\u00e1 protegida Comisi\u00f3n de Rendici\u00f3n de Cuentas: alcance de las investigaciones, disparadores de remisi\u00f3n y por qu\u00e9 no puede ser cerrada por el funcionario al que investiga Tribunales y Junta de Conducta Judicial: c\u00f3mo revisan los actos de todas las ramas y c\u00f3mo se maneja la disciplina judicial Controles cruzados: separaci\u00f3n en los nombramientos, revisi\u00f3n mutua e idea de que el sabotaje institucional es en s\u00ed mismo una ofensa constitucional Qu\u00e9 No Hace Esta Gu\u00eda Esta gu\u00eda es una capa de orientaci\u00f3n, no el texto constitucional en s\u00ed. Para la redacci\u00f3n exacta y el detalle jur\u00eddico, lee: Art\u00edculo IV Art\u00edculo XII Art\u00edculo XIX"
     },
     {
       "slug": "what-happens-in-a-constitutional-crisis",

@@ -11,8 +11,10 @@
     "presidential-powers-comparison",
     "how-a-bill-becomes-law",
     "election-to-transfer-of-power",
+    "election-to-inauguration",
     "how-rights-are-enforced",
     "federalism-and-the-democratic-floor",
+    "how-organs-work-together",
     "what-happens-in-a-constitutional-crisis",
     "what-cannot-be-changed"
   ],
@@ -172,6 +174,20 @@
       }
     },
     {
+      "slug": "election-to-inauguration",
+      "source": "visual-guides/election-to-inauguration.md",
+      "title": {
+        "en": "From Election To Inauguration",
+        "es": "De la elección a la investidura",
+        "zh-Hans": "从选举到就职"
+      },
+      "summary": {
+        "en": "A fuller timeline from nomination through inauguration, showing where constitutional guardrails sit at each phase",
+        "es": "Una cronología más completa desde la nominación hasta la investidura, mostrando dónde se sitúan las salvaguardas constitucionales en cada fase",
+        "zh-Hans": "从提名到就职的更完整时间线，展示各阶段的宪法护栏位于何处"
+      }
+    },
+    {
       "slug": "how-rights-are-enforced",
       "source": "visual-guides/how-rights-are-enforced.md",
       "title": {
@@ -197,6 +213,20 @@
         "en": "What states still control, what the democratic floor forbids, and what federal backstops respond when states cross the constitutional line",
         "es": "Qué siguen controlando los estados, qué prohíbe el piso democrático y qué salvaguardas federales responden cuando los estados cruzan la línea constitucional",
         "zh-Hans": "州仍控制什么、民主底线禁止什么，以及当州越过宪法界线时哪些联邦后备机制会启动"
+      }
+    },
+    {
+      "slug": "how-organs-work-together",
+      "source": "visual-guides/how-organs-work-together.md",
+      "title": {
+        "en": "How Constitutional Organs Work Together",
+        "es": "Cómo trabajan juntos los órganos constitucionales",
+        "zh-Hans": "宪法机关如何协同运作"
+      },
+      "summary": {
+        "en": "What each constitutional organ does, where their powers stop, and how they cross-check one another",
+        "es": "Qué hace cada órgano constitucional, dónde terminan sus poderes y cómo se controlan mutuamente",
+        "zh-Hans": "各宪法机关分别做什么、其权力止于何处，以及它们如何相互制衡"
       }
     },
     {

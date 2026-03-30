@@ -7,7 +7,9 @@ import {
   presidentialPowersDataForLocale,
   billToLawDataForLocale,
   electionTransferDataForLocale,
+  electionToInaugurationDataForLocale,
   federalismFloorDataForLocale,
+  organsGuideDataForLocale,
   unamendableCoreDataForLocale,
 } from "./data-governance.js";
 import {
@@ -67,8 +69,20 @@ export const GOVERNANCE_GUIDE_RENDERERS = {
         { key: "transfer", label: data.transfer },
       ]);
     })(),
+  "election-to-inauguration": (doc, siteData) =>
+    (() => {
+      const data = electionToInaugurationDataForLocale(siteData.locale);
+      return renderFlowGuide(doc, data, [
+        { key: "nomination", label: data.nomination },
+        { key: "election", label: data.election },
+        { key: "certification", label: data.certification },
+        { key: "inauguration", label: data.inauguration },
+      ]);
+    })(),
   "federalism-and-the-democratic-floor": (doc, siteData) =>
     renderCardGuide(doc, federalismFloorDataForLocale(siteData.locale)),
+  "how-organs-work-together": (doc, siteData) =>
+    renderCardGuide(doc, organsGuideDataForLocale(siteData.locale)),
   "what-cannot-be-changed": (doc, siteData) =>
     renderCardGuide(doc, unamendableCoreDataForLocale(siteData.locale)),
 };
@@ -82,6 +96,8 @@ export const GOVERNANCE_GUIDE_FILTERS = {
   "presidential-powers-comparison": "basic",
   "how-a-bill-becomes-law": "basic",
   "election-to-transfer-of-power": "basic",
+  "election-to-inauguration": "basic",
   "federalism-and-the-democratic-floor": "basic",
+  "how-organs-work-together": "basic",
   "what-cannot-be-changed": "basic",
 };

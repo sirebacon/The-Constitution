@@ -724,3 +724,311 @@ export const ELECTION_TRANSFER_GUIDE = {
 export function electionTransferDataForLocale(locale) {
   return ELECTION_TRANSFER_GUIDE[locale] || ELECTION_TRANSFER_GUIDE.en;
 }
+
+export const ELECTION_TO_INAUGURATION_GUIDE = {
+  en: {
+    all: "All phases",
+    nomination: "Nomination",
+    election: "Election day",
+    certification: "Certification",
+    inauguration: "Inauguration",
+    filterLabel: "Filter election-to-inauguration phases",
+    note: "This guide stretches the election timeline back to nomination and forward to inauguration so readers can see where the constitutional guardrails sit before voting, during counting, during certification, and at the handoff itself.",
+    sections: [
+      {
+        key: "nomination",
+        label: "Nomination phase",
+        summary: "The constitutional election chain begins before ballots are cast.",
+        steps: [
+          { title: "Ballot access is constitutionally structured", meta: "Art. I §§8-10", text: "The Electoral Commission oversees qualification rules, ballot access, and anti-cartel limits so major parties cannot quietly lock lawful entrants out of the field." },
+          { title: "Primary rules are publicly regulated", meta: "Art. I §9", text: "Candidate selection rules, party qualification, and access to core election infrastructure are subject to constitutional fairness rules rather than purely partisan discretion." },
+          { title: "Campaign finance rules apply before voting starts", meta: "Art. VII", text: "Contribution limits, transparency rules, and public-financing structure operate upstream of Election Day to reduce capture before the public ever votes." },
+        ],
+      },
+      {
+        key: "election",
+        label: "Election day and count phase",
+        summary: "Voting and counting happen under an independent administrative chain with built-in anti-manipulation protections.",
+        steps: [
+          { title: "Voting spans multiple days with early voting", meta: "Art. I §3.2", text: "Federal elections must include multiple days of voting and a substantial early-voting window so access is less vulnerable to last-minute disruption." },
+          { title: "The Electoral Commission administers the process", meta: "Art. I §10.1 / Art. XII §2", text: "An independent constitutional organ, not the candidates themselves, runs federal election administration and counting rules." },
+          { title: "Late emergency interference is tightly constrained", meta: "Art. I §3.4 / Art. III", text: "Officials cannot use a sudden emergency declaration to suppress access, suspend lawful voting, or manipulate the election timeline without strict constitutional justification and review." },
+        ],
+      },
+      {
+        key: "certification",
+        label: "Certification phase",
+        summary: "Certification is mandatory, timed, and designed to resist stalling tactics.",
+        steps: [
+          { title: "Certification deadlines are fixed", meta: "Art. I §6.3", text: "The presidential result must be certified on time. Delay is the exception, not the ordinary political bargaining tool." },
+          { title: "Only real court orders can pause the chain", meta: "Art. I §6.3 / §10.4 / Art. IV", text: "Certification may be delayed only by an actual court with jurisdiction over a genuine dispute. Without a stay, the constitutional chain continues." },
+          { title: "Congress does not get a free-floating certification veto", meta: "Art. I §6 / Art. II", text: "The legislature plays a ministerial role in receiving lawful results, not an open-ended role in revising or nullifying certified presidential outcomes." },
+        ],
+      },
+      {
+        key: "inauguration",
+        label: "Inauguration and handoff phase",
+        summary: "Once the winner is lawfully established, the system shifts from counting rules to continuity and anti-subversion duties.",
+        steps: [
+          { title: "Outgoing officials must cooperate with transition", meta: "Art. III §13 / Art. XIX §6", text: "Security briefings, records access, office support, and agency cooperation are affirmative constitutional duties, not courtesies." },
+          { title: "The oath and lawful assumption of office close the chain", meta: "Art. III §1 / Art. XIX", text: "The incoming President assumes office through a fixed constitutional sequence rather than through legislative improvisation or incumbent permission." },
+          { title: "Obstruction remains anti-subversion conduct", meta: "Art. VI / Art. XIX", text: "Efforts to defy certification, sabotage records, or frustrate inauguration can trigger removal, disqualification, prosecution, and continuity backstops." },
+        ],
+      },
+    ],
+  },
+  es: {
+    all: "Todas las fases",
+    nomination: "Nominación",
+    election: "Día de la elección",
+    certification: "Certificación",
+    inauguration: "Investidura",
+    filterLabel: "Filtrar fases desde la elección hasta la investidura",
+    note: "Esta guía amplía la línea temporal electoral hacia atrás hasta la nominación y hacia adelante hasta la investidura para mostrar dónde están las salvaguardas constitucionales antes de votar, durante el conteo, durante la certificación y en el traspaso mismo.",
+    sections: [
+      {
+        key: "nomination",
+        label: "Fase de nominación",
+        summary: "La cadena constitucional electoral comienza antes de que se emitan los votos.",
+        steps: [
+          { title: "El acceso a la boleta tiene estructura constitucional", meta: "Art. I §§8-10", text: "La Comisión Electoral supervisa las reglas de calificación, el acceso a la boleta y los límites anti-cartel para que los grandes partidos no excluyan silenciosamente a competidores legales." },
+          { title: "Las reglas de primarias están reguladas públicamente", meta: "Art. I §9", text: "Las reglas de selección de candidatos, la calificación partidaria y el acceso a la infraestructura electoral central quedan sujetas a reglas constitucionales de equidad y no solo a la discreción partidista." },
+          { title: "Las reglas de financiación operan antes de la votación", meta: "Art. VII", text: "Los límites de aportes, las reglas de transparencia y la financiación pública actúan antes del día electoral para reducir la captura antes de que el público vote." },
+        ],
+      },
+      {
+        key: "election",
+        label: "Fase de votación y conteo",
+        summary: "La votación y el escrutinio ocurren bajo una cadena administrativa independiente con protecciones contra la manipulación.",
+        steps: [
+          { title: "La votación se extiende por varios días con voto anticipado", meta: "Art. I §3.2", text: "Las elecciones federales deben incluir varios días de votación y una amplia ventana de voto anticipado para reducir la vulnerabilidad a interrupciones de último momento." },
+          { title: "La Comisión Electoral administra el proceso", meta: "Art. I §10.1 / Art. XII §2", text: "Un órgano constitucional independiente, y no los propios candidatos, dirige la administración electoral federal y las reglas de conteo." },
+          { title: "La interferencia tardía por emergencia está muy limitada", meta: "Art. I §3.4 / Art. III", text: "Ningún funcionario puede usar una declaración repentina de emergencia para suprimir el acceso, suspender la votación legal o manipular el calendario electoral sin una justificación y revisión constitucional estrictas." },
+        ],
+      },
+      {
+        key: "certification",
+        label: "Fase de certificación",
+        summary: "La certificación es obligatoria, tiene plazo y está diseñada para resistir maniobras dilatorias.",
+        steps: [
+          { title: "Los plazos de certificación son fijos", meta: "Art. I §6.3", text: "El resultado presidencial debe certificarse a tiempo. El retraso es la excepción, no una herramienta ordinaria de negociación política." },
+          { title: "Solo órdenes judiciales reales pueden pausar la cadena", meta: "Art. I §6.3 / §10.4 / Art. IV", text: "La certificación solo puede retrasarse por una orden real de un tribunal con jurisdicción sobre una controversia genuina. Sin suspensión, la cadena constitucional continúa." },
+          { title: "El Congreso no tiene un veto abierto sobre la certificación", meta: "Art. I §6 / Art. II", text: "La legislatura cumple una función ministerial de recepción de resultados legales, no un poder abierto para revisar o anular resultados presidenciales ya certificados." },
+        ],
+      },
+      {
+        key: "inauguration",
+        label: "Fase de investidura y traspaso",
+        summary: "Una vez establecido legalmente el ganador, el sistema pasa de las reglas de conteo a los deberes de continuidad y anti-subversión.",
+        steps: [
+          { title: "Los funcionarios salientes deben cooperar con la transición", meta: "Art. III §13 / Art. XIX §6", text: "Las sesiones de seguridad, el acceso a registros, el apoyo de oficina y la cooperación de las agencias son deberes constitucionales afirmativos, no simples cortesías." },
+          { title: "El juramento y la asunción legal del cargo cierran la cadena", meta: "Art. III §1 / Art. XIX", text: "El Presidente entrante asume el cargo mediante una secuencia constitucional fija, no por improvisación legislativa ni por permiso del titular saliente." },
+          { title: "La obstrucción sigue siendo conducta antisubversiva", meta: "Art. VI / Art. XIX", text: "Los intentos de desafiar la certificación, sabotear registros o frustrar la investidura pueden activar remoción, inhabilitación, procesamiento y salvaguardas de continuidad." },
+        ],
+      },
+    ],
+  },
+  "zh-Hans": {
+    all: "全部阶段",
+    nomination: "提名",
+    election: "投票日",
+    certification: "认证",
+    inauguration: "就职",
+    filterLabel: "筛选从选举到就职的阶段",
+    note: "本指南把选举时间线向前延伸到提名、向后延伸到就职，让读者看到在投票前、计票中、认证中以及正式交接时分别有哪些宪法护栏。",
+    sections: [
+      {
+        key: "nomination",
+        label: "提名阶段",
+        summary: "宪法性的选举链条在投票之前就已开始。",
+        steps: [
+          { title: "选票准入具有宪法结构", meta: "第一条 §§8-10", text: "选举委员会监督资格规则、选票准入与反卡特尔限制，防止大党悄悄把合法参选者排除在竞选之外。" },
+          { title: "初选规则受到公共规制", meta: "第一条 §9", text: "候选人遴选规则、政党资格与核心选举基础设施准入均受宪法公平规则约束，而非纯粹由党派自行决定。" },
+          { title: "竞选资金规则在投票前就生效", meta: "第七条", text: "捐款上限、透明度规则与公共资助结构在选举日前就发挥作用，以便在公众投票前降低俘获风险。" },
+        ],
+      },
+      {
+        key: "election",
+        label: "投票与计票阶段",
+        summary: "投票与计票在独立行政链条下进行，并内置防操控保护。",
+        steps: [
+          { title: "投票跨多日进行并包含提前投票", meta: "第一条 §3.2", text: "联邦选举必须包含多日投票与充分的提前投票窗口，以降低其受到最后时刻干扰的脆弱性。" },
+          { title: "由选举委员会管理整个过程", meta: "第一条 §10.1 / 第十二条 §2", text: "联邦选举行政与计票规则由独立宪法机关管理，而不是由候选人本人控制。" },
+          { title: "借紧急状态进行迟发干预受到严格限制", meta: "第一条 §3.4 / 第三条", text: "任何官员都不得借突发紧急状态压制投票渠道、暂停合法投票或操纵选举日程，除非满足严格的宪法理由与审查。" },
+        ],
+      },
+      {
+        key: "certification",
+        label: "认证阶段",
+        summary: "认证具有强制性、有固定期限，并被设计为抵御拖延战术。",
+        steps: [
+          { title: "认证期限是固定的", meta: "第一条 §6.3", text: "总统选举结果必须按时认证。拖延是例外，而不是日常政治博弈工具。" },
+          { title: "只有真实法院命令才能暂停链条", meta: "第一条 §6.3 / §10.4 / 第四条", text: "认证只能因对真实争议有管辖权的法院作出真实命令而推迟。没有中止令，宪法链条继续推进。" },
+          { title: "国会没有自由裁量的认证否决权", meta: "第一条 §6 / 第二条", text: "立法机关在接收合法结果时扮演的是事务性角色，而不是对已认证总统结果进行改写或否决的开放性角色。" },
+        ],
+      },
+      {
+        key: "inauguration",
+        label: "就职与交接阶段",
+        summary: "一旦胜者被合法确定，制度就从计票规则转向连续性与反颠覆义务。",
+        steps: [
+          { title: "离任官员必须配合交接", meta: "第三条 §13 / 第十九条 §6", text: "安全简报、记录访问、办公支持和机构合作都是积极的宪法义务，而不是礼节性安排。" },
+          { title: "宣誓与合法就职完成整个链条", meta: "第三条 §1 / 第十九条", text: "当选总统通过固定的宪法序列就任，而不是靠立法临时应变或现任者许可。" },
+          { title: "阻挠仍属于反颠覆行为", meta: "第六条 / 第十九条", text: "试图抗拒认证、破坏记录或阻挠就职，可能触发免职、资格取消、起诉以及连续性后备机制。" },
+        ],
+      },
+    ],
+  },
+};
+
+export function electionToInaugurationDataForLocale(locale) {
+  return ELECTION_TO_INAUGURATION_GUIDE[locale] || ELECTION_TO_INAUGURATION_GUIDE.en;
+}
+
+export const ORGANS_GUIDE = {
+  en: {
+    all: "All",
+    filterLabel: "Filter constitutional organ categories",
+    note: "This guide separates the main constitutional organs and the cross-checks between them so readers can see how the system avoids concentrating election administration, anti-corruption enforcement, and judicial discipline in one office.",
+    categories: [
+      {
+        key: "electoral-commission",
+        label: "Electoral Commission",
+        summary: "The Electoral Commission protects the electoral chain from partisan capture.",
+        items: [
+          { title: "Runs federal election administration", article: "Arts. I, XII", text: "The Electoral Commission administers registration, ballot access, certification, and other core federal election functions under constitutional rules rather than under incumbent control." },
+          { title: "Works on deadlines, not political convenience", article: "Arts. I, XII", text: "Certification and election administration are tied to mandatory constitutional deadlines so the chain cannot be casually stalled." },
+          { title: "Can trigger integrity remedies", article: "Arts. I, VI, XII", text: "When states or officials break election rules, the Commission can invoke constitutional remedies rather than merely issuing advisory criticism." },
+        ],
+      },
+      {
+        key: "accountability-commission",
+        label: "Accountability Commission",
+        summary: "The Accountability Commission handles corruption, anti-subversion, and public-integrity enforcement outside ordinary executive loyalty chains.",
+        items: [
+          { title: "Investigates and prosecutes public corruption", article: "Arts. VIII, XII", text: "The Commission can investigate bribery, abuse, electoral sabotage, and other constitutional-order offenses without waiting for the officials implicated to authorize action." },
+          { title: "Protected from shutdown by its targets", article: "Arts. XII, XIX", text: "Continuity and structural safeguards are designed to stop defunding, capture, or transition sabotage from quietly turning the Commission off." },
+          { title: "Still bounded by law and judicial review", article: "Arts. IV, XII", text: "The Commission is strong, but it is not a free-floating political police force. Courts still review legality and process." },
+        ],
+      },
+      {
+        key: "courts-jcb",
+        label: "Courts and Judicial Conduct Board",
+        summary: "Courts review all branches, while the Judicial Conduct Board disciplines judges without letting judges self-police in secret.",
+        items: [
+          { title: "Courts remain the review backstop", article: "Art. IV", text: "Courts review executive action, legislative disputes, rights claims, and constitutional-organ conduct under explicit constitutional timing and remedy rules." },
+          { title: "The Judicial Conduct Board handles discipline", article: "Art. IV", text: "Judicial misconduct is handled through a formal disciplinary structure rather than by informal norm enforcement alone." },
+          { title: "Delay itself is a constitutional problem", article: "Art. IV", text: "If the Supreme Court stalls, lower-court continuity and expedited review backstops prevent strategic judicial nonperformance from collapsing the system." },
+        ],
+      },
+      {
+        key: "cross-checks",
+        label: "Cross-organ checks",
+        summary: "The organs are designed to overlap enough to prevent monopoly, but not so much that they become duplicates of each other.",
+        items: [
+          { title: "Separated appointment and removal paths", article: "Arts. IV, XII", text: "No single elected official can appoint, direct, and freely remove every major constitutional safeguard body." },
+          { title: "Mutual reporting and review", article: "Arts. IV, VI, XII", text: "Election integrity, public corruption, and judicial legality are monitored through different institutions that can trigger review of one another's actions." },
+          { title: "Institutional sabotage is itself unconstitutional", article: "Arts. VI, XII, XIX", text: "Destroying records, refusing lawful transitions, or disabling a constitutional organ is not just bad governance. It can itself trigger constitutional consequences." },
+        ],
+      },
+    ],
+  },
+  es: {
+    all: "Todo",
+    filterLabel: "Filtrar categorías de órganos constitucionales",
+    note: "Esta guía separa los principales órganos constitucionales y los controles cruzados entre ellos para mostrar cómo el sistema evita concentrar la administración electoral, la lucha anticorrupción y la disciplina judicial en una sola oficina.",
+    categories: [
+      {
+        key: "electoral-commission",
+        label: "Comisión Electoral",
+        summary: "La Comisión Electoral protege la cadena electoral frente a la captura partidista.",
+        items: [
+          { title: "Dirige la administración electoral federal", article: "Arts. I, XII", text: "La Comisión Electoral administra el registro, el acceso a la boleta, la certificación y otras funciones electorales federales centrales bajo reglas constitucionales y no bajo control del titular del cargo." },
+          { title: "Opera con plazos, no con conveniencia política", article: "Arts. I, XII", text: "La certificación y la administración electoral están vinculadas a plazos constitucionales obligatorios para que la cadena no pueda frenarse casualmente." },
+          { title: "Puede activar remedios de integridad", article: "Arts. I, VI, XII", text: "Cuando estados o funcionarios violan las reglas electorales, la Comisión puede activar remedios constitucionales y no solo emitir críticas consultivas." },
+        ],
+      },
+      {
+        key: "accountability-commission",
+        label: "Comisión de Rendición de Cuentas",
+        summary: "La Comisión de Rendición de Cuentas gestiona la corrupción, la conducta antisubversiva y la aplicación de la integridad pública fuera de las cadenas ordinarias de lealtad ejecutiva.",
+        items: [
+          { title: "Investiga y procesa la corrupción pública", article: "Arts. VIII, XII", text: "La Comisión puede investigar soborno, abuso, sabotaje electoral y otras ofensas contra el orden constitucional sin esperar a que los propios implicados autoricen la acción." },
+          { title: "Está protegida frente al cierre por sus objetivos", article: "Arts. XII, XIX", text: "Las salvaguardas de continuidad y estructura están diseñadas para impedir que la desfinanciación, la captura o el sabotaje de transición apaguen silenciosamente la Comisión." },
+          { title: "Sigue limitada por la ley y la revisión judicial", article: "Arts. IV, XII", text: "La Comisión es fuerte, pero no es una policía política libre. Los tribunales siguen revisando legalidad y procedimiento." },
+        ],
+      },
+      {
+        key: "courts-jcb",
+        label: "Tribunales y Junta de Conducta Judicial",
+        summary: "Los tribunales revisan a todas las ramas, mientras que la Junta de Conducta Judicial disciplina a los jueces sin permitir que se autopolicen en secreto.",
+        items: [
+          { title: "Los tribunales siguen siendo el respaldo de revisión", article: "Art. IV", text: "Los tribunales revisan actos del ejecutivo, disputas legislativas, reclamaciones de derechos y conductas de órganos constitucionales bajo reglas explícitas de plazo y remedio." },
+          { title: "La Junta de Conducta Judicial gestiona la disciplina", article: "Art. IV", text: "La mala conducta judicial se maneja mediante una estructura disciplinaria formal y no solo por normas informales." },
+          { title: "La demora es en sí misma un problema constitucional", article: "Art. IV", text: "Si la Corte Suprema se retrasa, los respaldos de continuidad de tribunales inferiores y revisión acelerada impiden que la inacción judicial estratégica colapse el sistema." },
+        ],
+      },
+      {
+        key: "cross-checks",
+        label: "Controles cruzados",
+        summary: "Los órganos están diseñados para superponerse lo suficiente como para evitar monopolios, pero no tanto como para duplicarse unos a otros.",
+        items: [
+          { title: "Vías separadas de nombramiento y remoción", article: "Arts. IV, XII", text: "Ningún funcionario electo puede nombrar, dirigir y remover libremente a todos los principales órganos de resguardo constitucional." },
+          { title: "Informes y revisión mutuos", article: "Arts. IV, VI, XII", text: "La integridad electoral, la corrupción pública y la legalidad judicial son supervisadas por instituciones distintas que pueden activar revisión de las acciones de las otras." },
+          { title: "El sabotaje institucional es inconstitucional", article: "Arts. VI, XII, XIX", text: "Destruir registros, negarse a transiciones legales o desactivar un órgano constitucional no es solo mala gestión. Puede activar consecuencias constitucionales." },
+        ],
+      },
+    ],
+  },
+  "zh-Hans": {
+    all: "全部",
+    filterLabel: "筛选宪法机关类别",
+    note: "本指南把主要宪法机关及其相互制衡分开展示，让读者看到制度如何避免把选举管理、反腐执行和司法纪律集中到单一办公室手中。",
+    categories: [
+      {
+        key: "electoral-commission",
+        label: "选举委员会",
+        summary: "选举委员会保护选举链条不被党派俘获。",
+        items: [
+          { title: "负责联邦选举管理", article: "第一条、第十二条", text: "选举委员会依照宪法规则管理登记、选票准入、认证及其他核心联邦选举职能，而不是由现任执政者控制。" },
+          { title: "按期限运行，而非按政治便利运行", article: "第一条、第十二条", text: "认证与选举管理都受强制性宪法期限约束，因此整条链条不能被随意拖住。" },
+          { title: "能够触发诚信救济", article: "第一条、第六条、第十二条", text: "当州或官员破坏选举规则时，委员会可以启动宪法救济，而不是只能发表咨询性批评。" },
+        ],
+      },
+      {
+        key: "accountability-commission",
+        label: "问责委员会",
+        summary: "问责委员会在普通行政忠诚链条之外处理腐败、反颠覆与公共廉政执行。",
+        items: [
+          { title: "调查并起诉公共腐败", article: "第八条、第十二条", text: "委员会可以调查贿赂、滥权、选举破坏及其他宪法秩序犯罪，而无需等待涉案官员批准行动。" },
+          { title: "不受被调查对象关闭", article: "第十二条、第十九条", text: "连续性与结构性保障旨在防止断供、俘获或交接破坏悄悄让委员会停摆。" },
+          { title: "仍受法律与司法审查约束", article: "第四条、第十二条", text: "委员会很强，但它不是不受限制的政治警察机构。法院仍会审查其合法性与程序。" },
+        ],
+      },
+      {
+        key: "courts-jcb",
+        label: "法院与司法行为委员会",
+        summary: "法院审查所有分支，而司法行为委员会负责法官纪律，避免法官在秘密中自我监管。",
+        items: [
+          { title: "法院仍是最终审查后备", article: "第四条", text: "法院按照明确的宪法期限与救济规则审查行政行为、立法争议、权利主张以及宪法机关行为。" },
+          { title: "司法行为委员会负责纪律", article: "第四条", text: "司法不当行为通过正式纪律结构处理，而不是仅靠非正式规范约束。" },
+          { title: "拖延本身就是宪法问题", article: "第四条", text: "如果最高法院拖延，下级法院连续性和加速审查后备机制会防止战略性司法不作为拖垮整个制度。" },
+        ],
+      },
+      {
+        key: "cross-checks",
+        label: "跨机关制衡",
+        summary: "这些机关被设计成有足够重叠以防垄断，但又不会彼此完全重复。",
+        items: [
+          { title: "任命与罢免路径分离", article: "第四条、第十二条", text: "没有任何单一民选官员能够任命、指挥并自由罢免所有主要宪法护栏机构。" },
+          { title: "相互报告与相互审查", article: "第四条、第六条、第十二条", text: "选举诚信、公共腐败与司法合法性由不同机构监督，它们可以触发对彼此行为的审查。" },
+          { title: "制度性破坏本身违宪", article: "第六条、第十二条、第十九条", text: "销毁记录、拒绝合法交接或瘫痪宪法机关，不只是治理失败，本身就可能触发宪法后果。" },
+        ],
+      },
+    ],
+  },
+};
+
+export function organsGuideDataForLocale(locale) {
+  return ORGANS_GUIDE[locale] || ORGANS_GUIDE.en;
+}
