@@ -63,148 +63,107 @@ Comparison table, filterable by category: composition, terms and elections, excl
 
 ---
 
-## What To Build Next
+## Built In Phase 2
 
-These four are the highest-value remaining guides for general readers.
+These are now complete and live on the site.
 
-### 5. How Officials Are Removed
+### 5. How Officials Are Removed — DONE
 Question: `What happens when someone abuses power?`
 
-Why next:
+Comparison-table guide covering President, Congress members, federal judges, and Constitutional Organs.
 
-- most topical for current readers
-- covers five distinct removal paths that many readers will not know exist
-- the three paths for the President alone (impeachment, ACC prosecution, recall) are a key design distinction
-
-Format:
-
-- comparison table, same pattern as congress-comparison
-- filterable by officer type: President, judges, ACC and EC members, Congress members
-- columns: trigger → who decides → threshold → outcome
-
-### 6. How Elections Work
+### 6. How Elections Work — DONE
 Question: `What is different about voting here?`
 
-Why:
+Card-grid guide covering voting methods, access and registration, integrity protections, and recall.
 
-- ranked-choice STV is unfamiliar and confusing to most readers
-- automatic voter registration, independent redistricting, and election-date protections are significant changes
-- the recall mechanism needs explaining in context
-
-Format:
-
-- card grid, same pattern as rights-at-a-glance
-- filterable by category: voting method, access and registration, integrity protections, recall
-
-### 7. The Amendment Process
+### 7. The Amendment Process — DONE
 Question: `How hard is it to change this constitution?`
 
-Why:
+Track 1 vs. Track 2 comparison plus pre-clearance and unamendable-core treatment.
 
-- the unamendable core is the most distinctive structural design choice in the draft
-- Track 1 vs Track 2 paths are easy to show side by side
-- comparison to current Article V makes the distinction concrete
-
-Format:
-
-- two-column table: Track 1 (structural) vs Track 2 (rights expansion)
-- locked panel below for the unamendable core listing
-- optional third column comparing to current U.S. Article V
-
-### 8. What The Accountability Commission Does
+### 8. What The Accountability Commission Does — DONE
 Question: `What is this new institution and who controls it?`
 
-Why:
-
-- the ACC is completely unfamiliar — no equivalent exists in current U.S. law
-- readers will ask who watches the watchers
-- the independence design (multi-party, staggered terms, no presidential removal) is worth explaining
-
-Format:
-
-- card grid
-- filterable by aspect: what it is, what it can do, what it cannot do, what happens if someone tries to capture it
+Card-grid explainer covering composition, powers, limits, and anti-capture protections.
 
 ---
 
-## What To Build Later
+## What To Build Next
 
-These are good ideas but depend on having the core explainer layer stable first.
+These are now the highest-value remaining guides for general readers.
 
 ### 9. Presidential Powers: Then vs. Now
 Question: `What can the President actually do — and what can’t they?`
 
 Format: comparison table, same pattern as congress-comparison. Covers veto, appointments, emergency declarations, pardons, military command, executive orders, firing agency heads.
 
+Why next:
+
+- likely the most shareable high-level comparison after Congress
+- answers the most common reader question about presidentialism
+- helps clarify that the draft is constrained presidentialism, not executive supremacy
+
 ### 10. How A Bill Becomes Law
 Question: `What is the legislative path?`
 
 Format: step-by-step flow filterable by path: ordinary, vetoed, deadlocked. Covers the no-filibuster default and the 60-day deadlock resolution mechanism.
 
-### 11. Scenario Explorer
-Question: `What happens when something goes wrong?`
+Why next:
 
-Best built from simulator outputs once a clean generation format exists. Group-level overview pages first, individual scenario drilldown later.
+- explains one of the most important practical differences from the current U.S. system
+- ties together Articles I, II, and III in a way readers can follow quickly
 
-### 12. Article Structure Map
-Question: `How do the articles connect to each other?`
+### 11. From Election To Transfer Of Power
+Question: `What happens from voting day to a lawful transition?`
 
-Most useful to advanced readers. Requires cross-reference parsing. Network or matrix view, article click highlights local neighborhood.
+Format: timeline flow from vote casting to certification, dispute resolution, oath, continuity, and transfer safeguards.
 
-### 13. Comparative Matrix
-Question: `How does this compare to other constitutions?`
+Why next:
 
-Hand-curated table comparing key features against current U.S., Germany, Canada, and South Africa. Requires careful source discipline to avoid going stale.
+- directly ties together election administration, anti-subversion, courts, and transition rules
+- highly relevant to ordinary readers who want to know how the system survives pressure
+
+### 12. How Rights Are Enforced
+Question: `What happens if the government violates a right?`
+
+Format: process guide showing standing, courts, expedited review, non-derogable rights, and enforcement backstops.
+
+Why next:
+
+- complements `Rights At A Glance` with enforcement rather than enumeration
+- helps readers understand that the rights section is judicially meaningful, not aspirational only
+
+### 13. Federalism And The Democratic Floor
+Question: `What can states still do, and what can they no longer do?`
+
+Format: comparison table or card grid showing protected state authority versus non-negotiable democratic baselines.
+
+Why next:
+
+- clarifies one of the easiest parts of the draft to misunderstand
+- would help answer likely criticisms from both centralizers and federalism absolutists
 
 ---
 
 ## What To Build Later
 
-These are good ideas, but they should come after the basic explainer layer is stable.
+These are good ideas but depend on the core explainer layer being stable first.
 
-### 7. Scenario Explorer
-Question:
-`What happens when something goes wrong?`
+### 14. Scenario Explorer
+Question: `What happens when something goes wrong?`
 
-Why later:
+Best built from simulator outputs once a clean generation format exists. Group-level overview pages first, individual scenario drilldown later.
 
-- high value, but more work
-- best built from the simulator outputs once a clean generation format exists
+### 15. Article Structure Map
+Question: `How do the articles connect to each other?`
 
-Best shape:
+Most useful to advanced readers. Requires cross-reference parsing. Network or matrix view, article click highlights local neighborhood.
 
-- group-level overview pages first
-- individual scenario drilldown later
-- generated from simulation JSON/report data rather than hand-authored HTML
+### 16. Comparative Matrix
+Question: `How does this compare to other constitutions?`
 
-### 8. Article Structure Map
-Question:
-`How do the articles connect to each other?`
-
-Why later:
-
-- most useful to advanced readers
-- cross-reference parsing needs care to avoid misleading graphs
-
-Best shape:
-
-- generated adjacency data
-- simple network or matrix view
-- article click highlights local neighborhood
-
-### 9. Comparative Matrix
-Question:
-`How does this compare to other constitutions?`
-
-Why later:
-
-- valuable, but requires careful source discipline and maintenance
-- easier to get wrong or stale than the internal explainers
-
-Best shape:
-
-- clean table or card matrix
-- hand-curated, not automatically inferred
+Hand-curated table comparing key features against current U.S., Germany, Canada, and South Africa. Requires careful source discipline to avoid going stale.
 
 ---
 
