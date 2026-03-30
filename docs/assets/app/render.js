@@ -23,6 +23,8 @@ function metaPills(doc, strings) {
         doc.kind === "article" ? strings.constitutionLabel : strings.preambleLabel
       }</span>`
     );
+  } else if (doc.kind === "commentary") {
+    pills.push(`<span class="pill"><strong>${strings.commentaryLabel}</strong> ${strings.explanatoryNotes}</span>`);
   } else {
     pills.push(`<span class="pill"><strong>${strings.documentLabel}</strong> ${doc.group}</span>`);
   }
@@ -40,7 +42,7 @@ function makeDocCards(docs, strings) {
     .map(
       (doc) => `
         <article class="doc-card">
-          <div class="card-kicker">${doc.kind === "article" ? strings.articleLabel : doc.group}</div>
+          <div class="card-kicker">${doc.kind === "article" ? strings.articleLabel : doc.kind === "commentary" ? strings.commentaryLabel : doc.group}</div>
           <h3>${doc.title}</h3>
           <p>${doc.summary}</p>
           <div class="reader-meta">${doc.score ? scorePill(doc) : ""}${doc.status ? `<span class="pill"><strong>${strings.statusLabel}</strong> ${doc.status}</span>` : ""}</div>
@@ -49,6 +51,14 @@ function makeDocCards(docs, strings) {
       `
     )
     .join("");
+}
+
+function companionAction(doc, siteData, strings) {
+  if (!doc.companion_slug) return "";
+  const companion = bySlug(siteData, doc.companion_slug);
+  if (!companion) return "";
+  const label = doc.kind === "commentary" ? strings.readConstitutionText : strings.viewNotes;
+  return `<a class="hero-action" href="#doc/${companion.slug}">${label}</a>`;
 }
 
 export function renderNavigation({ siteData, currentFilter, strings }) {
@@ -86,6 +96,7 @@ export function renderNavigation({ siteData, currentFilter, strings }) {
 export function renderHome({ siteData, currentFilter, strings }) {
   const constitutionDocs = siteData.docs.filter((doc) => doc.group === "Constitution");
   const overviewDocs = ["overview", "comparison", "scorecard", "finalization-plan"].map((slug) => bySlug(siteData, slug)).filter(Boolean);
+  const commentaryDocs = ["commentary-overview", "commentary-choices"].map((slug) => bySlug(siteData, slug)).filter(Boolean);
   const stats = siteData.overview;
   const results = matchingDocs(siteData.docs, currentFilter.trim().toLowerCase());
   const searchSection = currentFilter.trim()
@@ -143,6 +154,10 @@ export function renderHome({ siteData, currentFilter, strings }) {
       <h2 class="section-title" id="constitution-title">${strings.readConstitution}</h2>
       <div class="card-grid">${makeDocCards(constitutionDocs, strings)}</div>
     </section>
+    <section aria-labelledby="commentary-title">
+      <h2 class="section-title" id="commentary-title">${strings.understandChoices}</h2>
+      <div class="card-grid">${makeDocCards(commentaryDocs, strings)}</div>
+    </section>
   `;
 
   refs.tocContent.innerHTML = `
@@ -171,7 +186,10 @@ export async function renderDoc({ siteData, slug, strings }) {
         <h1>${doc.title}</h1>
         <div class="reader-summary">${doc.summary}</div>
         <div class="reader-meta">${metaPills(doc, strings)}</div>
-        <a class="source-link" href="${sourceUrl(doc)}" target="_blank" rel="noreferrer">${strings.openSourceMarkdown}</a>
+        <div class="hero-actions">
+          <a class="hero-action source-link" href="${sourceUrl(doc)}" target="_blank" rel="noreferrer">${strings.openSourceMarkdown}</a>
+          ${companionAction(doc, siteData, strings)}
+        </div>
       </header>
       <article class="reader-body">
         <div class="markdown-body" id="markdownBody">${rendered}</div>

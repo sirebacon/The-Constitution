@@ -10,6 +10,7 @@ const STRINGS = {
     unresolvedObligations: "Unresolved obligations",
     startHere: "Start Here",
     readConstitution: "Read the Constitution",
+    understandChoices: "Understand the Choices",
     searchResults: "Search Results",
     noSearchResults: (term) => `No documents match “${term}”.`,
     searchStatusResults: (count, term) =>
@@ -25,10 +26,14 @@ const STRINGS = {
     constitutionLabel: "Constitution",
     preambleLabel: "Preamble",
     documentLabel: "Document",
+    commentaryLabel: "Commentary",
     statusLabel: "Status",
     navigationRegionLabel: "Document navigation",
     onThisPageLabel: "On this page",
     homeTocLabel: "Key site pages",
+    viewNotes: "View notes",
+    readConstitutionText: "Read constitutional text",
+    explanatoryNotes: "Explanatory notes",
   },
 };
 

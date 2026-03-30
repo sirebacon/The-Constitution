@@ -23,6 +23,11 @@ PAGE_SOURCES = [
     ("finalization-plan", "Finalization Plan", ROOT / "design-notes" / "finalization-plan.md", "Research", "Current remaining work and near-finalization sequence"),
 ]
 
+COMMENTARY_OVERVIEW_SOURCES = [
+    ("commentary-overview", "Using Commentary Notes", ROOT / "commentary" / "overview" / "using-commentary-notes.md", "Commentary", "How the website separates constitutional text from explanatory notes"),
+    ("commentary-choices", "Why Keep Commentary Separate?", ROOT / "commentary" / "overview" / "why-commentary-is-separate.md", "Commentary", "Why the constitutional text stays clean while design notes stay public"),
+]
+
 SCORECARD_KEYS = {
     "preamble": "Preamble",
     "I-electoral-system.md": "Article I — Electoral System",
@@ -241,6 +246,58 @@ def build_manifest() -> dict[str, object]:
             }
         )
 
+    for slug, title, source, group, fallback_summary in COMMENTARY_OVERVIEW_SOURCES:
+        markdown = source.read_text()
+        relative = copy_source(source)
+        docs.append(
+            {
+                "slug": slug,
+                "title": title,
+                "group": group,
+                "kind": "commentary",
+                "source": relative,
+                "status": extract_status(markdown),
+                "summary": extract_summary(markdown) or fallback_summary,
+                "headings": extract_headings(markdown),
+                "search_text": plain_text(markdown),
+            }
+        )
+
+    for filename in ARTICLE_ORDER:
+        source = ROOT / "commentary" / "articles" / filename
+        if not source.exists():
+            continue
+        markdown = source.read_text()
+        relative = copy_source(source)
+        article_slug = slugify(filename.replace(".md", ""))
+        commentary_slug = f"notes-{article_slug}"
+        article_title = extract_title((ROOT / "articles" / filename).read_text(), filename)
+        docs.append(
+            {
+                "slug": commentary_slug,
+                "title": f"{article_title} Notes",
+                "group": "Commentary",
+                "kind": "commentary",
+                "source": relative,
+                "status": extract_status(markdown),
+                "summary": extract_summary(markdown) or f"Explanatory notes for {article_title}",
+                "headings": extract_headings(markdown),
+                "search_text": plain_text(markdown),
+                "companion_slug": article_slug,
+                "companion_kind": "article",
+            }
+        )
+
+    commentary_by_article = {
+        doc["companion_slug"]: doc["slug"]
+        for doc in docs
+        if doc.get("kind") == "commentary" and doc.get("companion_slug")
+    }
+    for doc in docs:
+        if doc["kind"] in {"article", "preamble"} and doc["slug"] in commentary_by_article:
+            doc["companion_slug"] = commentary_by_article[doc["slug"]]
+            doc["companion_kind"] = "commentary"
+
     overview = {
         "title": "Constitution of the United States of America",
         "subtitle": "A modern replacement draft built around democratic legitimacy, anti-authoritarian safeguards, and readable constitutional architecture.",
@@ -256,6 +313,7 @@ def build_manifest() -> dict[str, object]:
     navigation = [
         {"group": "Start Here", "items": ["overview", "index", "comparison", "scorecard"]},
         {"group": "Read the Constitution", "items": ["preamble"] + [slugify(filename.replace(".md", "")) for filename in ARTICLE_ORDER]},
+        {"group": "Commentary", "items": ["commentary-overview", "commentary-choices"]},
         {"group": "Background", "items": ["rationale", "findings", "finalization-plan", "overview-zh"]},
     ]
 
