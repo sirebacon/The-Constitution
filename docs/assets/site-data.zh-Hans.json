@@ -105,17 +105,17 @@
       "title": "\u5e8f\u8a00",
       "group": "\u5baa\u6cd5",
       "kind": "preamble",
-      "source": "preamble.md",
-      "status": "DRAFT",
-      "summary": "We the People of the United States, all of us without exception, establish this Constitution.",
+      "source": "translation/translations/zh-Hans/preamble.md",
+      "status": null,
+      "summary": "**\u72b6\u6001\uff1a** `[ DRAFT ]`",
       "headings": [
         {
           "level": 2,
-          "text": "The Preamble",
-          "anchor": "the-preamble"
+          "text": "\u5e8f\u8a00",
+          "anchor": "\u5e8f\u8a00"
         }
       ],
-      "search_text": "Preamble Status: [ DRAFT ] The Preamble We the People of the United States, all of us without exception, establish this Constitution. Our nation was founded on the promise that all are created equal and possess rights no government may rightfully deny. For too long, that promise was honored for some and denied to others. This Constitution is our covenant to make it real for all. We establish a government that serves the people and remains answerable to them: strong enough to protect, limited enough to remain free, and bound by law in every exercise of public power. We know that unchecked power corrodes, that rights without remedies are promises without force, and that democracy, if left undefended, may be captured by those who claim its authority while defying its laws and equal citizenship. We act not for ourselves alone. We honor those who came before us and were denied the equal protection of this promise, and we accept a duty to those who will come after us. This Constitution binds us to leave them a republic capable of self government, a nation capable of justice, and a planet capable of sustaining life. To these ends, we ordain and establish this Constitution of the United States of America.",
+      "search_text": "\u5e8f\u8a00 \u72b6\u6001\uff1a [ DRAFT ] \u5e8f\u8a00 \u6211\u4eec\uff0c\u7f8e\u5229\u575a\u5408\u4f17\u56fd\u4eba\u6c11\uff0c\u5168\u4f53\u4eba\u6c11\uff0c\u65e0\u4e00\u4f8b\u5916\uff0c\u5236\u5b9a\u672c\u5baa\u6cd5\u3002 \u6211\u4eec\u7684\u56fd\u5bb6\u5efa\u7acb\u5728\u8fd9\u6837\u4e00\u79cd\u627f\u8bfa\u4e4b\u4e0a\uff1a\u4eba\u4eba\u751f\u800c\u5e73\u7b49\uff0c\u5e76\u4eab\u6709\u4efb\u4f55\u653f\u5e9c\u90fd\u65e0\u6743\u6b63\u5f53\u5265\u593a\u7684\u6743\u5229\u3002\u957f\u671f\u4ee5\u6765\uff0c\u8fd9\u4e00\u627f\u8bfa\u53ea\u5bf9\u4e00\u90e8\u5206\u4eba\u5151\u73b0\uff0c\u800c\u5bf9\u53e6\u4e00\u4e9b\u4eba\u5219\u88ab\u5426\u8ba4\u3002\u672c\u5baa\u6cd5\u662f\u6211\u4eec\u7684\u5171\u540c\u8a93\u7ea6\uff0c\u8981\u4f7f\u8fd9\u9879\u627f\u8bfa\u771f\u6b63\u5c5e\u4e8e\u6240\u6709\u4eba\u3002 \u6211\u4eec\u5efa\u7acb\u4e00\u4e2a\u670d\u52a1\u4e8e\u4eba\u6c11\u5e76\u5411\u4eba\u6c11\u8d1f\u8d23\u7684\u653f\u5e9c\uff1a\u65e2\u8981\u5f3a\u5927\u5230\u8db3\u4ee5\u63d0\u4f9b\u4fdd\u62a4\uff0c\u53c8\u8981\u53d7\u9650\u5230\u8db3\u4ee5\u4fdd\u6301\u81ea\u7531\uff0c\u5e76\u4e14\u5728\u4e00\u5207\u516c\u6743\u529b\u7684\u884c\u4f7f\u4e2d\u90fd\u53d7\u6cd5\u5f8b\u7ea6\u675f\u3002\u6211\u4eec\u77e5\u9053\uff0c\u4e0d\u53d7\u5236\u7ea6\u7684\u6743\u529b\u4f1a\u8150\u8680\u5236\u5ea6\uff1b\u6ca1\u6709\u6551\u6d4e\u7684\u6743\u5229\uff0c\u53ea\u662f\u6ca1\u6709\u529b\u91cf\u7684\u627f\u8bfa\uff1b\u800c\u6c11\u4e3b\u82e5\u65e0\u4eba\u634d\u536b\uff0c\u5c31\u53ef\u80fd\u88ab\u90a3\u4e9b\u4e00\u9762\u81ea\u79f0\u4ee3\u8868\u6c11\u4e3b\u6743\u5a01\u3001\u4e00\u9762\u8511\u89c6\u5176\u6cd5\u5f8b\u548c\u5e73\u7b49\u516c\u6c11\u8d44\u683c\u7684\u4eba\u6240\u652b\u53d6\u3002 \u6211\u4eec\u5e76\u975e\u53ea\u4e3a\u81ea\u5df1\u800c\u884c\u52a8\u3002\u6211\u4eec\u7eaa\u5ff5\u90a3\u4e9b\u5728\u6211\u4eec\u4e4b\u524d\u5230\u6765\u3001\u5374\u88ab\u5265\u593a\u8fd9\u9879\u627f\u8bfa\u4e4b\u5e73\u7b49\u4fdd\u62a4\u7684\u4eba\uff0c\u4e5f\u627f\u62c5\u8d77\u5bf9\u540e\u6765\u8005\u7684\u8d23\u4efb\u3002\u672c\u5baa\u6cd5\u8981\u6c42\u6211\u4eec\u7559\u7ed9\u4ed6\u4eec\u4e00\u4e2a\u6709\u80fd\u529b\u5b9e\u884c\u81ea\u6cbb\u7684\u5171\u548c\u56fd\u3001\u4e00\u4e2a\u6709\u80fd\u529b\u5b9e\u73b0\u6b63\u4e49\u7684\u56fd\u5bb6\uff0c\u4ee5\u53ca\u4e00\u4e2a\u6709\u80fd\u529b\u7ef4\u7cfb\u751f\u547d\u7684\u661f\u7403\u3002 \u4e3a\u5b9e\u73b0\u8fd9\u4e9b\u76ee\u6807\uff0c\u6211\u4eec\u7279\u6b64\u5236\u5b9a\u5e76\u786e\u7acb\u7f8e\u5229\u575a\u5408\u4f17\u56fd\u5baa\u6cd5\u3002",
       "score": "9.0",
       "score_status": "Strong"
     },
