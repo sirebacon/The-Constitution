@@ -183,13 +183,24 @@ export function renderRemovalGuide(doc, data) {
 }
 
 export function renderEmergencyGuide(doc, data) {
+  return renderFlowGuide(doc, data, [
+    { key: "ordinary", label: data.ordinary },
+    { key: "lapse", label: data.lapse },
+    { key: "abuse", label: data.abuse },
+  ]);
+}
+
+export function renderFlowGuide(doc, data, filters) {
   return `
     <section class="visual-guide visual-guide--${doc.slug}" aria-labelledby="visual-guide-title">
       <div class="visual-guide__toolbar" role="group" aria-label="${data.filterLabel}">
         <button class="filter-chip is-active" type="button" data-guide-filter="all">${data.all}</button>
-        <button class="filter-chip" type="button" data-guide-filter="ordinary">${data.ordinary}</button>
-        <button class="filter-chip" type="button" data-guide-filter="lapse">${data.lapse}</button>
-        <button class="filter-chip" type="button" data-guide-filter="abuse">${data.abuse}</button>
+        ${filters
+          .map(
+            (filter) =>
+              `<button class="filter-chip" type="button" data-guide-filter="${filter.key}">${filter.label}</button>`
+          )
+          .join("")}
       </div>
       <p class="visual-guide__note">${data.note}</p>
       <div class="visual-guide__body">

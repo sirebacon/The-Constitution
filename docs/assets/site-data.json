@@ -47,7 +47,9 @@
           "removal-pathways",
           "how-elections-work",
           "amendment-process",
-          "accountability-commission"
+          "accountability-commission",
+          "presidential-powers-comparison",
+          "how-a-bill-becomes-law"
         ]
       },
       {
@@ -148,7 +150,9 @@
         "removal-pathways",
         "how-elections-work",
         "amendment-process",
-        "accountability-commission"
+        "accountability-commission",
+        "presidential-powers-comparison",
+        "how-a-bill-becomes-law"
       ]
     },
     {
@@ -3647,6 +3651,62 @@
         }
       ],
       "search_text": "The Accountability Commission This visual guide explains what the Accountability Commission is, what it can and cannot do, and what protections prevent it from being captured, defunded, or shut down. How To Read This Guide Each card covers one aspect of the Commission. Use the category buttons to focus on composition, powers, limits, or the structural protections that keep it independent. What This Guide Covers how the Commission is composed and appointed independence protections that no president or Congress can override the full list of what it can investigate, prosecute, and enforce what it is explicitly prohibited from doing what happens automatically if someone tries to capture, defund, or paralyze it What This Guide Does Not Do This guide is an orientation layer, not the constitutional text itself. For exact wording and legal detail, read: Article XII Article III"
+    },
+    {
+      "slug": "presidential-powers-comparison",
+      "title": "Presidential Powers: Then vs. Now",
+      "group": "Visual Guides",
+      "kind": "note",
+      "content_type": "visual_guide",
+      "source": "visual-guides/presidential-powers-comparison.md",
+      "status": null,
+      "summary": "This visual guide compares the powers of the current U.S. presidency with the presidency in this draft, showing what remains strong, what is narrowed, and what new accountability limits apply.",
+      "headings": [
+        {
+          "level": 2,
+          "text": "How To Read This Guide",
+          "anchor": "how-to-read-this-guide"
+        },
+        {
+          "level": 2,
+          "text": "What This Guide Covers",
+          "anchor": "what-this-guide-covers"
+        },
+        {
+          "level": 2,
+          "text": "What This Guide Does Not Do",
+          "anchor": "what-this-guide-does-not-do"
+        }
+      ],
+      "search_text": "Presidential Powers: Then vs. Now This visual guide compares the powers of the current U.S. presidency with the presidency in this draft, showing what remains strong, what is narrowed, and what new accountability limits apply. How To Read This Guide Each row compares one presidential power or constraint. Use the category buttons to focus on core executive powers, appointments and administration, emergency and war powers, or accountability limits. What This Guide Covers veto power and executive orders appointments, acting officials, and removals emergency declarations and Commander in Chief limits pardons and clemency restrictions recall, impeachment, and the end of categorical immunity What This Guide Does Not Do This guide is an orientation layer, not the constitutional text itself. For exact wording and legal detail, read: Article II Article III Article XVI"
+    },
+    {
+      "slug": "how-a-bill-becomes-law",
+      "title": "How A Bill Becomes Law",
+      "group": "Visual Guides",
+      "kind": "note",
+      "content_type": "visual_guide",
+      "source": "visual-guides/how-a-bill-becomes-law.md",
+      "status": null,
+      "summary": "This visual guide shows the legislative path in this constitution, including the ordinary route, what happens after a veto, and how the system resolves deadlock between the House and the Regional Assembly.",
+      "headings": [
+        {
+          "level": 2,
+          "text": "How To Read This Guide",
+          "anchor": "how-to-read-this-guide"
+        },
+        {
+          "level": 2,
+          "text": "What This Guide Covers",
+          "anchor": "what-this-guide-covers"
+        },
+        {
+          "level": 2,
+          "text": "What This Guide Does Not Do",
+          "anchor": "what-this-guide-does-not-do"
+        }
+      ],
+      "search_text": "How A Bill Becomes Law This visual guide shows the legislative path in this constitution, including the ordinary route, what happens after a veto, and how the system resolves deadlock between the House and the Regional Assembly. How To Read This Guide The guide has three paths: ordinary passage to law veto and override deadlock and conference resolution Use the path buttons to focus on one route through the legislative process at a time. What This Guide Covers bicameral passage in identical form conference committees and reconciled bills the 15 day presidential action window no pocket veto 2/3 override after veto House initiated floor vote request and 60 day conference backstop pre enactment single subject challenge What This Guide Does Not Do This guide is an orientation layer, not the constitutional text itself. For exact wording and legal detail, read: Article II Article III"
     },
     {
       "slug": "commentary-overview",

@@ -894,3 +894,278 @@ export const ELECTIONS_GUIDE = {
 export function electionsDataForLocale(locale) {
   return ELECTIONS_GUIDE[locale] || ELECTIONS_GUIDE.en;
 }
+
+export const PRESIDENTIAL_POWERS_GUIDE = {
+  en: {
+    all: "All",
+    filterLabel: "Filter presidential power categories",
+    note: "Each row compares one presidential power or limit in the current U.S. Constitution and in this draft.",
+    categories: [
+      {
+        key: "core",
+        label: "Core executive powers",
+        rows: [
+          { feature: "Veto", current: "President may veto legislation; no constitutional decision deadline beyond the pocket-veto doctrine", draft: "President may veto legislation, but must sign or veto within 15 days and there is no pocket veto", note: "The draft keeps the veto but removes the recess-based pocket-veto loophole." },
+          { feature: "Executive orders", current: "Not expressly defined in the constitutional text", draft: "Expressly authorized but limited to directing the executive branch, implementing law, and exercising vested constitutional powers", note: "The draft constitutionalizes both the power and its limits." },
+          { feature: "Executive-order override", current: "No direct legislative disapproval mechanism in the Constitution", draft: "Disapproval by a majority of both chambers voids the order", note: "Adds a constitutional legislative backstop against unilateral executive action." },
+        ],
+      },
+      {
+        key: "appointments",
+        label: "Appointments and administration",
+        rows: [
+          { feature: "Confirmation delay", current: "Senate can block nominations indefinitely by inaction", draft: "Regional Assembly inaction for 90 days results in deemed confirmation", note: "Prevents nomination deadlock from becoming a veto by silence." },
+          { feature: "Acting officials", current: "Mostly governed by statute", draft: "Acting official may serve only 45 days without a pending nomination; rejected nominees cannot rotate back into the same acting post", note: "Closes a common executive evasion path." },
+          { feature: "Removing independent regulators", current: "Depends heavily on doctrine and statute", draft: "Heads of independent agencies may be removed only for cause", note: "Makes insulation from political command constitutionally clearer." },
+        ],
+      },
+      {
+        key: "emergency",
+        label: "Emergency and war powers",
+        rows: [
+          { feature: "National emergency", current: "No constitutional approval timetable", draft: "Regional Assembly must approve within 30 days or the declaration lapses automatically", note: "Emergency power exists only inside a timed constitutional chain." },
+          { feature: "Commander in Chief", current: "Broadly stated; war-initiation boundaries rely heavily on practice and statute", draft: "Commander in Chief power exists within Article XVI limits; initiating war still belongs to Congress", note: "The draft keeps military command but narrows unilateral war-making." },
+          { feature: "Domestic deployment", current: "Mainly statutory and historically elastic", draft: "Domestic military deployment is limited by express constitutional rules in Article XVI", note: "Moves key anti-domestic-force rules into constitutional text." },
+        ],
+      },
+      {
+        key: "accountability",
+        label: "Accountability limits",
+        rows: [
+          { feature: "Pardons", current: "Very broad federal pardon power", draft: "No self-pardon, no pardon of co-conspirators in the President's own misconduct, publication and justification required, and timing restrictions apply", note: "The draft keeps clemency but narrows its abuse potential." },
+          { feature: "Criminal immunity", current: "Modern doctrine has recognized broad presidential immunity claims", draft: "No categorical immunity for official acts; indictment may proceed while in office, with trial stayed until departure", note: "Official power is not a shield against criminal law." },
+          { feature: "Removal and recall", current: "Impeachment only", draft: "Impeachment remains, but recall and ACC-driven criminal accountability are also part of the constitutional system", note: "The presidency is still powerful, but no longer politically untouchable between elections." },
+        ],
+      },
+    ],
+  },
+  es: {
+    all: "Todo",
+    filterLabel: "Filtrar categorías de poder presidencial",
+    note: "Cada fila compara un poder o límite presidencial en la Constitución actual de EE. UU. y en este borrador.",
+    categories: [
+      {
+        key: "core",
+        label: "Poderes ejecutivos básicos",
+        rows: [
+          { feature: "Veto", current: "El Presidente puede vetar legislación; no hay plazo constitucional claro de decisión más allá de la doctrina del veto de bolsillo", draft: "El Presidente puede vetar legislación, pero debe firmar o vetar en 15 días y no existe veto de bolsillo", note: "El borrador mantiene el veto pero elimina la escapatoria del receso." },
+          { feature: "Órdenes ejecutivas", current: "No están definidas expresamente en el texto constitucional", draft: "Se autorizan expresamente, pero limitadas a dirigir el poder ejecutivo, ejecutar la ley y ejercer poderes constitucionales conferidos", note: "El borrador constitucionaliza tanto el poder como sus límites." },
+          { feature: "Revocación legislativa de órdenes ejecutivas", current: "No existe un mecanismo constitucional directo de desaprobación", draft: "La desaprobación por mayoría de ambas cámaras deja sin efecto la orden", note: "Añade una válvula constitucional frente a la acción ejecutiva unilateral." },
+        ],
+      },
+      {
+        key: "appointments",
+        label: "Nombramientos y administración",
+        rows: [
+          { feature: "Retraso en confirmaciones", current: "El Senado puede bloquear nominaciones indefinidamente por inacción", draft: "La inacción de la Asamblea Regional durante 90 días produce confirmación tácita", note: "Evita que el silencio se convierta en veto." },
+          { feature: "Funcionarios interinos", current: "Se rigen sobre todo por ley ordinaria", draft: "Un interino solo puede servir 45 días sin nominación pendiente; un nominado rechazado no puede volver al mismo cargo interino", note: "Cierra una vía común de evasión ejecutiva." },
+          { feature: "Remoción de reguladores independientes", current: "Depende mucho de doctrina y estatuto", draft: "Los jefes de agencias independientes solo pueden ser removidos por causa", note: "Aclara constitucionalmente el blindaje frente al mando político." },
+        ],
+      },
+      {
+        key: "emergency",
+        label: "Emergencia y guerra",
+        rows: [
+          { feature: "Emergencia nacional", current: "No hay calendario constitucional de aprobación", draft: "La Asamblea Regional debe aprobar en 30 días o la declaración caduca automáticamente", note: "El poder de emergencia existe solo dentro de una cadena constitucional temporizada." },
+          { feature: "Comandante en Jefe", current: "Formulación amplia; los límites para iniciar guerra dependen mucho de práctica y estatuto", draft: "La jefatura militar existe dentro de los límites del Artículo XVI; iniciar la guerra sigue siendo potestad del Congreso", note: "El borrador conserva el mando militar pero estrecha la guerra unilateral." },
+          { feature: "Despliegue interno", current: "Principalmente estatutario y históricamente elástico", draft: "El despliegue militar interno queda limitado por reglas constitucionales expresas del Artículo XVI", note: "Lleva reglas clave al texto constitucional." },
+        ],
+      },
+      {
+        key: "accountability",
+        label: "Límites de rendición de cuentas",
+        rows: [
+          { feature: "Indultos", current: "Poder de indulto federal muy amplio", draft: "No hay autoindulto, no se puede indultar a coconspiradores en la propia conducta presidencial, y se exige publicación, justificación y límites temporales", note: "El borrador conserva la clemencia pero reduce su potencial de abuso." },
+          { feature: "Inmunidad penal", current: "La doctrina moderna ha reconocido amplias reclamaciones de inmunidad presidencial", draft: "No existe inmunidad categórica por actos oficiales; puede haber acusación durante el cargo, con el juicio suspendido hasta dejarlo", note: "El poder oficial no es un escudo frente al derecho penal." },
+          { feature: "Remoción y revocación", current: "Solo juicio político", draft: "Se mantiene el juicio político, pero también forman parte del sistema la revocación y la responsabilidad penal impulsada por la CRC", note: "La presidencia sigue siendo fuerte, pero deja de ser intocable entre elecciones." },
+        ],
+      },
+    ],
+  },
+  "zh-Hans": {
+    all: "全部",
+    filterLabel: "筛选总统权力类别",
+    note: "每一行比较当前美国宪法下的总统权力或限制，与本草案中的对应安排。",
+    categories: [
+      {
+        key: "core",
+        label: "核心行政权力",
+        rows: [
+          { feature: "否决权", current: "总统可以否决立法；除口袋否决理论外，宪法没有明确决定期限", draft: "总统可以否决立法，但必须在15天内签署或否决，且不存在口袋否决", note: "草案保留否决权，但去除了利用休会拖死法案的空间。" },
+          { feature: "行政命令", current: "宪法正文未明确界定", draft: "明文授权，但仅限于指挥行政部门、执行现有法律和行使宪法赋予的权力", note: "草案把权力本身及其边界都写入了宪法。" },
+          { feature: "立法机关否决行政命令", current: "宪法中没有直接的立法否决机制", draft: "两院多数通过不赞成决议即可使该命令失效", note: "为单边行政行为增加了宪法性制衡。" },
+        ],
+      },
+      {
+        key: "appointments",
+        label: "任命与行政管理",
+        rows: [
+          { feature: "确认拖延", current: "参议院可通过不作为无限期阻挠提名", draft: "地区议会90天不作为即视为确认", note: "防止沉默变成事实上的否决。" },
+          { feature: "代理官员", current: "主要由普通法律规定", draft: "若无待审提名，代理官员任职不得超过45天；被否决者不得轮回同一代理岗位", note: "堵住常见的行政规避路径。" },
+          { feature: "独立监管机构负责人罢免", current: "高度依赖判例与法律", draft: "独立机构负责人只能因故罢免", note: "更清楚地把免受政治指挥的保护上升为宪法规则。" },
+        ],
+      },
+      {
+        key: "emergency",
+        label: "紧急与战争权力",
+        rows: [
+          { feature: "国家紧急状态", current: "没有宪法规定的批准时间表", draft: "地区议会必须在30天内批准，否则声明自动失效", note: "紧急权力只能存在于一条有时限的宪法链条之内。" },
+          { feature: "三军统帅", current: "表述宽泛；开战边界主要依赖实践和法律", draft: "统帅权受第十六条限制；发动战争仍属于国会", note: "草案保留军事指挥，但收窄单边开战空间。" },
+          { feature: "国内部署军队", current: "主要依赖法定规则，历史上弹性很大", draft: "国内军事部署受到第十六条明确宪法规则限制", note: "把关键的反国内军事滥用规则写入了宪法。" },
+        ],
+      },
+      {
+        key: "accountability",
+        label: "问责限制",
+        rows: [
+          { feature: "赦免权", current: "联邦赦免权非常广泛", draft: "不得自我赦免，不得赦免与总统自身不当行为有关的共谋者，且必须公开说明理由并受时间限制", note: "草案保留宽赦，但压缩其被滥用的空间。" },
+          { feature: "刑事豁免", current: "现代判例承认过宽泛的总统豁免主张", draft: "对官方行为不存在类别性豁免；在任时可被起诉，审判可待离任后进行", note: "官方权力不能成为逃避刑法的护盾。" },
+          { feature: "免职与罢免", current: "只有弹劾", draft: "除弹劾外，公民罢免和问责委员会推动的刑事追责也属于宪法结构的一部分", note: "总统仍然强大，但不再在选举之间不可触及。" },
+        ],
+      },
+    ],
+  },
+};
+
+export function presidentialPowersDataForLocale(locale) {
+  return PRESIDENTIAL_POWERS_GUIDE[locale] || PRESIDENTIAL_POWERS_GUIDE.en;
+}
+
+export const BILL_TO_LAW_GUIDE = {
+  en: {
+    all: "All paths",
+    ordinary: "Ordinary path",
+    vetoed: "Vetoed path",
+    deadlocked: "Deadlock path",
+    filterLabel: "Filter bill-to-law paths",
+    note: "This guide shows the ordinary legislative route, what happens after a veto, and how the constitution resolves inter-chamber deadlock.",
+    sections: [
+      {
+        key: "ordinary",
+        label: "Ordinary legislative path",
+        summary: "Bills become law only after bicameral passage in identical form and presidential action or inaction within a fixed deadline.",
+        steps: [
+          { title: "House or Regional Assembly passes a bill", meta: "Art. II §10", text: "A bill must clear the chamber where it is introduced before moving to the other chamber." },
+          { title: "Both chambers pass the same text", meta: "Art. II §10.5", text: "A bill must pass both chambers in identical form before it can go to the President." },
+          { title: "Conference committee if versions differ", meta: "Art. II §10.5", text: "If the chambers pass different versions, a conference committee attempts to reconcile them." },
+          { title: "Optional pre-enactment single-subject review", meta: "Art. II §10.7A", text: "Any member of either chamber may seek Supreme Court review before presidential action. The President's 15-day clock pauses during that review." },
+          { title: "President signs or does nothing", meta: "Art. II §10.6", text: "The President has 15 days to sign or veto. If the President does nothing, the bill becomes law automatically." },
+        ],
+      },
+      {
+        key: "vetoed",
+        label: "Veto and override path",
+        summary: "The President keeps a veto, but the path after veto is straightforward and constitutionally timed.",
+        steps: [
+          { title: "President vetoes the bill", meta: "Art. II §10.6", text: "The bill returns with objections instead of becoming law." },
+          { title: "Congress may reconsider", meta: "Art. II §14.2(b)", text: "Both chambers may vote again on the vetoed bill." },
+          { title: "Two-thirds in both chambers overrides", meta: "Art. II §14.2(b)", text: "If both chambers reach a 2/3 vote, the bill becomes law over the veto." },
+          { title: "No pocket veto", meta: "Art. II §10.6", text: "A bill presented during recess still becomes law after 15 days if unsigned. Recess cannot quietly kill legislation." },
+        ],
+      },
+      {
+        key: "deadlocked",
+        label: "Deadlock-resolution path",
+        summary: "The draft adds constitutional anti-paralysis rules when the Regional Assembly stalls or conference collapses.",
+        steps: [
+          { title: "House-passed bill stalls in the Regional Assembly", meta: "Art. II §11.2", text: "If the Regional Assembly fails to act within the period established by law or rule, the House may declare the bill delayed and request an immediate floor vote." },
+          { title: "Assembly amends or rejects", meta: "Art. II §11.1", text: "If the Regional Assembly changes the bill, the House may accept the changes, reject them, or request conference." },
+          { title: "Conference committee gets 60 days", meta: "Art. II §11.1(b)", text: "If conference fails to produce agreement within 60 days, the original House-passed version goes to a final vote of the full Regional Assembly." },
+          { title: "Final Assembly vote on the House version", meta: "Art. II §11.1(b)", text: "The Assembly must take a final position rather than holding the bill indefinitely in procedural limbo." },
+        ],
+      },
+    ],
+  },
+  es: {
+    all: "Todas las rutas",
+    ordinary: "Ruta ordinaria",
+    vetoed: "Ruta con veto",
+    deadlocked: "Ruta de bloqueo",
+    filterLabel: "Filtrar rutas legislativas",
+    note: "Esta guía muestra la ruta legislativa ordinaria, qué ocurre tras un veto y cómo la constitución resuelve el bloqueo entre cámaras.",
+    sections: [
+      {
+        key: "ordinary",
+        label: "Ruta legislativa ordinaria",
+        summary: "Un proyecto solo se convierte en ley tras aprobación bicameral en texto idéntico y acción o inacción presidencial dentro de un plazo fijo.",
+        steps: [
+          { title: "La Cámara o la Asamblea Regional aprueba un proyecto", meta: "Art. II §10", text: "Un proyecto debe superar la cámara en la que se presenta antes de pasar a la otra." },
+          { title: "Ambas cámaras aprueban el mismo texto", meta: "Art. II §10.5", text: "El proyecto debe ser aprobado en forma idéntica por ambas cámaras antes de llegar al Presidente." },
+          { title: "Comisión de conferencia si los textos difieren", meta: "Art. II §10.5", text: "Si ambas cámaras aprueban versiones distintas, una comisión de conferencia intenta conciliarlas." },
+          { title: "Revisión previa opcional por regla de materia única", meta: "Art. II §10.7A", text: "Cualquier miembro de cualquiera de las cámaras puede pedir revisión ante el Tribunal Supremo antes de la acción presidencial. El plazo presidencial de 15 días se suspende durante esa revisión." },
+          { title: "El Presidente firma o no actúa", meta: "Art. II §10.6", text: "El Presidente dispone de 15 días para firmar o vetar. Si no actúa, el proyecto se convierte automáticamente en ley." },
+        ],
+      },
+      {
+        key: "vetoed",
+        label: "Ruta de veto y anulación",
+        summary: "El Presidente conserva el veto, pero la ruta posterior es directa y constitucionalmente definida.",
+        steps: [
+          { title: "El Presidente veta el proyecto", meta: "Art. II §10.6", text: "El proyecto se devuelve con objeciones en lugar de convertirse en ley." },
+          { title: "El Congreso puede reconsiderarlo", meta: "Art. II §14.2(b)", text: "Ambas cámaras pueden volver a votar sobre el proyecto vetado." },
+          { title: "Dos tercios en ambas cámaras anulan el veto", meta: "Art. II §14.2(b)", text: "Si ambas cámaras alcanzan 2/3, el proyecto se convierte en ley pese al veto." },
+          { title: "No existe veto de bolsillo", meta: "Art. II §10.6", text: "Un proyecto presentado durante el receso se convierte igualmente en ley tras 15 días si no se firma. El receso no puede matar silenciosamente la legislación." },
+        ],
+      },
+      {
+        key: "deadlocked",
+        label: "Ruta de resolución del bloqueo",
+        summary: "El borrador añade reglas constitucionales contra la parálisis cuando la Asamblea Regional se estanca o fracasa la conferencia.",
+        steps: [
+          { title: "Un proyecto aprobado por la Cámara se estanca en la Asamblea Regional", meta: "Art. II §11.2", text: "Si la Asamblea Regional no actúa dentro del plazo fijado por ley o reglamento, la Cámara puede declararlo retrasado y solicitar una votación inmediata en el pleno." },
+          { title: "La Asamblea modifica o rechaza", meta: "Art. II §11.1", text: "Si la Asamblea Regional modifica el proyecto, la Cámara puede aceptar los cambios, rechazarlos o pedir conferencia." },
+          { title: "La comisión de conferencia tiene 60 días", meta: "Art. II §11.1(b)", text: "Si la conferencia no logra acuerdo en 60 días, la versión original aprobada por la Cámara pasa a votación final en el pleno de la Asamblea Regional." },
+          { title: "Votación final de la Asamblea sobre la versión de la Cámara", meta: "Art. II §11.1(b)", text: "La Asamblea debe adoptar una posición final en lugar de retener indefinidamente el proyecto en un limbo procedimental." },
+        ],
+      },
+    ],
+  },
+  "zh-Hans": {
+    all: "全部路径",
+    ordinary: "通常路径",
+    vetoed: "否决路径",
+    deadlocked: "僵局路径",
+    filterLabel: "筛选法案成法路径",
+    note: "本指南展示普通立法路径、被否决后会发生什么，以及宪法如何解决众议院与地区议会之间的僵局。",
+    sections: [
+      {
+        key: "ordinary",
+        label: "通常立法路径",
+        summary: "法案只有在两院以相同文本通过，并在固定期限内由总统签署或因不作为而生效后，才成为法律。",
+        steps: [
+          { title: "众议院或地区议会通过法案", meta: "第二条 §10", text: "法案必须先在提出它的议院获得通过，然后才能送往另一议院。" },
+          { title: "两院通过相同文本", meta: "第二条 §10.5", text: "法案必须以完全相同的文本通过两院，之后才能送交总统。" },
+          { title: "若版本不同则进入协商委员会", meta: "第二条 §10.5", text: "如果两院通过的是不同版本，协商委员会将尝试统一文本。" },
+          { title: "可选的单一主题预审", meta: "第二条 §10.7A", text: "任一议员都可在总统采取行动前请求最高法院审查。审查期间，总统的15天时钟暂停。" },
+          { title: "总统签署或不作为", meta: "第二条 §10.6", text: "总统有15天时间签署或否决。若不采取行动，法案自动成为法律。" },
+        ],
+      },
+      {
+        key: "vetoed",
+        label: "否决与推翻路径",
+        summary: "总统保留否决权，但否决后的路径直接且有明确宪法规则。",
+        steps: [
+          { title: "总统否决法案", meta: "第二条 §10.6", text: "法案将附带异议退回，而不是成为法律。" },
+          { title: "国会可重新审议", meta: "第二条 §14.2(b)", text: "两院都可以再次对被否决的法案投票。" },
+          { title: "两院各2/3即可推翻否决", meta: "第二条 §14.2(b)", text: "若两院都达到2/3多数，法案即使在总统反对下也成为法律。" },
+          { title: "不存在口袋否决", meta: "第二条 §10.6", text: "休会期间送交总统的法案，如15天内未签署，仍然生效。休会不能悄悄杀死法案。" },
+        ],
+      },
+      {
+        key: "deadlocked",
+        label: "僵局解决路径",
+        summary: "本草案在地区议会拖延或协商失败时加入了反瘫痪的宪法规则。",
+        steps: [
+          { title: "众议院通过的法案在地区议会被拖延", meta: "第二条 §11.2", text: "若地区议会在法律或议事规则规定期限内不采取行动，众议院可宣布该法案被拖延，并要求立即进行全院表决。" },
+          { title: "地区议会修改或拒绝", meta: "第二条 §11.1", text: "如果地区议会修改法案，众议院可接受修改、拒绝修改，或要求进入协商委员会。" },
+          { title: "协商委员会有60天时间", meta: "第二条 §11.1(b)", text: "若协商在60天内未达成一致，众议院原始版本将提交地区议会全院作最终表决。" },
+          { title: "地区议会必须对众议院版本作最终决定", meta: "第二条 §11.1(b)", text: "地区议会必须作出最终立场，而不能将法案无限期困在程序性僵局中。" },
+        ],
+      },
+    ],
+  },
+};
+
+export function billToLawDataForLocale(locale) {
+  return BILL_TO_LAW_GUIDE[locale] || BILL_TO_LAW_GUIDE.en;
+}

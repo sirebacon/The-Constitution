@@ -9,6 +9,8 @@ import {
   accountabilityDataForLocale,
   removalDataForLocale,
   electionsDataForLocale,
+  presidentialPowersDataForLocale,
+  billToLawDataForLocale,
 } from "./data-governance.js";
 import {
   rightsCards,
@@ -16,6 +18,7 @@ import {
   renderTableGuide,
   renderRemovalGuide,
   renderEmergencyGuide,
+  renderFlowGuide,
   renderPowerGuide,
   applyBasicGuideFilter,
   applyPowerGuideFilter,
@@ -69,6 +72,18 @@ const GUIDE_RENDERERS = {
   },
   "accountability-commission": (doc, siteData) =>
     renderCardGuide(doc, accountabilityDataForLocale(siteData.locale)),
+  "presidential-powers-comparison": (doc, siteData) =>
+    renderTableGuide(
+      doc,
+      presidentialPowersDataForLocale(siteData.locale),
+      CONGRESS_LABELS[siteData.locale] || CONGRESS_LABELS.en
+    ),
+  "how-a-bill-becomes-law": (doc, siteData) =>
+    renderFlowGuide(doc, billToLawDataForLocale(siteData.locale), [
+      { key: "ordinary", label: billToLawDataForLocale(siteData.locale).ordinary },
+      { key: "vetoed", label: billToLawDataForLocale(siteData.locale).vetoed },
+      { key: "deadlocked", label: billToLawDataForLocale(siteData.locale).deadlocked },
+    ]),
 };
 
 const GUIDE_FILTERS = {
@@ -80,6 +95,8 @@ const GUIDE_FILTERS = {
   "congress-comparison": "basic",
   "amendment-process": "basic",
   "accountability-commission": "basic",
+  "presidential-powers-comparison": "basic",
+  "how-a-bill-becomes-law": "basic",
 };
 
 export function renderVisualGuide(doc, siteData) {

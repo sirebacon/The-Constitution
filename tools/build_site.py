@@ -181,6 +181,16 @@ PAGE_METADATA = {
         "es": ("La Comisión de Rendición de Cuentas", "Qué es la CRC, qué puede hacer, qué no puede hacer y cómo está protegida frente a la captura, la desfinanciación o el cierre"),
         "zh-Hans": ("问责委员会", "问责委员会是什么、能做什么、不能做什么，以及如何防止其被控制、断资或关闭"),
     },
+    "presidential-powers-comparison": {
+        "en": ("Presidential Powers: Then vs. Now", "A side-by-side comparison of the current U.S. presidency and the presidency in this draft — what remains strong, what narrows, and what new checks apply"),
+        "es": ("Poderes presidenciales: antes y ahora", "Comparación de la presidencia actual de EE. UU. y la presidencia en este borrador — qué sigue siendo fuerte, qué se estrecha y qué nuevos controles se aplican"),
+        "zh-Hans": ("总统权力：今昔对比", "对比当前美国总统职位与本草案中的总统职位——哪些权力仍然强、哪些被收窄，以及新增了哪些制衡"),
+    },
+    "how-a-bill-becomes-law": {
+        "en": ("How A Bill Becomes Law", "The legislative path from bicameral passage to signature, veto override, or deadlock resolution"),
+        "es": ("Cómo un proyecto se convierte en ley", "La ruta legislativa desde la aprobación bicameral hasta la firma, la anulación del veto o la resolución del bloqueo"),
+        "zh-Hans": ("法案如何成为法律", "从两院通过到签署、否决推翻或僵局解决的立法路径"),
+    },
 }
 
 COMMENTARY_OVERVIEW_METADATA = {
@@ -344,6 +354,20 @@ VISUAL_GUIDE_SOURCES = [
         ROOT / "visual-guides" / "accountability-commission.md",
         "Visual Guides",
         "What the ACC is, what it can do, what it cannot do, and how it is protected from capture, defunding, or shutdown",
+    ),
+    (
+        "presidential-powers-comparison",
+        "Presidential Powers: Then vs. Now",
+        ROOT / "visual-guides" / "presidential-powers-comparison.md",
+        "Visual Guides",
+        "A side-by-side comparison of the current U.S. presidency and the presidency in this draft",
+    ),
+    (
+        "how-a-bill-becomes-law",
+        "How A Bill Becomes Law",
+        ROOT / "visual-guides" / "how-a-bill-becomes-law.md",
+        "Visual Guides",
+        "The legislative path from bicameral passage to signature, veto override, or deadlock resolution",
     ),
 ]
 
@@ -535,7 +559,7 @@ def slugify(text: str) -> str:
 def homepage_section_items() -> dict[str, list[str]]:
     return {
         "start_here": ["overview", "comparison"],
-        "visual_guides": ["rights-at-a-glance", "emergency-powers-lifecycle", "power-distribution", "congress-comparison", "removal-pathways", "how-elections-work", "amendment-process", "accountability-commission"],
+        "visual_guides": ["rights-at-a-glance", "emergency-powers-lifecycle", "power-distribution", "congress-comparison", "removal-pathways", "how-elections-work", "amendment-process", "accountability-commission", "presidential-powers-comparison", "how-a-bill-becomes-law"],
         "constitution": ["index", "preamble"] + [slugify(filename.replace(".md", "")) for filename in ARTICLE_ORDER],
         "clause_notes": [
             "clause-unamendable-core",

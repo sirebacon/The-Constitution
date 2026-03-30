@@ -47,7 +47,9 @@
           "removal-pathways",
           "how-elections-work",
           "amendment-process",
-          "accountability-commission"
+          "accountability-commission",
+          "presidential-powers-comparison",
+          "how-a-bill-becomes-law"
         ]
       },
       {
@@ -148,7 +150,9 @@
         "removal-pathways",
         "how-elections-work",
         "amendment-process",
-        "accountability-commission"
+        "accountability-commission",
+        "presidential-powers-comparison",
+        "how-a-bill-becomes-law"
       ]
     },
     {
@@ -3477,6 +3481,62 @@
         }
       ],
       "search_text": "La Comisi\u00f3n De Rendici\u00f3n De Cuentas Esta gu\u00eda visual explica qu\u00e9 es la Comisi\u00f3n de Rendici\u00f3n de Cuentas, qu\u00e9 puede y qu\u00e9 no puede hacer, y qu\u00e9 protecciones impiden que sea capturada, desfinanciada o desactivada. C\u00f3mo Leer Esta Gu\u00eda Cada tarjeta cubre un aspecto de la Comisi\u00f3n. Usa los botones de categor\u00eda para centrarte en su composici\u00f3n, sus poderes, sus l\u00edmites o las protecciones estructurales que mantienen su independencia. Qu\u00e9 Cubre Esta Gu\u00eda c\u00f3mo se compone y se nombra la Comisi\u00f3n protecciones de independencia que ning\u00fan presidente ni Congreso puede dejar sin efecto la lista completa de lo que puede investigar, procesar y hacer cumplir lo que tiene expresamente prohibido hacer qu\u00e9 ocurre autom\u00e1ticamente si alguien intenta capturarla, desfinanciarla o paralizarla Qu\u00e9 No Hace Esta Gu\u00eda Esta gu\u00eda es una capa de orientaci\u00f3n, no el texto constitucional en s\u00ed. Para la redacci\u00f3n exacta y el detalle jur\u00eddico, lee: Art\u00edculo XII Art\u00edculo III"
+    },
+    {
+      "slug": "presidential-powers-comparison",
+      "title": "Poderes presidenciales: antes y ahora",
+      "group": "Gu\u00edas visuales",
+      "kind": "note",
+      "content_type": "visual_guide",
+      "source": "translation/translations/es/visual-guides/presidential-powers-comparison.md",
+      "status": null,
+      "summary": "Comparaci\u00f3n de la presidencia actual de EE. UU. y la presidencia en este borrador \u2014 qu\u00e9 sigue siendo fuerte, qu\u00e9 se estrecha y qu\u00e9 nuevos controles se aplican",
+      "headings": [
+        {
+          "level": 2,
+          "text": "C\u00f3mo Leer Esta Gu\u00eda",
+          "anchor": "c\u00f3mo-leer-esta-gu\u00eda"
+        },
+        {
+          "level": 2,
+          "text": "Qu\u00e9 Cubre Esta Gu\u00eda",
+          "anchor": "qu\u00e9-cubre-esta-gu\u00eda"
+        },
+        {
+          "level": 2,
+          "text": "Qu\u00e9 No Hace Esta Gu\u00eda",
+          "anchor": "qu\u00e9-no-hace-esta-gu\u00eda"
+        }
+      ],
+      "search_text": "Poderes Presidenciales: Antes Y Ahora Esta gu\u00eda visual compara los poderes de la presidencia actual de Estados Unidos con la presidencia de este borrador, mostrando qu\u00e9 sigue siendo fuerte, qu\u00e9 se estrecha y qu\u00e9 nuevos l\u00edmites de rendici\u00f3n de cuentas se aplican. C\u00f3mo Leer Esta Gu\u00eda Cada fila compara un poder presidencial o una restricci\u00f3n. Usa los botones de categor\u00eda para centrarte en poderes ejecutivos b\u00e1sicos, nombramientos y administraci\u00f3n, emergencia y guerra, o l\u00edmites de rendici\u00f3n de cuentas. Qu\u00e9 Cubre Esta Gu\u00eda veto y \u00f3rdenes ejecutivas nombramientos, interinatos y remociones declaraciones de emergencia y l\u00edmites del mando militar indultos y restricciones de clemencia revocaci\u00f3n, juicio pol\u00edtico y fin de la inmunidad categ\u00f3rica Qu\u00e9 No Hace Esta Gu\u00eda Esta gu\u00eda es una capa de orientaci\u00f3n, no el texto constitucional en s\u00ed. Para la redacci\u00f3n exacta y el detalle jur\u00eddico, lee: Art\u00edculo II Art\u00edculo III Art\u00edculo XVI"
+    },
+    {
+      "slug": "how-a-bill-becomes-law",
+      "title": "C\u00f3mo un proyecto se convierte en ley",
+      "group": "Gu\u00edas visuales",
+      "kind": "note",
+      "content_type": "visual_guide",
+      "source": "translation/translations/es/visual-guides/how-a-bill-becomes-law.md",
+      "status": null,
+      "summary": "La ruta legislativa desde la aprobaci\u00f3n bicameral hasta la firma, la anulaci\u00f3n del veto o la resoluci\u00f3n del bloqueo",
+      "headings": [
+        {
+          "level": 2,
+          "text": "C\u00f3mo Leer Esta Gu\u00eda",
+          "anchor": "c\u00f3mo-leer-esta-gu\u00eda"
+        },
+        {
+          "level": 2,
+          "text": "Qu\u00e9 Cubre Esta Gu\u00eda",
+          "anchor": "qu\u00e9-cubre-esta-gu\u00eda"
+        },
+        {
+          "level": 2,
+          "text": "Qu\u00e9 No Hace Esta Gu\u00eda",
+          "anchor": "qu\u00e9-no-hace-esta-gu\u00eda"
+        }
+      ],
+      "search_text": "C\u00f3mo Un Proyecto Se Convierte En Ley Esta gu\u00eda visual muestra la ruta legislativa en esta constituci\u00f3n, incluida la v\u00eda ordinaria, lo que ocurre tras un veto y c\u00f3mo el sistema resuelve el bloqueo entre la C\u00e1mara y la Asamblea Regional. C\u00f3mo Leer Esta Gu\u00eda La gu\u00eda tiene tres rutas: aprobaci\u00f3n ordinaria hasta convertirse en ley veto y anulaci\u00f3n bloqueo y resoluci\u00f3n por conferencia Usa los botones de ruta para centrarte en un recorrido legislativo a la vez. Qu\u00e9 Cubre Esta Gu\u00eda aprobaci\u00f3n bicameral en texto id\u00e9ntico comisiones de conferencia y textos conciliados el plazo presidencial de 15 d\u00edas ausencia de veto de bolsillo anulaci\u00f3n del veto por 2/3 solicitud de votaci\u00f3n en pleno por la C\u00e1mara y salvaguarda de 60 d\u00edas en conferencia impugnaci\u00f3n previa por regla de materia \u00fanica Qu\u00e9 No Hace Esta Gu\u00eda Esta gu\u00eda es una capa de orientaci\u00f3n, no el texto constitucional en s\u00ed. Para la redacci\u00f3n exacta y el detalle jur\u00eddico, lee: Art\u00edculo II Art\u00edculo III"
     },
     {
       "slug": "commentary-overview",
