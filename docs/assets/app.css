@@ -12,6 +12,7 @@
   --radius-lg: 28px;
   --radius-md: 18px;
   --radius-sm: 12px;
+  --focus-ring: 0 0 0 3px rgba(29, 90, 115, 0.38);
 }
 
 * {
@@ -30,6 +31,10 @@ body {
   font-family: "Source Sans 3", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 a {
   color: inherit;
   text-decoration: none;
@@ -38,6 +43,46 @@ a {
 button,
 input {
   font: inherit;
+}
+
+.skip-link,
+.sr-only {
+  position: absolute;
+}
+
+.skip-link {
+  left: 1rem;
+  top: 1rem;
+  z-index: 40;
+  padding: 0.8rem 1rem;
+  border-radius: 999px;
+  background: #ffffff;
+  color: var(--ink);
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow);
+  transform: translateY(-180%);
+}
+
+.skip-link:focus {
+  transform: translateY(0);
+}
+
+.sr-only {
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible {
+  outline: none;
+  box-shadow: var(--focus-ring);
 }
 
 .site-shell {
@@ -98,6 +143,14 @@ input {
   margin-bottom: 0.45rem;
   font-size: 0.85rem;
   color: var(--muted);
+  font-weight: 600;
+}
+
+.search-box__help {
+  margin: 0.45rem 0 0;
+  font-size: 0.83rem;
+  line-height: 1.4;
+  color: var(--muted);
 }
 
 .search-box input {
@@ -115,7 +168,7 @@ input {
 }
 
 .nav-group__title {
-  margin-bottom: 0.5rem;
+  margin: 0 0 0.5rem;
   color: var(--muted);
   font-size: 0.82rem;
   text-transform: uppercase;
@@ -140,6 +193,14 @@ input {
   background: var(--panel);
   color: var(--ink);
   box-shadow: var(--shadow);
+}
+
+.nav-link__title,
+.card-link,
+.source-link,
+.toc-link,
+.topbar__repo {
+  text-underline-offset: 0.15em;
 }
 
 .nav-link__title {
@@ -502,6 +563,19 @@ input {
 .empty-message {
   padding: 1rem;
   color: var(--muted);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+  }
 }
 
 @media (max-width: 1080px) {

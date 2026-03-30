@@ -12,6 +12,11 @@ const STRINGS = {
     readConstitution: "Read the Constitution",
     searchResults: "Search Results",
     noSearchResults: (term) => `No documents match “${term}”.`,
+    searchStatusResults: (count, term) =>
+      count
+        ? `${count} document${count === 1 ? "" : "s"} found for “${term}”.`
+        : `No documents match “${term}”.`,
+    searchStatusCleared: "Search cleared.",
     noSectionMap: "No section map for this page.",
     openDocument: "Open document",
     openSourceMarkdown: "Open source markdown",
@@ -21,6 +26,9 @@ const STRINGS = {
     preambleLabel: "Preamble",
     documentLabel: "Document",
     statusLabel: "Status",
+    navigationRegionLabel: "Document navigation",
+    onThisPageLabel: "On this page",
+    homeTocLabel: "Key site pages",
   },
 };
 

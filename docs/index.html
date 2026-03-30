@@ -17,16 +17,17 @@
     <link rel="stylesheet" href="./assets/app.css" />
   </head>
   <body>
+    <a class="skip-link" href="#mainContent">Skip to main content</a>
     <div class="site-shell">
-      <aside class="sidebar" id="sidebar">
+      <aside class="sidebar" id="sidebar" aria-label="Primary site navigation">
         <div class="sidebar__brand">
           <div class="eyebrow">Constitution Project</div>
           <a href="#home" class="brand-link">Revised Draft</a>
           <p class="sidebar__tagline">Readable constitutional text, overview, and review notes in one GitHub Pages site.</p>
         </div>
 
-        <label class="search-box">
-          <span class="search-box__label">Find a document</span>
+        <div class="search-box" role="search" aria-labelledby="searchLabel">
+          <span class="search-box__label" id="searchLabel">Find a document</span>
           <input
             id="searchInput"
             type="search"
@@ -36,29 +37,40 @@
             autocapitalize="off"
             spellcheck="false"
             name="site-search"
+            aria-describedby="searchHelp searchStatus"
           />
-        </label>
+          <p id="searchHelp" class="search-box__help">Search titles, summaries, and document text.</p>
+          <p id="searchStatus" class="sr-only" aria-live="polite"></p>
+        </div>
 
-        <nav id="navGroups" class="nav-groups"></nav>
+        <nav id="navGroups" class="nav-groups" aria-label="Document navigation"></nav>
       </aside>
 
-      <main class="main-panel">
+      <main class="main-panel" id="mainContent" tabindex="-1">
         <header class="topbar">
-          <button class="topbar__menu" id="menuButton" aria-label="Toggle navigation">Menu</button>
+          <button
+            class="topbar__menu"
+            id="menuButton"
+            aria-label="Toggle navigation"
+            aria-controls="sidebar"
+            aria-expanded="false"
+          >
+            Menu
+          </button>
           <div class="topbar__meta">
             <span class="topbar__eyebrow">GitHub Pages-ready constitutional reader</span>
           </div>
           <a class="topbar__repo" href="https://github.com/sirebacon/The-Constitution" target="_blank" rel="noreferrer">View Repo</a>
         </header>
 
-        <section id="heroPanel" class="hero-panel"></section>
-        <section id="contentPanel" class="content-panel"></section>
+        <section id="heroPanel" class="hero-panel" aria-label="Page introduction"></section>
+        <section id="contentPanel" class="content-panel" aria-live="polite"></section>
       </main>
 
-      <aside class="toc-panel">
+      <aside class="toc-panel" aria-label="Table of contents">
         <div class="toc-panel__inner">
-          <div class="eyebrow">On This Page</div>
-          <div id="tocContent" class="toc-content"></div>
+          <h2 class="eyebrow toc-panel__title">On This Page</h2>
+          <nav id="tocContent" class="toc-content" aria-label="On this page"></nav>
         </div>
       </aside>
     </div>

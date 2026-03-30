@@ -4,6 +4,8 @@ export const refs = {
   tocContent: document.getElementById("tocContent"),
   navGroups: document.getElementById("navGroups"),
   searchInput: document.getElementById("searchInput"),
+  searchStatus: document.getElementById("searchStatus"),
   sidebar: document.getElementById("sidebar"),
   menuButton: document.getElementById("menuButton"),
+  mainContent: document.getElementById("mainContent"),
 };

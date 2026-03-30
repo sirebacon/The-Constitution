@@ -44,7 +44,7 @@ function makeDocCards(docs, strings) {
           <h3>${doc.title}</h3>
           <p>${doc.summary}</p>
           <div class="reader-meta">${doc.score ? scorePill(doc) : ""}${doc.status ? `<span class="pill"><strong>${strings.statusLabel}</strong> ${doc.status}</span>` : ""}</div>
-          <a class="card-link" href="#doc/${doc.slug}">${strings.openDocument}</a>
+          <a class="card-link" href="#doc/${doc.slug}" aria-label="${strings.openDocument}: ${doc.title}">${strings.openDocument}</a>
         </article>
       `
     )
@@ -62,12 +62,14 @@ export function renderNavigation({ siteData, currentFilter, strings }) {
       if (!items.length) return "";
       return `
         <section class="nav-group">
-          <div class="nav-group__title">${group.group}</div>
+          <h2 class="nav-group__title">${group.group}</h2>
           <div class="nav-list">
             ${items
               .map(
                 (doc) => `
-                  <a class="nav-link ${location.hash === `#doc/${doc.slug}` ? "is-active" : ""}" href="#doc/${doc.slug}">
+                  <a class="nav-link ${location.hash === `#doc/${doc.slug}` ? "is-active" : ""}" href="#doc/${doc.slug}" ${
+                    location.hash === `#doc/${doc.slug}` ? 'aria-current="page"' : ""
+                  }>
                     <span class="nav-link__title">${doc.title}</span>
                     <span class="nav-link__meta">${doc.score ? `Score ${doc.score}` : doc.group}</span>
                   </a>
@@ -88,8 +90,8 @@ export function renderHome({ siteData, currentFilter, strings }) {
   const results = matchingDocs(siteData.docs, currentFilter.trim().toLowerCase());
   const searchSection = currentFilter.trim()
     ? `
-    <section>
-      <h2 class="section-title">${strings.searchResults}</h2>
+    <section aria-labelledby="search-results-title">
+      <h2 class="section-title" id="search-results-title">${strings.searchResults}</h2>
       ${
         results.length
           ? `<div class="card-grid">${makeDocCards(results.slice(0, 12), strings)}</div>`
@@ -133,12 +135,12 @@ export function renderHome({ siteData, currentFilter, strings }) {
 
   refs.contentPanel.innerHTML = `
     ${searchSection}
-    <section>
-      <h2 class="section-title">${strings.startHere}</h2>
+    <section aria-labelledby="start-here-title">
+      <h2 class="section-title" id="start-here-title">${strings.startHere}</h2>
       <div class="card-grid">${makeDocCards(overviewDocs, strings)}</div>
     </section>
-    <section>
-      <h2 class="section-title">${strings.readConstitution}</h2>
+    <section aria-labelledby="constitution-title">
+      <h2 class="section-title" id="constitution-title">${strings.readConstitution}</h2>
       <div class="card-grid">${makeDocCards(constitutionDocs, strings)}</div>
     </section>
   `;
@@ -148,6 +150,7 @@ export function renderHome({ siteData, currentFilter, strings }) {
     <a class="toc-link" href="#doc/preamble">Preamble</a>
     <a class="toc-link" href="#doc/scorecard">Scorecard</a>
   `;
+  refs.tocContent.setAttribute("aria-label", strings.homeTocLabel);
 }
 
 export async function renderDoc({ siteData, slug, strings }) {
@@ -184,6 +187,7 @@ export function renderToc(doc, strings) {
     refs.tocContent.innerHTML = `<div class="empty-message">${strings.noSectionMap}</div>`;
     return;
   }
+  refs.tocContent.setAttribute("aria-label", strings.onThisPageLabel);
   refs.tocContent.innerHTML = doc.headings
     .map(
       (heading) => `
@@ -200,6 +204,7 @@ export function applyAnchorFromHash() {
   if (route !== "doc" || !anchor) return;
   const target = document.getElementById(anchor);
   if (target) {
-    target.scrollIntoView({ behavior: "smooth", block: "start" });
+    const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    target.scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth", block: "start" });
   }
 }
