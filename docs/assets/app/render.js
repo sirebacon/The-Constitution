@@ -169,7 +169,7 @@ export function renderNavigation({ siteData, currentFilter, strings }) {
                     location.hash === `#doc/${doc.slug}` ? 'aria-current="page"' : ""
                   }>
                     <span class="nav-link__title">${doc.title}</span>
-                    <span class="nav-link__meta">${doc.score ? `Score ${doc.score}` : doc.group}</span>
+                    <span class="nav-link__meta">${doc.group}</span>
                   </a>
                 `
               )
