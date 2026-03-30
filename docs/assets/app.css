@@ -668,6 +668,11 @@ input:focus-visible {
   display: none;
 }
 
+.power-node[hidden],
+.power-link[hidden] {
+  display: none;
+}
+
 .rights-category__header {
   display: grid;
   gap: 0.35rem;

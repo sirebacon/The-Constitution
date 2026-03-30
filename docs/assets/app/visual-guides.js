@@ -1238,7 +1238,7 @@ export function renderVisualGuide(doc, siteData) {
               ${data.links
                 .map(
                   (link) => `
-                    <article class="rights-card power-link" data-rights-category="${link.category}">
+                    <article class="rights-card power-link" data-rights-category="${link.category}" data-link-from="${link.from}" data-link-to="${link.to}">
                       <h3>${link.label}</h3>
                       <p>${data.nodes.find((node) => node.key === link.from).label} → ${data.nodes.find((node) => node.key === link.to).label}</p>
                       <div class="rights-card__meta">${link.meta}</div>
@@ -1377,7 +1377,37 @@ export function activateVisualGuide(doc, container) {
   if (!["rights-at-a-glance", "emergency-powers-lifecycle", "power-distribution", "congress-comparison", "removal-pathways", "how-elections-work"].includes(doc.slug) || !container) return;
   const buttons = [...container.querySelectorAll("[data-guide-filter]")];
   const categories = [...container.querySelectorAll("[data-rights-category]")];
-  if (!buttons.length || !categories.length) return;
+  const powerNodes = [...container.querySelectorAll("[data-power-node]")];
+  const powerLinks = [...container.querySelectorAll(".power-link[data-rights-category]")];
+  if (!buttons.length || (!categories.length && !powerLinks.length)) return;
+
+  if (doc.slug === "power-distribution") {
+    function applyPowerFilter(filter) {
+      buttons.forEach((button) => {
+        button.classList.toggle("is-active", button.dataset.guideFilter === filter);
+      });
+
+      const activeNodes = new Set();
+      powerLinks.forEach((link) => {
+        const show = filter === "all" || link.dataset.rightsCategory === filter;
+        link.hidden = !show;
+        if (show) {
+          activeNodes.add(link.dataset.linkFrom);
+          activeNodes.add(link.dataset.linkTo);
+        }
+      });
+
+      powerNodes.forEach((node) => {
+        const show = filter === "all" || activeNodes.has(node.dataset.powerNode);
+        node.hidden = !show;
+      });
+    }
+
+    buttons.forEach((button) => {
+      button.addEventListener("click", () => applyPowerFilter(button.dataset.guideFilter));
+    });
+    return;
+  }
 
   function applyFilter(filter) {
     buttons.forEach((button) => {
