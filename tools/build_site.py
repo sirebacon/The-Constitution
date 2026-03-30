@@ -18,6 +18,12 @@ LOCALE_LABELS = {
     "zh-Hans": "中文（简体）",
 }
 
+SITE_TITLES = {
+    "en": "Constitution of the United States of America",
+    "es": "Constitución de los Estados Unidos de América",
+    "zh-Hans": "美利坚合众国宪法",
+}
+
 NAV_GROUP_LABELS = {
     "en": {
         "start_here": "Start Here",
@@ -46,6 +52,159 @@ OVERVIEW_SUBTITLES = {
     "en": "A modern replacement draft built around democratic legitimacy, anti-authoritarian safeguards, and readable constitutional architecture.",
     "es": "Un borrador moderno de reemplazo construido en torno a la legitimidad democrática, las salvaguardas anti-autoritarias y una arquitectura constitucional legible.",
     "zh-Hans": "一份围绕民主正当性、反威权保障与清晰宪法结构而设计的现代替代性宪法草案。",
+}
+
+GROUP_LABELS = {
+    "en": {
+        "overview": "Overview",
+        "research": "Research",
+        "commentary": "Commentary",
+        "clause_notes": "Clause Notes",
+        "constitution": "Constitution",
+    },
+    "es": {
+        "overview": "Resumen",
+        "research": "Investigación",
+        "commentary": "Comentario",
+        "clause_notes": "Notas de cláusulas",
+        "constitution": "Constitución",
+    },
+    "zh-Hans": {
+        "overview": "概览",
+        "research": "研究",
+        "commentary": "评注",
+        "clause_notes": "条款注释",
+        "constitution": "宪法",
+    },
+}
+
+PAGE_METADATA = {
+    "index": {
+        "en": ("Constitution Index", "Master index and drafting status"),
+        "es": ("Índice de la Constitución", "Índice principal y estado de redacción"),
+        "zh-Hans": ("宪法索引", "总索引与起草状态"),
+    },
+    "overview": {
+        "en": ("Project Overview", "High-level explanation of the constitutional model"),
+        "es": ("Resumen del proyecto", "Explicación general del modelo constitucional"),
+        "zh-Hans": ("项目概览", "对本宪法模型的高层说明"),
+    },
+    "overview-zh": {
+        "en": ("Project Overview (中文)", "Chinese-language overview of the constitutional model"),
+        "es": ("Resumen del proyecto (中文)", "Resumen en chino del modelo constitucional"),
+        "zh-Hans": ("项目概览（中文）", "以中文介绍本宪法模型"),
+    },
+    "comparison": {
+        "en": ("Comparison", "Comparison with the current U.S. Constitution"),
+        "es": ("Comparación", "Comparación con la Constitución actual de Estados Unidos"),
+        "zh-Hans": ("比较", "与现行美国宪法的比较"),
+    },
+    "rationale": {
+        "en": ("Design Rationale", "Why the major structural choices were made"),
+        "es": ("Justificación del diseño", "Por qué se adoptaron las principales decisiones estructurales"),
+        "zh-Hans": ("设计理由", "为何做出这些主要结构选择"),
+    },
+    "scorecard": {
+        "en": ("Scorecard", "Current quality assessment and next targets"),
+        "es": ("Puntuación", "Evaluación actual de calidad y próximos objetivos"),
+        "zh-Hans": ("评分卡", "当前质量评估与下一步目标"),
+    },
+    "findings": {
+        "en": ("Simulation Findings", "What the simulator is currently showing"),
+        "es": ("Resultados de simulación", "Lo que actualmente muestra el simulador"),
+        "zh-Hans": ("模拟结果", "模拟器当前显示的结果"),
+    },
+    "finalization-plan": {
+        "en": ("Finalization Plan", "Current remaining work and near-finalization sequence"),
+        "es": ("Plan de finalización", "Trabajo restante y secuencia para cerrar el borrador"),
+        "zh-Hans": ("定稿计划", "当前剩余工作与接近定稿的顺序"),
+    },
+}
+
+COMMENTARY_OVERVIEW_METADATA = {
+    "commentary-overview": {
+        "en": ("Using Commentary Notes", "How the website separates constitutional text from explanatory notes"),
+        "es": ("Cómo usar las notas de comentario", "Cómo el sitio separa el texto constitucional de las notas explicativas"),
+        "zh-Hans": ("如何使用评注", "网站如何将宪法正文与说明性注释分开"),
+    },
+    "commentary-choices": {
+        "en": ("Why Keep Commentary Separate?", "Why the constitutional text stays clean while design notes stay public"),
+        "es": ("¿Por qué mantener separado el comentario?", "Por qué el texto constitucional se mantiene limpio mientras las notas de diseño siguen siendo públicas"),
+        "zh-Hans": ("为什么要将评注分开？", "为何保持宪法正文简洁，同时公开设计说明"),
+    },
+}
+
+CLAUSE_METADATA = {
+    "clause-unamendable-core": {
+        "en": ("Clause Note: The Unamendable Core", "Why some democratic foundations are intentionally placed beyond amendment"),
+        "es": ("Nota de cláusula: el núcleo irreformable", "Por qué algunos fundamentos democráticos se sitúan deliberadamente más allá de la reforma"),
+        "zh-Hans": ("条款注释：不可修宪核心", "为何有些民主基础被有意置于修宪之外"),
+    },
+    "clause-naturalized-president": {
+        "en": ("Clause Note: Naturalized Citizens And The Presidency", "Why the draft rejects a natural-born-only presidency"),
+        "es": ("Nota de cláusula: ciudadanía naturalizada y presidencia", "Por qué el borrador rechaza que la presidencia se limite a ciudadanos nativos"),
+        "zh-Hans": ("条款注释：归化公民与总统职位", "为何本草案拒绝仅限出生公民担任总统"),
+    },
+    "clause-high-impact-directives": {
+        "en": ("Clause Note: Fast-Track Review For High-Impact Directives", "Why major presidential directives receive a narrow fast-track path"),
+        "es": ("Nota de cláusula: revisión acelerada de directivas de alto impacto", "Por qué las grandes directivas presidenciales reciben una vía rápida y limitada"),
+        "zh-Hans": ("条款注释：高影响总统指令的快速审查", "为何重大总统指令适用一条狭窄的快速审查路径"),
+    },
+    "clause-supreme-court-delay": {
+        "en": ("Clause Note: Supreme Court Delay Backstop", "Why expedited constitutional cases cannot be frozen indefinitely by nondecision"),
+        "es": ("Nota de cláusula: respaldo frente a la demora de la Corte Suprema", "Por qué los casos constitucionales urgentes no pueden quedar congelados indefinidamente por falta de decisión"),
+        "zh-Hans": ("条款注释：最高法院拖延的后备机制", "为何紧急宪法案件不能因不作决定而被无限期冻结"),
+    },
+    "clause-term-limits": {
+        "en": ("Clause Note: Presidential Term Limits", "Why presidential term limits remain part of this safer presidential design"),
+        "es": ("Nota de cláusula: límites de mandato presidencial", "Por qué los límites de mandato siguen siendo parte de este diseño presidencial más seguro"),
+        "zh-Hans": ("条款注释：总统任期限制", "为何任期限制仍是这一更安全总统制设计的一部分"),
+    },
+    "clause-constitutional-organs": {
+        "en": ("Clause Note: Why Constitutional Organs Exist", "Why some democratic functions are kept outside ordinary partisan control"),
+        "es": ("Nota de cláusula: por qué existen los órganos constitucionales", "Por qué algunas funciones democráticas quedan fuera del control partidista ordinario"),
+        "zh-Hans": ("条款注释：为何设立宪法机关", "为何某些民主职能被置于日常党派控制之外"),
+    },
+    "clause-healthcare-floor": {
+        "en": ("Clause Note: The Healthcare Floor", "Why the Constitution protects access to basic and emergency healthcare without fixing one program model"),
+        "es": ("Nota de cláusula: el piso de atención médica", "Por qué la Constitución protege el acceso a la atención básica y de emergencia sin fijar un único modelo"),
+        "zh-Hans": ("条款注释：医疗保障底线", "为何宪法保障基本与紧急医疗服务的可及性，但不固定为单一制度模式"),
+    },
+    "clause-war-powers-backstop": {
+        "en": ("Clause Note: War Powers Backstops", "Why unauthorized force triggers concrete constitutional consequences instead of open-ended drift"),
+        "es": ("Nota de cláusula: salvaguardas de poderes de guerra", "Por qué el uso no autorizado de la fuerza genera consecuencias constitucionales concretas"),
+        "zh-Hans": ("条款注释：战争权力后备机制", "为何未经授权的武力使用会触发具体的宪法后果，而不是无限漂移"),
+    },
+    "clause-political-speech-floor": {
+        "en": ("Clause Note: Political Speech And Democratic Dissent", "Why political expression receives especially strong protection in a democracy-defending constitution"),
+        "es": ("Nota de cláusula: expresión política y disenso democrático", "Por qué la expresión política recibe una protección especialmente fuerte en una constitución que defiende la democracia"),
+        "zh-Hans": ("条款注释：政治表达与民主异议", "为何政治表达在一部保卫民主的宪法中获得特别强的保护"),
+    },
+    "clause-peaceful-transfer": {
+        "en": ("Clause Note: Peaceful Transfer Of Power", "Why lawful transfer of power is protected as a constitutional core commitment rather than a political norm"),
+        "es": ("Nota de cláusula: transferencia pacífica del poder", "Por qué la transferencia legal del poder se protege como compromiso constitucional central"),
+        "zh-Hans": ("条款注释：和平移交权力", "为何合法的权力移交被保护为核心宪法承诺，而不只是政治惯例"),
+    },
+    "clause-campaign-finance-equality": {
+        "en": ("Clause Note: Campaign Finance And Political Equality", "Why constitutional democracy permits strong limits on political money without freezing one permanent regulatory model"),
+        "es": ("Nota de cláusula: financiación de campañas e igualdad política", "Por qué la democracia constitucional permite límites fuertes al dinero político sin congelarlo en un único modelo regulatorio permanente"),
+        "zh-Hans": ("条款注释：竞选资金与政治平等", "为何宪政民主可以对政治金钱设定强限制，而不冻结为单一永久监管模式"),
+    },
+    "clause-federalism-floor": {
+        "en": ("Clause Note: Federalism And The Democratic Floor", "Why state autonomy is preserved within a democratic floor rather than treated as absolute"),
+        "es": ("Nota de cláusula: federalismo y piso democrático", "Por qué la autonomía estatal se preserva dentro de un piso democrático y no como algo absoluto"),
+        "zh-Hans": ("条款注释：联邦制与民主底线", "为何州自治是在民主底线内被保留，而不是被视为绝对"),
+    },
+    "clause-citizenship-revocation": {
+        "en": ("Clause Note: Citizenship Revocation And Due Process", "Why loss of citizenship requires an explicit constitutional process floor before it can take effect"),
+        "es": ("Nota de cláusula: revocación de ciudadanía y debido proceso", "Por qué la pérdida de ciudadanía requiere un piso procesal constitucional explícito antes de surtir efecto"),
+        "zh-Hans": ("条款注释：撤销国籍与正当程序", "为何丧失国籍在生效前必须满足明确的宪法程序底线"),
+    },
+    "clause-anti-corruption": {
+        "en": ("Clause Note: Anti-Corruption And Anti-Capture", "Why corruption and institutional capture are treated as constitutional threats rather than ordinary policy failures"),
+        "es": ("Nota de cláusula: anticorrupción y anticaptura", "Por qué la corrupción y la captura institucional se tratan como amenazas constitucionales y no como fallas políticas ordinarias"),
+        "zh-Hans": ("条款注释：反腐败与反俘获", "为何腐败和制度俘获被视为宪法威胁，而不只是普通政策失败"),
+    },
 }
 
 
@@ -329,6 +488,17 @@ def nav_labels(locale: str) -> dict[str, str]:
     return NAV_GROUP_LABELS.get(locale, NAV_GROUP_LABELS["en"])
 
 
+def group_label(group_key: str, locale: str) -> str:
+    return GROUP_LABELS.get(locale, GROUP_LABELS["en"]).get(group_key, group_key)
+
+
+def localized_pair(
+    metadata: dict[str, dict[str, tuple[str, str]]], slug: str, locale: str, fallback_title: str, fallback_summary: str
+) -> tuple[str, str]:
+    values = metadata.get(slug, {})
+    return values.get(locale) or values.get("en") or (fallback_title, fallback_summary)
+
+
 def localized_article_source(filename: str, locale: str) -> Path:
     if locale == "en":
         return ROOT / "articles" / filename
@@ -377,8 +547,8 @@ def build_manifest(locale: str, locales: list[str]) -> dict[str, object]:
     docs.append(
         {
             "slug": "preamble",
-            "title": extract_title(preamble_md, "Preamble"),
-            "group": "Constitution",
+            "title": {"en": "Preamble", "es": "Preámbulo", "zh-Hans": "序言"}.get(locale, "Preamble"),
+            "group": group_label("constitution", locale),
             "kind": "preamble",
             "source": preamble_rel,
             "status": extract_status(preamble_md),
@@ -400,7 +570,7 @@ def build_manifest(locale: str, locales: list[str]) -> dict[str, object]:
             {
                 "slug": slugify(filename.replace(".md", "")),
                 "title": title,
-                "group": "Constitution",
+                "group": group_label("constitution", locale),
                 "kind": "article",
                 "source": relative,
                 "status": extract_status(markdown),
@@ -417,15 +587,16 @@ def build_manifest(locale: str, locales: list[str]) -> dict[str, object]:
         markdown = source.read_text()
         relative = copy_source(source)
         score = scorecard.get(title, {})
+        localized_title, localized_summary = localized_pair(PAGE_METADATA, slug, locale, title, fallback_summary)
         docs.append(
             {
                 "slug": slug,
-                "title": title,
-                "group": group,
+                "title": localized_title,
+                "group": group_label("overview" if group == "Overview" else "research", locale),
                 "kind": "note",
                 "source": relative,
                 "status": extract_status(markdown),
-                "summary": extract_summary(markdown) or fallback_summary,
+                "summary": localized_summary if locale != "en" else extract_summary(markdown) or fallback_summary,
                 "headings": extract_headings(markdown),
                 "search_text": plain_text(markdown),
                 "score": score.get("score"),
@@ -436,15 +607,18 @@ def build_manifest(locale: str, locales: list[str]) -> dict[str, object]:
     for slug, title, source, group, fallback_summary in COMMENTARY_OVERVIEW_SOURCES:
         markdown = source.read_text()
         relative = copy_source(source)
+        localized_title, localized_summary = localized_pair(
+            COMMENTARY_OVERVIEW_METADATA, slug, locale, title, fallback_summary
+        )
         docs.append(
             {
                 "slug": slug,
-                "title": title,
-                "group": group,
+                "title": localized_title,
+                "group": group_label("commentary", locale),
                 "kind": "commentary",
                 "source": relative,
                 "status": extract_status(markdown),
-                "summary": extract_summary(markdown) or fallback_summary,
+                "summary": localized_summary if locale != "en" else extract_summary(markdown) or fallback_summary,
                 "headings": extract_headings(markdown),
                 "search_text": plain_text(markdown),
             }
@@ -453,15 +627,16 @@ def build_manifest(locale: str, locales: list[str]) -> dict[str, object]:
     for slug, title, source, group, fallback_summary, related_slugs in CLAUSE_COMMENTARY_SOURCES:
         markdown = source.read_text()
         relative = copy_source(source)
+        localized_title, localized_summary = localized_pair(CLAUSE_METADATA, slug, locale, title, fallback_summary)
         docs.append(
             {
                 "slug": slug,
-                "title": title,
-                "group": group,
+                "title": localized_title,
+                "group": group_label("clause_notes", locale),
                 "kind": "commentary",
                 "source": relative,
                 "status": extract_status(markdown),
-                "summary": extract_summary(markdown) or fallback_summary,
+                "summary": localized_summary if locale != "en" else extract_summary(markdown) or fallback_summary,
                 "headings": extract_headings(markdown),
                 "search_text": plain_text(markdown),
                 "related_slugs": related_slugs,
@@ -476,16 +651,23 @@ def build_manifest(locale: str, locales: list[str]) -> dict[str, object]:
         relative = copy_source(source)
         article_slug = slugify(filename.replace(".md", ""))
         commentary_slug = f"notes-{article_slug}"
-        article_title = extract_title((ROOT / "articles" / filename).read_text(), filename)
+        localized_article_markdown = localized_article_source(filename, locale).read_text()
+        article_title = extract_title(localized_article_markdown, filename)
+        notes_suffix = {"en": "Notes", "es": "Notas", "zh-Hans": "注释"}.get(locale, "Notes")
+        summary_fallback = {
+            "en": f"Explanatory notes for {article_title}",
+            "es": f"Notas explicativas para {article_title}",
+            "zh-Hans": f"{article_title}的说明性注释",
+        }.get(locale, f"Explanatory notes for {article_title}")
         docs.append(
             {
                 "slug": commentary_slug,
-                "title": f"{article_title} Notes",
-                "group": "Commentary",
+                "title": f"{article_title} {notes_suffix}",
+                "group": group_label("commentary", locale),
                 "kind": "commentary",
                 "source": relative,
                 "status": extract_status(markdown),
-                "summary": extract_summary(markdown) or f"Explanatory notes for {article_title}",
+                "summary": summary_fallback if locale != "en" else extract_summary(markdown) or summary_fallback,
                 "headings": extract_headings(markdown),
                 "search_text": plain_text(markdown),
                 "companion_slug": article_slug,
@@ -504,7 +686,7 @@ def build_manifest(locale: str, locales: list[str]) -> dict[str, object]:
             doc["companion_kind"] = "commentary"
 
     overview = {
-        "title": "Constitution of the United States of America",
+        "title": SITE_TITLES.get(locale, SITE_TITLES["en"]),
         "subtitle": OVERVIEW_SUBTITLES.get(locale, OVERVIEW_SUBTITLES["en"]),
         "article_count": len(ARTICLE_ORDER),
         "scenario_count": aggregate["scenario_count"],

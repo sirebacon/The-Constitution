@@ -16,7 +16,7 @@
     }
   ],
   "overview": {
-    "title": "Constitution of the United States of America",
+    "title": "Constituci\u00f3n de los Estados Unidos de Am\u00e9rica",
     "subtitle": "Un borrador moderno de reemplazo construido en torno a la legitimidad democr\u00e1tica, las salvaguardas anti-autoritarias y una arquitectura constitucional legible.",
     "article_count": 19,
     "scenario_count": 75,
@@ -100,8 +100,8 @@
   "docs": [
     {
       "slug": "preamble",
-      "title": "Preamble",
-      "group": "Constitution",
+      "title": "Pre\u00e1mbulo",
+      "group": "Constituci\u00f3n",
       "kind": "preamble",
       "source": "preamble.md",
       "status": "DRAFT",
@@ -120,7 +120,7 @@
     {
       "slug": "i-electoral-system",
       "title": "Art\u00edculo I \u2014 El Sistema Electoral",
-      "group": "Constitution",
+      "group": "Constituci\u00f3n",
       "kind": "article",
       "source": "translation/translations/es/articles/I-electoral-system.md",
       "status": null,
@@ -242,7 +242,7 @@
     {
       "slug": "ii-legislature",
       "title": "Art\u00edculo II \u2014 El Poder Legislativo",
-      "group": "Constitution",
+      "group": "Constituci\u00f3n",
       "kind": "article",
       "source": "translation/translations/es/articles/II-legislature.md",
       "status": null,
@@ -349,7 +349,7 @@
     {
       "slug": "iii-executive",
       "title": "Art\u00edculo III \u2014 El Poder Ejecutivo",
-      "group": "Constitution",
+      "group": "Constituci\u00f3n",
       "kind": "article",
       "source": "translation/translations/es/articles/III-executive.md",
       "status": null,
@@ -431,7 +431,7 @@
     {
       "slug": "iv-judiciary",
       "title": "Art\u00edculo IV \u2014 El Poder Judicial",
-      "group": "Constitution",
+      "group": "Constituci\u00f3n",
       "kind": "article",
       "source": "translation/translations/es/articles/IV-judiciary.md",
       "status": null,
@@ -498,7 +498,7 @@
     {
       "slug": "v-rights",
       "title": "Art\u00edculo V \u2014 Derechos y Libertades",
-      "group": "Constitution",
+      "group": "Constituci\u00f3n",
       "kind": "article",
       "source": "translation/translations/es/articles/V-rights.md",
       "status": null,
@@ -580,7 +580,7 @@
     {
       "slug": "vi-integrity",
       "title": "Art\u00edculo VI \u2014 Integridad Democr\u00e1tica",
-      "group": "Constitution",
+      "group": "Constituci\u00f3n",
       "kind": "article",
       "source": "translation/translations/es/articles/VI-integrity.md",
       "status": null,
@@ -737,7 +737,7 @@
     {
       "slug": "vii-campaign-finance",
       "title": "Art\u00edculo VII \u2014 Financiamiento de Campa\u00f1as y Dinero Pol\u00edtico",
-      "group": "Constitution",
+      "group": "Constituci\u00f3n",
       "kind": "article",
       "source": "translation/translations/es/articles/VII-campaign-finance.md",
       "status": null,
@@ -904,7 +904,7 @@
     {
       "slug": "viii-government-ethics",
       "title": "Art\u00edculo VIII \u2014 \u00c9tica Gubernamental",
-      "group": "Constitution",
+      "group": "Constituci\u00f3n",
       "kind": "article",
       "source": "translation/translations/es/articles/VIII-government-ethics.md",
       "status": null,
@@ -1116,7 +1116,7 @@
     {
       "slug": "ix-citizenship-membership",
       "title": "Art\u00edculo IX \u2014 Ciudadan\u00eda y Membres\u00eda Nacional",
-      "group": "Constitution",
+      "group": "Constituci\u00f3n",
       "kind": "article",
       "source": "translation/translations/es/articles/IX-citizenship-membership.md",
       "status": null,
@@ -1173,7 +1173,7 @@
     {
       "slug": "x-federalism",
       "title": "Art\u00edculo X \u2014 El Federalismo y los Estados",
-      "group": "Constitution",
+      "group": "Constituci\u00f3n",
       "kind": "article",
       "source": "translation/translations/es/articles/X-federalism.md",
       "status": null,
@@ -1235,7 +1235,7 @@
     {
       "slug": "xi-amendments",
       "title": "Art\u00edculo XI \u2014 Enmiendas",
-      "group": "Constitution",
+      "group": "Constituci\u00f3n",
       "kind": "article",
       "source": "translation/translations/es/articles/XI-amendments.md",
       "status": null,
@@ -1362,7 +1362,7 @@
     {
       "slug": "xii-constitutional-organs",
       "title": "Art\u00edculo XII \u2014 \u00d3rganos Constitucionales",
-      "group": "Constitution",
+      "group": "Constituci\u00f3n",
       "kind": "article",
       "source": "translation/translations/es/articles/XII-constitutional-organs.md",
       "status": null,
@@ -1414,7 +1414,7 @@
     {
       "slug": "xiii-federal-agencies",
       "title": "Art\u00edculo XIII \u2014 Los Organismos Federales y el Estado Administrativo",
-      "group": "Constitution",
+      "group": "Constituci\u00f3n",
       "kind": "article",
       "source": "translation/translations/es/articles/XIII-federal-agencies.md",
       "status": null,
@@ -1496,7 +1496,7 @@
     {
       "slug": "xiv-taxation-public-revenue",
       "title": "Art\u00edculo XIV \u2014 Tributaci\u00f3n e Ingresos P\u00fablicos",
-      "group": "Constitution",
+      "group": "Constituci\u00f3n",
       "kind": "article",
       "source": "translation/translations/es/articles/XIV-taxation-public-revenue.md",
       "status": null,
@@ -1543,7 +1543,7 @@
     {
       "slug": "xv-budget-public-credit-appropriations",
       "title": "Art\u00edculo XV \u2014 Presupuesto, Cr\u00e9dito P\u00fablico y Asignaciones Presupuestarias",
-      "group": "Constitution",
+      "group": "Constituci\u00f3n",
       "kind": "article",
       "source": "translation/translations/es/articles/XV-budget-public-credit-appropriations.md",
       "status": null,
@@ -1605,7 +1605,7 @@
     {
       "slug": "xvi-war-powers-national-security",
       "title": "Art\u00edculo XVI \u2014 Poderes de Guerra y Seguridad Nacional",
-      "group": "Constitution",
+      "group": "Constituci\u00f3n",
       "kind": "article",
       "source": "translation/translations/es/articles/XVI-war-powers-national-security.md",
       "status": null,
@@ -1702,7 +1702,7 @@
     {
       "slug": "xvii-foreign-policy-national-security",
       "title": "Art\u00edculo XVII \u2014 Pol\u00edtica Exterior y Seguridad Nacional",
-      "group": "Constitution",
+      "group": "Constituci\u00f3n",
       "kind": "article",
       "source": "translation/translations/es/articles/XVII-foreign-policy-national-security.md",
       "status": null,
@@ -1759,7 +1759,7 @@
     {
       "slug": "xviii-social-economic-rights",
       "title": "Art\u00edculo XVIII \u2014 Derechos Sociales, Econ\u00f3micos y Afirmativos",
-      "group": "Constitution",
+      "group": "Constituci\u00f3n",
       "kind": "article",
       "source": "translation/translations/es/articles/XVIII-social-economic-rights.md",
       "status": null,
@@ -1801,7 +1801,7 @@
     {
       "slug": "xix-ratification-transition",
       "title": "Art\u00edculo XIX \u2014 Ratificaci\u00f3n y Transici\u00f3n",
-      "group": "Constitution",
+      "group": "Constituci\u00f3n",
       "kind": "article",
       "source": "translation/translations/es/articles/XIX-ratification-transition.md",
       "status": null,
@@ -1867,12 +1867,12 @@
     },
     {
       "slug": "index",
-      "title": "Constitution Index",
-      "group": "Overview",
+      "title": "\u00cdndice de la Constituci\u00f3n",
+      "group": "Resumen",
       "kind": "note",
       "source": "CONSTITUTION.md",
       "status": null,
-      "summary": "This is the master index for the revised Constitution. Each major component lives in its own file for easier editing and review. This document tracks the status of each part and provides navigation.",
+      "summary": "\u00cdndice principal y estado de redacci\u00f3n",
       "headings": [
         {
           "level": 3,
@@ -1926,12 +1926,12 @@
     },
     {
       "slug": "overview",
-      "title": "Project Overview",
-      "group": "Overview",
+      "title": "Resumen del proyecto",
+      "group": "Resumen",
       "kind": "note",
       "source": "design-notes/constitutional-overview.md",
       "status": null,
-      "summary": "This document describes the revised draft in broad terms: what kind of constitution it is, what problems it is trying to solve, and how it compares to the current United States Constitution and to common constitutional models in other democracies.",
+      "summary": "Explicaci\u00f3n general del modelo constitucional",
       "headings": [
         {
           "level": 2,
@@ -2055,12 +2055,12 @@
     },
     {
       "slug": "overview-zh",
-      "title": "Project Overview (\u4e2d\u6587)",
-      "group": "Overview",
+      "title": "Resumen del proyecto (\u4e2d\u6587)",
+      "group": "Resumen",
       "kind": "note",
       "source": "design-notes/constitutional-overview.zh.md",
       "status": null,
-      "summary": "\u672c\u6587\u4ee5\u5b8f\u89c2\u65b9\u5f0f\u4ecb\u7ecd\u8fd9\u4efd\u4fee\u8ba2\u7248\u5baa\u6cd5\u8349\u6848\uff1a\u5b83\u5c5e\u4e8e\u4ec0\u4e48\u7c7b\u578b\u7684\u5baa\u6cd5\u3001\u8bd5\u56fe\u89e3\u51b3\u4ec0\u4e48\u95ee\u9898\uff0c\u4ee5\u53ca\u5b83\u4e0e\u7f8e\u56fd\u73b0\u884c\u5baa\u6cd5\u548c\u5176\u4ed6\u5e38\u89c1\u6c11\u4e3b\u56fd\u5bb6\u5baa\u6cd5\u6a21\u5f0f\u76f8\u6bd4\u6709\u4f55\u4e0d\u540c\u3002",
+      "summary": "Resumen en chino del modelo constitucional",
       "headings": [
         {
           "level": 2,
@@ -2184,12 +2184,12 @@
     },
     {
       "slug": "comparison",
-      "title": "Comparison",
-      "group": "Overview",
+      "title": "Comparaci\u00f3n",
+      "group": "Resumen",
       "kind": "note",
       "source": "design-notes/comparison.md",
       "status": null,
-      "summary": "A side-by-side reference showing what changed and why.",
+      "summary": "Comparaci\u00f3n con la Constituci\u00f3n actual de Estados Unidos",
       "headings": [
         {
           "level": 2,
@@ -2203,12 +2203,12 @@
     },
     {
       "slug": "rationale",
-      "title": "Design Rationale",
-      "group": "Overview",
+      "title": "Justificaci\u00f3n del dise\u00f1o",
+      "group": "Resumen",
       "kind": "note",
       "source": "design-notes/rationale.md",
       "status": null,
-      "summary": "This document explains the reasoning behind major structural departures from the current US Constitution.",
+      "summary": "Por qu\u00e9 se adoptaron las principales decisiones estructurales",
       "headings": [
         {
           "level": 2,
@@ -2257,12 +2257,12 @@
     },
     {
       "slug": "scorecard",
-      "title": "Scorecard",
-      "group": "Overview",
+      "title": "Puntuaci\u00f3n",
+      "group": "Resumen",
       "kind": "note",
       "source": "design-notes/scorecard.md",
       "status": null,
-      "summary": "Use this document to track the quality of the draft over time. The goal is not just to rate the text, but to identify where improvement work should go next.",
+      "summary": "Evaluaci\u00f3n actual de calidad y pr\u00f3ximos objetivos",
       "headings": [
         {
           "level": 2,
@@ -2331,12 +2331,12 @@
     },
     {
       "slug": "findings",
-      "title": "Simulation Findings",
-      "group": "Research",
+      "title": "Resultados de simulaci\u00f3n",
+      "group": "Investigaci\u00f3n",
       "kind": "note",
       "source": "design-notes/simulation-findings.md",
       "status": null,
-      "summary": "This document records conclusions drawn from the constitutional flow simulator and its generated reports. Each entry should cite the relevant scenario outputs so recurring bottlenecks can be tracked over time.",
+      "summary": "Lo que actualmente muestra el simulador",
       "headings": [
         {
           "level": 2,
@@ -2840,12 +2840,12 @@
     },
     {
       "slug": "finalization-plan",
-      "title": "Finalization Plan",
-      "group": "Research",
+      "title": "Plan de finalizaci\u00f3n",
+      "group": "Investigaci\u00f3n",
       "kind": "note",
       "source": "design-notes/finalization-plan.md",
       "status": null,
-      "summary": "This plan is for the current stage of the project: the architecture is largely settled, the simulator is broad, and the remaining work is mainly validation, compression, and presentation.",
+      "summary": "Trabajo restante y secuencia para cerrar el borrador",
       "headings": [
         {
           "level": 2,
@@ -2984,12 +2984,12 @@
     },
     {
       "slug": "commentary-overview",
-      "title": "Using Commentary Notes",
-      "group": "Commentary",
+      "title": "C\u00f3mo usar las notas de comentario",
+      "group": "Comentario",
       "kind": "commentary",
       "source": "commentary/overview/using-commentary-notes.md",
       "status": null,
-      "summary": "This site keeps the constitutional text and the explanatory material separate on purpose.",
+      "summary": "C\u00f3mo el sitio separa el texto constitucional de las notas explicativas",
       "headings": [
         {
           "level": 2,
@@ -3016,12 +3016,12 @@
     },
     {
       "slug": "commentary-choices",
-      "title": "Why Keep Commentary Separate?",
-      "group": "Commentary",
+      "title": "\u00bfPor qu\u00e9 mantener separado el comentario?",
+      "group": "Comentario",
       "kind": "commentary",
       "source": "commentary/overview/why-commentary-is-separate.md",
       "status": null,
-      "summary": "This project uses two layers:",
+      "summary": "Por qu\u00e9 el texto constitucional se mantiene limpio mientras las notas de dise\u00f1o siguen siendo p\u00fablicas",
       "headings": [
         {
           "level": 2,
@@ -3048,12 +3048,12 @@
     },
     {
       "slug": "clause-unamendable-core",
-      "title": "Clause Note: The Unamendable Core",
-      "group": "Clause Notes",
+      "title": "Nota de cl\u00e1usula: el n\u00facleo irreformable",
+      "group": "Notas de cl\u00e1usulas",
       "kind": "commentary",
       "source": "commentary/clauses/unamendable-core.md",
       "status": null,
-      "summary": "A democratic constitution should be open to revision, but it should not be legally open to self-destruction.",
+      "summary": "Por qu\u00e9 algunos fundamentos democr\u00e1ticos se sit\u00faan deliberadamente m\u00e1s all\u00e1 de la reforma",
       "headings": [
         {
           "level": 2,
@@ -3078,12 +3078,12 @@
     },
     {
       "slug": "clause-naturalized-president",
-      "title": "Clause Note: Naturalized Citizens And The Presidency",
-      "group": "Clause Notes",
+      "title": "Nota de cl\u00e1usula: ciudadan\u00eda naturalizada y presidencia",
+      "group": "Notas de cl\u00e1usulas",
       "kind": "commentary",
       "source": "commentary/clauses/naturalized-president.md",
       "status": null,
-      "summary": "The natural-born-citizen rule in the current U.S. Constitution creates a caste distinction inside citizenship.",
+      "summary": "Por qu\u00e9 el borrador rechaza que la presidencia se limite a ciudadanos nativos",
       "headings": [
         {
           "level": 2,
@@ -3109,12 +3109,12 @@
     },
     {
       "slug": "clause-high-impact-directives",
-      "title": "Clause Note: Fast-Track Review For High-Impact Directives",
-      "group": "Clause Notes",
+      "title": "Nota de cl\u00e1usula: revisi\u00f3n acelerada de directivas de alto impacto",
+      "group": "Notas de cl\u00e1usulas",
       "kind": "commentary",
       "source": "commentary/clauses/high-impact-directives.md",
       "status": null,
-      "summary": "Presidents can change the practical legal landscape very quickly through orders or directives that take effect before normal litigation can catch up.",
+      "summary": "Por qu\u00e9 las grandes directivas presidenciales reciben una v\u00eda r\u00e1pida y limitada",
       "headings": [
         {
           "level": 2,
@@ -3140,12 +3140,12 @@
     },
     {
       "slug": "clause-supreme-court-delay",
-      "title": "Clause Note: Supreme Court Delay Backstop",
-      "group": "Clause Notes",
+      "title": "Nota de cl\u00e1usula: respaldo frente a la demora de la Corte Suprema",
+      "group": "Notas de cl\u00e1usulas",
       "kind": "commentary",
       "source": "commentary/clauses/supreme-court-delay-backstop.md",
       "status": null,
-      "summary": "In expedited constitutional disputes, the Supreme Court can shape outcomes not only by deciding, but by waiting.",
+      "summary": "Por qu\u00e9 los casos constitucionales urgentes no pueden quedar congelados indefinidamente por falta de decisi\u00f3n",
       "headings": [
         {
           "level": 2,
@@ -3170,12 +3170,12 @@
     },
     {
       "slug": "clause-term-limits",
-      "title": "Clause Note: Presidential Term Limits",
-      "group": "Clause Notes",
+      "title": "Nota de cl\u00e1usula: l\u00edmites de mandato presidencial",
+      "group": "Notas de cl\u00e1usulas",
       "kind": "commentary",
       "source": "commentary/clauses/presidential-term-limits.md",
       "status": null,
-      "summary": "In a presidential system, term limits are a structural guard against personal rule.",
+      "summary": "Por qu\u00e9 los l\u00edmites de mandato siguen siendo parte de este dise\u00f1o presidencial m\u00e1s seguro",
       "headings": [
         {
           "level": 2,
@@ -3200,12 +3200,12 @@
     },
     {
       "slug": "clause-constitutional-organs",
-      "title": "Clause Note: Why Constitutional Organs Exist",
-      "group": "Clause Notes",
+      "title": "Nota de cl\u00e1usula: por qu\u00e9 existen los \u00f3rganos constitucionales",
+      "group": "Notas de cl\u00e1usulas",
       "kind": "commentary",
       "source": "commentary/clauses/constitutional-organs.md",
       "status": null,
-      "summary": "Some state functions are too central to democratic legitimacy to be left entirely inside the ordinary partisan chain of command.",
+      "summary": "Por qu\u00e9 algunas funciones democr\u00e1ticas quedan fuera del control partidista ordinario",
       "headings": [
         {
           "level": 2,
@@ -3231,12 +3231,12 @@
     },
     {
       "slug": "clause-healthcare-floor",
-      "title": "Clause Note: The Healthcare Floor",
-      "group": "Clause Notes",
+      "title": "Nota de cl\u00e1usula: el piso de atenci\u00f3n m\u00e9dica",
+      "group": "Notas de cl\u00e1usulas",
       "kind": "commentary",
       "source": "commentary/clauses/healthcare-floor.md",
       "status": null,
-      "summary": "Because formal liberty means less when access to basic and emergency care can be denied simply because a person cannot pay.",
+      "summary": "Por qu\u00e9 la Constituci\u00f3n protege el acceso a la atenci\u00f3n b\u00e1sica y de emergencia sin fijar un \u00fanico modelo",
       "headings": [
         {
           "level": 2,
@@ -3271,12 +3271,12 @@
     },
     {
       "slug": "clause-war-powers-backstop",
-      "title": "Clause Note: War Powers Backstops",
-      "group": "Clause Notes",
+      "title": "Nota de cl\u00e1usula: salvaguardas de poderes de guerra",
+      "group": "Notas de cl\u00e1usulas",
       "kind": "commentary",
       "source": "commentary/clauses/war-powers-backstop.md",
       "status": null,
-      "summary": "Because unauthorized military action often survives through drift, ambiguity, and institutional hesitation.",
+      "summary": "Por qu\u00e9 el uso no autorizado de la fuerza genera consecuencias constitucionales concretas",
       "headings": [
         {
           "level": 2,
@@ -3301,12 +3301,12 @@
     },
     {
       "slug": "clause-political-speech-floor",
-      "title": "Clause Note: Political Speech And Democratic Dissent",
-      "group": "Clause Notes",
+      "title": "Nota de cl\u00e1usula: expresi\u00f3n pol\u00edtica y disenso democr\u00e1tico",
+      "group": "Notas de cl\u00e1usulas",
       "kind": "commentary",
       "source": "commentary/clauses/political-speech-floor.md",
       "status": null,
-      "summary": "In a constitutional democracy, political speech is not just one liberty among many.",
+      "summary": "Por qu\u00e9 la expresi\u00f3n pol\u00edtica recibe una protecci\u00f3n especialmente fuerte en una constituci\u00f3n que defiende la democracia",
       "headings": [
         {
           "level": 2,
@@ -3332,12 +3332,12 @@
     },
     {
       "slug": "clause-peaceful-transfer",
-      "title": "Clause Note: Peaceful Transfer Of Power",
-      "group": "Clause Notes",
+      "title": "Nota de cl\u00e1usula: transferencia pac\u00edfica del poder",
+      "group": "Notas de cl\u00e1usulas",
       "kind": "commentary",
       "source": "commentary/clauses/peaceful-transfer.md",
       "status": null,
-      "summary": "Because a democratic system is not secured merely by holding elections.",
+      "summary": "Por qu\u00e9 la transferencia legal del poder se protege como compromiso constitucional central",
       "headings": [
         {
           "level": 2,
@@ -3363,12 +3363,12 @@
     },
     {
       "slug": "clause-campaign-finance-equality",
-      "title": "Clause Note: Campaign Finance And Political Equality",
-      "group": "Clause Notes",
+      "title": "Nota de cl\u00e1usula: financiaci\u00f3n de campa\u00f1as e igualdad pol\u00edtica",
+      "group": "Notas de cl\u00e1usulas",
       "kind": "commentary",
       "source": "commentary/clauses/campaign-finance-equality.md",
       "status": null,
-      "summary": "If large concentrations of wealth can dominate political communication, candidate viability, and access to representation, then formal political equality becomes increasingly fictional.",
+      "summary": "Por qu\u00e9 la democracia constitucional permite l\u00edmites fuertes al dinero pol\u00edtico sin congelarlo en un \u00fanico modelo regulatorio permanente",
       "headings": [
         {
           "level": 2,
@@ -3393,12 +3393,12 @@
     },
     {
       "slug": "clause-federalism-floor",
-      "title": "Clause Note: Federalism And The Democratic Floor",
-      "group": "Clause Notes",
+      "title": "Nota de cl\u00e1usula: federalismo y piso democr\u00e1tico",
+      "group": "Notas de cl\u00e1usulas",
       "kind": "commentary",
       "source": "commentary/clauses/federalism-floor.md",
       "status": null,
-      "summary": "Federalism can protect pluralism, experimentation, and local self-government.",
+      "summary": "Por qu\u00e9 la autonom\u00eda estatal se preserva dentro de un piso democr\u00e1tico y no como algo absoluto",
       "headings": [
         {
           "level": 2,
@@ -3423,12 +3423,12 @@
     },
     {
       "slug": "clause-citizenship-revocation",
-      "title": "Clause Note: Citizenship Revocation And Due Process",
-      "group": "Clause Notes",
+      "title": "Nota de cl\u00e1usula: revocaci\u00f3n de ciudadan\u00eda y debido proceso",
+      "group": "Notas de cl\u00e1usulas",
       "kind": "commentary",
       "source": "commentary/clauses/citizenship-revocation.md",
       "status": null,
-      "summary": "Citizenship loss is one of the most severe forms of public power over a person\u2019s legal and political status.",
+      "summary": "Por qu\u00e9 la p\u00e9rdida de ciudadan\u00eda requiere un piso procesal constitucional expl\u00edcito antes de surtir efecto",
       "headings": [
         {
           "level": 2,
@@ -3453,12 +3453,12 @@
     },
     {
       "slug": "clause-anti-corruption",
-      "title": "Clause Note: Anti-Corruption And Anti-Capture",
-      "group": "Clause Notes",
+      "title": "Nota de cl\u00e1usula: anticorrupci\u00f3n y anticaptura",
+      "group": "Notas de cl\u00e1usulas",
       "kind": "commentary",
       "source": "commentary/clauses/anti-corruption.md",
       "status": null,
-      "summary": "Corruption is not just bad administration.",
+      "summary": "Por qu\u00e9 la corrupci\u00f3n y la captura institucional se tratan como amenazas constitucionales y no como fallas pol\u00edticas ordinarias",
       "headings": [
         {
           "level": 2,
@@ -3485,12 +3485,12 @@
     },
     {
       "slug": "notes-i-electoral-system",
-      "title": "Article I \u2014 The Electoral System Notes",
-      "group": "Commentary",
+      "title": "Art\u00edculo I \u2014 El Sistema Electoral Notas",
+      "group": "Comentario",
       "kind": "commentary",
       "source": "commentary/articles/I-electoral-system.md",
       "status": null,
-      "summary": "The current U.S. constitutional structure protects elections in principle, but leaves too much of the democratic system to partisan manipulation, under-specification, and institutional habit.",
+      "summary": "Notas explicativas para Art\u00edculo I \u2014 El Sistema Electoral",
       "headings": [
         {
           "level": 2,
@@ -3519,12 +3519,12 @@
     },
     {
       "slug": "notes-ii-legislature",
-      "title": "Article II \u2014 The Legislature Notes",
-      "group": "Commentary",
+      "title": "Art\u00edculo II \u2014 El Poder Legislativo Notas",
+      "group": "Comentario",
       "kind": "commentary",
       "source": "commentary/articles/II-legislature.md",
       "status": null,
-      "summary": "The current U.S. Congress is constitutionally powerful on paper but too easy to disable in practice through delay, refusal to act, and procedural sabotage.",
+      "summary": "Notas explicativas para Art\u00edculo II \u2014 El Poder Legislativo",
       "headings": [
         {
           "level": 2,
@@ -3553,12 +3553,12 @@
     },
     {
       "slug": "notes-iii-executive",
-      "title": "Article III \u2014 The Executive Notes",
-      "group": "Commentary",
+      "title": "Art\u00edculo III \u2014 El Poder Ejecutivo Notas",
+      "group": "Comentario",
       "kind": "commentary",
       "source": "commentary/articles/III-executive.md",
       "status": null,
-      "summary": "The present U.S. presidency combines broad political expectations with weak textual guardrails. Too much depends on tradition, self-restraint, and slow institutional reaction.",
+      "summary": "Notas explicativas para Art\u00edculo III \u2014 El Poder Ejecutivo",
       "headings": [
         {
           "level": 2,
@@ -3587,12 +3587,12 @@
     },
     {
       "slug": "notes-iv-judiciary",
-      "title": "Article IV \u2014 The Judiciary Notes",
-      "group": "Commentary",
+      "title": "Art\u00edculo IV \u2014 El Poder Judicial Notas",
+      "group": "Comentario",
       "kind": "commentary",
       "source": "commentary/articles/IV-judiciary.md",
       "status": null,
-      "summary": "Modern constitutional systems can be undermined not only by bad judicial rulings, but by judicial drift, selective emergency intervention, opaque orders, and strategic delay.",
+      "summary": "Notas explicativas para Art\u00edculo IV \u2014 El Poder Judicial",
       "headings": [
         {
           "level": 2,
@@ -3621,12 +3621,12 @@
     },
     {
       "slug": "notes-v-rights",
-      "title": "Article V \u2014 Rights and Freedoms Notes",
-      "group": "Commentary",
+      "title": "Art\u00edculo V \u2014 Derechos y Libertades Notas",
+      "group": "Comentario",
       "kind": "commentary",
       "source": "commentary/articles/V-rights.md",
       "status": null,
-      "summary": "This article turns rights from abstract promises into enforceable constitutional limits with real remedies.",
+      "summary": "Notas explicativas para Art\u00edculo V \u2014 Derechos y Libertades",
       "headings": [
         {
           "level": 2,
@@ -3655,12 +3655,12 @@
     },
     {
       "slug": "notes-vi-integrity",
-      "title": "Article VI \u2014 Democratic Integrity Notes",
-      "group": "Commentary",
+      "title": "Art\u00edculo VI \u2014 Integridad Democr\u00e1tica Notas",
+      "group": "Comentario",
       "kind": "commentary",
       "source": "commentary/articles/VI-integrity.md",
       "status": null,
-      "summary": "Traditional constitutional design often assumes democracy will defend itself once elections and formal branches are in place.",
+      "summary": "Notas explicativas para Art\u00edculo VI \u2014 Integridad Democr\u00e1tica",
       "headings": [
         {
           "level": 2,
@@ -3689,12 +3689,12 @@
     },
     {
       "slug": "notes-vii-campaign-finance",
-      "title": "Article VII \u2014 Campaign Finance and Political Money Notes",
-      "group": "Commentary",
+      "title": "Art\u00edculo VII \u2014 Financiamiento de Campa\u00f1as y Dinero Pol\u00edtico Notas",
+      "group": "Comentario",
       "kind": "commentary",
       "source": "commentary/articles/VII-campaign-finance.md",
       "status": null,
-      "summary": "Money in politics is not only a policy problem. It is also a constitutional power-allocation problem.",
+      "summary": "Notas explicativas para Art\u00edculo VII \u2014 Financiamiento de Campa\u00f1as y Dinero Pol\u00edtico",
       "headings": [
         {
           "level": 2,
@@ -3723,12 +3723,12 @@
     },
     {
       "slug": "notes-viii-government-ethics",
-      "title": "Article VIII \u2014 Government Ethics Notes",
-      "group": "Commentary",
+      "title": "Art\u00edculo VIII \u2014 \u00c9tica Gubernamental Notas",
+      "group": "Comentario",
       "kind": "commentary",
       "source": "commentary/articles/VIII-government-ethics.md",
       "status": null,
-      "summary": "Corruption does not only distort policy. It corrodes democratic legitimacy and makes every other constitutional safeguard harder to trust.",
+      "summary": "Notas explicativas para Art\u00edculo VIII \u2014 \u00c9tica Gubernamental",
       "headings": [
         {
           "level": 2,
@@ -3757,12 +3757,12 @@
     },
     {
       "slug": "notes-ix-citizenship-membership",
-      "title": "Article IX \u2014 Citizenship and National Membership Notes",
-      "group": "Commentary",
+      "title": "Art\u00edculo IX \u2014 Ciudadan\u00eda y Membres\u00eda Nacional Notas",
+      "group": "Comentario",
       "kind": "commentary",
       "source": "commentary/articles/IX-citizenship-membership.md",
       "status": null,
-      "summary": "In the current U.S. constitutional structure, citizenship is foundational but under-specified. That leaves room for exclusionary politics, arbitrary second-class membership, and confusion about who fully belongs to the democratic community.",
+      "summary": "Notas explicativas para Art\u00edculo IX \u2014 Ciudadan\u00eda y Membres\u00eda Nacional",
       "headings": [
         {
           "level": 2,
@@ -3791,12 +3791,12 @@
     },
     {
       "slug": "notes-x-federalism",
-      "title": "Article X \u2014 Federalism and the States Notes",
-      "group": "Commentary",
+      "title": "Art\u00edculo X \u2014 El Federalismo y los Estados Notas",
+      "group": "Comentario",
       "kind": "commentary",
       "source": "commentary/articles/X-federalism.md",
       "status": null,
-      "summary": "Federalism can protect pluralism and local self-government, but it can also become a shield for democratic erosion, rights denial, and opportunistic conflict between levels of government.",
+      "summary": "Notas explicativas para Art\u00edculo X \u2014 El Federalismo y los Estados",
       "headings": [
         {
           "level": 2,
@@ -3825,12 +3825,12 @@
     },
     {
       "slug": "notes-xi-amendments",
-      "title": "Article XI \u2014 Amendments Notes",
-      "group": "Commentary",
+      "title": "Art\u00edculo XI \u2014 Enmiendas Notas",
+      "group": "Comentario",
       "kind": "commentary",
       "source": "commentary/articles/XI-amendments.md",
       "status": null,
-      "summary": "A democratic constitution should be amendable, but it should not be amendable into non-democracy.",
+      "summary": "Notas explicativas para Art\u00edculo XI \u2014 Enmiendas",
       "headings": [
         {
           "level": 2,
@@ -3859,12 +3859,12 @@
     },
     {
       "slug": "notes-xii-constitutional-organs",
-      "title": "Article XII \u2014 Constitutional Organs Notes",
-      "group": "Commentary",
+      "title": "Art\u00edculo XII \u2014 \u00d3rganos Constitucionales Notas",
+      "group": "Comentario",
       "kind": "commentary",
       "source": "commentary/articles/XII-constitutional-organs.md",
       "status": null,
-      "summary": "Some functions are too central to democratic legitimacy to leave entirely to ordinary partisan control.",
+      "summary": "Notas explicativas para Art\u00edculo XII \u2014 \u00d3rganos Constitucionales",
       "headings": [
         {
           "level": 2,
@@ -3893,12 +3893,12 @@
     },
     {
       "slug": "notes-xiii-federal-agencies",
-      "title": "Article XIII \u2014 Federal Agencies and the Administrative State Notes",
-      "group": "Commentary",
+      "title": "Art\u00edculo XIII \u2014 Los Organismos Federales y el Estado Administrativo Notas",
+      "group": "Comentario",
       "kind": "commentary",
       "source": "commentary/articles/XIII-federal-agencies.md",
       "status": null,
-      "summary": "Modern government depends on agencies, but constitutional texts often treat administration as if it were either politically neutral or legally secondary.",
+      "summary": "Notas explicativas para Art\u00edculo XIII \u2014 Los Organismos Federales y el Estado Administrativo",
       "headings": [
         {
           "level": 2,
@@ -3927,12 +3927,12 @@
     },
     {
       "slug": "notes-xiv-taxation-public-revenue",
-      "title": "Article XIV \u2014 Taxation and Public Revenue Notes",
-      "group": "Commentary",
+      "title": "Art\u00edculo XIV \u2014 Tributaci\u00f3n e Ingresos P\u00fablicos Notas",
+      "group": "Comentario",
       "kind": "commentary",
       "source": "commentary/articles/XIV-taxation-public-revenue.md",
       "status": null,
-      "summary": "Revenue power is one of the oldest tools of constitutional abuse.",
+      "summary": "Notas explicativas para Art\u00edculo XIV \u2014 Tributaci\u00f3n e Ingresos P\u00fablicos",
       "headings": [
         {
           "level": 2,
@@ -3961,12 +3961,12 @@
     },
     {
       "slug": "notes-xv-budget-public-credit-appropriations",
-      "title": "Article XV \u2014 Budget, Public Credit, and Appropriations Notes",
-      "group": "Commentary",
+      "title": "Art\u00edculo XV \u2014 Presupuesto, Cr\u00e9dito P\u00fablico y Asignaciones Presupuestarias Notas",
+      "group": "Comentario",
       "kind": "commentary",
       "source": "commentary/articles/XV-budget-public-credit-appropriations.md",
       "status": null,
-      "summary": "Fiscal collapse can destroy democratic government as effectively as formal constitutional breakdown.",
+      "summary": "Notas explicativas para Art\u00edculo XV \u2014 Presupuesto, Cr\u00e9dito P\u00fablico y Asignaciones Presupuestarias",
       "headings": [
         {
           "level": 2,
@@ -3995,12 +3995,12 @@
     },
     {
       "slug": "notes-xvi-war-powers-national-security",
-      "title": "Article XVI \u2014 War Powers and National Security Notes",
-      "group": "Commentary",
+      "title": "Art\u00edculo XVI \u2014 Poderes de Guerra y Seguridad Nacional Notas",
+      "group": "Comentario",
       "kind": "commentary",
       "source": "commentary/articles/XVI-war-powers-national-security.md",
       "status": null,
-      "summary": "Under the current U.S. model, war powers are one of the most under-disciplined parts of the constitutional order.",
+      "summary": "Notas explicativas para Art\u00edculo XVI \u2014 Poderes de Guerra y Seguridad Nacional",
       "headings": [
         {
           "level": 2,
@@ -4029,12 +4029,12 @@
     },
     {
       "slug": "notes-xvii-foreign-policy-national-security",
-      "title": "Article XVII \u2014 Foreign Policy and National Security Notes",
-      "group": "Commentary",
+      "title": "Art\u00edculo XVII \u2014 Pol\u00edtica Exterior y Seguridad Nacional Notas",
+      "group": "Comentario",
       "kind": "commentary",
       "source": "commentary/articles/XVII-foreign-policy-national-security.md",
       "status": null,
-      "summary": "Foreign policy is not identical to war, but it is also not an executive free zone.",
+      "summary": "Notas explicativas para Art\u00edculo XVII \u2014 Pol\u00edtica Exterior y Seguridad Nacional",
       "headings": [
         {
           "level": 2,
@@ -4063,12 +4063,12 @@
     },
     {
       "slug": "notes-xviii-social-economic-rights",
-      "title": "Article XVIII \u2014 Social, Economic, and Affirmative Rights Notes",
-      "group": "Commentary",
+      "title": "Art\u00edculo XVIII \u2014 Derechos Sociales, Econ\u00f3micos y Afirmativos Notas",
+      "group": "Comentario",
       "kind": "commentary",
       "source": "commentary/articles/XVIII-social-economic-rights.md",
       "status": null,
-      "summary": "A democratic constitution should not treat political liberty and material security as unrelated.",
+      "summary": "Notas explicativas para Art\u00edculo XVIII \u2014 Derechos Sociales, Econ\u00f3micos y Afirmativos",
       "headings": [
         {
           "level": 2,
@@ -4097,12 +4097,12 @@
     },
     {
       "slug": "notes-xix-ratification-transition",
-      "title": "Article XIX \u2014 Ratification and Transition Notes",
-      "group": "Commentary",
+      "title": "Art\u00edculo XIX \u2014 Ratificaci\u00f3n y Transici\u00f3n Notas",
+      "group": "Comentario",
       "kind": "commentary",
       "source": "commentary/articles/XIX-ratification-transition.md",
       "status": null,
-      "summary": "Many constitutions are written as though the hardest part is drafting the new rules.",
+      "summary": "Notas explicativas para Art\u00edculo XIX \u2014 Ratificaci\u00f3n y Transici\u00f3n",
       "headings": [
         {
           "level": 2,
