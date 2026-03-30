@@ -82,3 +82,9 @@ The simulator is a disciplined stress-testing tool, not a mathematical proof of 
 Many constitutional projects stop at drafting. This one also asks whether the design can survive bad-faith actors, missed deadlines, coercive pressure, and institutional reluctance.
 
 That makes the draft more than a list of ideals. It makes it a constitutional system that has been repeatedly tested against concrete failure modes.
+
+## How To Contribute New Tests
+
+If you want to add new scenarios yourself, use the contributor guide:
+
+- [How To Write Simulation Tests](/Users/chris/Documents/GitHub/The-Constitution/design-notes/how-to-write-simulation-tests.md)

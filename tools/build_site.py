@@ -124,6 +124,11 @@ PAGE_METADATA = {
         "es": ("Cómo funciona la validación", "Cómo el simulador somete el borrador a pruebas de esfuerzo y qué significan sus resultados"),
         "zh-Hans": ("测试如何运作", "模拟器如何对草案进行压力测试，以及这些结果意味着什么"),
     },
+    "how-to-write-simulation-tests": {
+        "en": ("How To Write Simulation Tests", "A contributor guide for creating new scenario tests, handlers, and follow-up report updates"),
+        "es": ("Cómo escribir pruebas de simulación", "Guía para contribuir nuevos escenarios, controladores y actualizaciones posteriores"),
+        "zh-Hans": ("如何编写模拟测试", "用于创建新情景测试、处理器和后续报告更新的贡献者指南"),
+    },
 }
 
 COMMENTARY_OVERVIEW_METADATA = {
@@ -226,6 +231,7 @@ PAGE_SOURCES = [
     ("rationale", "Design Rationale", ROOT / "design-notes" / "rationale.md", "Overview", "Why the major structural choices were made"),
     ("scorecard", "Scorecard", ROOT / "design-notes" / "scorecard.md", "Overview", "Current quality assessment and next targets"),
     ("how-testing-works", "How Testing Works", ROOT / "design-notes" / "how-testing-works.md", "Overview", "How the simulator stress-tests the draft and what its results mean"),
+    ("how-to-write-simulation-tests", "How To Write Simulation Tests", ROOT / "design-notes" / "how-to-write-simulation-tests.md", "Overview", "A contributor guide for creating new scenario tests, handlers, and follow-up report updates"),
     ("findings", "Simulation Findings", ROOT / "design-notes" / "simulation-findings.md", "Research", "What the simulator is currently showing"),
     ("finalization-plan", "Finalization Plan", ROOT / "design-notes" / "finalization-plan.md", "Research", "Current remaining work and near-finalization sequence"),
 ]
@@ -728,7 +734,7 @@ def build_manifest(locale: str, locales: list[str]) -> dict[str, object]:
     background_items = ["rationale", "findings", "finalization-plan"]
 
     navigation = [
-        {"group": labels["start_here"], "items": ["overview", "index", "comparison", "scorecard", "how-testing-works"]},
+        {"group": labels["start_here"], "items": ["overview", "index", "comparison", "scorecard", "how-testing-works", "how-to-write-simulation-tests"]},
         {"group": labels["constitution"], "items": ["preamble"] + [slugify(filename.replace(".md", "")) for filename in ARTICLE_ORDER]},
         {"group": labels["commentary"], "items": ["commentary-overview", "commentary-choices", "commentary-peaceful-use"]},
         {
