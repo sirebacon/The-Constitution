@@ -132,6 +132,11 @@ PAGE_METADATA = {
         "es": ("Plan de finalización", "Trabajo restante y secuencia para cerrar el borrador"),
         "zh-Hans": ("定稿计划", "当前剩余工作与接近定稿的顺序"),
     },
+    "known-critiques": {
+        "en": ("Known Critiques", "Major objections, tradeoffs, and still-open design questions in the draft"),
+        "es": ("Críticas conocidas", "Principales objeciones, compensaciones y cuestiones de diseño aún abiertas en el borrador"),
+        "zh-Hans": ("已知批评", "草案面临的主要反对意见、权衡与仍待解决的设计问题"),
+    },
     "how-testing-works": {
         "en": ("How Testing Works", "How the simulator stress-tests the draft and what its results mean"),
         "es": ("Cómo funciona la validación", "Cómo el simulador somete el borrador a pruebas de esfuerzo y qué significan sus resultados"),
@@ -247,11 +252,12 @@ PAGE_SOURCES = [
     ("how-to-write-simulation-tests", "How To Write Simulation Tests", ROOT / "design-notes" / "how-to-write-simulation-tests.md", "Overview", "A contributor guide for creating new scenario tests, handlers, and follow-up report updates"),
     ("findings", "Simulation Findings", ROOT / "design-notes" / "simulation-findings.md", "Research", "What the simulator is currently showing"),
     ("finalization-plan", "Finalization Plan", ROOT / "design-notes" / "finalization-plan.md", "Research", "Current remaining work and near-finalization sequence"),
+    ("known-critiques", "Known Critiques", ROOT / "design-notes" / "known-critiques.md", "Research", "Major objections, tradeoffs, and still-open design questions in the draft"),
 ]
 
 GUIDE_SLUGS = {"how-testing-works", "how-to-write-simulation-tests"}
 OVERVIEW_SLUGS = {"index", "overview", "overview-zh", "comparison", "scorecard"}
-RESEARCH_SLUGS = {"rationale", "findings", "finalization-plan"}
+RESEARCH_SLUGS = {"rationale", "findings", "finalization-plan", "known-critiques"}
 POLICY_SLUGS = {"commentary-peaceful-use"}
 HOMEPAGE_FEATURED = {
     "project_use": "commentary-peaceful-use",
@@ -481,7 +487,7 @@ def homepage_section_items() -> dict[str, list[str]]:
             "clause-anti-corruption",
         ],
         "commentary": ["commentary-overview", "commentary-choices", "commentary-peaceful-use"],
-        "research": ["scorecard", "rationale", "findings", "finalization-plan"],
+        "research": ["scorecard", "rationale", "findings", "known-critiques", "finalization-plan"],
         "contributing": ["how-testing-works", "how-to-write-simulation-tests"],
     }
 

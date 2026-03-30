@@ -123,6 +123,7 @@
           "scorecard",
           "rationale",
           "findings",
+          "known-critiques",
           "finalization-plan"
         ]
       },
@@ -255,6 +256,7 @@
         "scorecard",
         "rationale",
         "findings",
+        "known-critiques",
         "finalization-plan"
       ]
     },
@@ -3326,6 +3328,81 @@
         }
       ],
       "search_text": "Constitution Finalization Plan This plan is for the current stage of the project: the architecture is largely settled, the simulator is broad, and the remaining work is mainly validation, compression, and presentation. Current baseline: 75 scenarios 73 stress point scenarios 65 violations 32 bottlenecks 0 unresolved obligations overall draft score: about 9.0 The goal now is not to keep inventing new machinery. It is to finish the draft cleanly without reopening solved systems. Short remaining work list: final cross article sweep and terminology cleanup one last optional Article II / Article IV / Article XI polish pass only where compression is obviously safe optional residual scenarios for quasi private exclusion, Article IX edge cases, or gray zone/fiscal edge cases only if a real boundary question remains publication work: explainers, site polish, and translations Final Objective Reach a stable near final draft that is: constitutionally disciplined rather than code like well validated against realistic edge cases internally consistent across articles easy to publish, explain, and defend Guardrails Use these rules during finalization: 1. Do not add new constitutional machinery unless a scenario exposes a real gap that existing text cannot plausibly cover. 2. Prefer scenario building before text expansion. 3. Prefer narrowing and compression over adding new subsections. 4. Treat purely statutory or policy problems as statutory or policy problems. 5. Protect already validated systems from unnecessary churn. Phase 1 \u2014 Finish Remaining Validation Purpose Close the remaining meaningful testing gaps without broadening the Constitution unnecessarily. Main work 1. Add one more small wave of Article V edge case scenarios. Target: family autonomy one digital rights edge case Done when: Article V no longer feels under tested relative to its scope 2. Add one later Article X edge case scenario. Target: interstate digital conduct or cross border harm Done when: federalism no longer has an obvious untested modern edge case 3. Add one optional Article IX cleanup scenario only if it tests a real boundary. Target: renunciation / statelessness avoidance / foreign office incompatibility Done when: Article IX feels fully validated rather than merely improved 4. Decide which \u201cunknown gaps\u201d should stay in simulation only. Priority examples: quasi private soft cartelization AI / synthetic media crisis local democratic erosion below the state level Done when: each remaining unknown gap item is classified as: constitutional target statutory problem monitor only residual risk Deliverables new scenario files updated reports updated test scenarios.md updated simulation findings.md Phase 2 \u2014 Draft Discipline Pass Purpose Make the Constitution read more like constitutional law and less like advanced statutory design. Main work 1. Compress Article IV. Focus: procedural triggers governance mechanics anything that can safely move to \u201claw shall provide\u201d 2. Compress Article XI. Focus: explanatory or rationale style text over detailed standing or review mechanics 3. Compress Article VIII and Article XIII lightly. Focus: Article VIII \u00a71.13 abstraction level any remaining agency administration detail in Article XIII 4. Compress Article XIX where possible. Focus: implementation code feel transition specific operational detail that no longer needs to remain in constitutional text 5. Do one later cleanup pass on Article II. Focus: residual density rather than structural repair Done when no article still reads like a mini code unless the detail is truly indispensable high value protections remain intact after compression scorecard draft discipline scores can rise without forcing new architecture Phase 3 \u2014 Cross Article Consistency Sweep Purpose Catch final drift, overlaps, and boundary confusion before publication framing hardens. Main work 1. Review the Article VIII / XIII boundary one last time. Goal: confirm it is still clean after later compression 2. Review the Article XII / XIX continuity boundary. Goal: make sure temporary bridges and permanent organ rules read as one coherent design 3. Review emergency overlaps. Articles: III IV V XVI XVII Goal: make sure no fast track, emergency, or anti delay rule silently conflicts with another 4. Run a stale reference and terminology audit. Goal: no old section numbers no duplicate institutional labels no residual scaffolding text Deliverables updated articles if needed updated scorecard clean cross reference state Phase 4 \u2014 Final Scorecard and Freeze Review Purpose Decide what is truly finished and what should remain intentionally open. Main work 1. Re score every article once after the compression and consistency passes. 2. Separate: genuine remaining weaknesses acceptable political risk residuals statutory policy questions outside the Constitution 3. Create a short \u201cfreeze list\u201d of articles or systems that should not be revised again unless a new concrete exploit appears. Freeze candidates Article III impeachment fallback structure Article IV anti delay core Article VI anti subversion core Article VIII / XIII basic anti capture structure Article XVI war powers default chain Article XII / XIX continuity backstops Done when the scorecard reflects the real current state rather than open brainstorming the project has a clear answer to \u201cwhat is finished?\u201d Phase 5 \u2014 Publication and Reader Facing Work Purpose Make the project readable and legible to non drafters. Main work 1. Improve the website reader where useful. Possible targets: better article summaries easier navigation between article text and explainers clearer simulator/results access 2. Expand public facing explainers. High value explainers: unamendable core why this is still presidential rather than parliamentary how emergency powers work how this differs from the current U.S. Constitution 3. Prepare translation workflow if desired. Goal: translation system with glossary and review structure not raw machine translation only Done when the project can be read by someone new without repo archaeology the main constitutional choices are easy to explain in plain language What Not To Chase Do not spend finalization time on these unless a scenario proves they are real constitutional failures: purely private civic coordination that is better handled by statute ordinary attendance discipline inside chambers full criminal code treatment of organized crime broad new emergency powers broad new constitutional duties for all private platforms redesigning the regime type Recommended Next Sequence 1. Finish the remaining Article V / X / optional IX scenario work. 2. Do the Article IV / XI draft discipline compression pass. 3. Do the Article VIII / XIII / XIX light compression pass. 4. Run the cross article consistency sweep. 5. Re score and freeze. 6. Shift focus to publication and explainers. Success Standard The Constitution is ready for near final status when: simulator coverage feels broad rather than selective unresolved obligations remain at 0 remaining bottlenecks are mostly accepted political risk residuals most article scores are in the 8.8+ range remaining edits are mostly prose polish, not system repair",
+      "score": null,
+      "score_status": null
+    },
+    {
+      "slug": "known-critiques",
+      "title": "Cr\u00edticas conocidas",
+      "group": "Investigaci\u00f3n",
+      "kind": "note",
+      "content_type": "research",
+      "source": "design-notes/known-critiques.md",
+      "status": null,
+      "summary": "Principales objeciones, compensaciones y cuestiones de dise\u00f1o a\u00fan abiertas en el borrador",
+      "headings": [
+        {
+          "level": 2,
+          "text": "How To Read This Page",
+          "anchor": "how-to-read-this-page"
+        },
+        {
+          "level": 2,
+          "text": "1. The Draft Constitutionalizes Too Much Detail",
+          "anchor": "1-the-draft-constitutionalizes-too-much-detail"
+        },
+        {
+          "level": 2,
+          "text": "2. The System Relies Heavily On Courts And Constitutional Organs",
+          "anchor": "2-the-system-relies-heavily-on-courts-and-constitutional-organs"
+        },
+        {
+          "level": 2,
+          "text": "3. The Draft Is More Complex Than The Current U.S. Constitution",
+          "anchor": "3-the-draft-is-more-complex-than-the-current-us-constitution"
+        },
+        {
+          "level": 2,
+          "text": "4. Social And Economic Rights May Be Hard To Enforce Well",
+          "anchor": "4-social-and-economic-rights-may-be-hard-to-enforce-well"
+        },
+        {
+          "level": 2,
+          "text": "5. The Democratic Floor May Be Too Intrusive On State Autonomy",
+          "anchor": "5-the-democratic-floor-may-be-too-intrusive-on-state-autonomy"
+        },
+        {
+          "level": 2,
+          "text": "6. Mandatory-Vote And Deadline Rules May Still Produce Political Breakdown",
+          "anchor": "6-mandatory-vote-and-deadline-rules-may-still-produce-political-breakdown"
+        },
+        {
+          "level": 2,
+          "text": "7. The Anti-Capture Architecture Could Be Seen As Overbuilt",
+          "anchor": "7-the-anti-capture-architecture-could-be-seen-as-overbuilt"
+        },
+        {
+          "level": 2,
+          "text": "8. The Draft Keeps Presidentialism Rather Than Switching To Parliamentarism",
+          "anchor": "8-the-draft-keeps-presidentialism-rather-than-switching-to-parliamentarism"
+        },
+        {
+          "level": 2,
+          "text": "9. The Draft May Still Be Too Moderate For Some Readers And Too Radical For Others",
+          "anchor": "9-the-draft-may-still-be-too-moderate-for-some-readers-and-too-radical-for-others"
+        },
+        {
+          "level": 2,
+          "text": "10. The Draft Is Easier To Respect As An Open Project Than To Adopt As A Political Program",
+          "anchor": "10-the-draft-is-easier-to-respect-as-an-open-project-than-to-adopt-as-a-political-program"
+        },
+        {
+          "level": 2,
+          "text": "Bottom Line",
+          "anchor": "bottom-line"
+        }
+      ],
+      "search_text": "Known Critiques This page records the strongest recurring criticisms of the draft as a constitutional system. The purpose is not to pretend the design has no tradeoffs. The purpose is to make those tradeoffs explicit, separate settled design choices from still open questions, and give future contributors a clear map of where disagreement actually lives. How To Read This Page Each section has three parts: the criticism itself the draft's current answer whether the issue is treated as settled, still under review, or better left to statute 1. The Draft Constitutionalizes Too Much Detail The criticism Some readers will argue that the draft includes too much election design, too much emergency machinery, and too many operational constraints for a constitution. Current answer The draft does this on purpose in areas where ordinary law has repeatedly been too easy to manipulate: elections, anti subversion, emergency power, corruption, and continuity. The premise is that some systems failed precisely because they were left to statute, convention, or judicial improvisation. Status Still under review at the level of drafting discipline. The project has repeatedly compressed code like language, but the underlying choice to constitutionalize a thicker democratic floor is mostly settled. 2. The System Relies Heavily On Courts And Constitutional Organs The criticism The draft creates strong courts, an Electoral Commission, an Accountability Commission, and a Judicial Conduct Board. Critics may say this shifts too much power away from ordinary politics and toward semi insulated institutions. Current answer That concern is real. The design answer is that these institutions are limited to specific constitutional functions and exist because ordinary partisan actors cannot be trusted to police themselves in every high stakes setting. The project tries to avoid free floating guardian institutions by tying powers to narrow triggers, deadlines, and review paths. Status Still under review. The basic institutional design is settled, but concerns about over judicialization and over insulation remain live and should continue to shape later revisions. 3. The Draft Is More Complex Than The Current U.S. Constitution The criticism The current Constitution is short. This draft is much longer and more explicit. Some readers will see that as a design flaw in itself. Current answer The project does not treat brevity as an unconditional virtue. A shorter text can be elegant, but it can also offload crucial constitutional design onto unstable norms, statutory patchwork, and judicial invention. The draft accepts greater length in exchange for more explicit democratic, anti authoritarian, and continuity safeguards. Status Settled in principle, still under review in execution. The project should keep compressing where possible, but it is not trying to return to founding era brevity. 4. Social And Economic Rights May Be Hard To Enforce Well The criticism Rights to healthcare, housing, education, climate protection, and child welfare may be criticized as aspirational, too judicially intrusive, or too dependent on policy choices that courts are not equipped to manage. Current answer The draft tries to answer this by giving courts a floor enforcement role rather than a full policy management role. The core idea is declaration, anti backsliding, and remedial plan review rather than courts writing budgets or managing agencies directly. That is stronger than the current U.S. model, but more restrained than a maximally judicialized social rights model. Status Still under review. The rights themselves are a settled project choice, but the proper enforcement boundary remains a live design question. 5. The Democratic Floor May Be Too Intrusive On State Autonomy The criticism The federalism article imposes real floors on state democracy, judicial independence, election access, and emergency powers. Critics may say this weakens state self government too much. Current answer The draft is intentionally not neutral between democratic states and anti democratic states. It preserves broad room for state policy variation, but not for dismantling the minimum conditions of republican self government, equal political membership, or independent courts. Status Mostly settled. The remaining question is calibration, not whether a national democratic floor should exist at all. 6. Mandatory Vote And Deadline Rules May Still Produce Political Breakdown The criticism The simulator shows repeated missed deadlines, especially around Congress and some judicial timelines. Critics may argue that constitutional schedules do not solve nonperformance; they just document it. Current answer That criticism is partly correct. Deadlines do not guarantee courage or competence. The draft's answer is to tie deadlines to automatic legal consequences, fallback pathways, or continuity mechanisms wherever possible. That is still better than silence, but it does not eliminate political risk. Status Live issue. This is one of the strongest remaining system level criticisms and should continue to influence scoring and validation work. 7. The Anti Capture Architecture Could Be Seen As Overbuilt The criticism Ethics rules, contractor transparency, anti shell provisions, ACC powers, and critical infrastructure protections may be criticized as too suspicious of ordinary politics and market actors. Current answer The project takes the position that modern constitutional failure often comes through capture rather than open dictatorship. That justifies a stronger anti corruption and anti capture constitutional baseline than the current U.S. system has. Even so, some clauses may still need abstraction level cleanup so the Constitution does not drift into a permanent ethics code. Status Still under review in drafting form, but settled in direction. 8. The Draft Keeps Presidentialism Rather Than Switching To Parliamentarism The criticism Some institutional reformers will argue that the safer answer is to abandon presidentialism altogether. Current answer The draft instead tries to build a more constrained, more accountable, and less coup prone presidential system. That is a deliberate strategic choice: preserve a structure familiar to U.S. constitutional culture while hardening it against many of its current failure modes. Status Settled choice. 9. The Draft May Still Be Too Moderate For Some Readers And Too Radical For Others The criticism Some readers will oppose it because it is too democracy protective, too anti capture, or too rights expansive. Others will oppose it because it still permits markets, preserves presidentialism, and does not constitutionalize a more sweeping economic democracy model. Current answer This is not a bug that can be solved by wording alone. The draft is trying to occupy a real reform position rather than becoming either a status quo document or a maximal ideological program. Status Settled condition of the project rather than an unresolved design flaw. 10. The Draft Is Easier To Respect As An Open Project Than To Adopt As A Political Program The criticism A reader may respect the quality of the work and still think an entire replacement constitution is politically unrealistic. Current answer That is a fair criticism. The project is best understood as open constitutional work: something to study, criticize, adapt, translate, campaign from, or fork. It does not require immediate mass adoption to have value. Status Settled framing choice. Bottom Line The strongest current criticisms are not that the draft lacks ideas. They are that it may: constitutionalize too much rely too heavily on courts and constitutional organs remain vulnerable to political nonperformance despite stronger fallback rules ask courts to manage difficult line drawing problems in social rights, emergency law, and institutional integrity Those are the right criticisms to keep in view. They are more serious than bad faith dismissals, and they are also more useful than pretending the system is already beyond dispute.",
       "score": null,
       "score_status": null
     },
