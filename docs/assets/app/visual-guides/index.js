@@ -2,6 +2,7 @@ import {
   rightsDataForLocale,
   emergencyDataForLocale,
   powerDataForLocale,
+  rightsEnforcementDataForLocale,
 } from "./data-core.js";
 import {
   congressDataForLocale,
@@ -11,6 +12,7 @@ import {
   electionsDataForLocale,
   presidentialPowersDataForLocale,
   billToLawDataForLocale,
+  electionTransferDataForLocale,
 } from "./data-governance.js";
 import {
   rightsCards,
@@ -79,11 +81,32 @@ const GUIDE_RENDERERS = {
       CONGRESS_LABELS[siteData.locale] || CONGRESS_LABELS.en
     ),
   "how-a-bill-becomes-law": (doc, siteData) =>
-    renderFlowGuide(doc, billToLawDataForLocale(siteData.locale), [
-      { key: "ordinary", label: billToLawDataForLocale(siteData.locale).ordinary },
-      { key: "vetoed", label: billToLawDataForLocale(siteData.locale).vetoed },
-      { key: "deadlocked", label: billToLawDataForLocale(siteData.locale).deadlocked },
-    ]),
+    (() => {
+      const data = billToLawDataForLocale(siteData.locale);
+      return renderFlowGuide(doc, data, [
+        { key: "ordinary", label: data.ordinary },
+        { key: "vetoed", label: data.vetoed },
+        { key: "deadlocked", label: data.deadlocked },
+      ]);
+    })(),
+  "election-to-transfer-of-power": (doc, siteData) =>
+    (() => {
+      const data = electionTransferDataForLocale(siteData.locale);
+      return renderFlowGuide(doc, data, [
+        { key: "vote", label: data.vote },
+        { key: "certify", label: data.certify },
+        { key: "transfer", label: data.transfer },
+      ]);
+    })(),
+  "how-rights-are-enforced": (doc, siteData) =>
+    (() => {
+      const data = rightsEnforcementDataForLocale(siteData.locale);
+      return renderFlowGuide(doc, data, [
+        { key: "ordinary", label: data.ordinary },
+        { key: "expedited", label: data.expedited },
+        { key: "emergency", label: data.emergency },
+      ]);
+    })(),
 };
 
 const GUIDE_FILTERS = {
@@ -97,6 +120,8 @@ const GUIDE_FILTERS = {
   "accountability-commission": "basic",
   "presidential-powers-comparison": "basic",
   "how-a-bill-becomes-law": "basic",
+  "election-to-transfer-of-power": "basic",
+  "how-rights-are-enforced": "basic",
 };
 
 export function renderVisualGuide(doc, siteData) {

@@ -49,7 +49,9 @@
           "amendment-process",
           "accountability-commission",
           "presidential-powers-comparison",
-          "how-a-bill-becomes-law"
+          "how-a-bill-becomes-law",
+          "election-to-transfer-of-power",
+          "how-rights-are-enforced"
         ]
       },
       {
@@ -152,7 +154,9 @@
         "amendment-process",
         "accountability-commission",
         "presidential-powers-comparison",
-        "how-a-bill-becomes-law"
+        "how-a-bill-becomes-law",
+        "election-to-transfer-of-power",
+        "how-rights-are-enforced"
       ]
     },
     {
@@ -3537,6 +3541,62 @@
         }
       ],
       "search_text": "C\u00f3mo Un Proyecto Se Convierte En Ley Esta gu\u00eda visual muestra la ruta legislativa en esta constituci\u00f3n, incluida la v\u00eda ordinaria, lo que ocurre tras un veto y c\u00f3mo el sistema resuelve el bloqueo entre la C\u00e1mara y la Asamblea Regional. C\u00f3mo Leer Esta Gu\u00eda La gu\u00eda tiene tres rutas: aprobaci\u00f3n ordinaria hasta convertirse en ley veto y anulaci\u00f3n bloqueo y resoluci\u00f3n por conferencia Usa los botones de ruta para centrarte en un recorrido legislativo a la vez. Qu\u00e9 Cubre Esta Gu\u00eda aprobaci\u00f3n bicameral en texto id\u00e9ntico comisiones de conferencia y textos conciliados el plazo presidencial de 15 d\u00edas ausencia de veto de bolsillo anulaci\u00f3n del veto por 2/3 solicitud de votaci\u00f3n en pleno por la C\u00e1mara y salvaguarda de 60 d\u00edas en conferencia impugnaci\u00f3n previa por regla de materia \u00fanica Qu\u00e9 No Hace Esta Gu\u00eda Esta gu\u00eda es una capa de orientaci\u00f3n, no el texto constitucional en s\u00ed. Para la redacci\u00f3n exacta y el detalle jur\u00eddico, lee: Art\u00edculo II Art\u00edculo III"
+    },
+    {
+      "slug": "election-to-transfer-of-power",
+      "title": "De la elecci\u00f3n a la transferencia del poder",
+      "group": "Gu\u00edas visuales",
+      "kind": "note",
+      "content_type": "visual_guide",
+      "source": "translation/translations/es/visual-guides/election-to-transfer-of-power.md",
+      "status": null,
+      "summary": "C\u00f3mo el sistema pasa de la votaci\u00f3n a la certificaci\u00f3n y a una transferencia legal del poder",
+      "headings": [
+        {
+          "level": 2,
+          "text": "C\u00f3mo Leer Esta Gu\u00eda",
+          "anchor": "c\u00f3mo-leer-esta-gu\u00eda"
+        },
+        {
+          "level": 2,
+          "text": "Qu\u00e9 Cubre Esta Gu\u00eda",
+          "anchor": "qu\u00e9-cubre-esta-gu\u00eda"
+        },
+        {
+          "level": 2,
+          "text": "Qu\u00e9 No Hace Esta Gu\u00eda",
+          "anchor": "qu\u00e9-no-hace-esta-gu\u00eda"
+        }
+      ],
+      "search_text": "De La Elecci\u00f3n A La Transferencia Del Poder Esta gu\u00eda visual muestra c\u00f3mo el sistema constitucional pasa de la votaci\u00f3n a la certificaci\u00f3n y a la transferencia legal del poder, y qu\u00e9 protecciones impiden la demora, el sabotaje o la negativa a entregar la autoridad. C\u00f3mo Leer Esta Gu\u00eda La gu\u00eda tiene tres fases: votaci\u00f3n y conteo certificaci\u00f3n y controversias transici\u00f3n y transferencia Usa los botones de fase para centrarte en una parte de la cadena a la vez. Qu\u00e9 Cubre Esta Gu\u00eda votaci\u00f3n durante varios d\u00edas y votaci\u00f3n anticipada administraci\u00f3n y certificaci\u00f3n por la Comisi\u00f3n Electoral l\u00edmites judiciales a las t\u00e1cticas dilatorias deberes de transici\u00f3n del gobierno saliente obligaciones sobre registros, apoyo y continuidad consecuencias antisubversivas por obstruir la transferencia Qu\u00e9 No Hace Esta Gu\u00eda Esta gu\u00eda es una capa de orientaci\u00f3n, no el texto constitucional en s\u00ed. Para la redacci\u00f3n exacta y el detalle jur\u00eddico, lee: Art\u00edculo I Art\u00edculo III Art\u00edculo XII Art\u00edculo XIX"
+    },
+    {
+      "slug": "how-rights-are-enforced",
+      "title": "C\u00f3mo se hacen exigibles los derechos",
+      "group": "Gu\u00edas visuales",
+      "kind": "note",
+      "content_type": "visual_guide",
+      "source": "translation/translations/es/visual-guides/how-rights-are-enforced.md",
+      "status": null,
+      "summary": "C\u00f3mo las reclamaciones de derechos constitucionales avanzan por los tribunales, la revisi\u00f3n acelerada y las salvaguardas de emergencia",
+      "headings": [
+        {
+          "level": 2,
+          "text": "C\u00f3mo Leer Esta Gu\u00eda",
+          "anchor": "c\u00f3mo-leer-esta-gu\u00eda"
+        },
+        {
+          "level": 2,
+          "text": "Qu\u00e9 Cubre Esta Gu\u00eda",
+          "anchor": "qu\u00e9-cubre-esta-gu\u00eda"
+        },
+        {
+          "level": 2,
+          "text": "Qu\u00e9 No Hace Esta Gu\u00eda",
+          "anchor": "qu\u00e9-no-hace-esta-gu\u00eda"
+        }
+      ],
+      "search_text": "C\u00f3mo Se Hacen Exigibles Los Derechos Esta gu\u00eda visual explica c\u00f3mo las reclamaciones de derechos avanzan en el sistema constitucional: qui\u00e9n puede impugnar una acci\u00f3n il\u00edcita, cu\u00e1ndo los tribunales deben actuar con rapidez y qu\u00e9 derechos siguen protegidos incluso en emergencia. C\u00f3mo Leer Esta Gu\u00eda La gu\u00eda tiene tres rutas: exigibilidad ordinaria revisi\u00f3n acelerada protecci\u00f3n de derechos en emergencia Usa los botones de ruta para centrarte en una v\u00eda de exigibilidad a la vez. Qu\u00e9 Cubre Esta Gu\u00eda impugnaciones de derechos por perjuicio concreto en tribunales federales control judicial de leyes y actos del ejecutivo revisi\u00f3n acelerada para controversias constitucionales sensibles al tiempo salvaguardas contra la demora de tribunales superiores derechos no derogables en emergencia regla de 72 horas para impugnar suspensiones de derechos Qu\u00e9 No Hace Esta Gu\u00eda Esta gu\u00eda es una capa de orientaci\u00f3n, no el texto constitucional en s\u00ed. Para la redacci\u00f3n exacta y el detalle jur\u00eddico, lee: Art\u00edculo IV Art\u00edculo V Art\u00edculo III"
     },
     {
       "slug": "commentary-overview",

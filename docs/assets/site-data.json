@@ -49,7 +49,9 @@
           "amendment-process",
           "accountability-commission",
           "presidential-powers-comparison",
-          "how-a-bill-becomes-law"
+          "how-a-bill-becomes-law",
+          "election-to-transfer-of-power",
+          "how-rights-are-enforced"
         ]
       },
       {
@@ -152,7 +154,9 @@
         "amendment-process",
         "accountability-commission",
         "presidential-powers-comparison",
-        "how-a-bill-becomes-law"
+        "how-a-bill-becomes-law",
+        "election-to-transfer-of-power",
+        "how-rights-are-enforced"
       ]
     },
     {
@@ -3707,6 +3711,62 @@
         }
       ],
       "search_text": "How A Bill Becomes Law This visual guide shows the legislative path in this constitution, including the ordinary route, what happens after a veto, and how the system resolves deadlock between the House and the Regional Assembly. How To Read This Guide The guide has three paths: ordinary passage to law veto and override deadlock and conference resolution Use the path buttons to focus on one route through the legislative process at a time. What This Guide Covers bicameral passage in identical form conference committees and reconciled bills the 15 day presidential action window no pocket veto 2/3 override after veto House initiated floor vote request and 60 day conference backstop pre enactment single subject challenge What This Guide Does Not Do This guide is an orientation layer, not the constitutional text itself. For exact wording and legal detail, read: Article II Article III"
+    },
+    {
+      "slug": "election-to-transfer-of-power",
+      "title": "From Election To Transfer Of Power",
+      "group": "Visual Guides",
+      "kind": "note",
+      "content_type": "visual_guide",
+      "source": "visual-guides/election-to-transfer-of-power.md",
+      "status": null,
+      "summary": "This visual guide shows how the constitutional system moves from voting to certification to a lawful transfer of power, and what protections prevent delay, sabotage, or refusal to hand over authority.",
+      "headings": [
+        {
+          "level": 2,
+          "text": "How To Read This Guide",
+          "anchor": "how-to-read-this-guide"
+        },
+        {
+          "level": 2,
+          "text": "What This Guide Covers",
+          "anchor": "what-this-guide-covers"
+        },
+        {
+          "level": 2,
+          "text": "What This Guide Does Not Do",
+          "anchor": "what-this-guide-does-not-do"
+        }
+      ],
+      "search_text": "From Election To Transfer Of Power This visual guide shows how the constitutional system moves from voting to certification to a lawful transfer of power, and what protections prevent delay, sabotage, or refusal to hand over authority. How To Read This Guide The guide has three phases: vote and count certification and disputes transition and transfer Use the phase buttons to focus on one part of the chain at a time. What This Guide Covers multi day voting and early voting Electoral Commission administration and certification judicial limits on delay tactics transition duties of the outgoing government records, support, and continuity obligations anti subversion consequences for obstructing transfer What This Guide Does Not Do This guide is an orientation layer, not the constitutional text itself. For exact wording and legal detail, read: Article I Article III Article XII Article XIX"
+    },
+    {
+      "slug": "how-rights-are-enforced",
+      "title": "How Rights Are Enforced",
+      "group": "Visual Guides",
+      "kind": "note",
+      "content_type": "visual_guide",
+      "source": "visual-guides/how-rights-are-enforced.md",
+      "status": null,
+      "summary": "This visual guide explains how rights claims move through the constitutional system: who can challenge unlawful action, when courts must move quickly, and what rights remain protected even in emergencies.",
+      "headings": [
+        {
+          "level": 2,
+          "text": "How To Read This Guide",
+          "anchor": "how-to-read-this-guide"
+        },
+        {
+          "level": 2,
+          "text": "What This Guide Covers",
+          "anchor": "what-this-guide-covers"
+        },
+        {
+          "level": 2,
+          "text": "What This Guide Does Not Do",
+          "anchor": "what-this-guide-does-not-do"
+        }
+      ],
+      "search_text": "How Rights Are Enforced This visual guide explains how rights claims move through the constitutional system: who can challenge unlawful action, when courts must move quickly, and what rights remain protected even in emergencies. How To Read This Guide The guide has three paths: ordinary enforcement expedited review emergency rights protection Use the path buttons to focus on one enforcement route at a time. What This Guide Covers concrete injury rights challenges in federal court judicial review of laws and executive action fast track review for time sensitive constitutional disputes anti delay backstops when higher courts stall non derogable rights in emergencies 72 hour challenge rule for rights suspensions What This Guide Does Not Do This guide is an orientation layer, not the constitutional text itself. For exact wording and legal detail, read: Article IV Article V Article III"
     },
     {
       "slug": "commentary-overview",

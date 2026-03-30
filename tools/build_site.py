@@ -191,6 +191,16 @@ PAGE_METADATA = {
         "es": ("Cómo un proyecto se convierte en ley", "La ruta legislativa desde la aprobación bicameral hasta la firma, la anulación del veto o la resolución del bloqueo"),
         "zh-Hans": ("法案如何成为法律", "从两院通过到签署、否决推翻或僵局解决的立法路径"),
     },
+    "election-to-transfer-of-power": {
+        "en": ("From Election To Transfer Of Power", "How the system moves from voting to certification to a lawful transfer of power"),
+        "es": ("De la elección a la transferencia del poder", "Cómo el sistema pasa de la votación a la certificación y a una transferencia legal del poder"),
+        "zh-Hans": ("从选举到权力交接", "制度如何从投票走向认证，再到合法的权力交接"),
+    },
+    "how-rights-are-enforced": {
+        "en": ("How Rights Are Enforced", "How constitutional rights claims move through courts, expedited review, and emergency backstops"),
+        "es": ("Cómo se hacen exigibles los derechos", "Cómo las reclamaciones de derechos constitucionales avanzan por los tribunales, la revisión acelerada y las salvaguardas de emergencia"),
+        "zh-Hans": ("权利如何得到执行", "宪法权利主张如何经过法院、加速审查与紧急状态后备机制"),
+    },
 }
 
 COMMENTARY_OVERVIEW_METADATA = {
@@ -368,6 +378,20 @@ VISUAL_GUIDE_SOURCES = [
         ROOT / "visual-guides" / "how-a-bill-becomes-law.md",
         "Visual Guides",
         "The legislative path from bicameral passage to signature, veto override, or deadlock resolution",
+    ),
+    (
+        "election-to-transfer-of-power",
+        "From Election To Transfer Of Power",
+        ROOT / "visual-guides" / "election-to-transfer-of-power.md",
+        "Visual Guides",
+        "How the system moves from voting to certification to a lawful transfer of power",
+    ),
+    (
+        "how-rights-are-enforced",
+        "How Rights Are Enforced",
+        ROOT / "visual-guides" / "how-rights-are-enforced.md",
+        "Visual Guides",
+        "How rights claims move through courts, accelerated review, and emergency backstops",
     ),
 ]
 
@@ -559,7 +583,7 @@ def slugify(text: str) -> str:
 def homepage_section_items() -> dict[str, list[str]]:
     return {
         "start_here": ["overview", "comparison"],
-        "visual_guides": ["rights-at-a-glance", "emergency-powers-lifecycle", "power-distribution", "congress-comparison", "removal-pathways", "how-elections-work", "amendment-process", "accountability-commission", "presidential-powers-comparison", "how-a-bill-becomes-law"],
+        "visual_guides": ["rights-at-a-glance", "emergency-powers-lifecycle", "power-distribution", "congress-comparison", "removal-pathways", "how-elections-work", "amendment-process", "accountability-commission", "presidential-powers-comparison", "how-a-bill-becomes-law", "election-to-transfer-of-power", "how-rights-are-enforced"],
         "constitution": ["index", "preamble"] + [slugify(filename.replace(".md", "")) for filename in ARTICLE_ORDER],
         "clause_notes": [
             "clause-unamendable-core",

@@ -1169,3 +1169,133 @@ export const BILL_TO_LAW_GUIDE = {
 export function billToLawDataForLocale(locale) {
   return BILL_TO_LAW_GUIDE[locale] || BILL_TO_LAW_GUIDE.en;
 }
+
+export const ELECTION_TRANSFER_GUIDE = {
+  en: {
+    all: "All phases",
+    vote: "Vote and count",
+    certify: "Certification and disputes",
+    transfer: "Transition and transfer",
+    filterLabel: "Filter election-to-transfer phases",
+    note: "This guide shows how the draft moves from voting to certification to a lawful transfer of power, with anti-subversion and continuity rules built into the chain.",
+    sections: [
+      {
+        key: "vote",
+        label: "Vote and count phase",
+        summary: "The election begins in a system designed to maximize access while limiting manipulation.",
+        steps: [
+          { title: "Voting happens over multiple days", meta: "Art. I §3.2", text: "Federal elections run for at least three days, with at least fifteen days of early voting beforehand." },
+          { title: "The Electoral Commission administers the election", meta: "Art. I §10.1 / Art. XII §2", text: "Election administration is assigned to an independent constitutional organ, not to candidates or partisan officeholders." },
+          { title: "Emergency manipulation is constrained", meta: "Art. I §3.4", text: "No official may use a late emergency declaration to restrict polling access or delay certification without strict judicial approval." },
+        ],
+      },
+      {
+        key: "certify",
+        label: "Certification and dispute phase",
+        summary: "Certification is mandatory and timed. Litigation cannot be used simply to stall the constitutional chain.",
+        steps: [
+          { title: "Presidential results certified within 30 days", meta: "Art. I §6.3", text: "The Electoral Commission must certify the presidential election no later than 30 days after Election Day." },
+          { title: "Delay requires an actual court order", meta: "Art. I §6.3 / §10.4", text: "Certification may be delayed only by a federal court with jurisdiction over a genuine dispute. If no stay exists by the deadline, certification proceeds automatically." },
+          { title: "Frivolous delay tactics are sanctionable", meta: "Art. I §6.3", text: "Litigation filed mainly to delay certification rather than resolve a genuine legal claim is sanctionable." },
+        ],
+      },
+      {
+        key: "transfer",
+        label: "Transition and transfer phase",
+        summary: "Once the result is certified, the outgoing government has affirmative duties to support a lawful transfer of power.",
+        steps: [
+          { title: "Transition cooperation begins the day after certification", meta: "Art. III §13.2", text: "The outgoing President must cooperate with the President-elect, including security briefings, records access, office space, and staff support." },
+          { title: "Agencies must support transition planning", meta: "Art. III §13.3 / Art. XIX §6.2", text: "Federal agencies must provide necessary information and Congress must ensure public funding, access, records, security, and administrative support for transition." },
+          { title: "Outgoing officials may not obstruct or strip the state", meta: "Art. III §13.4 / Art. XIX §6.1–§6.5", text: "The outgoing administration may not frustrate transition, destroy records, or use expiring powers to sabotage the incoming constitutional order." },
+          { title: "Obstruction is anti-subversion conduct", meta: "Art. III §13.6 / Art. XIX §6.3", text: "Refusal to cooperate with the lawful transfer of power can trigger removal, disqualification, and prosecution." },
+        ],
+      },
+    ],
+  },
+  es: {
+    all: "Todas las fases",
+    vote: "Votación y escrutinio",
+    certify: "Certificación y controversias",
+    transfer: "Transición y transferencia",
+    filterLabel: "Filtrar fases desde la elección hasta la transferencia",
+    note: "Esta guía muestra cómo el borrador pasa de la votación a la certificación y a la transferencia legal del poder, con reglas de continuidad y anti-subversión integradas en la cadena.",
+    sections: [
+      {
+        key: "vote",
+        label: "Fase de votación y conteo",
+        summary: "La elección comienza en un sistema diseñado para maximizar el acceso y limitar la manipulación.",
+        steps: [
+          { title: "La votación dura varios días", meta: "Art. I §3.2", text: "Las elecciones federales se celebran durante al menos tres días, con al menos quince días de votación anticipada." },
+          { title: "La Comisión Electoral administra la elección", meta: "Art. I §10.1 / Art. XII §2", text: "La administración electoral se asigna a un órgano constitucional independiente, no a candidatos ni a cargos partidistas." },
+          { title: "La manipulación por emergencia queda limitada", meta: "Art. I §3.4", text: "Ningún funcionario puede usar una declaración tardía de emergencia para restringir el acceso a la votación o retrasar la certificación sin una aprobación judicial estricta." },
+        ],
+      },
+      {
+        key: "certify",
+        label: "Fase de certificación y controversias",
+        summary: "La certificación es obligatoria y temporizada. El litigio no puede utilizarse simplemente para frenar la cadena constitucional.",
+        steps: [
+          { title: "Los resultados presidenciales se certifican en 30 días", meta: "Art. I §6.3", text: "La Comisión Electoral debe certificar la elección presidencial a más tardar 30 días después del día electoral." },
+          { title: "El retraso exige una orden judicial real", meta: "Art. I §6.3 / §10.4", text: "La certificación solo puede retrasarse por orden de un tribunal federal con jurisdicción sobre una controversia genuina. Si no existe suspensión al vencer el plazo, la certificación avanza automáticamente." },
+          { title: "Las tácticas dilatorias frívolas pueden ser sancionadas", meta: "Art. I §6.3", text: "El litigio presentado principalmente para retrasar la certificación, y no para resolver una pretensión jurídica real, es sancionable." },
+        ],
+      },
+      {
+        key: "transfer",
+        label: "Fase de transición y transferencia",
+        summary: "Una vez certificado el resultado, el gobierno saliente tiene deberes afirmativos para apoyar una transferencia legal del poder.",
+        steps: [
+          { title: "La cooperación de transición comienza al día siguiente de la certificación", meta: "Art. III §13.2", text: "El Presidente saliente debe cooperar con el Presidente electo, incluyendo sesiones de seguridad, acceso a registros, espacio de oficina y personal." },
+          { title: "Las agencias deben apoyar la planificación de la transición", meta: "Art. III §13.3 / Art. XIX §6.2", text: "Las agencias federales deben proporcionar la información necesaria y el Congreso debe asegurar financiación pública, acceso, registros, seguridad y apoyo administrativo." },
+          { title: "Los funcionarios salientes no pueden obstruir ni vaciar al Estado", meta: "Art. III §13.4 / Art. XIX §6.1–§6.5", text: "La administración saliente no puede frustrar la transición, destruir registros ni usar poderes que expiran para sabotear el nuevo orden constitucional." },
+          { title: "La obstrucción es conducta antisubversiva", meta: "Art. III §13.6 / Art. XIX §6.3", text: "Negarse a cooperar con la transferencia legal del poder puede activar remoción, inhabilitación y procesamiento." },
+        ],
+      },
+    ],
+  },
+  "zh-Hans": {
+    all: "全部阶段",
+    vote: "投票与计票",
+    certify: "认证与争议",
+    transfer: "交接与移权",
+    filterLabel: "筛选从选举到权力交接的阶段",
+    note: "本指南展示本草案如何从投票走向认证，再到合法的权力交接，并将连续性与反颠覆规则嵌入整个链条。",
+    sections: [
+      {
+        key: "vote",
+        label: "投票与计票阶段",
+        summary: "选举在一个旨在最大化可及性并限制操控的制度中开始。",
+        steps: [
+          { title: "投票跨多日进行", meta: "第一条 §3.2", text: "联邦选举至少持续三天，并在此之前提供不少于十五天的提前投票。" },
+          { title: "由选举委员会管理选举", meta: "第一条 §10.1 / 第十二条 §2", text: "选举管理被交给独立的宪法机关，而不是候选人或党派官员。" },
+          { title: "借紧急状态操控受到限制", meta: "第一条 §3.4", text: "任何官员都不得借临近选举的紧急状态限制投票渠道或拖延认证，除非获得严格的司法批准。" },
+        ],
+      },
+      {
+        key: "certify",
+        label: "认证与争议阶段",
+        summary: "认证具有强制性且有时限。诉讼不能被用来单纯拖住宪法链条。",
+        steps: [
+          { title: "总统选举结果须在30天内认证", meta: "第一条 §6.3", text: "选举委员会必须在选举日后不超过30天认证总统选举结果。" },
+          { title: "拖延必须基于真实法院命令", meta: "第一条 §6.3 / §10.4", text: "认证只能因对真实争议拥有管辖权的联邦法院命令而推迟。若截至期限不存在中止令，认证自动进行。" },
+          { title: "无理拖延战术可受制裁", meta: "第一条 §6.3", text: "主要为了拖延认证、而不是解决真实法律争议而提起的诉讼，可以受到制裁。" },
+        ],
+      },
+      {
+        key: "transfer",
+        label: "交接与移权阶段",
+        summary: "结果一经认证，离任政府就有积极义务支持合法的权力交接。",
+        steps: [
+          { title: "认证后的次日开始交接合作", meta: "第三条 §13.2", text: "离任总统必须与当选总统合作，包括安全简报、记录访问、办公空间和人员支持。" },
+          { title: "各机构必须支持交接筹备", meta: "第三条 §13.3 / 第十九条 §6.2", text: "联邦机构必须提供必要信息，而国会必须确保交接所需的公共资金、访问、记录、安全和行政支持。" },
+          { title: "离任官员不得阻挠或掏空国家机器", meta: "第三条 §13.4 / 第十九条 §6.1–§6.5", text: "离任政府不得阻碍交接、销毁记录，或利用即将失效的权力破坏新的宪法秩序。" },
+          { title: "阻挠属于反颠覆行为", meta: "第三条 §13.6 / 第十九条 §6.3", text: "拒绝配合法律上的权力交接可触发免职、资格取消与起诉。" },
+        ],
+      },
+    ],
+  },
+};
+
+export function electionTransferDataForLocale(locale) {
+  return ELECTION_TRANSFER_GUIDE[locale] || ELECTION_TRANSFER_GUIDE.en;
+}

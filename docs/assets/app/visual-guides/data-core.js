@@ -510,3 +510,133 @@ export function emergencyDataForLocale(locale) {
 export function powerDataForLocale(locale) {
   return POWER_GUIDE[locale] || POWER_GUIDE.en;
 }
+
+export const RIGHTS_ENFORCEMENT_GUIDE = {
+  en: {
+    all: "All paths",
+    ordinary: "Ordinary enforcement",
+    expedited: "Expedited review",
+    emergency: "Emergency rights path",
+    filterLabel: "Filter rights-enforcement paths",
+    note: "This guide shows how rights claims move through the courts, when the Constitution requires speed, and what remains protected even in emergencies.",
+    sections: [
+      {
+        key: "ordinary",
+        label: "Ordinary enforcement path",
+        summary: "Rights in this draft are judicially enforceable against government action through the federal courts.",
+        steps: [
+          { title: "A person suffers concrete injury", meta: "Art. IV §9 / Art. V", text: "A claimant who is concretely affected by government action may bring a constitutional challenge in federal court." },
+          { title: "Court reviews law or action for constitutional conformity", meta: "Art. IV §1.4", text: "No law, executive order, or official act is above constitutional review." },
+          { title: "Judicial remedy issues", meta: "Art. IV / Art. V", text: "Courts may block unlawful action, recognize rights violations, and enforce the constitutional order against the government." },
+        ],
+      },
+      {
+        key: "expedited",
+        label: "Expedited review path",
+        summary: "Some rights-related disputes get accelerated treatment because delay would itself undermine the right.",
+        steps: [
+          { title: "Election, emergency, or other time-sensitive right is implicated", meta: "Art. IV §10.1 / Art. V §1.3", text: "Where the Constitution designates expedited treatment, courts must move on a compressed timetable." },
+          { title: "Fast-track lower-court or Supreme Court review", meta: "Art. IV §9.6A / §10.1", text: "High-impact directives and time-sensitive constitutional disputes can receive direct or accelerated review." },
+          { title: "Delay backstop applies", meta: "Art. IV §10.1", text: "If the Supreme Court strategically delays in an expedited case, the last operative lower-court judgment remains in force and can become final." },
+        ],
+      },
+      {
+        key: "emergency",
+        label: "Emergency rights path",
+        summary: "Emergency declarations do not erase rights, and some protections cannot be suspended at all.",
+        steps: [
+          { title: "Emergency declared", meta: "Art. III §5", text: "An emergency declaration activates only narrow emergency powers and does not itself suspend rights." },
+          { title: "Non-derogable rights remain protected", meta: "Art. V §14", text: "Core anti-torture, anti-disappearance, due-process, and democratic floor protections continue to bind the state." },
+          { title: "Temporary suspension requires supermajority plus judicial finding", meta: "Art. V §1.3", text: "Even a temporary suspension of a specific right requires a 2/3 vote of both chambers and a judicial finding of necessity and narrow tailoring." },
+          { title: "Any voter may challenge", meta: "Art. V §1.3", text: "Registered voters have standing to challenge a suspension, and courts must rule within 72 hours or the suspension lapses automatically." },
+        ],
+      },
+    ],
+  },
+  es: {
+    all: "Todas las rutas",
+    ordinary: "Aplicación ordinaria",
+    expedited: "Revisión acelerada",
+    emergency: "Ruta de derechos en emergencia",
+    filterLabel: "Filtrar rutas de exigibilidad de derechos",
+    note: "Esta guía muestra cómo avanzan las reclamaciones de derechos en los tribunales, cuándo la Constitución exige rapidez y qué sigue protegido incluso en emergencia.",
+    sections: [
+      {
+        key: "ordinary",
+        label: "Ruta ordinaria de exigibilidad",
+        summary: "Los derechos de este borrador son exigibles judicialmente frente a la acción gubernamental en los tribunales federales.",
+        steps: [
+          { title: "Una persona sufre un perjuicio concreto", meta: "Art. IV §9 / Art. V", text: "Una persona afectada de manera concreta por la acción del gobierno puede presentar una impugnación constitucional ante un tribunal federal." },
+          { title: "El tribunal revisa la conformidad constitucional de la ley o del acto", meta: "Art. IV §1.4", text: "Ninguna ley, orden ejecutiva o acto oficial está por encima del control constitucional." },
+          { title: "Se dicta un remedio judicial", meta: "Art. IV / Art. V", text: "Los tribunales pueden bloquear actos ilícitos, reconocer violaciones de derechos y hacer cumplir el orden constitucional frente al gobierno." },
+        ],
+      },
+      {
+        key: "expedited",
+        label: "Ruta de revisión acelerada",
+        summary: "Algunas controversias sobre derechos reciben trámite acelerado porque la demora socavaría el derecho mismo.",
+        steps: [
+          { title: "Se ve afectado un derecho electoral, de emergencia u otro derecho sensible al tiempo", meta: "Art. IV §10.1 / Art. V §1.3", text: "Cuando la Constitución designa tramitación acelerada, los tribunales deben actuar bajo un calendario comprimido." },
+          { title: "Revisión acelerada en tribunal inferior o en el Supremo", meta: "Art. IV §9.6A / §10.1", text: "Las directivas de alto impacto y las controversias constitucionales urgentes pueden recibir revisión directa o acelerada." },
+          { title: "Opera la salvaguarda contra la demora", meta: "Art. IV §10.1", text: "Si el Tribunal Supremo retrasa estratégicamente un caso acelerado, la última resolución operativa del tribunal inferior sigue vigente e incluso puede volverse definitiva." },
+        ],
+      },
+      {
+        key: "emergency",
+        label: "Ruta de derechos en emergencia",
+        summary: "Las declaraciones de emergencia no borran los derechos, y algunas protecciones no pueden suspenderse en absoluto.",
+        steps: [
+          { title: "Se declara una emergencia", meta: "Art. III §5", text: "La declaración de emergencia activa solo poderes limitados y no suspende por sí sola los derechos." },
+          { title: "Los derechos no derogables siguen protegidos", meta: "Art. V §14", text: "Las garantías básicas contra la tortura, la desaparición, la violación del debido proceso y la destrucción del piso democrático siguen obligando al Estado." },
+          { title: "La suspensión temporal exige supermayoría y decisión judicial", meta: "Art. V §1.3", text: "Incluso una suspensión temporal de un derecho específico requiere 2/3 de ambas cámaras y una decisión judicial de necesidad y estrecha adecuación." },
+          { title: "Cualquier votante puede impugnar", meta: "Art. V §1.3", text: "Los votantes registrados tienen legitimación para impugnar una suspensión, y los tribunales deben resolver en 72 horas o la suspensión caduca automáticamente." },
+        ],
+      },
+    ],
+  },
+  "zh-Hans": {
+    all: "全部路径",
+    ordinary: "通常执行",
+    expedited: "加速审查",
+    emergency: "紧急状态下的权利路径",
+    filterLabel: "筛选权利执行路径",
+    note: "本指南展示权利主张如何进入法院、宪法何时要求加速处理，以及即使在紧急状态下哪些保护仍然存在。",
+    sections: [
+      {
+        key: "ordinary",
+        label: "通常执行路径",
+        summary: "本草案中的权利可通过联邦法院对政府行为进行司法执行。",
+        steps: [
+          { title: "个人遭受具体损害", meta: "第四条 §9 / 第五条", text: "具体受到政府行为影响的人可以向联邦法院提起宪法挑战。" },
+          { title: "法院审查法律或行为是否符合宪法", meta: "第四条 §1.4", text: "没有任何法律、行政命令或官方行为能够凌驾于宪法审查之上。" },
+          { title: "作出司法救济", meta: "第四条 / 第五条", text: "法院可以阻止违法行为、确认权利受侵害，并对政府执行宪法秩序。" },
+        ],
+      },
+      {
+        key: "expedited",
+        label: "加速审查路径",
+        summary: "有些权利争议必须加快处理，因为拖延本身就会损害权利。",
+        steps: [
+          { title: "涉及选举、紧急状态或其他时间敏感权利", meta: "第四条 §10.1 / 第五条 §1.3", text: "凡宪法指定加速处理的争议，法院都必须在压缩时限内行动。" },
+          { title: "快速下级法院或最高法院审查", meta: "第四条 §9.6A / §10.1", text: "高影响指令和紧迫的宪法争议可以获得直接或加速审查。" },
+          { title: "延误后备机制启动", meta: "第四条 §10.1", text: "如果最高法院在加速案件中战略性拖延，最后一份仍然有效的下级法院裁决继续生效，并可能最终定案。" },
+        ],
+      },
+      {
+        key: "emergency",
+        label: "紧急状态下的权利路径",
+        summary: "紧急状态声明不会抹去权利，而且部分保护根本不得暂停。",
+        steps: [
+          { title: "宣布紧急状态", meta: "第三条 §5", text: "紧急状态声明只激活狭窄的紧急权力，本身不会暂停权利。" },
+          { title: "不可减损权利继续受保护", meta: "第五条 §14", text: "反酷刑、反失踪、正当程序以及民主底线等核心保护仍然继续约束国家。" },
+          { title: "临时暂停必须有超多数与司法认定", meta: "第五条 §1.3", text: "即便是暂时暂停某项具体权利，也必须得到两院各2/3同意并取得法院关于必要性与狭窄适用的认定。" },
+          { title: "任何选民都可提出挑战", meta: "第五条 §1.3", text: "登记选民都有资格挑战一项暂停措施，法院必须在72小时内裁决，否则该暂停自动失效。" },
+        ],
+      },
+    ],
+  },
+};
+
+export function rightsEnforcementDataForLocale(locale) {
+  return RIGHTS_ENFORCEMENT_GUIDE[locale] || RIGHTS_ENFORCEMENT_GUIDE.en;
+}
