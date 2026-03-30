@@ -11,6 +11,7 @@
     "presidential-powers-comparison",
     "emergency-powers-lifecycle",
     "removal-pathways",
+    "vacancy-and-succession",
     "accountability-commission",
     "how-organs-work-together",
     "federalism-and-the-democratic-floor",
@@ -68,6 +69,7 @@
       "items": [
         "emergency-powers-lifecycle",
         "removal-pathways",
+        "vacancy-and-succession",
         "accountability-commission",
         "how-organs-work-together"
       ]
@@ -166,6 +168,20 @@
         "en": "Every path for removing a federal official — who triggers it, who decides, the vote threshold, and what happens after",
         "es": "Cada camino para destituir a un funcionario federal: quién lo activa, quién decide, el umbral de votación y qué sucede después",
         "zh-Hans": "罢免联邦官员的每条路径——谁触发、谁决定、投票门槛以及后续结果"
+      }
+    },
+    {
+      "slug": "vacancy-and-succession",
+      "source": "visual-guides/vacancy-and-succession.md",
+      "title": {
+        "en": "Vacancy And Succession",
+        "es": "Vacantes y sucesión",
+        "zh-Hans": "职位空缺与继任"
+      },
+      "summary": {
+        "en": "What happens if a President, Vice President, member of Congress, or federal judge dies, resigns, or leaves office early",
+        "es": "Qué ocurre si el Presidente, el Vicepresidente, un miembro del Congreso o un juez federal muere, dimite o deja el cargo antes de tiempo",
+        "zh-Hans": "如果总统、副总统、国会议员或联邦法官死亡、辞职或提前离任，会发生什么"
       }
     },
     {

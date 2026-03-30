@@ -13,6 +13,8 @@ export {
 export {
   ACCOUNTABILITY_GUIDE,
   accountabilityDataForLocale,
+  VACANCY_SUCCESSION_GUIDE,
+  vacancySuccessionDataForLocale,
   REMOVAL_GUIDE,
   removalDataForLocale,
   PRESIDENTIAL_POWERS_GUIDE,

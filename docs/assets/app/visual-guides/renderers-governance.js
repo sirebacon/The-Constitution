@@ -2,6 +2,7 @@ import {
   congressDataForLocale,
   amendmentDataForLocale,
   accountabilityDataForLocale,
+  vacancySuccessionDataForLocale,
   removalDataForLocale,
   electionsDataForLocale,
   presidentialPowersDataForLocale,
@@ -45,6 +46,8 @@ export const GOVERNANCE_GUIDE_RENDERERS = {
   },
   "accountability-commission": (doc, siteData) =>
     renderCardGuide(doc, accountabilityDataForLocale(siteData.locale)),
+  "vacancy-and-succession": (doc, siteData) =>
+    renderRemovalGuide(doc, vacancySuccessionDataForLocale(siteData.locale)),
   "presidential-powers-comparison": (doc, siteData) =>
     renderTableGuide(
       doc,
@@ -93,6 +96,7 @@ export const GOVERNANCE_GUIDE_FILTERS = {
   "congress-comparison": "basic",
   "amendment-process": "basic",
   "accountability-commission": "basic",
+  "vacancy-and-succession": "basic",
   "presidential-powers-comparison": "basic",
   "how-a-bill-becomes-law": "basic",
   "election-to-transfer-of-power": "basic",

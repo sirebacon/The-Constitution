@@ -51,6 +51,7 @@
           "presidential-powers-comparison",
           "emergency-powers-lifecycle",
           "removal-pathways",
+          "vacancy-and-succession",
           "accountability-commission",
           "how-organs-work-together",
           "federalism-and-the-democratic-floor",
@@ -176,6 +177,7 @@
       "items": [
         "emergency-powers-lifecycle",
         "removal-pathways",
+        "vacancy-and-succession",
         "accountability-commission",
         "how-organs-work-together"
       ]
@@ -3466,6 +3468,34 @@
         }
       ],
       "search_text": "C\u00f3mo Se Remueve A Los Funcionarios Esta gu\u00eda visual muestra todas las v\u00edas para remover a un funcionario federal bajo esta constituci\u00f3n: qui\u00e9n la activa, qui\u00e9n decide, qu\u00e9 umbral se aplica y qu\u00e9 ocurre despu\u00e9s. C\u00f3mo Leer Esta Gu\u00eda Cada tabla cubre un tipo de cargo. Usa los botones de categor\u00eda para centrarte en el Presidente, el Congreso, los jueces o los \u00f3rganos constitucionales. Cada fila es una v\u00eda distinta de remoci\u00f3n. Qu\u00e9 Cubre Esta Gu\u00eda tres v\u00edas para remover al Presidente: juicio pol\u00edtico, procesamiento por la CRC y revocaci\u00f3n expulsi\u00f3n y revocaci\u00f3n para miembros del Congreso juicio pol\u00edtico y disciplina para jueces federales remoci\u00f3n de miembros de la Comisi\u00f3n Electoral y de la Comisi\u00f3n de Rendici\u00f3n de Cuentas Qu\u00e9 No Hace Esta Gu\u00eda Esta gu\u00eda es una capa de orientaci\u00f3n, no el texto constitucional en s\u00ed. Para la redacci\u00f3n exacta y el detalle jur\u00eddico, lee: Art\u00edculo I \u2014 revocaci\u00f3n para el Congreso Art\u00edculo II \u2014 expulsi\u00f3n del Congreso Art\u00edculo III \u2014 remoci\u00f3n presidencial Art\u00edculo IV \u2014 remoci\u00f3n judicial Art\u00edculo XII \u2014 remoci\u00f3n de \u00f3rganos constitucionales"
+    },
+    {
+      "slug": "vacancy-and-succession",
+      "title": "Vacantes y sucesi\u00f3n",
+      "group": "Gu\u00edas visuales",
+      "kind": "note",
+      "content_type": "visual_guide",
+      "source": "translation/translations/es/visual-guides/vacancy-and-succession.md",
+      "status": null,
+      "summary": "Qu\u00e9 ocurre si el Presidente, el Vicepresidente, un miembro del Congreso o un juez federal muere, dimite o deja el cargo antes de tiempo",
+      "headings": [
+        {
+          "level": 2,
+          "text": "C\u00f3mo Leer Esta Gu\u00eda",
+          "anchor": "c\u00f3mo-leer-esta-gu\u00eda"
+        },
+        {
+          "level": 2,
+          "text": "Qu\u00e9 Cubre Esta Gu\u00eda",
+          "anchor": "qu\u00e9-cubre-esta-gu\u00eda"
+        },
+        {
+          "level": 2,
+          "text": "Qu\u00e9 No Hace Esta Gu\u00eda",
+          "anchor": "qu\u00e9-no-hace-esta-gu\u00eda"
+        }
+      ],
+      "search_text": "Vacantes Y Sucesi\u00f3n Esta gu\u00eda visual muestra qu\u00e9 ocurre cuando un cargo federal queda vacante por muerte, renuncia, remoci\u00f3n o incapacidad permanente. C\u00f3mo Leer Esta Gu\u00eda Cada tabla cubre un tipo de cargo. Usa los botones de categor\u00eda para centrarte en el Congreso, la presidencia, la vicepresidencia o la judicatura federal. Qu\u00e9 Cubre Esta Gu\u00eda vacantes en la C\u00e1mara y elecciones especiales vacantes en la Asamblea Regional y nombramientos temporales sucesi\u00f3n presidencial sustituci\u00f3n del Vicepresidente continuidad de la Corte Suprema y de los tribunales inferiores mediante Jueces Supernumerarios Qu\u00e9 No Hace Esta Gu\u00eda Esta gu\u00eda es una capa de orientaci\u00f3n, no el texto constitucional en s\u00ed. Para la redacci\u00f3n exacta y el detalle jur\u00eddico, lee: Art\u00edculo I \u2014 vacantes en el Congreso y elecciones especiales Art\u00edculo III \u2014 sucesi\u00f3n presidencial y vacante vicepresidencial Art\u00edculo IV \u2014 continuidad judicial, vacantes y servicio supernumerario"
     },
     {
       "slug": "how-elections-work",

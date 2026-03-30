@@ -146,6 +146,130 @@ export function accountabilityDataForLocale(locale) {
   return ACCOUNTABILITY_GUIDE[locale] || ACCOUNTABILITY_GUIDE.en;
 }
 
+export const VACANCY_SUCCESSION_GUIDE = {
+  en: {
+    all: "All",
+    filterLabel: "Filter by office type",
+    note: "This guide shows the immediate constitutional fallback when an office becomes vacant, plus the later step that restores the ordinary officeholder.",
+    pathLabel: "Office",
+    triggerLabel: "What creates the vacancy",
+    decidesLabel: "Immediate constitutional response",
+    thresholdLabel: "Time or trigger",
+    outcomeLabel: "What happens next",
+    categories: [
+      {
+        key: "congress",
+        label: "Congress",
+        paths: [
+          { path: "House seat", trigger: "Death, resignation, recall, removal, or other vacancy", decides: "Special election in the district", threshold: "Within 90 days; may remain vacant if fewer than 6 months remain", outcome: "Winner serves the remainder of the term", article: "Art. I §4.4, §13.5(a), §13.5(c)" },
+          { path: "Regional Assembly seat", trigger: "Death, resignation, recall, removal, or other vacancy", decides: "Special election statewide; temporary governor appointment if term is nearly over", threshold: "Special election within 120 days; temporary appointment allowed if fewer than 12 months remain", outcome: "Replacement serves the remainder of the term", article: "Art. I §5.3, §13.5(b)" },
+        ],
+      },
+      {
+        key: "presidency",
+        label: "President and Vice President",
+        paths: [
+          { path: "President", trigger: "Death, resignation, removal, or permanent incapacity", decides: "Vice President becomes President automatically", threshold: "Immediate on vacancy", outcome: "Vice President serves the remainder of the term as President", article: "Art. III §12.1" },
+          { path: "Vice President", trigger: "Death, resignation, removal, or succession to the presidency", decides: "President nominates a replacement, Congress confirms in joint session", threshold: "Confirmation required within 60 days", outcome: "New Vice President takes office after majority confirmation", article: "Art. III §3.5" },
+          { path: "President and Vice President both unavailable", trigger: "Simultaneous inability or vacancy", decides: "Succession line applies", threshold: "Immediate; skips anyone constitutionally ineligible", outcome: "Office passes in order to Speaker, President Pro Tempore, then Cabinet sequence", article: "Art. III §12.2-§12.4" },
+        ],
+      },
+      {
+        key: "judiciary",
+        label: "Federal Judiciary",
+        paths: [
+          { path: "Supreme Court seat", trigger: "Justice leaves active service before the scheduled expiration date", decides: "Most senior willing Senior Justice fills the seat temporarily", threshold: "Immediate until the next scheduled appointment for that seat", outcome: "Scheduled successor receives a full fifteen-year active term", article: "Art. IV §2.2, §2.3" },
+          { path: "Supreme Court quorum failure", trigger: "Too few active justices available to form a quorum", decides: "Senior Justices are called in by seniority", threshold: "When fewer than 9 active justices are available", outcome: "Court regains quorum without changing the ordinary appointment schedule", article: "Art. IV §2.5" },
+          { path: "Chief Justice unavailable for a constitutional duty", trigger: "Absence, recusal, incapacity, or vacancy", decides: "Duty passes to senior available Associate Justice, then Senior Justice, then temporary judicial panel", threshold: "Immediate in the constitutional duty context", outcome: "Constitutional deadlines continue running; nonperformance does not suspend automatic consequences", article: "Art. IV §2.7" },
+          { path: "Lower-court vacancy", trigger: "Judge dies, resigns, retires, or otherwise leaves active service", decides: "Senior Judge may accept temporary assignment while ordinary appointment proceeds", threshold: "Temporary assignment by the Chief Justice", outcome: "Continuity first; permanent replacement still goes through nomination and confirmation", article: "Art. IV §5.3, §5.4" },
+        ],
+      },
+    ],
+  },
+  es: {
+    all: "Todo",
+    filterLabel: "Filtrar por tipo de cargo",
+    note: "Esta guía muestra la respuesta constitucional inmediata cuando un cargo queda vacante, y el paso posterior que restablece al titular ordinario.",
+    pathLabel: "Cargo",
+    triggerLabel: "Qué crea la vacante",
+    decidesLabel: "Respuesta constitucional inmediata",
+    thresholdLabel: "Plazo o activación",
+    outcomeLabel: "Qué ocurre después",
+    categories: [
+      {
+        key: "congress",
+        label: "Congreso",
+        paths: [
+          { path: "Escaño en la Cámara", trigger: "Muerte, renuncia, revocación, remoción u otra vacante", decides: "Elección especial en el distrito", threshold: "Dentro de 90 días; puede quedar vacante si restan menos de 6 meses", outcome: "La persona ganadora sirve el resto del mandato", article: "Art. I §4.4, §13.5(a), §13.5(c)" },
+          { path: "Escaño en la Asamblea Regional", trigger: "Muerte, renuncia, revocación, remoción u otra vacante", decides: "Elección especial estatal; nombramiento temporal del gobernador si el mandato está por terminar", threshold: "Elección especial dentro de 120 días; nombramiento temporal permitido si restan menos de 12 meses", outcome: "La persona sustituta sirve el resto del mandato", article: "Art. I §5.3, §13.5(b)" },
+        ],
+      },
+      {
+        key: "presidency",
+        label: "Presidencia y Vicepresidencia",
+        paths: [
+          { path: "Presidente", trigger: "Muerte, renuncia, remoción o incapacidad permanente", decides: "El Vicepresidente se convierte automáticamente en Presidente", threshold: "Inmediato al producirse la vacante", outcome: "El Vicepresidente sirve el resto del mandato como Presidente", article: "Art. III §12.1" },
+          { path: "Vicepresidente", trigger: "Muerte, renuncia, remoción o sucesión a la Presidencia", decides: "El Presidente nomina un reemplazo y el Congreso lo confirma en sesión conjunta", threshold: "Confirmación requerida dentro de 60 días", outcome: "El nuevo Vicepresidente asume el cargo tras la confirmación por mayoría", article: "Art. III §3.5" },
+          { path: "Presidente y Vicepresidente ambos no disponibles", trigger: "Incapacidad o vacante simultánea", decides: "Se aplica la línea de sucesión", threshold: "Inmediato; se omite a cualquier persona constitucionalmente inelegible", outcome: "El cargo pasa por orden al Presidente de la Cámara, al Presidente Pro Tempore y luego a la secuencia del Gabinete", article: "Art. III §12.2-§12.4" },
+        ],
+      },
+      {
+        key: "judiciary",
+        label: "Judicatura federal",
+        paths: [
+          { path: "Escaño en la Corte Suprema", trigger: "Un magistrado deja el servicio activo antes de la fecha de vencimiento programada", decides: "El Magistrado Supernumerario disponible de mayor antigüedad cubre el puesto temporalmente", threshold: "Inmediato hasta el siguiente nombramiento programado para ese escaño", outcome: "La persona sucesora programada recibe un mandato activo completo de quince años", article: "Art. IV §2.2, §2.3" },
+          { path: "Falta de quórum en la Corte Suprema", trigger: "No hay suficientes magistrados activos para formar quórum", decides: "Se convoca a Magistrados Supernumerarios por orden de antigüedad", threshold: "Cuando haya menos de 9 magistrados activos disponibles", outcome: "La Corte recupera el quórum sin alterar el calendario ordinario de nombramientos", article: "Art. IV §2.5" },
+          { path: "Chief Justice no disponible para un deber constitucional", trigger: "Ausencia, recusación, incapacidad o vacante", decides: "La función pasa al Associate Justice disponible de mayor antigüedad, luego a un Magistrado Supernumerario y después a un panel judicial temporal", threshold: "Inmediato en el contexto del deber constitucional", outcome: "Los plazos constitucionales siguen corriendo; la inacción no suspende consecuencias automáticas", article: "Art. IV §2.7" },
+          { path: "Vacante en tribunal inferior", trigger: "Un juez muere, renuncia, se jubila o deja el servicio activo", decides: "Un Juez Supernumerario puede aceptar una asignación temporal mientras avanza el nombramiento ordinario", threshold: "Asignación temporal por el Chief Justice", outcome: "Primero continuidad; el reemplazo permanente sigue pasando por nominación y confirmación", article: "Art. IV §5.3, §5.4" },
+        ],
+      },
+    ],
+  },
+  "zh-Hans": {
+    all: "全部",
+    filterLabel: "按职位类型筛选",
+    note: "本指南展示职位出现空缺时的即时宪法后备机制，以及之后如何恢复正常的正式任职者。",
+    pathLabel: "职位",
+    triggerLabel: "空缺如何产生",
+    decidesLabel: "即时宪法回应",
+    thresholdLabel: "时限或触发条件",
+    outcomeLabel: "之后会发生什么",
+    categories: [
+      {
+        key: "congress",
+        label: "国会",
+        paths: [
+          { path: "众议院席位", trigger: "死亡、辞职、罢免、免职或其他空缺", decides: "在选区举行特别选举", threshold: "90天内；如剩余任期不足6个月可暂时空缺", outcome: "胜选者完成剩余任期", article: "第一条 §4.4、§13.5(a)、§13.5(c)" },
+          { path: "地区议会席位", trigger: "死亡、辞职、罢免、免职或其他空缺", decides: "全州特别选举；若任期接近结束可由州长临时任命", threshold: "120天内特别选举；若剩余任期不足12个月可临时任命", outcome: "继任者完成剩余任期", article: "第一条 §5.3、§13.5(b)" },
+        ],
+      },
+      {
+        key: "presidency",
+        label: "总统与副总统",
+        paths: [
+          { path: "总统", trigger: "死亡、辞职、免职或永久失去履职能力", decides: "副总统自动成为总统", threshold: "空缺发生即刻生效", outcome: "副总统以总统身份完成剩余任期", article: "第三条 §12.1" },
+          { path: "副总统", trigger: "死亡、辞职、免职或继任总统", decides: "总统提名继任者，由国会联席会议确认", threshold: "须在60天内完成确认", outcome: "新副总统经简单多数确认后就职", article: "第三条 §3.5" },
+          { path: "总统与副总统同时无法履职", trigger: "同时失能或同时出现空缺", decides: "适用继任顺位", threshold: "立即生效；不符合总统资格者自动跳过", outcome: "职位依次转给众议院议长、地区议会议长临时代理人，之后进入内阁顺位", article: "第三条 §12.2-§12.4" },
+        ],
+      },
+      {
+        key: "judiciary",
+        label: "联邦司法系统",
+        paths: [
+          { path: "最高法院席位", trigger: "大法官在预定任期届满前离开现役岗位", decides: "最资深且愿意服务的资深大法官临时补位", threshold: "立即生效，直至该席位的下一个预定任命日", outcome: "按计划任命的继任者获得完整十五年现役任期", article: "第四条 §2.2、§2.3" },
+          { path: "最高法院法定人数不足", trigger: "现役大法官人数不足以构成法定人数", decides: "按资历顺序召回资深大法官", threshold: "当可用现役大法官少于9人时", outcome: "法院恢复法定人数，而不改变正常任命时间表", article: "第四条 §2.5" },
+          { path: "首席大法官无法履行宪法指定职责", trigger: "缺席、回避、丧失能力或职位空缺", decides: "职责依次转给最资深的可用大法官、资深大法官，再到临时司法小组", threshold: "在该项宪法职责场景下立即生效", outcome: "宪法期限继续运行；不作为不会暂停自动后果", article: "第四条 §2.7" },
+          { path: "下级法院空缺", trigger: "法官死亡、辞职、退休或以其他方式离开现役岗位", decides: "资深法官可在正常任命进行期间接受临时指派", threshold: "由首席大法官作出临时指派", outcome: "先保障连续性；永久继任者仍须经过提名与确认", article: "第四条 §5.3、§5.4" },
+        ],
+      },
+    ],
+  },
+};
+
+export function vacancySuccessionDataForLocale(locale) {
+  return VACANCY_SUCCESSION_GUIDE[locale] || VACANCY_SUCCESSION_GUIDE.en;
+}
+
 export const REMOVAL_GUIDE = {
   en: {
     all: "All",

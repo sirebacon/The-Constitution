@@ -51,6 +51,7 @@
           "presidential-powers-comparison",
           "emergency-powers-lifecycle",
           "removal-pathways",
+          "vacancy-and-succession",
           "accountability-commission",
           "how-organs-work-together",
           "federalism-and-the-democratic-floor",
@@ -176,6 +177,7 @@
       "items": [
         "emergency-powers-lifecycle",
         "removal-pathways",
+        "vacancy-and-succession",
         "accountability-commission",
         "how-organs-work-together"
       ]
@@ -3631,6 +3633,34 @@
         }
       ],
       "search_text": "How Officials Are Removed This visual guide shows every path for removing a federal official under this constitution \u2014 who triggers it, who decides, what threshold applies, and what happens after. How To Read This Guide Each table covers one officer type. Use the category buttons to focus on the President, Congress, judges, or constitutional organs. Each row is one distinct removal path. What This Guide Covers three paths for removing the President: impeachment, ACC prosecution, and recall expulsion and recall for members of Congress impeachment and discipline for federal judges removal of Electoral Commission and Accountability Commission members What This Guide Does Not Do This guide is an orientation layer, not the constitutional text itself. For exact wording and legal detail, read: Article I \u2014 recall for Congress Article II \u2014 congressional expulsion Article III \u2014 presidential removal Article IV \u2014 judicial removal Article XII \u2014 constitutional organ removal"
+    },
+    {
+      "slug": "vacancy-and-succession",
+      "title": "Vacancy And Succession",
+      "group": "Visual Guides",
+      "kind": "note",
+      "content_type": "visual_guide",
+      "source": "visual-guides/vacancy-and-succession.md",
+      "status": null,
+      "summary": "This visual guide shows what happens when a federal office becomes vacant because of death, resignation, removal, or permanent incapacity.",
+      "headings": [
+        {
+          "level": 2,
+          "text": "How To Read This Guide",
+          "anchor": "how-to-read-this-guide"
+        },
+        {
+          "level": 2,
+          "text": "What This Guide Covers",
+          "anchor": "what-this-guide-covers"
+        },
+        {
+          "level": 2,
+          "text": "What This Guide Does Not Do",
+          "anchor": "what-this-guide-does-not-do"
+        }
+      ],
+      "search_text": "Vacancy And Succession This visual guide shows what happens when a federal office becomes vacant because of death, resignation, removal, or permanent incapacity. How To Read This Guide Each table covers one office type. Use the category buttons to focus on Congress, the presidency, the vice presidency, or the federal judiciary. What This Guide Covers House vacancies and special elections Regional Assembly vacancies and temporary appointments presidential succession vice presidential replacement Supreme Court and lower court continuity through Senior Justices and Senior Judges What This Guide Does Not Do This guide is an orientation layer, not the constitutional text itself. For exact wording and legal detail, read: Article I \u2014 congressional vacancies and special elections Article III \u2014 presidential succession and vice presidential vacancy Article IV \u2014 judicial continuity, vacancies, and senior service"
     },
     {
       "slug": "how-elections-work",
