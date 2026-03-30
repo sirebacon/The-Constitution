@@ -23,6 +23,8 @@ The constitutional role here is to say what government must secure, not to dicta
 
 That is why the article protects access to healthcare, education, housing, labor dignity, child welfare, and related goods without constitutionalizing a complete welfare-state statute. In the healthcare clause specifically, the draft now makes clear that implementation flexibility does not imply a privatization preference: if private actors participate, they do so within a public constitutional duty that government remains responsible for fulfilling.
 
+That also means the article constrains exploitation indirectly but meaningfully. It does not list every forbidden insurance or pricing practice, but it does make a healthcare system constitutionally unacceptable if exclusion, denial, or wealth-based barriers defeat universal access to medically necessary care.
+
 ## Why Courts Get A Limited Role
 
 The article expects judicial enforcement, but not judicial governance.
