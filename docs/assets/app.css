@@ -463,6 +463,38 @@ input:focus-visible {
   margin-top: 1rem;
 }
 
+.project-use-card {
+  padding: 1.35rem 1.45rem 1.55rem;
+  border: 1px solid rgba(157, 63, 31, 0.18);
+  border-radius: var(--radius-lg);
+  background:
+    linear-gradient(180deg, rgba(157, 63, 31, 0.08), rgba(255, 250, 242, 0.92)),
+    rgba(255, 250, 242, 0.96);
+  box-shadow: var(--shadow);
+}
+
+.project-use-card__title {
+  margin-top: 0.4rem;
+}
+
+.project-use-card__intro {
+  max-width: 48rem;
+  margin: 0.45rem 0 0;
+  color: var(--muted);
+  line-height: 1.55;
+}
+
+.project-use-card__list {
+  margin: 1rem 0 0;
+  padding-left: 1.2rem;
+  color: #2f3a46;
+  line-height: 1.65;
+}
+
+.project-use-card .card-link {
+  margin-top: 1rem;
+}
+
 .reader-shell {
   display: grid;
   grid-template-columns: minmax(0, 1fr);
@@ -798,7 +830,8 @@ input:focus-visible {
   .doc-card,
   .content-card,
   .stat-card,
-  .related-notes {
+  .related-notes,
+  .project-use-card {
     padding-left: 1rem;
     padding-right: 1rem;
   }

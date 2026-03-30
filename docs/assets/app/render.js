@@ -138,6 +138,7 @@ export function renderHome({ siteData, currentFilter, strings }) {
   const constitutionDocs = siteData.docs.filter((doc) => doc.group === "Constitution");
   const overviewDocs = ["overview", "comparison", "scorecard", "finalization-plan"].map((slug) => bySlug(siteData, slug)).filter(Boolean);
   const commentaryDocs = ["commentary-overview", "commentary-choices", "commentary-peaceful-use"].map((slug) => bySlug(siteData, slug)).filter(Boolean);
+  const projectUseDoc = bySlug(siteData, "commentary-peaceful-use");
   const clauseDocs = [
     "clause-unamendable-core",
     "clause-naturalized-president",
@@ -199,6 +200,19 @@ export function renderHome({ siteData, currentFilter, strings }) {
 
   refs.contentPanel.innerHTML = `
     ${searchSection}
+    <section class="project-use-card" aria-labelledby="project-use-title">
+      <div class="eyebrow">${strings.whatThisProjectIs}</div>
+      <h2 class="section-title project-use-card__title" id="project-use-title">${strings.whatThisProjectIs}</h2>
+      <p class="project-use-card__intro">${strings.projectUseIntro}</p>
+      <ul class="project-use-card__list">
+        ${strings.projectUseBullets.map((item) => `<li>${item}</li>`).join("")}
+      </ul>
+      ${
+        projectUseDoc
+          ? `<a class="card-link" href="#doc/${projectUseDoc.slug}">${strings.readProjectUse}</a>`
+          : ""
+      }
+    </section>
     <section aria-labelledby="start-here-title">
       <h2 class="section-title" id="start-here-title">${strings.startHere}</h2>
       <div class="card-grid">${makeDocCards(overviewDocs, strings)}</div>

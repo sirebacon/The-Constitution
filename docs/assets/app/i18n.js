@@ -9,6 +9,15 @@ const STRINGS = {
     overallScore: "Overall score",
     unresolvedObligations: "Unresolved obligations",
     startHere: "Start Here",
+    whatThisProjectIs: "What This Project Is",
+    projectUseIntro:
+      "An open constitutional drafting project for peaceful civic discussion, critique, translation, education, and democratic advocacy.",
+    projectUseBullets: [
+      "Public, forkable constitutional work rather than a personality-centered movement.",
+      "Open to study, revision, translation, teaching, and lawful organizing or campaigning.",
+      "Not a militia, operational group, or platform for threats, violence, sabotage, or unlawful action.",
+    ],
+    readProjectUse: "Read the peaceful-use note",
     readConstitution: "Read the Constitution",
     understandChoices: "Understand the Choices",
     keyClauses: "Key Clauses",
@@ -55,6 +64,15 @@ const STRINGS = {
     overallScore: "Puntuación general",
     unresolvedObligations: "Obligaciones no resueltas",
     startHere: "Empieza aquí",
+    whatThisProjectIs: "Qué es este proyecto",
+    projectUseIntro:
+      "Un proyecto abierto de redacción constitucional para el debate cívico pacífico, la crítica, la traducción, la educación y la defensa democrática.",
+    projectUseBullets: [
+      "Trabajo constitucional público y reutilizable, no un movimiento centrado en una sola persona.",
+      "Abierto al estudio, la revisión, la traducción, la enseñanza y la organización o campaña lícitas.",
+      "No es una milicia, un grupo operativo ni una plataforma para amenazas, violencia, sabotaje o acción ilícita.",
+    ],
+    readProjectUse: "Leer la nota de uso pacífico",
     readConstitution: "Leer la Constitución",
     understandChoices: "Entender las decisiones",
     keyClauses: "Cláusulas clave",
@@ -101,6 +119,15 @@ const STRINGS = {
     overallScore: "总体评分",
     unresolvedObligations: "未解决义务",
     startHere: "从这里开始",
+    whatThisProjectIs: "这个项目是什么",
+    projectUseIntro:
+      "这是一个开放的宪法起草项目，用于和平的公民讨论、批评、翻译、教育与民主倡议。",
+    projectUseBullets: [
+      "它是公开、可分叉的宪法工作，而不是围绕某个个人的运动。",
+      "欢迎研究、修订、翻译、教学，以及合法的组织或倡议使用。",
+      "它不是民兵、行动组织，也不是威胁、暴力、破坏或违法行为的平台。",
+    ],
+    readProjectUse: "阅读和平使用说明",
     readConstitution: "阅读宪法",
     understandChoices: "理解这些选择",
     keyClauses: "关键条款",
