@@ -33,11 +33,19 @@ NAV_GROUP_LABELS = {
         "key_clauses": "Cláusulas clave",
         "background": "Contexto",
     },
+    "zh-Hans": {
+        "start_here": "从这里开始",
+        "constitution": "阅读宪法",
+        "commentary": "评注",
+        "key_clauses": "关键条款",
+        "background": "背景",
+    },
 }
 
 OVERVIEW_SUBTITLES = {
     "en": "A modern replacement draft built around democratic legitimacy, anti-authoritarian safeguards, and readable constitutional architecture.",
     "es": "Un borrador moderno de reemplazo construido en torno a la legitimidad democrática, las salvaguardas anti-autoritarias y una arquitectura constitucional legible.",
+    "zh-Hans": "一份围绕民主正当性、反威权保障与清晰宪法结构而设计的现代替代性宪法草案。",
 }
 
 

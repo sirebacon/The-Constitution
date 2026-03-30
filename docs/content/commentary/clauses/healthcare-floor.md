@@ -34,6 +34,7 @@ That means exploitation is reached through the public obligation:
 
 - government must secure universal access
 - inability to pay cannot block medically necessary care
+- Congress must regulate public and private healthcare financing and delivery against exclusion, arbitrary denial, and materially abusive practices
 - outsourcing does not excuse failure
 
 The detailed anti-exploitation machinery still belongs in law, but the constitutional baseline makes clear that a system built on exclusion or practical denial is not acceptable.
